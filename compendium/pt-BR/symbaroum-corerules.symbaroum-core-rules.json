@@ -11,6 +11,7 @@
       "background": "system.bio.background",
       "personalGoal": "system.bio.personalGoal",
       "tactics": "system.bio.tactics",
+      "quote": "system.bio.quote",
 
 
         "items": {
@@ -35,7 +36,8 @@
             "power3Name": "system.power.3.name",
             "power3Description": "system.power.3.description",
             "power4Name": "system.power.4.name",
-            "power4Description": "system.power.4.description"
+            "power4Description": "system.power.4.description",
+            "tradition": "system.tradition"
 
         }
       }
@@ -59,7 +61,9 @@
       "power3Name": "system.power.3.name",
       "power3Description": "system.power.3.description",
       "power4Name": "system.power.4.name",
-      "power4Description": "system.power.4.description"
+      "power4Description": "system.power.4.description",
+      "tradition": "system.tradition"
+
     },
 
     "journal": {
@@ -115,21 +119,21 @@
           }
         },
         "Quick Guide for Combat": {
-          "name": "Quick Guide for Combat"
+          "name": "Guia Rápido para Combate"
         },
         "Symbaroum Core Rules Cover": {
           "name": "Symbaroum Core Rules Cover"
         },
         "The Corral": {
-          "name": "The Corral"
+          "name": "O Acampamento"
         },
         "The Mountain Pass": {
-          "name": "The Mountain Pass"
+          "name": "A Atravessia das Montanhas "
         },
         "The Windmill Ruin": {
-          "name": "The Windmill Ruin",
+          "name": "As ruínas do moinho de vento",
           "drawings": {
-            "Leghold Trap": "Leghold Trap"
+            "Leghold Trap": "Armadilha de Urso"
           }
         },
         "01 - Thistle Hold - Key": {
@@ -273,10 +277,18 @@
           "tokenName": "Early Summer Elf",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Marksman": {
-              "name": "Marksman"
+              "name": "Atirador",
+              "description": "<p>Atiradores têm sua posição natural em todo exército, servindo como batedores para grupos e bandos de salteadores. O personagem pode infligir danos graves em seus inimigos com um arco ou besta, com a intenção de derrubá-los ou pelo menos ter certeza de que eles não alcançarão os aliados do personagem que estão equipados para combate corpo a corpo.</p>",
+              "noviceDescription": "<p>Graças à perícia do personagem, o dano causado com arcos e bestas é aumentado para 1D10 e 1D12 respectivamente, em vez dos usuais 1D8 e 1D10.</p>",
+              "adeptDescription": "<p>A precisão do personagem fornece um efeito debilitante a seus projéteis. O ataque causa dano normalmente e, se o alvo for ferido, o personagem pode realizar um Teste de [Preciso ← Vigoroso] toda vez que o alvo tentar se mover.</p> <p>Uma jogada bem-sucedida significa que o alvo não pode se mover e sua Ação de Movimento é perdida. Assim que o alvo conseguir se mover (quando o personagem falhar no Teste), o efeito debilitante acaba.</p>",
+              "masterDescription": "<p>Os projéteis do Atirador Mestre se tornam perfurantes de armadura. O tiro acerta um ponto fraco e ignora completamente a Armadura do alvo.</p>"
             },
             "Sixth Sense": {
               "name": "Sixth Sense"
@@ -308,7 +320,11 @@
           "tokenName": "Late Summer Elf",
           "items": {
             "Marksman": {
-              "name": "Marksman"
+              "name": "Atirador",
+              "description": "<p>Atiradores têm sua posição natural em todo exército, servindo como batedores para grupos e bandos de salteadores. O personagem pode infligir danos graves em seus inimigos com um arco ou besta, com a intenção de derrubá-los ou pelo menos ter certeza de que eles não alcançarão os aliados do personagem que estão equipados para combate corpo a corpo.</p>",
+              "noviceDescription": "<p>Graças à perícia do personagem, o dano causado com arcos e bestas é aumentado para 1D10 e 1D12 respectivamente, em vez dos usuais 1D8 e 1D10.</p>",
+              "adeptDescription": "<p>A precisão do personagem fornece um efeito debilitante a seus projéteis. O ataque causa dano normalmente e, se o alvo for ferido, o personagem pode realizar um Teste de [Preciso ← Vigoroso] toda vez que o alvo tentar se mover.</p> <p>Uma jogada bem-sucedida significa que o alvo não pode se mover e sua Ação de Movimento é perdida. Assim que o alvo conseguir se mover (quando o personagem falhar no Teste), o efeito debilitante acaba.</p>",
+              "masterDescription": "<p>Os projéteis do Atirador Mestre se tornam perfurantes de armadura. O tiro acerta um ponto fraco e ignora completamente a Armadura do alvo.</p>"
             },
             "Man-at-arms": {
               "name": "Homem-de-Armas",
@@ -329,7 +345,8 @@
               "cost": "3 Táleres"
             },
             "Lacquered Silk Cuirass": {
-              "name": "Lacquered Silk Cuirass"
+              "name": "Couraça de Seda Envernizada",
+              "description": "<P> Guerreiros bárbaros que conseguiram seu lugar na guarda de um chefe de clã rico às vezes podem ser vistos vestindo uma couraça de seda envernizada, uma armadura que, apesar de uma aparente leveza, protege como uma placa peitoral. </P> <P>De acordo com a lenda, o segredo da seda envernizada foi dado à humanidade pelos elfos, em um tempo quando o Pacto de Ferro ainda era forte e humanos batalhavam contra a escuridão parasítica de Symbaroum.</P>"
             },
             "Herbal Cure": {
               "name": "Herbal Cure"
@@ -678,7 +695,8 @@
               "name": "Twin Attack"
             },
             "Lacquered Silk Cuirass": {
-              "name": "Lacquered Silk Cuirass"
+              "name": "Couraça de Seda Envernizada",
+              "description": "<P> Guerreiros bárbaros que conseguiram seu lugar na guarda de um chefe de clã rico às vezes podem ser vistos vestindo uma couraça de seda envernizada, uma armadura que, apesar de uma aparente leveza, protege como uma placa peitoral. </P> <P>De acordo com a lenda, o segredo da seda envernizada foi dado à humanidade pelos elfos, em um tempo quando o Pacto de Ferro ainda era forte e humanos batalhavam contra a escuridão parasítica de Symbaroum.</P>"
             },
             "Fencing Sword": {
               "name": "Fencing Sword"
@@ -728,7 +746,11 @@
           "tokenName": "Robber Chief",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Dominate": {
               "name": "Dominate"
@@ -781,7 +803,11 @@
           "tokenName": "Village Warrior",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Shield Fighter": {
               "name": "Combatente de Escudo",
@@ -825,7 +851,11 @@
           "tokenName": "Arch Troll",
           "items": {
             "Alchemy": {
-              "name": "Alchemy"
+              "name": "Alquimia",
+              "description": "<p>O personagem é instruído nos mistérios da alquimia. Com os ingredientes certos, o personagem pode preparar vários elixires para ajudá-lo a sobreviver nas profundezas escuras da Davokar. Uma lista de misturas alquímicas e poções está incluída no Capítulo 16: Equipamentos.</p> <p>Em situações de resolução de problemas, Alquimia pode ser utilizada para identificar drogas e venenos e para conseguir pistas de onde eles vêm. Além disso, o personagem pode tentar preparar um elixir uma vez por aventura.</p> <p>Esta tentativa pode ser executada no começo de uma aventura ou a qualquer momento apropriado durante ela; por exemplo, quando viajar por uma floresta ou quando passar por uma caverna onde ingredientes potentes podem ser encontrados.</p>",
+              "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, o personagem pode recolher ervas e minerais para criar uma dose de um elixir Novato.</p>",
+              "adeptDescription": "<p>Como um alquimista reconhecido, o personagem pode rolar contra Astuto para colher ervas e minerais para criar uma dose de um elixir Adepto ou 1D4 doses de um elixir Novato.</p>",
+              "masterDescription": "<p>O personagem pode, como um alquimista amplamente reconhecido, rolar contra Astuto para recolher ervas e minerais para criar uma dose de um elixir Mestre, 1D4 doses de um elixir Adepto ou 1D8 doses de um elixir Novato.</p>"
             },
             "Berserker": {
               "name": "Amoque",
@@ -891,7 +921,11 @@
           "tokenName": "Liege Troll",
           "items": {
             "Alchemy": {
-              "name": "Alchemy"
+              "name": "Alquimia",
+              "description": "<p>O personagem é instruído nos mistérios da alquimia. Com os ingredientes certos, o personagem pode preparar vários elixires para ajudá-lo a sobreviver nas profundezas escuras da Davokar. Uma lista de misturas alquímicas e poções está incluída no Capítulo 16: Equipamentos.</p> <p>Em situações de resolução de problemas, Alquimia pode ser utilizada para identificar drogas e venenos e para conseguir pistas de onde eles vêm. Além disso, o personagem pode tentar preparar um elixir uma vez por aventura.</p> <p>Esta tentativa pode ser executada no começo de uma aventura ou a qualquer momento apropriado durante ela; por exemplo, quando viajar por uma floresta ou quando passar por uma caverna onde ingredientes potentes podem ser encontrados.</p>",
+              "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, o personagem pode recolher ervas e minerais para criar uma dose de um elixir Novato.</p>",
+              "adeptDescription": "<p>Como um alquimista reconhecido, o personagem pode rolar contra Astuto para colher ervas e minerais para criar uma dose de um elixir Adepto ou 1D4 doses de um elixir Novato.</p>",
+              "masterDescription": "<p>O personagem pode, como um alquimista amplamente reconhecido, rolar contra Astuto para recolher ervas e minerais para criar uma dose de um elixir Mestre, 1D4 doses de um elixir Adepto ou 1D8 doses de um elixir Novato.</p>"
             },
             "Berserker": {
               "name": "Amoque",
@@ -1343,7 +1377,11 @@
           "tokenName": "Mare Cat",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -1365,7 +1403,11 @@
           "tokenName": "Kanaran",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Strangler": {
               "name": "Strangler"
@@ -1465,7 +1507,11 @@
           "tokenName": "Tricklesting",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -2117,41 +2163,67 @@
           "tokenName": "Godrai",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Alchemy": {
-              "name": "Alchemy"
+              "name": "Alquimia",
+              "description": "<p>O personagem é instruído nos mistérios da alquimia. Com os ingredientes certos, o personagem pode preparar vários elixires para ajudá-lo a sobreviver nas profundezas escuras da Davokar. Uma lista de misturas alquímicas e poções está incluída no Capítulo 16: Equipamentos.</p> <p>Em situações de resolução de problemas, Alquimia pode ser utilizada para identificar drogas e venenos e para conseguir pistas de onde eles vêm. Além disso, o personagem pode tentar preparar um elixir uma vez por aventura.</p> <p>Esta tentativa pode ser executada no começo de uma aventura ou a qualquer momento apropriado durante ela; por exemplo, quando viajar por uma floresta ou quando passar por uma caverna onde ingredientes potentes podem ser encontrados.</p>",
+              "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, o personagem pode recolher ervas e minerais para criar uma dose de um elixir Novato.</p>",
+              "adeptDescription": "<p>Como um alquimista reconhecido, o personagem pode rolar contra Astuto para colher ervas e minerais para criar uma dose de um elixir Adepto ou 1D4 doses de um elixir Novato.</p>",
+              "masterDescription": "<p>O personagem pode, como um alquimista amplamente reconhecido, rolar contra Astuto para recolher ervas e minerais para criar uma dose de um elixir Mestre, 1D4 doses de um elixir Adepto ou 1D8 doses de um elixir Novato.</p>"
             },
             "Marksman": {
-              "name": "Marksman"
+              "name": "Atirador",
+              "description": "<p>Atiradores têm sua posição natural em todo exército, servindo como batedores para grupos e bandos de salteadores. O personagem pode infligir danos graves em seus inimigos com um arco ou besta, com a intenção de derrubá-los ou pelo menos ter certeza de que eles não alcançarão os aliados do personagem que estão equipados para combate corpo a corpo.</p>",
+              "noviceDescription": "<p>Graças à perícia do personagem, o dano causado com arcos e bestas é aumentado para 1D10 e 1D12 respectivamente, em vez dos usuais 1D8 e 1D10.</p>",
+              "adeptDescription": "<p>A precisão do personagem fornece um efeito debilitante a seus projéteis. O ataque causa dano normalmente e, se o alvo for ferido, o personagem pode realizar um Teste de [Preciso ← Vigoroso] toda vez que o alvo tentar se mover.</p> <p>Uma jogada bem-sucedida significa que o alvo não pode se mover e sua Ação de Movimento é perdida. Assim que o alvo conseguir se mover (quando o personagem falhar no Teste), o efeito debilitante acaba.</p>",
+              "masterDescription": "<p>Os projéteis do Atirador Mestre se tornam perfurantes de armadura. O tiro acerta um ponto fraco e ignora completamente a Armadura do alvo.</p>"
             },
             "Poisoner": {
-              "name": "Poisoner"
+              "name": "Veneficista",
+              "description": "<p>Davokar esconde muitas plantas potencialmente alquímicas e venenosas, e o personagem é familiarizado com a utilização efetiva de armas envenenadas em combate. Venenos podem ser comprados de mascates inescrupulosos, mas criar venenos requer algum entendimento de alquimia (a habilidade Alquimia).</p> <p>A habilidade Veneficista pode ser utilizada para identificar diferentes venenos ou o efeito de um veneno em uma pessoa ferida ou morta.</p>",
+              "noviceDescription": "<p>Com uma ação livre, o personagem pode aplicar uma dose de qualquer veneno ou elixir alquímico a uma arma.Uma dose de veneno é suficiente para um golpe com a arma antes de precisar aplicar mais veneno.</p> <p>Um Teste de [Astuto←Vigoroso] é necessário para o veneno fazer efeito; caso seja bem-sucedido, a vítima começa a sofrer o dano.</p> <p>O dano sofrido por turno e a duração limite do veneno depende da força dele (veja página 153).</p>",
+              "adeptDescription": "<p>Como Novato, mas o personagem sabe como fazer uma dose de veneno durar uma batalha inteira. Após aplicar uma dose de veneno, todos os ataques são considerados venenosos pela duração da cena de combate.</p>",
+              "masterDescription": "<p>O personagem dominou a arte de envenenar e sabe como tirar o máximo de um veneno. Caso o personagem obtenha sucesso em um Teste de Astuto, qualquer veneno aplicado a uma arma é considerado um nível superior ao normal.</p> <p>Venenos Fracos contam como Moderados, e Moderados contam como Fortes. Venenos Fortes não causam qualquer dano adicional, mas concedem ao personagem uma segunda chance para obter sucesso no Teste de [Astuto←Vigoroso].</p>"
             },
             "Quick Draw": {
-              "name": "Quick Draw"
+              "name": "Saque Rápido",
+              "description": "<p>Desferir o primeiro golpe pode decidir o resultado de uma batalha, e com esta habilidade o personagem tem uma vantagem quando uma emboscada inesperada ocorre. O personagem também se torna um guerreiro muito mais dinâmico, capaz de trocar rapidamente de armas dependendo do que pede a situação; uma perícia particularmente apreciada entre escaramuçadores bárbaros e arqueiros ambrianos.</p>",
+              "noviceDescription": "<p>Com uma jogada bem-sucedida contra Rápido, o personagem pode desembainhar e sacar uma arma como uma Ação Livre, assim sendo capaz de utilizar a arma como se ela já estivesse sacada. O personagem também pode recarregar uma besta como uma Ação Livre com um Teste bem-sucedido de Rápido.</p>",
+              "adeptDescription": "<p>Com um Teste bem-sucedido de Rápido, o personagem pode trocar de armas como uma Ação Livre, significando que o personagem pode embainhar uma arma e sacar outra em um movimento fluido.</p>",
+              "masterDescription": "<p>O personagem manuseia elixires rapidamente e pode, com um Teste bem-sucedido de Rápido, derramar uma dose em si mesmo ou na garganta de alguém como uma Ação Livre.</p>"
             },
             "Turn Weather": {
-              "name": "Turn Weather"
+              "name": "Virar o Clima",
+              "tradition": "Bruxaria",
+              "description": "<p>O Místico altera o clima local como achar adequado. Névoa que obscurece a visão, tempestades que impedem viagens ou acalmar tempestades são todas coisas possíveis de realizar.</p> <p>O ritual leva uma hora para ser executado, e o efeito permanece ativo por metade de um dia; após isso, o clima local retorna à sua forma natural.</p>"
             },
             "Lacquered Silk Cuirass": {
-              "name": "Lacquered Silk Cuirass"
+            "name": "Couraça de Seda Envernizada",
+              "description": "<P> Guerreiros bárbaros que conseguiram seu lugar na guarda de um chefe de clã rico às vezes podem ser vistos vestindo uma couraça de seda envernizada, uma armadura que, apesar de uma aparente leveza, protege como uma placa peitoral. </P> <P>De acordo com a lenda, o segredo da seda envernizada foi dado à humanidade pelos elfos, em um tempo quando o Pacto de Ferro ainda era forte e humanos batalhavam contra a escuridão parasítica de Symbaroum.</P>"
             },
             "Bow": {
-              "name": "Bow"
+              "name": "Arco",
+              "description": "<p><strong>Veneno(dano 3 por 3 turnos)<strong></p> <p>Recarregar um arco conta como uma Ação Livre.</p>"
             },
             "Sword": {
               "name": "Espada",
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Quiver (Poisoned)": {
-              "name": "Quiver (Poisoned)"
+              "name": "Aljava (Envenenada)",
+              "description": "<p>Contém 12 flechas revestidas com veneno moderado.</p>"
             },
             "Quiver": {
-              "name": "Quiver"
+              "name": "Aljava",
+              "description": "<p>Contém 12 Flechas</p>"
             },
             "Headband of rusty Iron": {
-              "name": "Headband of rusty Iron"
+              "name": "Bandana de ferro enferrujado"
             },
             "Long-Lived": {
               "name": "Long-Lived"
@@ -2163,7 +2235,11 @@
           "tokenName": "Hunger Wolf",
           "items": {
             "Acrobatics": {
-              "name": "Acrobacias"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -2241,7 +2317,7 @@
           "tokenName": "Lestra",
           "race": "Humana (Ambriana)",
           "occupation" :"Manto Negro",
-          "manner": "morde os lábios",
+          "manner": "Morde os lábios",
           "shadow": " Aço polido com algumas marcas negras",
           "tactics": "<p>Lestra está acostumada a comandar Templários para fazer o trabalho sujo, depois de desmascarar uma abominação. Mas se isso for o que leva à batalha com as forças ferais da natureza, ela irá enfrentar abominações e elfos com lanças em mãos.</p>",
           "items": {
@@ -2429,6 +2505,7 @@
           "name": "Ansel, Teurgo",
           "tokenName": "Ansel, Teurgo",
           "race": "Humano (ambriano)",
+          "quote": "“vá-se embora, cético!”",
           "shadow": "Dourado brilhante, como o sol refletido de um espelho prateado",
           "appearance": "<p>Você é um servo da fé instruído na Igreja de Prios, e também um mago sacerdote, um dos poucos selecionados por Prios para ser a luz no mundo. Sua convicção pode ser firme, mas sua relação com a Igreja não é: intrigas se alastram por trás das portas fechadas, cotovelos afiados e difamações puras não são incomuns na luta por posições na hierarquia da Igreja.</p>",
           "background": "<p>Você luta constantemente para determinar o que é a vontade real de Prios e o que é parte dos esquemas de seus superiores. Você está determinado a continuar sendo um campeão do primeiro e se recusa a ser trazido para o segundo. Você provavelmente era um daqueles que ficou para trás em Alberetor, por escolha ou por ordem, para cuidar de algum templo antigo do Deus Sol. Agora você foi convocado para fechar os portões do templo e unir-se a seus irmãos e irmãs no norte. Você possivelmente está familiarizado com Orlan e Bartolom, talvez após terem servido por um tempo na mesma unidade do orgulhoso exército da Rainha Korinthia.</p>",
@@ -2491,7 +2568,11 @@
           "tokenName": "Bartolom, Wizard of Ordo Magica",
           "items": {
             "Alchemy": {
-              "name": "Alchemy"
+              "name": "Alquimia",
+              "description": "<p>O personagem é instruído nos mistérios da alquimia. Com os ingredientes certos, o personagem pode preparar vários elixires para ajudá-lo a sobreviver nas profundezas escuras da Davokar. Uma lista de misturas alquímicas e poções está incluída no Capítulo 16: Equipamentos.</p> <p>Em situações de resolução de problemas, Alquimia pode ser utilizada para identificar drogas e venenos e para conseguir pistas de onde eles vêm. Além disso, o personagem pode tentar preparar um elixir uma vez por aventura.</p> <p>Esta tentativa pode ser executada no começo de uma aventura ou a qualquer momento apropriado durante ela; por exemplo, quando viajar por uma floresta ou quando passar por uma caverna onde ingredientes potentes podem ser encontrados.</p>",
+              "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, o personagem pode recolher ervas e minerais para criar uma dose de um elixir Novato.</p>",
+              "adeptDescription": "<p>Como um alquimista reconhecido, o personagem pode rolar contra Astuto para colher ervas e minerais para criar uma dose de um elixir Adepto ou 1D4 doses de um elixir Novato.</p>",
+              "masterDescription": "<p>O personagem pode, como um alquimista amplamente reconhecido, rolar contra Astuto para recolher ervas e minerais para criar uma dose de um elixir Mestre, 1D4 doses de um elixir Adepto ou 1D8 doses de um elixir Novato.</p>"
             },
             "Beast Lore": {
               "name": "Saber de Bestas",
@@ -2595,10 +2676,18 @@
           "tokenName": "Karla, barbarian Ranger",
           "items": {
             "Acrobatics": {
-              "name": "Acrobatics"
+              "name": "Acrobacias",
+              "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
+              "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
+              "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
+              "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Marksman": {
-              "name": "Marksman"
+              "name": "Atirador",
+              "description": "<p>Atiradores têm sua posição natural em todo exército, servindo como batedores para grupos e bandos de salteadores. O personagem pode infligir danos graves em seus inimigos com um arco ou besta, com a intenção de derrubá-los ou pelo menos ter certeza de que eles não alcançarão os aliados do personagem que estão equipados para combate corpo a corpo.</p>",
+              "noviceDescription": "<p>Graças à perícia do personagem, o dano causado com arcos e bestas é aumentado para 1D10 e 1D12 respectivamente, em vez dos usuais 1D8 e 1D10.</p>",
+              "adeptDescription": "<p>A precisão do personagem fornece um efeito debilitante a seus projéteis. O ataque causa dano normalmente e, se o alvo for ferido, o personagem pode realizar um Teste de [Preciso ← Vigoroso] toda vez que o alvo tentar se mover.</p> <p>Uma jogada bem-sucedida significa que o alvo não pode se mover e sua Ação de Movimento é perdida. Assim que o alvo conseguir se mover (quando o personagem falhar no Teste), o efeito debilitante acaba.</p>",
+              "masterDescription": "<p>Os projéteis do Atirador Mestre se tornam perfurantes de armadura. O tiro acerta um ponto fraco e ignora completamente a Armadura do alvo.</p>"
             },
             "Sixth Sense": {
               "name": "Sixth Sense"
@@ -2766,7 +2855,12 @@
           "tokenName": "Niha, changeling con artist",
           "items": {
             "Backstab": {
-              "name": "Backstab"
+              "name": "Ataque Furtivo",
+              "description": "<p>O palácio de Yndaros, os becos de Forte do Cardo e a escuridão da Davokar são ambientes extremamente diferentes, mas eles têm uma coisa em comum: quando argumentos falham, as lâminas falam. O personagem aprendeu como explorar fraquezas na defesa de um inimigo, e não irá deixar uma oportunidade passar sem realizar um Ataque Furtivo.</p>",
+              "noviceDescription": "<p>Um ataque por turno feito com Vantagem causa +1D4 de dano extra em adição a qualquer dano já infligido graças à Vantagem.</p> <p>O personagem pode utilizar Discreto em vez de Preciso quando realizar ataques estando em Vantagem. Ataque Furtivo pode ser realizado somente uma vez por turno, independentemente de outras circunstâncias.</p>",
+              "adeptDescription": "<p>O Ataque Furtivo do personagem causa dano extra conforme acima, mas também causa um sangramento ao inimigo. O ataque abre um ferimento que sangra bastante, infligindo 1D4 de dano a cada turno subsequente ao ataque.</p> <p>O inimigo continua a sangrar até ser curado por uma cura herbal, pela habilidade Médico ou de alguma outra forma.</p>",
+              "masterDescription": "<p>O Ataque Furtivo do personagem causa +1D8 de dano extra e causa um sangramento ao inimigo, assim como no nível Adepto. Não há quaisquer limites de quantos Ataques Furtivos um Mestre pode executar por turno.</p> <p>Todos os ataques são considerados Ataques Furtivos desde que as condições da Vantagem sejam atendidas (ver páginas 162).</p>"
+
             },
             "Feint": {
               "name": "Feint"
@@ -4011,7 +4105,8 @@
           "name": "Bear trap"
         },
         "Bedroll": {
-          "name": "Bedroll"
+          "name": "Saco de Dormir",
+          "cost": "5 Ortegas"
         },
         "Belt pouch": {
           "name": "Belt pouch"
@@ -4050,7 +4145,8 @@
           "name": "Coin purse"
         },
         "Cooking pan": {
-          "name": "Cooking pan"
+          "name": "Frigideira",
+          "cost": "1 ortega"
         },
         "Crayons": {
           "name": "Crayons"
@@ -4073,7 +4169,8 @@
           "cost": "5 Xelins"
         },
         "Firewood": {
-          "name": "Firewood"
+          "name": "Lenha",
+          "cost": "2 ortegas"
         },
         "Fishing line and hook": {
           "name": "Fishing line and hook"
@@ -4082,7 +4179,8 @@
           "name": "Fishing net"
         },
         "Flint and steel": {
-          "name": "Flint and steel"
+          "name": "Pederneira e isqueiro",
+          "cost": "2 ortegas"
         },
         "Flute": {
           "name": "Flute"
@@ -4160,7 +4258,8 @@
           "name": "Robe"
         },
         "Rope": {
-          "name": "Rope"
+          "name": "Corda",
+          "cost": "1 xelim"
         },
         "Rope ladder": {
           "name": "Rope ladder"
@@ -4220,7 +4319,8 @@
           "name": "Tunic"
         },
         "Waterskin": {
-          "name": "Waterskin"
+          "name": "Cantil",
+          "cost": "3 xelins"
         },
         "Wax candle": {
           "name": "Wax candle"
@@ -4331,7 +4431,9 @@
           "name": "Telepathic Interrogation"
         },
         "Turn Weather": {
-          "name": "Turn Weather"
+          "name": "Virar o Clima",
+          "tradition": "Bruxaria",
+          "description": "<p>O Místico altera o clima local como achar adequado. Névoa que obscurece a visão, tempestades que impedem viagens ou acalmar tempestades são todas coisas possíveis de realizar.</p> <p>O ritual leva uma hora para ser executado, e o efeito permanece ativo por metade de um dia; após isso, o clima local retorna à sua forma natural.</p>"
         },
         "Witch Circle": {
           "name": "Witch Circle"
@@ -4518,14 +4620,21 @@
           "description": "<P>O personagem aprendeu a arte das manobras acrobáticas, tendo passado um tempo com uma companhia teatral, em uma das escolas de esgrima de Yndaros ou escalando as árvores da Davokar.</P> <P>A agilidade do acrobata fornece uma vantagem quando tenta recuar do combate corpo a corpo ou quando tenta alcançar rapidamente o centro de uma formação inimiga.</P>", 
           "noviceDescription": "<P>O personagem pode rolar contra Rápido para evitar Ataques Livres de inimigos em combate corpo a corpo, seja tentando simplesmente passar por um inimigo ou tentando recuar do combate corpo a corpo.</P> <P>Caso o Teste falhe, o jogador deve escolher permanecer em sua posição original ou se mover para qualquer lugar e sofrer um Ataque Livre do oponente.</P>",
           "adeptDescription": "<P>Caso o personagem seja derrubado, ele ou ela pode tentar saltar para trás novamente como uma Ação Livre realizando um Teste de Rápido.</P> <P>Se o Teste falhar, o personagem deve gastar uma Ação de Movimento normalmente para ficar de pé novamente.</P>",
-          "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"
-          
+          "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
         },
         "Alchemy": {
-          "name": "Alchemy"
+          "name": "Alquimia",
+          "description": "<p>O personagem é instruído nos mistérios da alquimia. Com os ingredientes certos, o personagem pode preparar vários elixires para ajudá-lo a sobreviver nas profundezas escuras da Davokar. Uma lista de misturas alquímicas e poções está incluída no Capítulo 16: Equipamentos.</p> <p>Em situações de resolução de problemas, Alquimia pode ser utilizada para identificar drogas e venenos e para conseguir pistas de onde eles vêm. Além disso, o personagem pode tentar preparar um elixir uma vez por aventura.</p> <p>Esta tentativa pode ser executada no começo de uma aventura ou a qualquer momento apropriado durante ela; por exemplo, quando viajar por uma floresta ou quando passar por uma caverna onde ingredientes potentes podem ser encontrados.</p>",
+          "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, o personagem pode recolher ervas e minerais para criar uma dose de um elixir Novato.</p>",
+          "adeptDescription": "<p>Como um alquimista reconhecido, o personagem pode rolar contra Astuto para colher ervas e minerais para criar uma dose de um elixir Adepto ou 1D4 doses de um elixir Novato.</p>",
+          "masterDescription": "<p>O personagem pode, como um alquimista amplamente reconhecido, rolar contra Astuto para recolher ervas e minerais para criar uma dose de um elixir Mestre, 1D4 doses de um elixir Adepto ou 1D8 doses de um elixir Novato.</p>"
         },
         "Backstab": {
-          "name": "Backstab"
+          "name": "Ataque Furtivo",
+          "description": "<p>O palácio de Yndaros, os becos de Forte do Cardo e a escuridão da Davokar são ambientes extremamente diferentes, mas eles têm uma coisa em comum: quando argumentos falham, as lâminas falam. O personagem aprendeu como explorar fraquezas na defesa de um inimigo, e não irá deixar uma oportunidade passar sem realizar um Ataque Furtivo.</p>",
+          "noviceDescription": "<p>Um ataque por turno feito com Vantagem causa +1D4 de dano extra em adição a qualquer dano já infligido graças à Vantagem.</p> <p>O personagem pode utilizar Discreto em vez de Preciso quando realizar ataques estando em Vantagem. Ataque Furtivo pode ser realizado somente uma vez por turno, independentemente de outras circunstâncias.</p>",
+          "adeptDescription": "<p>O Ataque Furtivo do personagem causa dano extra conforme acima, mas também causa um sangramento ao inimigo. O ataque abre um ferimento que sangra bastante, infligindo 1D4 de dano a cada turno subsequente ao ataque.</p> <p>O inimigo continua a sangrar até ser curado por uma cura herbal, pela habilidade Médico ou de alguma outra forma.</p>",
+          "masterDescription": "<p>O Ataque Furtivo do personagem causa +1D8 de dano extra e causa um sangramento ao inimigo, assim como no nível Adepto. Não há quaisquer limites de quantos Ataques Furtivos um Mestre pode executar por turno.</p> <p>Todos os ataques são considerados Ataques Furtivos desde que as condições da Vantagem sejam atendidas (ver páginas 162).</p>"
         },
         "Beast Lore": {
           "name": "Saber de Bestas",
@@ -4581,7 +4690,11 @@
           "masterDescription": "<p>O personagem pode rolar contra Rápido para neutralizar habilidades ou equipamentos que fazem com que ataques inimigos ignorem ou reduzam seu valor de Armadura; se o Teste for bem-sucedido, a Armadura protege normalmente.</p> <p>Poderes místicos que ignoram Armadura não podem ser bloqueados desta maneira; eles não são afetados pela habilidade Homem-de-Armas.</p>"
         },
         "Marksman": {
-          "name": "Marksman"
+          "name": "Atirador",
+          "description": "<p>Atiradores têm sua posição natural em todo exército, servindo como batedores para grupos e bandos de salteadores. O personagem pode infligir danos graves em seus inimigos com um arco ou besta, com a intenção de derrubá-los ou pelo menos ter certeza de que eles não alcançarão os aliados do personagem que estão equipados para combate corpo a corpo.</p>",
+          "noviceDescription": "<p>Graças à perícia do personagem, o dano causado com arcos e bestas é aumentado para 1D10 e 1D12 respectivamente, em vez dos usuais 1D8 e 1D10.</p>",
+          "adeptDescription": "<p>A precisão do personagem fornece um efeito debilitante a seus projéteis. O ataque causa dano normalmente e, se o alvo for ferido, o personagem pode realizar um Teste de [Preciso ← Vigoroso] toda vez que o alvo tentar se mover.</p> <p>Uma jogada bem-sucedida significa que o alvo não pode se mover e sua Ação de Movimento é perdida. Assim que o alvo conseguir se mover (quando o personagem falhar no Teste), o efeito debilitante acaba.</p>",
+          "masterDescription": "<p>Os projéteis do Atirador Mestre se tornam perfurantes de armadura. O tiro acerta um ponto fraco e ignora completamente a Armadura do alvo.</p>"
         },
         "Medicus": {
           "name": "Médico",
@@ -4598,13 +4711,21 @@
           "masterDescription": "<p>Ao atacar os pontos fracos de um oponente com uma precisão impecável — como na garganta e joelhos — os golpes desarmados do Mestre são verdadeiramente devastadores. Cada ataque que acerta causa 1D6 de dano extra.</p>"
         },
         "Poisoner": {
-          "name": "Poisoner"
+          "name": "Veneficista",
+          "description": "<p>Davokar esconde muitas plantas potencialmente alquímicas e venenosas, e o personagem é familiarizado com a utilização efetiva de armas envenenadas em combate. Venenos podem ser comprados de mascates inescrupulosos, mas criar venenos requer algum entendimento de alquimia (a habilidade Alquimia).</p> <p>A habilidade Veneficista pode ser utilizada para identificar diferentes venenos ou o efeito de um veneno em uma pessoa ferida ou morta.</p>",
+          "noviceDescription": "<p>Com uma ação livre, o personagem pode aplicar uma dose de qualquer veneno ou elixir alquímico a uma arma.Uma dose de veneno é suficiente para um golpe com a arma antes de precisar aplicar mais veneno.</p> <p>Um Teste de [Astuto←Vigoroso] é necessário para o veneno fazer efeito; caso seja bem-sucedido, a vítima começa a sofrer o dano.</p> <p>O dano sofrido por turno e a duração limite do veneno depende da força dele (veja página 153).</p>",
+          "adeptDescription": "<p>Como Novato, mas o personagem sabe como fazer uma dose de veneno durar uma batalha inteira. Após aplicar uma dose de veneno, todos os ataques são considerados venenosos pela duração da cena de combate.</p>",
+          "masterDescription": "<p>O personagem dominou a arte de envenenar e sabe como tirar o máximo de um veneno. Caso o personagem obtenha sucesso em um Teste de Astuto, qualquer veneno aplicado a uma arma é considerado um nível superior ao normal.</p> <p>Venenos Fracos contam como Moderados, e Moderados contam como Fortes. Venenos Fortes não causam qualquer dano adicional, mas concedem ao personagem uma segunda chance para obter sucesso no Teste de [Astuto←Vigoroso].</p>"
         },
         "Polearm Mastery": {
           "name": "Polearm Mastery"
         },
         "Quick Draw": {
-          "name": "Quick Draw"
+          "name": "Saque Rápido",
+          "description": "<p>Desferir o primeiro golpe pode decidir o resultado de uma batalha, e com esta habilidade o personagem tem uma vantagem quando uma emboscada inesperada ocorre. O personagem também se torna um guerreiro muito mais dinâmico, capaz de trocar rapidamente de armas dependendo do que pede a situação; uma perícia particularmente apreciada entre escaramuçadores bárbaros e arqueiros ambrianos.</p>",
+          "noviceDescription": "<p>Com uma jogada bem-sucedida contra Rápido, o personagem pode desembainhar e sacar uma arma como uma Ação Livre, assim sendo capaz de utilizar a arma como se ela já estivesse sacada. O personagem também pode recarregar uma besta como uma Ação Livre com um Teste bem-sucedido de Rápido.</p>",
+          "adeptDescription": "<p>Com um Teste bem-sucedido de Rápido, o personagem pode trocar de armas como uma Ação Livre, significando que o personagem pode embainhar uma arma e sacar outra em um movimento fluido.</p>",
+          "masterDescription": "<p>O personagem manuseia elixires rapidamente e pode, com um Teste bem-sucedido de Rápido, derramar uma dose em si mesmo ou na garganta de alguém como uma Ação Livre.</p>"
         },
         "Recovery": {
           "name": "Recuperação",
@@ -4692,7 +4813,7 @@
           "description": "<p><strong>ARMADURA PESADA</strong><br /><strong>Armadura: </strong>1D8 <br /><strong>Qualidades: </strong> Obstrutiva (&minus;4), a Armadura Completa Ambriana tem a qualidade Flexível </p>\n<hr />\n<p> Aqueles combatentes corpo a corpo que podem pagar por ela, normalmente escolhem proteção melhor ao custo de restrições ainda maiores a seus movimentos. Um cavaleiro brioso veste uma cota de malha reforçada por placas de ombros, joelhos e cotovelos, enquanto aqueles com os meios disponíveis encomendam um conjunto personalizado de armadura completa. </p>"
         },
         "Lacquered Silk Cuirass": {
-          "name": "Couraçada de Seda Envernizada",
+          "name": "Couraça de Seda Envernizada",
           "description": "<P> Guerreiros bárbaros que conseguiram seu lugar na guarda de um chefe de clã rico às vezes podem ser vistos vestindo uma couraça de seda envernizada, uma armadura que, apesar de uma aparente leveza, protege como uma placa peitoral. </P> <P>De acordo com a lenda, o segredo da seda envernizada foi dado à humanidade pelos elfos, em um tempo quando o Pacto de Ferro ainda era forte e humanos batalhavam contra a escuridão parasítica de Symbaroum.</P>"
         },
         "Light Armor": {
@@ -5456,7 +5577,7 @@
           }
         },
         "Book 3: The GM Guide": {
-          "name": "Book 3: The GM Guide",
+          "name": "Book 3: Guia do GM",
           "pages": {
             "3.02 - The Game Masters Rules": {
               "name": "3.02 - The Game Masters Rules",
