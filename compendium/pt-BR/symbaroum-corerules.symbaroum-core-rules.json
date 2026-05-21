@@ -19,7 +19,7 @@
 
           "mapping": {
             "description": "system.description",
-
+            "material": "system.material",
             "noviceDescription": "system.novice.description",
             "adeptDescription": "system.adept.description",
             "masterDescription": "system.master.description",
@@ -43,7 +43,7 @@
 
     "items": {
       "description": "system.description",
-
+      "material": "system.material",
       "noviceDescription": "system.novice.description",
       "adeptDescription": "system.adept.description",
       "masterDescription": "system.master.description",
@@ -285,7 +285,9 @@
               "name": "Bow"
             },
             "Spear": {
-              "name": "Spear"
+              "name": "Lança",
+              "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
+              "cost": "3 Táleres"
             },
             "Woven Silk": {
               "name": "Woven Silk"
@@ -322,7 +324,9 @@
               "name": "Bow"
             },
             "Spear": {
-              "name": "Spear"
+              "name": "Lança",
+              "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
+              "cost": "3 Táleres"
             },
             "Lacquered Silk Cuirass": {
               "name": "Lacquered Silk Cuirass"
@@ -340,7 +344,8 @@
           "tokenName": "Spring Elf",
           "items": {
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Bow": {
               "name": "Bow"
@@ -355,7 +360,11 @@
           "tokenName": "Black Cloak",
           "items": {
             "Beast Lore": {
-              "name": "Beast Lore"
+              "name": "Saber de Bestas",
+              "description": "<p>O personagem é instruído no conhecimento de bestas e sabe os segredos da maioria dos monstros. Muitos monstros possuem habilidades especiais e ataques únicos, assim como fraquezas que são boas de se conhecer quando se tenta derrubá-los.</p> <p>Em níveis superiores, o personagem deve escolher uma especialização; Abominações, Bestas, Mortos-Vivos ou Seres Culturais; e recebe mais vantagens contra membros dessa categoria específica.</p> <p>Um personagem com Saber de Bestas pode identificar os rastros de muitos monstros e seres, e utilizar essa informação para tirar conclusões a respeito do tamanho e comportamento geral da criatura; ela está caçando, fugindo ou somente passando por ali?</p>",
+              "noviceDescription": "<p>O personagem estudou monstros e pode realizar um Teste de Astuto para reconhecer ou recordar pontos fortes e fracos de um monstro. O Mestre de Jogo descreve o monstro e suas estatísticas ao jogador.</p>",
+              "adeptDescription": "<p>O personagem é um estudioso reconhecido que tem estudado uma subcategoria particular de monstros (selecione Abominações, Bestas, Mortos-Vivos ou Seres Culturais).</p> <p>O personagem agora causa +1D4 de dano adicional a monstros dessa categoria. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura.</p>",
+              "masterDescription": "<p>O personagem agora causa +1D6 de dano extra às criaturas da subcategoria que o personagem selecionou no nível Adepto. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura. </p>"
             },
             "Steadfast": {
               "name": "Inabalável",
@@ -413,7 +422,11 @@
           "tokenName": "Cult Leader",
           "items": {
             "Leader": {
-              "name": "Leader"
+              "name": "Líder",
+              "description": "<p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p> <p>Fora do combate, a habilidade Líder pode ser útil para comandar um grupo de estranhos, organizar uma milícia e coisas do tipo.</p>",
+              "noviceDescription": "<p>A forte personalidade lhe permite utilizar Persuasivo em vez de Resoluto ao tecer poderes místicos, embora não como base para seu limite de Corrupção.</p>",
+              "adeptDescription": "<p>O personagem pode nomear uma criatura ou objeto como alvo focado para ele e seus aliados pela duração de uma cena. Todos os aliados que atacarem o alvo infligem +1D4 de dano adicional a ele.</p> <p>Mudar de alvo requer uma nova Ação Ativa do Líder.</p>",
+              "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "Curse": {
               "name": "Curse"
@@ -496,7 +509,8 @@
               "name": "Telepathic Interrogation"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Unarmed combat": {
               "name": "Unarmed combat"
@@ -622,7 +636,8 @@
               "name": "Bow"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Sword": {
               "name": "Espada",
@@ -650,7 +665,11 @@
           "tokenName": "Ranger Captain",
           "items": {
             "Leader": {
-              "name": "Leader"
+              "name": "Líder",
+              "description": "<p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p> <p>Fora do combate, a habilidade Líder pode ser útil para comandar um grupo de estranhos, organizar uma milícia e coisas do tipo.</p>",
+              "noviceDescription": "<p>A forte personalidade lhe permite utilizar Persuasivo em vez de Resoluto ao tecer poderes místicos, embora não como base para seu limite de Corrupção.</p>",
+              "adeptDescription": "<p>O personagem pode nomear uma criatura ou objeto como alvo focado para ele e seus aliados pela duração de uma cena. Todos os aliados que atacarem o alvo infligem +1D4 de dano adicional a ele.</p> <p>Mudar de alvo requer uma nova Ação Ativa do Líder.</p>",
+              "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "Tactician": {
               "name": "Tactician"
@@ -1725,7 +1744,8 @@
               "name": "Full Plate"
             },
             "Heavy weapon": {
-              "name": "Heavy weapon"
+              "name": "Armas Pesadas",
+              "description": "<p><strong>ARMAS PESADAS</strong><br /><strong>Dano: </strong>1D10 <br /><strong>Qualidades: </strong>Nenhuma. A Espada Bastada é Precisa, o Machado Duplo tem a qualidade Impacto Profundo, e o Mangual Pesado é Articulado. </p>\n<hr />\n<p>Armas Pesadas são distintas pelo fato de que devem ser empunhados com duas mãos para serem usados efetivamente. Elas têm um efeito de dano superior em combate corpo a corpo. A acha-de-armas, o martelo de batalha e a poderosa espada larga são exemplos de armas Pesadas comuns na região da Davokar.</p>"
             },
             "No Pain": {
               "name": "No Pain"
@@ -2240,19 +2260,29 @@
               "masterDescription": "<p>O personagem alcançou as compreensões superiores de um Mestre, e agora pode ver todas as Sombras e suas respectivas forças claramente.</p> <p>O personagem sofre 1D6 de Corrupção temporária toda vez que tenta ver as Sombras de uma criatura, local ou objeto.</p>"
             },
             "Beast Lore (Abominations)": {
-              "name": "Beast Lore (Abominations)"
+              "name": "Saber de Bestas (abominações)",
+              "description": "<p>O personagem é instruído no conhecimento de bestas e sabe os segredos da maioria dos monstros. Muitos monstros possuem habilidades especiais e ataques únicos, assim como fraquezas que são boas de se conhecer quando se tenta derrubá-los.</p> <p>Em níveis superiores, o personagem deve escolher uma especialização; Abominações, Bestas, Mortos-Vivos ou Seres Culturais; e recebe mais vantagens contra membros dessa categoria específica.</p> <p>Um personagem com Saber de Bestas pode identificar os rastros de muitos monstros e seres, e utilizar essa informação para tirar conclusões a respeito do tamanho e comportamento geral da criatura; ela está caçando, fugindo ou somente passando por ali?</p>",
+              "noviceDescription": "<p>O personagem estudou monstros e pode realizar um Teste de Astuto para reconhecer ou recordar pontos fortes e fracos de um monstro. O Mestre de Jogo descreve o monstro e suas estatísticas ao jogador.</p>",
+              "adeptDescription": "<p>O personagem é um estudioso reconhecido que tem estudado uma subcategoria particular de monstros (selecione Abominações, Bestas, Mortos-Vivos ou Seres Culturais).</p> <p>O personagem agora causa +1D4 de dano adicional a monstros dessa categoria. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura.</p>",
+              "masterDescription": "<p>O personagem agora causa +1D6 de dano extra às criaturas da subcategoria que o personagem selecionou no nível Adepto. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura. </p>"
             },
             "Blessed Robe": {
-              "name": "Blessed Robe"
+              "name": "Robe Abençoado",
+              "description": "<P> Os robes sacerdotais dos teurgos são abençoados e protegidos por forças benevolentes, para que os luminares da Igreja possam viajar seguramente pelo reino e além. </P>"
             },
             "Spear": {
-              "name": "Spear"
+              "name": "Lança",
+              "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
+              "cost": "3 Táleres"
             },
             "Necklace": {
-              "name": "Necklace"
+              "name": "Colar com Símbolo do Sol",
+              "description": "Símbolo do Sol em um colar."
+
             },
             "The Inner Nature of the Abomination": {
-              "name": "The Inner Nature of the Abomination"
+              "name": "A Natureza Interior da Abominação",
+              "description": "<p>pergaminho intitulado “A Natureza Interior da Abominação”</p>"
             },
             "Priviledged": {
               "name": "Privilegiado",
@@ -2330,8 +2360,10 @@
               "name": "Crossbow"
             },
             "Spear": {
-              "name": "Spear"
-            },
+              "name": "Lança",
+              "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
+              "cost": "3 Táleres"
+                    },
             "Quiver": {
               "name": "Quiver"
             },
@@ -2394,36 +2426,59 @@
           }
         },
         "Ansel, theurg": {
-          "name": "Ansel, theurg",
-          "tokenName": "Ansel, theurg",
+          "name": "Ansel, Teurgo",
+          "tokenName": "Ansel, Teurgo",
+          "race": "Humano (ambriano)",
+          "shadow": "Dourado brilhante, como o sol refletido de um espelho prateado",
+          "appearance": "<p>Você é um servo da fé instruído na Igreja de Prios, e também um mago sacerdote, um dos poucos selecionados por Prios para ser a luz no mundo. Sua convicção pode ser firme, mas sua relação com a Igreja não é: intrigas se alastram por trás das portas fechadas, cotovelos afiados e difamações puras não são incomuns na luta por posições na hierarquia da Igreja.</p>",
+          "background": "<p>Você luta constantemente para determinar o que é a vontade real de Prios e o que é parte dos esquemas de seus superiores. Você está determinado a continuar sendo um campeão do primeiro e se recusa a ser trazido para o segundo. Você provavelmente era um daqueles que ficou para trás em Alberetor, por escolha ou por ordem, para cuidar de algum templo antigo do Deus Sol. Agora você foi convocado para fechar os portões do templo e unir-se a seus irmãos e irmãs no norte. Você possivelmente está familiarizado com Orlan e Bartolom, talvez após terem servido por um tempo na mesma unidade do orgulhoso exército da Rainha Korinthia.</p>",
+
           "items": {
             "Leader": {
-              "name": "Leader"
+              "name": "Líder",
+              "description": "<p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p> <p>Fora do combate, a habilidade Líder pode ser útil para comandar um grupo de estranhos, organizar uma milícia e coisas do tipo.</p>",
+              "noviceDescription": "<p>A forte personalidade lhe permite utilizar Persuasivo em vez de Resoluto ao tecer poderes místicos, embora não como base para seu limite de Corrupção.</p>",
+              "adeptDescription": "<p>O personagem pode nomear uma criatura ou objeto como alvo focado para ele e seus aliados pela duração de uma cena. Todos os aliados que atacarem o alvo infligem +1D4 de dano adicional a ele.</p> <p>Mudar de alvo requer uma nova Ação Ativa do Líder.</p>",
+              "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "Theurgy": {
-              "name": "Theurgy"
+              "name": "Teurgia",
+              "description": "<p>Teurgia é a tradição mística defendida entre os magos sacerdotes da Igreja de Prios. Teurgia é a doutrina da chama interior, onde a brasa da alma é vista como um reflexo do divino e da luz do sol que concede a vida.</p>",
+              "noviceDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição da Teurgia, nem quando aprender seus rituais.</p> <p>Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais da Teurgia./<p>",
+              "adeptDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Adepto pertencentes à tradição da Teurgia.</p> <p>O teurgo Adepto também aprendeu a repousar os poderes e rituais da Teurgia em uma fundação de fé, portanto, agora o teurgo sofre apenas um (1) ponto de Corrupção temporária quando conjurá-los.</p>",
+              "masterDescription": "<p>O teurgo alcançou uma compreensão superior da essência de seus poderes sagrados e, portanto, cura 1D4 adicional quando usar poderes de cura e sagrados, incluindo aqueles que ferem abominações e mortos-vivos.</p> <p>Além disso, o teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Mestre pertencentes à tradição da Teurgia. </p>"
             },
             "Witch Hammer": {
-              "name": "Witch Hammer"
+              "name": "Martelo Bruxo",
+              "description": "<p>O Místico aprendeu a envolver sua arma corpo a corpo com fogo sagrado e purgante da mácula, assim como a lendária Portadora da Luz Ofelya Attio.</p>",
+              "material": "Uma arma corpo a corpo abençoada com o ritual Rito de Santificação.",
+              "noviceDescription": "<p>Fogo sagrado envolve a arma corpo a corpo do Novato e causa 1D4 de dano adicional, ou 1D6 de dano adicional se o alvo for uma abominação ou morto-vivo.</p> <p>Este efeito fica ativo pelo restante da cena.</p>",
+              "adeptDescription": "<p>Como Novato, mas a arma corpo a corpo agora causa 1D4 de dano adicional ou 1D8 de dano adicional se o alvo for uma abominação ou morto-vivo.</p>",
+              "masterDescription": "<p>Como Novato, mas a arma corpo a corpo agora causa 1D4 de dano adicional ou 1D10 de dano adicional se o alvo for uma abominação ou morto-vivo.</p>"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Blessed Warhammer": {
-              "name": "Blessed Warhammer"
+              "name": "Martelo de Guerra Abençoado",
+              "description": "<p><strong>ARMAS PESADAS</strong><br /><strong>Dano: </strong>1D10 <br /><strong>Qualidades: </strong>Nenhuma. A Espada Bastada é Precisa, o Machado Duplo tem a qualidade Impacto Profundo, e o Mangual Pesado é Articulado. </p>\n<hr />\n<p>Armas Pesadas são distintas pelo fato de que devem ser empunhados com duas mãos para serem usados efetivamente. Elas têm um efeito de dano superior em combate corpo a corpo. A acha-de-armas, o martelo de batalha e a poderosa espada larga são exemplos de armas Pesadas comuns na região da Davokar.</p>"
             },
             "Shield": {
-              "name": "Shield",
+              "name": "Escudo",
               "description": "<p><strong>ESCUDOS</strong> <br /><strong>Dano: </strong> Fornece +1 rm Defesa <br /><strong>Qualidades: </strong> Nenhuma. Broquéis são Flexíveis, Escudos de Aço são Equilibrados. </p>\n<hr />\n<p>Escudos tornam difícil atingir o portador com ataques corpo a corpo e à distância. Eles frequentemente são combinados com uma arma de uma mão, ou com uma arma de uma mão e um punhado de armas de arremesso adicionais.</p>"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Lightbringer": {
               "name": "Lightbringer"
             },
             "Blessed Robe": {
-              "name": "Blessed Robe"
+              "name": "Robe Abençoado",
+              "description": "<P> Os robes sacerdotais dos teurgos são abençoados e protegidos por forças benevolentes, para que os luminares da Igreja possam viajar seguramente pelo reino e além. </P>"
             },
             "Contacts (Sun Church)": {
               "name": "Contacts (Sun Church)",
@@ -2439,7 +2494,11 @@
               "name": "Alchemy"
             },
             "Beast Lore": {
-              "name": "Beast Lore"
+              "name": "Saber de Bestas",
+              "description": "<p>O personagem é instruído no conhecimento de bestas e sabe os segredos da maioria dos monstros. Muitos monstros possuem habilidades especiais e ataques únicos, assim como fraquezas que são boas de se conhecer quando se tenta derrubá-los.</p> <p>Em níveis superiores, o personagem deve escolher uma especialização; Abominações, Bestas, Mortos-Vivos ou Seres Culturais; e recebe mais vantagens contra membros dessa categoria específica.</p> <p>Um personagem com Saber de Bestas pode identificar os rastros de muitos monstros e seres, e utilizar essa informação para tirar conclusões a respeito do tamanho e comportamento geral da criatura; ela está caçando, fugindo ou somente passando por ali?</p>",
+              "noviceDescription": "<p>O personagem estudou monstros e pode realizar um Teste de Astuto para reconhecer ou recordar pontos fortes e fracos de um monstro. O Mestre de Jogo descreve o monstro e suas estatísticas ao jogador.</p>",
+              "adeptDescription": "<p>O personagem é um estudioso reconhecido que tem estudado uma subcategoria particular de monstros (selecione Abominações, Bestas, Mortos-Vivos ou Seres Culturais).</p> <p>O personagem agora causa +1D4 de dano adicional a monstros dessa categoria. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura.</p>",
+              "masterDescription": "<p>O personagem agora causa +1D6 de dano extra às criaturas da subcategoria que o personagem selecionou no nível Adepto. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura. </p>"
             },
             "Medicus": {
               "name": "Médico",
@@ -2455,16 +2514,20 @@
               "name": "Brimstone Cascade"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Walking Staff": {
               "name": "Walking Staff"
             },
             "Blessed Robe": {
-              "name": "Blessed Robe"
+              "name": "Robe Abençoado",
+              "description": "<P> Os robes sacerdotais dos teurgos são abençoados e protegidos por forças benevolentes, para que os luminares da Igreja possam viajar seguramente pelo reino e além. </P>"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Herbal Cure": {
               "name": "Herbal Cure"
@@ -2502,13 +2565,16 @@
               "name": "Ritualist (Familiar)"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Leather Gown": {
               "name": "Leather Gown"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Spear": {
               "name": "Spear"
@@ -2541,7 +2607,8 @@
               "name": "Crossbow"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Axe": {
               "name": "Axe"
@@ -2550,7 +2617,9 @@
               "name": "Hardened Leather"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Snares": {
               "name": "Snares"
@@ -2588,7 +2657,8 @@
               "masterDescription": "<p>O dano da pancada com escudo é aumentado de 1D4 para 1D8 e o alvo ainda é derrubado no chão se o personagem obtiver sucesso em um Teste de [Vigoroso←Vigoroso].</p>"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Bow": {
               "name": "Bow"
@@ -2608,7 +2678,9 @@
               "name": "Weapon maintenance kit"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Pipe and Tobacco": {
               "name": "Pipe and Tobacco"
@@ -2667,7 +2739,8 @@
               "name": "Shapeshift"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Claws": {
               "name": "Claws"
@@ -2679,7 +2752,9 @@
               "name": "Animal Skin"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Bushcraft": {
               "name": "Bushcraft"
@@ -2697,7 +2772,8 @@
               "name": "Feint"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Walking Staff": {
               "name": "Walking Staff"
@@ -2706,7 +2782,9 @@
               "name": "Studded Leather"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Straw Doll": {
               "name": "Straw Doll"
@@ -2733,7 +2811,8 @@
               "name": "Two-handed Force"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Sword": {
               "name": "Espada",
@@ -2746,7 +2825,9 @@
               "name": "Fortified Chainmail"
             },
             "Field equipment": {
-              "name": "Field equipment"
+              "name": "Equipamento de Acampar",
+              "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+              "cost": "5 Xelins"
             },
             "Weapon maintenance kit": {
               "name": "Weapon maintenance kit"
@@ -2782,7 +2863,8 @@
               "masterDescription": "<p>O personagem mede quase 3 metros de altura, pesa cerca de meia tonelada e esmaga criaturas menores enquanto as armas dos inimigos têm bastante dificuldade em penetrar sua pele que mais parece pedra. É muito fácil acertar uma criatura deste tamanho, mas igualmente difícil de feri-la seriamente.</p> <p>A Defesa do personagem é baseada em [Rápido –4] e ele pode utilizar apenas armaduras leves, que devem ser feitas sob encomenda e custam o quádruplo do preço normal.</p> <p>Por outro lado, o personagem naturalmente ignora 1D8 de dano de todo golpe sofrido, em adição a qualquer armadura que vestir.</p> <p>Finalmente, ele pode causar 1D8 de dano extra com um ataque corpo a corpo por turno.</p>"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Adaga",
+              "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Sword": {
               "name": "Espada",
@@ -3986,7 +4068,9 @@
           "name": "Drum"
         },
         "Field equipment": {
-          "name": "Field equipment"
+          "name": "Equipamento de Acampar",
+          "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
+          "cost": "5 Xelins"
         },
         "Firewood": {
           "name": "Firewood"
@@ -4444,7 +4528,11 @@
           "name": "Backstab"
         },
         "Beast Lore": {
-          "name": "Beast Lore"
+          "name": "Saber de Bestas",
+          "description": "<p>O personagem é instruído no conhecimento de bestas e sabe os segredos da maioria dos monstros. Muitos monstros possuem habilidades especiais e ataques únicos, assim como fraquezas que são boas de se conhecer quando se tenta derrubá-los.</p> <p>Em níveis superiores, o personagem deve escolher uma especialização; Abominações, Bestas, Mortos-Vivos ou Seres Culturais; e recebe mais vantagens contra membros dessa categoria específica.</p> <p>Um personagem com Saber de Bestas pode identificar os rastros de muitos monstros e seres, e utilizar essa informação para tirar conclusões a respeito do tamanho e comportamento geral da criatura; ela está caçando, fugindo ou somente passando por ali?</p>",
+          "noviceDescription": "<p>O personagem estudou monstros e pode realizar um Teste de Astuto para reconhecer ou recordar pontos fortes e fracos de um monstro. O Mestre de Jogo descreve o monstro e suas estatísticas ao jogador.</p>",
+          "adeptDescription": "<p>O personagem é um estudioso reconhecido que tem estudado uma subcategoria particular de monstros (selecione Abominações, Bestas, Mortos-Vivos ou Seres Culturais).</p> <p>O personagem agora causa +1D4 de dano adicional a monstros dessa categoria. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura.</p>",
+          "masterDescription": "<p>O personagem agora causa +1D6 de dano extra às criaturas da subcategoria que o personagem selecionou no nível Adepto. Este dano extra também se aplica aos aliados do personagem se forem instruídos em qual a melhor maneira de lutar contra a criatura. </p>"
         },
         "Berserker": {
           "name": "Amoque",
@@ -4470,13 +4558,17 @@
         },
         "Iron Fist": {
           "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
-              "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
-              "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+          "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+          "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
+          "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
+          "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
         },
         "Leader": {
-          "name": "Leader"
+          "name": "Líder",
+          "description": "<p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p> <p>Fora do combate, a habilidade Líder pode ser útil para comandar um grupo de estranhos, organizar uma milícia e coisas do tipo.</p>",
+          "noviceDescription": "<p>A forte personalidade lhe permite utilizar Persuasivo em vez de Resoluto ao tecer poderes místicos, embora não como base para seu limite de Corrupção.</p>",
+          "adeptDescription": "<p>O personagem pode nomear uma criatura ou objeto como alvo focado para ele e seus aliados pela duração de uma cena. Todos os aliados que atacarem o alvo infligem +1D4 de dano adicional a ele.</p> <p>Mudar de alvo requer uma nova Ação Ativa do Líder.</p>",
+          "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
         },
         "Loremaster": {
           "name": "Loremaster"
@@ -4554,7 +4646,11 @@
           "name": "Tactician"
         },
         "Theurgy": {
-          "name": "Theurgy"
+          "name": "Teurgia",
+          "description": "<p>Teurgia é a tradição mística defendida entre os magos sacerdotes da Igreja de Prios. Teurgia é a doutrina da chama interior, onde a brasa da alma é vista como um reflexo do divino e da luz do sol que concede a vida.</p>",
+          "noviceDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição da Teurgia, nem quando aprender seus rituais.</p> <p>Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais da Teurgia./<p>",
+          "adeptDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Adepto pertencentes à tradição da Teurgia.</p> <p>O teurgo Adepto também aprendeu a repousar os poderes e rituais da Teurgia em uma fundação de fé, portanto, agora o teurgo sofre apenas um (1) ponto de Corrupção temporária quando conjurá-los.</p>",
+          "masterDescription": "<p>O teurgo alcançou uma compreensão superior da essência de seus poderes sagrados e, portanto, cura 1D4 adicional quando usar poderes de cura e sagrados, incluindo aqueles que ferem abominações e mortos-vivos.</p> <p>Além disso, o teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Mestre pertencentes à tradição da Teurgia. </p>"
         },
         "Twin Attack": {
           "name": "Twin Attack"
@@ -4826,7 +4922,12 @@
           "name": "Unnoticeable"
         },
         "Witch Hammer": {
-          "name": "Witch Hammer"
+          "name": "Martelo Bruxo",
+          "description": "<p>O Místico aprendeu a envolver sua arma corpo a corpo com fogo sagrado e purgante da mácula, assim como a lendária Portadora da Luz Ofelya Attio.</p>",
+          "material": "Uma arma corpo a corpo abençoada com o ritual Rito de Santificação.",
+          "noviceDescription": "<p>Fogo sagrado envolve a arma corpo a corpo do Novato e causa 1D4 de dano adicional, ou 1D6 de dano adicional se o alvo for uma abominação ou morto-vivo.</p> <p>Este efeito fica ativo pelo restante da cena.</p>",
+          "adeptDescription": "<p>Como Novato, mas a arma corpo a corpo agora causa 1D4 de dano adicional ou 1D8 de dano adicional se o alvo for uma abominação ou morto-vivo.</p>",
+          "masterDescription": "<p>Como Novato, mas a arma corpo a corpo agora causa 1D4 de dano adicional ou 1D10 de dano adicional se o alvo for uma abominação ou morto-vivo.</p>"
         },
         "Robust": {
           "name": "Robusto",
@@ -4872,7 +4973,8 @@
           "name": "Crow’s Beak"
         },
         "Dagger": {
-          "name": "Dagger"
+          "name": "Adaga",
+          "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
         },
         "Double-axe": {
           "name": "Double-axe"
@@ -4890,10 +4992,14 @@
           "name": "Heavy flail"
         },
         "Heavy weapon": {
-          "name": "Heavy weapon"
+          "name": "Armas Pesadas",
+          "description": "<p><strong>ARMAS PESADAS</strong><br /><strong>Dano: </strong>1D10 <br /><strong>Qualidades: </strong>Nenhuma. A Espada Bastada é Precisa, o Machado Duplo tem a qualidade Impacto Profundo, e o Mangual Pesado é Articulado. </p>\n<hr />\n<p>Armas Pesadas são distintas pelo fato de que devem ser empunhados com duas mãos para serem usados efetivamente. Elas têm um efeito de dano superior em combate corpo a corpo. A acha-de-armas, o martelo de batalha e a poderosa espada larga são exemplos de armas Pesadas comuns na região da Davokar.</p>"
         },
         "Long Weapon": {
-          "name": "Long Weapon"
+          "name": "Arma Longa",
+          "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
+          "cost": "3 Táleres"
+          
         },
         "Longbow": {
           "name": "Longbow"

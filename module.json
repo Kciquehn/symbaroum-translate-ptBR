@@ -25,10 +25,10 @@
 
   "packs": [
     {
-      "name": "journals",
+      "name": "compendium-symbaroum-ptbr",
       "label": "Symbaroum PT-BR",
-      "path": "packs/journals",
-      "type": "JournalEntry",
+      "path": "packs/compendium-symbaroum-ptbr",
+      "type": "Adventure",
       "system": "symbaroum"
     }
   ],
