@@ -56,5 +56,8 @@
     ]
   },
 
+  "manifest": "https://raw.githubusercontent.com/Kciquehn/symbaroum-translate-ptBR/main/module.json",
+  "download": "https://github.com/Kciquehn/symbaroum-translate-ptBR/archive/refs/heads/main.zip",
+
   "flags": {}
 }
