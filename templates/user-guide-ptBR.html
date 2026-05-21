@@ -1,0 +1,573 @@
+<div>
+    <h1 style=" margin-bottom: 6pt; color: #191813; text-align: center; font-weight: bold;">
+        Symbaroum System
+        <br>
+        for
+        <br>
+        Foundry VTT
+    </h1>
+
+
+    <h1>Introdução</h1>
+    <p>
+        Este guia apresenta as principais funcionalidades do sistema Symbaroum para Foundry VTT.
+        <br>
+        Este sistema é oficial, mas foi desenvolvido, mantido e suportado inteiramente por voluntários. <br />
+        Presume-se que as pessoas que utilizam este sistema para Foundry VTT possuam os livros de regras do Symbaroum ou tenham adquirido os módulos gratuitos da Foundry para a Free League.
+    </p>
+    <br>
+    <h1>Histórico de Alterações</h1>
+    <p> Todo o histórico de alterações pode ser encontrado em <a target="_blank" href="https://raw.githubusercontent.com/pwatson100/symbaroum/refs/heads/master/Release_Notes.txt">nossas notas de atualização</a></p>
+    <h1>Criando Personagem</h1>
+    <p>
+        Para criar um personagem, vá até a aba de Atores e clique em&nbsp;<em>Criar Ator.</em>&nbsp; (veja @Tour[charactersheet-tour]{Tour da Ficha (GM)} / @Tour[charactersheet-tour]{Tour da Ficha (Jogador)} ). Note que o tour do jogador exige que o GM finalize o dele primeiro.
+        Em seguida, será solicitado o nome do ator e qual o tipo dele, podendo ser&nbsp;<em>player<strong>&nbsp;</strong></em>ou&nbsp;<em>monster</em>.
+        Depois da seleção, será exibida a ficha do personagem, onde os detalhes podem ser preenchidos.&nbsp;
+        Itens como nome do personagem e raça podem ser definidos, assim como a quantidade de experiência que ele possui e quanto dela foi gasto em rerolls ou vínculo com artefatos, quanto foi gasto em habilidades e traços e, por fim, quanto ainda permanece não utilizado.
+        <br><br>
+        Qualquer campo com fundo azulado não pode ser editado, pois esses valores são calculados automaticamente e o jogador não precisa alterá-los. O retrato pode ser trocado por uma imagem de preferência do jogador.
+        <br><br>
+        Ao gerar personagens, coloque o total inicial de pontos usados nas habilidades iniciais na caixa de Experiência mais à esquerda. Você também deve atualizar esse valor caso o personagem ganhe XP durante os cenários.
+
+    </p>
+    &nbsp;<span class="img01">&nbsp;</span>&nbsp;
+    <p>
+        Logo abaixo há um conjunto de abas, como main, gear, bio, etc., que podem ser usadas para fornecer as diversas informações necessárias.
+        <br>
+        Na aba main, o jogador pode preencher os detalhes dos seus atributos, quanta Robustez ainda possui restante e as informações relacionadas à sua corrupção.
+        Para modificar os atributos, clique na engrenagem no cabeçalho, isso abrirá a janela de atributos.
+    </p>
+    &nbsp;<span class="img01-01">&nbsp;</span>&nbsp;
+    <br />
+    &nbsp;<span class="img27">&nbsp;</span>&nbsp;
+    <p>
+        O atributo base corresponde ao atributo original e sem modificações do personagem. O campo "Modifier" é usado para modificadores temporários, como dano em atributos causado por criaturas mortas-vivas. "Bonus" é utilizado para bônus vindos de itens. "Total" exibirá o atributo calculado automaticamente.
+        <br>
+        Os campos de corrupção contêm informações sobre quanta corrupção Temporária (da cena) o personagem acumulou, qualquer corrupção de longo prazo, como a adquirida ao consumir Krusan Berries, ou até mesmo a corrupção Permanente acumulada.
+        <br>
+        A seção de combate permite selecionar qual atributo será usado para iniciativa ou defesa.
+        Ela também contém informações sobre armaduras vestidas e armas empunhadas. Veja a seção sobre combate abaixo.
+    </p>
+    <br>
+
+    <h2>Adicionando Habilidades, Traços, Dádivas e Fardos</h2>
+    <p>
+        Observe que este Módulo de Sistema não contém os detalhes dessas habilidades, traços, dádivas e fardos, sendo recomendado que o Mestre configure tudo antecipadamente.
+        <br>
+        Existe um Compêndio de Aventuras que contém recursos em múltiplos idiomas e é recomendado para uso. Veja @Tour[acompendium-tour]{Compêndio de Aventuras do Sistema}
+        <br><br>
+        Para adicionar uma habilidade, traço, dádiva ou fardo, o jogador deve arrastá-los da seleção de Itens para a seção Abilities &amp; Powers da ficha do personagem.
+        <br>
+
+        &nbsp;<span class="img02">&nbsp;</span>&nbsp;
+        <br>
+        Depois de adicionados à ficha do personagem, o jogador pode abri-los para ver mais informações sobre eles.
+        Para habilidades e traços, nenhuma experiência será descontada até que o jogador marque que aprendeu ou adquiriu a habilidade ou traço.
+        Para dádivas e fardos, a experiência é descontada de acordo com o nível, conforme detalhado no APG.
+        <br>
+        &nbsp;<span class="img03">&nbsp;</span>&nbsp;
+        <br>
+        A ficha do personagem também exibe um resumo com um ícone clicável, o nome da habilidade e quais ações (Ativa, Passiva, etc.) o jogador pode utilizar com a habilidade ou traço. Ela utiliza duas pequenas imagens douradas, onde o escudo com raios, veja o exemplo de acrobatics / berserker na imagem, indica que a habilidade pode ser ativada clicando no ícone. Caso possua uma pessoa com um escudo, veja polearm master & berserker na imagem abaixo, significa que toda (ou em alguns casos a maior parte) da habilidade foi integrada ao bloco de estatísticas do personagem.
+        <br>
+        &nbsp;<span class="img04">&nbsp;</span>&nbsp;
+    </p>
+    <br><br>
+
+```html id="4oj2jv"
+    <h1>Armas e Armaduras</h1>
+    <p>
+        Armas e armaduras pré-configuradas estão disponíveis nos compêndios de aventuras. Recomendamos que você as utilize. Basta localizar a aventura correspondente ao seu idioma na aba do Compêndio de Aventuras e selecionar "import".
+        <br>
+        Para dar qualquer item a um personagem, você pode arrastá-lo da barra lateral para a ficha do personagem. Você também pode criar uma armadura ou arma diretamente pela aba <em>GEAR</em> da ficha do personagem.
+        Nesta aba, há um <strong>+</strong> no cabeçalho das tabelas de armaduras e armas que, ao ser clicado, criará uma nova armadura ou arma para que seus detalhes possam ser preenchidos.
+        <br>
+    </p>
+    <span class="img05">&nbsp;</span>
+    <h2>Armas</h2>
+    <p>
+        As armas possuem uma classe: one-handed (padrão), heavy, unarmed, short, long, ranged, thrown e shield.
+        <br>
+        Atributos: O atributo base padrão é "Accurate", mas você pode selecionar outro. Normalmente isso não é necessário, já que habilidades que modificam o atributo (Iron fist, Sixth sense...) farão isso automaticamente.
+        <br>
+        Existem dois campos para dano:
+        <br>
+        - Base damage: contém o dado de dano da arma (1-handed é 1d8, short é 1d6…). Você não precisa adicionar bônus passivos de habilidades, pois eles serão adicionados automaticamente depois.
+        <br>
+        - Bonus damage: este campo deve permanecer vazio e ser usado apenas para situações excepcionais, habilidades não suportadas e house rules.
+        <br>
+        - Uma arma com a qualidade deep impact, ou uma arma magistralmente criada para receber essa qualidade, possui +1 de dano. Esse dano não deve ser inserido no campo de bônus; basta marcar a caixa « deep impact » na aba de qualidades e o bônus será adicionado. A qualidade "massive" também modificará o dano (quando usada por um PC) ou as rolagens de armadura (quando usada por um NPC).
+
+        O dano calculado é exibido nas caixas abaixo do nome da arma: conforme as regras de Symbaroum, o dano do PC é a fórmula de rolagem de dano quando empunhada por um PC, enquanto o dano do NPC é o dano fixo utilizado quando empunhada por um NPC.
+        <br>
+        O campo "Alternative damage" é usado para armas que causam dano em atributos (normalmente Resolute ou Strong). Armas normais devem permanecer configuradas como "none". Ao criar um monstro que causa dano alternativo, utilize as armas "wraith claws" ou "freezing touch" e conceda à criatura a habilidade "alternative damage". O dano da arma será automaticamente melhorado dependendo do nível dessa habilidade.
+    </p>
+    <br>
+    <h2>Armaduras</h2>
+    <p>
+        Armaduras possuem um valor base fixo de proteção (1d4, 1d6 ou 1d8). Uma armadura reforçada deve ter marcada a qualidade "Reinforced" na aba "Qualities".
+        Outros bônus de proteção podem ser adicionados no campo "Bonus protection".
+        O campo "Impeding" deve receber o valor de impedimento da armadura. Esse valor será usado em algumas rolagens.
+        As qualidades devem ser marcadas na aba de qualidades. Apenas elas serão utilizadas pelo sistema. Qualquer outra qualidade personalizada pode ser inserida no campo "quality".
+    </p>
+    <p>
+        Armaduras acumuláveis podem ser criadas para efeitos como "Blessed shield", que se acumula à armadura normal. Selecione a opção "stackable armor" no campo base da armadura e então digite o valor adicional de proteção no campo de bônus.
+    </p>
+    <br>
+    <h2>Adicionando armas e armaduras aos personagens</h2>
+    <p>
+        Para adicionar uma armadura ou arma à ficha de um personagem, arraste-a da seleção de Itens para a seção de armaduras ou armas da aba gear da ficha do personagem.
+        Monstros com o traço "Natural weapon" devem receber a arma « Natural weapon » do compêndio, e aqueles com o traço "Armored" devem receber a armadura "armored".
+        <br>
+        Quando um PC ou NPC adiciona uma arma ou armadura à sua ficha, o valor de dano ou proteção é recalculado automaticamente, levando em consideração as habilidades e traços do personagem (Man-at-arms, Robust…). Para armas, o atributo também é avaliado levando em conta a classe da arma.
+        A arma/armadura então aparecerá na ficha do personagem com seu valor final exibido. (valor em dados caso seja uma ficha de PC (ex: 1d8+1d6), valor fixo caso seja uma ficha de monstro (ex: 7))
+        <br>
+        Na aba gear da ficha, armas e armaduras possuem 3 estados representados por um pequeno ícone, que pode ser alterado clicando nele:
+        <br>
+        - stored (ícone de casa): o item está guardado fora do alcance imediato (na casa do personagem, em uma carga sobre uma mula...)
+        <br>
+        - carried (ícone de maleta): o item está embainhado ou dentro de uma mochila
+        <br>
+        - active (ícone de camisa): o item está vestido (armadura) ou em mãos (arma), podendo ser usado em combate.
+    </p>
+    &nbsp;<span class="img24">&nbsp;</span>&nbsp;
+    <p>
+        Armas ativas e a armadura ativa podem ser vistas na aba principal da ficha do personagem. Clique nelas para realizar uma rolagem (consulte a seção de combate). Armaduras e armas exibem seus valores de proteção ou dano, bem como qual atributo é utilizado e o valor alvo.
+        Apenas uma armadura não acumulável será considerada ativa por vez. Caso não exista uma armadura ativa, o sistema irá gerar uma armadura fictícia "no armor", equipada pelo personagem, com bônus passivos adicionados (robust..).
+        Quando uma armadura acumulável é ativada, ela adicionará seu bônus de proteção à armadura ativa.
+    </p>
+    <p>
+        A aba de combate também mostra qual atributo está sendo usado para iniciativa, no formato [atributo principal de iniciativa].[vigilant] - onde o atributo principal é quick, a menos que você possua uma habilidade ou traço que altere isso.
+    </p>
+    &nbsp;<span class="img25">&nbsp;</span>&nbsp;
+    <br><br>
+    <h1>Realizando um Teste de Atributo</h1>
+    <p>
+        Symbaroum frequentemente exige que um teste seja realizado contra um atributo.
+        Os testes normalmente são indicados entre colchetes e, opcionalmente, quando é um teste contra outra pessoa, contêm o atributo utilizado como dificuldade da rolagem.&nbsp;
+    </p>
+    <br>
+    <h2>Realizando um Teste Simples de Atributo</h2>
+    <p>Para realizar um teste de atributo, o jogador clica no atributo usado para o teste. Por exemplo, se for solicitado um teste de discreet, o jogador deve clicar no atributo discreet.
+        <br>
+        &nbsp;<span class="img06">&nbsp;</span>&nbsp;
+        <br>
+        Isso então abrirá a janela de diálogo do teste de atributo, veja abaixo.
+    </p>
+    <br>
+
+    <h2>Realizando um Teste Contra Atributo</h2>
+    <p>Se o teste precisar ser realizado contra um token no campo do jogador, então o jogador que realizará o teste deve selecionar o token como alvo.&nbsp;
+        Para selecionar um alvo, clique com o botão direito nele e marque o "ícone de alvo".
+        O alvo selecionado então terá setas apontando para ele, indicando que agora é um alvo do jogador.
+        <br>
+        &nbsp;<span class="img07">&nbsp;</span>&nbsp;
+        <br>
+        Depois disso, o jogador clica no atributo que deseja utilizar.
+        Isso apresentará a janela de diálogo do teste de atributo, onde ele poderá selecionar qual atributo o token usa para resistir ao teste.
+        O sistema então aplicará automaticamente quaisquer bônus ou penalidades normalmente ao teste.
+    </p>
+
+    <br>
+    <h2>A Janela de Diálogo do Teste de Atributo</h2>
+    <p>
+        A janela de rolagem é dinâmica e mostra elementos relevantes para o teste.
+        Na maioria dos testes de atributo, existem três elementos.
+        O atributo de oposição, que é o atributo do token alvo selecionado utilizado para resistir ao atributo que o jogador está rolando.
+        Por exemplo, um jogador precisa realizar um teste <em>[Persuasive&larr;Resolute]</em> contra um token no campo.
+        Ele selecionou o token como alvo e clicou no atributo <em>Persuasive </em>.
+        Na janela de diálogo, o atributo selecionado aparece no título da janela, <em>Persuasive</em>.
+        <br>
+        &nbsp;<span class="img08">&nbsp;</span>&nbsp;
+        <br>
+        O jogador então pode selecionar o atributo contra o qual o teste será realizado; no exemplo acima, é o Resolute do alvo que será usado como atributo de oposição.
+        O segundo campo define se este é um teste normal ou se o teste é feito com favor ou desfavor.
+        Veja a explicação dos termos Favor e Desfavor mais abaixo neste documento.
+    </p>
+    O último campo é qualquer modificador personalizado que se aplique a este teste, além do atributo de oposição selecionado.
+    É importante notar que, se o atributo de oposição estiver configurado como&nbsp;<em>Custom</em>&nbsp;, então nenhum atributo será utilizado e quaisquer penalidades ou bônus precisarão ser inseridos neste campo.
+    <br>
+    <br><br>
+    <h1>Habilidades, Poderes e Traços</span></h1>
+
+
+    &nbsp;<span class="img09">&nbsp;</span>&nbsp;
+
+    <p>
+        Todas as Habilidades, Poderes Místicos e Traços estão disponíveis nos compêndios do sistema, porém vêm sem descrições.
+        Caso queira as descrições, você pode preenchê-las manualmente ou adquirir um dos módulos da Free League para o sistema Symbaroum.
+        Para adicionar qualquer um deles à ficha de um personagem ou monstro, basta arrastá-lo do compêndio para a ficha.
+        Depois, você pode indicar os níveis conhecidos por esse personagem marcando a caixa "learned" nas abas Novice, Adept e Master.
+        <br>
+        &nbsp;<span class="img10">&nbsp;</span>&nbsp;
+        <br>
+        Você pode criar suas próprias habilidades, mas para utilizar os recursos do sistema, será necessário usar as Habilidades, Poderes e Traços incluídos nos compêndios.&nbsp;
+    </p>
+    <br><br>
+
+    <h1>Abilities</h1>
+    <p>
+        Some abilities and traits, when given to a character (PC and NPC), will have effect on her character sheet and / or on dialog windows.
+    </p>
+    <h3><strong>Dominate, Feat of strength, Feint, Knife Play, Sixthsense, Strong gift, Tactician</strong></h3>
+    <p>
+        Defense and attack attribute will be changed when the character uses relevant weapons.
+    </p>
+    <h3><strong>Shield fighter, Staff fighting, Steel throw, Natural warrior, Natural weapon</strong></h3>
+    <p>
+        Damage value of the weapon will be increased, and/or defense value.
+    </p>
+    <h3><strong>Man-at-arms, Armored, Armored Mystic, Robust, Survival instinct</strong></h3>
+    <p>
+        Protection value of the armor and/or impeding will be modified.
+    </p>
+    <h3><strong>Colossal, Undead, Spirit form, Swarm</strong></h3>
+    <p>
+        Those traits will apply damage reduction when using Enhanced Combat (see Enhanced combat option)
+        Damage value of the weapon will be increased, and defense value. Please note that the extra bonus of Staff fighting when using a wooden staff or a mystic staff isn't included (please add +1 defense in the bonus tab of the relevant weapons).
+    </p>
+    <h3><strong>Beast Lore, Backstab, Colossal, Corrupting attack, Feat of strength, Hunter's instinct, Iron Fist, Knife Play, Natural Warrior, Rapid Fire, Robust</strong></h3>
+    <p>
+        When using Enhanced Combat option, having those abilities or traits and using the right weapon type will make specific options available in the attack window.
+    </p>
+    <h3><strong>Knife Play, Staff fighting, Staff magic, Sword saint</strong></h3>
+    <p>
+        Those traits activate when the character wields special weapons. In order for the bonuses to appear on the character sheet, the corresponding compatibilities must be checked in the "qualities" tab of the weapon sheet.
+    </p>
+    <br><br>
+
+    <h1>Using Powers</h1>
+    <p>
+        Powers can be activated by clicking on the icon for the power on the character sheet (see <i>Adding Abilities, Traits, Boons and Burdens</i>), or opening the power and clicking on the orange dice of the item sheet (shown below).
+        <br>
+        &nbsp;<span class="img11">&nbsp;</span>&nbsp;
+        <br>
+        Many powers, abilities and traits have been automatized. Using a power this way will calculate damage / healing on the target, generated corruption, etc. <br>
+        Powers: <br>
+        Anathema,&nbsp;blessed shield, brimstone cascade,&nbsp;bend will,&nbsp;black bolt,&nbsp;confusion,&nbsp;curse,&nbsp;dancing weapon,&nbsp;earth shot,&nbsp;entangling vines,&nbsp;holy aura,&nbsp;inherit wound,&nbsp;larvae boils,&nbsp;lay on hands,&nbsp;levitate,&nbsp;maltransformation,&nbsp;Prios burning glass,&nbsp;Revenant strike,&nbsp;tormenting spirits,&nbsp;unnoticeable,&nbsp;witch hammer
+        <br>
+        Abilities:
+        <br>
+        Alchemy,&nbsp;acrobatics,&nbsp;berserker,&nbsp;dominate,&nbsp;leader,&nbsp;loremaster,&nbsp;medicus,&nbsp;poisoner,&nbsp;quickdraw,&nbsp;recovery,&nbsp;witchsight.
+        <br>
+        Traits:
+        <br>
+        Poisonous,&nbsp;Regeneration,&nbsp;Shapeshifter,&nbsp;Wisdom of the ages.
+        <br><br>
+        When you activate a power, it will take in account the relevant abilities of the character and its target (leader ability, rapid reflexes, steadfast, traditions, impeding armor...).
+        It will open a dialog window for the acting player asking a few questions:
+        <br>
+
+        &nbsp;<span class="img12">&nbsp;</span>&nbsp;
+        <br>
+    <ul>
+        <li>manual modifer (any other modifier to the roll...)</li>
+        <li>favour / disfavour (see favour section of this guide)</li>
+        <li>first casting or maintained. First casting is for the first round the player use the ability, and maintain is for the subsequent rounds or for chain casting (if relevant). The main difference is that "first cast" will generate corruption for the caster, while "maintain" will not.</li>
+    </ul>
+    Most roll should be left by default. <br>
+    Than the roll is made, and result is announced in the chat.
+    <br>
+    &nbsp;<span class="img14">&nbsp;</span>&nbsp;
+    <br>
+    Corruption is calculated taking into account the level in Theurgy, Wizardry, Witchcraft, Blessings, Sorcery.
+    <br>
+    If the result have effects on a token (damage, healing, corruption, stutus effects...) the Gamemaster gets a chat entry with a button.
+    <br>
+    &nbsp;<span class="img15">&nbsp;</span>&nbsp;
+    <br>
+    Clicking the button will automaticaly affect the results of the power to the tokens: damage will be substracted from toughness, temporary corruption added, etc.
+    <br>
+    In order to do chain effects, you'll have to cast the power on each target, checking the "maintained" box after the first target.
+    </p>
+    <h2>Power and Abilities specifics:</h2>
+    <h3><strong>Anathema</strong></h3>
+    <p>Anathema can be used with or without a target. The target should be the opposing caster.</p>
+    <h3><strong>Berserker</strong></h3>
+    <p>When using this ability, the effects will automaticaly modify the combat values of the character (armor, defense, damage). Use the abality again to revert to normal.</p>
+    <h3><strong>Brimstone cascade</strong></h3>
+    <p>When striking multiple targets, use the power several times, changing the target each time. After the first target, use the "maintain power" option so the casting character won't get corruption.</p>
+    <h3><strong>Blessed Shield</strong></h3>
+    <p>When using the power on 1 or 2 other characters (adept and master level), select them as targets before using the power.
+        If successful, the Mystic and the target will automaticaly get an active "blessed shield" stackable armor. At the end of the duration of the power, just delete this item from their inventory.
+    </p>
+    <h3><strong>Dancing Weapon</strong></h3>
+    <p>When using this power, the character will enter "Dancing weapon mode": his combat stats on defense and melee weapons will be replaced by resolute (or persuasive if relevant). Just use the power again to exit the "Dancing weapon" mode. Please note that clicking on the power won't generate corruption - you'll have to take care of this manually.
+    </p>
+    <h3><strong>Entangling vines</strong></h3>
+    <p>It's always the caster that should initiate the roll. After the second round, the strenght of the target will be used as a resist value, as in the rules.
+    </p>
+    <h3><strong>Inherit wound</strong></h3>
+    <p>Target will be healed and damage will apply to the caster.&nbsp;If enhanced combat is used, and the level is adept or master, poison and bleeding effects will also be transfered from target to caster.
+    </p>
+    <h3><strong>Levitate</strong></h3>
+    <p>If no target are selected, the spell will be cast on self. If a target is selected and level is adept or master, the power will be cast on the target.
+    </p>
+    <h3><strong>Leader</strong></h3>
+    <p>Using leader will trigger the adept level effect: the target will receive a "targeted" status effect. When any character attacks this target, damage will receive a +1d4 bonus (or +2 if attack from a NPC). Just delete the status effect on the token to remove the effect.</p>
+    <br><br>
+
+    <h1>Combat</span></h1>
+    <p>There are 2 options for combat:
+        <br>
+    <h2>Default Combat:</h2>
+
+    <p>As with normal attribute rolls, combat works almost the same.
+        The player has, based on its abilities and traits, selected which attribute is used for its initiative, defense and attack.
+        The attack is set when you add a weapon to a character, as different weapons can use different attributes.
+        <br>
+    <h3><strong>Make an Attack</strong></h3>
+    To make an attack with a weapon, the player clicks the weilded weapon on their character sheet under the main tab, or right click an active weapon and select "Attack".
+    <br>
+    &nbsp;<span class="img16">&nbsp;</span>&nbsp;
+    <br>
+    It will then bring up the attribute test dialogue, where an attribute can be selected, or, which is more common in combat, the targets&nbsp;<em>defense</em>&nbsp;is selected.
+    <br>
+    &nbsp;<span class="img17">&nbsp;</span>&nbsp;
+    <br>
+    Beside the normal fields in the attribute test dialogue, the player can also choose to make this attack with&nbsp;<em>Advantage</em>&nbsp;as well as any damage bonuses beyond those bestowed by&nbsp;<em>Advantage</em>&nbsp;or the wearpon, for example&nbsp;<em>Backstab</em>.
+    The result of the attack is then displayed in the chat window which then can be applied to the token on the battlefield.
+    <br>
+    &nbsp;<span class="img18">&nbsp;</span>&nbsp;
+    <br>
+    <h3><strong>Defend against an attack</strong></h3>
+    To make a defense test against an attack, the player clicks on the equipped armor on the main tab of the character sheet or right click an active armor and select 'Defend', which then opens the attribute test dialogue. 
+    This dialogue has a subtle difference that it also has a checkmark if the people attacking the player have&nbsp;<em>Advantage</em>, i.e. the player is at&nbsp;<em>Disadvantage</em>.
+    <br>
+    &nbsp;<span class="img19">&nbsp;</span>&nbsp;
+    <br>
+    If the defense is unsuccessful, then it will automatically roll the armor roll and display it in the chat window.
+    <br>
+    &nbsp;<span class="img20">&nbsp;</span>&nbsp;
+    <br>
+    In the example above, Abesina failed her defense test and her robes protects her for 2 points of damage.
+    </p>
+    <br><br>
+
+    <h2>Enhanced Combat:</h2>
+    <p>
+        Enhanced combat can be activated by selecting the option in the system settings. The purpose of EC is to accelerate combat, limit Players and GM fidgeting with character sheets, and vastly simplify NPC management.
+        <br />
+        The main functionnalities of EC are:
+        <ul>
+            <li>Process attacks by integrating relevent attacker and defender abilities, traits, items...</li>
+            <li>Automaticaly calculate attack result (damage, corruption, status effects, alternative damage) and apply them on the target</li>
+            <li>Offer to process multiple attacks in one click</li>
+        </ul>
+        When using EC option with token-action-hub module, a GM can play a whole combat without opening sheets. Vastly limiting fidgeting with sheets, checking NPC abilities and calculating stuff, EC will simplify and accelerate the technical part of managing combat so you can focus on story, descriptions and roleplay.
+    <p>
+        <a href="https://youtu.be/P615_E_GpLQ">This quick video</a> explains how to use the enhanced combat features.
+    </p>
+    <br><br>
+    Armor and weapons have to be equipped by the PCs and NPCs in order to be taken in account.<br>
+    It automaticaly processes the attributes, traits&nbsp; and abilities of the attacker and its target, rolls the dice, evaluate damage.<br><br>
+    The attribute used for attacking has to be defined on the weapon sheet. The defense attribute has to be selected on the character sheet. PCs and NPCs armors and weapons value have to be entered as 'dice' (for example a sword damage value would be 1d8 - the system will automaticaly transform this value to a fixed 4 when a NPC attacks a PC)
+    <br><br>
+    If a player character attacks a NPC, the player has to select its target, then click on a weapon to do the attack.
+    If a NPC attacks a PC, the GM select the target, then clicks on the NPC weapon.
+    <br><br>
+    A dialog window will appear, asking which active or contextual abilities of the attacker are to be used (iron fist, hunter's instinct...).
+    <br>
+    &nbsp;<span class="img21">&nbsp;</span>&nbsp;
+    <br>
+    Then the attack roll is made, and if it's a hit, damage is roll. Result is printed in the chat.<br />
+    Please note that, even if it's always the attacker that initiates the attack and choose wich abilies he uses, the roll is done from the player's perspective: 
+    <ul><li>PC attacks NPC: the roll is made against attack modifed by defense. If success, damage is rolled and fixed protection is substracted.</li>
+        <li>NPC attacks PC: the roll is made against defense modifed by attack. If failure, protection is- rolled than substracted from fixed damage.</li>
+        <li>NPC attacks NPC or PC attacks PC: the roll is made against attack modifed by defense. If success, damage is rolled and fixed protection is substracted.</li>
+    </ul>
+    <br>
+    &nbsp;<span class="img22">&nbsp;</span>&nbsp;
+    <br>
+    The Gamemaster then gets a chat entry with a button.
+    <br>
+    &nbsp;<span class="img15">&nbsp;</span>&nbsp;
+
+    <br>
+    Clicking the button will automaticaly affect the results of the attack to the tokens: damage will be substracted from toughness, status icons like poison and bleed added, etc.
+    We recommend using the "Status icons counters" in order to have the duration of those effects displayed on the token and in the combat tracker.
+    <br>
+    The "Undead", "Spirit form" and "swarm" traits will apply damage reduction. If a weapon is marked as Artifact, it is automatically treated as mystical. If there are other reasons why a weapon should be counted as mystical, then that has to be done through the "mystical" quality, which will then ensure that damage is dealt correctly.
+    <br>
+    Alternative damage will reduce the relevant attribute (it will use the "modifier" field of the attribute sheet.)
+    <br />Please note that damage over time (poison, bleeding, burning) is calculated but not applied by the system. That kind of damage have to be manualy modified on the character. Only the relevant status icon will be applied on the token.
+    </p>
+    <br><br>
+
+    <h1>Initiative:</h1>
+    The initiative used in the Symbaroum for FVTT system works the same way than stated in the rulebook, but in order to integrate in FVTT it uses the formula:
+    <br>
+    initiative = quick + vigilant x 0.01.
+    <br>
+    This simple formula produces the same order than the rulebook.
+    So initiative 15.10 means <i>Quick</i> 15, <i>Vigilant</i> 10.
+    It is possible to change the base attribute used for the formula in the character sheet (for characters with the <i>Tactician</i> ability, for example).
+
+    <h1>Favour/Disfavour:</h1>
+    <p>
+        The term&nbsp;<em>favour/disfavour</em>&nbsp;used in dialog boxes refers to situation when the acting character either rolls 2 dice and keeps the best (Hunter's instinct ability, steadfast resistance, ...) or in cases where disfavour (cursed, pariah, ...) is used, it keeps the worst.&nbsp;
+        <br><br>
+
+    <h1>Bonuses</h1>
+    <p>
+        All items can have different bonuses configurable. These can be used by the GM for various purposes, ranging from giving boosts or penalties to attributes, to increasing or decreasing toughness, changing corruption values.
+        It can also be used to reduce the experience cost of something or even give a player experience without changing their total experience earned (only their unspent).
+        When viewing any items, it will have a bonus section where an items behaviour can be changed.&nbsp;
+        <br>
+        &nbsp;<span class="img23">&nbsp;</span>&nbsp;
+        <br>
+        It should be noted that Powers &amp; Abilities give bonuses as soon as they are on the character sheet.
+        Bonuses on armor, weapons and items are only given when they are equipped.
+        If an item gives a bonus to an attribute, then it is included in the printed "total" value and listed in the corresponding tooltip.
+        For example, here is a character with ability "Exc Attribute Vigilant" novice, and a base Vigilant value of 15:
+        <br>
+        &nbsp;<span class="img13">&nbsp;</span>&nbsp;
+        <br>
+    </p>
+    <h1>Death Saves & recovery</h1>
+    <p>
+        When a player needs to make a death save or recover from one, then there is two buttons at the top of the character sheet that allows to roll that automatically.
+        &nbsp;<span class="img29">&nbsp;</span>&nbsp;
+        <br/>
+        If a modifier is needed for the death save, such in case they are wearing a witch braid (see APG), then holding down shift while clicking the death save will prompt a menu for modifiers.
+        &nbsp;<span class="img28">&nbsp;</span>&nbsp;
+        <br/>
+        In case of one or more failed death rolls, skulls appears on the portrait of the character sheet, 1 skull for 1 failure, 2 skulls for 2 failures and 3 skulls for the final failure.  The skulls are removed as soon as the person <i>recover</i>.
+    </p>
+    <h1>Text Enrichers</h1>
+    <p>
+        Three text enrichers exists within the system, @Tour, @SymbaroumActor and @fas. 
+        <br>The Tour command requires a tourId in brackets [] followed by display name in curly brackets {}.
+        <br>The SymbaroumActor command requires an actor-name in [] and optional display name in {} and optional comma separated list of integrated abilities</br>
+        <br>The @fas can be used to embed Awesome Font icons into a journal or character sheet.
+    </p>
+    <h1>System settings</h1>
+    <p>
+        The following system settings exist (see @Tour[settings-tour]{Symbaroum configuration guide}) - you can turn on and of to your hearts content or as you see fit for running your campaign.
+        <br>
+        <b>Configure Symbaroum Settings</b><br>
+        This is a user setting which allows some modification of sheet backgrounds and colorations (see below). <br>
+        <b>World Template Version</b><br>
+        This is a developer function - do not change unless you really intend it. <br>
+        <b>World System Version</b><br>
+        This is a developer function - do not change unless you really intend it. <br>
+        <b>Combat Enhancement</b><br>
+        Turns the automated combat enhancement on or off. Please note that if you turn it on, the game will work a bit differently and players no longer rolls defense <br>
+        <b>Resist roll button</b><br>
+        When NPCs use powers that can be resisted, or attack with Combat Enhancement options, instead of rolling directly this option creates a button in the relevant player Chat that the Player will have to click on for the resist roll to be done. <br>
+        <b>Always able to succeed or fail</b><br>
+        If you want the system to always succeed on a roll of 1 or fail on a roll of 20<br>
+        <b>Optional Critical Rolls</b><br>
+        Enables the normal critical rolls as detailed in the optional rule in the core book. <br>
+        <b>Optional Rare Critical Rolls</b><br>
+        Enables the more rarer criticals as detailed in the optional rule in the core book. <br>
+        <b>Allow crits for non-combat</b><br>
+        This enables the system to print a message when there is a critical success or failure with normal attribute rolls. Crit ratio is the same as for combat<br>
+        <b>Combat settings for rolls</b><br>
+        Enables QoL enhancements for keeping modifiers between strikes<br>
+        <b>Attribute settings for rolls</b><br>
+        Enables QoL enhancements for keeping modifiers between specific attribute rolls<br>
+        <b>Show modifiers in targetted</b><br>
+        In attribute rolls, or combat rolls, shows the modifier the versus attribute gives<br>
+        <b>Show NPC modifiers</b><br>
+        Shows the character sheet for NPC/monster sheets as in the core book (i.e. from +5 to -5)<br>
+        <b>Show multiple attacks in the weapon box for NPCs</b><br>
+        The system will try to show the number of attacks an NPC can do. As the system do not know primary weapon, you might need to adjust which weapon gets a bonus, like "Twin Attack (Master)" - which is not accounted for without this setting, as you see fit as a GM.  The format are as follows: <ul>
+            <li>Any single attacks that prevents multiple attacks followed by a comma ','</li>
+            <li>Potential damage per attack with the given weapon, separated by a slash '/'</li>
+        </ul>
+        Note that due to these limitations - some judgement has to be done on which attack uses which value.
+        <br>
+        <b>Allow reference modifications</b><br>
+        Only shows for GM and shows a reference field on abilities, traits, etc. This reference is used for the automation of abilities. <br>
+        <b>Suppress initiative Rolls</b><br>
+        While Symbaroum do not roll for initiative, the system has to do so for the tie breaker. This just turns of the visibility of this roll from chat. <br>
+        <b>Manually select initiative</b><br>
+        Allows manual selection of the initiative attribute.<br>
+        <b>Add Symbaroum Settings button</b><br>
+        This adds a Symbaroum setting button under the Foundry Configuration sidebar<br>
+
+    </p>
+    <br>
+    <h2>Configure Symbaroum Settings</h2>
+    <p>
+        Under the configuration sidebar there is a now a "Configure Symbaroum Settings" button which is visible to all users.
+        <br>
+        &nbsp;<span class="config-button">&nbsp;</span>&nbsp;
+        <br>
+        Selecting this a user can change the character/NPC backgrounds as well as the title, editable and non-editable field colours.
+        <br>
+        &nbsp;<span class="configuration-settings">&nbsp;</span>&nbsp;
+        <br>
+        Selecting the "Plain Color Picker" on any of the drop downs will display a color choice box for that item.
+        <br>
+        A pop-up colour selector will appear when the box is clicked on. From there you can select any colour/brightness combination you want.
+        <br>
+        &nbsp;<span class="configuration-settings-cp">&nbsp;</span>&nbsp;
+        <br>
+        Once you have made your selection(s) click the "Submit" button to enable them.
+        In the event you make a choice you are unhappy with there is a selection of reset buttons to take you back to the default.
+        <br><br>
+        Background options:
+    </p>
+    <div class="imagecontainer">
+        <img src="/systems/symbaroum/asset/image/system-guide/artboard_4.webp" style="width:70%; margin-left: 15%;">
+    </div>
+
+    <br>
+    <h1>Macros</h1>
+    <p>
+        The system comes with a set of macros that might be useful at your gaming table.
+        <br />
+        <b>Add Exp</b><br />
+        A macro for the Gamemaster to add Experience to a party. You can select tokesn, or if no tokens are selected, it gives you a list of player characters from your actor catalog.
+        <br />
+        <b>Alternate Damage</b></br>
+        With this macro, you can deal Alternative Damage to a given token.
+        <br />
+        <b>Name Generator</b><br />
+        The macro will generate and publish a set of 10 Symbaroum-esque names based on the culture selected for a quick generation of names. There are x cultures available -
+        Ambrian (feminine, masculine, noble), Barbarian (feminine, masculine), Symbaroum, Abducted Human (feminine, masculine), Dwarf (firstnames, surname), Elf (feminine, masculine, Goblin (feminine, masculine),
+        Troll (normal, ancient).
+        <br />
+        <b>CRB Character Importer</b><br />
+        The macro can import Player, NPC or Monsters from the Core Symbaroum book, many adventures and the Monster Codex via copy &amp; paste. All you need to do is validate abilities and put the gear on the character. Check the text on the macro on how to use it.
+        <br />
+        <b>Starter Set Character Importer</b><br />
+        The macro can import Player, NPC or Monsters from the Starter Set Symbaroum book &amp; the Adventure Collection via copy &amp; paste. All you need to do is validate abilities and put the gear on the character. Check the text on the macro on how to use it.
+        <br />
+        <b>Symbaroum.fr Character Importer</b><br />
+        The macro can import Player, NPC or Monsters from the Symbaroum.fr website. Export the JSON for the character and then open it to copy &amp; paste the text within as is.  All you need to do is validate abilities and put the gear on the character.
+        <br />
+        <b>Pay for re-roll</b><br />
+        Using the alternative rules for paying for re-rolls with either experience or permanent corruption. It will prompt the player to select the character they own, or the token they have selected.
+        Note that this macro only pays the cost for the re-roll, it does not perform another re-roll.
+        <br />
+        <b>Reset temporary corruption</b><br />
+        Allows the GM to reset the temporary corruption on the selected token, or if no tokens are selected, to any number of player characters in their actor catalog.
+        <br />
+        <b>Roll attribute</b><br />
+        Allows a player to select attribute and character to roll without opening their character sheet.
+        <br />
+        <b>Toggle player/monster</b><br />
+        Toggles a named player or monster in the actor catalog between being a player or monster character
+        <br />
+    </p>
+    <br><br>
+    <h1>Big thanks</h1>
+    <p>
+        The developers of the Symbaroum for Foundry system would like to thank everyone that contributes to the system. This includes our fantastic translators for the various languages that Symbaroum now supports. Our current translators are:<br/>
+        <ul>
+            <li>French - Khaali</li>
+            <li>German - DasTorfu,Padraig359</li>
+            <li>Spanish - kufferino</li>
+            <li>Italian - Surcof</li>
+            <li>Swedish - Weymyss, Krister Persson</li>
+        </ul>
+        The gorgeous art created for the backgrounds of the character sheet by AshesToAshe (AshesForAshe#6498).
+    </p>
+    <br><br>
+    <h1>Supported Modules</h1>
+    <p><a href="https://foundryvtt.com/packages/dice-so-nice/">Dice-so-nice</a>
+    <p><a href="https://foundryvtt.com/packages/token-action-hud/">Token action hud</a></p>
+    <p>Note that Token Action Hud have an issue with "No armor" - solution is to create a skin-armor</p>
+</div>
