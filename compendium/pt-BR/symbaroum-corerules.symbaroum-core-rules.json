@@ -111,9 +111,9 @@
           }
         },
         "02-c - Ambria and Davokar (Plain Hex)": {
-          "name": "02-c - Ambria and Davokar (Plain Hex)",
+          "name": "02-c - Ambria e Davokar (Plain Hex)",
           "notes": {
-            "Thistle Hold": "Thistle Hold",
+            "Thistle Hold": "Forte do Cardo",
             "Yndaros": "Yndaros",
             "Karvosti": "Karvosti"
           }
@@ -268,7 +268,8 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -311,7 +312,8 @@
               "name": "Quiver"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -352,7 +354,8 @@
               "name": "Herbal Cure"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -368,7 +371,8 @@
               "name": "Bow"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -430,7 +434,8 @@
               "name": "Cloak"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -484,7 +489,8 @@
               "name": "Lucky Charm"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -493,7 +499,8 @@
           "tokenName": "Grumpa, aka Xavagunda",
           "items": {
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             },
             "Pariah": {
               "name": "Pariah"
@@ -590,7 +597,8 @@
               "name": "Tankard"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -625,7 +633,8 @@
               "name": "Sack"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -673,7 +682,8 @@
               "name": "Scrolls (on area of expertise)"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -737,7 +747,8 @@
               "name": "Belt pouch"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -762,7 +773,8 @@
               "name": "Crow Armor"
             },
             "Axe": {
-              "name": "Axe"
+              "name": "Machado",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Sword": {
               "name": "Espada",
@@ -781,7 +793,8 @@
               "name": "Crossbow"
             },
             "Axe": {
-              "name": "Axe"
+              "name": "Machado",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -820,7 +833,8 @@
               "name": "Steel Throw"
             },
             "Axe": {
-              "name": "Axe"
+              "name": "Machado",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Throwing Spear": {
               "name": "Throwing Spear"
@@ -838,7 +852,8 @@
               "name": "Wooden Figurine"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             },
             "Shield": {
               "name": "Escudo",
@@ -893,7 +908,11 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Regeneration": {
-              "name": "Regeneration"
+              "name": "Regeneração",
+              "description": "<p>A criatura se cura espontaneamente, sem a necessidade de gastar tempo ou energia para fazê-lo. Contudo, a criatura possui uma fraqueza, um tipo de dano específico que não pode regenerar (que, obviamente, pode ser curado de outras maneiras).</p> <p>A criatura deve escolher uma fraqueza relacionada a algum tipo de dano que não pode curar automaticamente. Escolha entre armas mágicas, energias elementais (fogo ou ácido) e dano sagrado ou profano.</p>",
+              "noviceDescription": "<p>Regenera 2 de Vitalidade por turno.</p>",
+              "adeptDescription": "<p>Regenera 3 de Vitalidade por turno.</p>",
+              "masterDescription": "<p>Regenera 4 de Vitalidade por turno.</p>"
             },
             "Robust": {
               "name": "Robusto",
@@ -956,7 +975,11 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Regeneration": {
-              "name": "Regeneration"
+              "name": "Regeneração",
+              "description": "<p>A criatura se cura espontaneamente, sem a necessidade de gastar tempo ou energia para fazê-lo. Contudo, a criatura possui uma fraqueza, um tipo de dano específico que não pode regenerar (que, obviamente, pode ser curado de outras maneiras).</p> <p>A criatura deve escolher uma fraqueza relacionada a algum tipo de dano que não pode curar automaticamente. Escolha entre armas mágicas, energias elementais (fogo ou ácido) e dano sagrado ou profano.</p>",
+              "noviceDescription": "<p>Regenera 2 de Vitalidade por turno.</p>",
+              "adeptDescription": "<p>Regenera 3 de Vitalidade por turno.</p>",
+              "masterDescription": "<p>Regenera 4 de Vitalidade por turno.</p>"
             },
             "Robust": {
               "name": "Robusto",
@@ -987,7 +1010,8 @@
               "name": "Troll Skin"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -1023,7 +1047,8 @@
               "name": "Troll Skin"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -1053,7 +1078,11 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Regeneration": {
-              "name": "Regeneration"
+              "name": "Regeneração",
+              "description": "<p>A criatura se cura espontaneamente, sem a necessidade de gastar tempo ou energia para fazê-lo. Contudo, a criatura possui uma fraqueza, um tipo de dano específico que não pode regenerar (que, obviamente, pode ser curado de outras maneiras).</p> <p>A criatura deve escolher uma fraqueza relacionada a algum tipo de dano que não pode curar automaticamente. Escolha entre armas mágicas, energias elementais (fogo ou ácido) e dano sagrado ou profano.</p>",
+              "noviceDescription": "<p>Regenera 2 de Vitalidade por turno.</p>",
+              "adeptDescription": "<p>Regenera 3 de Vitalidade por turno.</p>",
+              "masterDescription": "<p>Regenera 4 de Vitalidade por turno.</p>"
             },
             "Robust": {
               "name": "Robusto",
@@ -1072,7 +1101,8 @@
               "name": "Lucky charm"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -1276,8 +1306,12 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Regeneration": {
-              "name": "Regeneration"
-            },
+              "name": "Regeneração",
+              "description": "<p>A criatura se cura espontaneamente, sem a necessidade de gastar tempo ou energia para fazê-lo. Contudo, a criatura possui uma fraqueza, um tipo de dano específico que não pode regenerar (que, obviamente, pode ser curado de outras maneiras).</p> <p>A criatura deve escolher uma fraqueza relacionada a algum tipo de dano que não pode curar automaticamente. Escolha entre armas mágicas, energias elementais (fogo ou ácido) e dano sagrado ou profano.</p>",
+              "noviceDescription": "<p>Regenera 2 de Vitalidade por turno.</p>",
+              "adeptDescription": "<p>Regenera 3 de Vitalidade por turno.</p>",
+              "masterDescription": "<p>Regenera 4 de Vitalidade por turno.</p>"
+                },
             "Robust": {
               "name": "Robusto",
               "description": "<p>O personagem pertence a uma raça de criaturas que são naturalmente altas e frequentemente continuam a crescer suas vidas inteiras. Mas há variações: alguns crescem rapidamente, outros mais devagar, e alguns nem mesmo parecem crescer.</p>",
@@ -1476,7 +1510,8 @@
               "name": "Scales"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -2161,6 +2196,11 @@
         "Godrai": {
           "name": "Godrai",
           "tokenName": "Godrai",
+          "race": "Elfo (Verão)",
+          "occupation": "Elfo do final do verão",
+          "manner": "Estatura altiva, expressão severa",
+          "shadow": "Vermelho Azulado",
+          "tactics": "Godrai irá disparar flechas envenenadas em inimigos com armas à distância e usará movimentos acrobáticos para permanecer longe do combate corpo a corpo.",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -2226,13 +2266,20 @@
               "name": "Bandana de ferro enferrujado"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
         "Hunger Wolf": {
-          "name": "Hunger Wolf",
-          "tokenName": "Hunger Wolf",
+          "name": "Loba Faminta",
+          "tokenName": "Loba Faminta",
+          "race": "Elfo (Verão)",
+          "occupation": "Keri-Las em sua forma de lobo.",
+          "manner": "Rosna com os dentes à mostra, e então tenta atacar Ludo e Belun",
+          "shadow": "Vermelho Sangrento com uma borda ligeiramente coagulada",
+          "background": "<p>quando a loba faminta morre, ela se transofrma de volta à sua forma original.</p> <p>Uma elfa ferida jaz no chão, tão sem vida quanto a besta que foi morta pelos personagens. Ela está vestida com um casaco de lã e não carreega armas. Seu nome verdadeiro era Keri-las, e ela era uma batedora do grupo que está caçando os irmãos.</p> <p>Ela veste um bracelete bem decorado em seu braço esquerdo. Um personagem jogador com sua habilidade <i>Mestre do Saber<i> que obtiver sucesso em uma jogada contra astuto percebe que isso era um antigo anel de juramento élfico; um símbolo do Pacto de Ferro, supostamente uma antiga aliança ou acordo entre humanos e elfos.</p>",
+          "tactics": "Keri-las tenta acertar os batedores bárbaros e irá matá-los se não conseguir pegá-los vivos. Ela não tenta matar outros (como os personagens jogadores), mas irá feri-los se ficarem em seu caminho.",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -2249,7 +2296,12 @@
               "masterDescription": "<p>Ao atacar os pontos fracos de um oponente com uma precisão impecável — como na garganta e joelhos — os golpes desarmados do Mestre são verdadeiramente devastadores. Cada ataque que acerta causa 1D6 de dano extra.</p>"
             },
             "Shapeshift": {
-              "name": "Shapeshift"
+              "name": "Metamorfose",
+              "material": "Um pouco de pelo ou couro da besta em questão.",
+              "description": "<p>A compreensão do Místico sobre a essência da Natureza torna possível para ele ou ela assumir a forma de bestas — um talento pelo qual as bruxas-serpente do clã Gaoia são particularmente famosas.</p>",
+              "noviceDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode assumir a forma de uma besta pequena (mamífero ou réptil), o que é muito prático quando se deseja escapar ou fazer reconhecimento de terreno, mas é inútil em combate.</p> <p>Os Atributos do Místico permanecem inalterados, mas ele pode se mover duas vezes mais rápido e pode rerrolar todos os Testes de Discreto e Rápido (inclusive Defesa).</p> <p>Além disso, inimigos não recebem Ataques Livres contra o Místico quando está nesta forma, mesmo se recuar do combate corpo a corpo ou passar por um inimigo.</p> <p>O Místico não precisa testar Resoluto para permanecer na forma de besta, mas precisa passar em um Teste de Resoluto para voltar à sua forma original. Pela duração da transformação, o Místico conta como uma besta.</p> <p>Se o Místico for vítima de poderes que afetam bestas, então ele pode escolher permanecer na forma de besta; e assim sofrer o efeito do poder; ou reverter de volta à sua forma original.</p>",
+              "adeptDescription": "<p>O Místico pode assumir a forma de uma besta de batalha (javali ou lobo são as mais comuns). A forma de besta tem os Atributos do Místico, mas também recebe os traços @UUID[Item.Xr7bWs207ZVRpXEj]{Armadurado (I)} e @UUID[Item.5YtJyy2zkjpmb9d6]{Arma Natural (I)} .</p>",
+              "masterDescription": "<p>O Místico agora pode assumir a forma de uma besta de batalha verdadeiramente imponente, recebendo os traços @UUID[Item.5ARJy8NPBaFW4ODJ]{Regeneração (I)} e @UUID[Item.ESNdn1hIKnuQdgV8]{Robusto (I)} em adição aos recebidos pelo nível de Adepto.</p>"
             },
             "Armored": {
               "name": "Armadurado",
@@ -2266,19 +2318,20 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Bite": {
-              "name": "Bite"
+              "name": "Mordida"
             },
             "Wolf Hide": {
-              "name": "Wolf Hide"
+              "name": "Pele de Lobo"
             },
             "Arm bracelet": {
-              "name": "Arm bracelet"
+              "name": "Bracelete",
+              "description": "Um bracelete de ferro enferrujado."
             }
           }
         },
         "Jakaar (as many as the PCs)": {
-          "name": "Jakaar (as many as the PCs)",
-          "tokenName": "Jakaar (as many as the PCs)",
+          "name": "Jakaar (tanto quanto os PJs)",
+          "tokenName": "Jakaar",
           "items": {
             "Armored": {
               "name": "Armadurado",
@@ -2295,10 +2348,10 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Bite": {
-              "name": "Bite"
+              "name": "Mordida"
             },
             "Wolf Hide": {
-              "name": "Wolf Hide"
+              "name": "Pele de Lobo"
             }
           }
         },
@@ -2369,18 +2422,29 @@
         "Ludo": {
           "name": "Ludo",
           "tokenName": "Ludo",
+          "race": "Humano (Bárbaro)",
+          "occupation": "Desbravador",
+          "manner": "Olhos Piscando, voz trêmula",
+          "shadow": "Verde mofado com manchas de escuridão crescente",
+          "appearance": "<p>“Não estou doente, mal toquei no crânio, prometo!”</p> <p>Ludo ostenta um estigma como sinal de sua corrupção crescente, ele tem ferimentos que não irão curar nas dobras de todas as suas juntas.",
+          "background": "Note que se Ludo for salvo, mais cedo ou mais tarde ele terá o mesmo destino que Belun, Quando ludo for transformado, o Mestre de Jogo pode reutilizar a aparência e estatísticas de Belun",
+          "tactics": "Ludo deseja sobreviver e irá fazer o máximo na luta contra os PJs",
           "items": {
             "Axe": {
-              "name": "Axe"
+              "name": "Machado",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Bow": {
-              "name": "Bow"
+              "name": "Arco",
+              "description": "Recarregar um arco conta como uma Ação Livre."
             },
             "Leather Armor": {
-              "name": "Leather Armor"
+              "name": "Armadura de Couro",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -2411,7 +2475,8 @@
               "name": "Fortified Chainmail"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             },
             "Mal-Rogan's Mummified Hand": {
           "name": "Mão mumificada de Mal-Rogan",
@@ -2471,7 +2536,12 @@
               "masterDescription": "<p>Ao atacar os pontos fracos de um oponente com uma precisão impecável — como na garganta e joelhos — os golpes desarmados do Mestre são verdadeiramente devastadores. Cada ataque que acerta causa 1D6 de dano extra.</p>"
             },
             "Shapeshift": {
-              "name": "Shapeshift"
+              "name": "Metamorfose",
+              "material": "Um pouco de pelo ou couro da besta em questão.",
+              "description": "<p>A compreensão do Místico sobre a essência da Natureza torna possível para ele ou ela assumir a forma de bestas — um talento pelo qual as bruxas-serpente do clã Gaoia são particularmente famosas.</p>",
+              "noviceDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode assumir a forma de uma besta pequena (mamífero ou réptil), o que é muito prático quando se deseja escapar ou fazer reconhecimento de terreno, mas é inútil em combate.</p> <p>Os Atributos do Místico permanecem inalterados, mas ele pode se mover duas vezes mais rápido e pode rerrolar todos os Testes de Discreto e Rápido (inclusive Defesa).</p> <p>Além disso, inimigos não recebem Ataques Livres contra o Místico quando está nesta forma, mesmo se recuar do combate corpo a corpo ou passar por um inimigo.</p> <p>O Místico não precisa testar Resoluto para permanecer na forma de besta, mas precisa passar em um Teste de Resoluto para voltar à sua forma original. Pela duração da transformação, o Místico conta como uma besta.</p> <p>Se o Místico for vítima de poderes que afetam bestas, então ele pode escolher permanecer na forma de besta; e assim sofrer o efeito do poder; ou reverter de volta à sua forma original.</p>",
+              "adeptDescription": "<p>O Místico pode assumir a forma de uma besta de batalha (javali ou lobo são as mais comuns). A forma de besta tem os Atributos do Místico, mas também recebe os traços @UUID[Item.Xr7bWs207ZVRpXEj]{Armadurado (I)} e @UUID[Item.5YtJyy2zkjpmb9d6]{Arma Natural (I)} .</p>",
+              "masterDescription": "<p>O Místico agora pode assumir a forma de uma besta de batalha verdadeiramente imponente, recebendo os traços @UUID[Item.5ARJy8NPBaFW4ODJ]{Regeneração (I)} e @UUID[Item.ESNdn1hIKnuQdgV8]{Robusto (I)} em adição aos recebidos pelo nível de Adepto.</p>"
             },
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -2497,7 +2567,8 @@
               "name": "Ring of rusty iron"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -2700,7 +2771,8 @@
               "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Axe": {
-              "name": "Axe"
+              "name": "Machado",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Hardened Leather": {
               "name": "Hardened Leather"
@@ -2720,7 +2792,8 @@
               "name": "Quiver"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -2846,7 +2919,8 @@
               "cost": "5 Xelins"
             },
             "Bushcraft": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             }
           }
         },
@@ -2884,7 +2958,8 @@
               "name": "Straw Doll"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             },
             "Shapeshifter": {
               "name": "Shapeshifter"
@@ -2974,7 +3049,8 @@
               "name": "Pariah"
             },
             "Long-Lived": {
-              "name": "Long-Lived"
+              "name": "Vida Longa",
+              "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             }
           }
         },
@@ -4065,14 +4141,16 @@
           "name": "Water of Dusk"
         },
         "Bushcraft": {
-          "name": "Bushcraft"
+          "name": "Mateiro",
+          "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
         },
         "Contacts": {
           "name": "Contatos",
           "description": "<p>O personagem serviu em uma organização ou viajou para bem longe e, portanto, teceu uma ampla rede de contatos. Com uma jogada bem-sucedida contra Persuasivo, o personagem pode lembrar-se de um contato que deve poder ser capaz de ajudar em uma questão específica ou uma situação precária.</p> <p>O contato pode não estar diretamente disponível — isso depende de quem está incluído em sua rede de contatos.</p> <p>Facções adequadas e pessoas que podem ser especificadas como os contatos do personagem são: O Exército da Rainha, os Patrulheiros da Rainha, Bruxas, Ordo Magica, a Igreja de Prios, as Casas Nobres e os Caçadores de Tesouros.</p>"
         },
         "Long-Lived": {
-          "name": "Long-Lived"
+          "name": "Vida Longa",
+          "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
         },
         "Pariah": {
           "name": "Pariah"
@@ -4926,7 +5004,7 @@
           "masterDescription": "<p>O veneno é forte e causa 4 pontos de dano por 4 turnos.</p>"
         },
         "Regeneration": {
-          "name": "",
+          "name": "Regeneração",
           "description": "<p>A criatura se cura espontaneamente, sem a necessidade de gastar tempo ou energia para fazê-lo. Contudo, a criatura possui uma fraqueza, um tipo de dano específico que não pode regenerar (que, obviamente, pode ser curado de outras maneiras).</p> <p>A criatura deve escolher uma fraqueza relacionada a algum tipo de dano que não pode curar automaticamente. Escolha entre armas mágicas, energias elementais (fogo ou ácido) e dano sagrado ou profano.</p>",
           "noviceDescription": "<p>Regenera 2 de Vitalidade por turno.</p>",
           "adeptDescription": "<p>Regenera 3 de Vitalidade por turno.</p>",
