@@ -12,21 +12,16 @@
       "personalGoal": "system.bio.personalGoal",
       "tactics": "system.bio.tactics",
       "quote": "system.bio.quote",
-
-
         "items": {
           "path": "items",
           "converter": "fromPack",
-
           "mapping": {
             "description": "system.description",
             "material": "system.material",
             "noviceDescription": "system.novice.description",
             "adeptDescription": "system.adept.description",
             "masterDescription": "system.master.description",
-
             "cost": "system.cost",
-
             "power0Name": "system.power.0.name",
             "power0Description": "system.power.0.description",
             "power1Name": "system.power.1.name",
@@ -38,20 +33,16 @@
             "power4Name": "system.power.4.name",
             "power4Description": "system.power.4.description",
             "tradition": "system.tradition"
-
         }
       }
     },
-
     "items": {
       "description": "system.description",
       "material": "system.material",
       "noviceDescription": "system.novice.description",
       "adeptDescription": "system.adept.description",
       "masterDescription": "system.master.description",
-
       "cost": "system.cost",
-
       "power0Name": "system.power.0.name",
       "power0Description": "system.power.0.description",
       "power1Name": "system.power.1.name",
@@ -63,9 +54,7 @@
       "power4Name": "system.power.4.name",
       "power4Description": "system.power.4.description",
       "tradition": "system.tradition"
-
     },
-
     "journal": {
       "pages": {
         "path": "pages",
@@ -75,7 +64,6 @@
       }
     }
   },
-
   "folders": {},
   "entries": {
     "Symbaroum Core Rules": {
@@ -235,11 +223,15 @@
       },
       "actors": {
         "Autumn Elf": {
-          "name": "Autumn Elf",
-          "tokenName": "Autumn Elf",
+          "name": "Elfo do Outono",
+          "tokenName": "Elfo do Outono",
           "items": {
             "Loremaster": {
-              "name": "Loremaster"
+              "name": "Mestre do Saber",
+              "description": "<p>O personagem é educado e bem-versado nos caminhos do mundo: suas culturas, história, idiomas e artefatos. Por séculos, heróis, monstros e reinos surgiram e desapareceram deixando itens poderosos e textos secretos para trás. Esta habilidade representa conhecimento sobre tais objetos. Através de estudos extensivos, um personagem com esta habilidade conhece, não apenas a história do objeto, mas também suas propriedades e aplicações.</p> <p>A habilidade Mestre do Saber também torna o personagem perito em pesquisar em bibliotecas, registros e documentos administrativos, algo que pode ser bastante útil quando confrontado com esses tipos de problemas e quebra-cabeças.</p>",
+              "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, qualquer personagem que é um Mestre do Saber pode descobrir as propriedades de um artefato específico, mas não como ativá-lo. Da mesma forma, o Novato pode utilizar Astuto para traduzir um texto ou compreender o que é dito em outro idioma humano.</p> <p>Um personagem não precisa realizar um Teste quando pronunciar palavras e frase simples, mas uma jogada bem-sucedida contra Astuto é necessária se ele ou ela estiver tentando manter uma conversa.</p>",
+              "adeptDescription": "<p>O personagem é um estudioso refinado de artefatos — nos casos em que o poder de um artefato seja ativado por um Teste simples de atributo, o Adepto pode testar contra Astuto em vez do atributo especificado na descrição do poder. Além disso, com um Teste bem-sucedido de Astuto, o Adepto também pode ler e compreender os desagradáveis idiomas de elfos e trolls.</p> <p>Dizer frases simples em Élfico ou Língua Troll não requer um Teste, mas iniciar uma conversação requer uma jogada bem-sucedida contra Astuto.</p>",
+              "masterDescription": "<p>Como um experiente intérprete de pergaminhos, o personagem pode com uma jogada bem-sucedida contra Astuto ativar poderes místicos diretamente de pergaminhos.</p> <p>O Mestre do Saber também pode utilizar Astuto em vez de Resoluto para resistir a efeitos místicos. <p>Além disso, o Mestre é familiarizado com os segredos de Symbaroum. Um Teste bem-sucedido de Astuto é necessário para ser capaz de ler um texto escrito em seu extinto idioma. Não é necessário um Teste para formular frases simples, mas iniciar uma conversa requer uma jogada bem-sucedida contra Astuto</p>"
             },
             "Medicus": {
               "name": "Médico",
@@ -249,19 +241,36 @@
               "masterDescription": "<p>Como um Médico Mestre, o personagem possui um vasto conhecimento medicinal. Um Teste bem-sucedido de Astuto agora cura 1D8 da Vitalidade de um paciente, ou 1D10 quando utilizar uma cura herbal.</p´> <p>Mesmo um Teste fracassado cura um pouco a Vitalidade do paciente; 1D4 quando utilizar somente Médico ou 1D6 quando tentar aplicar uma cura herbal.</p> <p>Esta habilidade pode ser utilizada somente uma vez por paciente por dia.</p>"
             },
             "Ritualist": {
-              "name": "Ritualist"
+              "name": "Ritualista",
+              "description": "<p>O personagem aprendeu como poderes místicos podem ser canalizados através de rituais — práticas poderosas, mas que consomem bastante tempo. Este conhecimento pode vir do estudo com um professor ou de estudos autodidatas com um códice de rituais.</p> <p>O personagem sofre um (1) ponto de Corrupção permanente para cada ritual que aprende, exceto se o ritual pertencer a uma tradição mística praticada por ele. Neste caso, o personagem é poupado da mácula da Corrupção.</p> <p>Quando executa rituais, o personagem sofre 1D4 de Corrupção temporária se o ritual não pertencer a uma tradição que ele ou ela dominou. Executar rituais cobertos pela tradição do personagem gerasomente um (1) ponto de Corrupção temporária.</p> <p>A habilidade Ritualista torna possível para o personagem reconhecer qual ritual está sendo executado ao examinar símbolos e componentes remanescentes na cena, e também para deduzir os efeitos do ritual, mesmo se ele ou ela não o tiver dominado.</p>",
+              "noviceDescription": "<p>O personagem aprendeu a executar um (1) ritual. O ritual pode pertencer a qualquer tradição mística, mas o personagem deve ter acesso ao ritual para aprendê-lo e memorizá-lo.</p> <p>O conhecimento pode ser conseguido através de um tutor envolvido na mesma organização que o personagem, de um códice encontrado nas ruínas de Symbaroum ou de outro Ritualista que compartilha o conhecimento como uma recompensa por serviços prestados.</p>",
+              "adeptDescription": "<p>O personagem aprendeu a executar dois rituais adicionais (três no total), novamente de qualquer tradição mística, mas com as mesmas condições de aprendizado que no nível Novato.</p>",
+              "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
             },
             "Bend Will": {
-              "name": "Bend Will"
+              "name": "Dobrar Vontade",
+              "material": "um anel de prata",
+              "description": "<p>Livre arbítrio é uma ilusão, mas o poder da vontade é inconfundível. O Místico passou a compreender estes princípios aparentemente contraditórios, e pode utilizar seu instinto para controlar a vontade de outras criaturas.</p>",
+              "noviceDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O controle é considerado ativo até que o Místico encerre sua concentração ou falhe em um Teste de [Resoluto←Resoluto].</p> <p>A criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+              "adeptDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Resoluto].</p> <p>Uma criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+              "masterDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Re-soluto].</p> <p>A criatura controlada pode executar suas duas Ações a cada turno normalmente.</p>"
             },
             "Larvae Boil": {
-              "name": "Larvae Boil"
+              "name": "Fervilhar Larvas",
+              "material": "um punhado de larvas",
+              "description": "<p>Tirando energia da força da ira, o Místico pode infundir o corpo de um inimigo com larvas que começam a comer seu caminho para fora. Embora isto seja amplamente refutado por membros da corte, há rumores persistentes por aí dizendo que foi assim que o rei herói Ynedar encontrou sua morte.</p>",
+              "noviceDescription": "<p>O Místico implanta larvas dentro do corpo de seu inimigo, que então começam a comer seu caminho para fora. O pobre alvo sofre 1D4 de dano a cada turno, ignorando Armadura.</p> <p>O efeito é automático no primeiro turno e continua até que o Místico falhe em um Teste de <i>[Resoluto←Vigoroso]<i>.</p>",
+              "adeptDescription": "<p>As larvas crescem dentro do corpo causando 1D6 de dano a cada turno, ignorando Armadura. O efeito continua até o Místico falhar em um Teste de [Resoluto←Vigoroso]. </p>",
+              "masterDescription": "<p>As larvas enxameiam dentro do corpo do alvo e causam 1D8 de dano a cada turno, ignorando Armadura. O efeito continua até o Místico falhar em um Teste de [Resoluto←Vigoroso].</p>"
             },
             "Herbal Cure": {
-              "name": "Herbal Cure"
+              "name": "Cura Herbal",
+              "cost": "1 taler",
+              "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Woven Silk": {
-              "name": "Woven Silk"
+              "name": "Seda Tecida",
+              "description": "<P> Seda tecida é o melhor tipo de armadura leve disponível, já que o tecido fechado de seus fios suporta punhaladas e cortes muito melhor que seu peso sugere. Seda tecida tem sido utilizada por bárbaros e ambrianos por um longo tempo, e alguns estudiosos especulam que o conhecimento originalmente vem dos elfos, possivelmente dos dias do Pacto de Ferro. </P>"
             },
             "Sword": {
               "name": "Espada",
@@ -300,13 +309,16 @@
             "Spear": {
               "name": "Lança",
               "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
-              "cost": "3 Táleres"
+              "cost": "3 táleres"
             },
             "Woven Silk": {
-              "name": "Woven Silk"
+              "name": "Seda Tecida",
+              "description": "<P> Seda tecida é o melhor tipo de armadura leve disponível, já que o tecido fechado de seus fios suporta punhaladas e cortes muito melhor que seu peso sugere. Seda tecida tem sido utilizada por bárbaros e ambrianos por um longo tempo, e alguns estudiosos especulam que o conhecimento originalmente vem dos elfos, possivelmente dos dias do Pacto de Ferro. </P>"
             },
             "Herbal Cure": {
-              "name": "Herbal Cure"
+              "name": "Cura Herbal",
+              "cost": "1 taler",
+              "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Quiver": {
               "name": "Quiver"
@@ -344,14 +356,16 @@
             "Spear": {
               "name": "Lança",
               "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
-              "cost": "3 Táleres"
+              "cost": "3 táleres"
             },
             "Lacquered Silk Cuirass": {
               "name": "Couraça de Seda Envernizada",
               "description": "<P> Guerreiros bárbaros que conseguiram seu lugar na guarda de um chefe de clã rico às vezes podem ser vistos vestindo uma couraça de seda envernizada, uma armadura que, apesar de uma aparente leveza, protege como uma placa peitoral. </P> <P>De acordo com a lenda, o segredo da seda envernizada foi dado à humanidade pelos elfos, em um tempo quando o Pacto de Ferro ainda era forte e humanos batalhavam contra a escuridão parasítica de Symbaroum.</P>"
             },
             "Herbal Cure": {
-              "name": "Herbal Cure"
+              "name": "Cura Herbal",
+              "cost": "1 taler",
+              "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -458,7 +472,8 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Woven Silk": {
-              "name": "Woven Silk"
+              "name": "Seda Tecida",
+              "description": "<P> Seda tecida é o melhor tipo de armadura leve disponível, já que o tecido fechado de seus fios suporta punhaladas e cortes muito melhor que seu peso sugere. Seda tecida tem sido utilizada por bárbaros e ambrianos por um longo tempo, e alguns estudiosos especulam que o conhecimento originalmente vem dos elfos, possivelmente dos dias do Pacto de Ferro. </P>"
             },
             "Cloak": {
               "name": "Cloak"
@@ -649,7 +664,8 @@
               "name": "Twin Attack"
             },
             "Woven Silk": {
-              "name": "Woven Silk"
+              "name": "Seda Tecida",
+              "description": "<P> Seda tecida é o melhor tipo de armadura leve disponível, já que o tecido fechado de seus fios suporta punhaladas e cortes muito melhor que seu peso sugere. Seda tecida tem sido utilizada por bárbaros e ambrianos por um longo tempo, e alguns estudiosos especulam que o conhecimento originalmente vem dos elfos, possivelmente dos dias do Pacto de Ferro. </P>"
             },
             "Medicus": {
               "name": "Médico",
@@ -676,7 +692,9 @@
               "name": "Quiver"
             },
             "Herbal Cure": {
-              "name": "Herbal Cure"
+              "name": "Cura Herbal",
+              "cost": "1 taler",
+              "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Scrolls (on area of expertise)": {
               "name": "Scrolls (on area of expertise)"
@@ -722,7 +740,9 @@
               "name": "Waybread"
             },
             "Herbal Cure": {
-              "name": "Herbal Cure"
+              "name": "Cura Herbal",
+              "cost": "1 taler",
+              "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Map of the Area": {
               "name": "Map of the Area"
@@ -1650,7 +1670,12 @@
           "tokenName": "Necromage",
           "items": {
             "Bend Will": {
-              "name": "Bend Will"
+              "name": "Dobrar Vontade",
+              "material": "um anel de prata",
+              "description": "<p>Livre arbítrio é uma ilusão, mas o poder da vontade é inconfundível. O Místico passou a compreender estes princípios aparentemente contraditórios, e pode utilizar seu instinto para controlar a vontade de outras criaturas.</p>",
+              "noviceDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O controle é considerado ativo até que o Místico encerre sua concentração ou falhe em um Teste de [Resoluto←Resoluto].</p> <p>A criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+              "adeptDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Resoluto].</p> <p>Uma criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+              "masterDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Re-soluto].</p> <p>A criatura controlada pode executar suas duas Ações a cada turno normalmente.</p>"
             },
             "Alternative Damage": {
               "name": "Dano Alternativo",
@@ -1887,7 +1912,12 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 de dano alternativo, que ignora a Armadura.</p>"
             },
             "Bend Will": {
-              "name": "Bend Will"
+              "name": "Dobrar Vontade",
+              "material": "um anel de prata",
+              "description": "<p>Livre arbítrio é uma ilusão, mas o poder da vontade é inconfundível. O Místico passou a compreender estes princípios aparentemente contraditórios, e pode utilizar seu instinto para controlar a vontade de outras criaturas.</p>",
+              "noviceDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O controle é considerado ativo até que o Místico encerre sua concentração ou falhe em um Teste de [Resoluto←Resoluto].</p> <p>A criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+              "adeptDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Resoluto].</p> <p>Uma criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+              "masterDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Re-soluto].</p> <p>A criatura controlada pode executar suas duas Ações a cada turno normalmente.</p>"
             },
             "Enslave": {
               "name": "Enslave"
@@ -1899,7 +1929,11 @@
               "name": "Oracle"
             },
             "Ritualist": {
-              "name": "Ritualist"
+              "name": "Ritualista",
+              "description": "<p>O personagem aprendeu como poderes místicos podem ser canalizados através de rituais — práticas poderosas, mas que consomem bastante tempo. Este conhecimento pode vir do estudo com um professor ou de estudos autodidatas com um códice de rituais.</p> <p>O personagem sofre um (1) ponto de Corrupção permanente para cada ritual que aprende, exceto se o ritual pertencer a uma tradição mística praticada por ele. Neste caso, o personagem é poupado da mácula da Corrupção.</p> <p>Quando executa rituais, o personagem sofre 1D4 de Corrupção temporária se o ritual não pertencer a uma tradição que ele ou ela dominou. Executar rituais cobertos pela tradição do personagem gerasomente um (1) ponto de Corrupção temporária.</p> <p>A habilidade Ritualista torna possível para o personagem reconhecer qual ritual está sendo executado ao examinar símbolos e componentes remanescentes na cena, e também para deduzir os efeitos do ritual, mesmo se ele ou ela não o tiver dominado.</p>",
+              "noviceDescription": "<p>O personagem aprendeu a executar um (1) ritual. O ritual pode pertencer a qualquer tradição mística, mas o personagem deve ter acesso ao ritual para aprendê-lo e memorizá-lo.</p> <p>O conhecimento pode ser conseguido através de um tutor envolvido na mesma organização que o personagem, de um códice encontrado nas ruínas de Symbaroum ou de outro Ritualista que compartilha o conhecimento como uma recompensa por serviços prestados.</p>",
+              "adeptDescription": "<p>O personagem aprendeu a executar dois rituais adicionais (três no total), novamente de qualquer tradição mística, mas com as mesmas condições de aprendizado que no nível Novato.</p>",
+              "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
             },
             "Life-consuming Kiss": {
               "name": "Life-consuming Kiss"
@@ -2402,7 +2436,7 @@
             "Spear": {
               "name": "Lança",
               "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
-              "cost": "3 Táleres"
+              "cost": "3 táleres"
             },
             "Necklace": {
               "name": "Colar com Símbolo do Sol",
@@ -2503,7 +2537,7 @@
             "Spear": {
               "name": "Lança",
               "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
-              "cost": "3 Táleres"
+              "cost": "3 táleres"
                     },
             "Quiver": {
               "name": "Quiver"
@@ -2619,7 +2653,7 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Lightbringer": {
               "name": "Lightbringer"
@@ -2679,10 +2713,12 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Herbal Cure": {
-              "name": "Herbal Cure"
+              "name": "Cura Herbal",
+              "cost": "1 taler",
+              "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Aged Sherry": {
               "name": "Aged Sherry"
@@ -2719,7 +2755,7 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Leather Gown": {
               "name": "Leather Gown"
@@ -2780,7 +2816,7 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Snares": {
               "name": "Snares"
@@ -2837,12 +2873,13 @@
               "name": "Crow Armor"
             },
             "Weapon maintenance kit": {
-              "name": "Weapon maintenance kit"
+              "name": "Kit de Manutenção de Arma",
+              "cost": "5 xelins"
             },
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Pipe and Tobacco": {
               "name": "Pipe and Tobacco"
@@ -2916,7 +2953,7 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Bushcraft": {
               "name": "Mateiro",
@@ -2952,7 +2989,7 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Straw Doll": {
               "name": "Straw Doll"
@@ -2996,10 +3033,11 @@
             "Field equipment": {
               "name": "Equipamento de Acampar",
               "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-              "cost": "5 Xelins"
+              "cost": "5 xelins"
             },
             "Weapon maintenance kit": {
-              "name": "Weapon maintenance kit"
+              "name": "Kit de Manutenção de Arma",
+              "cost": "5 xelins"
             },
             "Belt pouch": {
               "name": "Belt pouch"
@@ -3103,32 +3141,32 @@
         "Drone Dew": {
           "name": "Orvalho do Zangão",
           "description": "<p>Orvalho do Zangão é um elixir líquido feito de esporos de zangão, também contendo aceleradores. Uma pessoa que ingere uma dose do elixir adormece imediatamente se não obter sucesso em um Teste de Vigoroso, e permanece adormecida por uma hora ou até sofrer algum dano. Se obtiver sucesso no Teste, a pessoa ficará atordoada, com o efeito de estar limitada a uma ação por turno e não poder usar nenhuma habilidade ativa por uma hora.</p>",
-          "cost": "4 Táleres"
+          "cost": "4 táleres"
         },
         "Fire Dye": {
           "name": "Tintura de Fogo",
           "description": "<p>A tintura de fogo consiste em sais que mudam a cor de qualquer fogo em que são lançados. Se as cores são atribuídas a um significado específico conhecido pelo usuário e um observador aliado, ele pode ser usado para sinalizar a longas distâncias. Isso também é usado para entretenimento entre os ricos e por charlatães para impressionar plebeus.</p>",
-          "cost": "1 Táler"
+          "cost": "1 táler"
         },
         "Flash Powder": {
           "name": "Pó Luminoso",
           "description": "<p>Um pó finamente granulado que emite uma luz ofuscante quando lançado. Pó Luminoso é usado com o nível novato da habilidade Pirotecnia.</p>",
-          "cost": "1 Táler"
+          "cost": "1 táler"
         },
         "Holy Water": {
           "name": "Água Benta",
           "description": "<pÁgua benta, instilada com a luz de Prios, pode curar feridas e acalmar almas. Funciona como Cura Herbal com +1 no Teste de efeito (significando +2 de Vitalidade se usado sem a habilidade Médico) e também remove 1 ponto de corrupção temporária.</p>",
-          "cost": "2 Táleres"
+          "cost": "2 táleres"
         },
         "Homing Arrow": {
           "name": "Flecha Certeira",
           "description": "<p>O alquimista marina uma flecha em essências especiais, criando assim uma flecha que passa por outros combatentes, ou seja, que não requer uma linha de visão clara.</p> <p>No entanto, o arqueiro deve ver alguma parte do alvo e deve executar um Teste de ataque normalmente para obter sucesso no golpe.",
-          "cost": "2 Táleres"
+          "cost": "2 táleres"
         },
         "Homunculus": {
           "name": "Homúnculo",
           "description": "<p>Uma semente é plantada e um dia depois um servo em miniatura brota do chão. O homúnculo é pequeno como uma criança, não possui habilidades e todos os valores de atributos são 5 (+5).</p> <p>Ele serve seu criador lealmente e murcha depois de um mês; tudo o que resta dele é uma pilha de terra.</p> <p>Criar um homúnculo é uma verdadeira violação da ordem natural, o que significa que quem usa a semente sofre 1D6 de corrupção temporária.</p>",
-          "cost": "2 Táleres (somente no Mercado Negro)"
+          "cost": "2 táleres (somente no Mercado Negro)"
         },
         "Moderate  Purple Sap": {
           "name": "Seiva Púrpura Moderado",
@@ -4070,7 +4108,7 @@
         "Elixir of Life": {
           "name": "Elixir da Vida",
           "description": "Consumir um Elixir da Vida concede poderes regenerativos a quem o beber, e cura 1D6 pontos de Vitalidade por 1D6 turnos na Iniciativa do personagem. Infelizmente o personagem também sofre 1 de Corrupção temporária para cada turno que o elixir estiver em efeito.",
-          "cost": "6 Táleres"
+          "cost": "6 táleres"
         },
         "Eye Drops": {
           "name": "Eye Drops"
@@ -4079,7 +4117,9 @@
           "name": "Ghost Candle"
         },
         "Herbal Cure": {
-          "name": "Herbal Cure"
+          "name": "Cura Herbal",
+          "cost": "1 taler",
+          "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
         },
         "Moderate Antidote": {
           "name": "Moderate Antidote"
@@ -4162,32 +4202,40 @@
           "name": "Short-Lived"
         },
         "Artisan tool": {
-          "name": "Artisan tool"
+          "name": "Ferramenta de Artesão",
+          "cost": "1 táler"
         },
         "Artisan’s garb": {
-          "name": "Artisan’s garb"
+          "name": "Traje de Artesão",
+          "cost": "5 xelins"
         },
         "Backpack": {
-          "name": "Backpack"
+          "name": "Mochila",
+          "cost": "1 táler"
         },
         "Bandages": {
-          "name": "Bandages"
+          "name": "Bandagens",
+          "cost": "5 ortegas"
         },
         "Barrel": {
-          "name": "Barrel"
+          "name": "Barríl",
+          "cost": "4 ortegas"
         },
         "Basket": {
-          "name": "Basket"
+          "name": "Cesta",
+          "cost": "2 ortegas"
         },
         "Bear trap": {
-          "name": "Bear trap"
+          "name": "Armadilha de Urso", 
+          "cost": "5 xelins"
         },
         "Bedroll": {
           "name": "Saco de Dormir",
-          "cost": "5 Ortegas"
+          "cost": "5 ortegas"
         },
         "Belt pouch": {
-          "name": "Belt pouch"
+          "name": "Bolsa de Moedas",
+          "cost": "5 ortegas"
         },
         "Blanket": {
           "name": "Blanket"
@@ -4244,7 +4292,7 @@
         "Field equipment": {
           "name": "Equipamento de Acampar",
           "description": "<p><strong>Contém: </strong><br />@UUID[Item.JUCV3b2At80lIT0P]{Saco de dormir}<br />@UUID[Item.Ot85bJGAzsoonBzX]{Frigideira}<br />@UUID[Item.oVTWWx1RVMBi8SA9]{Lenha}<br />@UUID[Item.F8F8WMMFxm5WNtt2]{Pederneira e Isqueiro}<br />@UUID[Item.GWrNrjOnDzBSrWdf]{Corda}<br />@UUID[Item.lQZ355N4huoTlxHB]{Cantil}<br />(Equipamentos de campo são gratuitos para novos personagens.)</p>",
-          "cost": "5 Xelins"
+          "cost": "5 xelins"
         },
         "Firewood": {
           "name": "Lenha",
@@ -4267,7 +4315,8 @@
           "name": "Glass vial"
         },
         "Gown": {
-          "name": "Gown"
+          "name": "Beca",
+          "cost": "1-5 ortegas"
         },
         "Grappling hook": {
           "name": "Grappling hook"
@@ -4294,7 +4343,8 @@
           "name": "Ladder"
         },
         "Lamp oil": {
-          "name": "Lamp oil"
+          "name": "Óleo de Lâmpada",
+          "cost": "1 ortega"
         },
         "Lantern": {
           "name": "Lantern"
@@ -4315,7 +4365,8 @@
           "name": "Needle and thread"
         },
         "Noble’s garb": {
-          "name": "Noble’s garb"
+          "name": "Traje de Nobre",
+          "cost": "10+ táleres"
         },
         "Pants": {
           "name": "Pants"
@@ -4346,7 +4397,8 @@
           "name": "Sack"
         },
         "Scarf": {
-          "name": "Scarf"
+          "name": "Cachecol",
+          "cost": "1-2 ortegas"
         },
         "Scythe": {
           "name": "Scythe"
@@ -4379,38 +4431,47 @@
           "name": "Soap"
         },
         "Spy glass": {
-          "name": "Spy glass"
+          "name": "Luneta",
+          "cost": "10 táleres"
         },
         "Tankard": {
           "name": "Tankard"
         },
         "Tent": {
-          "name": "Tent"
+          "name": "Tenda",
+          "cost": "3 xelins"
         },
         "Torch": {
-          "name": "Torch"
+          "name": "Tocha",
+          "cost": "1 ortega"
         },
         "Torn rags": {
-          "name": "Torn rags"
+          "name": "Trapos",
+          "cost": "5 ortegas"
         },
         "Tunic": {
-          "name": "Tunic"
+          "name": "Túnica",
+          "cost": "2-7 ortegas"
         },
         "Waterskin": {
           "name": "Cantil",
           "cost": "3 xelins"
         },
         "Wax candle": {
-          "name": "Wax candle"
+          "name": "Cera de Vela",
+          "cost": "4 ortegas"
         },
         "Weapon maintenance kit": {
-          "name": "Weapon maintenance kit"
+          "name": "Kit de Manutenção de Arma",
+          "cost": "5 xelins"
         },
         "Whetstone": {
-          "name": "Whetstone"
+          "name": "Pedra de Amolar",
+          "cost": "4 ortegas"
         },
         "Whistle": {
-          "name": "Whistle"
+          "name": "Apito",
+          "cost": "2 xelins"
         },
         "Blood Bond": {
           "name": "Blood Bond"
@@ -4758,7 +4819,11 @@
           "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
         },
         "Loremaster": {
-          "name": "Loremaster"
+          "name": "Mestre do Saber",
+          "description": "<p>O personagem é educado e bem-versado nos caminhos do mundo: suas culturas, história, idiomas e artefatos. Por séculos, heróis, monstros e reinos surgiram e desapareceram deixando itens poderosos e textos secretos para trás. Esta habilidade representa conhecimento sobre tais objetos. Através de estudos extensivos, um personagem com esta habilidade conhece, não apenas a história do objeto, mas também suas propriedades e aplicações.</p> <p>A habilidade Mestre do Saber também torna o personagem perito em pesquisar em bibliotecas, registros e documentos administrativos, algo que pode ser bastante útil quando confrontado com esses tipos de problemas e quebra-cabeças.</p>",
+          "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, qualquer personagem que é um Mestre do Saber pode descobrir as propriedades de um artefato específico, mas não como ativá-lo. Da mesma forma, o Novato pode utilizar Astuto para traduzir um texto ou compreender o que é dito em outro idioma humano.</p> <p>Um personagem não precisa realizar um Teste quando pronunciar palavras e frase simples, mas uma jogada bem-sucedida contra Astuto é necessária se ele ou ela estiver tentando manter uma conversa.</p>",
+          "adeptDescription": "<p>O personagem é um estudioso refinado de artefatos — nos casos em que o poder de um artefato seja ativado por um Teste simples de atributo, o Adepto pode testar contra Astuto em vez do atributo especificado na descrição do poder. Além disso, com um Teste bem-sucedido de Astuto, o Adepto também pode ler e compreender os desagradáveis idiomas de elfos e trolls.</p> <p>Dizer frases simples em Élfico ou Língua Troll não requer um Teste, mas iniciar uma conversação requer uma jogada bem-sucedida contra Astuto.</p>",
+          "masterDescription": "<p>Como um experiente intérprete de pergaminhos, o personagem pode com uma jogada bem-sucedida contra Astuto ativar poderes místicos diretamente de pergaminhos.</p> <p>O Mestre do Saber também pode utilizar Astuto em vez de Resoluto para resistir a efeitos místicos. <p>Além disso, o Mestre é familiarizado com os segredos de Symbaroum. Um Teste bem-sucedido de Astuto é necessário para ser capaz de ler um texto escrito em seu extinto idioma. Não é necessário um Teste para formular frases simples, mas iniciar uma conversa requer uma jogada bem-sucedida contra Astuto</p>"
         },
         "Man-at-arms": {
           "name": "Homem-de-Armas",
@@ -4813,7 +4878,11 @@
           "masterDescription": "<p>Assim como no nível Novato, mas o personagem recupera 1D8 de Vitalidade.</p>"
         },
         "Ritualist": {
-          "name": "Ritualist"
+          "name": "Ritualista",
+          "description": "<p>O personagem aprendeu como poderes místicos podem ser canalizados através de rituais — práticas poderosas, mas que consomem bastante tempo. Este conhecimento pode vir do estudo com um professor ou de estudos autodidatas com um códice de rituais.</p> <p>O personagem sofre um (1) ponto de Corrupção permanente para cada ritual que aprende, exceto se o ritual pertencer a uma tradição mística praticada por ele. Neste caso, o personagem é poupado da mácula da Corrupção.</p> <p>Quando executa rituais, o personagem sofre 1D4 de Corrupção temporária se o ritual não pertencer a uma tradição que ele ou ela dominou. Executar rituais cobertos pela tradição do personagem gerasomente um (1) ponto de Corrupção temporária.</p> <p>A habilidade Ritualista torna possível para o personagem reconhecer qual ritual está sendo executado ao examinar símbolos e componentes remanescentes na cena, e também para deduzir os efeitos do ritual, mesmo se ele ou ela não o tiver dominado.</p>",
+          "noviceDescription": "<p>O personagem aprendeu a executar um (1) ritual. O ritual pode pertencer a qualquer tradição mística, mas o personagem deve ter acesso ao ritual para aprendê-lo e memorizá-lo.</p> <p>O conhecimento pode ser conseguido através de um tutor envolvido na mesma organização que o personagem, de um códice encontrado nas ruínas de Symbaroum ou de outro Ritualista que compartilha o conhecimento como uma recompensa por serviços prestados.</p>",
+          "adeptDescription": "<p>O personagem aprendeu a executar dois rituais adicionais (três no total), novamente de qualquer tradição mística, mas com as mesmas condições de aprendizado que no nível Novato.</p>",
+          "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
         },
         "Shield Fighter": {
           "name": "Combatente de Escudo",
@@ -5052,7 +5121,12 @@
           "name": "Anathema"
         },
         "Bend Will": {
-          "name": "Bend Will"
+          "name": "Dobrar Vontade",
+          "material": "um anel de prata",
+          "description": "<p>Livre arbítrio é uma ilusão, mas o poder da vontade é inconfundível. O Místico passou a compreender estes princípios aparentemente contraditórios, e pode utilizar seu instinto para controlar a vontade de outras criaturas.</p>",
+          "noviceDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O controle é considerado ativo até que o Místico encerre sua concentração ou falhe em um Teste de [Resoluto←Resoluto].</p> <p>A criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+          "adeptDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Resoluto].</p> <p>Uma criatura controlada pode executar somente uma (1) Ação a cada turno e não pode usar quaisquer poderes ou habilidades Ativas enquanto afetada.</p>",
+          "masterDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Re-soluto].</p> <p>A criatura controlada pode executar suas duas Ações a cada turno normalmente.</p>"
         },
         "Blessed Shield": {
           "name": "Blessed Shield"
@@ -5197,7 +5271,7 @@
         "Long Weapon": {
           "name": "Arma Longa",
           "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>",
-          "cost": "3 Táleres"
+          "cost": "3 táleres"
           
         },
         "Longbow": {
