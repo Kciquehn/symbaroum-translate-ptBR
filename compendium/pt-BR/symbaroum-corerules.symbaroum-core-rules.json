@@ -348,7 +348,11 @@
               "masterDescription": "<p>O personagem pode rolar contra Rápido para neutralizar habilidades ou equipamentos que fazem com que ataques inimigos ignorem ou reduzam seu valor de Armadura; se o Teste for bem-sucedido, a Armadura protege normalmente.</p> <p>Poderes místicos que ignoram Armadura não podem ser bloqueados desta maneira; eles não são afetados pela habilidade Homem-de-Armas.</p>"
             },
             "Polearm Mastery": {
-              "name": "Polearm Mastery"
+              "name": "Maestria em Armas de Haste",
+              "description": "<p>O personagem é iniciado nos segredos de armas de cabos longos. A lança é uma arma simples e qualquer um pode aprender rapidamente como fazer bom uso de seu comprimento. Por esta razão, os exércitos das milícias das planícies e florestas frequentemente são armados com lanças.</p> <p>A perícia avançada do personagem com armas longas realmente mostra que um simples cabo de madeira reforçada pode ser uma arma temível nas mãos de um guerreiro treinado.</p>",
+              "noviceDescription": "<p> O dano causado por armas longas é aumentado em um passo, para 1D10 para lanças e alabardas e para 1D8 para cajados.</p>",
+              "adeptDescription": "<p>O personagem realmente dominou a estocada longa. O personagem recebe um Ataque Livre contra todos os inimigos que entrarem no seu alcance de combate corpo a corpo — se é o inimigo quem engaja o personagem ou vice-versa, é irrelevante.</p> <p>A única exceção é quando o inimigo também empunha uma arma longa; em tal situação, o personagem não recebe um Ataque Livre.</p>",
+              "masterDescription": "<p>Como um Mestre de armas longas, o personagem tem a habilidade de manter seus inimigos à distância. O personagem pode utilizar o Ataque Livre com uma arma de haste para impedir um inimigo de se aproximar para atacar.</p> <p>Enquanto o personagem obtiver sucesso em acertar o inimigo, o inimigo permanece incapaz de atacá-lo com armas corpo a corpo — independentemente de o dano penetrar ou não a armadura do inimigo.</p>"
             },
             "Bow": {
               "name": "Bow"
@@ -412,7 +416,8 @@
               "name": "Holy Smoke"
             },
             "Crossbow": {
-              "name": "Crossbow"
+              "name": "Besta",
+              "description": "<p>A besta é carregada com virotes, os arcos disparam flechas e as fundas lançam pedras afiadas.</p>   <p>Uma besta requer uma ação de movimento para ser recarregada.</p>"
             },
             "Sword": {
               "name": "Espada",
@@ -465,7 +470,12 @@
               "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "Curse": {
-              "name": "Curse"
+              "name": "Maldição",
+              "material": "Nenhum, um olhar penetrante é suficiente.",
+              "description": "<p>O Místico domina a arte de encarar com o Mal Olhado e pode amaldiçoar inimigos no campo de batalha; um poder frequentemente utilizado pelos discípulos dos Lordes Negros durante a Grande Guerra.</p>",
+              "noviceDescription": "<p>Uma vez por turno, o olhar penetrante do Místico automaticamente dá a um inimigo uma segunda chance de falhar em quaisquer Testes de Sucesso contra o Místico (role duas vezes, a ação falha se um destes Testes fracassar).</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+              "adeptDescription": "<p>Como Novato, mas o inimigo tem uma segunda chance de falhar em quaisquer Testes de Sucessos independentemente do alvo.</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+              "masterDescription": "<p>O Místico roga uma maldição de morte sobre um inimigo. O inimigo sofre 1D6 de dano, que ignora qualquer Armadura, por todas as Ações que ele tentar executar.</p> <p>O alvo não sofre dano se permanecer parado e passivo. Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>"
             },
             "Sword": {
               "name": "Espada",
@@ -810,7 +820,8 @@
           "tokenName": "Self-Taught Witchhunter",
           "items": {
             "Crossbow": {
-              "name": "Crossbow"
+              "name": "Besta",
+              "description": "<p>A besta é carregada com virotes, os arcos disparam flechas e as fundas lançam pedras afiadas.</p>   <p>Uma besta requer uma ação de movimento para ser recarregada.</p>"
             },
             "Axe": {
               "name": "Machado",
@@ -942,7 +953,11 @@
               "masterDescription": "<p>O personagem mede quase 3 metros de altura, pesa cerca de meia tonelada e esmaga criaturas menores enquanto as armas dos inimigos têm bastante dificuldade em penetrar sua pele que mais parece pedra. É muito fácil acertar uma criatura deste tamanho, mas igualmente difícil de feri-la seriamente.</p> <p>A Defesa do personagem é baseada em [Rápido –4] e ele pode utilizar apenas armaduras leves, que devem ser feitas sob encomenda e custam o quádruplo do preço normal.</p> <p>Por outro lado, o personagem naturalmente ignora 1D8 de dano de todo golpe sofrido, em adição a qualquer armadura que vestir.</p> <p>Finalmente, ele pode causar 1D8 de dano extra com um ataque corpo a corpo por turno.</p>"
             },
             "Exceptionally Strong": {
-              "name": "Exceptionally Strong"
+              "name": "Excepcionalmente Vigoroso",
+              "description": "<p>Todos os sentidos do personagem, bem como sua capacidade mental e física, podem ser aprimorados. Praticando um pouco a cada dia, os músculos podem ficar maiores, os olhos mais afiados e o intelecto mais vasto. Esta habilidade melhora a capacidade básica de sobrevivência do personagem.</p> <p>Esta habilidade pode ser escolhida várias vezes, cada vez relacionada a um Atributo diferente.</p>",
+              "noviceDescription": "<p>O personagem cultivou um de seus Atributos através de trabalho duro, que aumenta o Atributo em +1.</p>",
+              "adeptDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +2 no total.</p>",
+              "masterDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +3 no total.</p>"
             },
             "Exceptionally Resolute": {
               "name": "Exceptionally Resolute"
@@ -1009,7 +1024,11 @@
               "masterDescription": "<p>O personagem mede quase 3 metros de altura, pesa cerca de meia tonelada e esmaga criaturas menores enquanto as armas dos inimigos têm bastante dificuldade em penetrar sua pele que mais parece pedra. É muito fácil acertar uma criatura deste tamanho, mas igualmente difícil de feri-la seriamente.</p> <p>A Defesa do personagem é baseada em [Rápido –4] e ele pode utilizar apenas armaduras leves, que devem ser feitas sob encomenda e custam o quádruplo do preço normal.</p> <p>Por outro lado, o personagem naturalmente ignora 1D8 de dano de todo golpe sofrido, em adição a qualquer armadura que vestir.</p> <p>Finalmente, ele pode causar 1D8 de dano extra com um ataque corpo a corpo por turno.</p>"
             },
             "Exceptionally Strong": {
-              "name": "Exceptionally Strong"
+              "name": "Excepcionalmente Vigoroso",
+              "description": "<p>Todos os sentidos do personagem, bem como sua capacidade mental e física, podem ser aprimorados. Praticando um pouco a cada dia, os músculos podem ficar maiores, os olhos mais afiados e o intelecto mais vasto. Esta habilidade melhora a capacidade básica de sobrevivência do personagem.</p> <p>Esta habilidade pode ser escolhida várias vezes, cada vez relacionada a um Atributo diferente.</p>",
+              "noviceDescription": "<p>O personagem cultivou um de seus Atributos através de trabalho duro, que aumenta o Atributo em +1.</p>",
+              "adeptDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +2 no total.</p>",
+              "masterDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +3 no total.</p>"
             },
             "Claws": {
               "name": "Claws"
@@ -1340,7 +1359,11 @@
               "masterDescription": "<p>O personagem mede quase 3 metros de altura, pesa cerca de meia tonelada e esmaga criaturas menores enquanto as armas dos inimigos têm bastante dificuldade em penetrar sua pele que mais parece pedra. É muito fácil acertar uma criatura deste tamanho, mas igualmente difícil de feri-la seriamente.</p> <p>A Defesa do personagem é baseada em [Rápido –4] e ele pode utilizar apenas armaduras leves, que devem ser feitas sob encomenda e custam o quádruplo do preço normal.</p> <p>Por outro lado, o personagem naturalmente ignora 1D8 de dano de todo golpe sofrido, em adição a qualquer armadura que vestir.</p> <p>Finalmente, ele pode causar 1D8 de dano extra com um ataque corpo a corpo por turno.</p>"
             },
             "Exceptionally Strong": {
-              "name": "Exceptionally Strong"
+              "name": "Excepcionalmente Vigoroso",
+              "description": "<p>Todos os sentidos do personagem, bem como sua capacidade mental e física, podem ser aprimorados. Praticando um pouco a cada dia, os músculos podem ficar maiores, os olhos mais afiados e o intelecto mais vasto. Esta habilidade melhora a capacidade básica de sobrevivência do personagem.</p> <p>Esta habilidade pode ser escolhida várias vezes, cada vez relacionada a um Atributo diferente.</p>",
+              "noviceDescription": "<p>O personagem cultivou um de seus Atributos através de trabalho duro, que aumenta o Atributo em +1.</p>",
+              "adeptDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +2 no total.</p>",
+              "masterDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +3 no total.</p>"
             },
             "Claws": {
               "name": "Claws"
@@ -1827,7 +1850,11 @@
               "masterDescription": "<p> Como o II, mas o frio agora afeta inimigos que falhem em um Teste de [Resoluto←Resoluto].</p>"
             },
             "Undead": {
-              "name": "Undead"
+              "name": "Morto-vivo",
+              "description": "<p>A criatura é um espírito preso dentro de um corpo morto. O espírito controla o corpo em lenta decomposição e é banido quando o corpo é destruído.</p>",
+              "noviceDescription": "<p>A criatura morta-viva não é afetada por venenos ou doenças, mas sofre o dano normal de efeitos físicos, exceto que o Limiar de Dor não é usado (dor e choque não afetam o cadáver animado).</p> <p>O cadáver animado não se cura naturalmente e não é afetado por elixires alquímicos de cura, em vez disso, deve comer carne fresca (viva ou morta recentemente) ou beber sangue para se curar, cada ponto de Vitalidade que a criatura consome lhe cura 2 pontos de Vitalidade.</p>",
+              "adeptDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos físicos ordinários, tais como armas ou dano elemental. Poderes místicos que ignoram a Armadura causam dano completo normalmente.</p>",
+              "masterDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos místicos e alquímicos também, mas sofre dano completo de armas mágicas e efeitos sagrados.</p>"
             },
             "Iron Fist": {
               "name": "Punho de Ferro",
@@ -1887,7 +1914,11 @@
               "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
             },
             "Polearm Mastery": {
-              "name": "Polearm Mastery"
+              "name": "Maestria em Armas de Haste",
+              "description": "<p>O personagem é iniciado nos segredos de armas de cabos longos. A lança é uma arma simples e qualquer um pode aprender rapidamente como fazer bom uso de seu comprimento. Por esta razão, os exércitos das milícias das planícies e florestas frequentemente são armados com lanças.</p> <p>A perícia avançada do personagem com armas longas realmente mostra que um simples cabo de madeira reforçada pode ser uma arma temível nas mãos de um guerreiro treinado.</p>",
+              "noviceDescription": "<p> O dano causado por armas longas é aumentado em um passo, para 1D10 para lanças e alabardas e para 1D8 para cajados.</p>",
+              "adeptDescription": "<p>O personagem realmente dominou a estocada longa. O personagem recebe um Ataque Livre contra todos os inimigos que entrarem no seu alcance de combate corpo a corpo — se é o inimigo quem engaja o personagem ou vice-versa, é irrelevante.</p> <p>A única exceção é quando o inimigo também empunha uma arma longa; em tal situação, o personagem não recebe um Ataque Livre.</p>",
+              "masterDescription": "<p>Como um Mestre de armas longas, o personagem tem a habilidade de manter seus inimigos à distância. O personagem pode utilizar o Ataque Livre com uma arma de haste para impedir um inimigo de se aproximar para atacar.</p> <p>Enquanto o personagem obtiver sucesso em acertar o inimigo, o inimigo permanece incapaz de atacá-lo com armas corpo a corpo — independentemente de o dano penetrar ou não a armadura do inimigo.</p>"
             },
             "Daemon Skin": {
               "name": "Daemon Skin"
@@ -2485,6 +2516,12 @@
         "Mal-Rogan": {
           "name": "Mal-Rogan",
           "tokenName": "Mal-Rogan",
+          "race": "Morto-Vivo",
+          "occupation": "Chefe Bandido Morto-vivo",
+          "manner": "Fala com uma voz arrastada, balançando sua cabeça para frente e para trás",
+          "shadow": "negra como piche",
+          "background": "</p>“A Pedra do Sol é MINHA”</p> <p>Rogan Gorinder, guarda da Rainha, morreu morreu na guerra contra os Lordes Negros. Ele teve um braço decepado em combate, o ferimento infeccionou e os curandeiros foram incapazes de neutralizar a infecção de sangue negro que correu por suas veias. Mas em vez de morrer, Rogan se ergueu como um morto-vivo, com pus saindo de seu braço arrancado e com veias negras visíveis em seu pescoço e têmporas. Por quê? Ninguém sabe; mas Rogan tomou isso como um sinal sombrio de que ele foi escolhido para coisas maiores. Hoje em dia, o ladrão barão se proclama Mal-Rogan e lidera um bando de ladrões nas montanhas onde ele cresceu, sonhando em fundar um verdadeiro reino de bandidos. Se os personagens jogadores forem incapazes de parar o nobre acometido pela mácula, ele irá fazer seu nome pelas partes sul de Ambria, onde ele perambula como um horror furioso deixando corpos no caminho.</p>",
+          "tactics": "Rogan deixa seus seguidores atacarem primeiro, enquanto ele roga uma maldição naquele que ele acredita ser o inimigo mais difícil. Quando a maldição surte efeito, ele se move com sua clava com cravos.",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
@@ -2494,19 +2531,34 @@
               "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
             },
             "Undead": {
-              "name": "Undead"
+              "name": "Morto-vivo",
+              "description": "<p>A criatura é um espírito preso dentro de um corpo morto. O espírito controla o corpo em lenta decomposição e é banido quando o corpo é destruído.</p>",
+              "noviceDescription": "<p>A criatura morta-viva não é afetada por venenos ou doenças, mas sofre o dano normal de efeitos físicos, exceto que o Limiar de Dor não é usado (dor e choque não afetam o cadáver animado).</p> <p>O cadáver animado não se cura naturalmente e não é afetado por elixires alquímicos de cura, em vez disso, deve comer carne fresca (viva ou morta recentemente) ou beber sangue para se curar, cada ponto de Vitalidade que a criatura consome lhe cura 2 pontos de Vitalidade.</p>",
+              "adeptDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos físicos ordinários, tais como armas ou dano elemental. Poderes místicos que ignoram a Armadura causam dano completo normalmente.</p>",
+              "masterDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos místicos e alquímicos também, mas sofre dano completo de armas mágicas e efeitos sagrados.</p>"
             },
             "Curse": {
-              "name": "Curse"
+              "name": "Maldição",
+              "material": "Nenhum, um olhar penetrante é suficiente.",
+              "description": "<p>O Místico domina a arte de encarar com o Mal Olhado e pode amaldiçoar inimigos no campo de batalha; um poder frequentemente utilizado pelos discípulos dos Lordes Negros durante a Grande Guerra.</p>",
+              "noviceDescription": "<p>Uma vez por turno, o olhar penetrante do Místico automaticamente dá a um inimigo uma segunda chance de falhar em quaisquer Testes de Sucesso contra o Místico (role duas vezes, a ação falha se um destes Testes fracassar).</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+              "adeptDescription": "<p>Como Novato, mas o inimigo tem uma segunda chance de falhar em quaisquer Testes de Sucessos independentemente do alvo.</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+              "masterDescription": "<p>O Místico roga uma maldição de morte sobre um inimigo. O inimigo sofre 1D6 de dano, que ignora qualquer Armadura, por todas as Ações que ele tentar executar.</p> <p>O alvo não sofre dano se permanecer parado e passivo. Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>"
             },
             "Exceptionally Strong": {
-              "name": "Exceptionally Strong"
+              "name": "Excepcionalmente Vigoroso",
+              "description": "<p>Todos os sentidos do personagem, bem como sua capacidade mental e física, podem ser aprimorados. Praticando um pouco a cada dia, os músculos podem ficar maiores, os olhos mais afiados e o intelecto mais vasto. Esta habilidade melhora a capacidade básica de sobrevivência do personagem.</p> <p>Esta habilidade pode ser escolhida várias vezes, cada vez relacionada a um Atributo diferente.</p>",
+              "noviceDescription": "<p>O personagem cultivou um de seus Atributos através de trabalho duro, que aumenta o Atributo em +1.</p>",
+              "adeptDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +2 no total.</p>",
+              "masterDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +3 no total.</p>"
             },
             "Spiked club": {
-              "name": "Spiked club"
+              "name": "Clava com Cravos",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Fortified Chainmail": {
-              "name": "Fortified Chainmail"
+              "name": "Cota de malha fortificada",
+              "description": "<p><strong>ARMADURA MÉDIA</strong> <br /><strong>Armadura: </strong> 1D6 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;3). Algumas têm a qualidade Flexível, e a Armadura de Corvo tem a qualidade Desajeitada.</p>\n<hr />\n<p>Armaduras médias oferecem proteções melhores que as versões leves, mas ao custo de serem mais restritivas aos movimentos do usuário. Esta restrição é considerada aceitável pela maioria dos combatentes corpo a corpo. Brunea e cota de malha são exemplos de armaduras médias. </P>"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -2525,14 +2577,21 @@
           }
         },
         "Robbers (as many as the PCs)": {
-          "name": "Robbers (as many as the PCs)",
-          "tokenName": "Robbers (as many as the PCs)",
+          "name": "Ladrões (tanto quanto os PJs)",
+          "tokenName": "Ladrão",
+          "race": "Humano (Ambriano)",
+          "manner": "Encara com os olhos enevoados",
+          "shadow": "Ferro Enferrujado",
+          "background": "“Seu dinheiro ou seu... ou você morre!”",
+          "tactics": "Disparam uma saraivada com suas bestas antes de atacar com lanças. Eles tentam permanecer vivos enquanto Mal-Rogan mata os inimigos um por um.",
           "items": {
             "Leather Cuirass": {
-              "name": "Leather Cuirass"
+              "name": "Couraçado",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Crossbow": {
-              "name": "Crossbow"
+              "name": "Besta",
+              "description": "<p>A besta é carregada com virotes, os arcos disparam flechas e as fundas lançam pedras afiadas.</p>   <p>Uma besta requer uma ação de movimento para ser recarregada.</p>"
             },
             "Spear": {
               "name": "Lança",
@@ -2540,10 +2599,11 @@
               "cost": "3 táleres"
                     },
             "Quiver": {
-              "name": "Quiver"
+              "name": "Aljava",
+              "description": "Contém 6 virotes"
             },
             "Dice Set": {
-              "name": "Dice Set"
+              "name": "Conjunto de Dados"
             },
             "Contacts (Thugs & Brigands)": {
               "name": "Contacts (Thugs & Brigands)",
@@ -2554,6 +2614,11 @@
         "Saran-Ri": {
           "name": "Saran-Ri",
           "tokenName": "Saran-Ri",
+          "race": "Elfo (Verão)",
+          "occupation": "Elfo do final do verão",
+          "manner": "cautelos e alerta",
+          "shadow": "Vermelho com flocos dançantes de fuligem",
+          "tactics": "Derrubar o oponente mais forte no corpo a corpo primeiro, e então o resto dos combatentes corpo a corpo antes de atacar místicos e atiradores.",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
@@ -2592,13 +2657,13 @@
               "masterDescription": "<p>A criatura tem uma proteção natural de 4.</p>"          
             },
             "Bear Skin": {
-              "name": "Bear Skin"
+              "name": "Pele de Urso"
             },
             "Claws": {
-              "name": "Claws"
+              "name": "Garras"
             },
             "Ring of rusty iron": {
-              "name": "Ring of rusty iron"
+              "name": "Anel de Ferro Enferrujado"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -2610,11 +2675,10 @@
           "name": "Ansel, Teurgo",
           "tokenName": "Ansel, Teurgo",
           "race": "Humano (ambriano)",
-          "quote": "“vá-se embora, cético!”",
+          "quote": "“Vá-se embora, cético!”",
           "shadow": "Dourado brilhante, como o sol refletido de um espelho prateado",
           "appearance": "<p>Você é um servo da fé instruído na Igreja de Prios, e também um mago sacerdote, um dos poucos selecionados por Prios para ser a luz no mundo. Sua convicção pode ser firme, mas sua relação com a Igreja não é: intrigas se alastram por trás das portas fechadas, cotovelos afiados e difamações puras não são incomuns na luta por posições na hierarquia da Igreja.</p>",
           "background": "<p>Você luta constantemente para determinar o que é a vontade real de Prios e o que é parte dos esquemas de seus superiores. Você está determinado a continuar sendo um campeão do primeiro e se recusa a ser trazido para o segundo. Você provavelmente era um daqueles que ficou para trás em Alberetor, por escolha ou por ordem, para cuidar de algum templo antigo do Deus Sol. Agora você foi convocado para fechar os portões do templo e unir-se a seus irmãos e irmãs no norte. Você possivelmente está familiarizado com Orlan e Bartolom, talvez após terem servido por um tempo na mesma unidade do orgulhoso exército da Rainha Korinthia.</p>",
-
           "items": {
             "Leader": {
               "name": "Líder",
@@ -2669,8 +2733,12 @@
           }
         },
         "Bartolom, Wizard of Ordo Magica": {
-          "name": "Bartolom, Wizard of Ordo Magica",
-          "tokenName": "Bartolom, Wizard of Ordo Magica",
+          "name": "Bartolom, Mago da Ordo Mágica",
+          "tokenName": "Bartolom, Mago da Ordo Mágica",
+          "race": "Humano (ambriano)",
+          "quote": "Interessante, isto deve ser analisado",
+          "appearance": "<p>Você é um aprendiz na Ordo Magica, a maior e mais influente ordem de magia de Ambria. Quando todos os outros viajaram para o norte, você e seu mestre permaneceram em Alberetor para estudar a terra moribunda, embora você não deseje nada mais do que seguir adiante em busca da verdade por trás dos rumores sobre as ervas da Davokar e a magia das bruxas bárbaras.</p>",
+          "background": "<p>Agora que seu mestre está morto, é hora de colocar esse plano em ação. O primeiro passo é localizar seu antigo colega, Mestre Vernam, que dizem viver em Forte do Cardo.A última coisa que seu mestre falecido pediu a você foi para levar um verdadeiro tesouro de sua torre ao Grão Mestre Seldonio em Yndaros; o antigo artefato conhecido como Pedra do Sol. Feito isso, você estará livre para fazer o que quiser, mas provavelmente contemplará unir-se ao capítulo em Forte do Cardo. Você pode ser amigo ou conhecido de Orlan ou Ansel.</p>",
           "items": {
             "Alchemy": {
               "name": "Alquimia",
@@ -2694,17 +2762,27 @@
               "masterDescription": "<p>Como um Médico Mestre, o personagem possui um vasto conhecimento medicinal. Um Teste bem-sucedido de Astuto agora cura 1D8 da Vitalidade de um paciente, ou 1D10 quando utilizar uma cura herbal.</p´> <p>Mesmo um Teste fracassado cura um pouco a Vitalidade do paciente; 1D4 quando utilizar somente Médico ou 1D6 quando tentar aplicar uma cura herbal.</p> <p>Esta habilidade pode ser utilizada somente uma vez por paciente por dia.</p>"
             },
             "Wizardry": {
-              "name": "Wizardry"
+              "name": "Magismo",
+              "description": "<p>0 Magismo é ensinado pela Ordo Magica e é uma tradição cujos praticantes são bem-versados nos mistérios do fogo, no triunfo da vontade sobre a matéria e nos labirintos dos sentidos. Para os magos da Ordem, estes fenômenos estão intimamente conectados.</p>",
+              "noviceDescription": "<p>O mago não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição do Magismo, nem quando aprender seus rituais. Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais do Magismo.</p>",
+              "adeptDescription": "<p>O mago não sofre mais Corrupção permanente por aprender poderes no nível Adepto pertencentes à tradição do Magismo.</p> <p>O Adepto também aprendeu como fundamentar os poderes e rituais do Magismo em teorias tão bem, que agora o mago sofre apenas um (1) ponto de Corrupção temporária quando conjurá-los.</p>",
+              "masterDescription": "<p>A compreensão do mago Mestre da magia vinculada é tão completa, que o personagem pode rerrolar um (1) Teste fracassado quando tentar estabelecer uma Corrente de efeitos místicos (veja página 130).</p> <p>O mago da ordem não sofre mais Corrupção permanente por aprender poderes no nível Mestre pertencentes à tradição do Magismo.</p>"
             },
             "Brimstone Cascade": {
-              "name": "Brimstone Cascade"
+              "name": "Cascada de Enxofre",
+              "material": "Um punhado de enxofre puro.",
+              "description": "<p>O Místico pode liberar o espírito furioso do fogo e reduzir seus inimigos a cinzas, ou pelo menos queimá-los severamente.</p>",
+              "noviceDescription": "<p>O Místico lança fogo e enxofre contra um alvo. Caso o Místico obtenha sucesso em um Teste de [Resoluto←Rápido], a cascata causa 1D12 de dano.</p> <p>Caso falhe no Teste, a cascata causa somente 1D6 de dano.</p>",
+              "adeptDescription": "<p>O Místico lança uma Corrente de energia ardente. Caso o Místico obtenha sucesso em um Teste de [Resoluto←Rápido], a cascata causa 1D12 de dano.</p> <p>Caso falhe no Teste, a cascata causa somente 1D6 de dano.</p> <p>Caso o alvo sofra completamente os 1D12 de dano, o Místico pode tentar conduzir a energia em direção a novos alvos adicionais, até o Místico falhar em um Teste de [Resoluto←Rápido].</p>",
+              "masterDescription": "<p>O Místico lança uma autêntica tempestade de energia flamejante e fumegante. Caso o Místico obtenha sucesso em um Teste de [Resoluto←Rápido], a cascata causa 1D12 de dano.</p> <p>Caso falhe no Teste, a cascata causa somente 1D6 de dano.</p> <p>A Corrente continua, mesmo se o Místico falhar em um dos Testes, e não para até uma segunda tentativa fracassada.</p>"
             },
             "Dagger": {
               "name": "Adaga",
               "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Walking Staff": {
-              "name": "Walking Staff"
+              "name": "Bordão",
+              "description": "<p>O mais simples bordão, frequentemente feito de madeira que foi endurecida com fogo, tem o alcance de uma arma Longa, mas não tem o efeito de armas com ponta de ferro.</p>"
             },
             "Blessed Robe": {
               "name": "Robe Abençoado",
@@ -2721,7 +2799,7 @@
               "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Aged Sherry": {
-              "name": "Aged Sherry"
+              "name": "Xerez Envelhecido"
             },
             "Priviledged": {
               "name": "Privilegiado",
@@ -2740,17 +2818,30 @@
           }
         },
         "Fenya, goblin treasure-hunter": {
-          "name": "Fenya, goblin treasure-hunter",
-          "tokenName": "Fenya, goblin treasure-hunter",
+          "name": "Fenya, goblin caçadora de tesouros",
+          "tokenName": "Fenya, goblin caçadora de tesouros",
+          "quote": "“Ai está você, meu tesouro precioso!”",
           "items": {
             "Polearm Mastery": {
-              "name": "Polearm Mastery"
+              "name": "Maestria em Armas de Haste",
+              "description": "<p>O personagem é iniciado nos segredos de armas de cabos longos. A lança é uma arma simples e qualquer um pode aprender rapidamente como fazer bom uso de seu comprimento. Por esta razão, os exércitos das milícias das planícies e florestas frequentemente são armados com lanças.</p> <p>A perícia avançada do personagem com armas longas realmente mostra que um simples cabo de madeira reforçada pode ser uma arma temível nas mãos de um guerreiro treinado.</p>",
+              "noviceDescription": "<p> O dano causado por armas longas é aumentado em um passo, para 1D10 para lanças e alabardas e para 1D8 para cajados.</p>",
+              "adeptDescription": "<p>O personagem realmente dominou a estocada longa. O personagem recebe um Ataque Livre contra todos os inimigos que entrarem no seu alcance de combate corpo a corpo — se é o inimigo quem engaja o personagem ou vice-versa, é irrelevante.</p> <p>A única exceção é quando o inimigo também empunha uma arma longa; em tal situação, o personagem não recebe um Ataque Livre.</p>",
+              "masterDescription": "<p>Como um Mestre de armas longas, o personagem tem a habilidade de manter seus inimigos à distância. O personagem pode utilizar o Ataque Livre com uma arma de haste para impedir um inimigo de se aproximar para atacar.</p> <p>Enquanto o personagem obtiver sucesso em acertar o inimigo, o inimigo permanece incapaz de atacá-lo com armas corpo a corpo — independentemente de o dano penetrar ou não a armadura do inimigo.</p>"
             },
             "Survival Instinct": {
-              "name": "Survival Instinct"
+              "name": "instinto de Sobrevivência",
+              "description": "<p>O personagem pertence a uma linhagem com força vital poderosa e uma vontade de sobreviver igualmente poderosa. Para alguns indivíduos, esta energia se manifesta como um clamoroso brado e uma perspicácia incansável; para outros, ela se manifesta como um instinto de sobrevivência mais útil. </p>",
+              "noviceDescription": "<p>Graças a seu instinto de sobrevivência explosivo, o personagem pode realizar uma Ação de Movimento extra uma vez por cena.</p>",
+              "adeptDescription": "<p>O personagem confia em seus instintos e aprendeu que lidar com as adversidades frequentemente salva sua vida. O instinto de sobrevivência afiado do personagem lhe fornece +1D4 permanente à Armadura.</p>",
+              "masterDescription": "<p>Um poderoso espírito de luta reside em cada membro da linhagem do personagem, e esse espírito pode se mostrar quando o personagem é encurralado.</p> <p>O personagem nutriu esta agressão violenta e pode sacrificar uma Ação de Movimento uma vez por cena para realizar uma Ação de Combate extra.</p>"
             },
             "Ritualist (Familiar)": {
-              "name": "Ritualist (Familiar)"
+              "name": "Ritualista (Familiar)",
+              "description": "<p>O personagem aprendeu como poderes místicos podem ser canalizados através de rituais — práticas poderosas, mas que consomem bastante tempo. Este conhecimento pode vir do estudo com um professor ou de estudos autodidatas com um códice de rituais.</p> <p>O personagem sofre um (1) ponto de Corrupção permanente para cada ritual que aprende, exceto se o ritual pertencer a uma tradição mística praticada por ele. Neste caso, o personagem é poupado da mácula da Corrupção.</p> <p>Quando executa rituais, o personagem sofre 1D4 de Corrupção temporária se o ritual não pertencer a uma tradição que ele ou ela dominou. Executar rituais cobertos pela tradição do personagem gerasomente um (1) ponto de Corrupção temporária.</p> <p>A habilidade Ritualista torna possível para o personagem reconhecer qual ritual está sendo executado ao examinar símbolos e componentes remanescentes na cena, e também para deduzir os efeitos do ritual, mesmo se ele ou ela não o tiver dominado.</p>",
+              "noviceDescription": "<p>O personagem aprendeu a executar um (1) ritual. O ritual pode pertencer a qualquer tradição mística, mas o personagem deve ter acesso ao ritual para aprendê-lo e memorizá-lo.</p> <p>O conhecimento pode ser conseguido através de um tutor envolvido na mesma organização que o personagem, de um códice encontrado nas ruínas de Symbaroum ou de outro Ritualista que compartilha o conhecimento como uma recompensa por serviços prestados.</p>",
+              "adeptDescription": "<p>O personagem aprendeu a executar dois rituais adicionais (três no total), novamente de qualquer tradição mística, mas com as mesmas condições de aprendizado que no nível Novato.</p>",
+              "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
             },
             "Field equipment": {
               "name": "Equipamento de Acampar",
@@ -2758,14 +2849,16 @@
               "cost": "5 xelins"
             },
             "Leather Gown": {
-              "name": "Leather Gown"
+              "name": "Couro enrijecido",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Dagger": {
               "name": "Adaga",
               "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Spear": {
-              "name": "Spear"
+              "name": "Lança",
+              "description": "<p><strong>ARMAS LONGAS </strong><br /><strong>Dano: </strong>1D8 <br /><strong>Qualidades: </strong>Longa. A Alabarda tem Impacto Profundo, o Pique é Preciso e o Bordão é Contundente. </p>\n<hr />\n<p>Armas Longas têm a vantagem de alcance superior e dão ao usuário Ataques Livres contra inimigos que não estão armados com armas Longas. Uma arma Longa pode ser utilizada com uma mão, mas perdem a qualidade Longa, já que o usuário é forçado a segurar mais alto na empunhadura para controlar a arma. Lança e cajado são exemplos de armas Longas.</p>"
             },
             "Pariah": {
               "name": "Pariah"
@@ -2800,7 +2893,8 @@
               "name": "Sixth Sense"
             },
             "Crossbow": {
-              "name": "Crossbow"
+              "name": "Besta",
+              "description": "<p>A besta é carregada com virotes, os arcos disparam flechas e as fundas lançam pedras afiadas.</p>   <p>Uma besta requer uma ação de movimento para ser recarregada.</p>"
             },
             "Dagger": {
               "name": "Adaga",
@@ -2885,12 +2979,11 @@
               "name": "Pipe and Tobacco"
             },
             "Dice Set": {
-              "name": "Dice Set"
+              "name": "Conjunto de Dados"
             },
             "Contacts (Sellswords)": {
               "name": "Contacts (Sellswords)",
               "description": "<p>O personagem serviu em uma organização ou viajou para bem longe e, portanto, teceu uma ampla rede de contatos. Com uma jogada bem-sucedida contra Persuasivo, o personagem pode lembrar-se de um contato que deve poder ser capaz de ajudar em uma questão específica ou uma situação precária.</p> <p>O contato pode não estar diretamente disponível — isso depende de quem está incluído em sua rede de contatos.</p> <p>Facções adequadas e pessoas que podem ser especificadas como os contatos do personagem são: O Exército da Rainha, os Patrulheiros da Rainha, Bruxas, Ordo Magica, a Igreja de Prios, as Casas Nobres e os Caçadores de Tesouros.</p>"
-
             }
           }
         },
@@ -2971,7 +3064,6 @@
               "noviceDescription": "<p>Um ataque por turno feito com Vantagem causa +1D4 de dano extra em adição a qualquer dano já infligido graças à Vantagem.</p> <p>O personagem pode utilizar Discreto em vez de Preciso quando realizar ataques estando em Vantagem. Ataque Furtivo pode ser realizado somente uma vez por turno, independentemente de outras circunstâncias.</p>",
               "adeptDescription": "<p>O Ataque Furtivo do personagem causa dano extra conforme acima, mas também causa um sangramento ao inimigo. O ataque abre um ferimento que sangra bastante, infligindo 1D4 de dano a cada turno subsequente ao ataque.</p> <p>O inimigo continua a sangrar até ser curado por uma cura herbal, pela habilidade Médico ou de alguma outra forma.</p>",
               "masterDescription": "<p>O Ataque Furtivo do personagem causa +1D8 de dano extra e causa um sangramento ao inimigo, assim como no nível Adepto. Não há quaisquer limites de quantos Ataques Furtivos um Mestre pode executar por turno.</p> <p>Todos os ataques são considerados Ataques Furtivos desde que as condições da Vantagem sejam atendidas (ver páginas 162).</p>"
-
             },
             "Feint": {
               "name": "Feint"
@@ -3028,7 +3120,8 @@
               "name": "Two-handed Sword"
             },
             "Fortified Chainmail": {
-              "name": "Fortified Chainmail"
+              "name": "Cota de malha fortificada",
+              "description": "<p><strong>ARMADURA MÉDIA</strong> <br /><strong>Armadura: </strong> 1D6 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;3). Algumas têm a qualidade Flexível, e a Armadura de Corvo tem a qualidade Desajeitada.</p>\n<hr />\n<p>Armaduras médias oferecem proteções melhores que as versões leves, mas ao custo de serem mais restritivas aos movimentos do usuário. Esta restrição é considerada aceitável pela maioria dos combatentes corpo a corpo. Brunea e cota de malha são exemplos de armaduras médias. </P>"
             },
             "Field equipment": {
               "name": "Equipamento de Acampar",
@@ -3112,7 +3205,11 @@
               "masterDescription": "<p>O dano da pancada com escudo é aumentado de 1D4 para 1D8 e o alvo ainda é derrubado no chão se o personagem obtiver sucesso em um Teste de [Vigoroso←Vigoroso].</p>"
             },
             "Undead": {
-              "name": "Undead"
+              "name": "Morto-vivo",
+              "description": "<p>A criatura é um espírito preso dentro de um corpo morto. O espírito controla o corpo em lenta decomposição e é banido quando o corpo é destruído.</p>",
+              "noviceDescription": "<p>A criatura morta-viva não é afetada por venenos ou doenças, mas sofre o dano normal de efeitos físicos, exceto que o Limiar de Dor não é usado (dor e choque não afetam o cadáver animado).</p> <p>O cadáver animado não se cura naturalmente e não é afetado por elixires alquímicos de cura, em vez disso, deve comer carne fresca (viva ou morta recentemente) ou beber sangue para se curar, cada ponto de Vitalidade que a criatura consome lhe cura 2 pontos de Vitalidade.</p>",
+              "adeptDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos físicos ordinários, tais como armas ou dano elemental. Poderes místicos que ignoram a Armadura causam dano completo normalmente.</p>",
+              "masterDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos místicos e alquímicos também, mas sofre dano completo de armas mágicas e efeitos sagrados.</p>"
             },
             "Rusty Sword": {
               "name": "Rusty Sword"
@@ -3443,7 +3540,8 @@
           "name": "Medium"
         },
         "Mirage": {
-          "name": "Mirage"
+          "name": "Miragem",
+          "description": "<p>A pessoa tem um dom místico e pode tecer miragens momentâneas no ar; chamas que não emitem calor pulam entre suas mãos, pequenas figuras de luz dançam no ar e assim por diante. O personagem também pode tecer imagens falsas sobre objetos menores, como por exemplo fazer pedrinhas aparecerem como moedas brilhantes. Com o tempo, a miragem não enganará ninguém, pois seu efeito desaparece no final da cena.</p> <p>Com Miragem, a pessoa pode rolar contra Persuasivo para enganar alguém a aceitar produtos falsificados ou pagamento na forma de moedas ilusórias, até um “valor” máximo de 100 táleres. Além disso, Miragem concede +1 em Persuasivo quando o personagem ameaça alguém com “magia poderosa”.</p>"
         },
         "Musician": {
           "name": "Musician"
@@ -3479,7 +3577,8 @@
           "name": "Sickly"
         },
         "Slow": {
-          "name": "Slow"
+          "name": "Lento",
+          "description": "<p>A criatura ou pessoa se move a uma velocidade anormalmente lenta. Em situações em que a precisão conta, o movimento é de 7 metros por turno.</p> <p>Em conexão com a regra Perseguição: Fuga & Caça (página 104), o fardo impõe –3 de penalidade em Rápido.</p>"
         },
         "Soulmate": {
           "name": "Soulmate"
@@ -4076,7 +4175,8 @@
           "name": "Missile Battery"
         },
         "Repeating Crossbow": {
-          "name": "Repeating Crossbow"
+          "name": "Besta de Repetição",
+          "description": "<p>A besta de repetição é uma versão mecanicamente avançada da besta. A arma tem uma alavanca por baixo para ser recarregada mais rapidamente. Somente os ferreiros mais habilidosos são capazes de construir armas tão tecnicamente avançadas.</p> <p>Uma besta de repetição é recarregada como uma ação livre — sem perder o poder de ataque da besta regular.</p>"
         },
         "Small Crossbow": {
           "name": "Small Crossbow"
@@ -4178,7 +4278,18 @@
           "power2Description": "<p>Com uma jogada bem-sucedida contra Resoluto, o mestre da pedra pode liberar o espírito de fogo capturado, dessa forma destruindo o artefato.</p> <p>O espírito aparece como um humanoide alto feito de chamas e fuligem. Ele é grato e irá obedecer a seu mestre pelo restante da cena.</p> <p>Comandos simples podem ser dados a ele (Ação Livre) como “guarde este local”, “ataque este indivíduo” ou “me mantenha seguro”.</p>"
         },
         "Water of Dusk": {
-          "name": "Water of Dusk"
+          "name": "Água do Crepúsculo",
+          "description": "<p>Água do Crepúsculo é um exemplo de um artefato que o Mestre de Jogo pode usar em qualquer aventura própria, e também é possível que o Mestre a use como inspiração para criar novos itens místicos. Dizem que a Água do Crepúsculo foi criada pela primeira vez em um campo de batalha durante a Grande Guerra, logo antes dos Lordes Negros invadirem Alberetor em peso.</p> <p>Hoje, Água do Crepúsculo é criada no solstício de verão pelos teurgos mais poderosos a serviço de Prios. Quando a última luz do sol moribundo brilha através do átrio da poderosa catedral de Muralha do Templo, ela é capturada nas lágrimas das Lamentadoras sagradas, para serem depositadas em um frasco de cristal abençoado para esse fim. Apenas um desses frascos é feito por ano e seus poderes contêm a benção e julgamento de Prios, destilado em algumas gotas.</p> <p>Este elixir portador da luz tem fama de curar doenças, afastar bestas maculadas e; se o frasco for partido; purgar as energias profanas de um lugar amaldiçoado. Naturalmente, Águas do Crepúsculo não podem ser compradas. Em vez disso, elas são sempre dadas aos servos mais fervorosos da igreja antes de uma missão importante. Contudo, um frasco ocasional pode ter sido perdido quando algum campeão do sol caiu em batalha.</p> <p>A sagrada Água do Crepúsculo não pode ser vinculada ao aceitar Corrupção; ela deve ser paga em Experiência. Quando isso é feito, personagens que vinculam a Água do Crepúsculo a si mesmos, imediatamente sofrem 1D4 pontos de dano para cada ponto de Corrupção permanente que possuírem. Personagens cuja Vitalidade é trazida a 0 são imediatamente reduzidos a uma pilha de cinzas; a regra para Testes de Morte não se aplica! Os que sobrevivem descobrirão que toda a sua Corrupção permanente foi queimada.</p> <p>Personagens com Corrupção permanente podem fazer um Teste de [Vigilante –Corrupção permanente] para perceber que a água irá julgá-los severamente.</p>",
+          "power0Name": "A Luz do Sol",
+          "power0Description": "<p>Nas mãos de quem se submeteu à luz e se vinculou a ele, o frasco pode brilhar com o poder do sol, de forma que os arredores são banhados em luz igual a um dia sem nuvens com o sol alto no céu.</p>",
+          "power1Name": "Gotas do Sol",
+          "power1Description": "<p>O frasco contém 1D10 gotas de água benta, que podem ser gotejadas em uma pessoa doente ou ferida para curá-la. Cada gota possui todos os efeitos abaixo quando usada em uma criatura. Quando todas as gotas forem usadas, o frasco ficará vazio e a luz de Prios terá se esgotado.</p>\n<ul>\n<li>Cura 1D10 pontos de Vitalidade.</li>\n<li>Funciona como um antídoto moderado.</li>\n<li>Purga um (1) ponto de Corrupção permanente.</li>\n<li>Causa dano à criatura igual à Corrupção dela, caso possua.</li>\n</ul>",
+          "power2Name": "Sinergia Sagrada",
+          "power2Description": "<p>Alguém que se vinculou à Água do Crepúsculo pode usar sua luz para aumentar o efeito de poderes teúrgicos. Estes têm seu Dado de Efeito aumentado em um passo. A sinergia pode ser executada uma vez por cena.</p>",
+          "power3Name": "Justiça do Portador da Luz",
+          "power3Description": "<p>Aquele que se submete à Água do Crepúsculo pode quebrar o frasco com um pensamento e liberar sua luz julgadora.</p> <p>Todas as criaturas presentes que têm pelo menos um (1) ponto de Corrupção sofrem dano igual ao seu total de Corrupção, enquanto todas as criaturas que pertencem à categoria de monstro Abominação sofrem 1D10+10 de dano. É claro, isso também afeta quem carrega o frasco.</p>",
+          "power4Name": "Perdição Brilhante",
+          "power4Description": "<p>Caso aquele que carrega a Água do Crepúsculo e a tem vinculada a ele se torne marcado pela mácula, o frasco detona com o mesmo efeito da Justiça do Portador da Luz.<p>"
         },
         "Bushcraft": {
           "name": "Mateiro",
@@ -4193,13 +4304,16 @@
           "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
         },
         "Pariah": {
-          "name": "Pariah"
+          "name": "Pária",
+          "description": "<p>O personagem pertence a uma raça que é malvista entre a maioria governante e é habitualmente discriminada. Indivíduos solitários na sociedade podem ser menos inclinados a ter preconceito, mas as interações sociais do personagem geralmente são dificultadas. Grupos perseguidos tendem a permanecer juntos contra o mundo e prestar ajuda e apoio entre si.</p> <p>Quando realizar um desafio social, o jogador deve rolar duas vezes e usar o pior resultado para decidir a consequência do Teste. Por outro lado, o personagem é recompensado com uma segunda chance para obter sucesso quando interagir com membros de sua própria raça, caso esse em que ele deve rolar os dados somente quando se esforça para realizar algo questionável ou que seja quase impossível de conseguir.</p> <p>Adicionalmente, o personagem começa com apenas cinco xelins em sua bolsa.</p>"
         },
         "Privileged": {
-          "name": "Privileged"
+          "name": "Privilegiado",
+          "description": "<p>O personagem pertence a uma raça da mais alta classe social dentro de sua sociedade e, portanto, possui vantagens que outros simplesmente não podem possuir ou devem pagar em prata ou trabalho duro para obter.</p> <p>O personagem recebe uma segunda chance para obter sucesso quando realizar desafios sociais em sua própria sociedade, e não precisa rolar os dados a menos que esteja se esforçando para realizar algo questionável ou que seja quase impossível de conseguir.</p> <p>Adicionalmente, o personagem começa com 50 táleres em sua bolsa.</p>"
         },
         "Short-Lived": {
-          "name": "Short-Lived"
+          "name": "Vida Curta",
+          "description": "<p>A vida do personagem é curta, mesmo sob condições de vida favoráveis. Todos os membros de sua raça tendem a alcançar a idade adulta em um punhado de anos, após o qual começam a perder seu vigor juvenil, de forma que poucos vivem até os quarenta anos. Por outro lado, eles são mais rápidos para aprender e se adaptar a novos ambientes, e frequentemente estão prontos para encarar o mundo aos cinco anos de vida.</p> <p>Vida curta não tem efeito além do que implica em termos de interpretar o personagem.</p>"
         },
         "Artisan tool": {
           "name": "Ferramenta de Artesão",
@@ -4578,19 +4692,21 @@
           "name": "Witch Circle"
         },
         "Bite": {
-          "name": "Bite"
+          "name": "Mordida"
         },
         "Claws": {
-          "name": "Claws"
+          "name": "Garras"
         },
         "Tusks": {
           "name": "Presas"
         },
         "No Pain": {
-          "name": "No Pain"
+          "name": "Sem Dor",
+          "description": "<p>A criatura não sentirá dor. Seu Limiar de Dor é definido como 0 e o dano não a incomodará. Atribua essa característica a monstros relevantes, geralmente das categorias de mortos-vivos, flora ou espíritos.</p>"
         },
         "Thoroughly Corrupted": {
-          "name": "Thoroughly Corrupted"
+          "name": "Completamente Corrompido",
+          "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
         },
         "Agile Combat": {
           "name": "Agile Combat"
@@ -4861,7 +4977,11 @@
           "masterDescription": "<p>O personagem dominou a arte de envenenar e sabe como tirar o máximo de um veneno. Caso o personagem obtenha sucesso em um Teste de Astuto, qualquer veneno aplicado a uma arma é considerado um nível superior ao normal.</p> <p>Venenos Fracos contam como Moderados, e Moderados contam como Fortes. Venenos Fortes não causam qualquer dano adicional, mas concedem ao personagem uma segunda chance para obter sucesso no Teste de [Astuto←Vigoroso].</p>"
         },
         "Polearm Mastery": {
-          "name": "Polearm Mastery"
+          "name": "Maestria em Armas de Haste",
+          "description": "<p>O personagem é iniciado nos segredos de armas de cabos longos. A lança é uma arma simples e qualquer um pode aprender rapidamente como fazer bom uso de seu comprimento. Por esta razão, os exércitos das milícias das planícies e florestas frequentemente são armados com lanças.</p> <p>A perícia avançada do personagem com armas longas realmente mostra que um simples cabo de madeira reforçada pode ser uma arma temível nas mãos de um guerreiro treinado.</p>",
+          "noviceDescription": "<p> O dano causado por armas longas é aumentado em um passo, para 1D10 para lanças e alabardas e para 1D8 para cajados.</p>",
+          "adeptDescription": "<p>O personagem realmente dominou a estocada longa. O personagem recebe um Ataque Livre contra todos os inimigos que entrarem no seu alcance de combate corpo a corpo — se é o inimigo quem engaja o personagem ou vice-versa, é irrelevante.</p> <p>A única exceção é quando o inimigo também empunha uma arma longa; em tal situação, o personagem não recebe um Ataque Livre.</p>",
+          "masterDescription": "<p>Como um Mestre de armas longas, o personagem tem a habilidade de manter seus inimigos à distância. O personagem pode utilizar o Ataque Livre com uma arma de haste para impedir um inimigo de se aproximar para atacar.</p> <p>Enquanto o personagem obtiver sucesso em acertar o inimigo, o inimigo permanece incapaz de atacá-lo com armas corpo a corpo — independentemente de o dano penetrar ou não a armadura do inimigo.</p>"
         },
         "Quick Draw": {
           "name": "Saque Rápido",
@@ -4934,7 +5054,11 @@
           "masterDescription": "<p>O personagem alcançou as compreensões superiores de um Mestre, e agora pode ver todas as Sombras e suas respectivas forças claramente.</p> <p>O personagem sofre 1D6 de Corrupção temporária toda vez que tenta ver as Sombras de uma criatura, local ou objeto.</p>"
         },
         "Wizardry": {
-          "name": "Wizardry"
+          "name": "Magismo",
+          "description": "<p>0 Magismo é ensinado pela Ordo Magica e é uma tradição cujos praticantes são bem-versados nos mistérios do fogo, no triunfo da vontade sobre a matéria e nos labirintos dos sentidos. Para os magos da Ordem, estes fenômenos estão intimamente conectados.</p>",
+          "noviceDescription": "<p>O mago não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição do Magismo, nem quando aprender seus rituais. Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais do Magismo.</p>",
+          "adeptDescription": "<p>O mago não sofre mais Corrupção permanente por aprender poderes no nível Adepto pertencentes à tradição do Magismo.</p> <p>O Adepto também aprendeu como fundamentar os poderes e rituais do Magismo em teorias tão bem, que agora o mago sofre apenas um (1) ponto de Corrupção temporária quando conjurá-los.</p>",
+          "masterDescription": "<p>A compreensão do mago Mestre da magia vinculada é tão completa, que o personagem pode rerrolar um (1) Teste fracassado quando tentar estabelecer uma Corrente de efeitos místicos (veja página 130).</p> <p>O mago da ordem não sofre mais Corrupção permanente por aprender poderes no nível Mestre pertencentes à tradição do Magismo.</p>"
         },
         "Armored*": {
           "name": "Armadurado",
@@ -5100,7 +5224,11 @@
           "name": "Terrify"
         },
         "Undead": {
-          "name": "Undead"
+          "name": "Morto-vivo",
+          "description": "<p>A criatura é um espírito preso dentro de um corpo morto. O espírito controla o corpo em lenta decomposição e é banido quando o corpo é destruído.</p>",
+          "noviceDescription": "<p>A criatura morta-viva não é afetada por venenos ou doenças, mas sofre o dano normal de efeitos físicos, exceto que o Limiar de Dor não é usado (dor e choque não afetam o cadáver animado).</p> <p>O cadáver animado não se cura naturalmente e não é afetado por elixires alquímicos de cura, em vez disso, deve comer carne fresca (viva ou morta recentemente) ou beber sangue para se curar, cada ponto de Vitalidade que a criatura consome lhe cura 2 pontos de Vitalidade.</p>",
+          "adeptDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos físicos ordinários, tais como armas ou dano elemental. Poderes místicos que ignoram a Armadura causam dano completo normalmente.</p>",
+          "masterDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos místicos e alquímicos também, mas sofre dano completo de armas mágicas e efeitos sagrados.</p>"
         },
         "Web": {
           "name": "Teia",
@@ -5138,7 +5266,12 @@
           "name": "Confusion"
         },
         "Curse": {
-          "name": "Curse"
+          "name": "Maldição",
+          "material": "Nenhum, um olhar penetrante é suficiente.",
+          "description": "<p>O Místico domina a arte de encarar com o Mal Olhado e pode amaldiçoar inimigos no campo de batalha; um poder frequentemente utilizado pelos discípulos dos Lordes Negros durante a Grande Guerra.</p>",
+          "noviceDescription": "<p>Uma vez por turno, o olhar penetrante do Místico automaticamente dá a um inimigo uma segunda chance de falhar em quaisquer Testes de Sucesso contra o Místico (role duas vezes, a ação falha se um destes Testes fracassar).</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+          "adeptDescription": "<p>Como Novato, mas o inimigo tem uma segunda chance de falhar em quaisquer Testes de Sucessos independentemente do alvo.</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+          "masterDescription": "<p>O Místico roga uma maldição de morte sobre um inimigo. O inimigo sofre 1D6 de dano, que ignora qualquer Armadura, por todas as Ações que ele tentar executar.</p> <p>O alvo não sofre dano se permanecer parado e passivo. Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>"
         },
         "Entangling Vines": {
           "name": "Entangling Vines"
@@ -5225,44 +5358,56 @@
           "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
         },
         "Bastard Sword, one hand grip": {
-          "name": "Bastard Sword, one hand grip"
+          "name": "Espada Bastarda, uma mão",
+          "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"
         },
         "Bastard Sword, two-handed grip": {
-          "name": "Bastard Sword, two-handed grip"
+          "name": "Espada Bastarda, duas mãos",
+          "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"
         },
         "Battle claw": {
-          "name": "Battle claw"
+          "name": "Garra de Batalha",
+          "description": "<p>O clã Karohar na Davokar meridional desenvolveu uma manopla com garras que você veste em sua mão e cujas garras simulam as de um pesadelino.</p>"
         },
         "Bow": {
-          "name": "Bow"
+          "name": "Arco",
+          "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
         },
         "Buckler": {
-          "name": "Buckler"
+          "name": "Broquél",
+          "description": "<p>O broquel é um escudo pequeno comumente carregado por arqueiros e lanceiros de elite, já que é ágil o suficiente para ser amarrado ao braço e ainda permitir o uso de ambas as mãos para empunhar uma arma.</p> <p>O Broquel é leve demais para ser utilizado com a habilidade Combatente de Escudo.</p>"
         },
         "Crossbow": {
-          "name": "Crossbow"
+          "name": "Besta",
+          "description": "<p>A besta é carregada com virotes, os arcos disparam flechas e as fundas lançam pedras afiadas.</p>   <p>Uma besta requer uma ação de movimento para ser recarregada.</p>"
         },
         "Crow’s Beak": {
-          "name": "Crow’s Beak"
+          "name": "Bico de Corvo",
+          "description": "<p>Uma arma menos elegante, mas efetiva, é o Bico de Corvo, também conhecida como Picareta de Guerra Kandoriana devido à cidade em Alberetor onde ela foi forjada pela primeira vez.</p> <p>O Bico de Corvo é uma clava, cuja cabeça de metal possui um espigão ou um bico de ferro, para perfurar através de armaduras mais facilmente. Após a fuga de Yndaros, os ferreiros da Picareta de Guerra Kandoriana se estabeleceram no distrito de Velha Kadizar onde continuaram a criar suas temidas armas.</p>"
         },
         "Dagger": {
           "name": "Adaga",
           "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
         },
         "Double-axe": {
-          "name": "Double-axe"
+          "name": "Machado Duplo",
+          "description": "<p>O machado duplo bárbaro (não confundir com a acha-de-armas, mais comum com sua cabeça de machado de lâmina única) é apropriadamente nomeado por suas cabeças de machado gêmeas e presume-se que seja um legado da caída Symbaroum.</p> <p>Nestes dias, o machado duplo era uma arma e um símbolo de boa condição. Apesar do conhecimento da metalurgia ter diminuído desde a queda de Symbaroum, estas armas poderosas ainda podem ser forjadas, frequentemente para guerreiros proeminentes.</p> <p>Ambrianos consideram o machado duplo rude e selvagem, sendo adequados para bárbaros e poucos outros, mas seu formato é bem conhecido devido às suas similaridades com a runa real, o Labrys.</p>"
         },
         "Fencing Sword": {
-          "name": "Fencing Sword"
+          "name": "Espada de Duelo",
+          "description": "<p>Em Yndaros, a espada de duelo ambriana é considerada o ápice do estilo, um instrumento com precisão superior feito de aço forte e flexível.</p> <p>Ela frequentemente é combinada com a favorita do duelista, a adaga de aparar, que dá ao combatente levemente armadurado uma defesa mais forte em combate.</p>"
         },
         "Flail": {
-          "name": "Flail"
+          "name": "Mangual",
+          "description": "O primo de uma mão do mangual pesado."
         },
         "Halberd": {
-          "name": "Halberd"
+          "name": "Alabarda",
+          "description": "<p>A alabarda, conhecida entre os bárbaros como acha-de-armas, tem elementos de arma Longa e Pesada, já que combina a ponta de uma lança com a cabeça de um machado.</p> <p>Ela não estoca tão rapidamente quanto a lança, mas um golpe de corte pode ter um efeito devastador.</p>"
         },
         "Heavy flail": {
-          "name": "Heavy flail"
+          "name": "Mangual Pesado",
+          "description": "<p>O mangual pesado é uma arma Articulada, onde uma esfera de metal; frequentemente com espinhos; anexada por uma corrente a um cabo de duas mãos é balançada contra o inimigo. Não é fácil se defender de um mangual, já que a esfera de metal frequentemente dá a volta no escudo ou arma do defensor e atinge seu alvo.</p> <p>O mangual pesado possui várias formas, como o tradicional cabo de madeira anexado a uma corrente que termina numa cabeça de metal espinhada. Também há variantes com peças de metal espinhadas que são acopladas, bem como modelos onde duas ou três correntes e cabeças de metal compartilham o mesmo cabo.</p> <p>Independentemente do formato, todos compartilham o mesmo peso e o fato de que são difíceis de serem bloqueados.</p>"
         },
         "Heavy weapon": {
           "name": "Armas Pesadas",
@@ -5275,35 +5420,44 @@
           
         },
         "Longbow": {
-          "name": "Longbow"
+          "name": "Arco Longo",
+          "description": "<p>O arco longo é uma arma confiável e comprovada no exército ambriano, e desde a Grande Guerra costuma ser carregada por fazendeiros que formam a espinha dorsal das companhias de arqueiros do reino.</p>"
         },
         "Parrying Dagger": {
-          "name": "Parrying Dagger"
+          "name": "Adaga de Aparar",
+          "description": "<p>A adaga de aparar, com sua guarda ampla e em formado de V, tornou-se popular em Yndaros, e frequentemente é empunhada junto de uma espada de duelo.</p>"
         },
         "Pike": {
-          "name": "Pike"
+          "name": "Pique",
+          "description": "<p>O cabo esguio e a ponta de aço temperado do pique ambriano avança para o alvo com grande precisão.</p>"
         },
         "Quarterstaff": {
-          "name": "Quarterstaff"
+          "name": "Bordão",
+          "description": "<p>O mais simples bordão, frequentemente feito de madeira que foi endurecida com fogo, tem o alcance de uma arma Longa, mas não tem o efeito de armas com ponta de ferro.</p>"
         },
         "Shield": {
           "name": "Escudo",
           "description": "<p><strong>ESCUDOS</strong> <br /><strong>Dano: </strong> Fornece +1 rm Defesa <br /><strong>Qualidades: </strong> Nenhuma. Broquéis são Flexíveis, Escudos de Aço são Equilibrados. </p>\n<hr />\n<p>Escudos tornam difícil atingir o portador com ataques corpo a corpo e à distância. Eles frequentemente são combinados com uma arma de uma mão, ou com uma arma de uma mão e um punhado de armas de arremesso adicionais.</p>"
         },
         "Sling": {
-          "name": "Sling"
+          "name": "Funda",
+          "description": "<p>Recarregar uma bandoleira conta como uma Ação Livre.</p>"
         },
         "Spear Sling": {
-          "name": "Spear Sling"
+          "name": "Lança-Funda",
+          "description": "<p>Os clãs bárbaros da Davokar oriental preferem o uso de lanças-funda; uma arma de arremesso com um gancho que é anexado ao final de uma lança curta para arremessá-la com uma força tremenda.</p>"
         },
         "Spiked club": {
-          "name": "Spiked club"
+          "name": "Clava com Cravos",
+          "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
         },
         "Steel shield": {
-          "name": "Steel shield"
+          "name": "Escudo de Aço",
+          "description": "<p>O escudo de aço é tão forte quanto escudos de madeira comuns, mas mais fino e fácil de manejar.</p>"
         },
         "Stiletto": {
-          "name": "Stiletto"
+          "name": "Estilete",
+          "description": "<p>O fino e ágil estilete é uma adaga cuja ponta afiada apunhala profundamente; a arma de um assassino.</p>"
         },
         "Sword": {
           "name": "Espada",
