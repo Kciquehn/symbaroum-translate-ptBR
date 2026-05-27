@@ -283,8 +283,13 @@
           }
         },
         "Early Summer Elf": {
-          "name": "Early Summer Elf",
-          "tokenName": "Early Summer Elf",
+          "name": "Elfo do Início do Verão",
+          "tokenName": "Elfo do Início do Verão",
+          "race": "Elfo",
+          "shadow": "Verde suculento",
+          "appearance": "<p>Aqueles que despertam de seu primeiro sono e entram na fase de vida de Elfo do Verão ainda são um grupo curioso, mas nem de perto tão cauteloso. Elfinos são conhecidos por serem raivosos, agressivos e impulsivos, beirando a tolice. Com até um metro e setenta, ágeis como pesadelinos e com cerca de 150 anos para treinar, eles se desenvolvem em guerreiros talentosos, qualificados para vencer qualquer lutador humano.</p>",
+          "background": "<p><p>Elfinos são a espinha dorsal das forças de defesa da Davokar, com armaduras fracas, mas equipados com lanças e arcos. Mais frequentemente são liderados por um Elfo do Outono, mas algumas vezes sua impaciência os faz renunciar a orientação dos irmãos mais velhos. Tais bandos de guerra, consistindo em dez a trinta elfos irados, sempre preferem o ataque à defesa, e podem muito bem atacar aldeias nas terras baixas em vez de seus alvos normais: entrepostos, caravanas e colonos livres na mata.</p>",
+          "tactics": "<p>Os elfos do início do verão confiam em seus arcos e usam suas lanças apenas quando absolutamente necessário. Em combate corpo a corpo eles usam Acrobacias para se afastar, para se aproveitar do alcance de suas lanças vez após outra.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -308,7 +313,8 @@
               "masterDescription": "<p>O personagem agora pode se mover e lutar sem impedimentos quando cego ou em escuridão total.</p>"
             },
             "Bow": {
-              "name": "Bow"
+              "name": "Arco",
+              "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
             },
             "Spear": {
               "name": "Lança",
@@ -325,7 +331,8 @@
               "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Quiver": {
-              "name": "Quiver"
+              "name": "Aljava",
+              "description": "<p>Contém 12 Flechas</p>"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -359,7 +366,8 @@
               "masterDescription": "<p>Como um Mestre de armas longas, o personagem tem a habilidade de manter seus inimigos à distância. O personagem pode utilizar o Ataque Livre com uma arma de haste para impedir um inimigo de se aproximar para atacar.</p> <p>Enquanto o personagem obtiver sucesso em acertar o inimigo, o inimigo permanece incapaz de atacá-lo com armas corpo a corpo — independentemente de o dano penetrar ou não a armadura do inimigo.</p>"
             },
             "Bow": {
-              "name": "Bow"
+              "name": "Arco",
+              "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
             },
             "Spear": {
               "name": "Lança",
@@ -390,7 +398,8 @@
               "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Bow": {
-              "name": "Bow"
+              "name": "Arco",
+              "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -417,7 +426,9 @@
               "masterDescription": "<p>A psiquê do personagem contra-ataca qualquer um que tente afetá-la. Sempre que o personagem for vítima de um ataque mental (em outras palavras, ataques que são modificados por Resoluto) que falhar, o atacante sofre 1D6 de dano que ignora Armadura.</p>"
             },
             "Holy Smoke": {
-              "name": "Holy Smoke"
+              "name": "Fumaça Sagrada",
+              "tradition": "Teurgia",
+              "description": "<p>O Místico pode revelar pessoas ou criaturas aco-metidas pela mácula usando incenso e realizar um Teste bem-sucedido de Astuto. A fumaça se espalha entre os presentes e se amontoa em torno de objetos e criaturas conforme o quão corrompidos eles estão;quanto mais perto a fumaça se amontoar, mais maculada a criatura em questão está. O Mestre de Jogo deve confirmar claramente se objetos ou criaturas estão acometidos ou marcados pela mácula, ou se estão completamente corrompidos.</p> <p>Fumaça Sagrada pode ser neutralizado pelo ritual Trocar Sombra.</p>"
             },
             "Crossbow": {
               "name": "Besta",
@@ -512,7 +523,8 @@
               "name": "Spiked club"
             },
             "Throwing knife": {
-              "name": "Throwing knife"
+              "name": "Faca de Arremesso",
+              "description": "<p><strong>ARMAS DE ARREMESSO</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Nenhuma. Lanças-Funda têm a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas de Arremesso são lançadas por uma única mão a curta distância. Elas são normalmente utilizadas antes do combate corpo a corpo ser iniciado e, portanto, frequentemente são combinadas com um escudo. Facas, lanças e machados de arremesso são exemplos de armas de Arremesso.</p>"
             },
             "Lucky Charm": {
               "name": "Lucky Charm"
@@ -560,7 +572,9 @@
               "name": "Confusion"
             },
             "Telepathic Interrogation": {
-              "name": "Telepathic Interrogation"
+              "name": "Interrogatório Telepático",
+              "tradition": "Magismo",
+              "description": "<p>O Místico pode alongar sua mente e ler pensamentos. O Místico pode receber uma resposta de uma pergunta de sim ou não feita ao subconsciente da vítima através de um Teste bem-sucedido de [Resoluto←Resoluto]. Um Teste fracassado rompe a conexão telepática, e novas tentativas não podem ser feitas com essa criatura durante a aventura.</p> <p>O Místico deve tocar sua vítima, e a vítima pode perceber a leitura de mente se o Místico fracassar em um Teste de [Discreto←Vigilante]. Obviamente, uma vítima indefesa e presa não pode fazer nada para impedir isto, mas outras vítimas irão reagir. Vítimas dormindo acordam se o Teste falhar.</p>"
             },
             "Dagger": {
               "name": "Adaga",
@@ -573,10 +587,12 @@
               "name": "Wooden Club"
             },
             "Leather Apron": {
-              "name": "Leather Apron"
+              "name": "Avental de Couro",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Flute": {
-              "name": "Flute"
+              "name": "Flauta",
+              "cost": "3 xelins"
             },
             "Wine Skin": {
               "name": "Wine Skin"
@@ -608,7 +624,11 @@
               "masterDescription": "<p>O personagem pode rolar contra Rápido para neutralizar habilidades ou equipamentos que fazem com que ataques inimigos ignorem ou reduzam seu valor de Armadura; se o Teste for bem-sucedido, a Armadura protege normalmente.</p> <p>Poderes místicos que ignoram Armadura não podem ser bloqueados desta maneira; eles não são afetados pela habilidade Homem-de-Armas.</p>"
             },
             "Two-handed Force": {
-              "name": "Two-handed Force"
+              "name": "Força da Empunhadura Dupla",
+              "description": "<p>Os cavaleiros de Ambria, assim como os Guardas da Ira de Karvosti, se vestem de aço da cabeça aos pés e perceberam que com esse tanto de armadura, eles ficam livres para se focar em causar quantidades massivas de dano.</p> <p>Armas de duas mãos pesadas repousam confortavelmente nas mãos calejadas do personagem e podem ter um efeito surpreendentemente destrutivo em todos os tipos de alvos.</p> <p>Armas pesadas são mais efetivas contra inimigos de armaduras pesadas.</p>",
+              "noviceDescription": "<p>O dano causado por armas pesadas é aumentado para 1D12.</p>",
+              "adeptDescription": "<p>O personagem dominou a utilização de sua arma, portanto, quando um ataque erra um alvo, o personagem pode utilizar o movimento de retorno do ataque para tentar acertar o alvo novamente.</p> <p>O personagem realiza uma nova jogada de ataque, que causa 1D8 de dano se acertar.</p>",
+              "masterDescription": "<p>Uma arma pesada nas mãos de um Mestre é uma verdadeira ferramenta de destruição de armaduras. Quando o ataque de um Mestre atinge seu alvo, ele ignora completamente a Armadura do alvo.  </p>"
             },
             "Double Axe": {
               "name": "Double Axe"
@@ -644,7 +664,11 @@
               "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
             },
             "Two-handed Force": {
-              "name": "Two-handed Force"
+              "name": "Força da Empunhadura Dupla",
+              "description": "<p>Os cavaleiros de Ambria, assim como os Guardas da Ira de Karvosti, se vestem de aço da cabeça aos pés e perceberam que com esse tanto de armadura, eles ficam livres para se focar em causar quantidades massivas de dano.</p> <p>Armas de duas mãos pesadas repousam confortavelmente nas mãos calejadas do personagem e podem ter um efeito surpreendentemente destrutivo em todos os tipos de alvos.</p> <p>Armas pesadas são mais efetivas contra inimigos de armaduras pesadas.</p>",
+              "noviceDescription": "<p>O dano causado por armas pesadas é aumentado para 1D12.</p>",
+              "adeptDescription": "<p>O personagem dominou a utilização de sua arma, portanto, quando um ataque erra um alvo, o personagem pode utilizar o movimento de retorno do ataque para tentar acertar o alvo novamente.</p> <p>O personagem realiza uma nova jogada de ataque, que causa 1D8 de dano se acertar.</p>",
+              "masterDescription": "<p>Uma arma pesada nas mãos de um Mestre é uma verdadeira ferramenta de destruição de armaduras. Quando o ataque de um Mestre atinge seu alvo, ele ignora completamente a Armadura do alvo.  </p>"
             },
             "Robust": {
               "name": "Robusto",
@@ -673,10 +697,18 @@
           "tokenName": "Queen's Ranger",
           "items": {
             "Tactician": {
-              "name": "Tactician"
+              "name": "tático",
+              "description": "<p>De acordo com os ambrianos, o conhecimento é considerado uma das maiores virtudes. Não é de se surpreender que estudiosos ambrianos tenham estudado meticulosamente as escaramuças para verificar se as táticas de batalhas funcionam em uma escala menor e até entre duelos.</p> <p>O resultado é um estilo de combate governado por princípios e cálculos, que ao longo do tempo podem superar mesmo os atacantes mais agressivos. O personagem é treinado nesta tradição erudita de guerra.</p> <p>Um tático instruído também pode utilizar esta habilidade para analisar uma abordagem tática e identificar suas forças e fraquezas. Isto pode ser feito com propósitos ofensivos quando se enfrenta um grupo hostil, ou defensivamente para estabelecer uma forte defesa.</p>",
+              "noviceDescription": "<p>O personagem estudou as táticas de guerra e compreendeu seus princípios fundamentais. O personagem pode utilizar Astuto em vez de Rápido quando calcular sua Iniciativa.</p>",
+              "adeptDescription": "<p>O personagem dominou a arte de uma boa postura defensiva, que permite a ele ou ela utilizar Astuto em vez de Rápido quando calcular sua Defesa.</p>",
+              "masterDescription": "<p>O personagem é um gênio quando se diz respeito à guerra, o que o permite utilizar Astuto em vez de Preciso quando atacar com qualquer coisa que não sejam armas pesadas.</p>"
             },
             "Twin Attack": {
-              "name": "Twin Attack"
+              "name": "Ataque Gêmeo",
+              "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+              "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+              "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+              "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
             },
             "Woven Silk": {
               "name": "Seda Tecida",
@@ -690,7 +722,8 @@
               "masterDescription": "<p>Como um Médico Mestre, o personagem possui um vasto conhecimento medicinal. Um Teste bem-sucedido de Astuto agora cura 1D8 da Vitalidade de um paciente, ou 1D10 quando utilizar uma cura herbal.</p´> <p>Mesmo um Teste fracassado cura um pouco a Vitalidade do paciente; 1D4 quando utilizar somente Médico ou 1D6 quando tentar aplicar uma cura herbal.</p> <p>Esta habilidade pode ser utilizada somente uma vez por paciente por dia.</p>"
             },
             "Bow": {
-              "name": "Bow"
+              "name": "Arco",
+              "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
             },
             "Dagger": {
               "name": "Adaga",
@@ -732,10 +765,18 @@
               "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "Tactician": {
-              "name": "Tactician"
+              "name": "tático",
+              "description": "<p>De acordo com os ambrianos, o conhecimento é considerado uma das maiores virtudes. Não é de se surpreender que estudiosos ambrianos tenham estudado meticulosamente as escaramuças para verificar se as táticas de batalhas funcionam em uma escala menor e até entre duelos.</p> <p>O resultado é um estilo de combate governado por princípios e cálculos, que ao longo do tempo podem superar mesmo os atacantes mais agressivos. O personagem é treinado nesta tradição erudita de guerra.</p> <p>Um tático instruído também pode utilizar esta habilidade para analisar uma abordagem tática e identificar suas forças e fraquezas. Isto pode ser feito com propósitos ofensivos quando se enfrenta um grupo hostil, ou defensivamente para estabelecer uma forte defesa.</p>",
+              "noviceDescription": "<p>O personagem estudou as táticas de guerra e compreendeu seus princípios fundamentais. O personagem pode utilizar Astuto em vez de Rápido quando calcular sua Iniciativa.</p>",
+              "adeptDescription": "<p>O personagem dominou a arte de uma boa postura defensiva, que permite a ele ou ela utilizar Astuto em vez de Rápido quando calcular sua Defesa.</p>",
+              "masterDescription": "<p>O personagem é um gênio quando se diz respeito à guerra, o que o permite utilizar Astuto em vez de Preciso quando atacar com qualquer coisa que não sejam armas pesadas.</p>"
             },
             "Twin Attack": {
-              "name": "Twin Attack"
+              "name": "Ataque Gêmeo",
+              "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+              "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+              "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+              "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
             },
             "Lacquered Silk Cuirass": {
               "name": "Couraça de Seda Envernizada",
@@ -765,22 +806,29 @@
           }
         },
         "Robber": {
-          "name": "Robber",
-          "tokenName": "Robber",
+          "name": "Ladrão",
+          "tokenName": "Ladrão",
+          "race": "Humano ou Goblin",
+          "shadow": "Vários tons de verde",
+          "appearance": "<p>Conseguir um trabalho em Ambria não é fácil, conseguir um trabalho bem remunerado é ainda mais difícil; esses fatos são a principal razão de tantos dependerem de furtos e roubos. Qualquer lugar onde valores sejam transportados, salteadores podem aparecer; eles atacam ao longo dos rios, em estradas para as terras baixas e em passes montanhosos ou em florestas.</p>",
+          "background": "<p>Dois dos mais temidos bandos de salteadores tem bases nos vales das Titãs. Um é liderado pela notória Bruxa do Gelo, a filha do último Chefe da Velha Kadizar, o outro por um ogro conhecido como o Monte que comanda uma horda brutal de goblins e trolls enfurecidos. Outros exemplos são os saqueadores do assentamento livre de Entekka, que saqueiam principalmente caravanas viajando entre Forte do Cardo e Karvosti, e o notoriamente cruel Capitão Bartolo, cujos piratas atacam comboios no Lago Volgoma e nos rios Eanor e Eblis.</p>",
+          "tactics": "<p>Ladrões aprenderam a calcular suas chances e não atacar se em menor número — nem mesmo um líder forte pode forçá-los a atacar um inimigo superior.</p>",
           "items": {
             "Sword": {
               "name": "Espada",
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Throwing knife": {
-              "name": "Throwing knife"
+              "name": "Faca de Arremesso",
+              "description": "<p><strong>ARMAS DE ARREMESSO</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Nenhuma. Lanças-Funda têm a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas de Arremesso são lançadas por uma única mão a curta distância. Elas são normalmente utilizadas antes do combate corpo a corpo ser iniciado e, portanto, frequentemente são combinadas com um escudo. Facas, lanças e machados de arremesso são exemplos de armas de Arremesso.</p>"
             },
             "Crow Armor": {
               "name": "Armadura de Corvo",
               "description": "<P> Armaduras médias são mais caras que as leves, que é a razão do porquê muitos guerreiros terem escolhido, rebitado ou montado a chamada 'Armadura de Corvo' por si mesmos. Elas são baratas, mas bem mais difíceis de se mover.</P>"
             },
             "Belt pouch": {
-              "name": "Belt pouch"
+              "name": "Bolsa de Moedas",
+              "cost": "5 ortegas"
             },
             "Bushcraft": {
               "name": "Mateiro",
@@ -800,10 +848,18 @@
               "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Dominate": {
-              "name": "Dominate"
+              "name": "Dominação",
+              "description": "<p>Com nada além de sua presença, olhar e voz, personalidades fortes podem forçar mentes mais fracas a se dobrar no meio de uma batalha furiosa. O personagem é treinado nesta arte de dominar o combate. Entre os gladiadores de Yndaros, isto é considerado uma forma particularmente impressionante de vencer uma batalha, e é tratada como extremamente honrosa entre os clãs bárbaros superar seu inimigo dessa forma.</p> <p>Em situações sociais, esta habilidade também pode ser utilizada para apavorar alguém à obediência e forçá-los a contar segredos.</p>",
+              "noviceDescription": "<p>O personagem pode dominar e sobrepujar um combatente inimigo utilizando sua personalidade convincente. O personagem pode utilizar Persuasivo em vez de Preciso em combate corpo a corpo.</p>",
+              "adeptDescription": "<p>O personagem pode, com uma Ação Livre e um Teste bem-sucedido de [Persuasivo←Resoluto], forçar um inimigo a hesitar em combate corpo a corpo.</p> <p>Um inimigo hesitante não irá atacar o personagem neste turno. Se possível, ele ataca um dos aliados do personagem em vez disso.</p>",
+              "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
             },
             "Twin Attack": {
-              "name": "Twin Attack"
+              "name": "Ataque Gêmeo",
+              "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+              "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+              "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+              "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
             },
             "Crow Armor": {
               "name": "Armadura de Corvo",
@@ -868,7 +924,11 @@
               "masterDescription": "<p>O dano da pancada com escudo é aumentado de 1D4 para 1D8 e o alvo ainda é derrubado no chão se o personagem obtiver sucesso em um Teste de [Vigoroso←Vigoroso].</p>"
             },
             "Steel Throw": {
-              "name": "Steel Throw"
+              "name": "Arremessar Aço",
+              "description": "<p>Há tradições e grupos cujos representantes têm praticado a arte de arremessar armas há gerações. Arremessar facas, por exemplo, é comum entre ladrões e bandidos nas cidades, e nas matas muitos clãs guerreiros são equipados com machados de arremesso e lanças. Na verdade, a maioria dos combatentes bárbaros (especialmente os do clã de Zarek) utiliza regularmente armas de arremesso como parte de suas táticas de combate corpo a corpo, lançando uma chuva de aço logo antes de entrar na luta.</p>",
+              "noviceDescription": "<p>O personagem começou a entender o enigma do arremesso de aço. O dano causado por armas de arremesso é aumentado para 1D8.</p>",
+              "adeptDescription": "<p>O personagem pode executar um arremesso duplo com uma Ação. Os ataques são rolados separadamente e podem ser mirados no mesmo alvo ou em dois alvos diferentes.</p> <p>O personagem também pode utilizar armas corpo a corpo como armas de arremesso, mas pode arremessar somente uma dessas armas por Ação.</p> <p>O dano para este tipo de ataque é baseado no dano da arma corpo a corpo, incluindo quaisquer habilidades passivas que o arremessador possa ter.</p>",
+              "masterDescription": "<p>O personagem pode lançar um arremesso triplo devastador e jogar três armas de arremesso contra seus inimigos, todas elas contra um único alvo ou distribuídas entre vários deles.</p>"
             },
             "Axe": {
               "name": "Machado",
@@ -1295,7 +1355,8 @@
               "name": "Claws"
             },
             "Leather Apron": {
-              "name": "Leather Apron"
+              "name": "Avental de Couro",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Thoroughly Corrupted": {
               "name": "Thoroughly Corrupted"
@@ -1494,7 +1555,11 @@
               "masterDescription": "<P>O personagem pode utilizar seus inimigos como escudos em batalha. Em combate com mais de um oponente, o personagem pode, uma vez por turno, utilizar um inimigo como um escudo e fazer esse inimigo sofrer um golpe bem-sucedido no lugar do personagem.</P> <P>Esse oponente não pode se defender contra o ataque, mas o acrobata mestre deve realizar uma jogada bem-sucedida contra Rápido para o inimigo sofrer o golpe.</P>"         
             },
             "Strangler": {
-              "name": "Strangler"
+              "name": "Estrangulador",
+              "description": "<p>O personagem é iniciado na arte suja, mas às vezes necessária, do estrangulamento. Esta técnica de luta tem uma má reputação tanto entre ambrianos quanto entre bárbaros, mas isso não significa que não seja amplamente desejada por aqueles que querem lidar com seus inimigos discretamente.</p> <p>Com esta habilidade, o personagem pode causar muito dano a um inimigo despreparado ou lento com um garrote ou, se mais avançado, com o alquímico Esporos Sufocantes.</p>",
+              "noviceDescription": "<p>O Estrangulador Novato pode atacar quando em Vantagem. Um ataque bem-sucedido causa 1D6 de dano a cada turno e ignora Armadura.</p> <p>O alvo não pode agir até que o domínio do Estrangulador seja removido; o personagem mantém o estrangulamento com um Teste bem-sucedido de [Astuto←Astuto].</p>",
+              "adeptDescription": "<p>O personagem sabe como utilizar os mortais Esporos Sufocantes, colhidos nas profundezas da Davokar por alquimistas. Com um Teste bem-sucedido de [Astuto←Rápido], os esporos são arremessados em um inimigo e causam 1D4 de dano por turno durante 1D4 turnos, ignorando a Armadura.</p> <p>Não há contra-medida contra o efeito de Esporos Sufocantes além de curar a vítima quando o dano ocorre. Vítimas afetadas podem agir normalmente, ao contrário do nível Novato desta habilidade.</p>",
+              "masterDescription": "<p>O personagem pode utilizar as delicadas e letais Bombas de Esporos criadas a partir de Esporos Sufocantes por mestres alquimistas. Elas podem ser usadas a distância. É necessário um Teste bem-sucedido de Astuto para a bomba aterrissar no local pretendido.</p> <p>A Bomba de Esporos preenche um corredor, uma área menor ou uma sala comum com uma nuvem sufocante. Qualquer um que estiver na área, tanto inimigos quanto aliados, são afetados pelos Esporos Sufocantes, que ignoram a Armadura e causam 1D4 de dano por turno durante 1D4 turnos. </p>"
             },
             "Armored": {
               "name": "Armadurado",
@@ -1632,7 +1697,11 @@
               "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
             },
             "Twin Attack": {
-              "name": "Twin Attack"
+              "name": "Ataque Gêmeo",
+              "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+              "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+              "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+              "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
             },
             "Gravely Cold": {
               "name": "Frio da Tumba",
@@ -1820,14 +1889,18 @@
           }
         },
         "Flaming Servant (Template)": {
-          "name": "Flaming Servant (Template)",
-          "tokenName": "Flaming Servant (Template)",
+          "name": "Servo Flamejante (Template)",
+          "tokenName": "Servo Flamejante (Template)",
+          "appearance": "Um Servo Flamejante começa com as seguintes estatísticas",
+          "background": "",
           "items": {
             "Smouldering Scalemail": {
-              "name": "Smouldering Scalemail"
+              "name": "Bruena Ardente",
+              "description": "<p><strong>ARMADURA MÉDIA</strong> <br /><strong>Armadura: </strong> 1D6 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;3). Algumas têm a qualidade Flexível, e a Armadura de Corvo tem a qualidade Desajeitada.</p>\n<hr />\n<p>Armaduras médias oferecem proteções melhores que as versões leves, mas ao custo de serem mais restritivas aos movimentos do usuário. Esta restrição é considerada aceitável pela maioria dos combatentes corpo a corpo. Brunea e cota de malha são exemplos de armaduras médias.</P>"
             },
             "Burning Sword": {
-              "name": "Burning Sword"
+              "name": "Espada Flamejante",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             }
           }
         },
@@ -1880,7 +1953,11 @@
               "masterDescription": "<p>O personagem pode rolar contra Rápido para neutralizar habilidades ou equipamentos que fazem com que ataques inimigos ignorem ou reduzam seu valor de Armadura; se o Teste for bem-sucedido, a Armadura protege normalmente.</p> <p>Poderes místicos que ignoram Armadura não podem ser bloqueados desta maneira; eles não são afetados pela habilidade Homem-de-Armas.</p>"
             },
             "Two-handed Force": {
-              "name": "Two-handed Force"
+              "name": "Força da Empunhadura Dupla",
+              "description": "<p>Os cavaleiros de Ambria, assim como os Guardas da Ira de Karvosti, se vestem de aço da cabeça aos pés e perceberam que com esse tanto de armadura, eles ficam livres para se focar em causar quantidades massivas de dano.</p> <p>Armas de duas mãos pesadas repousam confortavelmente nas mãos calejadas do personagem e podem ter um efeito surpreendentemente destrutivo em todos os tipos de alvos.</p> <p>Armas pesadas são mais efetivas contra inimigos de armaduras pesadas.</p>",
+              "noviceDescription": "<p>O dano causado por armas pesadas é aumentado para 1D12.</p>",
+              "adeptDescription": "<p>O personagem dominou a utilização de sua arma, portanto, quando um ataque erra um alvo, o personagem pode utilizar o movimento de retorno do ataque para tentar acertar o alvo novamente.</p> <p>O personagem realiza uma nova jogada de ataque, que causa 1D8 de dano se acertar.</p>",
+              "masterDescription": "<p>Uma arma pesada nas mãos de um Mestre é uma verdadeira ferramenta de destruição de armaduras. Quando o ataque de um Mestre atinge seu alvo, ele ignora completamente a Armadura do alvo.  </p>"
             },
             "Full Plate": {
               "name": "Full Plate"
@@ -1960,10 +2037,14 @@
               "masterDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Re-soluto].</p> <p>A criatura controlada pode executar suas duas Ações a cada turno normalmente.</p>"
             },
             "Enslave": {
-              "name": "Enslave"
+              "name": "Escravizar",
+              "tradition": "Feitiçaria",
+              "description": "<p>O Místico pode usar este ritual para escravizar uma criatura. A escravização é vinculada a uma runa de escravidão, talhada em algum lugar na vítima (normalmente na testa, peito ou pescoço).</p> <p>A runa de escravidão e seu efeito podem ser revelados por alguém usando a habilidade Visão de Bruxa ou o ritual Fumaça Sagrada.</p> <p>O poder da runa de escravidão pode ser quebrado com Exorcismo ou Quebrar Vínculo. Também é possível remover a runa fisicamente, mas não sem infligir 1D6 de dano e 1D4 de Corrupção permanente à vítima. O escravo lutará para permanecer escravizado.</p> <p>A criatura não é controlada pelo Místico em todos os detalhes, mas o obedecerá cegamente da melhor forma possível. O escravo pode refletir parcialmente sobre sua situação, chorar quando age contra sua antiga natureza e assim por diante, mas não pode resistir de forma alguma ao comando do Místico.</p>"
             },
             "Fortune Telling": {
-              "name": "Fortune Telling"
+              "name": "Leitura da Sorte",
+              "tradition": "Bruxaria",
+              "description": "<p>O Místico pode, com um Teste bem-sucedido de Resoluto, fazer uma pergunta de sim ou não sobre a aventura. Leitura da Sorte pode ser executado somente uma vez por aventura, e novas tentativas são possíveis somente quando algo maior ocorrer potencialmente mudando o futuro (o Mestre de Jogo decide se tal evento ocorreu).</p>"
             },
             "Oracle": {
               "name": "Oracle"
@@ -3053,8 +3134,13 @@
           }
         },
         "Magdala, barbarian witch": {
-          "name": "Magdala, Bárbara Bruxa",
+          "name": "Magdala, bruxa bárbara",
           "tokenName": "Magdala",
+          "race": "Humana (Bárbara)",
+          "quote": "“Os espíritos assim desejam.”",
+          "appearance": "Você cresceu na sombra de Karvosti, o platô do Alto Chefe na Davokar. Sua iniciação terminou em tragédia quando o ritual foi encerrado por uma abominação que se arrastou das profundezas da floresta. Na luta você encontrou sua besta interior, e por isso o líder de seu círculo de sortilégios lhe enviou ao sul. Você é considerada capaz de se defender contra os depravados ambrianos, caso haja necessidade",
+          "background": "<p> Sua missão é observar e relatar ao círculo de sortilégios. Davokar está prestes a despertar, em parte devido aos recém-chegados, e as forças que trabalham pelo despertar devem ser encontradas e enfrentadas.</p> <p>A Huldra em Karvosti está interessada em tudo relacionado ao povo da Rainha e pode ter lhe encarregado de estudar o sul arruinado para ter uma melhor compreensão do passado dos ambrianos. Para evitar atenção indesejada, você pode dizer ter sido exilada após ter violado algum tabu. Ou você pode realmente ter quebrado algum voto e escolhido intencionalmente sair do território das bruxas. Você provavelmente encontrou e se familiarizou com outros com quem viajou ao sul, mais provavelmente os bárbaros Kvarek e Karla ou Povos Antigos como Raivoso, Niha e Fenya.",
+          "shadow": "Vermelha com algumas manchas de ferrugem",
           "items": {
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -3105,8 +3191,13 @@
           }
         },
         "Niha, changeling con artist": {
-          "name": "Niha, changeling con artist",
-          "tokenName": "Niha, changeling con artist",
+          "name": "Niha, cambiante vigarista",
+          "tokenName": "Niha",
+          "race": "Cambiante",
+          "quote": "“Você não irá se arrepender!”",
+          "appearance": "<p>Você foi trocada pelo primogênito de seus pais em um assentamento bárbaro, e daí para a frente só ficou pior. “Mãe” e “Pai” lhe colocaram para trabalhar como aprendiz de um coureiro e lhe enviaram para longe assim que sua origem se tornou aparente. Desde então você aprendeu a se virar sozinha, mas você sempre se perguntou por que seus parentes élficos a abandonaram.</p>",
+          "background": "<p>Você viajou pelo interior de Ambria esperando encontrar respostas, ou pelo menos outros exilados para formar algum tipo de elo com eles. Se tudo isto falhar você ouviu sobre um humano chamado Vernam, que vive em Forte do Cardo e diz conhecer muito sobre elfos.</p> <p>Você pode ter acabado ao sul das montanhas por vários motivos, mas mais provavelmente como a companheira de viagem de Raivoso, Magdala ou Fenya. Caso você tenha quaisquer amigos, é porque eles são exilados ou porque podem ter conhecimento sobre os elfos que outrora lhe abandonaram aos humanos.</p>",
+          "shadow": "Bronze polido",
           "items": {
             "Backstab": {
               "name": "Ataque Furtivo",
@@ -3116,17 +3207,24 @@
               "masterDescription": "<p>O Ataque Furtivo do personagem causa +1D8 de dano extra e causa um sangramento ao inimigo, assim como no nível Adepto. Não há quaisquer limites de quantos Ataques Furtivos um Mestre pode executar por turno.</p> <p>Todos os ataques são considerados Ataques Furtivos desde que as condições da Vantagem sejam atendidas (ver páginas 162).</p>"
             },
             "Feint": {
-              "name": "Feint"
+              "name": "Finta",
+              "description": "<p>Pessoas e criaturas que não têm vontade ou força para empunhar armas corpo a corpo pesadas desenvolveram técnicas para fintar. Esta habilidade demanda uma arma com a Qualidade Curta ou Precisa.</p> <p>Graças à perícia do personagem, estas armas podem ser empunhadas de maneira discreta e confusa.</p>",
+              "noviceDescription": "<p>O personagem pode escolher atacar com Discreto em vez de Preciso quando o ataque é realizado com uma arma corpo a corpo que seja Curta ou Precisa.</p> <p>Além disso, cada ataque destes recebe a mesma Vantagem, como se o oponente estivesse surpreso.</p>",
+              "adeptDescription": "<p>O personagem apresenta uma fraqueza falsa em sua defesa e engana o oponente para atacar essa fraqueza. O personagem pode escolher se defender com Discreto em vez de Rápido.</p>",
+              "masterDescription": "<p>Com uma jogada bem-sucedida de [Discreto←Vigilante] o personagem pode surpreender um inimigo no meio de uma luta. Um Teste bem-sucedido dá ao personagem um Ataque Livre contra esse inimigo além de seus ataques ordinários.</p> O personagem ainda pode realizar um ataque ordinário mesmo se sua tentativa de Finta falhar.</p>"
             },
             "Dagger": {
               "name": "Adaga",
               "description": "<p><strong>ARMAS CURTAS</strong> <br /><strong>Dano: </strong> 1D6 <br /><strong>Qualidades: </strong> Curta. A Adaga de Aparar é Equilibrada e o Estilete tem a qualidade Impacto Profundo.</p>\n<hr />\n<p>Armas Curtas podem ser sacadas rapidamente e são facilmente escondidas. Adagas e espadas curtas são exemplos de Armas Curtas.</p>"
             },
             "Walking Staff": {
-              "name": "Walking Staff"
+              "name": "Bordão",
+              "description": "<p>O mais simples bordão, frequentemente feito de madeira que foi endurecida com fogo, tem o alcance de uma arma Longa, mas não tem o efeito de armas com ponta de ferro.</p>"
             },
             "Studded Leather": {
-              "name": "Studded Leather"
+              "name": " Corselete de Couro Batido",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
+
             },
             "Field equipment": {
               "name": "Equipamento de Acampar",
@@ -3134,29 +3232,50 @@
               "cost": "5 xelins"
             },
             "Straw Doll": {
-              "name": "Straw Doll"
+              "name": "Boneca de Palha",
+              "description": "<p>Encontrado perto do seu berço (presumivelmente deixado pelos elfos).</p>"
             },
             "Long-Lived": {
               "name": "Vida Longa",
               "description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
             },
             "Shapeshifter": {
-              "name": "Shapeshifter"
+              "name": "Metamorfo",
+              "description": "<p>O personagem possui a capacidade de assumir a aparência de outros por um período.</p> <p>Para jovens cambiantes esta habilidade surge naturalmente, e pode ser difícil para eles não adotar a aparência e maneiras de pessoas ao seu redor.</p> <p>Cambiantes maduros normalmente desenvolvem um maior controle sobre o traço.</p>",
+              "noviceDescription": "<p>Com um Teste bem-sucedido contra Resoluto, o personagem pode adotar uma forma falsa; a forma, aparência, voz e roupas de outra criatura, mas não a de um indivíduo específico.</p> <p>O cambiante pode manter a aparência pela duração de uma cena, e depois a ilusão se desfaz.</p> <p>Todos com que o personagem interagir verão através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante].</p>",
+              "adeptDescription": "<p>O personagem pode, por um curto período e com um Teste bem-sucedido de Resoluto, adotar a forma de indivíduos específicos que o personagem encontrou, e pode incluir roupas e atributos à imagem.</p> <p>Em combate contra múltiplos oponentes, a similaridade é boa o suficiente para tornar difícil para inimigos atingirem seu alvo — existe 50% de chance de inimigos tentando atingir o personagem atingirem seu companheiro copiado.</p> <p>É exigida concentração para manter a forma ilusória, o que significa que o personagem deve realizar um Teste de Resoluto a cada turno, assim como um Teste bem-sucedido de [Resoluto –Dano da Arma] toda vez que o cambiante sofrer dano.</p>",
+              "masterDescription": "<p>Com um Teste bem-sucedido de Resoluto, o personagem pode adotar a forma de um indivíduo específico e mantê-la pela duração de uma cena.</p> <p>Qualquer um que falar com o personagem será capaz de ver através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante].</p> <p>Para um personagem ser capaz de enganar pessoas familiarizadas à pessoa copiada, ele ou ela deve obter sucesso em dois Testes, primeiro à distância e depois outro quando iniciar uma conversa.</p>"
             }
           }
         },
         "Orlan of the House Daar": {
-          "name": "Orlan of the House Daar",
-          "tokenName": "Orlan of the House Daar",
+          "name": "Orlan da Casa Daar, Pansar",
+          "tokenName": "Orlan",
+          "race": "Humano (Ambriano)",
+          "quote": "“Você tem minha palavra!”",
+          "appearance": "<p>Você é o caçula de uma casa nobre, fora você, extinta. As propriedades e seus parentes pereceram na Grande Guerra; você foi aceito nas fileiras dos Pansars da Rainha, graça às suas habilidades e o nome de sua família. Após um tempo de serviço, você já teve patrulhas e passou por dificuldades o suficiente, e deu baixa da guarda dos cavaleiros para encontrar um propósito em vida, talvez a força para reconstruir sua casa de seu estado arruinado.</p>",
+          "background": "<p>Você pode muito bem ter ficado para trás em Alberetor como um membro da retaguarda enquanto a Rainha e seu povo viajaram pelas montanhas, possivelmente porque teve dificuldades de deixar as tumbas e terras de sua família. Bartolom e Ansel podem ser velhos conhecidos seus, talvez do campo de batalha durante os últimos confrontos da Grande Guerra.</p>",
           "items": {
             "Dominate": {
-              "name": "Dominate"
+              "name": "Dominação",
+              "description": "<p>Com nada além de sua presença, olhar e voz, personalidades fortes podem forçar mentes mais fracas a se dobrar no meio de uma batalha furiosa. O personagem é treinado nesta arte de dominar o combate. Entre os gladiadores de Yndaros, isto é considerado uma forma particularmente impressionante de vencer uma batalha, e é tratada como extremamente honrosa entre os clãs bárbaros superar seu inimigo dessa forma.</p> <p>Em situações sociais, esta habilidade também pode ser utilizada para apavorar alguém à obediência e forçá-los a contar segredos.</p>",
+              "noviceDescription": "<p>O personagem pode dominar e sobrepujar um combatente inimigo utilizando sua personalidade convincente. O personagem pode utilizar Persuasivo em vez de Preciso em combate corpo a corpo.</p>",
+              "adeptDescription": "<p>O personagem pode, com uma Ação Livre e um Teste bem-sucedido de [Persuasivo←Resoluto], forçar um inimigo a hesitar em combate corpo a corpo.</p> <p>Um inimigo hesitante não irá atacar o personagem neste turno. Se possível, ele ataca um dos aliados do personagem em vez disso.</p>",
+              "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
             },
             "Leader": {
-              "name": "Leader"
+              "name": "Líder",
+              "description": "<p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p> <p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p>",
+              "noviceDescription": "<p>A forte personalidade lhe permite utilizar Persuasivo em vez de Resoluto ao tecer poderes místicos, embora não como base para seu limite de Corrupção.</p>",
+              "adeptDescription": "<p>O personagem pode nomear uma criatura ou objeto como alvo focado para ele e seus aliados pela duração de uma cena.</p> <p>Todos os aliados que atacarem o alvo infligem +1D4 de dano adicional a ele.</p> <p>Mudar de alvo requer uma nova Ação Ativa do Líder.</p>",
+              "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "Two-handed Force": {
-              "name": "Two-handed Force"
+              "name": "Força da Empunhadura Dupla",
+              "description": "<p>Os cavaleiros de Ambria, assim como os Guardas da Ira de Karvosti, se vestem de aço da cabeça aos pés e perceberam que com esse tanto de armadura, eles ficam livres para se focar em causar quantidades massivas de dano.</p> <p>Armas de duas mãos pesadas repousam confortavelmente nas mãos calejadas do personagem e podem ter um efeito surpreendentemente destrutivo em todos os tipos de alvos.</p> <p>Armas pesadas são mais efetivas contra inimigos de armaduras pesadas.</p>",
+              "noviceDescription": "<p>O dano causado por armas pesadas é aumentado para 1D12.</p>",
+              "adeptDescription": "<p>O personagem dominou a utilização de sua arma, portanto, quando um ataque erra um alvo, o personagem pode utilizar o movimento de retorno do ataque para tentar acertar o alvo novamente.</p> <p>O personagem realiza uma nova jogada de ataque, que causa 1D8 de dano se acertar.</p>",
+              "masterDescription": "<p>Uma arma pesada nas mãos de um Mestre é uma verdadeira ferramenta de destruição de armaduras. Quando o ataque de um Mestre atinge seu alvo, ele ignora completamente a Armadura do alvo.  </p>"
             },
             "Dagger": {
               "name": "Adaga",
@@ -3167,7 +3286,8 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Two-handed Sword": {
-              "name": "Two-handed Sword"
+              "name": "Espada Bastarda, duas mãos",
+              "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"          
             },
             "Fortified Chainmail": {
               "name": "Cota de malha fortificada",
@@ -3183,7 +3303,8 @@
               "cost": "5 xelins"
             },
             "Belt pouch": {
-              "name": "Belt pouch"
+              "name": "Bolsa de Moedas",
+              "cost": "5 ortegas"
             },
             "Priviledged": {
               "name": "Privilegiado",
@@ -3192,8 +3313,13 @@
           }
         },
         "Rageor, ogre berserker": {
-          "name": "Rageor, ogre berserker",
-          "tokenName": "Rageor, ogre berserker",
+          "name": "Raivoso, ogro amoque",
+          "tokenName": "Raivoso",
+          "race": "Ogro",
+          "quote": "“Irrita eu não!”",
+          "appearance": "<p>Muitos anos atrás você surgiu vagando pela Davokar sem nome e sem memória, e foi acolhido por uma bruxa que lhe ensinou a falar e se comportar. Ela nunca lhe deu um nome, ciente de que você não precisa de um; afinal, você sabe quem você é e isso é o suficiente. Em vez disso, o servo da bruxa lhe nomeou, com um apelido adequado a seu temperamento. Desde então você é conhecido como Raivoso, e quando a bruxa morreu por conta da idade você deixou a floresta para trás.</p>",
+          "background": "<p>Parece que há muito mais para aprender sobre o mundo. Você pode ter acabado ao sul das Titãs por acaso (“O que tem ao sul?”), ou porque anteriormente já era amigo de Fenya, Karla ou Kvarek e simplesmente resolveu acompanhá-los. Uma alternativa emocionante é que a bruxa que lhe criou foi morta por Templários. Se esse for o caso, você pode muito bem ser caçado por bruxas e Mantos Negros que desejam saber mais sobre o que a bruxa estava fazendo ou porque ela morreu.</p>",
+          "shadow": " Verde escuro como musgo",
           "items": {
             "Berserker": {
               "name": "Amoque",
@@ -3203,7 +3329,11 @@
               "masterDescription": "<p>O personagem aprendeu a lidar com sua fúria sem perder nada de seu poder. O personagem pode utilizar a capacidade de causar e ignorar dano enquanto ainda é capaz e se defender normalmente.</p>"       
             },
             "Twin Attack": {
-              "name": "Twin Attack"
+              "name": "Ataque Gêmeo",
+              "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+              "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+              "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+              "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
             },
             "Robust": {
               "name": "Robusto",
@@ -3221,10 +3351,12 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Leather Apron": {
-              "name": "Leather Apron"
+              "name": "Avental de Couro",
+              "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Flute": {
-              "name": "Flute"
+              "name": "Flauta",
+              "cost": "3 xelins"
             },
             "Pariah": {
               "name": "Pária",
@@ -3465,7 +3597,9 @@
           "name": "Sun Mask"
         },
         "The Soul Stone": {
-          "name": "The Soul Stone"
+          "name": "Pedra da Alma",
+          "tradition": "Magismo",
+          "description": "<p>A Corrupção nunca foi um problema para magos antes da Grande Guerra, já que suas práticas meticulosas os protegiam de enegrecer suas almas. Durante momentos desesperados da Guerra, os magos de batalha da Ordo Magica assumiram riscos maiores em nome da necessidade e, portanto, trouxeram a Corrupção sobre si. Para neutralizar este mal, eles desenterraram um ritual antigo evitado, onde captura-se a alma de uma criatura morrendo em um cristal preparado para este propósito. Esse mesmo ritual se provou funcionar bem para drenar Corrupção de um mago e transferi-lo para a alma na pedra.</p> <p>O ritual vincula o Místico ao cristal, que então funciona como uma extensão da alma do mago. O ritual permite o Místico mover 1D4 de Corrupção permanente para a pedra da alma com um Teste bem-sucedido de Resoluto. A pedra pode suportar até metade do Resoluto do Místico em Corrupção; ela escurece quando é preenchida e explode se seu limite for excedido. A Corrupção coletada então retorna ao Místico, frequentemente com um resultado bastante sórdido. No caso improvável dele ou dela sobreviver a essa onda de Corrupção, é possível ao Místico vincular-se a uma nova pedra da alma e começar tudo novamente.</p> <p>O ritual custa um (1) de Experiência para ser executado, seja bem-sucedido ou não. Um mago que consegue aprender o ritual recebe uma pedra da alma de seu capítulo da ordem. Outros Místicos devem pagar pelas suas. Comprar uma pedra da alma custa 100 táleres.</p>"
         },
         "Toad Guard": {
           "name": "Toad Guard"
@@ -4242,19 +4376,33 @@
           "name": "Warhammer"
         },
         "Mystical Power": {
-          "name": "Mystical Power"
+          "name": "Poder Místico",
+          "description": "<p>O personagem é um dos seres que têm acesso a poderes místicos. Estes poderes podem ter sido obtidos como um dom, uma maldição, através de estudos assíduos ou como consequência de uma fé profunda e dedicada. O poder do personagem pode ter origem em uma tradição mística (Bruxaria, Feitiçaria, Magismo ou Teurgia), cada qual com seus benefícios e desvantagens. O personagem também pode ser um Místico sem uma tradição, com uma teoria individual de onde estes poderes vieram e quais seus propósitos. Para mais informações, veja o Capítulo 18: Tradições Místicas (página 126).</p> <p>Cada Poder Místico é sua própria habilidade e é comprado separadamente. Para uma descrição mais detalhada dos diferentes poderes místicos, veja o Capítulo 19: Poderes Místicos (página 130).</p> <p>O personagem sofre um (1) ponto de Corrupção permanente toda vez que aprende um novo poder místico. A Corrupção pode ser reduzida se o poder for parte de uma tradição mística à qual o personagem pertence.</p> <p>O personagem também sofre 1D4 de Corrupção temporária toda vez que este poder é usado. Novamente, a Corrupção sofrida pode ser reduzida se o poder for considerado parte de uma tradição à qual o personagem pertence (veja Sombra & Corrupção, na página 174).</p>",
+          "noviceDescription": "<p>O personagem dominou o nível Novato do poder.</p>",
+          "adeptDescription": "<p>O personagem dominou o nível Adepto do poder.</p>",
+          "masterDescription": "<p>O personagem dominou o nível Mestre do poder.</p>"
         },
         "Two-handed Force": {
-          "name": "Two-handed Force"
+          "name": "Força da Empunhadura Dupla",
+          "description": "<p>Os cavaleiros de Ambria, assim como os Guardas da Ira de Karvosti, se vestem de aço da cabeça aos pés e perceberam que com esse tanto de armadura, eles ficam livres para se focar em causar quantidades massivas de dano.</p> <p>Armas de duas mãos pesadas repousam confortavelmente nas mãos calejadas do personagem e podem ter um efeito surpreendentemente destrutivo em todos os tipos de alvos.</p> <p>Armas pesadas são mais efetivas contra inimigos de armaduras pesadas.</p>",
+          "noviceDescription": "<p>O dano causado por armas pesadas é aumentado para 1D12.</p>",
+          "adeptDescription": "<p>O personagem dominou a utilização de sua arma, portanto, quando um ataque erra um alvo, o personagem pode utilizar o movimento de retorno do ataque para tentar acertar o alvo novamente.</p> <p>O personagem realiza uma nova jogada de ataque, que causa 1D8 de dano se acertar.</p>",
+          "masterDescription": "<p>Uma arma pesada nas mãos de um Mestre é uma verdadeira ferramenta de destruição de armaduras. Quando o ataque de um Mestre atinge seu alvo, ele ignora completamente a Armadura do alvo.  </p>"
         },
         "Choking Spores": {
-          "name": "Choking Spores"
+          "name": "Esporos Sufocantes",
+          "description": "<p>Esporos Sufocantes são produzidos a partir de líquenes e cogumelos da Davokar. O elixir é utilizado especificamente com a habilidade Estrangulador.</p>",
+          "cost": "2 táleres"
         },
         "Concentrated Magic": {
-          "name": "Concentrated Magic"
+          "name": "Mágica Concentrada",
+          "description": "<p>Uma dose de essência mística, que dá a um Místico uma segunda chance de obter sucesso em um Teste de Resoluto na próxima vez que tentar usar um poder místico.</p>",
+          "cost": "1 táler"
         },
         "Elemental Essence": {
-          "name": "Elemental Essence"
+          "name": "Essência Elemental",
+          "description": "<p>Quando aplicar uma essência elemental a uma arma, quatro armas de arremesso ou todas as flechas/virotes em uma aljava, elas causam 1D4 de dano elemental durante uma cena. O alquimista deve escolher qual elemento preparar: ácido, eletricidade, fogo ou frio.</p>",
+          "cost": "2 táleres"
         },
         "Elixir of Life": {
           "name": "Elixir da Vida",
@@ -4262,10 +4410,14 @@
           "cost": "6 táleres"
         },
         "Eye Drops": {
-          "name": "Eye Drops"
+          "name": "Colírio",
+          "description": "<p>Estas gotas irão imediatamente devolver o dom da visão a uma criatura temporariamente cega.</p>",
+          "cost": "2 táleres"
         },
         "Ghost Candle": {
-          "name": "Ghost Candle"
+          "name": "Vela Fantasma",
+          "description": "<p>As fumaças desta vela tornam visíveis coisas invisíveis em um local ou em uma sala. </p>",
+          "cost": "2 táleres"
         },
         "Herbal Cure": {
           "name": "Cura Herbal",
@@ -4273,16 +4425,24 @@
           "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
         },
         "Moderate Antidote": {
-          "name": "Moderate Antidote"
+          "name": "Antítido Moderado",
+          "description": "<p>Um antídoto moderado diminui o efeito de um veneno em dois graus; um veneno forte se torna fraco, enquanto venenos moderados e fracos são completamente neutralzados. O antídoto não afeta qualquer dano que um personagem já tenha sofrido. Requer sucesso em um Teste de Astuto para fazer efeito</p>",
+          "cost": "2 táleres"
         },
         "Moderate Poison": {
-          "name": "Moderate Poison"
+          "name": "Veneno Moderado",
+          "description": "<p>Um veneno moderado causa 1D6 de dano por 1D6 turnos.</p>",
+          "cost": "4 táleres"
         },
         "Protective Oil": {
-          "name": "Protective Oil"
+          "name": "Óleo de Proteção",
+          "description": "<p>O óleo alquímico protege contra dano elemental, e fornece 1D4 de Armadura adicional contra um dos elementos pela duração de uma cena.</p> <p>O alquimista deve escolher contra qual dos elementos que o óleo protege: ácido, eletricidade, fogo ou frio.</p>",
+          "cost": "2 táleres"
         },
         "Spore Bomb": {
-          "name": "Spore Bomb"
+          "name": "Bomba de Esporos",
+          "description": "<p>A bomba de esporos é utilizada especificamente com a habilidade Estrangulador.</p>",
+          "cost": "3 táleres"
         },
         "Strong Antidote": {
           "name": "Strong Antidote"
@@ -4406,7 +4566,8 @@
           "name": "Blanket"
         },
         "Boots": {
-          "name": "Boots"
+          "name": "Botas",
+          "cost": "1 xelim"
         },
         "Brass bell": {
           "name": "Brass bell"
@@ -4427,10 +4588,12 @@
           "name": "Climbing equipment"
         },
         "Cloak": {
-          "name": "Cloak"
+          "name": "Capa",
+          "cost": "2-6 ortegas"
         },
         "Coat": {
-          "name": "Coat"
+          "name": "Casaco",
+          "cost": "5-10 ortegas"
         },
         "Coin purse": {
           "name": "Coin purse"
@@ -4474,7 +4637,8 @@
           "cost": "2 ortegas"
         },
         "Flute": {
-          "name": "Flute"
+          "name": "Flauta",
+          "cost": "3 xelins"
         },
         "Glass vial": {
           "name": "Glass vial"
@@ -4518,10 +4682,12 @@
           "name": "Large Chest"
         },
         "Lockpicks": {
-          "name": "Lockpicks"
+          "name": "Gazuas",
+          "cost": "1 táler"
         },
         "Mask": {
-          "name": "Mask"
+          "name": "Máscara",
+          "cost": "5-10 ortegas"
         },
         "Mining pick": {
           "name": "Mining pick"
@@ -4543,7 +4709,8 @@
           "name": "Parchment"
         },
         "Pocket mirror": {
-          "name": "Pocket mirror"
+          "name": "Espelho de Bolso",
+          "cost": "7 táleres"
         },
         "Quiver": {
           "name": "Aljava"
@@ -4556,7 +4723,8 @@
           "cost": "1 xelim"
         },
         "Rope ladder": {
-          "name": "Rope ladder"
+          "name": "Escada de Corda",
+          "cost": "3 xelins"
         },
         "Sack": {
           "name": "Sack"
@@ -4566,32 +4734,40 @@
           "cost": "1-2 ortegas"
         },
         "Scythe": {
-          "name": "Scythe"
+          "name": "Foice",
+          "cost": "1 táler"
         },
         "Shirt": {
-          "name": "Shirt"
+          "name": "Camisa",
+          "cost": "1-4 ortegas"
         },
         "Shovel": {
-          "name": "Shovel"
+          "name": "Pá",
+          "cost": "3 xelins"
         },
         "Simple garb": {
-          "name": "Simple garb"
+          "name": "Trajes Simples",
+          "cost": "1 xelim"
         },
         "Skirt": {
-          "name": "Skirt"
+          "name": "Saia",
+          "cost": "5-10 ortegas"
         },
         "Sledgehammer": {
-          "name": "Sledgehammer"
+          "name": "Marreta",
+          "cost": "1 táler"
         },
         "Small Chest": {
-          "name": "Small Chest"
+          "name": "Baú Pequeno",
+          "cost": "3 xelins"
         },
         "Snares": {
           "name": "Armadilha de Caça",
           "cost": "3 xelins"
         },
         "Snow shoes": {
-          "name": "Snow shoes"
+          "name": "Sapatos de Neve",
+          "cost": "5 xelins"
         },
         "Soap": {
           "name": "Soap"
@@ -4640,34 +4816,54 @@
           "cost": "2 xelins"
         },
         "Blood Bond": {
-          "name": "Blood Bond"
+          "name": "Laço de Sangue",
+          "tradition": "Bruxaria",
+          "description": "<p>O efeito corruptivo da magia é obviamente bem conhecido pelos Místicos. Algumas vezes a Corrupção é um preço necessário a pagar para obter sucesso em qualquer que seja a tarefa que o Místico tenha se encarregado. Da mesma maneira, a mácula de um familiar pode ser um sacrifício necessário para o Místico ser capaz de continuar servindo seu povo ou seu chamado.</p> <p>Utilizando este laço de sangue, o Místico pode compartilhar Corrupção com seu familiar. O Místico deve realizar um Teste de Resoluto sempre que tentar executar um Laço de Sangue. Um ritual executado com sucesso reduz a Corrupção permanente do Místico em 1D4 pontos, e aumenta a Corrupção permanente do familiar em 1D6. O familiar sofre todos os sinais normais da Corrupção. Caso o familiar se torne uma abominação, o Místico perde controle sobre ele, e imediatamente o familiar ataca seu antigo amigo.</p> <p>O ritual custa um (1) de Experiência para ser executado, seja bem-sucedido ou não. O Místico não pode executar o ritual para outra pessoa.</p>"
         },
         "Borrow Beast": {
-          "name": "Borrow Beast"
+          "name": "Emprestar Besta",
+          "tradition": "Bruxaria",
+          "description": "<p>Executando este ritual, o Místico pode possuir o corpo de uma pequena besta e ter controle total sobre ela por um longo período. O corpo do Místico fica em transe durante o ritual. A mente do Místico é devolvida a seu próprio corpo se o corpo emprestado for ferido. O mesmo ocorre se o corpo do Místico for ferido ou exposto a algum tipo de interferência poderosa (como ser empurrado no chão, mergulhado em água ou afetado por calor e fumaça).</p> <p>Um Místico pode decidir permanecer neste transe por 24 horas, e após este período sua mente retorna a seu corpo. Após isto, Emprestar Besta não pode ser executado novamente por um período tão longo quanto a duração do último transe.</p> <p>Um Místico que executa Emprestar Besta e deixa seu corpo dentro de um Círculo de Bruxa não tem limitação de quanto tempo pode manter o transe, já que seu corpo recebe toda a nutrição necessária do solo dentro do círculo.</p>"
         },
         "Break Link": {
-          "name": "Break Link"
+          "name": "Quebrar link",
+          "tradition": "Magismo",
+          "description": "<p>O Místico pode quebrar quaisquer vínculos e elos místicos atuais em um objeto ou pessoa ao prender o alvo em um círculo de runas místicas e obter sucesso em um Teste de Resoluto. A magia do objeto não é afetada, mas o alvo não pode mais ser alcançado com rituais como Rastro do Herege e Convocação. Além disso, quaisquer vínculos místicos que podem ter sido criados por pessoas visitando o local são anulados, o que pode ser utilizado para prevenir outros de usarem Clarividência e Passo de Sete Léguas para ver ou alcançar o local até terem visitado o local novamente. Finalmente, Quebrar Vínculo pode ser utilizado para cortar o laço entre uma criatura e um artefato místico (veja mais sobre artefatos na página 186).</p>"
         },
         "Clairvoyance": {
-          "name": "Clairvoyance"
+          "name": "Clarividência",
+          "tradition": "Magismo",
+          "description": "<p>Usando este ritual, o Místico pode observar e ouvir em um local distante, desde que já tenha visitado esse local pessoalmente. Pessoas no local com a habilidade Visão de Bruxa podem perceber que estão sendo observadas se obtiverem sucesso em um Teste de [Resoluto←Discreto]. Clarividência é bloqueada por rituais como Círculo de Bruxa, Rito de Santificação e Sacrário.</p>"
         },
         "Command Confession": {
-          "name": "Command Confession"
+          "name": "Comandar Confissão",
+          "tradition": "Teurgia",
+          "description": "<p>O ritual força uma vítima a responder verdadeiramente várias perguntas de sim ou não feitas pelo Místico. Cada pergunta requer um Teste de [Resoluto←Resoluto], e o ritual é rompido assim que um Teste fracassar. O Místico não pode continuar a interrogar a vítima após isso, pelo menos não através do uso deste ritual.</p>"
         },
         "Desecrating Rite": {
-          "name": "Desecrating Rite"
+          "name": "Rito de Profanação",
+          "tradition": "Feitiçaria",
+          "description": "<p>O Místico profana um local específico, maculando-o e efetivamente punindo aqueles que tentam afetá-lo pelo lado de fora. Um local profanado corrompe aqueles que usarem rituais como Clarividência, Convocação ou Rastro do Herege nele. A profanação causa 1D6 de Corrupção temporária àqueles que executam esses rituais e, se persistirem em obter informações com rituais, também sofrerão 1D6 de Corrupção permanente.</p> <p>Abominações (criaturas pertencentes à categoria de monstro Abominação) e mortos-vivos são atraídos a áreas profanadas e são curadas em 1D4 pontos de Vitalidade para cada hora em que permanecerem em solo profano. Mesmo criaturas que estão apenas maculadas pela Corrupção, mas que não foram transformadas em verdadeiras abominações, sentem uma forte atração a áreas e objetos profanados.</p> <p>O Rito de Profanação também pode ser executado sobre uma arma, que é um requerimento para o poder Golpe de Regresso.</p>"
         },
         "Enslave": {
-          "name": "Enslave"
+          "name": "Escravizar",
+          "tradition": "Feitiçaria",
+          "description": "<p>O Místico pode usar este ritual para escravizar uma criatura. A escravização é vinculada a uma runa de escravidão, talhada em algum lugar na vítima (normalmente na testa, peito ou pescoço).</p> <p>A runa de escravidão e seu efeito podem ser revelados por alguém usando a habilidade Visão de Bruxa ou o ritual Fumaça Sagrada.</p> <p>O poder da runa de escravidão pode ser quebrado com Exorcismo ou Quebrar Vínculo. Também é possível remover a runa fisicamente, mas não sem infligir 1D6 de dano e 1D4 de Corrupção permanente à vítima. O escravo lutará para permanecer escravizado.</p> <p>A criatura não é controlada pelo Místico em todos os detalhes, mas o obedecerá cegamente da melhor forma possível. O escravo pode refletir parcialmente sobre sua situação, chorar quando age contra sua antiga natureza e assim por diante, mas não pode resistir de forma alguma ao comando do Místico.</p>"
         },
         "Exchange Shadow": {
-          "name": "Exchange Shadow"
+          "name": "Trocar sombra",
+          "tradition": "Feitiçaria",
+          "description": "<p>O Místico pode trocar sua Sombra com a de outra criatura obtendo sucesso em um Teste de [Resoluto←Resoluto]: a Sombra do Místico parecerá como a da criatura e vice-versa. O ritual fica ativo por 24 horas e requer um vínculo entre a vítima e o Místico para ser capaz de tentar a troca: uma mecha de cabelo, um pouco de sangue ou um item que é importante para o alvo. O alvo não percebe a troca, mas aqueles que podem ver Sombras podem certamente perceber isso (ou serem enganados por isso). Trocar Sombra pode ser anulado por Exorcismo ou Quebrar Vínculo.</p>"
         },
         "Exorcism": {
-          "name": "Exorcism"
+          "name": "Exorcismo",
+          "tradition": "Teurgia",
+          "description": "<p>O Místico pode banir um espírito que possui uma criatura ou pessoa. O Místico recebe três tentativas para obter sucesso com um Teste de [Resoluto←Resoluto]; a resistência do Teste é feita contra o Resoluto do espírito possessor. Basta um Teste bem-sucedido para banir a força de possessão. Caso o Místico falhe em todos os três Testes, ele ou ela passa a ser possuído pelo espírito.</p>"
         },
         "False Terrain": {
-          "name": "False Terrain"
+          "name": "Terreno Falso",
+          "tradition": "Magismo",
+          "description": "<p>O Místico pode tecer uma ilusão sobre um local e esconder qual sua verdadeira natureza. Qualquer criatura que se aproximar pode ver através da ilusão com um Teste bem-sucedido de [Resoluto←Resoluto]. Qualquer criatura que tocar ou atravessar a ilusão irá, automaticamente, ver através da enganação. A ilusão permanece, mesmo se revelada, mas se desfaz com o tempo se não for mantida mensalmente por alguém renovando o ritual.</p>"
         },
         "Familiar": {
           "name": "Familiar",
@@ -4675,25 +4871,39 @@
           "description": "<p>O Místico cria um elo com uma besta. Esta besta não é muito mais esperta que outras de seu tipo, mas é ferozmente leal ao Místico e o elo entre eles é feito de energias místicas; eles são almas gêmeas. O elo espiritual é tão forte que os dois podem se comunicar telepaticamente; o Místico pode comandar o familiar à distância e vivenciar qualquer coisa que o familiar perceber com seus sentidos.</p> <p>A profundidade desta união também torna possível para os dois compartilharem ferimentos. Se o familiar for ferido, o Místico pode escolher sofrer metade do dano, ou se o Místico for ferido, metade do dano pode ser transferido para o familiar.</p> <p>O jogador decide quando o dano deve ser compartilhado. Porém, há uma desvantagem no elo místico: caso o familiar morra, o Místico sofre 1D8 de dano, ignorando qualquer Armadura.</p> <p>O familiar é controlado pelo jogador como se fosse um personagem adicional. Ele ganha Experiência como um personagem jogador e a perde quando morre (não é permitido fazer Testes de Morte).</p>"
         },
         "Flaming Servant": {
-          "name": "Flaming Servant"
+          "name": "Servo Flamejante",
+          "tradition": "Magismo",
+          "description": "<p>O Místico desperta uma feroz criatura flamejante e a vincula a um traje metálico (armadura média ou pesada). O servo então caminha ao lado do Místico como um guarda-costas ardente e fumegante, que se incendeia e vira um guerreiro flamejante em batalha. O Místico pode ter somente um Servo Flamejante vinculado a si de cada vez, e caso o Servo Flamejante caia em batalha, a armadura deve ser reparada por um ferreiro para que o ritual possa ser lançado sobre a mesma armadura novamente.</p> <p>O Servo Flamejante é controlado pelo jogador como se fosse um personagem adicional. Ele ganha Experiência como um personagem jogador e a perde quando morre (não é permitido Testes de Morte).</p>"
         },
         "Fortune Telling": {
-          "name": "Fortune Telling"
+          "name": "Leitura da Sorte",
+          "tradition": "Bruxaria",
+          "description": "<p>O Místico pode, com um Teste bem-sucedido de Resoluto, fazer uma pergunta de sim ou não sobre a aventura. Leitura da Sorte pode ser executado somente uma vez por aventura, e novas tentativas são possíveis somente quando algo maior ocorrer potencialmente mudando o futuro (o Mestre de Jogo decide se tal evento ocorreu).</p>"
         },
         "Heretic's Trail": {
-          "name": "Heretic's Trail"
+          "name": "Rastro do Herege",
+          "tradition": "Teurgia",
+          "description": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode rastrear uma abominação ou criatura maculada que o Místico tenha encontrado pessoalmente. O rastreio é impecável até que a criatura maculada tenha atravessado água; se o fizer, o ritual deve ser executado novamente do lado oposto do curso de água. Caso o Místico falhe no Teste de Resoluto, ele ou ela não pode tentá-lo novamente até o próximo dia. Ainda, é mais difícil rastrear uma criatura acometida pela mácula em assentamentos maiores e na Davokar, concedendo ao Místico uma segunda chance de falha no Teste. O jogador deve rolar duas vezes, e se uma dessas jogadas falhar, o ritual fracassa.</p>"
         },
         "Holy Smoke": {
-          "name": "Holy Smoke"
+          "name": "Fumaça Sagrada",
+          "tradition": "Teurgia",
+          "description": "<p>O Místico pode revelar pessoas ou criaturas aco-metidas pela mácula usando incenso e realizar um Teste bem-sucedido de Astuto. A fumaça se espalha entre os presentes e se amontoa em torno de objetos e criaturas conforme o quão corrompidos eles estão;quanto mais perto a fumaça se amontoar, mais maculada a criatura em questão está. O Mestre de Jogo deve confirmar claramente se objetos ou criaturas estão acometidos ou marcados pela mácula, ou se estão completamente corrompidos.</p> <p>Fumaça Sagrada pode ser neutralizado pelo ritual Trocar Sombra.</p>"
         },
         "Illusion": {
-          "name": "Illusion"
+          "name": "Ilusão",
+          "tradition": "Magismo",
+          "description": "<p>O Místico cria uma imagem falsa. Esta imagem pode se mover e falar, mas é dissolvida se for tocada por criaturas inteligentes. Até então, a imagem é completamente real; ela soa, cheira e parece perigosa. Entretanto, a imagem não pode ferir ou afetar objetos físicos. A Ilusão pode “executar” apenas tarefas simples, como guardar um local ou ir em direção a uma vila e uivar. O efeito fica ativo por uma hora, desde que não seja dissolvido antes disso.</p>"
         },
         "Judging Bonds": {
-          "name": "Judging Bonds"
+          "name": "Elos de Julgamento",
+          "tradition": "Teurgia",
+          "description": "<p>O Místico faz uma luz pacífica fluir através de correntes ou grilhões prendendo uma pessoa. Isto previne que a pessoa presa use poderes místicos e traços que demandem um Teste de Resoluto. A luz evapora dos grilhões com o tempo, e o efeito deve ser mantido por um ritual renovado a cada mês.</p>"
         },
         "Magic Circle": {
-          "name": "Magic Circle"
+          "name": "Círculo Mágico",
+          "tradition": "Magismo",
+          "description": "<p>O Místico estabelece um círculo mágico permanente que pode ser usado para se comunicar telepaticamente com pessoas em outros círculos mágicos conhecidos. Somente Místicos com o ritual Círculo Mágico podem iniciar comunicação telepática com outro círculo, mas qualquer um pode receber tal transmissão.</p> <p>O Místico não precisa ter visitado estes outros círculos para ser capaz de se comunicar com eles, mas deve saber com certeza que há outro círculo em um local específico para ser capaz de alcançá-lo. Também deve haver uma pessoa no círculo receptor para a comunicação ser possível. Todos em um Círculo Mágico receptor ficam cientes e podem participar da comunicação; não é possível discriminar receptores.</p>"
         },
         "Nature's Lullaby": {
           "name": "Nature's Lullaby"
@@ -4717,25 +4927,39 @@
           "name": "Quick Growth"
         },
         "Sanctifying Rite": {
-          "name": "Sanctifying Rite"
+          "name": "Rito de Santificação",
+          "tradition": "Teurgia",
+          "description": "<p>O Místico santifica um local, protegendo-o de influência mística externa. Um local santificado bloqueia rituais como Clarividência, Convocação, Rastros do Herege e similares, mas se algum destes rituais estiver rastreando ou caçando uma pessoa, o bloqueio é perdido assim que a pessoa sai da área santificada.</p> <p>Abominações (criaturas pertencentes à categoria de monstro Abominação) ficam adoecidas quando se aproximam de uma área que tenha sido santificada, e sofrem 1D4 de dano que ignora Armadura a cada turno que permanecerem em solo sagrado. Criaturas que estejam maculadas, mas não se transformaram em verdadeiras abominações, sentem um forte desconforto próximo de locais e objetos santificados.</p> <p>Rito de Santificação também pode ser executado sobre uma arma, que é um requerimento para o poder Martelo Bruxo.</p>"
         },
         "Sanctum": {
-          "name": "Sanctum"
+          "name": "Sacrário",
+          "tradition": "Magismo",
+          "description": "<p>O Místico pode usar este ritual para cobrir um local (uma sala grande ou um par de salas menores) em um véu mágico, tornando impossível espiar ou perturbar o interior com poderes místicos do lado de fora. Sacrário bloqueia o efeito de rituais como Clarividência, Convocação ou Rastro do Herege, mas se algum destes rituais estiver rastreando ou caçando uma pessoa, o bloqueio é perdido assim que a pessoa sai do Sacrário.</p> <p>Se houver um Círculo Mágico dentro da área afetada pelo Sacrário (independentemente de qual seja executado primeiro), então ninguém além do Místico que executou o Sacrário pode utilizar o círculo para comunicação ou para o propósito de executar um Passo de Sete Léguas.</p>"
         },
         "Seven-League Stride": {
-          "name": "Seven-League Stride"
+          "name": "Passo de sete léguas",
+          "tradition": "Magismo",
+          "description": "<p>O Místico pode criar um círculo mágico temporário e usá-lo para teleportar a si mesmo e um de seus aliados no círculo para outro Círculo Mágico que seja bem conhecido pelo Místico. Um círculo é considerado bem conhecido quando o Místico já visitou seu local e o estudou de alguma forma.</p>"
         },
         "Soul Stone": {
-          "name": "Soul Stone"
+          "name": "Pedra da Alma",
+          "tradition": "Magismo",
+          "description": "<p>A Corrupção nunca foi um problema para magos antes da Grande Guerra, já que suas práticas meticulosas os protegiam de enegrecer suas almas. Durante momentos desesperados da Guerra, os magos de batalha da Ordo Magica assumiram riscos maiores em nome da necessidade e, portanto, trouxeram a Corrupção sobre si. Para neutralizar este mal, eles desenterraram um ritual antigo evitado, onde captura-se a alma de uma criatura morrendo em um cristal preparado para este propósito. Esse mesmo ritual se provou funcionar bem para drenar Corrupção de um mago e transferi-lo para a alma na pedra.</p> <p>O ritual vincula o Místico ao cristal, que então funciona como uma extensão da alma do mago. O ritual permite o Místico mover 1D4 de Corrupção permanente para a pedra da alma com um Teste bem-sucedido de Resoluto. A pedra pode suportar até metade do Resoluto do Místico em Corrupção; ela escurece quando é preenchida e explode se seu limite for excedido. A Corrupção coletada então retorna ao Místico, frequentemente com um resultado bastante sórdido. No caso improvável dele ou dela sobreviver a essa onda de Corrupção, é possível ao Místico vincular-se a uma nova pedra da alma e começar tudo novamente.</p> <p>O ritual custa um (1) de Experiência para ser executado, seja bem-sucedido ou não. Um mago que consegue aprender o ritual recebe uma pedra da alma de seu capítulo da ordem. Outros Místicos devem pagar pelas suas. Comprar uma pedra da alma custa 100 táleres.</p>"
         },
         "Summoning": {
-          "name": "Summoning"
+          "name": "Convocação",
+          "tradition": "Bruxaria",
+          "description": "<p>O Místico convoca uma criatura realizando um Teste bem-sucedido de Resoluto. A criatura então deve ir em direção ao local da convocação. O Místico deve ter alguma coisa em sua posse relacionada à criatura convocada, seja um objeto de valor para a criatura ou uma parte dela, como uma gota de sangue ou uma mecha de cabelo.</p> <p>A criatura convocada tentará alcançar o local da melhor forma possível, mas não sabe necessariamente por que deseja chegar lá, a não ser por um chamado irresistível. A única forma de proteger uma criatura que tenha sido convocada é enganá-la e atraí-la para dentro de uma área misticamente protegida (os rituais Círculo de Bruxa, Rito de Santificação ou Sacrário) ou usar o ritual Quebrar Vínculo.</p>"
         },
         "Tale of Ashes": {
-          "name": "Tale of Ashes"
+          "name": "Conto das Cinzas",
+          "tradition": "Magismo",
+          "description": "<p>O Místico pode ler as cinzas de um objeto queimado e, desta forma, discernir o que o objeto era e o que aconteceu quando ele queimou; o Místico vivencia todas as impressões do fogo, vê quem esteva lá e ouve o que foi dito. Uma fogueira pode ter muito a dizer sobre o que aconteceu ao seu redor.</p>"
         },
         "Telepathic Interrogation": {
-          "name": "Telepathic Interrogation"
+          "name": "Interrogatório Telepático",
+          "tradition": "Magismo",
+          "description": "<p>O Místico pode alongar sua mente e ler pensamentos. O Místico pode receber uma resposta de uma pergunta de sim ou não feita ao subconsciente da vítima através de um Teste bem-sucedido de [Resoluto←Resoluto]. Um Teste fracassado rompe a conexão telepática, e novas tentativas não podem ser feitas com essa criatura durante a aventura.</p> <p>O Místico deve tocar sua vítima, e a vítima pode perceber a leitura de mente se o Místico fracassar em um Teste de [Discreto←Vigilante]. Obviamente, uma vítima indefesa e presa não pode fazer nada para impedir isto, mas outras vítimas irão reagir. Vítimas dormindo acordam se o Teste falhar.</p>"
         },
         "Turn Weather": {
           "name": "Virar o Clima",
@@ -4743,7 +4967,9 @@
           "description": "<p>O Místico altera o clima local como achar adequado. Névoa que obscurece a visão, tempestades que impedem viagens ou acalmar tempestades são todas coisas possíveis de realizar.</p> <p>O ritual leva uma hora para ser executado, e o efeito permanece ativo por metade de um dia; após isso, o clima local retorna à sua forma natural.</p>"
         },
         "Witch Circle": {
-          "name": "Witch Circle"
+          "name": "Círculo de Bruxa",
+          "tradition": "Bruxaria",
+          "description": "<p>O Místico insufla vida nova em um local belo e o transforma em um círculo de bruxa. Círculos de bruxa são protegidos de olhos observadores e influências do exterior, e o Místico tem mais ou menos controle total sobre o que acontece dentro do círculo. O Místico decide como as coisas crescem e qual estação vigora dentro dele, e pode com um ritual de Crescimento Rápido criar um ambiente para espelhar o desejo de seu coração.</p> <p>É difícil encontrar um Círculo de Bruxa, mesmo que você saiba onde procurar por ele. É necessário um Teste de [Vigilante←Discreto] mesmo para enxergar o círculo se encontrado nos ermos. Criaturas que não virem o círculo irão simplesmente contorná-lo, sem saber que pegaram um pequeno desvio.</p> <p>Um Místico com o ritual Círculo de Bruxa e a habilidade Alquimia pode realizar uma tentativa extra em Testes de Alquimia quando usar esta habilidade dentro de seu círculo. Um Místico com Alquimia, Círculo de Bruxa e Crescimento Rápido pode realizar duas tentativas extras quando usar Alquimia.</p> <p>Um Místico que realizar Emprestar Besta e deixar seu corpo descansando em um Círculo de Bruxa não tem limitação de quanto tempo pode manter o transe, já que seu corpo recebe toda a nutrição necessária do solo dentro do círculo.</p>"
         },
         "Bite": {
           "name": "Mordida"
@@ -4967,16 +5193,32 @@
           "masterDescription": "<p>Como Adepto, mas o personagem é um autêntico santo guardião. O personagem pode não apenas se defender contra os ataques, mas também recebe um Ataque Livre contra qualquer um que realizar uma ofensiva contra a pessoa sob sua proteção.</p>"     
         },
         "Dominate": {
-          "name": "Dominate"
+          "name": "Dominação",
+          "description": "<p>Com nada além de sua presença, olhar e voz, personalidades fortes podem forçar mentes mais fracas a se dobrar no meio de uma batalha furiosa. O personagem é treinado nesta arte de dominar o combate. Entre os gladiadores de Yndaros, isto é considerado uma forma particularmente impressionante de vencer uma batalha, e é tratada como extremamente honrosa entre os clãs bárbaros superar seu inimigo dessa forma.</p> <p>Em situações sociais, esta habilidade também pode ser utilizada para apavorar alguém à obediência e forçá-los a contar segredos.</p>",
+          "noviceDescription": "<p>O personagem pode dominar e sobrepujar um combatente inimigo utilizando sua personalidade convincente. O personagem pode utilizar Persuasivo em vez de Preciso em combate corpo a corpo.</p>",
+          "adeptDescription": "<p>O personagem pode, com uma Ação Livre e um Teste bem-sucedido de [Persuasivo←Resoluto], forçar um inimigo a hesitar em combate corpo a corpo.</p> <p>Um inimigo hesitante não irá atacar o personagem neste turno. Se possível, ele ataca um dos aliados do personagem em vez disso.</p>",
+          "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
         },
         "Equestrian": {
-          "name": "Equestrian"
+          "name": "Equestre",
+          "description": "<p>Cavalarias pesadas dominam as planícies de Ambria, uma verdade comprovada mais de uma vez pela Rainha Korinthia quando ela enviou seus cavaleiros armadurados contra bárbaros teimosos durante a primeira década de sua invasão. É necessário treino para ser capaz de utilizar uma montaria em combate, tanto para o cavaleiro quanto para a montaria, mas se forem capazes de trabalharem juntos como um, tornam-se uma combinação mortal.</p> <p>Esta habilidade também é eficientemente utilizada pelos bárbaros das planícies ocidentais, que lançam invasões contra os assentamentos de Ambria ocidental utilizando bigas puxadas por cavalos.</p> <p>Um personagem com a habilidade Equestre também tem uma mão boa com outros tipos de animais de fazenda e similares, portanto, pode utilizar a habilidade para acalmar bestas agitadas, por exemplo, impedindo cães de guarda de latir.</p>",
+          "noviceDescription": "<p>O personagem é um cavaleiro experiente e acostumado a lutar montado. O personagem sabe como utilizar o peso da montaria em uma investida de cavalaria e causa +1D6 de dano adicional com um ataque corpo a corpo se a montaria se mover antes do ataque.</p>",
+          "adeptDescription": "<p>O elo entre uma montaria e seu cavaleiro torna possível que realizem ataques de passagem, significando que podem utilizar parte de sua Ação de Movimento antes de atacar, e o restante após. Desta forma, são capazes de realizar um ataque corpo a corpo sem ficarem presos ao combate.</p> <p>O inimigo pode retaliar apenas utilizando Reações ou gastando sua Ação de Movimento tentando alcançar o cavaleiro.</p>",
+          "masterDescription": "<p>O cavaleiro Mestre pode utilizar uma investida de cavalaria ainda mais eficientemente, portanto, causa +1D10 de dano com um ataque corpo a corpo se a montaria se mover antes do ataque.</p>"
         },
         "Exceptional Attribute": {
-          "name": "Exceptional Attribute"
+          "name": "Atributo Excepcional",
+          "description": "<p>Todos os sentidos do personagem, bem como sua capacidade mental e física, podem ser aprimorados. Praticando um pouco a cada dia, os músculos podem ficar maiores, os olhos mais afiados e o intelecto mais vasto. Esta habilidade melhora a capacidade básica de sobrevivência do personagem.</p> <p>Esta habilidade pode ser escolhida várias vezes, cada vez relacionada a um Atributo diferente.</p>",
+          "noviceDescription": "<p>O personagem cultivou um de seus Atributos através de trabalho duro, que aumenta o Atributo em +1.</p>",
+          "adeptDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +2 no total.</p>",
+          "masterDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +3 no total.</p>"
         },
         "Feint": {
-          "name": "Feint"
+          "name": "Finta",
+          "description": "<p>Pessoas e criaturas que não têm vontade ou força para empunhar armas corpo a corpo pesadas desenvolveram técnicas para fintar. Esta habilidade demanda uma arma com a Qualidade Curta ou Precisa.</p> <p>Graças à perícia do personagem, estas armas podem ser empunhadas de maneira discreta e confusa.</p>",
+          "noviceDescription": "<p>O personagem pode escolher atacar com Discreto em vez de Preciso quando o ataque é realizado com uma arma corpo a corpo que seja Curta ou Precisa.</p> <p>Além disso, cada ataque destes recebe a mesma Vantagem, como se o oponente estivesse surpreso.</p>",
+          "adeptDescription": "<p>O personagem apresenta uma fraqueza falsa em sua defesa e engana o oponente para atacar essa fraqueza. O personagem pode escolher se defender com Discreto em vez de Rápido.</p>",
+          "masterDescription": "<p>Com uma jogada bem-sucedida de [Discreto←Vigilante] o personagem pode surpreender um inimigo no meio de uma luta. Um Teste bem-sucedido dá ao personagem um Ataque Livre contra esse inimigo além de seus ataques ordinários.</p> O personagem ainda pode realizar um ataque ordinário mesmo se sua tentativa de Finta falhar.</p>"
         },
         "Iron Fist": {
           "name": "Punho de Ferro",
@@ -5077,7 +5319,11 @@
           "masterDescription": "<p>O personagem agora pode se mover e lutar sem impedimentos quando cego ou em escuridão total.</p>"
         },
         "Sorcery": {
-          "name": "Sorcery"
+          "name": "Feitiçaria",
+          "description": "<p>O personagem é um daqueles arrogantes ou desesperados o suficiente para se apegarem à escuridão. Enquanto outras tradições místicas fazem o que podem para evitar os poderes da Corrupção que corroem a alma, o feiticeiro escolhe fazer o oposto.</p> <p>Os poderes e rituais da Feitiçaria se baseiam na força da corrupção e nas possibilidades oferecidas pela mácula. O feiticeiro deve sempre manter o equilíbrio entre agarrar o poder negro que está ao seu alcance e permanecer independente da escuridão.</p> <p>A maioria dos feiticeiros percebe que o caminho escolhido possui um único final possível, e os mais depravados entre eles já chegaram a uma conclusão sobre isto, vendo sua escravidão final e inevitável como um tipo de salvação.</p>",
+          "noviceDescription": "<p>O feiticeiro deu seu primeiro passo vacilante no caminho sem fim da escuridão, e encontrou um meio para não perder seu ponto de apoio inteiramente.</p> <p>O feiticeiro pode reduzir a Corrupção que ele ou ela sofre. Obtendo sucesso numa jogada contra Resoluto toda vez que sofrer Corrupção, ele ou ela sofre somente um (1) ponto de Corrupção.</p>",
+          "adeptDescription": "<p>O feiticeiro pode usar sua própria Corrupção para invocar poderes místicos com sucesso. Se falhar em usar um poder, o feiticeiro pode tentar novamente, desta vez rolando contra seu valor de Corrupção Total.</p> <p>Caso este Teste seja bem-sucedido, o poder é ativado normalmente, mas o feiticeiro também sofre 1D4 adicional de Corrupção temporária.</p>",
+          "masterDescription": "<p>O feiticeiro pode usar a Corrupção de outros para fazer cumprir sua vontade. Toda vez que o feiticeiro tentar afetar o atributo Resoluto de outra criatura, em vez disso, ele ou ela pode escolher fazer uma jogada contra a Sombra da criatura (o Resoluto da criatura - Corrupção Total).</p> <p>Criaturas completamente corrompidas são estranhamente imunes a isto; é como se elas se alimentassem da escuridão do mundo para prosseguir em seu chamado.</p>"
         },
         "Steadfast": {
           "name": "Inabalável",
@@ -5087,13 +5333,25 @@
           "masterDescription": "<p>A psiquê do personagem contra-ataca qualquer um que tente afetá-la. Sempre que o personagem for vítima de um ataque mental (em outras palavras, ataques que são modificados por Resoluto) que falhar, o atacante sofre 1D6 de dano que ignora Armadura.</p>"
         },
         "Steel Throw": {
-          "name": "Steel Throw"
+          "name": "Arremessar Aço",
+          "description": "<p>Há tradições e grupos cujos representantes têm praticado a arte de arremessar armas há gerações. Arremessar facas, por exemplo, é comum entre ladrões e bandidos nas cidades, e nas matas muitos clãs guerreiros são equipados com machados de arremesso e lanças. Na verdade, a maioria dos combatentes bárbaros (especialmente os do clã de Zarek) utiliza regularmente armas de arremesso como parte de suas táticas de combate corpo a corpo, lançando uma chuva de aço logo antes de entrar na luta.</p>",
+          "noviceDescription": "<p>O personagem começou a entender o enigma do arremesso de aço. O dano causado por armas de arremesso é aumentado para 1D8.</p>",
+          "adeptDescription": "<p>O personagem pode executar um arremesso duplo com uma Ação. Os ataques são rolados separadamente e podem ser mirados no mesmo alvo ou em dois alvos diferentes.</p> <p>O personagem também pode utilizar armas corpo a corpo como armas de arremesso, mas pode arremessar somente uma dessas armas por Ação.</p> <p>O dano para este tipo de ataque é baseado no dano da arma corpo a corpo, incluindo quaisquer habilidades passivas que o arremessador possa ter.</p>",
+          "masterDescription": "<p>O personagem pode lançar um arremesso triplo devastador e jogar três armas de arremesso contra seus inimigos, todas elas contra um único alvo ou distribuídas entre vários deles.</p>"
         },
         "Strangler": {
-          "name": "Strangler"
+          "name": "Estrangulador",
+          "description": "<p>O personagem é iniciado na arte suja, mas às vezes necessária, do estrangulamento. Esta técnica de luta tem uma má reputação tanto entre ambrianos quanto entre bárbaros, mas isso não significa que não seja amplamente desejada por aqueles que querem lidar com seus inimigos discretamente.</p> <p>Com esta habilidade, o personagem pode causar muito dano a um inimigo despreparado ou lento com um garrote ou, se mais avançado, com o alquímico Esporos Sufocantes.</p>",
+          "noviceDescription": "<p>O Estrangulador Novato pode atacar quando em Vantagem. Um ataque bem-sucedido causa 1D6 de dano a cada turno e ignora Armadura.</p> <p>O alvo não pode agir até que o domínio do Estrangulador seja removido; o personagem mantém o estrangulamento com um Teste bem-sucedido de [Astuto←Astuto].</p>",
+          "adeptDescription": "<p>O personagem sabe como utilizar os mortais Esporos Sufocantes, colhidos nas profundezas da Davokar por alquimistas. Com um Teste bem-sucedido de [Astuto←Rápido], os esporos são arremessados em um inimigo e causam 1D4 de dano por turno durante 1D4 turnos, ignorando a Armadura.</p> <p>Não há contra-medida contra o efeito de Esporos Sufocantes além de curar a vítima quando o dano ocorre. Vítimas afetadas podem agir normalmente, ao contrário do nível Novato desta habilidade.</p>",
+          "masterDescription": "<p>O personagem pode utilizar as delicadas e letais Bombas de Esporos criadas a partir de Esporos Sufocantes por mestres alquimistas. Elas podem ser usadas a distância. É necessário um Teste bem-sucedido de Astuto para a bomba aterrissar no local pretendido.</p> <p>A Bomba de Esporos preenche um corredor, uma área menor ou uma sala comum com uma nuvem sufocante. Qualquer um que estiver na área, tanto inimigos quanto aliados, são afetados pelos Esporos Sufocantes, que ignoram a Armadura e causam 1D4 de dano por turno durante 1D4 turnos. </p>"
         },
         "Tactician": {
-          "name": "Tactician"
+          "name": "Tático",
+          "description": "<p>De acordo com os ambrianos, o conhecimento é considerado uma das maiores virtudes. Não é de se surpreender que estudiosos ambrianos tenham estudado meticulosamente as escaramuças para verificar se as táticas de batalhas funcionam em uma escala menor e até entre duelos.</p> <p>O resultado é um estilo de combate governado por princípios e cálculos, que ao longo do tempo podem superar mesmo os atacantes mais agressivos. O personagem é treinado nesta tradição erudita de guerra.</p> <p>Um tático instruído também pode utilizar esta habilidade para analisar uma abordagem tática e identificar suas forças e fraquezas. Isto pode ser feito com propósitos ofensivos quando se enfrenta um grupo hostil, ou defensivamente para estabelecer uma forte defesa.</p>",
+          "noviceDescription": "<p>O personagem estudou as táticas de guerra e compreendeu seus princípios fundamentais. O personagem pode utilizar Astuto em vez de Rápido quando calcular sua Iniciativa.</p>",
+          "adeptDescription": "<p>O personagem dominou a arte de uma boa postura defensiva, que permite a ele ou ela utilizar Astuto em vez de Rápido quando calcular sua Defesa.</p>",
+          "masterDescription": "<p>O personagem é um gênio quando se diz respeito à guerra, o que o permite utilizar Astuto em vez de Preciso quando atacar com qualquer coisa que não sejam armas pesadas.</p>"
         },
         "Theurgy": {
           "name": "Teurgia",
@@ -5103,7 +5361,11 @@
           "masterDescription": "<p>O teurgo alcançou uma compreensão superior da essência de seus poderes sagrados e, portanto, cura 1D4 adicional quando usar poderes de cura e sagrados, incluindo aqueles que ferem abominações e mortos-vivos.</p> <p>Além disso, o teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Mestre pertencentes à tradição da Teurgia. </p>"
         },
         "Twin Attack": {
-          "name": "Twin Attack"
+          "name": "Ataque Gêmeo",
+          "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+          "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+          "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+          "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
         },
         "Witchcraft": {
           "name": "Bruxaria",
@@ -5343,10 +5605,20 @@
           "name": "Entangling Vines"
         },
         "Flame Wall": {
-          "name": "Flame Wall"
+          "name": "Muralha de Fogo",
+          "material": "Um punhado de sementes ou raízes entrelaçadas.",
+          "description": "<p>A terra é preenchida por raízes e objetos sobre o solo são frequentemente cobertos por vinhas. Tudo que o Místico faz é usar sua vontade para estimular o processo já em andamento da natureza.</p>",
+          "noviceDescription": "<p>O Místico invoca vinhas ou raízes emaranhadoras da terra e pode enredar um inimigo realizando um Teste bem-sucedido de Resoluto. A criatura enredada não pode se mover, mas pode utilizar armas à distância e poderes.</p> <p> A criatura fica enredada até o Místico falhar em um Teste de [Resoluto←Vigoroso], a partir do turno seguinte.</p>",
+          "adeptDescription": "<p>O Místico pode enredar uma Corrente de criaturas. Caso o Místico consiga enredar um alvo com um Teste bem-sucedido de Resoluto, ele ou ela pode tentar enredar um novo alvo adicional, até falhar em um Teste. A partir do turno subsequente, um Teste de [Resoluto←Vigoroso] é realizado para cada alvo para decidir quais deles permanecem enredados.</p>",
+          "masterDescription": "<p>O Místico cria uma corrente emaranhadora de espinhos. Aqueles enredados com um Teste de [Resoluto←Vigoroso]  também sofre 1D6 de dano por turno de sua prisão espinhenta. Os espinhos afiados encontram brechas na armadura do alvo, portanto, qualquer Armadura é ignorada.</p>"
         },
         "Holy Aura": {
-          "name": "Holy Aura"
+          "name": "Aura Sagrada",
+          "material": "Símbolo Sagrado",
+          "description": "<p>O Místico pode emitir uma aura sagrada de vida   que fere abominações e mortos-vivos. Em níveis superiores, esta aura também pode conceder poderes de cura para criaturas vivas.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico se envolve em uma aura de energias sagradas que é nociva a abominações e mortos-vivos. O alvo sofre 1D6 de dano, ignorando sua Armadura.</p> <p>Este poder afeta todas as abominações e mortos-vivos na visão do Místico e é contínuo até o Místico falhar em um Teste de Resoluto ou encerrar sua concentração.</p> <p>O Místico pode excluir abominações ou mortos-vivos aliados do efeito da Aura Sagrada.</p>",
+          "adeptDescription": "<p>A aura agora causa 1D8 de dano a abominações e mortos-vivos, enquanto criaturas vivas são curadas em 1D4 de Vitalidade a cada turno.</p>",
+          "masterDescription": "<p> O mesmo que no nível Adepto, mas o efeito contra abominações e mortos-vivos é aumentado para 1D10 e as energias sagradas também curam aliados vivos em 1D6 de Vitalidade a cada turno.</p>"
         },
         "Illusory Correction": {
           "name": "Illusory Correction"
