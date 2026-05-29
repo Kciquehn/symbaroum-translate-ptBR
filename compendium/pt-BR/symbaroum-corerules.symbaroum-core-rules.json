@@ -644,7 +644,8 @@
               "name": "Whetstone"
             },
             "Tankard": {
-              "name": "Tankard"
+              "name": "Caneca",
+              "cost": "1 ortega"
             },
             "Bushcraft": {
               "name": "Mateiro",
@@ -4570,22 +4571,27 @@
           "cost": "1 xelim"
         },
         "Brass bell": {
-          "name": "Brass bell"
+          "name": "Sino de Bronze",
+          "cost": "6 xelins"
         },
         "Burgher’s garb": {
-          "name": "Burgher’s garb"
+          "name": "Traje de Burguês",
+          "cost": "1 táler"
         },
         "Cap": {
           "name": "Cap"
         },
         "Chain": {
-          "name": "Chain"
+          "name": "Corrente",
+          "cost": "1 táler"
         },
         "Clay pitcher": {
-          "name": "Clay pitcher"
+          "name": "Jarro de Barro",
+          "cost": "5 ortegas"
         },
         "Climbing equipment": {
-          "name": "Climbing equipment"
+          "name": "Equipamento de Escalada",
+          "cost": "1 táler"
         },
         "Cloak": {
           "name": "Capa",
@@ -4596,26 +4602,33 @@
           "cost": "5-10 ortegas"
         },
         "Coin purse": {
-          "name": "Coin purse"
+          "name": "Bolsa de Moedas",
+          "cost": "3 ortegas"
         },
         "Cooking pan": {
           "name": "Frigideira",
           "cost": "1 ortega"
         },
         "Crayons": {
-          "name": "Crayons"
+          "name": "Giz",
+          "cost": "1 ortega"
         },
         "Decorated box": {
-          "name": "Decorated box"
+          "name": "Caixa Decorada",
+          "cost": "2-5 táleres"
         },
         "Dress": {
-          "name": "Dress"
+          "name": "Vestido",
+          "cost": "1-10 xelins"
         },
         "Drinking horn": {
-          "name": "Drinking horn"
+          "name": "Copo de Chifre",
+          "cost": "2 ortegas"
         },
         "Drum": {
-          "name": "Drum"
+          "name": "Tambor",
+          "description": "<p>Um instrumento rítmico que se apresenta em muitas formas, desde os tambores mais simples ouvidos entre os clãs de Davokar, até os instrumentos com estrutura metálica do exército ambriano.</p>",
+          "cost": "3 xelins"
         },
         "Field equipment": {
           "name": "Equipamento de Acampar",
@@ -4630,7 +4643,8 @@
           "name": "Vara de Pesca"
         },
         "Fishing net": {
-          "name": "Fishing net"
+          "name": "Rede de Pesca",
+          "cost": "1 xelim"
         },
         "Flint and steel": {
           "name": "Pederneira e isqueiro",
@@ -4651,35 +4665,43 @@
           "name": "Grappling hook"
         },
         "Hammer": {
-          "name": "Hammer"
+          "name": "Martelo",
+          "cost": "1 táler"
         },
         "Hat": {
-          "name": "Hat"
+          "name": "Chapéu",
+          "cost": "2-4 ortegas"
         },
         "Horn": {
-          "name": "Horn"
+          "name": "Corneta",
+          "cost": "4 ortegas"
         },
         "Hour glass": {
-          "name": "Hour glass"
+          "name": "Ampulheta",
+          "cost": "4 táleres"
         },
         "Ink and feather": {
-          "name": "Ink and feather"
+          "name": "Tinta e Pena",
+          "cost": "1 xelim"
         },
         "Knapsack": {
           "name": "Knapsack"
         },
         "Ladder": {
-          "name": "Ladder"
+          "name": "Escada",
+          "cost": "7 ortegas"
         },
         "Lamp oil": {
           "name": "Óleo de Lâmpada",
           "cost": "1 ortega"
         },
         "Lantern": {
-          "name": "Lantern"
+          "name": "Lanterna",
+          "cost": "4 ortegas"
         },
         "Large Chest": {
-          "name": "Large Chest"
+          "name": "Baú Grande",
+          "cost": "1 táler"
         },
         "Lockpicks": {
           "name": "Gazuas",
@@ -4690,23 +4712,28 @@
           "cost": "5-10 ortegas"
         },
         "Mining pick": {
-          "name": "Mining pick"
+          "name": "Picareta",
+          "cost": "5 xelins"
         },
         "Needle and thread": {
-          "name": "Needle and thread"
+          "name": "Agulha e linha",
+          "cost": "1 ortega"
         },
         "Noble’s garb": {
           "name": "Traje de Nobre",
           "cost": "10+ táleres"
         },
         "Pants": {
-          "name": "Pants"
+          "name": "Calça",
+          "cost": "1-5 ortegas"
         },
         "Paper": {
-          "name": "Paper"
+          "name": "Papél",
+          "cost": "2 ortegas"
         },
         "Parchment": {
-          "name": "Parchment"
+          "name": "Pergaminho",
+          "cost": "2 ortegas"
         },
         "Pocket mirror": {
           "name": "Espelho de Bolso",
@@ -4727,7 +4754,8 @@
           "cost": "3 xelins"
         },
         "Sack": {
-          "name": "Sack"
+          "name": "Saco",
+          "cost": "2 ortegas"
         },
         "Scarf": {
           "name": "Cachecol",
@@ -4770,7 +4798,8 @@
           "cost": "5 xelins"
         },
         "Soap": {
-          "name": "Soap"
+          "name": "Sabão",
+          "cost": "5 ortegas"
         },
         "Spy glass": {
           "name": "Luneta",
@@ -5648,22 +5677,47 @@
           "name": "Prios Burning Glass"
         },
         "Revenant Strike": {
-          "name": "Revenant Strike"
+          "name": "Golpe de Regresso",
+          "material": "Uma arma maculada por Rito de Profanação.",
+          "description": "<p>A arma do Místico é envolta por energias negras, que aumentam o dano causado contra criaturas mortas-vivas. Pior, aqueles mortos se erguerão novamente, como cadáveres ambulantes controlados pelo feiticeiro. Mortos-vivos criados por Golpe de Regresso têm as mesmas estatísticas que um dragoul (veja página 230). Os mortos-vivos retornam a seu estado de morte verdadeira ao final da cena.</p>",
+          "noviceDescription": "<p>O feiticeiro inflama uma chama maliciosa em sua arma corpo a corpo, que então causa 1D4 de dano adicional até que a cena acabe.</p>",
+          "adeptDescription": "<p>Como Novato, e as criaturas mortas pelo Golpe de Regresso se erguem novamente no turno subsequente, leais ao feiticeiro.</p>",
+          "masterDescription": "<p>Como Adepto, mas o efeito é ativado como uma ação livre e um acerto causa +1D8 de dano em vez de +1D4.</p>"
         },
         "Shapeshift": {
           "name": "Shapeshift"
         },
         "Storm Arrow": {
-          "name": "Storm Arrow"
+          "name": "Flecha de Tempestade",
+          "material": "Flechas ou virotes",
+          "description": "<p>O Místico pode pedir ao vento para erguer e carregar flechas em direção a seus inimigos. A bruxa bárbara Yagaba, uma amiga de Lasifor Campo Noturno, algumas vezes deu uma demonstração deste poder, e ela é raramente vista sem um punhado de flechas com penas negras flutuando a seu lado.</p>",
+          "noviceDescription": "<p>O Místico encanta um punhado de flechas (até cinco) com um Teste bem-sucedido de Resoluto. As flechas então voam próximas do Místico pelo resto da cena e podem ser disparadas, uma vez por turno, como uma Ação Livre (uma flecha pode ser disparar no mesmo turno em que o poder é ativado). As flechas atingem seu alvo automaticamente.</p> <p>Qualquer qualidade ou habilidade especial que a flecha possa ter é somada ao efeito. A flecha normalmente causa 1D6 de dano.</p>",
+          "adeptDescription": "<p>As flechas são encantadas como acima, mas nas mãos de um Místico Adepto elas agora causam 1D8 de dano. Como uma Ação de Combate, o Místico pode enviar duas flechas contra o mesmo alvo ou dois alvos diferentes. Se o Místico executar esta Ação, então ele ou ela não pode disparar outra flecha como uma Ação Livre.</p>",
+          "masterDescription": "<p>O Místico pode usar uma Ação de Combate para disparar três flechas contra o mesmo alvo ou em alvos separados. Se o Místico executar esta Ação, então ele ou ela não pode disparar outra flecha como uma Ação Livre.</p>"
         },
         "True Form": {
-          "name": "True Form"
+          "name": "Forma Verdadeira",
+          "material": "Uma pupa",
+          "description": "<p>O Místico passou muitas noites longas estudando minuciosamente mentiras e disfarces, e é capaz de fazer o ambiente revelar sua verdadeira natureza. </p>",
+          "noviceDescription": "<p>A clareza do Místico lhe permite realizar um Teste de [Resoluto←Resoluto] para ver através de qualquer ilusão, transformação ou qualquer outro efeito em sua visão que esconda a forma verdadeira das coisas. Ilusões reveladas desaparecem, enquanto transformações permanecem intactas, apesar do Místico poder ver o que está por trás delas.</p>",
+          "adeptDescription": "<p>O Místico pode fazer com que uma Corrente de criaturas retorne à sua forma verdadeira com um Teste de [Resoluto←Resoluto]. Caso a primeira tentativa seja bem-sucedida, o Místico pode realizar outra tentativa contra um novo alvo, até o Místico falhar em um Teste. Entretanto, nada impede as criaturas de se transformarem novamente.</p>",
+          "masterDescription": "<p>O Místico não apenas pode fazer criaturas transformadas revelarem sua verdadeira forma, mas também forçá-las a manterem suas formas originais. Isto requer um Teste de Resoluto para fazer os alvos manterem suas formas originais, feito na Iniciativa dos alvos quando eles tentarem se transformar novamente.</p>"
         },
         "Unholy Aura": {
-          "name": "Unholy Aura"
+          "name": "Aura Profana",
+          "material": "Um símbolo profano",
+          "description": "<p>O Místico pode se envolver com uma aura de energias profanas que fere inimigos vivos e cura abominações e mortos-vivos.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico emite uma aura de energias profanas que é nociva a bestas e seres culturais. Ela causa 1D6 de dano, ignorando a Armadura. Este poder afeta todas as bestas e seres culturais na visão do Místico e é contínuo até o Místico falhar em um Teste de Resoluto ou encerrar sua concentração.</p>",
+          "adeptDescription": "<p>Como no nível Novato, mas o Místico pode escolher excluir aliados vivos do efeito da Aura Profana. O poder fica ativo até o Místico falhar em um Teste de Resoluto.</p>",
+          "masterDescription": "<p>Como Adepto, mas o efeito é aumentado para 1D8 e as energias profanas curam quaisquer abominações ou mortos-vivos aliados próximos em 1D8 pontos de Vitalidade devido às energias profanas.</p>"
         },
         "Unnoticeable": {
-          "name": "Unnoticeable"
+          "name": "Imperceptível",
+          "material": "Uma tira de um véu fino.",
+          "description": "<p>O Místico pode permanecer indetectável, sutilmente direcionando a atenção do inimigo para outro lugar.</p>",
+          "noviceDescription": "<p> Com um Teste bem-sucedido de [Resoluto←Resoluto], o Místico pode desaparecer da percepção de uma criatura. O Místico permanece invisível para esta criatura até o Místico realizar um ataque ou sofrer qualquer tipo de dano.</p>",
+          "adeptDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode desaparecer da percepção de todos os inimigos próximos e permanece invisível até o Místico realizar um ataque ou sofrer qualquer tipo de dano.</p>",
+          "masterDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode fazer a si mesmo e a um aliado desaparecerem da percepção de seus inimigos. O Místico e o aliado permanecem invisíveis separadamente e podem ser detectados ou permanecerem escondidos separadamente até realizarem um ataque ou sofrerem qualquer tipo de dano.</p>"
         },
         "Witch Hammer": {
           "name": "Martelo Bruxo",
