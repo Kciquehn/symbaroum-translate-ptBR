@@ -16,13 +16,9 @@ https://raw.githubusercontent.com/Kciquehn/symbaroum-translate-ptBR/main/module.
 
 ## Conteúdo Traduzido
 
-* Regras
-* Poderes
-* Habilidades
-* Equipamentos
-* Journals
-* Guias do sistema
-* Aventuras e conteúdos adicionais
+* Symbaroum Cole Rule
+* Monster Codex
+* Adventure Collection
 
 ## Status
 
