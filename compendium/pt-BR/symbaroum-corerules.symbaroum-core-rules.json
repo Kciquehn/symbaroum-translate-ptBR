@@ -341,8 +341,13 @@
           }
         },
         "Late Summer Elf": {
-          "name": "Late Summer Elf",
-          "tokenName": "Late Summer Elf",
+          "name": "Elfo do Fim do Verão",
+          "tokenName": "Elfo do Fim do Verão",
+          "race": "Elfo,",
+          "Shadow": "Verde Profundo",
+          "appearance": "<p>Aqueles que despertam de seu primeiro sono e entram na fase de vida de Elfo do Verão ainda são um grupo curioso, mas nem de perto tão cauteloso. Elfinos são conhecidos por serem raivosos, agressivos e impulsivos, beirando a tolice. Com até um metro e setenta, ágeis como pesadelinos e com cerca de 150 anos para treinar, eles se desenvolvem em guerreiros talentosos, qualificados para vencer qualquer lutador humano.</p>",
+          "background": "<p>Elfinos são a espinha dorsal das forças de defesa da Davokar, com armaduras fracas, mas equipados com lanças e arcos. Mais frequentemente são liderados por um Elfo do Outono, mas algumas vezes sua impaciência os faz renunciar a orientação dos irmãos mais velhos. Tais bandos de guerra, consistindo em dez a trinta elfos irados, sempre preferem o ataque à defesa, e podem muito bem atacar aldeias nas terras baixas em vez de seus alvos normais: entrepostos, caravanas e colonos livres na mata.</p>",
+          "táticas": "Os elfos do fim do verão preferem usar seus arcos, mas se entram em combate corpo a corpo, não se incomodam de ficar na linha de frente, mantendo os inimigos em cheque com suas lanças enquanto outros elfos os enchem de flechas.",
           "items": {
             "Marksman": {
               "name": "Atirador",
@@ -390,8 +395,13 @@
           }
         },
         "Spring Elf": {
-          "name": "Spring Elf",
-          "tokenName": "Spring Elf",
+          "name": "Elfo da Primavera",
+          "tokenName": "Elfo da Primavera",
+          "race": "Elfo", 
+          "shadow": " Verde brilhante, como as folhas de uma bétula jovem",
+          "appearance": "<p>Durante a primeira fase de sua vida, o elfo é caracterizado por uma curiosidade brincalhona e uma cautela que fez os especialistas em elfos da Ordo Magica compará-los a gatinhos. Assume-se que essa fase dure cerca de cinquenta anos, durante a qual o feérico cresce até um metro e vinte de altura. Também se deve notar que, no tocante à metáfora dos especialistas em elfos, ela só fica correta se referir-se a cria de um felino assustadoramente cruel e predatório; elfos da primavera amam sujeitar tanto seus irmãos mais velhos quanto humanos incautos a travessuras cruéis; travessuras que parecem causar mais risadas e diversão quanto mais cruéis forem.</p>",
+          "background": "<p>Feéricos quase nunca deixam a segurança da floresta. Em algumas ocasiões singulares, foram reportados encontros com patrulhas élficas incluindo um ou dois batedores feéricos, mas a maioria deles se une a grupos grandes e evitam contato com seus anciões. Contudo, alguém pode se perguntar se isso está para mudar. Alguns caçadores de tesouros maliciosos têm treinado para se tornar caçadores de feéricos, buscando coletar os supostamente miraculosos cabelos, orelhas e unhas de elfos da primavera. É um trabalho difícil e perigoso, pois feéricos deixam poucos traços de seus paradeiros e frequentemente são astutos o suficiente para transformar o caçador em caça. Por outro lado, qualquer um que consiga capturar um grupo de elfos da primavera pode esperar ganhar uma pequena fortuna quando vender a colheita para alquimistas em Forte do Cardo.</p>",
+          "tactics": "Os elfos da primavera mantêm distância e atacam o inimigo com seus arcos, ou tentam atrair a vítima em variados tipos de armadilhas ou emboscadas.",
           "items": {
             "Dagger": {
               "name": "Adaga",
@@ -408,8 +418,11 @@
           }
         },
         "Black Cloak": {
-          "name": "Black Cloak",
-          "tokenName": "Black Cloak",
+          "name": "Manto Negro",
+          "tokenName": "Manto Negro",
+          "race": "Humano (Ambriano)",
+          "shadow": "Prata com pontos enegrecidos",
+          
           "items": {
             "Beast Lore": {
               "name": "Saber de Bestas",
@@ -1262,7 +1275,8 @@
               "name": "Swine Skin"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -1313,7 +1327,8 @@
               "name": "Antlers"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -1360,7 +1375,8 @@
               "description": "<p><strong>ARMADURA LEVE</strong> <br /><strong>Armadura: </strong>1D4 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;2). Muitos tipos de armaduras leves têm a qualidade Flexível, e armadura de Pele de Lobo tem a qualidade Desajeitada. </p>\n<hr />\n<p> Armaduras leves são fáceis de vestir e não limitam substancialmente as capacidades do usuário em situações acrobáticas ou quando executa manobras furtivamente. Porém, ainda têm um efeito negativo quando se usa poderes místicos. Couro batido, malha e couro enrijecido são exemplos de armaduras leves. </P> "
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -1441,7 +1457,8 @@
               "name": "Blight Hardened Flesh"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -1729,10 +1746,12 @@
               "name": "Wraith Blade"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             },
             "No Pain": {
-              "name": "No Pain"
+              "name": "Sem Dor",
+              "description": "<p>A criatura não sentirá dor. Seu Limiar de Dor é definido como 0 e o dano não a incomodará. Atribua essa característica a monstros relevantes, geralmente das categorias de mortos-vivos, flora ou espíritos.</p>"
             }
           }
         },
@@ -1758,10 +1777,12 @@
               "name": "Touch of Death"
             },
             "No Pain": {
-              "name": "No Pain"
+              "name": "Sem Dor",
+              "description": "<p>A criatura não sentirá dor. Seu Limiar de Dor é definido como 0 e o dano não a incomodará. Atribua essa característica a monstros relevantes, geralmente das categorias de mortos-vivos, flora ou espíritos.</p>"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -1798,10 +1819,12 @@
               "name": "Wraith Claws"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             },
             "No Pain": {
-              "name": "No Pain"
+              "name": "Sem Dor",
+              "description": "<p>A criatura não sentirá dor. Seu Limiar de Dor é definido como 0 e o dano não a incomodará. Atribua essa característica a monstros relevantes, geralmente das categorias de mortos-vivos, flora ou espíritos.</p>"
             }
           }
         },
@@ -1906,11 +1929,14 @@
           }
         },
         "Patron Saint (Template)": {
-          "name": "Patron Saint (Template)",
-          "tokenName": "Patron Saint (Template)",
+          "name": "Santo Patrono (Template)",
+          "tokenName": "Santo Patrono (Template)",
+          "appearance": "Um Santo Patrono possui o traço Forma de Espírito (I), e começa com as seguintes estatísticas:",
+          "background": "",
           "items": {
             "Flail of Light": {
-              "name": "Flail of Light"
+              "name": "Mangual de Luz",
+              "description": "O primo de uma mão do mangual pesado."
             },
             "Spirit form": {
               "name": "Forma de Espírito",
@@ -1922,8 +1948,10 @@
           }
         },
         "Death Lord": {
-          "name": "Death Lord",
-          "tokenName": "Death Lord",
+          "name": "Lorde da Morte",
+          "tokenName": "Lorde da Morte",
+          "race": "Morto-Vivo",
+          "shadow": "A mesma do mestre", 
           "items": {
             "Gravely Cold": {
               "name": "Frio da Tumba",
@@ -1961,23 +1989,29 @@
               "masterDescription": "<p>Uma arma pesada nas mãos de um Mestre é uma verdadeira ferramenta de destruição de armaduras. Quando o ataque de um Mestre atinge seu alvo, ele ignora completamente a Armadura do alvo.  </p>"
             },
             "Full Plate": {
-              "name": "Full Plate"
+              "name": "Armadura Completa",
+              "description": "<P> A armadura completa está disponível para aqueles com meios suficientes, e oferece a melhor proteção disponível com menos restrições que outros tipos de armaduras pesadas. </P>"
             },
             "Heavy weapon": {
               "name": "Armas Pesadas",
               "description": "<p><strong>ARMAS PESADAS</strong><br /><strong>Dano: </strong>1D10 <br /><strong>Qualidades: </strong>Nenhuma. A Espada Bastada é Precisa, o Machado Duplo tem a qualidade Impacto Profundo, e o Mangual Pesado é Articulado. </p>\n<hr />\n<p>Armas Pesadas são distintas pelo fato de que devem ser empunhados com duas mãos para serem usados efetivamente. Elas têm um efeito de dano superior em combate corpo a corpo. A acha-de-armas, o martelo de batalha e a poderosa espada larga são exemplos de armas Pesadas comuns na região da Davokar.</p>"
             },
             "No Pain": {
-              "name": "No Pain"
+              "name": "Sem Dor",
+              "description": "<p>A criatura não sentirá dor. Seu Limiar de Dor é definido como 0 e o dano não a incomodará. Atribua essa característica a monstros relevantes, geralmente das categorias de mortos-vivos, flora ou espíritos.</p>"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
         "Guardian Daemon": {
-          "name": "Guardian Daemon",
-          "tokenName": "Guardian Daemon",
+          "name": "Daemon Guardião",
+          "tokenName": "Daemon Guardião",
+          "race": "Abominação",
+          "quote": "Bufa e arranha o chão",
+          "shadow": "Escuro como a noite, como alcatrão borbulhante e fervente", 
           "items": {
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -2008,13 +2042,14 @@
               "masterDescription": "<p>Como um Mestre de armas longas, o personagem tem a habilidade de manter seus inimigos à distância. O personagem pode utilizar o Ataque Livre com uma arma de haste para impedir um inimigo de se aproximar para atacar.</p> <p>Enquanto o personagem obtiver sucesso em acertar o inimigo, o inimigo permanece incapaz de atacá-lo com armas corpo a corpo — independentemente de o dano penetrar ou não a armadura do inimigo.</p>"
             },
             "Daemon Skin": {
-              "name": "Daemon Skin"
+              "name": "Pele de Daemon"
             },
             "Claws": {
-              "name": "Claws"
+              "name": "Garras"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -2061,7 +2096,8 @@
               "name": "Life-consuming Kiss"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -2130,7 +2166,8 @@
               "name": "Sharp Fangs"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -2185,7 +2222,8 @@
               "name": "Claws"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             }
           }
         },
@@ -3402,10 +3440,12 @@
               "name": "Studded Leather"
             },
             "No Pain": {
-              "name": "No Pain"
+              "name": "Sem Dor",
+              "description": "<p>A criatura não sentirá dor. Seu Limiar de Dor é definido como 0 e o dano não a incomodará. Atribua essa característica a monstros relevantes, geralmente das categorias de mortos-vivos, flora ou espíritos.</p>"
             },
             "Thoroughly Corrupted": {
-              "name": "Thoroughly Corrupted"
+              "name": "Completamente Corrompido",
+              "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             },
             "Shield": {
               "name": "Shield",
@@ -3478,28 +3518,42 @@
           "name": "Stun Bolt"
         },
         "Thorn Beasties": {
-          "name": "Thorn Beasties"
+          "name": "Bestas Espinhosas",
+          "description": "<p>Um punhado de sementes é jogado no chão e um turno depois 1D4 bestas de espinhos aparecem para servir ao usuário. As bestas de espinhos são pequenas criaturas vagamente humanoides feitas de espinhos; elas não falam, mas chiam e grunhem como galhos que são dobrados e esfregados. As bestas vivem durante uma única cena antes de secar e ficarem parecendo como bonecos de bruxa espinhosos.</p> <p>A convocação das bestas de espinho é uma clara violação da ordem natural, o que significa que aquele que fez o uso das sementes sofre 1D6 de corrupção temporária.</p>",
+          "cost": "4 táleres (apenas mercado negro)"
         },
         "Thunder Ball": {
-          "name": "Thunder Ball"
+          "name": "Esfera-Trovão",
+          "description": "<p>Uma carga alquímica que é lançada e detona em meio a um clarão alto e repentino, usado com o nível mestre da habilidade Pirotecnia.</p>",
+          "cost": "3 táleres"
         },
         "Twilight Tincture": {
-          "name": "Twilight Tincture"
+          "name": "Tintura Crepuscular",
+          "description": "<p>Este é um extrato de caules e folhas secas do extremamente raro Cardo do Crepúsculo. Até recentemente, o conhecimento da erva (em algumas ocasiões, um ou dois caules podem ser encontrados entre outras ofertas nas ruínas da Davokar, em vez de um local de cultivo real), juntamente com seu efeito médico moderado, fazia com que não fosse muito procurada; ela parece ter um efeito em certos tipos de eczema e possivelmente também na senilidade se consumida.</p> <p>No entanto, com o envelhecimento da rainha-mãe, surgiu uma demanda crescente da corte. Obviamente, a história de como Lasifor Campo Noturno comprou a terra em que Forte do Cardo foi construído com um punhado de Cardo do Crepúsculo deu à erva um forte aumento de popularidade entre os caçadores de tesouro.</p> <p>Ultimamente, a tintura crepuscular encontrou outro grupo de usuários e uma nova área de uso: provou ser capaz de disfarçar uma série de sintomas adquiridos por mortos-vivos. Infelizes desesperados — alguns deles alquimistas — procuraram maneiras de esconder suas marcas de morte, e alguém descobriu que a tintura crepuscular (consumida, não jogada na pele) fazia temporariamente um corpo morto-vivo ganhar vida: a pele recuperava sua vermelhidão, a temperatura do corpo subia e o odor do hálito melhorava dramaticamente.</p> <p>O efeito dura uma semana por Teste bem-sucedido de [Vigoroso –corrupção permanente]. Se o Teste falhar, o efeito permanece por mais um dia antes de se dissipar completamente. Em criaturas completamente corrompidas, o efeito dura apenas um dia por dose, e nenhum Teste é feito.</p>",
+          "cost": ""
         },
         "War Paint": {
-          "name": "War Paint"
+          "name": "Pintura de guerra",
+          "description": "<p>Tintas com carga mística podem ajudar um guerreiro em combate. Pintura de guerra adiciona +1 a Rápido ou Vigoroso durante uma cena inteira, e o guerreiro decide qual atributo deve aumentar quando a pintura é aplicada.</p>",
+          "cost": "2 táleres"
         },
         "Weak Antidote Candle": {
-          "name": "Weak Antidote Candle"
+          "name": "Vela de Antídoto Fraco",
+          "description": "<p>Quando acesa, esta vela emite fumaça que funciona como um antídoto em tudo à sua volta. Uma vela de antídoto fraca afeta todas as criaturas envenenadas nas proximidades e reduz o efeito de venenos em andamento em um nível — um veneno forte se torna moderado, um moderado se torna fraco e um fraco é neutralizado. Uma vela de antídoto moderado faz o mesmo, mas com uma redução de dois níveis: um veneno forte se torna fraco, enquanto os moderados e fracos são neutralizados. Observe que isso não afeta dano já sofrido.</p>",
+          "cost": "6 táleres"
         },
         "Weak Purple Sap": {
           "name": "Weak Purple Sap"
         },
         "Weak Transforming Draught": {
-          "name": "Weak Transforming Draught"
+          "name": "Infusão de Transformação Fraco",
+          "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Fraco:<strong>A infusão atribui o traço selecionado no nível I ao custo de 1D4 de corrupção temporária.</p>",
+          "cost": ""
         },
         "Wild Chew": {
-          "name": "Wild Chew"
+          "name": "Goma Selvagem",
+          "description": "<p>A resina vermelha chamada Goma Selvagem é um forte estimulante que torna o mastigador mais alerta, menos cauteloso e muito mais agressivo. Uma dose de Goma Selvagem move 2 pontos em Discreto, Astuto e Resoluto para Rápido, Vigoroso e Preciso pelo resto da cena. Durante a próxima cena, o usuário se sente fraco e recebe –2 em todos os atributos.</p> <p>Com tempo, o Goma Selvagem é altamente viciante e sintomas graves de abstinência ocorrerão, a menos que o usuário consuma uma dose por semana, com o risco de loucura ou morte permanente. Nenhum medicamento conhecido consegue neutralizar isso.</p>",
+          "cost": "1 táler"
         },
         "Concealed Armor": {
           "name": "Concealed Armor"
@@ -4190,52 +4244,84 @@
           "name": "Watered Porridge"
         },
         "Anoint": {
-          "name": "Anoint"
+          "name": "Ungir",
+          "tradition": "Teurgia",
+          "description": "<p>O místico se unge com óleos sagrados antes de uma batalha, ganhando o seguinte: +10 de Vitalidade temporária, +1D4 de proteção além de qualquer Armadura usada e +1D4 de dano em todos os ataques que realizar. Se o místico sofrer dano, ele perde primeiro a Vitalidade temporária antes que sua própria Vitalidade seja afetada.</p> <p>A desvantagem é que o místico não pode ser curado, e que todos os Testes de morte falham automaticamente durante a cena. O efeito dura o tempo de uma cena.</p>"
         },
         "Atonement": {
-          "name": "Atonement"
+          "name": "Expiação",
+          "tradition": "Disponível apenas para Confessores",
+          "description": "<p>O nível mais alto do ritual Exorcismo torna o teurge capaz de aliviar os encargos espirituais de uma pessoa não possuída; isso é feito pelo pecador aceitando executar uma tarefa para o Confessor. A tarefa deve ser demorada e cara ou perigosa, geralmente uma boa ação para a Igreja do Sol ou para Prios em geral. Depois que a tarefa é concluída, a corrupção permanente do pecador é reduzida em 1D4.</p> <p>O ritual custa um ponto de Experiência para ser realizado, pago pelo Confessor ou pelo pecador (o místico decide).</p>"
         },
         "Beast Companion": {
-          "name": "Beast Companion"
+          "name": "Besta Companheira",
+          "tradition": "Disponível apenas para Aves de Sangue",
+          "description": "<p>O nível mais alto do ritual Familiar liga a besta ao corpo e à alma do místico; se o familiar morrer, ele é ressuscitado no nascer do sol da manhã seguinte. O místico sofre dano quando o familiar morre, como normal. Se o companheiro da besta se tornar completamente corrupto — através do ritual Laço de Sangue ou de alguma outra maneira — o vínculo entre o místico e a besta será quebrado para sempre.</p>"
         },
         "Bewitching Landscape": {
-          "name": "Bewitching Landscape"
+          "name": "Paisagem encantadora",
+          "tradition": "Magismo",
+          "description": "<p>O místico pode tecer uma grande ilusão sobre um local, deixando todos os que entram na área confusos, perdidos e correndo o risco de morrer de fome se não conseguirem quebrar o feitiço.</p> <p>O místico encanta todas as criaturas da área com sucesso em um Teste de [Resoluto←Astuto]; as vítimas ganham uma segunda chance de quebrar o feitiço se um dos companheiros obtiver sucesso no Teste e, em seguida, fazer um Teste de Persuasivo bem-sucedido.</p> <p>O efeito pode ser temporariamente dissipado com Anátema; caso contrário, só poderá ser permanentemente quebrado pelo místico que teceu a ilusão.</p>"
         },
         "Black Sympathy": {
-          "name": "Black Sympathy"
+          "name": "Simpatia Sombria",
+          "tradition": "Bruxaria, Feitiçaria, Teurgia",
+          "description": "<p>Com sucesso em um Teste de Resoluto, o místico pode infligir dor a um inimigo à distância, danificando uma boneca ou enfiando as unhas em um traço deixado pelo alvo. O ritual também requer um vínculo místico com a vítima — alguns fios de cabelo, um pouco de sangue ou um item que o alvo preza.</p> <p>A vítima não sofre nenhum dano, mas experimenta dores agudas e não pode se curar de forma alguma durante os dias de tormento. O atormentador leva uma hora para realizar o ritual, mas nenhum Teste de Sucesso é necessário após o primeiro. A Simpatia Sombria pode ser abortada com o ritual Quebrar Vínculo. Depois disso, a Simpatia Sombria não pode ser retomada usando a mesma ligação mística, nem antes de trinta dias se passarem, mesmo que uma nova ligação esteja disponível.</p>"
         },
         "Blood Storm": {
-          "name": "Blood Storm"
+          "name": "Tempestade de Sangue",
+          "tradition": "Disponível apenas para Magistas do Cajado",
+          "description": "<p>O magista do cajado inicia uma tempestade sanguinária no cajado rúnico, a ser desencadeada com um impulso no chão. A tempestade assola a área, com a posição do místico na calmaria do seu olho. O místico e aliados próximos não são afetados, assim como quaisquer inimigos no alcance corpo a corpo. Todos os outros são atingidos pelo efeito completo da Tempestade de Sangue.</p> <p>Os que forem pegos na tempestade ficam cegos. Além de se mover cegamente, eles devem obter sucesso em um Teste de Vigilante a cada turno para poder executar qualquer ação. Mesmo se obtiverem sucesso no Teste, eles terão uma segunda chance de falhar em todos os Testes de Sucesso.</p> <p>A Tempestade de Sangue também tem um efeito de afogamento; ela visa ativamente a boca e o nariz e penetra nos pulmões, causando 1D4 de dano a cada turno, ignorando a Armadura. A única maneira de impedir isso é deixar a área, entrar em combate corpo a corpo, fugir para algum lugar fora ou refugiar-se dentro de uma estrutura sem janelas.</p> <p>A Tempestade de Sangue dura até que o místico falhe em um Teste de Resoluto ou perca a concentração por ser atingido, [Resoluto –Dano].</p>"
         },
         "Burdened by Fate": {
-          "name": "Burdened by Fate"
+          "name": "Sobrecarregado pelo Destino",
+          "tradition": "Bruxaria",
+          "description": "<p>Com sucesso em um Teste de Resoluto, o místico liga uma criatura a uma missão. O ritual requer um vínculo místico com o alvo — alguns fios de cabelo, um pouco de sangue ou um item que o alvo preza. Se for bem-sucedido, o alvo imediatamente sabe o que deve fazer, mas não quem realmente o vinculou à missão ou tarefa. O efeito do ritual é que a criatura tem uma segunda chance de obter sucesso em um Teste por cena enquanto tenta completar a missão. Por outro lado, ela tem uma segunda chance de falhar em todos os Testes durante cenas que não estão diretamente relacionadas à missão.</p> <p>Sobrecarregado pelo Destino pode ser dissipado pelo ritual Quebrar Vínculo.</p>"
         },
         "Carve Rune Tattoo": {
-          "name": "Carve Rune Tattoo"
+          "name": "Esculpir Tatuagem Rúnica",
+          "tradition": "Simbolismo",
+          "description": "<p>O místico esculpe runas de poder na pele de uma criatura, dando ao alvo a habilidade Tatuagem Rúnica. A tatuagem deve ser paga mediante a “oferta” de 10 de Experiência ou corrupção permanente; é possível combiná-las e pagar parte do custo com Experiência e o restante com corrupção. O alvo pode pagar integralmente ou o simbolista pode contribuir com o todo ou parte do custo.</p>"
         },
         "Death Divination": {
-          "name": "Death Divination"
+          "name": "Adivinhação da Morte",
+          "tradition": "Disponível apenas para Espiritualistas",
+          "description": "<p>No nível mais alto do ritual Necromancia, o místico tem uma segunda chance de obter sucesso em todos os Testes para obter respostas dos espíritos dos mortos.</p>"
         },
         "Death Lord": {
-          "name": "Death Lord"
+          "name": "Lorde da Morte",
+          "tradition": "Disponível apenas para Necromantes",
+          "description": "<p>O nível mais alto do ritual Erguer os Mortos permite que o necromante convoque uma criatura morta-viva de poder maior, um Lorde da Morte; um esqueleto enegrecido em uma armadura de placas coberta de fuligem que executa as ordens do místico com olhos que queimam por trás da viseira. Lordes da Morte são inteligentes e tomam sua própria iniciativa para resolver problemas; eles geralmente comandam hordas de mortos-vivos menores ou agem como guarda-costas de seus criadores.</p> <p>O Lorde da Morte é tratado como um segundo personagem do jogador, ganha Experiência e é desenvolvido como um personagem jogador.</p>"
         },
         "False Shape": {
-          "name": "False Shape"
+          "name": "Forma Falsa",
+          "tradition": "Magismo",
+          "description": "<p>O místico tece uma imagem ilusória em torno de si ou de um aliado, que assume uma aparência física diferente. Ele não pode assumir a aparência de um indivíduo específico, apenas de uma versão típica do membro de uma raça. O místico pode decidir sobre a forma e características típicas da raça, em termos de gênero, cor do cabelo, voz, roupas e assim por diante, mas o alvo mantém suas estatísticas, habilidades e sombra. Seu tamanho real não é afetado, apenas o tamanho da aparência ilusória.</p> <p>A ilusão não pode ser revelada sem o uso de outros poderes ou rituais. A única exceção é se o alvo tentar fazer algo que normalmente não é capaz, mas que a forma assumida poderia fazer; então, a ilusão desmorona. Fora isso, a Forma Falsa desaparece após cerca de uma semana.</p>"
         },
         "Faraway Writing": {
-          "name": "Faraway Writing"
+          "name": "Escrita distante",
+          "tradition": "Simbolismo",
+          "description": "<p>À distância, o místico pode escrever sinais e símbolos em um local conhecido. Os sinais aparecem em uma superfície plana, como uma parede, um piso ou uma mesa. Eles aparecem quando o místico realiza o ritual e soletra uma mensagem curta ou até mesmo um poder místico da tradição do Simbolismo. O místico pode optar por deixar a escrita visível para todos ou escolher que ela se torna visível quando um indivíduo específico visualizar a superfície. Neste último caso, o texto aparece e/ou o poder é ativado somente quando a pessoa o vê.</p>"
         },
         "Fata Morgana": {
-          "name": "Fata Morgana"
+          "name": "Fata Morgana",
+          "tradition": "Disponível apenas para Ilusionistas",
+          "description": "<p>O nível mais alto do ritual Terreno Falso confere ao Ilusionista tal poder sobre a mentira, que ela toca a verdade; o que é criado com Fata Morgana realmente existe, pelo menos durante o ciclo da lua em que a ilusão persiste. O místico pode colocar um tipo de terreno sobre outro ou decidir aumentar um pequeno edifício, como um campo murado ou um forte de pedra (consulte Dano em Edifícios, página 101), em um local selecionado.</p> <p>Não se pode ver através da criação, mas ela pode ser destruída; se as regras para Dano em Edifícios forem usadas, Fata Morgana terá metade da Vitalidade de um edifício correspondente. Depois de um mês, a ilusão desaparece ao longo de uma noite. Aqueles que estavam lá dentro durante a noite terminam no chão e nada da mentira permanece.</p> <p>Realizar o ritual custa um ponto de Experiência.</p>"
         },
         "Flesh Craft": {
-          "name": "Flesh Craft"
+          "name": "Moldar Carne",
+          "tradition": "Feitiçaria",
+          "description": "<p>O místico temporariamente transforma suas mãos em instrumentos similares a garras para fabricação de carne e ossos, podendo trabalhar em uma vítima mais ou menos disposta. O trabalho transforma a vítima em uma zombaria grotesca de seu antigo eu, possuindo um ou mais traços monstruosos no nível I da lista a seguir: Arma Natural, Armadurado, Asas, Ataque Ácido, Ataque Corruptivo, Cuspir Veneno, Regeneração, Robusto, Sangue Ácido e Venenoso. Mais tarde, a vítima pode desenvolver os traços concedidos pelo ritual com Experiência, como se fossem habilidades normais.</p> <p>Uma vítima voluntária ganha 1D4 de corrupção permanente por traço, mas é afetada apenas por valores que transcendam seu valor atual em corrupção permanente. Uma vítima involuntária sofre 1D4 de corrupção permanente por traço, adicionado à corrupção que já possuir.</p> <p>Como o risco da vítima se tornar um nascido da mácula é alto, um feiticeiro cuidadoso sempre começa vinculando a vítima ao ritual Escravizar. Com essa precaução, a abominação recém-nascida obedecerá ao seu criador após a queda na escuridão.</p>"
         },
         "Life Extension": {
-          "name": "Life Extension"
+          "name": "Estender Vida",
+          "tradition": "Magismo",
+          "description": "<p>O místico pode adiar seu envelhecimento por um ano. O ritual requer uma dose de Elixir da Vida por uso e custa um de Experiência ou um ponto em corrupção permanente.</p>"
         },
         "Living Fortress": {
-          "name": "Living Fortress"
+          "name": "Fortaleza Viva",
+          "tradition": "Disponível apenas para Tecelões Verdes",
+          "description": "<p>O nível mais alto do ritual Crescimento Rápido permite que o místico crie uma fortaleza de árvores vivas e arbustos espinhosos. O forte conta como um forte de madeira (veja Dano em Edifícios, página 101) e se defende contra qualquer pessoa que tente passar por suas paredes vivas — tanto ao entrar quanto ao sair. Aqueles que tentam passar devem obter sucesso em três Testes de [Rápido←Resoluto] ou sofrem 1D12 de dano (ignorando a Armadura) por falha, pois são empalados por espinhos ou espancados por galhos pesados.</p> <p>O místico que criou o forte pode deixar alguém entrar ou sair, mas também pode ensinar palavras secretas a seus aliados, que os permitirão passar sem impedimentos pela vegetação vigilante.</p> <p>A fortaleza vive por uma estação (três meses), depois o ritual deve ser realizado novamente ou começará a murchar. Realizar o ritual custa um ponto de Experiência.</p>"
         },
         "Phylactery": {
           "name": "Phylactery"
@@ -4855,7 +4941,7 @@
           "description": "<p>Executando este ritual, o Místico pode possuir o corpo de uma pequena besta e ter controle total sobre ela por um longo período. O corpo do Místico fica em transe durante o ritual. A mente do Místico é devolvida a seu próprio corpo se o corpo emprestado for ferido. O mesmo ocorre se o corpo do Místico for ferido ou exposto a algum tipo de interferência poderosa (como ser empurrado no chão, mergulhado em água ou afetado por calor e fumaça).</p> <p>Um Místico pode decidir permanecer neste transe por 24 horas, e após este período sua mente retorna a seu corpo. Após isto, Emprestar Besta não pode ser executado novamente por um período tão longo quanto a duração do último transe.</p> <p>Um Místico que executa Emprestar Besta e deixa seu corpo dentro de um Círculo de Bruxa não tem limitação de quanto tempo pode manter o transe, já que seu corpo recebe toda a nutrição necessária do solo dentro do círculo.</p>"
         },
         "Break Link": {
-          "name": "Quebrar link",
+          "name": "Quebrar Vínculo",
           "tradition": "Magismo",
           "description": "<p>O Místico pode quebrar quaisquer vínculos e elos místicos atuais em um objeto ou pessoa ao prender o alvo em um círculo de runas místicas e obter sucesso em um Teste de Resoluto. A magia do objeto não é afetada, mas o alvo não pode mais ser alcançado com rituais como Rastro do Herege e Convocação. Além disso, quaisquer vínculos místicos que podem ter sido criados por pessoas visitando o local são anulados, o que pode ser utilizado para prevenir outros de usarem Clarividência e Passo de Sete Léguas para ver ou alcançar o local até terem visitado o local novamente. Finalmente, Quebrar Vínculo pode ser utilizado para cortar o laço entre uma criatura e um artefato místico (veja mais sobre artefatos na página 186).</p>"
         },
@@ -4935,22 +5021,34 @@
           "description": "<p>O Místico estabelece um círculo mágico permanente que pode ser usado para se comunicar telepaticamente com pessoas em outros círculos mágicos conhecidos. Somente Místicos com o ritual Círculo Mágico podem iniciar comunicação telepática com outro círculo, mas qualquer um pode receber tal transmissão.</p> <p>O Místico não precisa ter visitado estes outros círculos para ser capaz de se comunicar com eles, mas deve saber com certeza que há outro círculo em um local específico para ser capaz de alcançá-lo. Também deve haver uma pessoa no círculo receptor para a comunicação ser possível. Todos em um Círculo Mágico receptor ficam cientes e podem participar da comunicação; não é possível discriminar receptores.</p>"
         },
         "Nature's Lullaby": {
-          "name": "Nature's Lullaby"
+          "name": "Cantiga da Natureza",
+          "tradition": "Bruxaria",
+          "description": "<p>Obtendo sucesso em um Teste de Resoluto, o Místico pode cantar para um aspecto da Davokar Escura dormir, e assim passar por uma abominação específica sem ela reagir; o Místico e seus aliados ficam mais ou menos invisíveis para a criatura maculada.</p> <p>Caso o Místico ou seus aliados sejam agressivos, então o efeito do ritual é encerrado. O mesmo ocorre se o Místico parar de cantar, para, por exemplo, usar um poder místico.</p>"
         },
         "Necromancy": {
-          "name": "Necromancy"
+          "name": "Necromancia",
+          "tradition": "Bruxaria",
+          "description": "<p>O Místico pode fazer várias perguntas para uma pessoa morta, seja sentando-se próximo de seu corpo (basta um crânio) ou de seu túmulo. Cada pergunta exige um Teste bem-sucedido de Resoluto, e o morto responde “sim” ou “não” com batidas: uma batida para “não” e duas para “sim”. No caso de uma falha, o Místico ainda pode tentar forçar uma resposta do morto, correndo o risco de ser possuído pelo espírito, jogando [Resoluto←Resoluto]. Caso o Teste fracasse, o Místico fica possuído e é forçado a realizar o último desejo do morto, frequentemente algo de natureza vingativa.</p>"
         },
         "Oracle": {
-          "name": "Oracle"
+          "name": "Oráculo",
+          "tradition": "Teurgia",
+          "description": "<p>Um jogada bem-sucedida contra Resoluto permite ao Místico fazer uma pergunta aberta sobre o futuro da aventura em curso. Este ritual pode ser utilizado somente uma vez por aventura, independentemente do que ocorrer. A resposta do Mestre de Jogo deve ser verdadeira, mas não necessariamente fácil de interpretar ou muito reveladora.</p>"
         },
         "Patron Saint": {
-          "name": "Patron Saint"
+          "name": "Santo Patrono",
+          "tradition": "Teurgia",
+          "description": "<p>O Místico é acompanhado por um espírito guardião, a alma de um Templário caído que recebeu a missão honrosa de, mais uma vez, servir um escolhido do Deus Sol. O mártir protetor se manifesta como um guerreiro de luz que normalmente é invisível, mas que começa a brilhar quando o perigo se aproxima,e protege seu escolhido até sua segunda morte. Um Místico pode ter somente um Santo Patrono vinculado a si mesmo de cada vez, e se o santo for derrotado de qualquer forma, um novo deve ser convocado.</p> <p>Um Santo Patrono é controlado pelo jogador como um personagem adicional. Ele ganha Experiência como um personagem jogador e a perde quando morre (não é permitido fazer Testes de Morte).</p>"
         },
         "Possess": {
-          "name": "Possess"
+          "name": "Possessão",
+          "tradition": "Feitiçaria",
+          "description": "<p>Executando este ritual, e obtendo sucesso em um Teste de [Resoluto←Resoluto], o Místico pode possuir o corpo de uma criatura e controlá-la por um tempo limitado (por até 24 horas). O ritual requer um vínculo com a vítima para o Místico ser capaz de tentar a possessão: uma mecha de cabelo, um pouco de sangue ou um item que seja importante para a vítima pretendida. A vítima se lembra de tudo que acontece durante a possessão, mais como um sonho surreal do que qualquer coisa real. A vítima não pode ser obrigada a cometer suicídio quando possuída, mas de outra forma pode ser obrigada a agir contra todos os seus princípios.</p> <p>A possessão pode ser observada como uma mudança na Sombra, já que a vítima ganha a Sombra do Místico. A possessão pode ser quebrada por Exorcismo ou Quebrar Vínculo. Caso seja feito através de Exorcismo, o Místico nunca mais pode possuir a mesma criatura.</p> <p>A possessão pode ser observada como uma mudança na Sombra, já que a vítima ganha a Sombra do Místico. A possessão pode ser quebrada por Exorcismo ou Quebrar Vínculo. Caso seja feito através de Exorcismo, o Místico nunca mais pode possuir a mesma criatura.</p>"
         },
         "Purging Fire": {
-          "name": "Purging Fire"
+          "name": "Fogo Purgante",
+          "tradition": "Teurgia",
+          "description": "<p>Corrupção é mais temida que o normal para teurgos, já que ela representa a principal prova do poder da escuridão. A maioria dos teurgos faz o máximo para não serem maculados pela Corrupção, e caso falhem, podem sempre aprender o ritual do Fogo Purgante.</p> <p>Quando executa o ritual, o Místico se prepara com canções e orações antes de subir na pira flamejante para purificar seu corpo da Corrupção. Para cada turno que permanecer no fogo, o teurgo sofre 1D6 de dano, e se obtiver sucesso em um Teste de [Resoluto←Dano], remove um (1) ponto de Corrupção permanente. Caso o Teste falhe, o Místico se lança para fora da pira e o ritual é interrompido.</p> <p>O ritual custa um (1) de Experiência para ser executado, seja bem-sucedido ou não. O Místico não pode executar o ritual para outra pessoa; somente quem executa o ritual pode se beneficiar do efeito purificante.</p>"
         },
         "Quick Growth": {
           "name": "Quick Growth"
