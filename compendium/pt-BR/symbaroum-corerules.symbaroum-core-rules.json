@@ -288,7 +288,7 @@
           "race": "Elfo",
           "shadow": "Verde suculento",
           "appearance": "<p>Aqueles que despertam de seu primeiro sono e entram na fase de vida de Elfo do Verão ainda são um grupo curioso, mas nem de perto tão cauteloso. Elfinos são conhecidos por serem raivosos, agressivos e impulsivos, beirando a tolice. Com até um metro e setenta, ágeis como pesadelinos e com cerca de 150 anos para treinar, eles se desenvolvem em guerreiros talentosos, qualificados para vencer qualquer lutador humano.</p>",
-          "background": "<p><p>Elfinos são a espinha dorsal das forças de defesa da Davokar, com armaduras fracas, mas equipados com lanças e arcos. Mais frequentemente são liderados por um Elfo do Outono, mas algumas vezes sua impaciência os faz renunciar a orientação dos irmãos mais velhos. Tais bandos de guerra, consistindo em dez a trinta elfos irados, sempre preferem o ataque à defesa, e podem muito bem atacar aldeias nas terras baixas em vez de seus alvos normais: entrepostos, caravanas e colonos livres na mata.</p>",
+          "background": "<p>Elfinos são a espinha dorsal das forças de defesa da Davokar, com armaduras fracas, mas equipados com lanças e arcos. Mais frequentemente são liderados por um Elfo do Outono, mas algumas vezes sua impaciência os faz renunciar a orientação dos irmãos mais velhos. Tais bandos de guerra, consistindo em dez a trinta elfos irados, sempre preferem o ataque à defesa, e podem muito bem atacar aldeias nas terras baixas em vez de seus alvos normais: entrepostos, caravanas e colonos livres na mata.</p>",
           "tactics": "<p>Os elfos do início do verão confiam em seus arcos e usam suas lanças apenas quando absolutamente necessário. Em combate corpo a corpo eles usam Acrobacias para se afastar, para se aproveitar do alcance de suas lanças vez após outra.</p>",
           "items": {
             "Acrobatics": {
@@ -422,7 +422,7 @@
           "tokenName": "Manto Negro",
           "race": "Humano (Ambriano)",
           "shadow": "Prata com pontos enegrecidos",
-          
+
           "items": {
             "Beast Lore": {
               "name": "Saber de Bestas",
@@ -1663,7 +1663,11 @@
               "name": "Poisonous"
             },
             "Swarm": {
-              "name": "Swarm"
+              "name": "Enxame",
+              "description": "<p>A criatura é uma coletividade, sua mente espalhada em um enxame de corpos. A criatura não pode ser destruída a menos que o enxame inteiro seja obliterado.</p>",
+              "noviceDescription": "<p>O enxame sofre metade do dano de todos os ataques. Caso o enxame seja danificado e trazido abaixo de metade de sua Vitalidade, o instinto de sobrevivência de partes separadas do enxame assume e faz o resto do enxame fugir. Um ataque mental (onde o enxame usa seu Resoluto para se defender) afeta o enxame inteiro.</p>",
+              "adeptDescription": "<p>O enxame sofre metade do dano de todos os ataques. Caso o enxame sofra dano de um único ataque que exceda seu Limiar de Dor, o instinto de sobrevivência de partes separadas do enxame assume e faz o resto do enxame fugir. Além disso, o enxame pode fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>",
+              "masterDescription": "<p>A mente coletiva do enxame o controla, de forma que ele sofre apenas um quarto de qualquer dano sofrido de ataques. A coesão do enxame é completa, e ele não foge a menos que o intelecto geral escolha fazê-lo. É possível fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>"
             },
             "Bite": {
               "name": "Bite"
@@ -1870,7 +1874,11 @@
               "masterDescription": "<p>Ao atacar os pontos fracos de um oponente com uma precisão impecável — como na garganta e joelhos — os golpes desarmados do Mestre são verdadeiramente devastadores. Cada ataque que acerta causa 1D6 de dano extra.</p>"
             },
             "Swarm": {
-              "name": "Swarm"
+              "name": "Enxame",
+              "description": "<p>A criatura é uma coletividade, sua mente espalhada em um enxame de corpos. A criatura não pode ser destruída a menos que o enxame inteiro seja obliterado.</p>",
+              "noviceDescription": "<p>O enxame sofre metade do dano de todos os ataques. Caso o enxame seja danificado e trazido abaixo de metade de sua Vitalidade, o instinto de sobrevivência de partes separadas do enxame assume e faz o resto do enxame fugir. Um ataque mental (onde o enxame usa seu Resoluto para se defender) afeta o enxame inteiro.</p>",
+              "adeptDescription": "<p>O enxame sofre metade do dano de todos os ataques. Caso o enxame sofra dano de um único ataque que exceda seu Limiar de Dor, o instinto de sobrevivência de partes separadas do enxame assume e faz o resto do enxame fugir. Além disso, o enxame pode fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>",
+              "masterDescription": "<p>A mente coletiva do enxame o controla, de forma que ele sofre apenas um quarto de qualquer dano sofrido de ataques. A coesão do enxame é completa, e ele não foge a menos que o intelecto geral escolha fazê-lo. É possível fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>"
             },
             "Wings": {
               "name": "Asas",
@@ -3494,28 +3502,44 @@
           "description": "A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma flor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário. <br /><br /><strong>Moderado: <strong>Quando feito por um adepto, o elixir remove imediatamente 1D6 de corrupção temporária."
         },
         "Moderate Transforming Draught": {
-          "name": "Moderate Transforming Draught"
+          "name": "Infusão de Transformação Moderado",
+          "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Moderado:</strong>A infusão atribui o traço selecionado no nível II ao custo de 1D6 de corrupção temporária.</p>",
+          "cost": ""
         },
         "Revealing Light": {
-          "name": "Revealing Light"
+          "name": "Luz Reveladora",
+          "description": "<p>Uma vela de cera que, quando acesa, faz com que criaturas vivas (não mortos-vivos ou abominações) brilhem suavemente no escuro, dificultando permanecer escondido (uma segunda chance de falhar nos Testes para se aproximar de alguém ou uma segunda chance de obter sucesso nos Testes para descobrir alguém se aproximando). Isso afeta todos na sala ou nas proximidades, incluindo quem acendeu a vela.</p>",
+          "cost": "2 táleres"
         },
         "Shadow Tint": {
-          "name": "Shadow Tint"
+          "name": "Tinta Sombria",
+          "description": "<p>Esse elixir terrivelmente doentio já foi usado por místicos que queriam esconder o quão perto estavam de se tornarem completamente corruptos, tornando-o uma adição bem-vinda às coleções de preparos místicos de todos os feiticeiros.</p> <p>Quem consegue engolir esse lodo distorce sua sombra por uma cena inteira, fazendo parecer que seu valor da corrupção total é 1D6 pontos mais baixo.</p>",
+          "cost": "3 táleres (somente mercado negro)"
         },
         "Smoke Bomb": {
-          "name": "Smoke Bomb"
+          "name": "Bomba de Fumaça",
+          "description": "<p>A bomba de fumaça é um recipiente de cerâmica que emite uma densa fumaça alquímica quando esmagado e é usado com o nível adepto da habilidade Pirotecnia. A fumaça enche uma sala ou cobre um grupo de pessoas engajadas em combate corpo a corpo.</p>",
+          "cost": "2 táleres"
         },
         "Spirit Friend": {
-          "name": "Spirit Friend"
+          "name": "Amigo Espiritual",
+          "description": "<p>A droga milagrosa chamada Amigo Espiritual é cozida em um caldeirão, mas não é o líquido que é engarrafado, e sim os vapores. A fumaça cinza-branca é capturada em pequenos frascos de cerâmica e inalada quando necessário. Amigo Espiritual fornece ao usuário o nível I no traço Forma de Espírito. O efeito dura 1D4 turnos, ao preço da mesma quantidade em pontos de corrupção temporária.</p>",
+          "cost": "12 táleres"
         },
         "Strong Purple Sap": {
-          "name": "Strong Purple Sap"
+          "name": "Seiva Púrpura Forte",
+          "description": "<p>A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma f lor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário.</p> <p><strong>Forte:</strong>A ver são mes t re remove 1 D8 de corrupção temporária.</p>",
+          "cost": "12 táleres"
         },
         "Strong Transforming Draught": {
-          "name": "Strong Transforming Draught"
+          "name": "Infusão de Transformação Forte",
+          "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Forte:</strong> A infusão atribui o traço selecionado no nível III ao custo de 1D8 de corrupção temporária.</p>",
+          "cost": "4 táleres (apenas mercado negro)"
         },
         "Stun Bolt": {
-          "name": "Stun Bolt"
+          "name": "Raio Atordoante",
+          "description": "<p>O alquimista cobre um virote de besta com um relaxante muscular de ação rápida; qualquer criatura atingida pelo virote deve passar em um Teste de [Vigoroso –Dano] ou cai no chão. O traço monstruoso Robusto concede +2 em Vigoroso por nível ao rolar este Teste.</p>",
+          "cost": "1 táler"
         },
         "Thorn Beasties": {
           "name": "Bestas Espinhosas",
@@ -3543,11 +3567,13 @@
           "cost": "6 táleres"
         },
         "Weak Purple Sap": {
-          "name": "Weak Purple Sap"
+          "name": "Seiva Púrpura Fraco",
+          "description": "<p>A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma f lor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário.</p> <p><strong>Fraco:</strong>Um alquimista novato pode preparar uma poção que remove imediatamente 1D4 de corrupção temporária da alma do usuário.</p>",
+          "cost": ""
         },
         "Weak Transforming Draught": {
           "name": "Infusão de Transformação Fraco",
-          "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Fraco:<strong>A infusão atribui o traço selecionado no nível I ao custo de 1D4 de corrupção temporária.</p>",
+          "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Fraco:</strong>A infusão atribui o traço selecionado no nível I ao custo de 1D4 de corrupção temporária.</p>",
           "cost": ""
         },
         "Wild Chew": {
@@ -3556,28 +3582,44 @@
           "cost": "1 táler"
         },
         "Concealed Armor": {
-          "name": "Concealed Armor"
+          "name": "Armadura Ocultada",
+          "description": "<p>Feiticeiros têm muitas razões para permanecerem escondidos. Para fazer isso, eles costumam tecer fios misticamente reforçados em suas roupas, resultando em túnicas e capas que parecem comuns, mas oferecem proteção. Outros grupos, como espiões, gostariam de ter acesso a essas roupas para evitar atenção indesejada enquanto ainda estão prontos para a batalha.</p>",
+          "cost": "50 táleres"
         },
         "Double Chainmail": {
-          "name": "Double Chainmail"
+          "name": "Cota de Malha Dupla",
+          "description": "<p>Cota de malha dupla só pode ser trabalhada pelos ferreiros mais habilidosos; com anéis mais finos que se entrelaçam em camadas, eles criam uma armadura tão flexível quanto a cota de malha, mas ainda mais durável.</p>",
+          "cost": "125 táleres"
         },
         "Field Armor": {
-          "name": "Field Armor"
+          "name": "Armadura de Campo",
+          "description": "<p>A armadura de campo é uma armadura de placas completa forjada com folhas plissadas, tornando-a menos flexível que a armadura de placas completa, mas ainda mais resistente a golpes cortantes e pancadas.</p>",
+          "cost": "50 táleres"
         },
         "Field Armor of the Pansars": {
-          "name": "Field Armor of the Pansars"
+          "name": "Armadura de Campo dos Pansares",
+          "description": "<p>Os ferreiros mestres que trabalham para os pansares podem forjar armaduras de placas usando chapas de aço plissadas, mantendo a flexibilidade da armadura de placas padrão.</p>",
+          "cost": "250 táleres"
         },
         "Laminated Armor": {
-          "name": "Laminated Armor"
+          "name": "Armadura Laminada",
+          "description": "<p>A armadura laminada é um tipo de armadura mais antiga, hoje em dia frequentemente substituída pela barata cota de escamas ou pela flexível cota de malha. No entanto, alguns antigos conjuntos de armaduras laminadas ainda estão por aí, e há ferreiros que realmente as preferem devido à sua maior capacidade de proteção. Algumas das casas nobres de Ambria ainda se vestem com esse tipo de armadura, por motivos sentimentais... ou, como afirmam, “tradicionais”.</p> <p>A armadura laminada pode proteger apenas o tronco, os ombros e os quadris — os braços e as pernas geralmente são vestidos em couro cravejado para manter a mobilidade.</p>",
+          "cost": "25 táleres"
         },
         "Skald’s Cuirass": {
-          "name": "Skald’s Cuirass"
+          "name": "Couraça de Escaldo",
+          "description": "<p>Os cantores trolls costumam ser poetas guerreiros e muitos carregam uma armadura flexível de tecido ou tiras de couro, reforçada com harmonias protetoras. A Couraça de Escaldo é durável sem dificultar o movimento dos usuários, tornando-a popular também entre outros grupos. Por exemplo, os duelistas ricos de Yndaros costumam colorir suas couraças em cores pessoais para que possam ser reconhecidas de longe.</p>",
+          "cost": "50 táleres"
         },
         "Templar Full Plate": {
-          "name": "Templar Full Plate"
+          "name": "Armadura Completa dos Templários",
+          "description": "<p>A armadura dos templários é uma armadura completa forjada, abençoada e carregada pelo círculo interno da ordem. Essa elite entre as elites herda sua armadura de um antecessor que caiu em batalha ou, mais raramente, que morreu solene em sua alcova em Muralha do Templo. A armadura dá ao usuário a proteção de Prios, através de bençãos forjadas no aço e pelo sangue sagrado de inimigos e mártires.</p>",
+          "cost": "100 táleres"
         },
         "Wrath Armor": {
-          "name": "Wrath Armor"
+          "name": "Armadura da Ira",
+          "description": "<p>A cota de malha reforçada usada pelos guerreiros da Guarda da Ira Adormecida tem energias místicas vingativas forjadas nos anéis.</p> <p>Os encantamentos punitivos, de acordo com a lenda criada pela Huldra Bovosin há mais de quatro séculos, conferem ao aço sua característica vermelho-sangue — como se os guerreiros tivessem acabado de sair da cena de uma batalha dura, pintada com sangue de seus inimigos.</p>",
+          "cost": "100 táleres"
         },
         "Animal Mask": {
           "name": "Animal Mask"
@@ -3747,7 +3789,8 @@
           "name": "Fire Forged"
         },
         "Fleet-footed": {
-          "name": "Fleet-footed"
+          "name": "Pés leves",
+          "description": "<p>A criatura ou pessoa se move a uma velocidade anormalmente alta. Em situações em que a precisão conta, o movimento é de 13 metros por turno. E em conexão com a regra de Perseguição: Fuga  & Caça (página 104), a dádiva concede +3 de bônus em Rápido.</p>"
         },
         "Forbidden Knowledge": {
           "name": "Forbidden Knowledge"
@@ -3805,35 +3848,44 @@
           "name": "Poison Resilient"
         },
         "Protégé": {
-          "name": "Protégé"
+          "name": "Protegido",
+          "description": "<p>O personagem tem que aturar e proteger alguém. O protegido pode ser um filho amado, um mentor idoso e respeitado, uma alma gêmea ou apenas um parente chato cujo bem-estar está ligado a uma futura herança para o personagem. De qualquer forma, essa pessoa é interpretada pelo Mestre de Jogo e tende a se meter em problemas. O protegido não tem estatísticas além daquelas associadas à resistência fraca, e não ganha Experiência por se aventurar — ele ou ela continua sendo um fardo ao longo do tempo.</p> <p>Se o protegido morrer ou desaparecer, o personagem é afligido por outros problemas; tristeza e remorso, espelhados em um fardo adequado. Se o personagem proteger a pessoa por amor, fardos como Pesadelos ou Vício podem ser apropriados. E se a proteção estiver relacionada a ganhos pessoais, talvez Arqui-inimigo ou Procurado seja melhor — os parentes do protegido não esquecem facilmente a traição dos personagens.</p>"
         },
         "Servant": {
-          "name": "Servant"
+          "name": "Servo",
+          "description": "<p>O personagem tem um servo pessoal. Pode ser um empregado, um camareiro ou algo parecido. O servo é leal ao personagem, mas é inútil em termos de habilidades (resistência fraca). Ele pode executar tarefas simples, ficar de guarda à noite ou transmitir mensagens para os outros, mas não contribuirá em situações perigosas. O servo é interpretado pelo Mestre de Jogo e deve ter uma personalidade adequada.</p>"
         },
         "Shadow Spawn": {
-          "name": "Shadow Spawn"
+          "name": "Prole Sombria",
+          "description": "<p>O personagem nasceu durante um eclipse solar e desde então as sombras são atraídas para ele ou ela. A prole sombria recebe +1 de bônus em todos os Testes de Discreto ao se esgueirar ou se esconder.</p> <p>Prole Sombria pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Sickly": {
-          "name": "Sickly"
+          "name": "Enfermo",
+          "description": "<p>O personagem sofre de uma doença crônica, tornando-o fraco. Normalmente, isso não é demonstrado, mas quando ferido ou traumatizado, o personagem corre grande risco de morrer — todos os Testes de morte são feitos com dois dados e deve-se usar o pior resultado.</p>"
         },
         "Slow": {
           "name": "Lento",
           "description": "<p>A criatura ou pessoa se move a uma velocidade anormalmente lenta. Em situações em que a precisão conta, o movimento é de 7 metros por turno.</p> <p>Em conexão com a regra Perseguição: Fuga & Caça (página 104), o fardo impõe –3 de penalidade em Rápido.</p>"
         },
         "Soulmate": {
-          "name": "Soulmate"
+          "name": "Alma Gêmea",
+          "description": "<p>O personagem tem uma alma gêmea, seja no sentido romântico ou no sentido fraternal. Independente de qual seja, o personagem pode comunicar mensagens e sentimentos simples através de telepatia à contraparte. Eles sempre sabem aproximadamente onde a outra pessoa está e se ela está com algum tipo de problema.</p> <p>A contraparte pode ser um personagem do mestre importante para o jogo ou o personagem de outro jogador; converse com seus amigos de jogo e decida o que é melhor. Se for o personagem de outro jogador, apenas um personagem precisa adquirir a dádiva.</p>"
         },
         "Storyteller": {
-          "name": "Storyteller"
+          "name": "Narrador",
+          "description": "<p>O personagem é um contador de histórias talentoso, e não importa se ele narra lendas, mitos religiosos ou contos burlescos, ele sempre impressiona o público. O narrador recebe +1 de bônus em Testes de Persuasivo ao tentar tecer uma história crível para impressionar os ouvintes, e é habilidoso o suficiente para ganhar uma renda com suas performances (veja Renda de Dádivas, página 103).</p> <p>Narrador pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Telltale": {
-          "name": "Telltale"
+          "name": "Fofoqueiro",
+          "description": "<p>O personagem tem ouvidos e língua para fofocar e é capaz de farejar rumores e também passá-los para novos lugares. Ele recebe +1 de bônus em todos os Testes relacionados a ouvir, divulgar ou perceber a verdade por trás dos rumores.</p> <p>Fofoqueiro pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Tough": {
-          "name": "Tough"
+          "name": "Durável",
+          "description": "<p>O personagem tem um corpo duro e uma alma forte, o que significa que seu coração continua batendo quando os corações dos outros desistiriam. Um jogador com a dádiva Durável pode sempre rolar Testes de morte com dois dados e escolher o resultado mais favorável.</p>"
         },
         "Wanted": {
-          "name": "Wanted"
+          "name": "Procurado",
+          "description": "<p>O personagem é procurado por um crime sério, justa ou falsamente acusado. O efeito é que ele ou ela corre o risco de ser reconhecido e caçado. Uma vez por aventura, o personagem deve passar num Teste de Discreto para evitar ser identificado.</p>"
         },
         "Alchemical Mine - Moderate": {
           "name": "Alchemical Mine - Moderate"
@@ -4324,43 +4376,69 @@
           "description": "<p>O nível mais alto do ritual Crescimento Rápido permite que o místico crie uma fortaleza de árvores vivas e arbustos espinhosos. O forte conta como um forte de madeira (veja Dano em Edifícios, página 101) e se defende contra qualquer pessoa que tente passar por suas paredes vivas — tanto ao entrar quanto ao sair. Aqueles que tentam passar devem obter sucesso em três Testes de [Rápido←Resoluto] ou sofrem 1D12 de dano (ignorando a Armadura) por falha, pois são empalados por espinhos ou espancados por galhos pesados.</p> <p>O místico que criou o forte pode deixar alguém entrar ou sair, mas também pode ensinar palavras secretas a seus aliados, que os permitirão passar sem impedimentos pela vegetação vigilante.</p> <p>A fortaleza vive por uma estação (três meses), depois o ritual deve ser realizado novamente ou começará a murchar. Realizar o ritual custa um ponto de Experiência.</p>"
         },
         "Phylactery": {
-          "name": "Phylactery"
+          "name": "Filactério",
+          "tradition": "Feitiçaria",
+          "description": "<p>O místico vincula sua alma corrupta a um receptáculo — geralmente uma estatueta — e é ressuscitado fisicamente em sua proximidade dentro de 1D12 dias após ter morrido. Criar um Filactério custa um de Experiência ou um ponto em corrupção permanente. Toda vez que o Filactério é usado para ressuscitar o místico, ele sofre 1D6 de corrupção permanente. Criaturas completamente corruptas não podem ter um Filactério, já que tecnicamente não têm mais alma.</p>"
         },
         "Piercing Gaze": {
-          "name": "Piercing Gaze"
+          "name": "Olhar penetrante",
+          "tradition": "Disponível apenas para Inquisidores",
+          "description": "<p>O nível mais alto do ritual Fumaça Sagrada permite ao teurge uma segunda chance de obter sucesso em todos os Testes ao usar Fumaça Sagrada. Além disso, com sucesso em um Teste de Astuto, o Olhar Penetrante vê através do ritual Trocar Sombra, revelando a sombra real que está escondida pela falsa.</p>"
         },
         "Quake": {
-          "name": "Quake"
+          "name": "Tremor",
+          "tradition": "Disponível apenas para Magistas do Cajado",
+          "description": "<p>Dizem que a terra treme quando um magista do cajado fica furioso — provavelmente um boato causado por este ritual. O magista atrai a ira da rocha e a mantém armazenada em seu cajado rúnico. Quando necessário, o magista pode bater com força no chão e disparar uma onda de força, como ondas na água.</p> <p>O Tremor pode ter como objetivo uma estrutura física e então esmagar portas, janelas e pontes; o místico pode atingir a estrutura alvo com o cajado ou arremessá-lo usando o poder Cajado Projétil.</p> <p>Não importa se o Tremor é direcionado ao solo ou em direção a um objeto, o magista sofre 1D6 de corrupção temporária após a ativação.</p> <p><strong>No Chão:</strong> O magista atinge o chão e desencadeia ondas de choque que derrubam todas as criaturas próximas com sucesso em um Teste de [Resoluto←Rápido] — um Teste por criatura, aliado ou inimigo. O místico e aliado adjacentes são excluídos do efeito, assim como qualquer inimigo no alcance corpo a corpo. Aqueles que caem sofrem 1D4 de dano, ignorando a Armadura.</p> <p><strong>Em direção a um objeto:</strong> O Tremor é poderoso o suficiente para esmagar pontes, paredes e portas. O dano causado é rolado como um acerto comum com o cajado, mas a qualidade Destruidora é adicionada graças ao ritual; o cajado danifica as estruturas como se fosse um aríete. Consulte a regra Dano em Edifícios, página 101, para obter mais informações.</p> <p>As portas se transformam em lascas, enquanto pisos e pontes se desfazem em pó. Se o místico esmagar um piso, ele permanece em pé na beira da ruptura, mas diante dele, se abre um buraco grande o suficiente para exigir duas ações de movimento para contornar. Naturalmente, se uma ponte for esmagada, qualquer pessoa que queira passar por onde ela estava agora deve escalar ou nadar até o outro lado.</p>"
         },
         "Raise Undead": {
-          "name": "Raise Undead"
+          "name": "Erguer os Mortos",
+          "tradition": "Feitiçaria",
+          "description": "<p>O místico tem a capacidade de conceder não-vida permanente a uma criatura recém-morta que pereceu há no máximo sete dias. Para os mortos-vivos caírem sob o controle do místico após a conclusão do ritual, o místico deve obter sucesso em um Teste de [Resoluto←Resoluto]. Se o Teste falhar, o morto-vivo acorda com sua própria vontade intacta e fica livre para decidir por si próprio se deve ou não seguir o místico. Se o Teste for bem-sucedido, a criatura deve obedecer ao místico como se estivesse vinculada por uma runa de escravização, e só pode ser libertada pela morte de seu mestre.</p> <p>A criatura mantém todas as estatísticas e habilidades que tinha em vida e é dotada do traço monstruoso Morto-vivo no nível I. Ela não envelhece, mas não irá durar eternamente, já que seu corpo está em constante estado de lenta decomposição. A criatura deve fazer um Teste contra Vigoroso a cada ano — se o Teste falhar, o valor da criatura em Vigoroso é reduzido em um ponto. Quando o valor de Vigoroso chegar a 0, o corpo finalmente desmorona e a criatura encontra ua morte final.</p>"
         },
         "Restore": {
-          "name": "Restore"
+          "name": "Restaurar",
+          "tradition": "Canto do Troll",
+          "description": "<p>O místico pode restaurar um item danificado cantando — uma espada quebrada é consertada, um vaso quebrado é remontado e um cadeado corroído recupera sua funcionalidade. O item restaurado recupera todas as suas funções e qualidades. O místico não pode criar nada de novo usando o ritual.</p>"
         },
         "Retrieve": {
-          "name": "Retrieve"
+          "name": "Recuperar",
+          "tradition": "Canto do Troll",
+          "description": "<p>O místico pode cantar uma música que revela o caminho para um objeto perdido ou deslocado. Isso requer que o místico, ou alguém que esteja na companhia dele, conheça o objeto tão bem que seja capaz de descrevê-lo em detalhes. Se o objeto em questão foi propositalmente oculto, o místico deve obter sucesso em um Teste de [Resoluto←Discreto] para descobrir seu paradeiro.</p>"
         },
         "Rune Guardian": {
-          "name": "Rune Guardian"
+          "name": "Guardião Rúnico",
+          "tradition": "Simbolismo",
+          "description": "<p>O místico cria um guarda pessoal a partir de uma estátua de pedra ou madeira, esculpido com runas de construção que dão vida e formam lealdade. O criador do guardião pode instilar parte de sua própria experiência na estátua, para tornar o ser mais forte na criação.</p> <p>O Guardião Rúnico é tratado como um segundo personagem do jogador; ele ganha Experiência e se desenvolve com o tempo. O guardião não dorme e tem uma personalidade simples, girando em torno do dever e da obediência. Se o guardião morrer, toda a Experiência adquirida por ele é perdida e o místico deve começar de novo com um novo guardião.</p>"
         },
         "Sealing/Opening Rite": {
-          "name": "Sealing/Opening Rite"
+          "name": "Rito de Selar/Abrir",
+          "tradition": "Canto do Troll",
+          "description": "<p>O místico pode cantar palavras poderosas sobre uma porta, uma fechadura ou um portão para selá-lo com energias místicas ou para abri-lo, seja ele bloqueado por uma fechadura convencional ou por energias místicas. Selar uma porta não requer um Teste, mas para abri-la o místico deve obter sucesso em um Teste de [Resoluto←Dificuldade], onde a dificuldade é decidida pela dificuldade do mecanismo de trava ou pelo Resoluto do místico que a selou. Bloqueios que normalmente não podem ser destrancados, que abrem somente uma senha ou algo similar, são contados como Dificuldade –8.</p>"
         },
         "Servant Daemon": {
-          "name": "Servant Daemon"
+          "name": "Servo Daemon",
+          "tradition": "Disponível apenas para Demonologistas",
+          "description": "<p>O nível mais alto do ritual Convocar Daemon liga um daemon servo ao demonologista. O servo é fraco no começo, mas pode se desenvolver com o tempo, e é tratado pelo jogador como um segundo personagem. Além disso, o Servo Daemon pode ser o alvo do ritual Laço de Sangue.</p>"
         },
         "Soul Trap": {
-          "name": "Soul Trap"
+          "name": "Armadilha de Alma",
+          "tradition": "Feitiçaria",
+          "description": "<p>Com sucesso em um Teste de Resoluto, o místico liga a alma de uma criatura recém-morta a um receptáculo preparado, geralmente um pingente com uma joia. O alvo deve ter morrido menos de um minuto antes do início do ritual, e o místico deve estar no local da morte ou ter acesso ao cadáver. O objetivo de capturar a alma é muitas vezes impedir outros de contatá-la com o ritual Necromancia.</p> <p>A Armadilha de Alma é facilmente destruída esmagando o receptáculo, mas os rituais Exorcismo e Quebrar Vínculo também podem ser usados se alguém quiser poupar a joia.</p>"
         },
         "Spell Trap": {
-          "name": "Spell Trap"
+          "name": "Armadilha de Feitiços",
+          "tradition": "Simbolismo",
+          "description": "<p>O místico liga um poder a um determinado local ou objeto. Observe que os poderes do Simbolismo não precisam ser vinculados dessa maneira; isso é coberto pelo nível Adepto de Simbolismo. Armadilha de Feitiços é usada para poderes não inclusos nessa tradição.</p> <p>Todas as Armadilhas de Feitiços precisam ter um acionamento determinado quando criadas. Esse critério pode ser, por exemplo, que uma criatura viva entre na sala, que alguém pise na Armadilha de Feitiços ou que uma arma seja sacada nas proximidades. O místico pode se excluir de ser capaz de acionar a armadilha, mas os aliados do místico não são excluídos — se eles atenderem ao critério, o poder é ativado.</p> <p>O místico que faz a Armadilha de Feitiços não precisa conhecer o poder a ser preso, mas nesse caso ele precisa da ajuda de um místico que o faça ou de um pergaminho que descreva o poder. A Armadilha de Feitiços pode ser dissipada com Anátema ou com o ritual Quebrar Vínculo; caso contrário, permanece adormecida por anos — décadas, às vezes séculos — antes que suas energias se dissipem.</p>"
         },
         "Spell Tunnel": {
-          "name": "Spell Tunnel"
+          "name": "Túnel de Magia",
+          "tradition": "Disponível apenas para Mentalistas",
+          "description": "<p>O nível mais alto do ritual Clarividência possibilita ao Mentalista abrir um túnel de magia para o local observado. Por meio desse túnel, todos os poderes místicos que não exigem tocar no alvo podem ser usados. Além disso, os aliados do Mentalista podem usar o túnel para afetar o local observado com poderes místicos. No entanto, o túnel é de mão dupla, então as pessoas do outro lado podem muito bem retaliar. Armas à distância não podem disparar projéteis através do túnel; somente poderes e traços que funcionam como poderes são permitidos.</p> <p>O Túnel de Magia fica ativo durante uma cena, mas pode ser fechado antes com Anátema.</p>"
         },
         "Summon Daemon": {
-          "name": "Summon Daemon"
+          "name": "Convocar Daemon",
+          "tradition": "Disponível apenas para Demonologistas",
+          "description": "<p>(Vingativo, Conhecedor ou Guardião)</p> <p>Fora do mundo conhecido por ambrianos e bárbaros, os ventos sopram sobre uma paisagem morta e coberta de névoa. Abominações vagam pelas brumas, procurando vida para consumir. Demonologistas sabem como convocar daemones para o mundo dos vivos e podem forçá-los a servir. Esses daemones surgem em três formas diferentes, e a convocação de cada um exige o uso de um ritual separado, mas como os procedimentos de convocação compartilham muitas características, eles são descritos juntos.</p> <p>Independentemente do tipo de daemon a ser convocado, o procedimento é o mesmo: a criatura deve aparecer dentro de um símbolo preparado no chão, e os demonologistas sábios devem aprender e usar o ritual Círculo Mágico para se protegerem se algo der errado durante a convocação.</p> <p>A convocação de um daemon não requer que nenhum Teste seja rolado após a criação do símbolo especial; no entanto, para subjugar o daemon e fazê-lo obedecer ao demonologista, um Teste de [Resoluto←Resoluto] deve ser aprovado. Um sacrifício de sangue na forma de um Ser Cultural vivo dá ao místico uma segunda chance de obter sucesso no Teste, e se a vítima não tiver corrupção permanente, o místico também recebe +1 de bônus no Teste.</p> <p>Se o Teste for bem-sucedido, o daemon presta serviço ao místico; se o Teste falhar, o daemon fica livre para fazer o que quiser até a mesma hora do dia seguinte. A criatura não pode permanecer presente por mais tempo do que isso, a menos que esteja vinculada ao serviço do demonologista. Independente do daemon estar ou não vinculado ao místico, ele nunca pode entrar em círculos mágicos, círculos de bruxas ou em um lugar protegido por Sacrário.</p> <p>O demonologista pode vincular apenas um daemon de cada vez; se outro daemon for convocado, o que já está ligado é libertado e permanece no mundo por vinte e quatro horas antes de retornar ao seu local de origem. No entanto, se o místico conhecer mais de um dos rituais de convocação, ele pode ter um daemon de cada tipo em serviço. Os três rituais permitem que o místico convoque um tipo específico de daemon — um daemon Vingativo, Conhecedor ou Guardião.</p> <p>O ritual custa um ponto de Experiência para ser executado, independentemente se o Teste para controlar o daemon for bem-sucedido ou falhar.</p> <p><strong>Daemon Vingativo:</strong>A abominação é uma das criaturas aladas que voam através das brumas do Além Mundo.</p> <p>Se ordenado pelo místico, o Daemon Vingativo pode rastrear e atacar uma criatura conhecida e nomeada com a intenção de matá-la. O místico precisa de uma ligação com o alvo, como por exemplo alguns fios de cabelo, um pouco de sangue ou um item que o alvo preza. O daemon segue o vínculo astral até a vítima; se a distância puder ser contada em dias de marcha, o daemon voa no ritmo de marcha mortal e deve fazer um Teste para ver se algo catastrófico ocorre — talvez ele seja rastreado por caçadores de bruxas ou morto por alguma outra monstruosidade ao longo do caminho.</p> <p><strong>Daemon Conhecedor:</strong>A abominação é uma das criaturas manipuladoras à espreita nas brumas do Além Mundo, sempre procurando formas de vida para domesticar e consumir.</p> <p>Um Daemon Conhecedor responde a uma pergunta do místico; mais Testes de [Resoluto←Resoluto] fornecem mais respostas. O daemon pode responder sim ou não para uma pergunta direta (como o ritual Leitura da Sorte) ou responder a uma pergunta aberta (como o ritual Oráculo). Perguntas adicionais não aumentam o risco do daemon se libertar — se um Teste falhar, o daemon simplesmente se recusará a responder a mais perguntas —, e cada resposta precisa de uma hora para ser fornecida. Um sacrifício de sangue também ajuda ao rolar para perguntas adicionais.</p> <p><strong>Daemon Guardião:</strong>A abominação é resumida entre as monstruosidades uivantes que se espalham pelo Além Mundo à caça de alvos para seu ódio e frustração.</p> <p>O Daemon Guardião guarda um lugar até que ele seja morto ou libertado pelo demonologista. O daemon obedecerá às instruções sobre quem tem permissão de entrada ou passagem; o demonologista pode mudar a definição em relação a quem ou o que pode entrar ou passar, mas o pacto não permite que ele mude o local.</p>"
         },
         "Torment": {
           "name": "Torment"
@@ -4372,10 +4450,15 @@
           "name": "Twin Servants"
         },
         "Earth bound": {
-          "name": "Earth bound"
+          "name": "Herança Natural",
+          "description": "<p>A criatura está ligada ao mundo de maneira íntima, como se originada dos ossos do mundo e ainda fazendo parte de sua fundação.</p> <p>Ele não tem alma e sofre dano em vez de corrupção; a corrupção temporária causa sangramento no corpo.</p> <p>Por outro lado, a corrupção permanente causa uma redução permanente na base para calcular o Limiar de Dor das criaturas. Na prática, isso significa que o Limiar de Dor é reduzido em 1 para cada outro ponto que a criatura sofrer em corrupção permanente. Sua Vitalidade não é afetada. Se o Limiar de Dor for reduzido a zero, a criatura morre com hemorragia interna e órgãos falidos.</p> <p>Uma vez morta, a criatura não pode se tornar morta-viva e não pode ser contatada com o ritual Necromancia. O cadáver decai e se reúne com a poça e o pó da criação, sem deixar qualquer tipo de traço espiritual para trás.</p>"
         },
         "Wisdom of the Ages": {
-          "name": "Wisdom of the Ages"
+          "name": "Sabedoria das Eras",
+          "description": "<p>Através das eras, os elfos acumularam uma vasta sabedoria coletiva; um poço profundo de conhecimento e saber que muitos deles podem acessar através da meditação. O personagem é um daqueles que podem usar o aprendizado de gerações anteriores para resolver problemas em questão no momento.</p> <p>Isso não vem sem riscos; no crepúsculo do mundo, o processo gera corrupção. Sabedoria das Eras gera corrupção temporária como se fosse um poder místico.</p>",
+          "noviceDescription": "<p>O personagem se perde em um curto transe. Com sucesso num Teste de Resoluto, ele adquire acesso ao nível novato de uma habilidade opcional, exceto por Poder Místico, Ritualista e Tradições Místicas. A habilidade pode ser usada pelo resto da cena, e então desaparece da memória.</p>",
+          "adeptDescription": "<p>Como o nível novato, mas a conexão mais próxima do personagem à memória coletiva torna o transe ainda mais curto.</p>",
+          "masterDescription": "<p>O personagem pode cavar mais fundo na memória coletiva. Com um sucesso num Teste de Resoluto, ele adquire acesso ao nível adepto de uma habilidade opcional, exceto por Poder Místico, Ritualista e Tradições Místicas. A habilidade pode ser usada pelo resto da cena, e então desaparece da memória.</p>"
         },
         "Alchemical Firetube, Portable": {
           "name": "Alchemical Firetube, Portable"
@@ -4387,80 +4470,121 @@
           "name": "Alchemical Grenade"
         },
         "Assassin’s Blade": {
-          "name": "Assassin’s Blade"
+          "name": "Lâmina do Assassino",
+          "description": "<p>O cabo fino e o fino aço da lâmina facilitam a ocultação da Lâmina do Assassino sem sacrificar sua estocada. Ela é facilmente amarrada ao pulso ou tornozelo, ou até mesmo presa atrás do pescoço com um pedaço de resina. Cintos especiais ou bolsos escondidos em roupas também funcionam. A arma pode ser contrabandeada por guardas, usada em missões secretas ou entregue a um prisioneiro.</p>",
+          "cost": "5 táleres"
         },
         "Ballista": {
           "name": "Ballista"
         },
         "Blowpipe": {
-          "name": "Blowpipe"
+          "name": "Zarabatana",
+          "description": "<p>O objetivo da zarabatana é disparar um dardo envenenado em direção a um alvo. O dardo não causa dano em si, mas penetra em qualquer proteção se rolar acima do valor da Armadura do alvo com 1D8 (1D10 com a habilidade Atirador).</p>",
+          "cost": "2 táleres"
         },
         "Bolas": {
-          "name": "Bolas"
+          "name": "Bolas",
+          "description": "<p>Uma bolas é usada na Davokar quando alguém quer capturar a presa viva; ou para diminuir a velocidade de um alvo antes de avançar para a matança.</p> <p>As bolas são feitas de dois ou mais pesos amarrados com cordas, e são miradas nas pernas ou braços do alvo, a fim de impedir o movimento. Normalmente é jogado nas pernas, e o Teste de ataque é [Preciso←Rápido]; se o Teste for bem-sucedido, o alvo não pode se mover. É mais difícil acertar os braços do alvo — isso requer um Teste de [Preciso←Rápido+3] e, se bem-sucedido, o alvo terá uma segunda chance de falhar em todos os Testes de Sucesso envolvendo o uso dos braços. A remoção das bolas conta como uma ação de combate e requer um Teste de Rápido.</p>",
+          "cost": "2 táleres"
         },
         "Breaching (Pot on ground)": {
-          "name": "Breaching (Pot on ground)"
+          "name": "Pote de Ruptura (no chão)",
+          "description": "<p>O pote de ruptura é um frasco cheio de substâncias voláteis que explodem quando inflamadas ou esmagadas. Se o pote for enterrado perto de uma estrutura, ele tem a qualidade Destruidora; se detonar ao ar livre, possui Área de Efeito. Observe que quem aciona um pote de ruptura deve usar um pavio para evitar sofrer o efeito.</p> <p>Qualquer um pode usar um pote, mas somente aqueles com a habilidade Perito em Cerco ou Pirotecnia podem fazê-lo sem arriscar um fracasso catastrófico. Veja as regras sobre Armas Alquímicas na página 99.</p> <p>Os potes de ruptura também podem ser usados como munição para catapultas; nesse caso, elas têm uma Área de Efeito no impacto.</p>",
+          "cost": "100 táleres"
         },
         "Breaching Pot (buried)": {
-          "name": "Breaching Pot (buried)"
+          "name": "Pote de Ruptura (Enterrado)",
+          "description": "<p>O pote de ruptura é um frasco cheio de substâncias voláteis que explodem quando inflamadas ou esmagadas. Se o pote for enterrado perto de uma estrutura, ele tem a qualidade Destruidora; se detonar ao ar livre, possui Área de Efeito. Observe que quem aciona um pote de ruptura deve usar um pavio para evitar sofrer o efeito.</p> <p>Qualquer um pode usar um pote, mas somente aqueles com a habilidade Perito em Cerco ou Pirotecnia podem fazê-lo sem arriscar um fracasso catastrófico. Veja as regras sobre Armas Alquímicas na página 99.</p> <p>Os potes de ruptura também podem ser usados como munição para catapultas; nesse caso, elas têm uma Área de Efeito no impacto.</p>",
+          "cost": "100 táleres"
         },
         "Catapult": {
-          "name": "Catapult"
+          "name": "Catapulta",
+          "description": "<p>Dispositivos balísticos há muito tempo são empregados nas muitas guerras de Alberetor, e a mais frequentemente usada é a catapulta. Comparada ao seu primo maior, o trabuco, ela é relativamente fácil de transportar, mas ainda é muito eficaz contra estruturas e tropas.</p> <p>É preciso alguém com a habilidade Perito em Cerco para carregar, mirar e disparar uma catapulta; ela pode ser carregada com pedregulhos ou com potes de ruptura, o primeiro para esmagar edifícios e este último mais eficaz contra alvos mais fracos, mas inflamáveis, incluindo formações hostis de tropas no campo de batalha.</p>",
+          "cost": "250 táleres + 50 por Pote de Ruptura"
         },
         "Chain Staff": {
-          "name": "Chain Staff"
+          "name": "Cajado Corrente",
+          "description": "<p>O cajado corrente foi desenvolvido por elfos e adotado por alguns clãs bárbaros. A arma é composta por um bastão com uma corrente curta presa a cada extremidade, possibilitando o uso da arma para prender um alvo. As correntes geralmente terminam com um peso ou uma lâmina curta, tornando-a ainda mais mortal.</p>",
+          "cost": "15 táleres"
         },
         "Composite Bow": {
-          "name": "Composite Bow"
+          "name": "Arco Composto",
+          "description": "<p>Entre os Varaks e nômades de carroças Saars que vivem nas planícies a oeste da Davokar, fazer arcos é uma forma de arte altamente estimada. O arco composto é feito de camadas de chifre e tendões sobre um núcleo de madeira; é mais curto e não tão preciso quanto o arco longo, mas mais poderoso. Seu tamanho o torna perfeito para uso a cavalo, no assento do carroceiro ou na plataforma estreita de uma carruagem de batalha.</p>",
+          "cost": "25 táleres"
         },
         "Estoc": {
-          "name": "Estoc"
+          "name": "Estoc",
+          "cost": "25 táleres"
         },
         "Executioner’s Sword": {
-          "name": "Executioner’s Sword"
+          "name": "Espada do Executor",
+          "description": "<p>Essa espada gigante é usada pelos executores para acabar com as vidas de nobres — o machado é para comerciantes e artesãos, a corda para os plebeus — mas também existem aqueles que empunham a arma no campo de batalha.</p>"
         },
         "Grappling Axe": {
-          "name": "Grappling Axe"
+          "name": "Machado com Gancho",
+          "description": "<p>Este machado de cabo longo é uma arma bastarda usada durante ataques. Pode ser segurada com uma mão, juntamente com um escudo, ou sozinha ao subir escadas para a ameia, onde é agarrada pelas duas mãos para limpar o topo da muralha. Modelos mais antigos da Grande Guerra foram usados em batalhas marítimas e têm um gancho na parte de trás da cabeça do machado, a fim de garantir a passagem segura de um navio para outro.</p>"
         },
         "Heavy Flail": {
-          "name": "Heavy Flail"
+          "name": "Mangual Pesado",
+          "description": "<p>O mangual pesado é uma versão maior do mangual de batalha. Como era de se esperar, o mangual mais pesado é mais lento, mas tem um impacto maior nos infelizes que são atingidos por sua cabeça maciça.</p>"
         },
         "Horseman’s Bow": {
-          "name": "Horseman’s Bow"
+          "name": "Arco de Cavalaria",
+          "description": "<p>Durante a Grande Guerra surgiu a necessidade de um arco poderoso que pudesse ser usado por guerreiros montados. O arco tradicional era muito desajeitado — tão longo que interferia no cavalo, ou vice-versa. Para resolver isso, o assimétrico arco de cavalaria foi desenvolvido.</p> <p>O membro inferior do arco é mais curto que o superior, permitindo que o arco seja manobrado para frente e para trás sobre as costas do cavalo sem perder a pegada. A arma é inclinada para frente quando é apontada e disparada, a fim de manter a mesma tensão entre os dois membros.</p> <p>Em Ambria, o arco de cavalaria é usado principalmente no oeste, contra as incursões dos carroceiros montados dos Saars. Lá, as companhias tradicionais de arco longo são usadas como tropas defensivas, mas para caçar os saqueadores são necessários cavaleiros, de preferência armados com arcos.</p>"
         },
         "Lance (on Horse)": {
-          "name": "Lance (on Horse)"
+          "name": "Lance (a cavalo)",
+          "description": "<p>O valor da lança de cavalaria não deve ser subestimado — as maiores monstruosidades dos Lordes Negros eram frequentemente mortas por lanças nas mãos de bravos cavaleiros. A arma também foi usada pela cavalaria ambriana para ganhar domínio sobre as planícies e conduzir bárbaros, grupos de predadores e abominações na Davokar.</p> <p>A lança de cavalaria é uma haste alongada, com um punho e um cabo adaptados para uso a cavalo. Ao montar um cavalo, a lança tem a qualidade Longa, mesmo que agarrada em uma mão. A pé, a lança é muito longa para ser manejada com apenas uma mão.</p>",
+          "cost": "15 táleres"
         },
         "Lance (two-handed)": {
-          "name": "Lance (two-handed)"
+          "name": "Lança de Cavalaria (Duas mãos)",
+          "description": "<p>O valor da lança de cavalaria não deve ser subestimado — as maiores monstruosidades dos Lordes Negros eram frequentemente mortas por lanças nas mãos de bravos cavaleiros. A arma também foi usada pela cavalaria ambriana para ganhar domínio sobre as planícies e conduzir bárbaros, grupos de predadores e abominações na Davokar.</p> <p>A lança de cavalaria é uma haste alongada, com um punho e um cabo adaptados para uso a cavalo. Ao montar um cavalo, a lança tem a qualidade Longa, mesmo que agarrada em uma mão. A pé, a lança é muito longa para ser manejada com apenas uma mão.</p>",
+          "cost": "15 táleres"
         },
         "Long-hammer (single handed)": {
-          "name": "Long-hammer (single handed)"
+          "name": "Martelo Longo (Uma mão)",
+          "description": "<p>O poderoso martelo longo pode ser usado em uma mão junto com um escudo mas, como todas as armas bastardas, é mais poderoso quando segurado com duas mãos.</p>",
+          "cost": "50 táleres"
         },
         "Long-hammer (two-handed)": {
-          "name": "Long-hammer (two-handed)"
+          "name": "Martelo longo (Duas mãos)",
+          "description": "<p>O poderoso martelo longo pode ser usado em uma mão junto com um escudo mas, como todas as armas bastardas, é mais poderoso quando segurado com duas mãos.</p>",
+          "cost": "50 táleres"
         },
         "Long-Whip": {
-          "name": "Long-Whip"
+          "name": "Chicote Longo",
+          "description": "<p>O chicote longo foi adaptado do chicote comum de pastoreio ou de escravos; sua função não é apenas orientar, mas também prender o alvo. Além disso, seu comprimento lhe confere um poder de movimento considerável capaz de atingir alvos levemente protegidos por armaduras.</p>",
+          "cost": "10 táleres"
         },
         "Missile Battery": {
-          "name": "Missile Battery"
+          "name": "Bateria de mísseis",
+          "description": "<p>A bateria de mísseis é uma arma de cerco inadequada para uso por qualquer pessoa, exceto sapadores treinados. Ela consiste em uma moldura de madeira na qual centenas de mísseis alquímicos podem ser carregados. Quando acionados, os mísseis ardentes e chocantes caem sobre as tropas inimigas. Toda criatura pega na chuva de mísseis deve passar em um Teste de Defesa ou é atingida por uma flecha flamejante. Se atingido, o alvo rola novamente, até que um Teste de Defesa seja bem-sucedido — e então ele não é atingido por nenhuma flecha adicional.</p>",
+          "cost": "200 táleres + 50 por carga"
         },
         "Repeating Crossbow": {
           "name": "Besta de Repetição",
           "description": "<p>A besta de repetição é uma versão mecanicamente avançada da besta. A arma tem uma alavanca por baixo para ser recarregada mais rapidamente. Somente os ferreiros mais habilidosos são capazes de construir armas tão tecnicamente avançadas.</p> <p>Uma besta de repetição é recarregada como uma ação livre — sem perder o poder de ataque da besta regular.</p>"
         },
         "Small Crossbow": {
-          "name": "Small Crossbow"
+          "name": "Besta Pequena",
+          "description": "<p>Entre os ladrões e gangues de Yndaros, é usada uma versão menor e facilmente ocultável da besta. Ela pode ser segurada e disparada com uma única mão, mas requer duas para carregar e tem o mesmo coice que a besta padrão. Assassinos geralmente aplicam veneno nos virotes, tornando a arma muito eficaz para o seu tamanho.</p>",
+          "cost": "40 táleres"
         },
         "Throwing Wing": {
-          "name": "Throwing Wing"
+          "name": "Asa de arremesso",
+          "description": "<p>A asa de arremesso é projetada para que um usuário habilidoso possa fazê-la retornar ao local de onde foi arremessada se errar o alvo (requer um Teste de Preciso, feito como Ação Livre). Nas profundezas da Davokar, as asas feitas de madeira endurecida são usadas para caçar pequenos animais, enquanto as usadas em combate têm uma ponta de aço afiada em toda a asa.</p>",
+          "cost": "10 táleres"
         },
         "Trebuchet": {
-          "name": "Trebuchet"
+          "name": "Trabuco",
+          "description": "<p>O rei das armas de cerco é o poderoso trabuco, um dispositivo balístico com poder suficiente para derrubar as muralhas mais resistentes, pelo menos depois de vários tiros. O trabuco só pode ser manuseado por alguém com a habilidade Perito em Cerco no nível de adepto.</p>",
+          "cost": "1250 táleres"
         },
         "Warhammer": {
-          "name": "Warhammer"
+          "name": "Martelo de Guerra",
+          "description": "<p>Martelo de guerra é o nome coletivo de uma série de armas de duas mãos de peso e comprimento consideráveis. Na maioria dos casos eles são martelos de verdade, geralmente com longos picos na superfície da cabeça do martelo. Outro membro da família martelo de guerra é o tubo de fogo alquímico portátil quando usado como arma branca.</p>",
+          "cost": "50 táleres"
         },
         "Mystical Power": {
           "name": "Poder Místico",
@@ -4512,7 +4636,7 @@
           "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
         },
         "Moderate Antidote": {
-          "name": "Antítido Moderado",
+          "name": "Antídoto Moderado",
           "description": "<p>Um antídoto moderado diminui o efeito de um veneno em dois graus; um veneno forte se torna fraco, enquanto venenos moderados e fracos são completamente neutralzados. O antídoto não afeta qualquer dano que um personagem já tenha sofrido. Requer sucesso em um Teste de Astuto para fazer efeito</p>",
           "cost": "2 táleres"
         },
@@ -4532,22 +4656,34 @@
           "cost": "3 táleres"
         },
         "Strong Antidote": {
-          "name": "Strong Antidote"
+          "name": "Antídoto Forte",
+          "description": "<p>Um antídoto forte diminui o efeito de um veneno em três graus, o que normalmente significa que o veneno é completamente neutralizado. O antídoto não afeta qualquer dano que um personagem já tenha sofrido. Requer sucesso em um Teste de Astuto para fazer efeito.</p>",
+          "cost": "3 táleres"
         },
         "Strong Poison": {
-          "name": "Strong Poison"
+          "name": "Veneno Forte",
+          "description": "<p>Um veneno forte causa 1D8 de dano por 1D8 turnos.</p>",
+          "cost": "6 táleres"
         },
         "Waybread": {
-          "name": "Waybread"
+          "name": "Pão de viagem",
+          "description": "<p>Uma unidade deste rico pão de viagem corresponde a uma semana de suprimento de comida para uma pessoa.</p>",
+          "cost": "1 táler"
         },
         "Weak Antidote": {
-          "name": "Weak Antidote"
+          "name": "Antídoto fraco",
+          "description": "<p>Um antídoto fraco diminui o efeito de um veneno em um grau; um veneno forte se torna moderado, um veneno moderado se torna fraco e um veneno fraco é completamente neutralizado. O antídoto não afeta qualquer dano que um personagem já tenha sofrido. Requer sucesso em um Teste de Astuto para fazer efeito.</p>",
+          "cost": "1 táler"
         },
         "Weak Poison": {
-          "name": "Weak Poison"
+          "name": "Veneno Fraco",
+          "description": "<p>Um veneno fraco causa 1D4 de dano por 1D4 turnos.</p>",
+          "cost": "2 táleres"
         },
         "Wraith Dust": {
-          "name": "Wraith Dust"
+          "name": "Pó de Espectro",
+          "description": "<p>O pó de espectro força um ser incorpóreo (uma criatura com o traço monstruoso Forma de Espírito) a assumir uma forma física pela duração de uma cena. O pó deve ser arremessado com um Teste [Preciso←Defesa]; caso acerte, o espírito sofre dano da mesma forma que uma criatura viva.</p>",
+          "cost": "2 táleres"
         },
         "Animal Skin": {
           "name": "Pele de Animal"
@@ -4563,7 +4699,12 @@
           "power2Description": "<p>É possível para alguém ligado ao amuleto destruí-lo; é necessário apenas uma jogada bem-sucedida contra Resoluto. Se isso ocorrer, a alma libertada de Mal-Rogan tentará possuir seu antigo mestre, de acordo com as regras para o ritual Possessão na página 145.</p> <p>Mal-Rogan é muito vingativo e irá fazer o máximo para punir todos que estiverem envolvidos em assassiná-lo e roubar seu prezado medalhão; isso é, o grupo inteiro dos personagens jogadores e não apenas aquele que carregou o amuleto.</p> <p>Se a possessão falhar, Mal-Rogan morre de uma vez por todas. O mesmo ocorre quando uma possessão bem-sucedida chega ao fim.</p"
         },
         "The Serpent Staff of Opadia": {
-          "name": "The Serpent Staff of Opadia"
+          "name": "O Cajado Serpente de Opadia",
+          "description": "<p>O cajado rúnico com cabeça de cobra que recentemente desapareceu do capítulo da Ordo Magica em Forte do Cardo, tem fama de ter pertencido a Opadia, uma agora falecida Magista do Cajado; Místicos poderosos que, de acordo com a lenda, serviram como guarda costas do último imperador de Symbaroum, e cujos descendentes supostamente vivem escondidos em uma fortaleza coberta de vegetação em algum lugar nas partes mais escuras da Davokar.</p> <p>Opadia era conhecida de Lasifor Campo Noturno e viveu em Forte do Cardo por um período quando a cidade era jovem. Ela caiu em batalha contra saqueadores élficos e o cajado foi vendido para a Ordo Magica, de onde agora desapareceu.</p>",
+          "power0Name": "Mordida do Cajado",
+          "power0Description": "<p>Aquele que vinculou o cajado a si pode deixar o cajado fazer uma mordida venenosa quando atinge um inimigo em combate corporal. O acerto com o cajado deve causar dano para a mordida venenosa fazer efeito. O veneno é considerado moderado e causa 1D6 pontos de dano por 1D6 turnos.</p>",
+          "power1Name": "Vínculos Mordentes",
+          "power1Description": "<p>Caso o mestre do cajado possua a habilidade Maestria em Armas de Haste o cajado pode fazer um ataque corpo a corpo que atinge o alvo automaticamente. O cajado então se enrola no alvo e morde vez após outra. O atacante deve ter sucesso em um Teste de [Vigilante←Vigoroso] por turno para manter seu agarrão.</p> <p>O alvo pode agir normalmente, mas sofre um ataque de mordida por turno que causa 1D6 de dano. Caso o dano penetre a Armadura do alvo, ele é afetado pelo veneno do cajado também, sofrendo 1D6 pontos de dano por 1D6 turnos. O veneno afeta o alvo apenas uma vez, mas o cajado em si continua a morder. Caso o alvo consiga se libertar, o cajado cai no chão, virando um cajado rúnico novamente.</p>"
         },
         "The Sun Stone": {
           "name": "A Pedra do Sol",
@@ -4650,7 +4791,8 @@
           "cost": "5 ortegas"
         },
         "Blanket": {
-          "name": "Blanket"
+          "name": "Cobertor",
+          "cost": "2 ortegas"
         },
         "Boots": {
           "name": "Botas",
@@ -4665,7 +4807,8 @@
           "cost": "1 táler"
         },
         "Cap": {
-          "name": "Cap"
+          "name": "Chapéu",
+          "cost": "2-4 ortegas"
         },
         "Chain": {
           "name": "Corrente",
@@ -4748,7 +4891,8 @@
           "cost": "1-5 ortegas"
         },
         "Grappling hook": {
-          "name": "Grappling hook"
+          "name": "Arpéu",
+          "cost": "1 táler"
         },
         "Hammer": {
           "name": "Martelo",
@@ -4892,7 +5036,8 @@
           "cost": "10 táleres"
         },
         "Tankard": {
-          "name": "Tankard"
+          "name": "Caneca",
+          "cost": "1 ortega"
         },
         "Tent": {
           "name": "Tenda",
@@ -5051,7 +5196,9 @@
           "description": "<p>Corrupção é mais temida que o normal para teurgos, já que ela representa a principal prova do poder da escuridão. A maioria dos teurgos faz o máximo para não serem maculados pela Corrupção, e caso falhem, podem sempre aprender o ritual do Fogo Purgante.</p> <p>Quando executa o ritual, o Místico se prepara com canções e orações antes de subir na pira flamejante para purificar seu corpo da Corrupção. Para cada turno que permanecer no fogo, o teurgo sofre 1D6 de dano, e se obtiver sucesso em um Teste de [Resoluto←Dano], remove um (1) ponto de Corrupção permanente. Caso o Teste falhe, o Místico se lança para fora da pira e o ritual é interrompido.</p> <p>O ritual custa um (1) de Experiência para ser executado, seja bem-sucedido ou não. O Místico não pode executar o ritual para outra pessoa; somente quem executa o ritual pode se beneficiar do efeito purificante.</p>"
         },
         "Quick Growth": {
-          "name": "Quick Growth"
+          "name": "Crescimento Rápido",
+          "tradition": "Bruxaria",
+          "description": "<p>O Místico pode fazer uma semente crescer até se tornar uma planta adulta usando este ritual. A forma da planta fica parcialmente sob controle do Místico, e uma árvore pode se tornar uma ponte ou esmagar um portão em estilhaços. Entretanto,  Místico não tem controle sobre as estações; a planta assume a forma que possui naturalmente durante a estação atual. O local onde esta semente é plantada deve atender às condições requeridas para a planta crescer completamente sob circunstâncias naturais. Em outras palavras, um carvalho não pode ser plantado em uma caverna escura sem luz e terra, mas talvez vinhas podem assumir raízes lá e crescer como cipós para pessoas escalarem.</p> <p>Em um Círculo de Bruxa criado pelo mesmo Místico, o ritual Crescimento Rápido pode ser executado independentemente da estação.</p>"
         },
         "Sanctifying Rite": {
           "name": "Rito de Santificação",
@@ -5673,10 +5820,18 @@
           "masterDescription": "<p>Apenas poderes místicos e armas mágicas podem ferir o espírito, e causam apenas metade do dano.</p>"
         },
         "Swarm": {
-          "name": "Swarm"
+          "name": "Enxame",
+          "description": "<p>A criatura é uma coletividade, sua mente espalhada em um enxame de corpos. A criatura não pode ser destruída a menos que o enxame inteiro seja obliterado.</p>",
+          "noviceDescription": "<p>O enxame sofre metade do dano de todos os ataques. Caso o enxame seja danificado e trazido abaixo de metade de sua Vitalidade, o instinto de sobrevivência de partes separadas do enxame assume e faz o resto do enxame fugir. Um ataque mental (onde o enxame usa seu Resoluto para se defender) afeta o enxame inteiro.</p>",
+          "adeptDescription": "<p>O enxame sofre metade do dano de todos os ataques. Caso o enxame sofra dano de um único ataque que exceda seu Limiar de Dor, o instinto de sobrevivência de partes separadas do enxame assume e faz o resto do enxame fugir. Além disso, o enxame pode fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>",
+          "masterDescription": "<p>A mente coletiva do enxame o controla, de forma que ele sofre apenas um quarto de qualquer dano sofrido de ataques. A coesão do enxame é completa, e ele não foge a menos que o intelecto geral escolha fazê-lo. É possível fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>"
         },
         "Terrify": {
-          "name": "Terrify"
+          "name": "Aterrorizar",
+          "description": "<p>Como uma Ação Livre, a criatura pode aterrorizar o coração de uma ou mais criaturas. Aterrorizar requer que a criatura tenha o traço monstruoso Forma Espiritual.</p>",
+          "noviceDescription": "<p>O olhar da criatura força uma única vítima a fazer um Teste de [Resoluto←Resoluto], ou automaticamente gastar suas duas ações se afastando. Caso a vítima não possa se afastar, irá se defender desesperadamente, mas não pode se compelir a atacar. A vítima pode fazer um Teste por turno, tentando afastar o medo.</p>",
+          "adeptDescription": "<p>O grito horrível da criatura força todos que estiverem próximos a fazer um Teste de [Resoluto←Resoluto], ou automaticamente gastar suas duas ações se afastando. Caso as vítimas não possam se afastar, irão se defender desesperadamente, mas não podem se compelir a atacar. A vítima pode fazer um Teste por turno, tentando afastar o medo.</p>",
+          "masterDescription": "<p>Como o II, mas a vítima não se defende contra ataques, fugindo se possível, se encolhendo no lugar se não for. A vítima pode fazer um Teste por turno para afastar o medo paralisante,</p>"
         },
         "Undead": {
           "name": "Morto-vivo",
@@ -5712,13 +5867,28 @@
           "masterDescription": "<p>O Místico pode tomar o controle da vontade de uma criatura realizando um Teste bem-sucedido de [Resoluto←Resoluto].</p> <p>O Místico não precisa se concentrar para manter o controle; ele é contínuo e considerado Ativo até o Místico falhar em um Teste de [Resoluto←Re-soluto].</p> <p>A criatura controlada pode executar suas duas Ações a cada turno normalmente.</p>"
         },
         "Blessed Shield": {
-          "name": "Blessed Shield"
+          "name": "Escudo Abençoado",
+          "material": "Um símbolo sagrado.",
+          "description": "<p>Por fé e vontade, o Místico ergue um escudo sagrado contra as armas de seus inimigos. O escudo é invisível até ser atacado, momento em que brilha como se fosse atingido por luz solar.</p>",
+          "noviceDescription": "<p>Com uma jogada bem-sucedida contra Resoluto, o Místico se envolve com um brilho quente e confortável. Este brilho fornece 1D4 de Armadura adicional. Além disso, qualquer abominação ou morto-vivo que atacar o Místico com ataques corpo a corpo sofre 1D4 de dano do brilho, ignorando Armadura. O escudo abençoado dura até o final da cena.</p>",
+          "adeptDescription": "<p>Como no nível Novato, mas o escudo agora fornece 1D6 de Armadura e dano extra. Além disso, um aliado na linha de visão pode ser incluído no efeito do Escudo Abençoado.</p>",
+          "masterDescription": "<p>Como no nível Novato, mas o escudo agora fornece 1D8 de Armadura e dano extra. Dois dos aliados do Místico podem ser incluídos no efeito do Escudo Abençoado.</p>"
         },
         "Brimstone Cascade": {
-          "name": "Brimstone Cascade"
+          "name": "Cascata de Enxofre",
+          "material": "Um punhado de enxofre puro.",
+          "description": "<p>O Místico pode liberar o espírito furioso do fogo e reduzir seus inimigos a cinzas, ou pelo menos queimá-los severamente.</p>",
+          "noviceDescription": "<p>O Místico lança fogo e enxofre contra um alvo. Caso o Místico obtenha sucesso em um Teste de [Resoluto←Rápido], a cascata causa 1D12 de dano. Caso falhe no Teste, a cascata causa somente 1D6 de dano.</p>",
+          "adeptDescription": "<p>O Místico lança uma Corrente de energia ardente. Caso o Místico obtenha sucesso em um Teste de [Resoluto←Rápido], a cascata causa 1D12 de dano. Caso falhe no Teste, a cascata causa somente 1D6 de dano. Caso o alvo sofra completamente os 1D12 de dano, o Místico pode tentar conduzir a energia em direção a novos alvos adicionais, até o Místico falhar em um Teste de [Resoluto←Rápido].</p>",
+          "masterDescription": "<p>O Místico lança uma autêntica tempestade de energia flamejante e fumegante. Caso o Místico obtenha sucesso em um Teste de [Resoluto←Rápido], a cascata causa 1D12 de dano. Caso falhe no Teste, a cascata causa somente 1D6 de dano. A Corrente continua, mesmo se o Místico falhar em um dos Testes, e não para até uma segunda tentativa fracassada.</p>"
         },
         "Confusion": {
-          "name": "Confusion"
+          "name": "confusão",
+          "material": "Algumas gotas de vinho.",
+          "description": "<p>A compreensão do Místico do labirinto dos sentidos pode deixar um inimigo perdido dentro de sua própria mente. Inimigos confusos ficam paralisados ou perdem sua capacidade de diferenciar amigo de inimigo.</p>",
+          "noviceDescription": "<p>O Místico pode confundir um inimigo com um Teste bem-sucedido de [<em>Resoluto</em>&larr;<em>Resoluto</em>], fazendo com que o inimigo desconheça suas próprias ações. Role 1D6 a cada turno até que o Místico perca a concentração ou falhe em um Teste de [<em>Resoluto</em>&larr;<em>Resoluto</em>]: <br />1&ndash;2, o alvo permanece parado, piscando estupidamente; <br />3&ndash;4, o alvo ataca o aliado mais próximo;<br />5&ndash;6, o alvo ataca o inimigo mais próximo.<br />Se houver qualquer dúvida sobre quem está mais próximo do alvo, role um dado para decidir.</p>",
+          "adeptDescription": "<p>O Místico pode confundir um inimigo sem precisar se concentrar. A Confusão é contínua até o Místico falhar em um Teste de [Resoluto←Resoluto], que deve ser realizado a cada turno.</p>",
+          "masterDescription": "<p>O Místico cria uma Corrente de Confusão. Caso o Místico consiga confundir um alvo com um Teste de [Resoluto←Resoluto], então ele pode tentar confundir alvos adicionais, até o falhar em um Teste. Resoluto é testado a cada turno para cada alvo para decidir quais deles permanecem confusos.</p>"
         },
         "Curse": {
           "name": "Maldição",
@@ -5729,7 +5899,12 @@
           "masterDescription": "<p>O Místico roga uma maldição de morte sobre um inimigo. O inimigo sofre 1D6 de dano, que ignora qualquer Armadura, por todas as Ações que ele tentar executar.</p> <p>O alvo não sofre dano se permanecer parado e passivo. Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>"
         },
         "Entangling Vines": {
-          "name": "Entangling Vines"
+          "name": "Vinhas Emaranhadoras",
+          "material": "Um punhado de sementes ou raízes entrelaçadas.",
+          "description": "<p>A terra é preenchida por raízes e objetos sobre o solo são frequentemente cobertos por vinhas. Tudo que o Místico faz é usar sua vontade para estimular o processo já em andamento da natureza.</p>",
+          "noviceDescription": "<p>O Místico invoca vinhas ou raízes emaranhadoras da terra e pode enredar um inimigo realizando um Teste bem-sucedido de Resoluto. A criatura enredada não pode se mover, mas pode utilizar armas à distância e poderes. A criatura fica enredada até o Místico falhar em um Teste de [Resoluto←Vigoroso], a partir do turno seguinte.</p>",
+          "adeptDescription": "<p>O Místico pode enredar uma Corrente de criaturas. Caso o Místico consiga enredar um alvo com um Teste bem-sucedido de Resoluto, ele ou ela pode tentar enredar um novo alvo adicional, até falhar em um Teste. A partir do turno subsequente, um Teste de [Resoluto←Vigoroso] é realizado para cada alvo para decidir quais deles permanecem enredados.</p>",
+          "masterDescription": "<p>O Místico cria uma corrente emaranhadora de espinhos. Aqueles enredados com um Teste de [Resoluto←Vigoroso]  também sofre 1D6 de dano por turno de sua prisão espinhenta. Os espinhos afiados encontram brechas na armadura do alvo, portanto, qualquer Armadura é ignorada.</p>"
         },
         "Flame Wall": {
           "name": "Muralha de Fogo",
@@ -5748,31 +5923,76 @@
           "masterDescription": "<p> O mesmo que no nível Adepto, mas o efeito contra abominações e mortos-vivos é aumentado para 1D10 e as energias sagradas também curam aliados vivos em 1D6 de Vitalidade a cada turno.</p>"
         },
         "Illusory Correction": {
-          "name": "Illusory Correction"
+          "name": "Correção Ilusória",
+          "material": "Um estilhaço de um espelho.",
+          "description": "<p>Há uma lacuna entre o mundo e a percepção dele. O Místico pode usar esta lacuna para evadir um destino aparentemente horrível ou fazer alterações no fluxo e na percepção da realidade.</p>",
+          "noviceDescription": "<p>O Místico pode realizar um Teste de Resoluto uma vez por turno para realizar uma correção da realidade; se bem-sucedido, o Místico pode rerrolar um Teste fracassado de Defesa.</p>",
+          "adeptDescription": "<p>Uma vez por turno, o Místico pode realizar um Teste de Resoluto para corrigir algo que aconteceu a ele ou ela durante o turno. Isto significa que qualquer teste que de alguma forma afetou o Místico pode ser rerrolado.</p>",
+          "masterDescription": "<p>Uma vez por turno, o Místico pode realizar um Teste de Resoluto para corrigir a realidade de alguém. Isto significa que qualquer Teste que tenha afetado o alvo de qualquer forma pode ser rerrolado.</p>"
         },
         "Inherit Wound": {
-          "name": "Inherit Wound"
+          "name": "Herdar Ferimento",
+          "material": "Um respingo de sangue.",
+          "description": "<p>O Místico estudou intimamente os espíritos da criação e da morte, e pode utilizar este conhecimento para redistribuir dano entre ele, seus aliados e seus inimigos.</p>",
+          "noviceDescription": "<p>Realizando uma jogada bem-sucedida contra Resoluto, o Místico pode atrair os espíritos do dano de outra criatura. O alvo é curado em 1D6 de Vitalidade, enquanto o Místico sofre a mesma quantidade de dano.</p>",
+          "adeptDescription": "<p>Como Novato, mas o efeito cura 1D8 de Vitalidade e também transfere quaisquer efeitos contínuos de veneno e sangramento para o Místico. O Místico sofre metade do dano, tanto de ferimentos (arredondada para cima) quanto de qualquer veneno ou sangramento.</p>",
+          "masterDescription": "<p>Como Novato, mas o efeito cura 1D8 de Vitalidade e também transfere quaisquer efeitos contínuos de veneno e sangramento para o Místico. O Místico sofre metade do dano, tanto de ferimentos (arredondada para cima) quanto de qualquer veneno ou sangramento.</p>"
         },
         "Larvae Boil": {
-          "name": "Larvae Boil"
+          "name": "Fervilhar Larvas",
+          "material": "Um punhado de larvas.",
+          "description": "<p>Tirando energia da força da ira, o Místico pode infundir o corpo de um inimigo com larvas que começam a comer seu caminho para fora. Embora isto seja amplamente refutado por membros da corte, há rumores persistentes por aí dizendo que foi assim que o rei herói Ynedar encontrou sua morte.</p>",
+          "noviceDescription": "<p>O Místico implanta larvas dentro do corpo de seu inimigo, que então começam a comer seu caminho para fora. O pobre alvo sofre 1D4 de dano a cada turno, ignorando Armadura. O efeito é automático no primeiro turno e continua até que o Místico falhe em um Teste de [Resoluto←Vigoroso].</p>",
+          "adeptDescription": "<p>As larvas crescem dentro do corpo causando 1D6 de dano a cada turno, ignorando Armadura. O efeito continua até o Místico falhar em um Teste de [Resoluto←Vigoroso].</p>",
+          "masterDescription": "<p>As larvas enxameiam dentro do corpo do alvo e causam 1D8 de dano a cada turno, ignorando Armadura. O efeito continua até o Místico falhar em um Teste de [Resoluto←Vigoroso].</p>"
         },
         "Lay on Hands": {
-          "name": "Lay on Hands"
+          "name": "Imposição de Mãos",
+          "material": "Um símbolo sagrado.",
+          "description": "<p>Os segredos da vida se revelam para o Místico e com eles o cobiçado poder de cura, frequentemente interpretado como um dom de qualquer que seja a divindade que o Místico segue.</p>",
+          "noviceDescription": "<p>O Místico pode, através de um toque, e obtendo sucesso em um Teste de Resoluto, curar 1D6 pontos da Vitalidade de um alvo. Este poder também funciona no próprio Místico.</p>",
+          "adeptDescription": "<p>A Imposição de Mãos do Místico agora cura 1D8 pontos da Vitalidade do alvo e encerra efeitos contínuos de venenos e sangramento.</p>",
+          "masterDescription": "<p>O Místico pode curar uma criatura em sua visão, curando 1D8 pontos de Vitalidade e encerrando efeitos contínuos de venenos e sangramento. O Místico agora cura 1D12 pontos de Vitalidade quando tocar o alvo.</p>"
         },
         "Levitate": {
-          "name": "Levitate"
+          "name": "Levitação",
+          "material": "Um punhado de penas.",
+          "description": "<p>A força que une o mundo pode ser manipulada, e com essa compreensão, o Místico ganhou a capacidade de levitar, usando nada além do que o poder da mente.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode planar sobre o campo de batalha, fora do alcance de armas corpo a corpo. O Místico pode se mover uma distância igual a um deslocamento por turno enquanto levita. Ataques à distância e inimigos voadores continuam sendo problema. O Místico permanece flutuando no ar até encerrar sua concentração ou a cena acabar. Caso a concentração seja quebrada, o Místico cai no chão e sofre 1D6 de dano, ignorando qualquer Armadura que o Místico possa estar vestindo.</p>",
+          "adeptDescription": "<p>O Místico pode levitar um aliado com um Teste de [Resoluto←Vigoroso] e permitir que ele flutue sobre o campo de batalha, fora do alcance das armas corpo a corpo dos inimigos. O Místico pode mover o aliado flutuando uma distância igual a um deslocamento por turno enquanto ele está levitando. Ataques à distância e inimigos voadores continuam sendo problema. O aliado permanece flutuando no ar até o Místico encerrar sua concentração ou a cena acabar. Caso a concentração seja encerrada, o aliado cai no chão e sofre 1D6 de dano, ignorando qualquer Armadura que ele ou ela possa estar vestindo.</p>",
+          "masterDescription": "<p>O Místico pode fazer a si mesmo e a uma Corrente de aliados [Resoluto←Vigoroso] flutuar sobre o campo de batalha, fora do alcance das armas corpo a corpo dos inimigos. O Místico pode mover a si próprio e qualquer criatura flutuante a uma distância igual a um passo por turno enquanto levita. Ataques à distância e inimigos voadores continuam sendo problema.O Místico e seus aliados permanecem flutuando no ar até encerrar sua concentração ou a cena acabar. Caso a concentração seja encerrada, todos caem no chão sem sofrer qualquer dano.</p>"
         },
         "Maltransformation": {
-          "name": "Maltransformation"
+          "name": "Maltransformação",
+          "material": "Uma pupa ou um ovo.",
+          "description": "<p>O Místico compreendeu que aparência física é um conceito dinâmico, e sabe como usar essa intuição para transformar seus inimigos em formas mais fracas.</p>",
+          "noviceDescription": "<p>Com uma jogada bem-sucedida contra Resoluto, o Místico pode transformar um alvo em uma besta inofensiva (mamífero ou réptil, o Místico decide). O alvo permanece na forma até o Místico encerrar sua concentração ou falhar em um Teste de [Resoluto←Resoluto]. Este Teste é feito uma vez por turno na Iniciativa do Místico. O animal inofensivo mantém os Atributos originais do alvo, mas nenhuma de suas habilidades ou poderes e não pode atacar nem usar itens.</p>",
+          "adeptDescription": "<p>O Místico não precisa se concentrar para manter a Maltransformação ativa; o efeito é contínuo até o Místico falhar em um Teste de [Resoluto←Resoluto].</p>",
+          "masterDescription": "<p>O Místico pode desencadear uma Corrente de Maltransformações. Caso obtenha sucesso em transformar um alvo, ele pode tentar transformar um novo alvo adicional, até o Místico falhar em um Teste. A Maltransformação é contínua até o Místico falhar em um Teste de Resoluto, feito a cada turno para cada alvo.</p>"
         },
         "Mind-throw": {
-          "name": "Mind-throw"
+          "name": "Arremesso Mental",
+          "material": "Uma pérola de vidro.",
+          "description": "<p>O Místico pode usar sua mente para mover e arremessar objetos soltos, ou até mesmo inimigos. </p>",
+          "noviceDescription": "<p>O Místico pode ativamente arremessar objetos na área ao redor como se fossem armas ou usá-los reativamente para bloquear ataques. O Místico terá que realizar um Teste bem-sucedido de [Resoluto←Rápido] para atacar desta maneira e causar 1D8 de dano. Se algum objeto for utilizado como um escudo temporário, faça um Teste de[Resoluto←Preciso] para bloquear ataques físicos ou de [Resoluto←Resoluto] para tentar bloquear um projétil mágico. O objeto é destruído após um golpe, independentemente de ter acertado ou bloqueado.</p>",
+          "adeptDescription": "<p>O Místico é capaz de usar o poder de sua mente  [Resoluto←Vigoroso] para erguer e arremessar um inimigo. Um inimigo arremessado perde uma Ação de Movimento e sofre 1D8 de dano. O inimigo cai de costas, a menos que obtenha sucesso em um Teste de Rápido.</p>",
+          "masterDescription": "<p>O Místico pode arremessar uma Corrente de inimigos se obtiver sucesso em um Teste de [Resoluto←Vigoroso]. O Místico começa com um alvo e continua fazendo Testes até ele ou ela falhar. Os inimigos arremessados perdem uma Ação de Movimento e sofrem 1D8 de dano. Os inimigos caem de costas, a menos que obtenham sucesso em um Teste de Rápido.</p>"
         },
         "Natures Embrace": {
-          "name": "Natures Embrace"
+          "name": "Abraço da Natureza",
+          "material": "Um punhado de terra",
+          "description": "<p>O solo profundo do mundo é um lugar seguro para o Místico, pois a rocha da montanha pode se tornar um abrigo. O Místico pode afundar na terra e, assim, evitar ataques de seus inimigos.</p>",
+          "noviceDescription": "<p>O Místico é capaz de afundar na terra caso ele ou ela obtenha sucesso em um Teste de Resoluto. Na terra, o Místico é invulnerável, mas também incapaz de realizar quaisquer Ações. O Místico deve obter sucesso em outro Teste de Resoluto a cada turno para permanecer no seio seguro da terra. Se o Místico falhar no teste, então ele ou ela retorna à superfície.</p>",
+          "adeptDescription": "<p>O Místico pode usar poderes místicos em si mesmo enquanto estiver na terra, e não precisa testar Resoluto para permanecer sob ela.</p>",
+          "masterDescription": "<p>O Místico pode se mover usando sua Ação de Movimento e aparecer em um lugar diferente do que havia afundado pela primeira vez no solo. O Místico também pode usar poderes em seus aliados enquanto estiver na terra, assim como ver aliados através das camadas de proteção do solo.</p>"
         },
         "Prios Burning Glass": {
-          "name": "Prios Burning Glass"
+          "name": "Luz Ardente de Prios",
+          "material": "Um símbolo sagrado.",
+          "description": "<p>O Místico pode focar a luz de sua alma em um raio ardente, que fere a maioria dos seres e destrói o profano.</p>",
+          "noviceDescription": "<p>Com um Teste de Resoluto, o Místico conduz a luz sagrada em direção ao alvo, causando 1D6 de dano. O dano aumenta para 1D8 caso o alvo seja uma abominação ou morto-vivo.</p>",
+          "adeptDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode fazer a luz sagrada passar através de todos os inimigos próximos. A energia ardente causa 1D8 de dano, e 1D12 em abominações e mortos-vivos.</p>",
+          "masterDescription": "<p>Com um Teste de Resoluto, o Místico pode fazer sua luz interna brilhar sobre todos os inimigos próximos, causando 1D8 de dano, e 1D12 se os inimigos forem abominações ou mortos-vivos. O Místico também pode atordoar todos os inimigos completamente corrompidos e mortos-vivos por um turno se ele ou ela obtiver sucesso em um Teste de [Resoluto←Resoluto].</p>"
         },
         "Revenant Strike": {
           "name": "Golpe de Regresso",
@@ -5783,7 +6003,12 @@
           "masterDescription": "<p>Como Adepto, mas o efeito é ativado como uma ação livre e um acerto causa +1D8 de dano em vez de +1D4.</p>"
         },
         "Shapeshift": {
-          "name": "Shapeshift"
+          "name": "Metamorfose",
+          "material": "Um pouco de pelo ou couro da besta em questão.",
+          "description": "<p>A compreensão do Místico sobre a essência da Natureza torna possível para ele ou ela assumir a forma de bestas — um talento pelo qual as bruxas-serpente do clã Gaoia são particularmente famosas.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode assumir a forma de uma besta pequena (mamífero ou réptil), o que é muito prático quando se deseja escapar ou fazer reconhecimento de terreno, mas é inútil em combate.</p> <p>Os Atributos do Místico permanecem inalterados, mas ele pode se mover duas vezes mais rápido e pode rerrolar todos os Testes de Discreto e Rápido (inclusive Defesa).</p> <p>Além disso, inimigos não recebem Ataques Livres contra o Místico quando está nesta forma, mesmo se recuar do combate corpo a corpo ou passar por um inimigo.</p> <p>O Místico não precisa testar Resoluto para permanecer na forma de besta, mas precisa passar em um Teste de Resoluto para voltar à sua forma original. Pela duração da transformação, o Místico conta como uma besta.</p> <p>Se o Místico for vítima de poderes que afetam bestas, então ele pode escolher permanecer na forma de besta; e assim sofrer o efeito do poder; ou reverter de volta à sua forma original.</p>",
+          "adeptDescription": "<p>O Místico pode assumir a forma de uma besta de batalha (javali ou lobo são as mais comuns). A forma de besta tem os Atributos do Místico, mas também recebe os traços @UUID[Item.Xr7bWs207ZVRpXEj]{Armadurado (I)} e @UUID[Item.5YtJyy2zkjpmb9d6]{Arma Natural (I)} .</p>",
+          "masterDescription": "<p>O Místico agora pode assumir a forma de uma besta de batalha verdadeiramente imponente, recebendo os traços @UUID[Item.5ARJy8NPBaFW4ODJ]{Regeneração (I)} e @UUID[Item.ESNdn1hIKnuQdgV8]{Robusto (I)} em adição aos recebidos pelo nível de Adepto.</p>"
         },
         "Storm Arrow": {
           "name": "Flecha de Tempestade",
@@ -5834,10 +6059,18 @@
 
         },
         "Shapeshifter": {
-          "name": "Shapeshifter"
+          "name": "Metamorfo",
+          "description": "<p>O personagem possui a capacidade de assumir a aparência de outros por um período. Para jovens cambiantes esta habilidade surge naturalmente, e pode ser difícil para eles não adotar a aparência e maneiras de pessoas ao seu redor. Cambiantes maduros normalmente desenvolvem um maior controle sobre o traço.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido contra Resoluto, o personagem pode adotar uma forma falsa; a forma, aparência, voz e roupas de outra criatura, mas não a de um indivíduo específico. O cambiante pode manter a aparência pela duração de uma cena, e depois a ilusão se desfaz. Todos com que o personagem interagir verão através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante].</p>",
+          "adeptDescription": "<p>O personagem pode, por um curto período e com um Teste bem-sucedido de Resoluto, adotar a forma de indivíduos específicos que o personagem encontrou, e pode incluir roupas e atributos à imagem.</p> <p>Em combate contra múltiplos oponentes, a similaridade é boa o suficiente para tornar difícil para inimigos atingirem seu alvo — existe 50% de chance de inimigos tentando atingir o personagem atingirem seu companheiro copiado. É exigida concentração para manter a forma ilusória, o que significa que o personagem deve realizar um Teste de Resoluto a cada turno, assim como um Teste bem-sucedido de [Resoluto –Dano da Arma] toda vez que o cambiante sofrer dano.</p>",
+          "masterDescription": "<p>Com um Teste bem-sucedido de Resoluto, o personagem pode adotar a forma de um indivíduo específico e mantê-la pela duração de uma cena. Qualquer um que falar com o personagem será capaz de ver através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante]. Para um personagem ser capaz de enganar pessoas familiarizadas à pessoa copiada, ele ou ela deve obter sucesso em dois Testes, primeiro à distância e depois outro quando iniciar uma conversa.</p>"
         },
         "Survival Instinct": {
-          "name": "Survival Instinct"
+          "name": "instinto de Sobrevivência",
+          "description": "<p>O personagem pertence a uma linhagem com força vital poderosa e uma vontade de sobreviver igualmente poderosa. Para alguns indivíduos, esta energia se manifesta como um clamoroso brado e uma perspicácia incansável; para outros, ela se manifesta como um instinto de sobrevivência mais útil. </p>",
+          "noviceDescription": "<p>Graças a seu instinto de sobrevivência explosivo, o personagem pode realizar uma Ação de Movimento extra uma vez por cena.</p>",
+          "adeptDescription": "<p>O personagem confia em seus instintos e aprendeu que lidar com as adversidades frequentemente salva sua vida. O instinto de sobrevivência afiado do personagem lhe fornece +1D4 permanente à Armadura.</p>",
+          "masterDescription": "<p>Um poderoso espírito de luta reside em cada membro da linhagem do personagem, e esse espírito pode se mostrar quando o personagem é encurralado.</p> <p>O personagem nutriu esta agressão violenta e pode sacrificar uma Ação de Movimento uma vez por cena para realizar uma Ação de Combate extra.</p>"
         },
         "Arbalest": {
           "name": "Arbalesta",

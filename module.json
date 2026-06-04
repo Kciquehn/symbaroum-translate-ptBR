@@ -2,37 +2,36 @@
   "id": "symbaroum-ptBR",
   "title": "symbaroum-ptBR",
   "description": "<p>Tradução do jogo Symbaroum RPG do Foundry VTT para Português Brasileiro!</p>",
-
   "authors": [
     {
       "name": "Kacique",
       "discord": "kcirehn",
+      "email": "erickhenriquehn1@gmail.com",
       "flags": {}
     }
   ],
-
   "version": "1.0.0",
-
   "compatibility": {
     "minimum": "13",
     "verified": "13.344",
     "maximum": "13.999"
   },
-
   "esmodules": [
     "register.js"
   ],
-
   "packs": [
     {
       "name": "compendium-symbaroum-ptbr",
       "label": "Symbaroum PT-BR",
       "path": "packs/compendium-symbaroum-ptbr",
       "type": "Adventure",
-      "system": "symbaroum"
+      "system": "symbaroum",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-
   "relationships": {
     "requires": [
       {
@@ -46,7 +45,6 @@
         "compatibility": {}
       }
     ],
-
     "systems": [
       {
         "id": "symbaroum",
@@ -55,9 +53,8 @@
       }
     ]
   },
-
   "manifest": "https://raw.githubusercontent.com/Kciquehn/symbaroum-translate-ptBR/main/module.json",
   "download": "https://github.com/Kciquehn/symbaroum-translate-ptBR/archive/refs/heads/main.zip",
-
+  "url": "https://github.com/Kciquehn/symbaroum-translate-ptBR",
   "flags": {}
 }
