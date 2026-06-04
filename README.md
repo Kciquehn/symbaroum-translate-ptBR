@@ -25,10 +25,16 @@ A tradução está sendo desenvolvida manualmente e busca manter a terminologia 
 
 ## Instalação
 
+<<<<<<< HEAD
 Instale o módulo normalmente pelo Foundry VTT e ative:
 
 - Babele
 - Symbaroum PT-BR
+=======
+* Symbaroum Cole Rule
+* Monster Codex
+* Adventure Collection
+>>>>>>> 476cbe608a2829fbdbb132d1f243e7d4d624c59c
 
 ## Status
 
