@@ -1,57 +1,60 @@
-# Symbaroum PT-BR
+# Symbaroum - Tradução para Português Brasileiro
 
-Tradução do sistema de RPG de mesa digital :contentReference[oaicite:0]{index=0} para Português Brasileiro no Foundry VTT.
-
-## Sobre
-
-Este módulo tem como objetivo traduzir o sistema Symbaroum para PT-BR, incluindo:
-
-- Regras básicas
-- Poderes
-- Habilidades
-- Equipamentos
-- Descrições
-- Journals
-- Guias do sistema
-- Aventuras e conteúdos adicionais
-
-A tradução está sendo desenvolvida manualmente e busca manter a terminologia e ambientação oficiais do cenário.
-
-## Requisitos
-
-- Foundry VTT v13+
-- Sistema Symbaroum
-- Módulo Babele
+Tradução do sistema **Symbaroum RPG** para **Português Brasileiro** no Foundry VTT.
 
 ## Instalação
 
-<<<<<<< HEAD
-Instale o módulo normalmente pelo Foundry VTT e ative:
+**Manifest URL**
 
-- Babele
-- Symbaroum PT-BR
-=======
-* Symbaroum Cole Rule
-* Monster Codex
-* Adventure Collection
->>>>>>> 476cbe608a2829fbdbb132d1f243e7d4d624c59c
+```text
+https://raw.githubusercontent.com/Kciquehn/symbaroum-translate-ptBR/main/module.json
+```
 
-## Status
+## Avisos Importantes
 
-O projeto ainda está em desenvolvimento e pode conter:
-- Traduções incompletas
-- Pequenos erros de texto
-- Termos ainda não padronizados
+> ⚠️ Ao ativar o módulo de tradução, é necessário importar novamente as aventuras e compêndios para que os textos traduzidos sejam atualizados corretamente.
 
-## Feedback
+> ⚠️ A tradução ainda está em desenvolvimento e pode conter erros, termos inconsistentes ou conteúdo não traduzido. Caso encontre algum problema, entre em contato para que ele possa ser corrigido.
 
-Caso encontre erros ou queira ajudar no projeto:
+## Contato
 
-- Discord: `kcirehn`
-- Email: `erickhenriquehn1@gmail.com`
+* Discord: `kcirehn`
+* E-mail: `erickhenriquehn1@gmail.com`
+
+## Conteúdo Traduzido
+
+Atualmente o projeto contempla a tradução dos seguintes elementos:
+
+* Equipamentos
+* Poderes
+* Habilidades
+* Descrições
+* Diários (Journals)
+* Guias do Sistema
+* Aventuras Compatíveis
+
+Todo o conteúdo está sendo traduzido manualmente, buscando preservar a terminologia e a ambientação original de Symbaroum.
+
+## Requisitos
+
+* Foundry VTT v13+
+* Sistema Symbaroum
+* Módulo Symbaroum Core Rulebook
+* Módulo Babele
+
+## Progresso da Tradução
+
+| Conteúdo                                | Progresso |
+| --------------------------------------- | --------- |
+| Livro Básico (Core Rulebook)            | 70%       |
+| Guia Avançado (Advanced Player's Guide) | 40%       |
+
+## Observações
+
+Este projeto é desenvolvido de forma independente e durante o tempo livre. Sugestões, correções e relatos de erros são sempre bem-vindos.
 
 ## Créditos
 
-- Symbaroum — Free League Publishing
-- Foundry VTT
-- Babele
+* Free League Publishing
+* Foundry Virtual Tabletop
+* Babele
