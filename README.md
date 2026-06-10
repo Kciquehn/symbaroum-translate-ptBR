@@ -58,3 +58,4 @@ Este projeto é desenvolvido de forma independente e durante o tempo livre. Suge
 * Free League Publishing
 * Foundry Virtual Tabletop
 * Babele
+* Tria Editora

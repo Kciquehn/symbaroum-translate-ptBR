@@ -29,6 +29,12 @@ Hooks.once('ready', async () => {
       <h2>Symbaroum PT-BR</h2>
 
       <p>
+        <strong>⚠️ Atenção:</strong> Após ativar o módulo de tradução, 
+        é necessário importar novamente as aventuras e compêndios
+        para que os textos traduzidos sejam aplicados corretamente.
+      </p>
+
+      <p>
         Este módulo está sendo desenvolvido apenas por mim, Kacique.
         Portanto, ele pode conter erros de tradução, nomes incorretos
         ou outros problemas que ainda não encontrei.
