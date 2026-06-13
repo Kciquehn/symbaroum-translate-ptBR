@@ -145,7 +145,7 @@
             "16. Benego’s": "16. Benego’s",
             "17. Legends": "17. Lendas",
             "18. The Hangman’s Pole": "18. O Poste do Enforcado",
-            "19. The Abomitorium": "19. O Abomitorium",
+            "19. The Abomitorium": "19. O Abomitório",
             "20. Marvalom’s General Store": "20. Marvalom’s",
             "21. The Rope and Axe": "21. A Corda e Machado",
             "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
@@ -189,7 +189,7 @@
             "16. Benego’s": "16. Benego’s",
             "17. Legends": "17. Lendas",
             "18. The Hangman’s Pole": "18. O Poste do Enforcado",
-            "19. The Abomitorium": "19. O Abomitorium",
+            "19. The Abomitorium": "19. O Abomitório",
             "20. Marvalom’s General Store": "20. Marvalom’s",
             "21. The Rope and Axe": "21. A Corda e Machado",
             "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
@@ -7151,7 +7151,7 @@
           }
         },
         "The Witch and Familiar": {
-          "name": "The Witch and Familiar"
+          "name": "A Bruxa e Familiar"
         },
         "The Toad’s Square": {
           "name": "A Praça do Sapo",
@@ -7163,11 +7163,11 @@
           }
         },
         "The Rope and Axe": {
-          "name": "The Rope and Axe",
+          "name": " Corda e Machado",
           "pages": {
             "The Rope and Axe Text": {
-              "name": "The Rope and Axe Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE ROPE AND AXE</h5>\n<p class=\"pblock\">Run by Melena, Marvalom’s daughter and a fierce rival of his. The business idea is simple – everything needed for travels in Davokar can be found under the same roof.</p>\n</div>"
+              "name": " Corda e Machado Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A CORDA E O MACHADO</h5>\n<p class=\"pblock\">Gerido por Melena, filha de Marvalom e sua feroz rival, o negócio tem uma ideia simples: tudo o que é necessário para viajar em Davokar pode ser encontrado no mesmo local.</p>\n</div>"
             }
           }
         },
@@ -7181,11 +7181,11 @@
           }
         },
         "The Town Seat": {
-          "name": "The Town Seat",
+          "name": "O Assento da Cidade",
           "pages": {
             "The Town Seat Text": {
-              "name": "The Town Seat Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE TOWN SEAT</h5>\n<p class=\"pblock\">By the Antique Plaza stands the building where the staff of Lasifor Nightpitch holds court. The one who handles the daily business is Ader Gorinder, the last survivor of a small noble house that otherwise perished during The Great War. There are also the relentless Tax Commissioner Dario, the Law Commissioner Asmerda and the Construction Commissioner Kalio Galeia – all of them recruited by the Mayor when the town was being built, and faithful to him ever since. <br /><br />The administration building also houses the Hall of Knights, a meeting and resting place for nobles visiting the Hold. Officially Suria Argona, the Queen’s Legate, is in charge of the activities in the Knight’s Hall, but it is commonly known that her father has taken over that role. Count Alkantor is a close friend of Lasifor Nightpitch and when parties are held in the Hall you can often see the roofed carriage of the Mayor parked outside the Town’s Seat.</p>\n</div>"
+              "name": "O Assento da Cidade Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O ASSENTAMENTO DA CIDADE</h5>\n<p class=\"pblock\">Ao lado da Praça das Antiguidades fica o prédio onde a equipe de Lasifor Campo Noturno realiza suas audiências. Quem cuida dos assuntos diários é Ader Gorinder, o último sobrevivente de uma pequena casa nobre que pereceu durante a Grande Guerra. Também fazem parte da equipe o implacável Comissário de Impostos Dario, a Comissária Jurídica Asmerda e o Comissário de Construção Kalio Galeia – todos recrutados pelo Prefeito durante a construção da cidade e a ele fiéis desde então. <br /><br />O edifício administrativo também abriga o Salão dos Cavaleiros, um local de encontro e descanso para nobres que visitam a Fortaleza. Oficialmente, Suria Argona, a Legada da Rainha, é responsável pelas atividades no Salão dos Cavaleiros, mas é sabido que seu pai assumiu essa função. O Conde Alkantor é um amigo próximo de Lasifor Campo Noturno e, quando festas são realizadas no Salão, é comum ver a carruagem coberta do Prefeito estacionada em frente à sede da cidade.</p>\n</div>"
             }
           }
         },
@@ -7199,11 +7199,11 @@
           }
         },
         "The Thaler’s Drugstore": {
-          "name": "The Thaler’s Drugstore",
+          "name": "A Drogaria do Táler",
           "pages": {
             "The Thaler’s Drugstore Text": {
-              "name": "The Thaler’s Drugstore Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>The Thaler’s Drugstore:</h5>\n<p class=\"pblock\">The alchemists’ equivalent to Marvalom’s – a store, run by the sisters Ofera and Moria, where you can find all kinds of ingredients and readymade elixirs.</p>\n</div>"
+              "name": "A Drogaria do Táler Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A Drogaria do Táler:</h5>\n<p class=\"pblock\">O equivalente alquímico da loja de Marvalom – uma loja administrada pelas irmãs Ofera e Moria, onde você pode encontrar todos os tipos de ingredientes e elixires prontos.</p>\n</div>"
             }
           }
         },
@@ -7215,7 +7215,7 @@
           "pages": {
             "The Sun Temple Text": {
               "name": "texto o templo do sol",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE SUN TEMPLE</h5>\n<p class=\"pblock\">By the Park of the Elders lays the town’s sun temple with its shining copper dome on the roof. <br /><br />Its First Theurg is named Elfeno, a priest mage who despite his relative youth is said to be one of the Sun God’s most powerful servants. At times, when the leader of the temple steps in instead of the liturgs who normally handles the Sunset Mass, the audience gets to experience something unforgettable. <br /><br />Those able to make the comparison claim that not even the First Father speaks with such passion, of his love for Prios and humankind’s appointed task – to tirelessly and humbly cultivate nature, thereby cleansing it from the rampant forces of evil.</p>\n</div>"
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O TEMPLO  O SOL</h5>\n<p class=\"pblock\">Junto ao Parque dos Anciãos fica o templo solar da cidade, com sua cúpula de cobre brilhante no telhado. <br /><br />Seu primeiro teurgo se chama Elfeno, um sacerdote mago que, apesar de sua relativa juventude, é considerado um dos servos mais poderosos do Deus Sol. Às vezes, quando o líder do templo substitui os litúrgicos que normalmente celebram a Missa do Pôr do Sol, o público tem a oportunidade de vivenciar algo inesquecível. <br /><br />Aqueles que são capazes de fazer a comparação afirmam que nem mesmo o Padre Jeesebegai fala com tanta paixão do seu amor por Prios e pela tarefa designada à humanidade: cultivar a natureza incansavelmente e com humildade, purificando-a assim das forças desenfreadas do mal.</p>\n</div>"
             }
           }
         },
@@ -7226,26 +7226,26 @@
           "name": "Lendas"
         },
         "The Antique Plaza": {
-          "name": "The Antique Plaza",
+          "name": "A Praça Antiga",
           "pages": {
             "The Antique Plaza Text": {
-              "name": "The Antique Plaza Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE ANTIQUE PLAZA</h5>\n<p class=\"pblock\">What happens in the Antique Plaza at the center of town is determined by the ebb and flood caused by the varied success of treasure-hunters and explorers. The stalls and booths are of course always there, and so are the potential and very eager buyers from Yndaros and the noble houses. But sometimes the latter cannot do much else but sip hot beverages at the plaza’s famous tea-houses or examine the ancient bronze well – a remnant of old Symbaroum that in fact is the reason why Thistle Hold is located where it is. <br /><br />Everything changes when one or two expeditions return from the wilds. Usually it takes a couple of days before the treasures reach the plaza, since a select crowd of potential buyers always get the opportunity to inspect the items first. But when that happens the whole block is turned upside down: food and drinks are served from every window; the sound of voices arguing about prices combines with the cacophony of bards trying to outperform each other and the cries from victims of muggers. Only inside the Treasury and Faraldo’s Novelty Store – the establishments that most often are awarded the privilege of selling the finest antiques – does a relative calm prevails as the auctions proceed.</p>\n<br /><br /></div>"
+              "name": "A Praça Antiga Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A PRAÇA ANTIGA/h5>\n<p class=\"pblock\">O que acontece na Praça Antiga no centro da cidade é determinado pela maré causada pelo sucesso variado dos caçadores de tesouros e exploradores. As barracas e estandes estão sempre lá, é claro, assim como compradores ansiosos em potencial de Yndaros e das casas nobres. Mas algumas vezes os últimos não podem fazer mais do que saborear bebidas quentes nas famosas casas de chá da praça ou examinar o antigo poço de bronze — um vestígio da velha Symbaroum e a razão real do porquê Forte do Cardo está onde está. <br /><br />Tudo muda quando uma ou duas expedições retornam dos ermos. Geralmente leva alguns dias antes dos tesouros alcançarem a praça, já que uma população selecionada de compradores em potencial sempre tem a oportunidade de inspecionar os itens primeiro. Mas quando isso acontece, o quarteirão inteiro fica de cabeça pra baixo: comidas e bebidas são servidas de todas as janelas, o som das vozes discutindo sobre preços combina com a cacofonia de bardos tentando superar uns aos outros aos gritos das vítimas de ladrões. Apenas dentro do Tesouro e da Loja de Novidades do Faraldo — os estabelecimentos que mais frequentemente recebem o privilégio de vender as melhores antiguidades — uma calma relativa prevalece enquanto os leilões acontecem.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Court and Harp": {
-          "name": "The Court and Harp"
+          "name": "A Corte e a Harpa"
         },
         "The Seamstress’ Rest": {
-          "name": "The Seamstress’ Rest"
+          "name": "O Descanso da Costureira"
         },
         "The Queen’s Square": {
-          "name": "The Queen’s Square",
+          "name": "A Praça da Rainha",
           "pages": {
             "The Queen’s Square Text": {
-              "name": "The Queen’s Square Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE QUEEN’S SQUARE</h5>\n<p class=\"pblock\">He who does not mind purchasing used equipment or spending a while searching for the right items does best to shop at the market on the Queen’s Square.</p>\n</div>"
+              "name": "A Praça da Rainha Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A Praça da Rainha</h5>\n<p class=\"pblock\">Quem não se importa de comprar equipamentos usados ​​ou de passar algum tempo procurando os itens certos, fará compras no mercado da Praça da Rainha da melhor maneira possível.</p>\n</div>"
             }
           }
         },
@@ -7253,11 +7253,11 @@
           "name": "Odovakar"
         },
         "Marvalom’s General Store": {
-          "name": "Marvalom’s General Store",
+          "name": "Marvalom’s",
           "pages": {
             "Marvalom’s General Store Text": {
-              "name": "Marvalom’s General Store Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>MARVALOM’S GENERAL STORE</h5>\n<p class=\"pblock\">Specializes in equipment for treasure-hunters and explorers but can keep prices that are about 20 percent above normal because of its legendary status.</p>\n</div>"
+              "name": "Marvalom’s Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A MERCEARIA DO MARVALOM’S</h5>\n<p class=\"pblock\">se especializa em equipamentos para caçadores de tesouros e exploradores, mas cobra preços cerca de 10 por cento acima do normal por seu status lendário.</p>\n</div>"
             }
           }
         },
@@ -7271,11 +7271,11 @@
           }
         },
         "The Treasury": {
-          "name": "The Treasury",
+          "name": "O Tesouro",
           "pages": {
             "The Treasury Text": {
-              "name": "The Treasury Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE TREASURY</h5>\n<p class=\"pblock\">A former Master of Ordo Magica named Sefira runs this auction house with her family. Thanks to their good reputation, they can charge more than others for certificates of authenticity – about 25 thaler for artifacts and 5 thaler for curiosities and art objects – and also claim a provision as high as 25% on all sales. Despite the cost, people are queuing to have their finds examined and valued.</p>\n</div>"
+              "name": "O Tesouro Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O TESOURO</h5>\n<p class=\"pblock\">Uma antiga Mestra da Ordo Magica chamada Sefira administra esta casa de leilões com sua família. Graças à sua boa reputação, eles podem cobrar mais do que outros por certificados de autenticidade – cerca de 25 táleres para artefatos e 5 táleres para curiosidades e objetos de arte – e também reivindicar uma comissão de até 25% sobre todas as vendas. Apesar do custo, as pessoas fazem fila para que seus achados sejam examinados e avaliados.</p>\n</div>"
             }
           }
         },
@@ -7283,11 +7283,11 @@
           "name": "Parque dos Anciãos"
         },
         "The Mission Station": {
-          "name": "The Mission Station",
+          "name": "A Estação Missionária",
           "pages": {
             "The Mission Station Text": {
-              "name": "The Mission Station Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE MISSIONARY STATION</h5>\n<p class=\"pblock\">In close proximity to the Antique Plaza is a building which has acidified the relations between Mayor Nightpitch and the ruling body of the Sun Church, the Curia – namely the missionary station of the highborn sun priest Father Sarvola. The elderly liturg has long been notorious within the Church for calling its practices crude, heartless and condemning. He says that: “Just like the sun generously shines upon high and low, wretched and pious, so shall our Church treat all children of Prios with the same warmth and love.” Since coming into an enormous inheritance a couple of years ago he has used his newly acquired wealth to spread this message of love and compassion – a message that persuades a slowly increasing number of newly ordained priests to help him in the tasks of running the soup-kitchen in Blackmoor and proselytizing both there and among the Karabbadokks. <br /><br />The fact that Mayor Nightpitch allows Sarvola to run his heretic movement in town is highly disapproved of by literalist theurgs and Black Cloaks, especially by father Elfeno, the head of the local sun temple. But the Mayor argues that so long as you pay your dues and refrain from inciting riots anyone is welcome to stay. However, there are many indications that the agents of the Church will take matters into their own hands. New malicious rumors about Sarvola surface on a daily basis and his sermons are often disrupted by boos and seemingly spontaneous outbursts in the audience.</p>\n<br /><br /></div>"
+              "name": "A Estação Missionária Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A ESTAÇÃO MISSIONÁRIA</h5>\n<p class=\"pblock\">Bem perto da Praça Antiga está a construção que amargou o relacionamento entre o Prefeito Campo Noturno e o corpo governante da Igreja do Sol, a Cúria — a estação missionária do sacerdote do sol bem-nascido, o Padre Sarvola. O liturgo ancião tem sido notório há tempos dentro da Igreja por achar as práticas dela brutas, sem coração e condenáveis. Ele diz que: “Assim como o sol generosamente brilha sobre o rico e o pobre, o cruel e o pio, assim deve nossa Igreja tratar todas as crianças de Prios com o mesmo calor e amor.” Há um par de anos ele tem uma herança enorme a seu dispor, que usa para espalhar sua mensagem de amor e compaixão — uma mensagem que lentamente convenceu um número crescente de novos sacerdotes ordenados a ajudá-lo nas tarefas de organizar um sopão em Brejonegro e no proselitismo tanto ali quando entre os Karabbadokks. <br /><br />O fato de que o Prefeito Campo Noturno permite que Sarvola conduza seu movimento herético na cidade é amplamente desaprovado pelos teurgos e Mantos Negros literalistas, especialmente pelo padre Elfeno, que lidera o templo do sol local. Mas o Prefeito diz que enquanto você pagar os devidos impostos e não incitar levantes, qualquer um é bem-vindo. Contudo, existem muitos indicativos de que os agentes da Igreja irão lidar com o assunto com suas próprias mãos. Novos rumores maliciosos sobre Sarvola surgem diariamente e seus sermões são frequentemente perturbados por vaias e surtos aparentemente espontâneos na audiência.</p>\n<br /><br /></div>"
             }
           }
         },
@@ -7319,7 +7319,7 @@
           }
         },
         "The Abomitorium": {
-          "name": "The Abomitorium"
+          "name": "O Abomitório"
         },
         "Arkerio’s Guest House": {
           "name": "Casa de Hóspedes do Arkerio"
@@ -7334,11 +7334,11 @@
           }
         },
         "The Queen’s Legation": {
-          "name": "The Queen’s Legation",
+          "name": "O Legado da Rainha",
           "pages": {
             "The Queen’s Legation Text": {
-              "name": "The Queen’s Legation Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE QUEENS LEGATION</h5>\n<p class=\"pblock\">The eldest daughter of House Argona, a meticulous and educated widow named Suria, acts as the official legate of the Queen in Thistle Hold. The newly constructed legation is placed close to the fence of Nighthome and houses a staff of seven, entrusted to speak for Korinthia’s administration and to send daily reports on large and small matters back to Yndaros. <br /><br />Suria’s father, the imposing Count Alkantor Argona, has come to spend more and more time on the upper floor of the building, a floor which he disposes of as if he owned it. Persistent rumors claim that he governs his daughter with an iron fist, and that she for her part is fully occupied by trying to cover up her father’s taste for all forms of lowly pleasures. Such gossip aside, there is no doubt that the Count often meets with the Mayor and the reason for that is commonly known: both have a lot to lose by the continued growth of Blackmoor, especially since the situation plays in favor of the unruly House Erebus and its charismatic leader, Baron Grafoldo.</p>\n<br /><br /></div>"
+              "name": "O Legado da Rainha Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O LEGADO DA RAINHA</h5>\n<p class=\"pblock\">TA filha mais velha da Casa Argona, uma viúva meticulosa e educada chamada Suria, age como o legado oficial da Rainha em Forte do Cardo. O legado recém-construído está localizado perto da cerca de Casa Noturna e abriga uma equipe de sete, com a missão de falar pela administração de Korinthia e enviar reportes diários de assuntos maiores e menores para Yndaros. <br /><br />SO pai de Suria, o impressionante Conde Alkantor Argona, tem gastado cada vez mais tempo no andar superior da construção, um andar que ele usa como se fosse dele. Rumores persistentes alegam que ele governa sua filha com punho de ferro, e que ela, por sua vez, está completamente ocupada tentando acobertar os gostos de seu pai em todas as formas de prazeres mundanos. Fofocas à parte, não há dúvidas de que o Conde se encontra frequentemente com o Prefeito e a razão para isso é amplamente sabida: ambos têm muito a perder com o crescimento contínuo de Brejonegro, especialmente porque a situação favorece a insubmissa Casa Erebus e seu carismático líder, o Barão Grafoldo.</p>\n<br /><br /></div>"
             }
           }
         },
@@ -7347,12 +7347,12 @@
           "pages": {
             "Ordo Magica Text": {
               "name": "Ordo Magica Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>ORDO MAGICA</h5>\n<p class=\"pblock\">The tower of Ordo Magica is, besides the Beacon, the tallest building in Thistle Hold. Reaching seven stories high it stands on a plot surrounded by a stone wall, a plot where the novices of Master Cornelio grow and study various herbs salvaged from the forest. A short time ago they discovered the flammable oil than can be extracted from the damdra-seed – something which has resulted in large-scale, troubled excavations on the turf of the lindworm Skaramagos. <br /><br />Officially it is the Master of the Chapter, Cornelio, who runs local affairs. But there are always other masters at the tower and sometimes the arguments between them echo far across the rooftops. The greatest conflict seems to be the one between the Chapter Master and the two other permanent masters in Thistle Hold, Goncai and Eufrynda. The fact that the latter two have been observed cuddling in a stall at the Salons of Symbaroum is hardly to the advantage of Cornelio. In fact, it may eventually lead to a change from the Chapter’s current caution to more bold strategies of exploration.</p>\n<br /><br /></div>"
+              "text": "<div class=\"symbaroum-mod\">\n<h5>ORDO MAGICA</h5>\n<p class=\"pblock\">A torre da Ordo Magica é, excetuando o Farol, a construção mais alta de Forte do Cardo. Chegando a sete andares de altura, ela se separa do terreno ao redor com um muro de pedra, um terreno onde os noviços do Mestre Cornelio cultivam e estudam várias ervas colhidas da floresta. Só no ano passado eles descobriram o fato de que óleo inflamável pode ser extraído da semente-damdra; algo que resultou em problemáticas escavações em larga escala no território do linnorme Skaramagos. <br /><br />Oficialmente é o Mestre de Capítulo, Cornelio, que gere os assuntos locais. Mas sempre existem outros mestres na torre e às vezes as discussões entre eles ecoam além dos telhados. O maior conflito parece ser entre o Mestre de Capítulo e dois outros mestres permanentes em Forte do Cardo, Goncai e Eufrynd. O fato de que os últimos têm sido vistos abraçados em uma saleta nos Salões de Symbaroum dificilmente é uma vantagem para Cornelio. De fato, pode eventualmente levar a uma mudança da atual cautela do Capítulo para estratégias mais audaciosas na exploração.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Barracks": {
-          "name": "The Barracks"
+          "name": "A Guarnição"
         },
         "Blackbrew": {
           "name": "Caldonegro"
@@ -7370,7 +7370,7 @@
           }
         },
         "The Eastern Square": {
-          "name": "The Eastern Square"
+          "name": "A Praça Leste"
         },
         "Library": {
           "name": "Library",
@@ -7382,22 +7382,22 @@
           }
         },
         "The Rose Garden": {
-          "name": "The Rose Garden"
+          "name": "O Jardim da Rosa"
         },
         "The Winged Ladle": {
-          "name": "The Winged Ladle"
+          "name": "A Concha Alada"
         },
         "The Ruin": {
-          "name": "The Ruin",
+          "name": "A Ruína",
           "pages": {
             "The Ruin Text": {
-              "name": "The Ruin Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE RUIN</h5>\n<p>In Thistle Hold there are many guest houses and inns of varying quality. The representatives of the Queen and the noble houses gladly visit the Court and Harp at the Antique Plaza or the Winged Ladle near the eastern gate; explorers often stay at the Seamstress’ Rest close to the tower of Ordo Magica, while less wealthy visitors tend to be drawn to the establishments in the vicinity of the western gate – The Witch and Familiar, Arkerio’s Guest House or the cheap but flea-infested Rose Garden. But for treasure-hunters, there is no place like the Ruin. <br /><br />The guest house is as old as the town itself and has had many distinguished patrons. For example, it is said that Iasogoi Brigo stayed at the Ruin before going on the expedition that raised him to the skies, and the same has been said about Lysindra Goldengrasp. Should one put faith in the claims made by the owner, Master Pergalo, those two names are but the start of a long list of successful fortune-hunters who have blessed their expeditions by spending a night under his roof. In addition, many are tempted by the inn’s afternoon soup, cooked over an open fire in a giant cauldron recovered close to where the Toad’s Square’s skeleton was unearthed. No one has been able to decipher the archaic inscription covering it, but whatever they may say there is no doubt that the cauldron is perfect for cooking soup.</p>\n</div>"
+              "name": "A Ruína Text",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A RUÍNA</h5>\n<p>Existem muitas casas de hóspedes e estalagens de qualidade variada em Forte do Cardo. Os representantes da Rainha e das casas nobres visitam alegremente a Corte e Harpa na Praça Antiga ou a Concha Alada perto do portão leste; exploradores frequentemente ficam no Descanso da Costureira perto da torre da Ordo Magica, enquanto visitantes menos prósperos tendem a ser atraídos para estabelecimentos nas proximidades do portão oeste — A Bruxa e Familar, Casa de Hóspedes de Arkerio ou o barato e cheio de pulgas Jardim de Rosas. Mas para caçadores de tesouros, não existe lugar como a Ruína. <br /><br />A casa de hóspedes é tão velha quanto a cidade e tem muitos frequentadores distintos. Por exemplo, dizem que Iasogoi Brigo se hospedou na Ruína antes de sair na expedição que o alçou aos céus, e o mesmo é dito sobre Lysindra Aperto Dourado. Se alguém acreditar nas alegações feitas pelo proprietário, Mestre Pergalo, esses dois nomes são o início de uma longa lista de caçadores de fortuna de sucesso que tiveram suas expedições abençoadas ao passar a noite sob seu telhado. Além disso, muitos são tentados pela sopa da tarde da taverna, cozida sobre uma lareira aberta em um caldeirão gigante recuperado perto de onde o esqueleto da Praça do Sapo foi desenterrado. Ninguém foi capaz de decifrar as inscrições arcaicas que o cobrem, mas o que quer que digam, ninguém duvida que o caldeirão seja perfeito para fazer sopa.</p>\n</div>"
             }
           }
         },
         "Spectacle": {
-          "name": "Spectacle"
+          "name": "Espetáculo"
         }
       }
     }
