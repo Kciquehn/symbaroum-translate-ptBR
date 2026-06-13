@@ -73,29 +73,29 @@
         "02 - Yndaros": {
           "name": "02 - Yndaros",
           "notes": {
-            "4. Fortress Doudram": "4. Forte Doudram",
             "1. The Cathedral of Martyrs": "1. A Catedral dos Mártires",
-            "2. The Triplet-Towers of Ordo Magica": "2. The Triplet-Towers of Ordo Magica",
-            "3. The Tower Ruin": "3. The Tower Ruin",
-            "5. The Palace": "5. The Palace",
-            "6. The Palace Park": "6. The Palace Park",
-            "7. The Legacy Gallery": "7. The Legacy Gallery",
-            "9. The Executioner's Podium": "9. The Executioner's Podium",
-            "8. The Steam Bath": "8. The Steam Bath",
-            "10. Brother Humlu's": "10. Brother Humlu's",
-            "11. Warehouses": "11. Warehouses",
-            "12. Sheds and Tents": "12. Sheds and Tents",
-            "13. The Dome": "13. The Dome"
+            "2. The Triplet-Towers of Ordo Magica": "2. As Torres Trigêmeas da Ordo Magica",
+            "3. The Tower Ruin": "3. A Torre Arruinada",
+            "4. Fortress Doudram": "4. Forte Doudram",
+            "5. The Palace": "5. O Palácio",
+            "6. The Palace Park": "6. O Parque do Palácio",
+            "7. The Legacy Gallery": "7. A Galeria do Legado",
+            "8. The Steam Bath": "8. O Banho de Vapor",
+            "9. The Executioner's Podium": "9. O Pódio do Executor",
+            "10. Brother Humlu's": "10. Irmão do Humlu",
+            "11. Warehouses": "11. Armazéns",
+            "12. Sheds and Tents": "12. Cabanas/tendas",
+            "13. The Dome": "13. O Domo"
           }
         },
         "03 - Karvosti": {
           "name": "03 - Karvosti",
           "notes": {
-            "1. The Thingstead": "1. The Thingstead",
-            "2. The Stronghold": "2. The Stronghold",
-            "3. The Pilgrim Camp": "3. The Pilgrim Camp",
-            "4. The Shrine of the Setting Sun": "4. The Shrine of the Setting Sun",
-            "5. The Grove of Aloéna": "5. The Grove of Aloéna"
+            "1. The Thingstead": "1. O Local da Assembleia",
+            "2. The Stronghold": "2. A Fortaleza",
+            "3. The Pilgrim Camp": "3. O Acampamento dos Peregrinos",
+            "4. The Shrine of the Setting Sun": "4. O Altar do Pôr do Sol",
+            "5. The Grove of Aloéna": "5. O Arvoredo de Aloéna"
           }
         },
         "02-c - Ambria and Davokar (Plain Hex)": {
@@ -119,7 +119,7 @@
           "name": "A Atravessia das Montanhas "
         },
         "The Windmill Ruin": {
-          "name": "As ruínas do moinho de vento",
+          "name": "As Ruínas do Moinho de Vento",
           "drawings": {
             "Leghold Trap": "Armadilha de Urso"
           }
@@ -127,17 +127,6 @@
         "01 - Thistle Hold - Key": {
           "name": "01 - Forte do Cardo - Com Pins",
           "notes": {
-            "20. Marvalom’s General Store": "20. Marvalom’s",
-            "21. The Rope and Axe": "21. A Corda e Machado",
-            "36. The Queen’s Square": "36. A Praça da Rainha",
-            "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
-            "23. The Thaler’s Drugstore": "23. A Drogaria do Táler",
-            "24. The Treasury": "24. O Tesouro",
-            "27. Nighthome": "27. Casa Noturna",
-            "26. The Town Seat": "26. O Assento da Cidade",
-            "30. Ordo Magica": "30. Ordo Magica",
-            "28. The Sun Temple": "28. O Templo do Sol",
-            "31. The Mission Station": "31. A Estação Missionária",
             "1. Afadir’s Triumph Tavern": "1. Taverna do Triunfo de Afadir",
             "2. Brew": "2. Caldo",
             "3. The Dump": "3. O Lixão",
@@ -146,7 +135,7 @@
             "6. The Salons of  Symbaroum": "6. Os Salões de Symbaroum",
             "7. The Court and Harp": "7. A Corte e a Harpa",
             "8. The Winged Ladle": "8. A Concha Alada",
-            "9.\tThe Witch and Familiar": "9.\tA Bruxa e Familiar",
+            "9.\tThe Witch and Familiar": "9. A Bruxa e Familiar",
             "10. Arkerio’s Guest House": "10. Casa de Hóspedes do Arkerio",
             "11. The Rose Garden": "11. O Jardim da Rosa",
             "12. The Ruin": "12. A Ruína",
@@ -156,13 +145,24 @@
             "16. Benego’s": "16. Benego’s",
             "17. Legends": "17. Lendas",
             "18. The Hangman’s Pole": "18. O Poste do Enforcado",
-            "19. The Abomitorium": "19. O Abomitório",
+            "19. The Abomitorium": "19. O Abomitorium",
+            "20. Marvalom’s General Store": "20. Marvalom’s",
+            "21. The Rope and Axe": "21. A Corda e Machado",
+            "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
+            "23. The Thaler’s Drugstore": "23. A Drogaria do Táler",
+            "24. The Treasury": "24. O Tesouro",
             "25. Faraldo’s Novelty Store": "25. Loja de Novidades do Faraldo",
+            "26. The Town Seat": "26. O Assento da Cidade",
+            "27. Nighthome": "27. Casa Noturna",
+            "28. The Sun Temple": "28. O Templo do Sol",
             "29. The Queen’s Legation": "29. O Legado da Rainha",
+            "30. Ordo Magica": "30. Ordo Magica",
+            "31. The Mission Station": "31. A Estação Missionária",
             "32. Mother Mehira’s": "32. Mãe Mehira",
             "33. The Town Watch": "33. A Guarda da Cidade",
             "34. The Beacon": "34. O Farol",
             "35. The Antique Plaza": "35. A Praça Antiga",
+            "36. The Queen’s Square": "36. A Praça da Rainha",
             "37. The Toad’s Square": "37. A Praça do Sapo",
             "38. The Eastern Square": "38. A Praça Leste",
             "39. Park of the Elders": "39. Parque dos Anciãos"
@@ -171,44 +171,44 @@
         "01a - Thistle Hold - No Key": {
           "name": "01a - Forte do Cardo - Sem Pins",
           "notes": {
-            "20. Marvalom’s General Store": "20. Marvalom’s General Store",
-            "21. The Rope and Axe": "21. The Rope and Axe",
-            "36. The Queen’s Square": "36. The Queen’s Square",
-            "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
-            "23. The Thaler’s Drugstore": "23. The Thaler’s Drugstore",
-            "24. The Treasury": "24. The Treasury",
-            "27. Nighthome": "27. Casa Noturna",
-            "26. The Town Seat": "26. The Town Seat",
-            "30. Ordo Magica": "30. Ordo Magica",
-            "28. The Sun Temple": "28. The Sun Temple",
-            "31. The Mission Station": "31. The Mission Station",
             "1. Afadir’s Triumph Tavern": "1. Taverna do Triunfo de Afadir",
             "2. Brew": "2. Caldo",
             "3. The Dump": "3. O Lixão",
             "4. Odovakar": "4. Odovakar",
             "5. Blackbrew": "5. Caldonegro",
             "6. The Salons of  Symbaroum": "6. Os Salões de Symbaroum",
-            "7. The Court and Harp": "7. The Court and Harp",
-            "8. The Winged Ladle": "8. The Winged Ladle",
-            "9.\tThe Witch and Familiar": "9.\tThe Witch and Familiar",
+            "7. The Court and Harp": "7. A Corte e a Harpa",
+            "8. The Winged Ladle": "8. A Concha Alada",
+            "9.\tThe Witch and Familiar": "9. A Bruxa e Familiar",
             "10. Arkerio’s Guest House": "10. Casa de Hóspedes do Arkerio",
-            "11. The Rose Garden": "11. The Rose Garden",
-            "12. The Ruin": "12. The Ruin",
-            "13. The Barracks": "13. The Barracks",
-            "14. The Seamstress’ Rest": "14. The Seamstress’ Rest",
-            "15. Spectacle": "15. Spectacle",
+            "11. The Rose Garden": "11. O Jardim da Rosa",
+            "12. The Ruin": "12. A Ruína",
+            "13. The Barracks": "13. A Guarnição",
+            "14. The Seamstress’ Rest": "14. O Descanso da Costureira",
+            "15. Spectacle": "15. Espetáculo",
             "16. Benego’s": "16. Benego’s",
             "17. Legends": "17. Lendas",
             "18. The Hangman’s Pole": "18. O Poste do Enforcado",
-            "19. The Abomitorium": "19. The Abomitorium",
+            "19. The Abomitorium": "19. O Abomitorium",
+            "20. Marvalom’s General Store": "20. Marvalom’s",
+            "21. The Rope and Axe": "21. A Corda e Machado",
+            "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
+            "23. The Thaler’s Drugstore": "23. A Drogaria do Táler",
+            "24. The Treasury": "24. O Tesouro",
             "25. Faraldo’s Novelty Store": "25. Loja de Novidades do Faraldo",
-            "29. The Queen’s Legation": "29. The Queen’s Legation",
+            "26. The Town Seat": "26. O Assento da Cidade",
+            "27. Nighthome": "27. Casa Noturna",
+            "28. The Sun Temple": "28. O Templo do Sol",
+            "29. The Queen’s Legation": "29. O Legado da Rainha",
+            "30. Ordo Magica": "30. Ordo Magica",
+            "31. The Mission Station": "31. A Estação Missionária",
             "32. Mother Mehira’s": "32. Mãe Mehira",
-            "33. The Town Watch": "33. The Town Watch",
+            "33. The Town Watch": "33. A Guarda da Cidade",
             "34. The Beacon": "34. O Farol",
-            "35. The Antique Plaza": "35. The Antique Plaza",
+            "35. The Antique Plaza": "35. A Praça Antiga",
+            "36. The Queen’s Square": "36. A Praça da Rainha",
             "37. The Toad’s Square": "37. A Praça do Sapo",
-            "38. The Eastern Square": "38. The Eastern Square",
+            "38. The Eastern Square": "38. A Praça Leste",
             "39. Park of the Elders": "39. Parque dos Anciãos"
           }
         },
@@ -3557,7 +3557,7 @@
         },
         "Holy Water": {
           "name": "Água Benta",
-          "description": "<pÁgua benta, instilada com a luz de Prios, pode curar feridas e acalmar almas. Funciona como Cura Herbal com +1 no Teste de efeito (significando +2 de Vitalidade se usado sem a habilidade Médico) e também remove 1 ponto de corrupção temporária.</p>",
+          "description": "<p>Água benta, instilada com a luz de Prios, pode curar feridas e acalmar almas. Funciona como Cura Herbal com +1 no Teste de efeito (significando +2 de Vitalidade se usado sem a habilidade Médico) e também remove 1 ponto de corrupção temporária.</p>",
           "cost": "2 táleres"
         },
         "Homing Arrow": {
@@ -3572,7 +3572,7 @@
         },
         "Moderate  Purple Sap": {
           "name": "Seiva Púrpura Moderado",
-          "description": "A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma flor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário. <br /><br /><strong>Moderado: <strong>Quando feito por um adepto, o elixir remove imediatamente 1D6 de corrupção temporária."
+          "description": "<p>A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma flor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário. <br /><br /><strong></p><p>Moderado: <strong>Quando feito por um adepto, o elixir remove imediatamente 1D6 de corrupção temporária.</p>"
         },
         "Moderate Transforming Draught": {
           "name": "Infusão de Transformação Moderado",
@@ -3700,87 +3700,139 @@
           "cost": "10 táleres"
         },
         "Bark Mask": {
-          "name": "Bark Mask"
+          "name": "Máscara de Casca",
+		  "description":"<p>As bruxas tecelãs verdes frequentemente cobrem seus rostos com uma máscara de casca como um símbolo de sua conexão com a natureza. Muitas dessas máscaras são imbuídas de poder e concedem uma nova rolagem por cena em um teste relacionado a plantas e qualquer coisa que cresça, como por exemplo, Manto de Espinhos e Vinhas Enredantes. Essa nova rolagem pode ser usada em testes para ativar tais poderes ou para resistir aos seus efeitos.</p>",
+          "cost": "10 táleres"
         },
         "Burial Shroud": {
-          "name": "Burial Shroud"
+          "name": "Mortalha de Sepultamento",
+		  "description":"<p>Espiritualistas entre as bruxas costumam usar uma mortalha sobre a cabeça ao entrar em contato com os espíritos dos mortos, pois isso acalma os espíritos e permite uma conexão mais profunda. Um místico que usa esse artefato recebe +1 de bônus a Resoluto em todos os Testes para lidar com espíritos — tanto ao tentar controlá-los (como no poder Espíritos Atormentadores) quanto ao tentar resistir ao efeito de traços monstruosos usados por espíritos que envolvam o atributo Resoluto.</p>",
+          "cost": "10 táleres"
         },
         "Death Mask": {
-          "name": "Death Mask"
+          "name": "Máscara da Morte",
+		  "description":"<p>A aspiração dos necromantes de dominar a morte levou ao uso de máscaras horríveis que foram infundidas com poder. Uma máscara da morte concede +1 de bônus em Testes para todos os poderes e rituais que afetam a interseção entre a vida e a morte, por exemplo, o poder Golpe de Regresso e o ritual Erguer os Mortos.</p>",
+          "cost": "10 táleres"
         },
         "Healing Spider": {
-          "name": "Healing Spider"
+          "name": "Aranha Curativa",
+		  "description":"<p>Uma pequena estatueta de aranha que é colocada sobre uma ferida aberta, onde ela rapidamente cobre a ferida com uma teia que cura 1D12 de Vitalidade ao longo de um dia. A aranha não pode curar dano causado por veneno ou outros ferimentos internos. Quando concluída a cura, a aranha se arrasta da ferida para ser reutilizada em novas. A criatura tratada pela aranha curativa sofre um ponto de corrupção temporária.</p>",
+          "cost": "4 táleres"
         },
         "Iron Crown": {
-          "name": "Iron Crown"
+          "name": "Coroa de Ferro",
+		  "description":"<p>Demonologistas costumam usar uma coroa de ferro enferrujado ao rasgar o tecido do mundo. Essas coroas concedem +1 de bônus para manipular o mundo, como os poderes místicos Exorcizar e Teleporte, ou o ritual Convocar Daemon.</p>",
+          "cost": "10 táleres"
         },
         "Lucky Coin": {
-          "name": "Lucky Coin"
+          "name": "Moeda da Sorte",
+		  "description":"<p>Uma moeda de ouro instilada com energias de boa sorte. A moeda é carregada no bolso e fornece +1 de bônus a um Teste de Sucesso uma vez por cena. Quem brinca com essas energias corre o risco de sofrer o efeito oposto; se o resultado de um Teste modificado pela moeda for 20, o portador terá azar pelo resto da cena — todos os Testes de Sucesso dele têm uma segunda chance de falhar.</p>",
+          "cost": "8 táleres"
         },
         "Marlit Cape": {
-          "name": "Marlit Cape"
+          "name": "Capa Marlit",
+		  "description":"<p>A pele de um marlit, um réptil conhecido por seu estilo de caça furtivo, é tratada com preparações alquímicas de preservação para manter suas propriedades de camuflagem após a morte da besta. O usuário recebe +1 de bônus em Discreto quando se esconder e se esgueirar.</p>",
+          "cost": "4 táleres"
         },
         "Meeting Stone": {
-          "name": "Meeting Stone"
+          "name": "Pedra do Encontro",
+		  "description":"<p>Uma pedra é carregada com um convite para uma pessoa específica, que ao receber e tocar o artefato sabe instintivamente onde o proprietário da pedra está esperando. Somente um místico (com pelo menos um poder místico) pode ativar uma pedra de encontro.</p>",
+          "cost": "2 táleres"
         },
         "Mind Prism": {
-          "name": "Mind Prism"
+          "name": "Prisma Mental",
+		  "description":"<p>Os ilusionistas da Ordo Magica costumam usar um prisma para descrever como a percepção da realidade pode ser quebrada e compreendida. Alguns desses cristais são preenchidos com tantas energias sugestivas que fornecem +1 de bônus a todos os Testes relacionados à criação de ilusões.</p>",
+          "cost": "10 táleres"
         },
         "Mystical Focus": {
-          "name": "Mystical Focus"
+          "name": "Foco Místico",
+		  "description":"<p>Um foco específico da tradição fornece +1 de bônus em todos os Testes relacionados a todos os poderes da tradição, mas limitado a um uso por cena. O bônus pode ser usado junto com outros artefatos menores que também fornecem bônus aos Testes de Sucesso do poder místico em questão. Um foco místico está vinculado ao usuário como outros artefatos superiores — ou seja, gastando um ponto de Experiência ou aceitando de bom grado um ponto em corrupção permanente.</p>",
+          "cost": "12 táleres"
         },
         "Order Medallion": {
-          "name": "Order Medallion"
+          "name": "Medalhão da Ordem",
+		  "description":"<p>Os medalhões da Ordo Magica são dados a novatos e ficam com os magos por toda a sua carreira. Quando o mago atinge o nível adepto, o medalhão se transforma para simbolizar esta etapa; o mesmo acontece ao atingir o nível mestre.</p><p>Alguns capítulos tornaram obrigatório o medalhão da ordem e lhe vincularam determinadas funções, como a capacidade de abrir portas que estão fechadas para forasteiros/novatos/adeptos e ativar o círculo mágico do capítulo.</p>",
+          "cost": "2 táleres"
         },
         "Pest Mask": {
-          "name": "Pest Mask"
+          "name": "Máscara da Pestilência",
+		  "description":"<p>Em um mundo cheio de contágios e venenos, não é de admirar que muitos métodos — eficazes ou apenas supersticiosos — tenham sido desenvolvidos para resistir a esses fenômenos. Os Confessores da Igreja do Sol, por exemplo, carregam máscaras da pestilência para se protegerem. Elas permitem que o usuário use Resoluto em vez de Vigoroso em Testes para resistir a doenças e venenos.</p>",
+          "cost": "8 táleres"
         },
         "Ritual Codex": {
-          "name": "Ritual Codex"
+          "name": "Códice de Ritual",
+		  "description":"<p>Um ritual é escrito em um códice para que outro ritualista possa realizá-lo sem ter aprendido o ritual anteriormente. O códice pode ser usado apenas uma vez.</p>",
+          "cost": "4 táleres"
         },
         "Ritual Focus": {
-          "name": "Ritual Focus"
+          "name": "Foco de Ritual",
+		  "description":"<p>Um objeto específico da tradição que concede +1 de bônus nos Testes de Sucesso para todos os rituais pertencentes à tradição. Veja exemplos na barra lateral da página seguinte.</p>",
+          "cost": "8 táleres"
         },
         "Ritual Seal": {
-          "name": "Ritual Seal"
+          "name": "Selo de Ritual",
+		  "description":"<p>O criador de artefatos vincula um ritual a um selo; quando quebrado, o efeito do ritual é acionado. O criador do selo não precisa conhecer o ritual, mas deve estar na companhia de quem o faz quando ele é criado (ou ter acesso a um códice de ritual explicando o ritual; o códice é destruído com esse ato). Quem rompe o selo sofre corrupção temporária, como de costume.</p>",
+          "cost": "12 táleres"
         },
         "Ruler’s Ring": {
-          "name": "Ruler’s Ring"
+          "name": "Anel do Regente",
+		  "description":"<p>Os magos proeminentes que distorcem a mente geralmente carregam um anel de ouro em um dedo, ao redor do pulso ou no braço ou na cabeça na forma de uma tiara ou faixa de cabeça. Para eles, isso representa o nobre esforço do regente. Esses anéis são frequentemente instilados com a capacidade de dominar todos os seres vivos. Nesse caso, o anel de ouro concede +1 de bônus a todos os Testes que envolvam poderes e rituais do Magismo que afetam a vontade do alvo, por exemplo, o uso e a resistência a Dobrar Vontade e Interrogatório Telepático.</p>",
+          "cost": "10 táleres"
         },
         "Rune Staff": {
-          "name": "Rune Staff"
+          "name": "Cajado Rúnico",
+		  "description":"<p>A marca registrada do magista do cajado é seu cajado pessoal, esculpido com as runas dos elementos. Na mão de seu dono, o cajado emite uma aura protetora (Armadura +1D4) e é o instrumento através do qual o magista exerce seus poderes.</p>",
+          "cost": "12 táleres"
         },
         "Spark Stone": {
-          "name": "Spark Stone"
+          "name": "Pedra da Centelha",
+		  "description":"<p>O poder de um Piromante é aumentado por este âmbar brilhante. A pedra da centelha é uma versão mais fraca das renomadas Pedras do Sol que os mestres piromantes da antiguidade podiam fabricar com espíritos de fogo convocados. Atualmente, os magos do fogo têm que se contentar com artefatos menores, longe de serem poderosos, mas ainda assim uma grande ajuda para aqueles cujas habilidades estão relacionadas ao fogo e à queima. Todos os poderes com efeitos de fogo recebem +1 de bônus no dado de efeito quando usados por alguém com uma pedra da centelha na mão ou em cima de seu cajado.</p>",
+          "cost": "10 táleres"
         },
         "Spell Scroll": {
-          "name": "Spell Scroll"
+          "name": "Pergaminho de Magia",
+		  "description":"<p>Criadores de artefatos da Ordo Magica podem vincular um poder místico no nível novato, adepto ou mestre (dependendo do nível do artefato) a um pergaminho. O poder pode então ser ativado por alguém que possua Magismo em um nível igual ou superior ao nível do poder, ou por alguém que possua a habilidade Mestre do Saber em um nível adequado. Quem ativa o pergaminho sofre corrupção temporária, como de costume, e o pergaminho é gasto na ativação.</p>",
+          "cost": "2/4/6 táleres"
         },
         "Spell Seal": {
-          "name": "Spell Seal"
+          "name": "Selo de Magia",
+		  "description":"<p>Um criador de artefatos vincula um poder místico no nível novato ou adepto (dependendo do nível do artefato) a um selo; quando o selo é quebrado, a energia é ativada. Quem quebra o selo sofre corrupção temporária, como de costume, e o selo é gasto quando quebrado.</p>",
+          "cost": "8/12 táleres"
         },
         "Staff Foot": {
-          "name": "Staff Foot"
+          "name": "Pé de Cajado",
+		  "description":"<p>Um pé de cajado forjado com magia de fortalecimento pode dar ao cajado de um magista um poder extra quando usado como arma. O artefato é anexado ao cajado e concede +1 de bônus nos Testes de efeito de todos os ataques corpo a corpo ou à distância e em todos os poderes que usam diretamente o cajado como arma. Mesmo que esse artefato seja mais frequentemente anexado a um cajado rúnico, ele pode ser anexado a um bastão de madeira comum com o mesmo efeito.</p>",
+          "cost": "10 táleres"
         },
         "Staff Head": {
-          "name": "Staff Head"
+          "name": "Cabeça de Cajado",
+		  "description":"<p>Um ornamento especial na parte superior do cajado do magista pode fornecer um foco extra. A cabeça — geralmente uma bela pedra envolta em ferro meteórico — concede +1 de bônus a todos os Testes que não envolvem diretamente o cajado como arma, como por exemplo Esfera e Tempestade de Sangue.</p>",
+          "cost": "10 táleres"
         },
         "Sun Mask": {
-          "name": "Sun Mask"
+          "name": "Máscara Solar",
+		  "description":"<p>As máscaras solares dos teurges conferem calor espiritual àqueles de coração frio e espalham luz onde nenhuma outra luz pode alcançar. Usados por um teurge, elas também podem ajudar no combate a mortos-vivos e abominações. A máscara irradia luz ao redor do usuário como se fosse uma tocha. Além disso, todos os poderes com efeitos sagrados ou de banimento recebem +1 de bônus em Testes de efeito.</p>",
+          "cost": "10 táleres"
         },
         "The Soul Stone": {
           "name": "Pedra da Alma",
-          "tradition": "Magismo",
-          "description": "<p>A Corrupção nunca foi um problema para magos antes da Grande Guerra, já que suas práticas meticulosas os protegiam de enegrecer suas almas. Durante momentos desesperados da Guerra, os magos de batalha da Ordo Magica assumiram riscos maiores em nome da necessidade e, portanto, trouxeram a Corrupção sobre si. Para neutralizar este mal, eles desenterraram um ritual antigo evitado, onde captura-se a alma de uma criatura morrendo em um cristal preparado para este propósito. Esse mesmo ritual se provou funcionar bem para drenar Corrupção de um mago e transferi-lo para a alma na pedra.</p> <p>O ritual vincula o Místico ao cristal, que então funciona como uma extensão da alma do mago. O ritual permite o Místico mover 1D4 de Corrupção permanente para a pedra da alma com um Teste bem-sucedido de Resoluto. A pedra pode suportar até metade do Resoluto do Místico em Corrupção; ela escurece quando é preenchida e explode se seu limite for excedido. A Corrupção coletada então retorna ao Místico, frequentemente com um resultado bastante sórdido. No caso improvável dele ou dela sobreviver a essa onda de Corrupção, é possível ao Místico vincular-se a uma nova pedra da alma e começar tudo novamente.</p> <p>O ritual custa um (1) de Experiência para ser executado, seja bem-sucedido ou não. Um mago que consegue aprender o ritual recebe uma pedra da alma de seu capítulo da ordem. Outros Místicos devem pagar pelas suas. Comprar uma pedra da alma custa 100 táleres.</p>"
+          "description": "<p>Uma Pedra da Alma é o item necessário para realizaro ritual com o mesmo nome.</p>",
+          "cost": "100 táleres"
         },
         "Toad Guard": {
-          "name": "Toad Guard"
+          "name": "Guarda Anfíbio",
+		  "description":"<p>Uma estatueta na forma de um sapo atua como um alarme. O usuário — que precisa conhecer pelo menos um poder místico — sussurra uma condição de acionamento para a estatueta; essa condição deve ser de natureza física e deve ocorrer próximo ao guarda anfíbio, por exemplo: \"alguém passa pelo bosque\" ou \"a porta é aberta do lado de fora\". Se ativado, o sapo acorda todos com um coachar alto.</p>",
+          "cost": "1 táleres"
         },
         "Transcendental ­Weapon": {
-          "name": "Transcendental ­Weapon"
+          "name": "Arma Transcendental",
+		  "description":"<p>Essas armas foram forjadas para permitir que um portador ataque à distância. Somente místicos (definidos como alguém que aprendeu pelo menos um poder místico) sabem como usar esse artefato.</p><p>O ataque é rolado como se estivesse em combatecorpo a corpo, mas pode atingir alvos à distância erequer uma linha de visão clara, assim como ataquesà distância. Habilidades ativas podem ser usadas,mas em um nível inferior: um mestre pode usar onível adepto da habilidade através da arma transcendental; um adepto pode usar o nível novato. Umnovato não pode usar a habilidade junto com umaarma transcendental.</p>",
+          "cost": "12 táleres"
         },
         "Witch Braid": {
-          "name": "Witch Braid"
+          "name": "Trança da Bruxa",
+		  "description":"<p>Essa trança é feita de três tipos de cabelo ou pelo emantém a morte afastada, concedendo +1 de bônusa Vigoroso durante Testes de morte. Personagens doMestre com a trança podem fazer Testes de morte,com o +1 de bônus.</p>",
+          "cost": "8 táleres"
         },
         "Absolute Memory": {
           "name": "Absolute Memory"
@@ -6278,7 +6330,7 @@
       },
       "folders": {
         "Core Rules - Book 1": "Regras Básicas - Livro 1",
-        "GM Aids": "REcursos do GM",
+        "GM Aids": "Recursos do GM",
         "The Promised Land - Scenes": "A Terra Prometida - Cenas",
         "Symbaroum - Actors": "Symbaroum - Atores",
         "Adversaries": "Adversários",
