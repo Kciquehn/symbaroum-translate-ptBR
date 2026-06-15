@@ -465,7 +465,7 @@
           }
         },
         "Cult Follower": {
-          "name": "Cult Follower",
+          "name": "Seguidor do Culto",
           "tokenName": "Seguidor do Culto",
           "race": "Humano",
           "shadow": "Trançada em prata e/ou verde com algumas faixas negras",
@@ -3697,142 +3697,198 @@
         "Animal Mask": {
           "name": "Máscara Animal",
           "description": "<p>As bruxas Aves de Sangue tendem a se identificar com os animais selvagens, um sentimento incorporado pelo uso de máscaras de animais. Toda máscara de animal com propriedades místicas simboliza um animal e concede +1 de bônus em um atributo associado a esse animal — Astuto, Discreto, Rápido, Vigilante ou Vigoroso.</p>",
-          "cost": "10 táleres"
+          "cost": "10 táleres",
+          "power0Name": "Máscara Animal",
+          "power0Description": "<p>As bruxas Aves de Sangue tendem a se identificar com os animais selvagens, um sentimento incorporado pelo uso de máscaras de animais. Toda máscara de animal com propriedades místicas simboliza um animal e concede +1 de bônus em um atributo associado a esse animal — Astuto, Discreto, Rápido, Vigilante ou Vigoroso.</p>"
         },
         "Bark Mask": {
           "name": "Máscara de Casca",
-		  "description":"<p>As bruxas tecelãs verdes frequentemente cobrem seus rostos com uma máscara de casca como um símbolo de sua conexão com a natureza. Muitas dessas máscaras são imbuídas de poder e concedem uma nova rolagem por cena em um teste relacionado a plantas e qualquer coisa que cresça, como por exemplo, Manto de Espinhos e Vinhas Enredantes. Essa nova rolagem pode ser usada em testes para ativar tais poderes ou para resistir aos seus efeitos.</p>",
-          "cost": "10 táleres"
+          "description":"<p>As bruxas tecelãs verdes frequentemente cobrem seus rostos com uma máscara de casca como um símbolo de sua conexão com a natureza. Muitas dessas máscaras são imbuídas de poder e concedem uma nova rolagem por cena em um teste relacionado a plantas e qualquer coisa que cresça, como por exemplo, Manto de Espinhos e Vinhas Enredantes. Essa nova rolagem pode ser usada em testes para ativar tais poderes ou para resistir aos seus efeitos.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Máscara de Casca",
+          "power0Description": "<p>As bruxas tecelãs verdes frequentemente cobrem seus rostos com uma máscara de casca como um símbolo de sua conexão com a natureza. Muitas dessas máscaras são imbuídas de poder e concedem uma nova rolagem por cena em um teste relacionado a plantas e qualquer coisa que cresça, como por exemplo, Manto de Espinhos e Vinhas Enredantes. Essa nova rolagem pode ser usada em testes para ativar tais poderes ou para resistir aos seus efeitos.</p>"
         },
         "Burial Shroud": {
           "name": "Mortalha de Sepultamento",
-		  "description":"<p>Espiritualistas entre as bruxas costumam usar uma mortalha sobre a cabeça ao entrar em contato com os espíritos dos mortos, pois isso acalma os espíritos e permite uma conexão mais profunda. Um místico que usa esse artefato recebe +1 de bônus a Resoluto em todos os Testes para lidar com espíritos — tanto ao tentar controlá-los (como no poder Espíritos Atormentadores) quanto ao tentar resistir ao efeito de traços monstruosos usados por espíritos que envolvam o atributo Resoluto.</p>",
-          "cost": "10 táleres"
+          "description":"<p>Espiritualistas entre as bruxas costumam usar uma mortalha sobre a cabeça ao entrar em contato com os espíritos dos mortos, pois isso acalma os espíritos e permite uma conexão mais profunda. Um místico que usa esse artefato recebe +1 de bônus a Resoluto em todos os Testes para lidar com espíritos — tanto ao tentar controlá-los (como no poder Espíritos Atormentadores) quanto ao tentar resistir ao efeito de traços monstruosos usados por espíritos que envolvam o atributo Resoluto.</p>",
+          "cost": "10 táleres",
+          "power0Name": "",
+          "power0Description": ""
         },
         "Death Mask": {
           "name": "Máscara da Morte",
-		  "description":"<p>A aspiração dos necromantes de dominar a morte levou ao uso de máscaras horríveis que foram infundidas com poder. Uma máscara da morte concede +1 de bônus em Testes para todos os poderes e rituais que afetam a interseção entre a vida e a morte, por exemplo, o poder Golpe de Regresso e o ritual Erguer os Mortos.</p>",
-          "cost": "10 táleres"
+          "description":"<p>A aspiração dos necromantes de dominar a morte levou ao uso de máscaras horríveis que foram infundidas com poder. Uma máscara da morte concede +1 de bônus em Testes para todos os poderes e rituais que afetam a interseção entre a vida e a morte, por exemplo, o poder Golpe de Regresso e o ritual Erguer os Mortos.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Máscara da Morte",
+          "power0Description": "<p>A aspiração dos necromantes de dominar a morte levou ao uso de máscaras horríveis que foram infundidas com poder. Uma máscara da morte concede +1 de bônus em Testes para todos os poderes e rituais que afetam a interseção entre a vida e a morte, por exemplo, o poder Golpe de Regresso e o ritual Erguer os Mortos.</p>"
         },
         "Healing Spider": {
           "name": "Aranha Curativa",
-		  "description":"<p>Uma pequena estatueta de aranha que é colocada sobre uma ferida aberta, onde ela rapidamente cobre a ferida com uma teia que cura 1D12 de Vitalidade ao longo de um dia. A aranha não pode curar dano causado por veneno ou outros ferimentos internos. Quando concluída a cura, a aranha se arrasta da ferida para ser reutilizada em novas. A criatura tratada pela aranha curativa sofre um ponto de corrupção temporária.</p>",
-          "cost": "4 táleres"
+          "description":"<p>Uma pequena estatueta de aranha que é colocada sobre uma ferida aberta, onde ela rapidamente cobre a ferida com uma teia que cura 1D12 de Vitalidade ao longo de um dia. A aranha não pode curar dano causado por veneno ou outros ferimentos internos. Quando concluída a cura, a aranha se arrasta da ferida para ser reutilizada em novas. A criatura tratada pela aranha curativa sofre um ponto de corrupção temporária.</p>",
+          "cost": "4 táleres",
+          "power0Name": "Aranha Curativa",
+          "power0Description": "<p>Uma pequena estatueta de aranha que é colocada sobre uma ferida aberta, onde ela rapidamente cobre a ferida com uma teia que cura 1D12 de Vitalidade ao longo de um dia. A aranha não pode curar dano causado por veneno ou outros ferimentos internos. Quando concluída a cura, a aranha se arrasta da ferida para ser reutilizada em novas. A criatura tratada pela aranha curativa sofre um ponto de corrupção temporária.</p>"
         },
         "Iron Crown": {
           "name": "Coroa de Ferro",
-		  "description":"<p>Demonologistas costumam usar uma coroa de ferro enferrujado ao rasgar o tecido do mundo. Essas coroas concedem +1 de bônus para manipular o mundo, como os poderes místicos Exorcizar e Teleporte, ou o ritual Convocar Daemon.</p>",
-          "cost": "10 táleres"
+          "description":"<p>Demonologistas costumam usar uma coroa de ferro enferrujado ao rasgar o tecido do mundo. Essas coroas concedem +1 de bônus para manipular o mundo, como os poderes místicos Exorcizar e Teleporte, ou o ritual Convocar Daemon.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Coroa de Ferro",
+          "power0Description": "<p>Demonologistas costumam usar uma coroa de ferro enferrujado ao rasgar o tecido do mundo. Essas coroas concedem +1 de bônus para manipular o mundo, como os poderes místicos Exorcizar e Teleporte, ou o ritual Convocar Daemon.</p>"
         },
         "Lucky Coin": {
           "name": "Moeda da Sorte",
-		  "description":"<p>Uma moeda de ouro instilada com energias de boa sorte. A moeda é carregada no bolso e fornece +1 de bônus a um Teste de Sucesso uma vez por cena. Quem brinca com essas energias corre o risco de sofrer o efeito oposto; se o resultado de um Teste modificado pela moeda for 20, o portador terá azar pelo resto da cena — todos os Testes de Sucesso dele têm uma segunda chance de falhar.</p>",
-          "cost": "8 táleres"
+          "description":"<p>Uma moeda de ouro instilada com energias de boa sorte. A moeda é carregada no bolso e fornece +1 de bônus a um Teste de Sucesso uma vez por cena. Quem brinca com essas energias corre o risco de sofrer o efeito oposto; se o resultado de um Teste modificado pela moeda for 20, o portador terá azar pelo resto da cena — todos os Testes de Sucesso dele têm uma segunda chance de falhar.</p>",
+          "cost": "8 táleres",
+          "power0Name": "Moeda da Sorte",
+          "power0Description": "<p>Uma moeda de ouro instilada com energias de boa sorte. A moeda é carregada no bolso e fornece +1 de bônus a um Teste de Sucesso uma vez por cena. Quem brinca com essas energias corre o risco de sofrer o efeito oposto; se o resultado de um Teste modificado pela moeda for 20, o portador terá azar pelo resto da cena — todos os Testes de Sucesso dele têm uma segunda chance de falhar.</p>"
         },
         "Marlit Cape": {
           "name": "Capa Marlit",
-		  "description":"<p>A pele de um marlit, um réptil conhecido por seu estilo de caça furtivo, é tratada com preparações alquímicas de preservação para manter suas propriedades de camuflagem após a morte da besta. O usuário recebe +1 de bônus em Discreto quando se esconder e se esgueirar.</p>",
-          "cost": "4 táleres"
+          "description":"<p>A pele de um marlit, um réptil conhecido por seu estilo de caça furtivo, é tratada com preparações alquímicas de preservação para manter suas propriedades de camuflagem após a morte da besta. O usuário recebe +1 de bônus em Discreto quando se esconder e se esgueirar.</p>",
+          "cost": "4 táleres",
+          "power0Name": "Capa Marlit",
+          "power0Description": "<p>A pele de um marlit, um réptil conhecido por seu estilo de caça furtivo, é tratada com preparações alquímicas de preservação para manter suas propriedades de camuflagem após a morte da besta. O usuário recebe +1 de bônus em Discreto quando se esconder e se esgueirar.</p>"
         },
         "Meeting Stone": {
           "name": "Pedra do Encontro",
-		  "description":"<p>Uma pedra é carregada com um convite para uma pessoa específica, que ao receber e tocar o artefato sabe instintivamente onde o proprietário da pedra está esperando. Somente um místico (com pelo menos um poder místico) pode ativar uma pedra de encontro.</p>",
-          "cost": "2 táleres"
+          "description":"<p>Uma pedra é carregada com um convite para uma pessoa específica, que ao receber e tocar o artefato sabe instintivamente onde o proprietário da pedra está esperando. Somente um místico (com pelo menos um poder místico) pode ativar uma pedra de encontro.</p>",
+          "cost": "2 táleres",
+          "power0Name": "",
+          "power0Description": ""
         },
         "Mind Prism": {
           "name": "Prisma Mental",
-		  "description":"<p>Os ilusionistas da Ordo Magica costumam usar um prisma para descrever como a percepção da realidade pode ser quebrada e compreendida. Alguns desses cristais são preenchidos com tantas energias sugestivas que fornecem +1 de bônus a todos os Testes relacionados à criação de ilusões.</p>",
-          "cost": "10 táleres"
+          "description":"<p>Os ilusionistas da Ordo Magica costumam usar um prisma para descrever como a percepção da realidade pode ser quebrada e compreendida. Alguns desses cristais são preenchidos com tantas energias sugestivas que fornecem +1 de bônus a todos os Testes relacionados à criação de ilusões.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Prisma Mental",
+          "power0Description": "<p>Os ilusionistas da Ordo Magica costumam usar um prisma para descrever como a percepção da realidade pode ser quebrada e compreendida. Alguns desses cristais são preenchidos com tantas energias sugestivas que fornecem +1 de bônus a todos os Testes relacionados à criação de ilusões.</p>"
         },
         "Mystical Focus": {
           "name": "Foco Místico",
-		  "description":"<p>Um foco específico da tradição fornece +1 de bônus em todos os Testes relacionados a todos os poderes da tradição, mas limitado a um uso por cena. O bônus pode ser usado junto com outros artefatos menores que também fornecem bônus aos Testes de Sucesso do poder místico em questão. Um foco místico está vinculado ao usuário como outros artefatos superiores — ou seja, gastando um ponto de Experiência ou aceitando de bom grado um ponto em corrupção permanente.</p>",
-          "cost": "12 táleres"
+          "description":"<p>Um foco específico da tradição fornece +1 de bônus em todos os Testes relacionados a todos os poderes da tradição, mas limitado a um uso por cena. O bônus pode ser usado junto com outros artefatos menores que também fornecem bônus aos Testes de Sucesso do poder místico em questão. Um foco místico está vinculado ao usuário como outros artefatos superiores — ou seja, gastando um ponto de Experiência ou aceitando de bom grado um ponto em corrupção permanente.</p>",
+          "cost": "12 táleres",
+          "power0Name": "Foco Místico",
+          "power0Description": "<p>Um foco específico da tradição fornece +1 de bônus em todos os Testes relacionados a todos os poderes da tradição, mas limitado a um uso por cena. O bônus pode ser usado junto com outros artefatos menores que também fornecem bônus aos Testes de Sucesso do poder místico em questão. Um foco místico está vinculado ao usuário como outros artefatos superiores — ou seja, gastando um ponto de Experiência ou aceitando de bom grado um ponto em corrupção permanente.</p>"
         },
         "Order Medallion": {
           "name": "Medalhão da Ordem",
-		  "description":"<p>Os medalhões da Ordo Magica são dados a novatos e ficam com os magos por toda a sua carreira. Quando o mago atinge o nível adepto, o medalhão se transforma para simbolizar esta etapa; o mesmo acontece ao atingir o nível mestre.</p><p>Alguns capítulos tornaram obrigatório o medalhão da ordem e lhe vincularam determinadas funções, como a capacidade de abrir portas que estão fechadas para forasteiros/novatos/adeptos e ativar o círculo mágico do capítulo.</p>",
-          "cost": "2 táleres"
+          "description":"<p>Os medalhões da Ordo Magica são dados a novatos e ficam com os magos por toda a sua carreira. Quando o mago atinge o nível adepto, o medalhão se transforma para simbolizar esta etapa; o mesmo acontece ao atingir o nível mestre.</p><p>Alguns capítulos tornaram obrigatório o medalhão da ordem e lhe vincularam determinadas funções, como a capacidade de abrir portas que estão fechadas para forasteiros/novatos/adeptos e ativar o círculo mágico do capítulo.</p>",
+          "cost": "2 táleres",
+          "power0Name": "Medalhão da Ordem",
+          "power0Description": "<p>Os medalhões da Ordo Magica são dados a novatos e ficam com os magos por toda a sua carreira. Quando o mago atinge o nível adepto, o medalhão se transforma para simbolizar esta etapa; o mesmo acontece ao atingir o nível mestre.</p><p>Alguns capítulos tornaram obrigatório o medalhão da ordem e lhe vincularam determinadas funções, como a capacidade de abrir portas que estão fechadas para forasteiros/novatos/adeptos e ativar o círculo mágico do capítulo.</p>"
         },
         "Pest Mask": {
           "name": "Máscara da Pestilência",
-		  "description":"<p>Em um mundo cheio de contágios e venenos, não é de admirar que muitos métodos — eficazes ou apenas supersticiosos — tenham sido desenvolvidos para resistir a esses fenômenos. Os Confessores da Igreja do Sol, por exemplo, carregam máscaras da pestilência para se protegerem. Elas permitem que o usuário use Resoluto em vez de Vigoroso em Testes para resistir a doenças e venenos.</p>",
-          "cost": "8 táleres"
+          "description":"<p>Em um mundo cheio de contágios e venenos, não é de admirar que muitos métodos — eficazes ou apenas supersticiosos — tenham sido desenvolvidos para resistir a esses fenômenos. Os Confessores da Igreja do Sol, por exemplo, carregam máscaras da pestilência para se protegerem. Elas permitem que o usuário use Resoluto em vez de Vigoroso em Testes para resistir a doenças e venenos.</p>",
+          "cost": "8 táleres",
+          "power0Name": "Máscara da Pestilência",
+          "power0Description": "<p>Em um mundo cheio de contágios e venenos, não é de admirar que muitos métodos — eficazes ou apenas supersticiosos — tenham sido desenvolvidos para resistir a esses fenômenos. Os Confessores da Igreja do Sol, por exemplo, carregam máscaras da pestilência para se protegerem. Elas permitem que o usuário use Resoluto em vez de Vigoroso em Testes para resistir a doenças e venenos.</p>"
         },
         "Ritual Codex": {
           "name": "Códice de Ritual",
-		  "description":"<p>Um ritual é escrito em um códice para que outro ritualista possa realizá-lo sem ter aprendido o ritual anteriormente. O códice pode ser usado apenas uma vez.</p>",
-          "cost": "4 táleres"
+          "description":"<p>Um ritual é escrito em um códice para que outro ritualista possa realizá-lo sem ter aprendido o ritual anteriormente. O códice pode ser usado apenas uma vez.</p>",
+          "cost": "4 táleres",
+          "power0Name": "Códice de Ritual",
+          "power0Description": "<p>Um ritual é escrito em um códice para que outro ritualista possa realizá-lo sem ter aprendido o ritual anteriormente. O códice pode ser usado apenas uma vez.</p>"
         },
         "Ritual Focus": {
           "name": "Foco de Ritual",
-		  "description":"<p>Um objeto específico da tradição que concede +1 de bônus nos Testes de Sucesso para todos os rituais pertencentes à tradição. Veja exemplos na barra lateral da página seguinte.</p>",
-          "cost": "8 táleres"
+          "description":"<p>Um objeto específico da tradição que concede +1 de bônus nos Testes de Sucesso para todos os rituais pertencentes à tradição. Veja exemplos na barra lateral da página seguinte.</p>",
+          "cost": "8 táleres",
+          "power0Name": "Foco de Ritual",
+          "power0Description": "<p>Um objeto específico da tradição que concede +1 de bônus nos Testes de Sucesso para todos os rituais pertencentes à tradição. Veja exemplos na barra lateral da página seguinte.</p>"
         },
         "Ritual Seal": {
           "name": "Selo de Ritual",
-		  "description":"<p>O criador de artefatos vincula um ritual a um selo; quando quebrado, o efeito do ritual é acionado. O criador do selo não precisa conhecer o ritual, mas deve estar na companhia de quem o faz quando ele é criado (ou ter acesso a um códice de ritual explicando o ritual; o códice é destruído com esse ato). Quem rompe o selo sofre corrupção temporária, como de costume.</p>",
-          "cost": "12 táleres"
+          "description":"<p>O criador de artefatos vincula um ritual a um selo; quando quebrado, o efeito do ritual é acionado. O criador do selo não precisa conhecer o ritual, mas deve estar na companhia de quem o faz quando ele é criado (ou ter acesso a um códice de ritual explicando o ritual; o códice é destruído com esse ato). Quem rompe o selo sofre corrupção temporária, como de costume.</p>",
+          "cost": "12 táleres",
+          "power0Name": "Selo de Ritual",
+          "power0Description": "<p>O criador de artefatos vincula um ritual a um selo; quando quebrado, o efeito do ritual é acionado. O criador do selo não precisa conhecer o ritual, mas deve estar na companhia de quem o faz quando ele é criado (ou ter acesso a um códice de ritual explicando o ritual; o códice é destruído com esse ato). Quem rompe o selo sofre corrupção temporária, como de costume.</p>"
         },
         "Ruler’s Ring": {
           "name": "Anel do Regente",
-		  "description":"<p>Os magos proeminentes que distorcem a mente geralmente carregam um anel de ouro em um dedo, ao redor do pulso ou no braço ou na cabeça na forma de uma tiara ou faixa de cabeça. Para eles, isso representa o nobre esforço do regente. Esses anéis são frequentemente instilados com a capacidade de dominar todos os seres vivos. Nesse caso, o anel de ouro concede +1 de bônus a todos os Testes que envolvam poderes e rituais do Magismo que afetam a vontade do alvo, por exemplo, o uso e a resistência a Dobrar Vontade e Interrogatório Telepático.</p>",
-          "cost": "10 táleres"
+          "description":"<p>Os magos proeminentes que distorcem a mente geralmente carregam um anel de ouro em um dedo, ao redor do pulso ou no braço ou na cabeça na forma de uma tiara ou faixa de cabeça. Para eles, isso representa o nobre esforço do regente. Esses anéis são frequentemente instilados com a capacidade de dominar todos os seres vivos. Nesse caso, o anel de ouro concede +1 de bônus a todos os Testes que envolvam poderes e rituais do Magismo que afetam a vontade do alvo, por exemplo, o uso e a resistência a Dobrar Vontade e Interrogatório Telepático.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Regras do Anel",
+          "power0Description": "<p>Os magos proeminentes que distorcem a mente geralmente carregam um anel de ouro em um dedo, ao redor do pulso ou no braço ou na cabeça na forma de uma tiara ou faixa de cabeça. Para eles, isso representa o nobre esforço do regente. Esses anéis são frequentemente instilados com a capacidade de dominar todos os seres vivos. Nesse caso, o anel de ouro concede +1 de bônus a todos os Testes que envolvam poderes e rituais do Magismo que afetam a vontade do alvo, por exemplo, o uso e a resistência a Dobrar Vontade e Interrogatório Telepático.</p>"
         },
         "Rune Staff": {
           "name": "Cajado Rúnico",
-		  "description":"<p>A marca registrada do magista do cajado é seu cajado pessoal, esculpido com as runas dos elementos. Na mão de seu dono, o cajado emite uma aura protetora (Armadura +1D4) e é o instrumento através do qual o magista exerce seus poderes.</p>",
-          "cost": "12 táleres"
+          "description":"<p>A marca registrada do magista do cajado é seu cajado pessoal, esculpido com as runas dos elementos. Na mão de seu dono, o cajado emite uma aura protetora (Armadura +1D4) e é o instrumento através do qual o magista exerce seus poderes.</p>",
+          "cost": "12 táleres",
+          "power0Name": "Cajado Rúnico",
+          "power0Description": "<p>A marca registrada do magista do cajado é seu cajado pessoal, esculpido com as runas dos elementos. Na mão de seu dono, o cajado emite uma aura protetora (Armadura +1D4) e é o instrumento através do qual o magista exerce seus poderes.</p>"
         },
         "Spark Stone": {
           "name": "Pedra da Centelha",
-		  "description":"<p>O poder de um Piromante é aumentado por este âmbar brilhante. A pedra da centelha é uma versão mais fraca das renomadas Pedras do Sol que os mestres piromantes da antiguidade podiam fabricar com espíritos de fogo convocados. Atualmente, os magos do fogo têm que se contentar com artefatos menores, longe de serem poderosos, mas ainda assim uma grande ajuda para aqueles cujas habilidades estão relacionadas ao fogo e à queima. Todos os poderes com efeitos de fogo recebem +1 de bônus no dado de efeito quando usados por alguém com uma pedra da centelha na mão ou em cima de seu cajado.</p>",
-          "cost": "10 táleres"
+          "description":"<p>O poder de um Piromante é aumentado por este âmbar brilhante. A pedra da centelha é uma versão mais fraca das renomadas Pedras do Sol que os mestres piromantes da antiguidade podiam fabricar com espíritos de fogo convocados. Atualmente, os magos do fogo têm que se contentar com artefatos menores, longe de serem poderosos, mas ainda assim uma grande ajuda para aqueles cujas habilidades estão relacionadas ao fogo e à queima. Todos os poderes com efeitos de fogo recebem +1 de bônus no dado de efeito quando usados por alguém com uma pedra da centelha na mão ou em cima de seu cajado.</p>",
+          "cost": "10 táleres",
+          "power0Name": "",
+          "power0Description": ""
         },
         "Spell Scroll": {
           "name": "Pergaminho de Magia",
-		  "description":"<p>Criadores de artefatos da Ordo Magica podem vincular um poder místico no nível novato, adepto ou mestre (dependendo do nível do artefato) a um pergaminho. O poder pode então ser ativado por alguém que possua Magismo em um nível igual ou superior ao nível do poder, ou por alguém que possua a habilidade Mestre do Saber em um nível adequado. Quem ativa o pergaminho sofre corrupção temporária, como de costume, e o pergaminho é gasto na ativação.</p>",
-          "cost": "2/4/6 táleres"
+          "description":"<p>Criadores de artefatos da Ordo Magica podem vincular um poder místico no nível novato, adepto ou mestre (dependendo do nível do artefato) a um pergaminho. O poder pode então ser ativado por alguém que possua Magismo em um nível igual ou superior ao nível do poder, ou por alguém que possua a habilidade Mestre do Saber em um nível adequado. Quem ativa o pergaminho sofre corrupção temporária, como de costume, e o pergaminho é gasto na ativação.</p>",
+          "cost": "2/4/6 táleres",
+          "power0Name": "Pergaminho de Magia",
+          "power0Description": "<p>Criadores de artefatos da Ordo Magica podem vincular um poder místico no nível novato, adepto ou mestre (dependendo do nível do artefato) a um pergaminho. O poder pode então ser ativado por alguém que possua Magismo em um nível igual ou superior ao nível do poder, ou por alguém que possua a habilidade Mestre do Saber em um nível adequado. Quem ativa o pergaminho sofre corrupção temporária, como de costume, e o pergaminho é gasto na ativação.</p>"
         },
         "Spell Seal": {
           "name": "Selo de Magia",
-		  "description":"<p>Um criador de artefatos vincula um poder místico no nível novato ou adepto (dependendo do nível do artefato) a um selo; quando o selo é quebrado, a energia é ativada. Quem quebra o selo sofre corrupção temporária, como de costume, e o selo é gasto quando quebrado.</p>",
-          "cost": "8/12 táleres"
+          "description":"<p>Um criador de artefatos vincula um poder místico no nível novato ou adepto (dependendo do nível do artefato) a um selo; quando o selo é quebrado, a energia é ativada. Quem quebra o selo sofre corrupção temporária, como de costume, e o selo é gasto quando quebrado.</p>",
+          "cost": "8/12 táleres",
+          "power0Name": "Sel de Magia",
+          "power0Description": "<p>Um criador de artefatos vincula um poder místico no nível novato ou adepto (dependendo do nível do artefato) a um selo; quando o selo é quebrado, a energia é ativada. Quem quebra o selo sofre corrupção temporária, como de costume, e o selo é gasto quando quebrado.</p>"
         },
         "Staff Foot": {
           "name": "Pé de Cajado",
-		  "description":"<p>Um pé de cajado forjado com magia de fortalecimento pode dar ao cajado de um magista um poder extra quando usado como arma. O artefato é anexado ao cajado e concede +1 de bônus nos Testes de efeito de todos os ataques corpo a corpo ou à distância e em todos os poderes que usam diretamente o cajado como arma. Mesmo que esse artefato seja mais frequentemente anexado a um cajado rúnico, ele pode ser anexado a um bastão de madeira comum com o mesmo efeito.</p>",
-          "cost": "10 táleres"
+          "description":"<p>Um pé de cajado forjado com magia de fortalecimento pode dar ao cajado de um magista um poder extra quando usado como arma. O artefato é anexado ao cajado e concede +1 de bônus nos Testes de efeito de todos os ataques corpo a corpo ou à distância e em todos os poderes que usam diretamente o cajado como arma. Mesmo que esse artefato seja mais frequentemente anexado a um cajado rúnico, ele pode ser anexado a um bastão de madeira comum com o mesmo efeito.</p>",
+          "cost": "10 táleres",
+          "power0Name": "",
+          "power0Description": ""
         },
         "Staff Head": {
           "name": "Cabeça de Cajado",
-		  "description":"<p>Um ornamento especial na parte superior do cajado do magista pode fornecer um foco extra. A cabeça — geralmente uma bela pedra envolta em ferro meteórico — concede +1 de bônus a todos os Testes que não envolvem diretamente o cajado como arma, como por exemplo Esfera e Tempestade de Sangue.</p>",
-          "cost": "10 táleres"
+          "description":"<p>Um ornamento especial na parte superior do cajado do magista pode fornecer um foco extra. A cabeça — geralmente uma bela pedra envolta em ferro meteórico — concede +1 de bônus a todos os Testes que não envolvem diretamente o cajado como arma, como por exemplo Esfera e Tempestade de Sangue.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Cabeça de Cajado",
+          "power0Description": "<p>Um ornamento especial na parte superior do cajado do magista pode fornecer um foco extra. A cabeça — geralmente uma bela pedra envolta em ferro meteórico — concede +1 de bônus a todos os Testes que não envolvem diretamente o cajado como arma, como por exemplo Esfera e Tempestade de Sangue.</p>"
         },
         "Sun Mask": {
           "name": "Máscara Solar",
-		  "description":"<p>As máscaras solares dos teurges conferem calor espiritual àqueles de coração frio e espalham luz onde nenhuma outra luz pode alcançar. Usados por um teurge, elas também podem ajudar no combate a mortos-vivos e abominações. A máscara irradia luz ao redor do usuário como se fosse uma tocha. Além disso, todos os poderes com efeitos sagrados ou de banimento recebem +1 de bônus em Testes de efeito.</p>",
-          "cost": "10 táleres"
+          "description":"<p>As máscaras solares dos teurges conferem calor espiritual àqueles de coração frio e espalham luz onde nenhuma outra luz pode alcançar. Usados por um teurge, elas também podem ajudar no combate a mortos-vivos e abominações. A máscara irradia luz ao redor do usuário como se fosse uma tocha. Além disso, todos os poderes com efeitos sagrados ou de banimento recebem +1 de bônus em Testes de efeito.</p>",
+          "cost": "10 táleres",
+          "power0Name": "Máscara Solar",
+          "power0Description": "<p>As máscaras solares dos teurges conferem calor espiritual àqueles de coração frio e espalham luz onde nenhuma outra luz pode alcançar. Usados por um teurge, elas também podem ajudar no combate a mortos-vivos e abominações. A máscara irradia luz ao redor do usuário como se fosse uma tocha. Além disso, todos os poderes com efeitos sagrados ou de banimento recebem +1 de bônus em Testes de efeito.</p>"
         },
         "The Soul Stone": {
           "name": "Pedra da Alma",
-          "description": "<p>Uma Pedra da Alma é o item necessário para realizaro ritual com o mesmo nome.</p>",
-          "cost": "100 táleres"
+          "description": "<p>Uma Pedra da Alma é o item necessário para realizar o ritual com o mesmo nome.</p>",
+          "cost": "100 táleres",
+          "power0Name": "",
+          "power0Description": ""
         },
         "Toad Guard": {
           "name": "Guarda Anfíbio",
-		  "description":"<p>Uma estatueta na forma de um sapo atua como um alarme. O usuário — que precisa conhecer pelo menos um poder místico — sussurra uma condição de acionamento para a estatueta; essa condição deve ser de natureza física e deve ocorrer próximo ao guarda anfíbio, por exemplo: \"alguém passa pelo bosque\" ou \"a porta é aberta do lado de fora\". Se ativado, o sapo acorda todos com um coachar alto.</p>",
-          "cost": "1 táleres"
+          "description":"<p>Uma estatueta na forma de um sapo atua como um alarme. O usuário — que precisa conhecer pelo menos um poder místico — sussurra uma condição de acionamento para a estatueta; essa condição deve ser de natureza física e deve ocorrer próximo ao guarda anfíbio, por exemplo: \"alguém passa pelo bosque\" ou \"a porta é aberta do lado de fora\". Se ativado, o sapo acorda todos com um coachar alto.</p>",
+          "cost": "1 táleres",
+          "power0Name": "Guarda Anfíbio",
+          "power0Description": "<p>Uma estatueta na forma de um sapo atua como um alarme. O usuário — que precisa conhecer pelo menos um poder místico — sussurra uma condição de acionamento para a estatueta; essa condição deve ser de natureza física e deve ocorrer próximo ao guarda anfíbio, por exemplo: \"alguém passa pelo bosque\" ou \"a porta é aberta do lado de fora\". Se ativado, o sapo acorda todos com um coachar alto.</p>"
         },
         "Transcendental ­Weapon": {
           "name": "Arma Transcendental",
-		  "description":"<p>Essas armas foram forjadas para permitir que um portador ataque à distância. Somente místicos (definidos como alguém que aprendeu pelo menos um poder místico) sabem como usar esse artefato.</p><p>O ataque é rolado como se estivesse em combatecorpo a corpo, mas pode atingir alvos à distância erequer uma linha de visão clara, assim como ataquesà distância. Habilidades ativas podem ser usadas,mas em um nível inferior: um mestre pode usar onível adepto da habilidade através da arma transcendental; um adepto pode usar o nível novato. Umnovato não pode usar a habilidade junto com umaarma transcendental.</p>",
-          "cost": "12 táleres"
+          "description":"<p>Essas armas foram forjadas para permitir que um portador ataque à distância. Somente místicos (definidos como alguém que aprendeu pelo menos um poder místico) sabem como usar esse artefato.</p><p>O ataque é rolado como se estivesse em combatecorpo a corpo, mas pode atingir alvos à distância erequer uma linha de visão clara, assim como ataquesà distância. Habilidades ativas podem ser usadas,mas em um nível inferior: um mestre pode usar onível adepto da habilidade através da arma transcendental; um adepto pode usar o nível novato. Umnovato não pode usar a habilidade junto com umaarma transcendental.</p>",
+          "cost": "12 táleres",
+          "power0Name": "Arma Transcendental",
+          "power0Description": "<p>Essas armas foram forjadas para permitir que um portador ataque à distância. Somente místicos (definidos como alguém que aprendeu pelo menos um poder místico) sabem como usar esse artefato.</p><p>O ataque é rolado como se estivesse em combatecorpo a corpo, mas pode atingir alvos à distância erequer uma linha de visão clara, assim como ataquesà distância. Habilidades ativas podem ser usadas,mas em um nível inferior: um mestre pode usar onível adepto da habilidade através da arma transcendental; um adepto pode usar o nível novato. Umnovato não pode usar a habilidade junto com umaarma transcendental.</p>"
         },
         "Witch Braid": {
           "name": "Trança da Bruxa",
-		  "description":"<p>Essa trança é feita de três tipos de cabelo ou pelo emantém a morte afastada, concedendo +1 de bônusa Vigoroso durante Testes de morte. Personagens doMestre com a trança podem fazer Testes de morte,com o +1 de bônus.</p>",
-          "cost": "8 táleres"
+          "description":"<p>Essa trança é feita de três tipos de cabelo ou pelo emantém a morte afastada, concedendo +1 de bônusa Vigoroso durante Testes de morte. Personagens doMestre com a trança podem fazer Testes de morte,com o +1 de bônus.</p>",
+          "cost": "8 táleres",
+          "power0Name": "Trança da Bruxa",
+          "power0Description": "<p>Essa trança é feita de três tipos de cabelo ou pelo emantém a morte afastada, concedendo +1 de bônusa Vigoroso durante Testes de morte. Personagens doMestre com a trança podem fazer Testes de morte,com o +1 de bônus.</p>"
         },
         "Absolute Memory": {
           "name": "Absolute Memory"
@@ -3892,41 +3948,52 @@
           "name": "Dexterous"
         },
         "Double-tongue": {
-          "name": "Double-tongue"
+          "name": "Dupla-Língua",
+          "description": "<p>Dupla-Língua é uma linguagem desenvolvida pela Guilda dos Ladrões em Yndaros — você diz uma coisa, mas quer dizer outra. Desta forma, conversas sensíveis podem ser realizadas ao alcance de intrusos. Se vários personagens souberem a Dupla-Língua, eles podem falar sobre segredos sem risco — desde que os espectadores também não saibam a linguagem…</p>"
         },
         "Elderly": {
-          "name": "Elderly"
+          "name": "Ancição",
+          "description": "<p>O personagem já passou do auge, e tem bons e maus dias. Se o primeiro Teste de Sucesso do dia for um sucesso, esse é um bom dia e tudo parece estar bem; se o primeiro Teste do dia for um fracasso, esse é um dia ruim — a gota se instala, todas as articulações estão doendo ou então o personagem está sem fôlego mesmo quando sentado. Seja qual for a causa, o personagem tem –1 em todos os Testes do dia.</p>"
         },
         "Enduring March": {
-          "name": "Enduring March"
+          "name": "Marcha Duradoura",
+          "description": "<p>Depois de ter marchado muitos, muitos quilômetros em colunas militares ou através das selvas, o personagem jogador não tem que fazer um Teste para suportar a velocidade de Marcha Mortal. Ele também cura dano normalmente durante uma Marcha Forçada. A experiência do personagem beneficia aqueles ao seu redor, e todos os companheiros de viagem têm uma segunda chance de suportar a tensão de andar na velocidade de Marcha Mortal. Além disso, eles podem fazer um Teste de Vigoroso para conferir se curam naturalmente durante uma Marcha Forçada.</p>"
         },
         "Enterprise": {
-          "name": "Enterprise"
+          "name": "Empreendimento",
+          "description": "<p>O personagem possui algum tipo de estabelecimento — uma pequena taverna, uma loja menor ou algum outro serviço simples de artesanato, como uma loja de sapatos ou bugigangas. Outras alternativas são um teatro ou uma tropa de acrobatas. O empreendimento pode ser estacionário em um local frequentemente visitado pelos personagens entre aventuras ou pode ser móvel na forma de um vagão ou de um barco (o que parecer mais razoável).</p> <p>Uma vez por aventura (ou entre aventuras), o personagem pode rolar um Teste de Astuto (para artesãos) ou Persuasivo (para serviços). Um sucesso representa um lucro de 10 + 1D10 táleres após todas as despesas terem sido pagas. Se mais de um personagem tiver Empreendimento, eles podem ser partes do mesmo estabelecimento ou negócio. Nesse caso, os dois personagens rolam um Teste de lucro para cada um.</p>"
         },
         "Epileptic": {
-          "name": "Epileptic"
+          "name": "Epilético",
+          "description": "<p>O personagem é afligido por uma mente sensível, o que significa que ele pode ser exposto a cãibras violentas em todo o corpo quando empolgado ou estressado. Serolar um 20 em um Teste de Sucesso, a cãibra começa e o personagem cai e fica apagado por 1D6 turnos. Depois, ele está exausto e sofre –1 em todos os Testes de Sucesso até o final da cena.</p>"
         },
         "Escape Artist": {
-          "name": "Escape Artist"
+          "name": "Escapista",
+          "description": "<p>O personagem tem articulações soltas e é treinado para utilizá-las a fim de se libertar de amarras ou para se espremer através de passagens estreitas. Ele ou ela também pode se libertar das garras de um inimigo ou de armadilhas como redes e laços. Em todos esses casos, o personagem recebe uma segunda chance de passar no Teste, independentemente do atributo usado.</p>"
         },
         "False Identity": {
-          "name": "False Identity"
+          "name": "Identidade Falsa",
+          "description": "<p>O personagem tem uma identidade falsa completa, com roupas, equipamentos e papéis para respaldá-lo. A identidade é tão bem trabalhada que não pode ser exposta a menos que a pessoa que a criou (geralmente um membro da instituição ou facção à qual pertence o personagem) a divulgue — ou se o personagem fizer algo claramente revelador.</p>"
         },
         "Fire Forged": {
-          "name": "Fire Forged"
+          "name": "Forjado no Fogo",
+          "description": "<p>O personagem nasceu sob um fenômeno celestial brilhante ou foi o único a sobreviver a um incêndio devastador. Ele ou ela tem uma proteção mística de +1 contra fogo e também tem +1 de bônus em todos os Testes de Sucesso relacionados a resistência ou uso de fogo e chamas.</p>"
         },
         "Fleet-footed": {
           "name": "Pés leves",
           "description": "<p>A criatura ou pessoa se move a uma velocidade anormalmente alta. Em situações em que a precisão conta, o movimento é de 13 metros por turno. E em conexão com a regra de Perseguição: Fuga  & Caça (página 104), a dádiva concede +3 de bônus em Rápido.</p>"
         },
         "Forbidden Knowledge": {
-          "name": "Forbidden Knowledge"
+          "name": "Conehcimento Proibido",
+          "description": "<p>O personagem de alguma forma chegou a possuir os segredos das tradições místicas em relação a alquimia e criação de artefatos; talvez como resultado de espionagem ou depois de ter servido um Mestre muito viajado. Com as habilidades Alquimia e Criar Artefatos, ele ou ela tem a capacidade de criar todos os elixires e artefatos, incluindo aqueles que pertencem aos segredos de outras tradições.</p>"
         },
         "Gambler": {
-          "name": "Gambler"
+          "name": "Apostador",
+          "description": "<p>O personagem recebe +1 de bônus em todos os Testes de Astuto ao apostar ou participar de jogos de estratégia como Sol de Prios. Além disso, ele recebe +1 em Vigilante para expor as fraudes. Apostador pode ser acumulado com Trapaceiro para usar os bônus somados.</p><p>Apostador pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Green Thumb": {
-          "name": "Green Thumb"
+          "name": "Dedo Verde",
+          "description": "<p>O personagem tem uma conexão mística com todas as coisas que crescem e recebe +1 de bônus em Testes relacionados a desafios na natureza, como se orientar na floresta, encontrar comida e abrigo e detectar ou evitar armadilhas naturais. O bônus também se aplica a todos os Testes de Alquimia.</p><p>Dedo Verde pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Heirloom": {
           "name": "Heirloom"
@@ -4015,13 +4082,19 @@
           "description": "<p>O personagem é procurado por um crime sério, justa ou falsamente acusado. O efeito é que ele ou ela corre o risco de ser reconhecido e caçado. Uma vez por aventura, o personagem deve passar num Teste de Discreto para evitar ser identificado.</p>"
         },
         "Alchemical Mine - Moderate": {
-          "name": "Alchemical Mine - Moderate"
+          "name": "Mina Alquímica - Moderada",
+          "description": "<p>Minas alquímicas são criadas por um alquimista que possui a habilidade Armadilheiro e/ou Pirotecnia. Quando acionadas, pulverizam substâncias inflamáveis sobre os alvos miseráveis e causam dano de fogo por várias rodadas. Remover os materiais inflamáveis requer uma ação de combate e um Teste de [Rápido←Astuto], sendo o último o valor do atributo do criador da mina (o alquimista médio pode ter Astuto 13 (-3)).</p> <p>Uma alternativa é mergulhar na água, que sufoca o fogo enquanto você ficar lá. Aliados que tentam ajudar o alvo em chamas podem fazer Testes separados para remover as substâncias.</p> <p><strong>Moderada:</strong> A explosão causa 1D10 de dano, e após isso a substância continua queimando por 1D6 turnos, causando 1D6 de dano por turno.</p>",
+          "cost": "4 táleres"
         },
         "Alchemical Mine - Strong": {
-          "name": "Alchemical Mine - Strong"
+          "name": "Mina Alquímica - Forte",
+          "description": "<p>Minas alquímicas são criadas por um alquimista que possui a habilidade Armadilheiro e/ou Pirotecnia. Quando acionadas, pulverizam substâncias inflamáveis sobre os alvos miseráveis e causam dano de fogo por várias rodadas. Remover os materiais inflamáveis requer uma ação de combate e um Teste de [Rápido←Astuto], sendo o último o valor do atributo do criador da mina (o alquimista médio pode ter Astuto 13 (-3)).</p> <p>Uma alternativa é mergulhar na água, que sufoca o fogo enquanto você ficar lá. Aliados que tentam ajudar o alvo em chamas podem fazer Testes separados para remover as substâncias.</p> <p><strong>Forte:</strong> A explosão causa 1D12 de dano, e após isso a substância continua queimando durante 1D8 turnos, causando 1D8 de dano por turno.</p>",
+          "cost": "8 táleres"
         },
         "Alchemical Mine - Weak": {
-          "name": "Alchemical Mine - Weak"
+          "name": "Mina Alquímica - Fraca",
+          "description": "<p>Minas alquímicas são criadas por um alquimista que possui a habilidade Armadilheiro e/ou Pirotecnia. Quando acionadas, pulverizam substâncias inflamáveis sobre os alvos miseráveis e causam dano de fogo por várias rodadas. Remover os materiais inflamáveis requer uma ação de combate e um Teste de [Rápido←Astuto], sendo o último o valor do atributo do criador da mina (o alquimista médio pode ter Astuto 13 (-3)).</p> <p>Uma alternativa é mergulhar na água, que sufoca o fogo enquanto você ficar lá. Aliados que tentam ajudar o alvo em chamas podem fazer Testes separados para remover as substâncias.</p> <p><strong>Fraca:</strong> A explosão causa 1D8 de dano, e após isso a substância continua queimando por 1D4 turnos, causando 1D4 de dano por turno.</p>",
+          "cost": "2 táleres"
         },
         "Arrow - Armor-piercing Head": {
           "name": "Arrow - Armor-piercing Head"
@@ -4036,22 +4109,33 @@
           "name": "Arrow - Hammer Head"
         },
         "Arrow - Precision": {
-          "name": "Arrow - Precision"
+          "name": "Flecha - Precisão",
+          "description": "<p>Uma flecha (ou virote) com a qualidade Precisa, que é especialmente equilibrada e acerta seus alvos com mais facilidade.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Rope Cutter": {
-          "name": "Arrow - Rope Cutter"
+          "name": "Flecha - Cortador de Corda",
+          "description": "<p>Uma ponta em forma de Y permite cortar cordas. Acertar na corda é difícil (–5 no Teste de ataque), mas um sucesso significa que a corda é cortada.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Snaring": {
-          "name": "Arrow - Snaring"
+          "name": "Flecha - de Laço",
+          "description": "<p>Uma ponta de flecha farpada e um fino fio de seda preso à f lecha tornam possível prender um alvo usando esse projétil.</p> <p>Puxar para fora exige uma ação de movimento e requer um Teste de [Vigoroso –Dano]; se for bem-sucedido, o alvo sofre 1D4 de dano, mas a f lecha está fora. Mover-se com uma f lecha presa na carne causa 1 ponto de dano por turno, ignorando Armadura.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Swallow’s Tail": {
-          "name": "Arrow - Swallow’s Tail"
+          "name": "Flecha - Cauda de Andorinha",
+          "description": "<p>A cabeça desse projétil é larga e feita para causar ferimentos sangrentos. A desvantagem é que é menos eficaz contra alvos com armadura. Os alvos recebem +1D4 de bônus de Armadura contra a cauda de andorinha, mas se sofrerem dano, sangrarão como descrito na qualidade Sangrenta.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Whistler": {
-          "name": "Arrow - Whistler"
+          "name": "Flecha - Sibilante",
+          "description": "<p>A flecha assobia enquanto voa, como um sinal para os aliados.</p>",
+          "cost": "2 xelins"
         },
         "Arrows/Bolts - Regular": {
-          "name": "Arrows/Bolts - Regular"
+          "name": "Flechas/Virotes - Regulares",
+          "cost": "1 táler"
         },
         "Artifact Catalogue": {
           "name": "Artifact Catalogue"
@@ -4588,13 +4672,19 @@
           "masterDescription": "<p>O personagem pode cavar mais fundo na memória coletiva. Com um sucesso num Teste de Resoluto, ele adquire acesso ao nível adepto de uma habilidade opcional, exceto por Poder Místico, Ritualista e Tradições Místicas. A habilidade pode ser usada pelo resto da cena, e então desaparece da memória.</p>"
         },
         "Alchemical Firetube, Portable": {
-          "name": "Alchemical Firetube, Portable"
+          "name": "Tubo de Fogo Alquímico,Portátil",
+          "description": "<p>O tubo de fogo alquímico portátil é uma versão mais leve da arma de cerco estacionária de mesmo nome. A versão portátil é feita de um tubo sólido, carregado com materiais alquímicos que, quando inflamados, transformam a arma em um lança-chamas. As chamas do tubo de fogo podem atingir todos os inimigos na frente do transportador; um Teste é feito para cada alvo. Aqueles que são atingidos sofrem o dano inteiro, além do dano de fogo como efeito contínuo; aqueles que conseguem se defender sofrem metade do dano e nenhum efeito contínuo de fogo.</p> <p>Qualquer pessoa pode usar um tubo de fogo alquímico, mas os usuários que não possuem a habilidade Perito em Cerco no nível adepto estão em risco de desencadear uma falha catastrófica. Para mais detalhes, consulte as regras sobre Armas Alquímicas na página 99.</p> <p>Um tubo de fogo portátil usado em combate corpo a corpo conta como um martelo de guerra.</p>",
+          "cost": "10 táleres"
         },
         "Alchemical Firetube, Stationary": {
-          "name": "Alchemical Firetube, Stationary"
+          "name": "Tubo de Fogo Alquímico, Estacionário",
+          "description": "<p>O tubo de fogo estacionário consiste em um cilindro — geralmente um tronco oco, mas também existem versões totalmente fundidas — que é carregado com materiais alquímicos que, quando inf lamados, transformam a arma em um lança-chamas devastador. As chamas podem atingir todos os inimigos na frente do dispositivo; um Teste é feito para cada alvo. Aqueles que são atingidos sofrem o dano inteiro, além do dano de fogo como efeito contínuo; aqueles que conseguem se defender sofrem metade do dano e nenhum efeito contínuo de fogo.</p> <p>Somente pessoas com a habilidade Perito em Cerco no nível adepto podem operar um tubo de fogo alquímico estacionário (consulte Armas Alquímicas, página 99).</p>",
+          "cost": "250 táleres"
         },
         "Alchemical Grenade": {
-          "name": "Alchemical Grenade"
+          "name": "Granada Alquímica",
+          "description": "<p>A granada alquímica é a prima menor do pote de ruptura — um pequeno recipiente cerâmico resistente é preenchido com substâncias voláteis que explodem quando inflamadas por um pavio ou quando o recipiente é esmagado. A granada é do tamanho de um punho e é arremessada com a mão ou com uma funda.</p> <p>O lançador mira em um alvo e também pode rolar para acertar alguém dentro do alcance corpo a corpo da criatura alvo. Com um Teste de ataque bem-sucedido, aqueles que são atingidos sofrem o dano inteiro, além de dano de fogo como efeito contínuo. Se o Teste de ataque falhar, todos os que conseguirem se defender sofrem apenas metade do dano e nenhum efeito contínuo de fogo.</p> <p>Qualquer pessoa pode usar uma granada alquímica, mas um usuário destreinado (ou seja, que não aprendeu Alquimia, Perito em Cerco ou Pirotecnia) corre o risco de desencadear uma falha catastrófica (consulte Armas Alquímicas, página 99).</p>",
+          "cost": "1 táler"
         },
         "Assassin’s Blade": {
           "name": "Lâmina do Assassino",
@@ -4602,7 +4692,9 @@
           "cost": "5 táleres"
         },
         "Ballista": {
-          "name": "Ballista"
+          "name": "Balestra",
+          "description": "<p>Essencialmente, a balestra é uma besta enorme e estacionária, destinada a disparar contra alvos fixos, formações de tropas no campo e monstros mais robustos.</p> <p>Na Grande Guerra, a balestra foi usada contra os animais mortos-vivos dos Lordes Negros com a intenção de impedir que suas torres de cerco chegassem às muralhas. Isso continuou durante a colonização de Ambria, com os animais domésticos dos senhores da guerra bárbaros como alvos principais. Ainda hoje, as balestras estão voltadas para Davokar no topo de postos avançados e torres de muralhas.</p>",
+          "cost": "50 táleres"
         },
         "Blowpipe": {
           "name": "Zarabatana",
@@ -5498,7 +5590,12 @@
           "name": "Combat Hymn"
         },
         "Dancing Weapon": {
-          "name": "Dancing Weapon"
+          "name": "ARma Dançante",
+          "material": "Uma arma corpo a corpo",
+          "description": "<p><strong>Tradição: </strong>Canto do Troll, Magia do Cajado</p> <p>Usando simplesmente a força de vontade, o místico faz uma arma disparar e lutar, com a velocidade e a agilidade de um pensamento. A arma em questão não precisa ser especial de forma alguma; se tiver qualidades ou poderes, eles podem ser usados pelo místico de acordo com as regras padrão de combate. No entanto, o místico não pode usar outras habilidades relacionadas a combate corpo a corpo enquanto usa este poder.</p>",
+          "noviceDescription": "<p>O místico permite que uma arma dance e usa Resoluto em vez de Preciso (ataque) e Rápido (defesa). Fora isso, aplicam-se as regras normais de combate.</p> <p>O novato deve se concentrar na arma enquanto luta, o que o impede de usar outros poderes ou habilidades enquanto a arma dança.</p>",
+          "adeptDescription": "<p>O místico deve assumir o controle da arma gastando uma ação de combate para ativar o poder, mas depois disso a arma luta sozinha, e o místico fica livre para usar outros poderes e habilidades. As rolagens de ataque e defesa são feitas contra Resoluto.</p>",
+          "masterDescription": "<p>A arma sai da bainha quando o mestre precisa dela, ataca uma vez por turno e defende o personagem por si só, deixando o místico livre para usar outros poderes e habilidades. As rolagens de ataque e defesa são feitas contra Resoluto.</p>"
         },
         "Draining Glyph": {
           "name": "Draining Glyph"
