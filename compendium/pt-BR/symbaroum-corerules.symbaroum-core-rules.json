@@ -145,7 +145,7 @@
             "16. Benego’s": "16. Benego’s",
             "17. Legends": "17. Lendas",
             "18. The Hangman’s Pole": "18. O Poste do Enforcado",
-            "19. The Abomitorium": "19. O Abomitório",
+            "19. The Abomitorium": "19. O O Abomitório",
             "20. Marvalom’s General Store": "20. Marvalom’s",
             "21. The Rope and Axe": "21. A Corda e Machado",
             "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
@@ -189,7 +189,7 @@
             "16. Benego’s": "16. Benego’s",
             "17. Legends": "17. Lendas",
             "18. The Hangman’s Pole": "18. O Poste do Enforcado",
-            "19. The Abomitorium": "19. O Abomitório",
+            "19. The Abomitorium": "19. O O Abomitório",
             "20. Marvalom’s General Store": "20. Marvalom’s",
             "21. The Rope and Axe": "21. A Corda e Machado",
             "22. Big-Basher’s Smithy": "22. Ferraria do Grande Golpeador",
@@ -4641,6 +4641,7 @@
         },
         "Estoc": {
           "name": "Estoc",
+		  "description": "<p>O Estoc é uma espada de esgrima, mas com uma lâmina cônica que termina em uma ponta em forma de cunha, destinada a penetrar na armadura do alvo.</p>",
           "cost": "25 táleres"
         },
         "Executioner’s Sword": {
@@ -6392,220 +6393,220 @@
           }
         },
         "The Pilgrim Camp": {
-          "name": "The Pilgrim Camp",
+          "name": "O Acampamento dos Peregrinos",
           "pages": {
             "The Pilgrim Camp Text": {
-              "name": "The Pilgrim Camp Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE PILGRIM CAMP</h5>\n<p class=\"pblock\">All non-barbarians who undertake the walk up to the plateau are greeted by a troop of eleven Wrathguards who politely but firmly direct them to follow the trail running south along the western rim of the cliff. The obedient ones will soon come to see the temple up on the south side of the fault line and the small tent camp by the foot of the steep wall. When arriving at the camp they will most likely be warmly welcomed by a group of weary but happy pilgrims who direct them to an empty spot where they can set up their tents. <br /><br />Soon they will come to see that the pilgrims are in company with other types of travelers – merchants there to trade with the barbarians and explorers studying barbarian culture or the ruin that has been renovated by the Sun Church. In addition, there are most often one or more groups of fortune-hunters who have climbed Karvosti in search of recuperation and healing. The informal leader of the camp is the former treasure-hunter Edrafin, who came searching for shelter after having lost his entire expedition in a nearby ruin complex. The terrible occurrence took place four years ago and Edrafin still does not dare to venture down into the woods – something he gladly admits but without ever touching upon exactly what he is afraid of and how he lost his friends. The curious one is left to speculate, based on the eye Edrafin has lost, the corrosive burns covering the left side of his body and the howls heard from his tent at night.</p>\n<br /><br /></div>"
+              "name": "Texto de O Acampamento dos Peregrinos",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O ACAMPAMENTO DOS PEREGRINOS</h5>\n<p class=\"pblock\">Todos os não bárbaros que começam a subir para o platô são recebidos por uma tropa de onze Guardas da Ira que os direcionam polida e firmemente para a trilha sul ao longo do limite oeste do rochedo. Os obedientes rapidamente veem o templo no lado sul da falha geográfica e o pequeno acampamento de tendas nos pés da parede. Chegando no acampamento, eles provavelmente serão muito bem recebidos por um grupo de peregrinos felizes e cansados que os direcionam a um espaço vazio onde podem armar suas tendas. <br /><br />Logo eles verão que os peregrinos estão acompanhados por outros tipos de viajantes; mercadores que vieram comerciar com os bárbaros e exploradores estudando a cultura bárbara ou a ruína que foi renovada pela Igreja do Sol. Além disso, frequentemente existem um ou mais grupos de caçadores de fortuna que escalaram Karvosti em busca de recuperação e cura. O líder informal do acampamento é o antigo caçador de fortunas Edrafin, que veio em busca de abrigo depois de perder sua expedição inteira em um complexo de ruínas próximo. A ocorrência terrível aconteceu há quatro anos e Edrafin ainda não ousa se aventurar na mata; algo que ele admite abertamente, mas nunca dizendo exatamente o que ele teme e como ele perdeu seus amigos. Os curiosos só podem especular, baseados no olho que Edrafin perdeu, nas queimaduras de ácido cobrindo o lado esquerdo de seu corpo e nos uivos ouvidos de sua tenda a noite.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Thingstead": {
-          "name": "The Thingstead",
+          "name": "O Local da Assembleia",
           "pages": {
             "The Thingstead Text": {
-              "name": "The Thingstead Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE THINGSTEAD</h5>\n<p class=\"pblock\">Two times a year, at the equinoxes of spring and autumn, High Chieftain Tharaban holds market days on Karvosti. During such events the northern part of the plateau is full of tents and wagons, inhabited by thousands of barbarians. By day you can hear children frolic and shout, women exchange news and men negotiate trade treaties or debate the right to newly found resources in the border regions. At night the festivities take over. The intoxicants flow, family-ties are knitted, and age-old conflicts resurface to spark more or less violent disputes. <br /><br />Perhaps most disconcerting for a visitor to witness is the settling of serious conflicts which have not found a solution through mediation attempts by the High Chieftain. Such disputes are resolved at dawn when the champions of the brawling parties meet on the Pole – the one who manages to strike his or her opponent down from a log that has been hoisted ten feet up in the air is deemed to be righteous. <br /><br />Usually, however, it is much more peaceful at the Thingstead. On an average day there are about ten to twenty tents or wagons stationed on the dusty field, whose owners have come to seek the counsel of the Huldra or to trade with Ambrian merchants. Adding to that are groups of travelers visiting to get a few days’ rest and to replenish their supplies.</p>\n<br /><br /></div>"
+              "name": "Texto de O Local da Assembleia",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O LOCAL DA ASSEMBLEIA</h5>\n<p class=\"pblock\">Duas vezes por ano, nos equinócios de primavera e outono, o Alto Chefe Tharaban mantém dias de mercado em Karvosti. Durante tais eventos, a parte norte do platô fica cheia de tendas e carroças, habitadas por milhares de bárbaros. De dia você pode ouvir crianças correndo e gritando, mulheres trocando notícias e homens negociando acordos comerciais ou debatendo o direito sobre recursos recém encontrados nas regiões de fronteira. De noite as festividades assumem. Os intoxicantes fluem, laços de família são estreitados e conflitos antigos ressurgem para gerar disputas mais ou menos violentas. <br /><br />Talvez o mais desconcertante para um visitante seja testemunhar a resolução de conflitos sérios que não tiveram soluções através das mediações tentadas pelo Alto Chefe. Tais disputas são resolvidas ao amanhecer onde os campeões dos grupos em contenda se encontram no Poste — aquele que conseguir derrubar seu oponente do tronco que foi erguido a 3 metros de altura é julgado correto. <br /><br />Normalmente, entretanto, é muito mais pacífico no Local da Assembleia. Em um dia comum existem de dez a vinte tendas ou carroças estacionadas no campo empoeirado, cujos donos vieram para buscar conselhos com a Huldra ou negociar com mercadores ambrianos. Somado a isso estão grupos de viajantes visitando para ter alguns dias de descanso e reabastecer suprimentos.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Shrine of the Setting Sun": {
-          "name": "The Shrine of the Setting Sun",
+          "name": "O Altar do Pôr do Sol",
           "pages": {
             "The Shrine of the Setting Sun Text": {
-              "name": "The Shrine of the Setting Sun Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE SHRINE OF THE SETTING SUN</h5>\n<p class=\"pblock\">It was Ambrian explorers who first detected the sun-like symbols on Karvosti’s old temple ruin. The rumor traveled with them back to Yndaros and before long the Curia sent an expedition to the plateau, composed of theurgs and missionaries tasked to study the symbols more closely. After thorough examinations and numerous debates the verdict came: the ruin on Karvosti was indeed the oldest known temple erected in honor of Prios. It was decided that the heretical barbarians must be driven from the cliff, and a host of one hundred Templars embarked on a Sun March to accomplish the task. <br /><br />It did not turn out as planned: the Guard of the Slumbering Wrath put up a good fight and Commander Iakobo Vearra found it best to seek a peaceful solution, with the aid of Queen Korinthia. It is whispered that the First Father and the other members of the Curia would have preferred to deal with the situation more forcefully, but whatever the truth may be the commander’s initiative led to the Church being granted free passage to the holy ground surrounding the ruin. <br /><br />Two years ago the relatively small but beautiful temple was finished, with the entrance pointing towards the setting sun in the west. A dozen friars and twice as many Templars live on site, and the shrine is visited by pilgrims and explorers on a daily basis. Aside from the head of the temple, Piromei, and his subordinate, the liturg Aranitra, the individuals come and go. The temple on Karvosti acts as a base for persons involved in the demanding and hazardous restoration of an even older ruin that has been discovered three days’ march east of the plateau.</p>\n<br /><br /></div>"
+              "name": "Texto de O Altar do Pôr do Sol",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O ALTAR DO PÔR DO SOL</h5>\n<p class=\"pblock\">Foram exploradores ambrianos que detectaram primeiro os símbolos parecidos com sóis no antigo templo em ruínas de Karvosti. Rumores viajaram até Yndaros e em pouco tempo a Cúria enviou uma expedição ao platô, composta de teurgos e missionários com a tarefa de estudar os símbolos mais de perto. Depois de extensos exames e numerosos debates o veredito veio: a ruína em Karvosti era, de fato, o mais antigo templo erguido em honra a Prios. Foi decidido que os bárbaros hereges deviam ser expulsos do rochedo, e um grupo de cem templários embarcou em uma Marcha Solar para fazer isso. <br /><br />Mas não ocorreu como planejado: a Guarda da Ira Dormente lutou bem e o Comandante Iakobo Vearra achou melhor buscar por uma solução pacífica, com a ajuda da Rainha Korinthia. É sussurrado que o Primeiro Padre e os outros membros da Cúria prefeririam lidar com a situação de outra maneira, mas qualquer que seja a verdade, a iniciativa do comandante levou à Igreja ter passagem livre ao solo sagrado que cerca a ruína. <br /><br />Dois anos atrás um templo relativamente pequeno e belo foi terminado, com a entrada apontando para o pôr do sol no oeste. Doze frades e o dobro de Templários vivem no lugar, e o altar é visitado por peregrinos e exploradores diariamente. Além do líder do templo, Piromei, e sua subordinada, a liturga Aranitra, os indivíduos vem e vão. O templo em Karvosti age como uma base para pessoas envolvidas em restaurações trabalhosas e perigosas de ruínas ainda mais antigas que foram descobertas há três dias de marcha a leste do platô.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Stronghold": {
-          "name": "The Stronghold",
+          "name": "A Fortaleza",
           "pages": {
             "The Stronghold Text": {
-              "name": "The Stronghold Text",
-              "text": "<div class=\"symbaroum-mod\">\n<blockquote class=\"blockquoteright\" style=\"max-width:40%\">\n<h3 style=\"font-weight:bold\">The Guard of the Slumbering Wrath</h3>\n<p>The stronghold of the High Chieftain has for centuries been protected by the Guard of the Slumbering Wrath, composed of the barbarians’ best warriors. The clans take great pride in their Wrathguards and the chieftain whose warriors are biggest, strongest, quickest or most skilled is always treated with great respect during gatherings at the Thingstead. Normally the period of service is ten years, after which the guard returns to his or her clan. He does so without his blood and rust colored wrath armor and without much of the vigor he once brought along to Karvosti. Former Wrathguards never talk about their time of service, and most do not survive long after returning home – a reality that no barbarian wants to discuss, but about which Ambrians enjoy speculating. Maybe there is some truth to what is said, that the Guard of the Slumbering Wrath is fed a special elixir that makes them extra powerful but which they have a hard time doing without once the duty is done.</p>\n</blockquote>\n<h5>THE STRONGHOLD</h5>\n<p class=\"pblock\">The first version of the High Chieftain’s residence was built about four to five hundred years ago and was not much more than a simple tower of wood and stone. That tower still stands, but has with time become incorporated in the continuously expanding stone stronghold that balances on the eastern rim of the plateau. Today the old three-story tower can be found right behind the throne in the enormous audience hall of the fortress, a hall that once was the outer walls of the castle constructed for Karvosti’s fifth High Chieftain – the legendary Maiesticar, slayer of the Spider King. <br /><br />Aside from the High Chieftain with family and servants, the stronghold houses the ninety-nine clan warriors of the honorary guard. The members of the Guard of the Slumbering Wrath – selected to represent the most disciplined and skilled fighters of the eleven clans – live in the west wing of the fortress, and they stand under Tharaban’s direct control. The Wrathguard is divided into nine troops, composed of one warrior from each clan, that take turns guarding the stronghold, manning the station where the road comes up and patrolling along the rim of the plateau. <br /><br />Finally, Lothar Grendel and his staff of three must be mentioned. Lothar’s father, Baron Manvar, was the Chieftain in Kadizar when the Ambrians arrived and he was later made a noble as a reward for his swift and complete surrender. Baron Manvar’s son is now tasked with being Queen Korinthia’s legate on Karvosti – a task he is rumored to loath but manages flawlessly thanks to his barbarian heritage.</p>\n<br /><br /><br /><br /></div>"
+              "name": "Texto de A Fortaleza",
+              "text": "<div class=\"symbaroum-mod\">\n<blockquote class=\"blockquoteright\" style=\"max-width:40%\">\n<h3 style=\"font-weight:bold\">A Guarda da Ira Dormente</h3>\n<p>A fortaleza do Alto Chefe tem sido, há séculos, protegida pela Guarda da Ira Dormente, composta pelos melhores guerreiros dos bárbaros. Os clãs se orgulham muito de seus Guardas da Ira e os chefes cujos guerreiros sejam maiores, mais fortes, mais rápidos ou mais talentosos são sempre tratados com grande respeito durante os encontros no Local da Assembleia.<br /><br />Normalmente o período de serviço é de dez anos, depois dos quais o guarda retorna ao seu clã. Ele o faz sem sua armadura da ira tingida de sangue ou ferrugem e sem muito do vigor que outrora trouxe à Karvosti. Antigos Guardas da Ira nunca falam sobre o seu tempo servindo, e a maioria não sobrevive muito após retornar para casa — uma realidade que nenhum bárbaro quer discutir, mas sobre a qual ambrianos adoram especular. Talvez exista alguma verdade no que dizem, que a Guarda da Ira Dormente é alimentada com um elixir especial que os deixa mais poderosos, mas que eles têm dificuldade de ficar sem quando seu dever se encerra.</p>\n</blockquote>\n<h5>A FORTALEZA</h5>\n<p class=\"pblock\">A primeira versão da residência do Alto Chefe foi construída há cerca de quatrocentos ou quinhentos anos e não era muito mais do que uma torre simples de madeira e pedra. A torre ainda está de pé, mas com o tempo foi continuamente expandida até a fortaleza de pedra que se equilibra no limite leste do platô. Hoje, a velha torre de três andares pode ser encontrada logo atrás do trono no enorme salão de audiências da fortaleza, um salão que já foram as muralhas externas do castelo construído pelo quinto Alto Chefe de Karvosti; o lendário Maiesticar, matador do Rei Aranha. <br /><br />Além do Alto Chefe com família e servos, a fortaleza abriga os noventa e nove guerreiros dos clãs da guarda de honra. Os membros da Guarda da Ira Dormente; selecionados para representar os guerreiros mais talentosos e disciplinados dos onze clãs; vivem na ala oeste da fortaleza, e ficam sob o controle direto de Tharaban. Os Guardas da Ira são divididos em nove tropas, compostas por um guerreiro de cada clã, que revezam protegendo a fortaleza, ocupando o posto onde a estrada sobe e patrulhando a borda do platô. <br /><br />Finalmente, Lothar Grendel e sua equipe de três deve ser mencionada. O pai de Lothar, Barão Manvar era o Chefe em Kadizar quando os ambrianos chegaram e depois foi erguido à nobreza, como uma recompensa por sua rendição rápida e completa. O filho do Barão Manvar agora tem a tarefa de ser o legado da Rainha Korinthia em Karvosti — uma tarefa que os rumores dizem que ele não deseja, mas que administra impecavelmente devido à sua herança bárbara.</p>\n<br /><br /><br /><br /></div>"
             }
           }
         },
         "The Grove of Aloéna": {
-          "name": "The Grove of Aloéna",
+          "name": "O Arvoredo de Aloéna",
           "pages": {
             "The Grove of Aloéna Text": {
-              "name": "The Grove of Aloéna Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE GROVE OF ALOÉNA</h5>\n<p class=\"pblock\">For as long as anybody knows a being called Aloéna has lived in a towering grove at the southern edge of the plateau. The ten-foot-tall, horned and humanoid female is assumed to be related to Davokar’s elves. Among the barbarians it is said that she resides on Karvosti in order to protect something, and many were worried that she would be called into action when the Sun Church started to poke around in the ancient ruin. But that concern proved to be unfounded – her purpose for being on the cliff remains a mystery. <br /><br />With only a few exceptions per year Aloéna never leaves her grove, and none but the witches dare to pay her a visit. No one, save the witches of Karvosti’s witch node, can claim to have heard her speak; she appears to view humans with the same distance and indifference as a human would view a passing flock of birds. It is said that on rare occasions she has halted her slow walk over the plateau, made eye contact with a child or an elderly clan-member and given them a smile. Aside from that she seems to lack all interest in humans, who in their turn spend many and long discussions guessing who she really is, what she is waiting for and what would happen if someone happened to make her angry.</p>\n<br /><br /></div>"
+              "name": "Texto de O Arvoredo de Aloéna",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O ARVOREDO DE ALOÉNA</h5>\n<p class=\"pblock\">Por tanto tempo quando é lembrado, um ser chamado Aloéna tem vivido no alto arvoredo no limite sul do platô. Assume-se que a humanoide fêmea de três metros de altura e com chifres seja relacionada aos elfos da Davokar. Entre os bárbaros dizem que ela reside em Karvosti para proteger alguma coisa, e muitos se preocuparam que ela faria algo, quando a Igreja do Sol começou a remexer a antiga ruína. Mas essa preocupação se provou infundada; seu propósito de estar no rochedo continua um mistério. <br /><br />Com apenas algumas exceções por ano, Aloéna nunca deixa seu arvoredo, e ninguém além das bruxas ousam visitá-la. Ninguém, exceto as bruxas do nodo de Karvosti, pode alegar ter ouvido ela falar; ela aparenta ver humanos com a mesma distância e indiferença que um humano vê um bando de pássaros passando. Dizem que ela, em algumas ocasiões singulares parou seu lento caminhar pelo platô, fez contato visual com alguma criança ou velho membro de clã e deu um sorriso a eles. Mas além disso ela parece não ter qualquer interesse em humanos, que por sua vez gastam numerosas e longas discussões palpitando sobre quem ela realmente é, o que ela está esperando e o que iria acontecer se alguém a deixasse nervosa.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Palace District": {
-          "name": "The Palace District",
+          "name": "O Distrito do Palácio",
           "pages": {
             "The Palace District Text": {
-              "name": "The Palace District Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE PALACE DISTRICT</h5>\n<p class=\"pblock\">The palace with its pavilions, parks and barracks is located in the southern part of the capital, and is completely based on foundations from old Lindaros. It is placed on a wide hilltop surrounded by a polished, and nowadays somewhat eroded, stone wall; a hill that likely harbored the lords of the dead city-state two centuries ago. <br /><br />Aside from the sequentially remodeled palace with its sky high central tower there are lots of other buildings inside the wall. The dukes and duchesses share two pavilions, one of which also is the permanent residence of the sickly mother of the Queen. The Queen’s Guard, the Pansars, has its barracks close to the Palace Park with its sculptures and encaged beasts. Close by is also the highly appreciated Triumph Theatre, housing an ensemble of actors, a male choir and two dance companies. <br /><br />Finally, the residence of the Key Master must be mentioned. Since four years ago, it is the beloved Herakleo Attio who runs the city administration. Many would say that his fierceness, made evident in the expansion and harsher methods of the city’s reformatory, would never have been tolerated if he were not such a celebrated and adored war hero.</p>\n<br /><br /></div>"
+              "name": "Texto de O Distrito do Palácio",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O DISTRITO DO PALÁCIO</h5>\n<p class=\"pblock\">O palácio e seus pavilhões, parques e quartéis estão localizados na parte sul da capital, e são completamente baseados nas fundações da velha Lindaros. Ele se situa no topo de uma ampla colina, cercado por uma muralha de pedra polida e, atualmente, um pouco erodida; uma colina que provavelmente recebeu os lordes da cidade-estado morta há dois séculos. <br /><br />Além do palácio sequencialmente remodelado com sua alta torre central existem muitas outras estruturas dentro da muralha. Os duques e duquesas partilham dois pavilhões, um dos quais é a residência permanente da adoecida mãe da Rainha. A Guarda da Rainha, os Pansars, tem seu quartel perto do Parque do Palácio, com suas esculturas e bestas enjauladas. Também próximo, está o altamente apreciado Teatro do Triunfo, abrigando um grupo de atores, um coro masculino e duas companhias de dança. <br /><br />Finalmente, a residência do Mestre das Chaves deve ser mencionada. Há quatro anos, é o amado Herakleo Attio que conduz a administração da cidade. Muitos falam de sua ferocidade, evidenciada na expansão e métodos duros na reforma da cidade, que nunca seriam tolerados se ele não fosse um herói de guerra tão celebrado e adorado.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Triplet-Towers of Ordo Magica": {
-          "name": "The Triplet-Towers of Ordo Magica",
+          "name": "As Torres Trigêmeas da Ordo Magica",
           "pages": {
             "The Triplet-Towers of Ordo Magica Text": {
-              "name": "The Triplet-Towers of Ordo Magica Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE TRIPLET-TOWERS OF ORDO MAGICA</h5>\n<p class=\"pblock\">One who closes in on Yndaros from the south or by ship along the Doudram also sees the three spires of Ordo Magica’s tower and the guesthouse Kohinoor’s roof rise higher than surrounding buildings. <br /><br /></p>\n</div>"
+              "name": "Texto de As Torres Trigêmeas da Ordo Magica",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>AS TORRES TRIGÊMEAS DA ORDO MAGICA</h5>\n<p class=\"pblock\">Quem se aproxima de Yndaros pelo sul ou de barco ao longo do rio Doudram também vê as três torres da Ordo Magica e o telhado da hospedaria Kohinoor se elevarem mais alto que os edifícios ao redor. <br /><br /></p>\n</div>"
             }
           }
         },
         "The Palace": {
-          "name": "The Palace",
+          "name": "O Palácio",
           "pages": {
             "The Palace Text": {
-              "name": "The Palace Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE PALACE</h5>\n<p class=\"pblock\">The palace with its pavilions, parks and barracks is located in the southern part of the capital, and is completely based on foundations from old Lindaros. It is placed on a wide hilltop surrounded by a polished, and nowadays somewhat eroded, stone wall; a hill that likely harbored the lords of the dead city-state two centuries ago.</p>\n<br /><br /></div>"
+              "name": "Texto de O Palácio",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O PALÁCIO</h5>\n<p class=\"pblock\">O palácio, com seus pavilhões, parques e quartéis, está localizado na parte sul da capital e foi construído inteiramente sobre alicerces da antiga Lindaros. Ele se ergue no topo de uma ampla colina, cercada por uma muralha de pedra polida, hoje em dia um tanto erodida; uma colina que provavelmente abrigou os senhores da extinta cidade-estado dois séculos atrás.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Executioner's Podium": {
-          "name": "The Executioner's Podium",
+          "name": "O Pódio do Executor",
           "pages": {
             "The Executioner's Podium Text": {
-              "name": "The Executioner's Podium Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE EXECUTIONER'S PODIUM</h5>\n<p class=\"pblock\">The executioner’s podium at the Triumph Plaza, featuring both gallows and a stand where nobler criminals are beheaded.</p>\n</div>"
+              "name": "Texto de O Pódio do Executor",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O PÓDIO DO EXECUTOR</h5>\n<p class=\"pblock\">O pódio do carrasco na Praça do Triunfo, que inclui tanto a forca quanto um estrado onde criminosos considerados mais nobres são decapitados.</p>\n</div>"
             }
           }
         },
         "The Steam Bath": {
-          "name": "The Steam Bath",
+          "name": "O Banho de Vapor",
           "pages": {
             "The Steam Bath Text": {
-              "name": "The Steam Bath Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE STEAM BATH</h5>\n<p class=\"pblock\">The fuming Steam Bath down by the dock can accommodate high as well as low in separate rooms.</p>\n</div>"
+              "name": "Texto de O Banho de Vapor",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O BANHO DE VAPOR</h5>\n<p class=\"pblock\">O banho de vapor fumegante junto ao cais pode acomodar pessoas de todas as idades em salas separadas.</p>\n</div>"
             }
           }
         },
         "Cargo Docks": {
-          "name": "Cargo Docks",
+          "name": "As Docas de Carga",
           "pages": {
             "Cargo Docks Text": {
-              "name": "Cargo Docks Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE CARGO DOCS</h5>\n<p class=\"pblock\">East of Old Kadizar’s bailey are the docks that nowadays are used for shipping cargo to and from Ravenia in the north, Agrella in the west and Mergile in the east. South of the dockyard’s warehouses lays the most shabby laborer’s quarter in Yndaros, not much more than an unstructured gathering of sheds and hovels. All buildings from the time of Lindaros are gone – officially razed to be salvaged for materials needed when reconstructing the Palace District; according to rumors demolished because the authorities did not want refugees and peasants living in easily defended stone buildings. If you trail the bailey around to the south, you will find finer living quarters for laborers and simple folk. These quarters have been allowed to keep their stone structures and they grow increasingly pleasant the closer you get to the city center. <br /><br />Pleasant or not, it is in these blocks that you find the discontented and rebellious. In Old Kadizar all rebellious tendencies are kept in check by Nobleman Dastan and the city watch, but outside the wall it is harder to maintain control. The dock workers, domestics, builders, coachmen and so on are right to claim that they are awarded far too little in exchange for their hard work. At the same time they have to suffer the effects of a continuously expanding refugee camp – destitute, hungering men and women that are prepared to do anything and for an even smaller salary. <br /><br />If the population were not so divided into various subgroups fighting each other, the situation would most likely be drastically different. But as it is, you will find the stevedore Krepano argue for the rights of all Ambrians, the leather seamstress Yahela argue for the barbarians, the day laborer Ulofin for the goblins and unemployed Feora for the rights of the newly immigrated. The one voice that seems to be shouting for the sake of all impoverished is the one rising from the criers of an organization called The Torch. Nobody knows who is financing the operation or who writes the biased news announced by the Torch’s boys and girls – apparently not even the children themselves.</p>\n<br /><br /></div>"
+              "name": "Texto de As Docas de Carga",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>AS DOCAS DE CARGA</h5>\n<p class=\"pblock\">A leste da muralha externa da Velha Kadizar estão as docas que hoje em dia são usadas para o transporte de carga de e para Corvênia ao norte, Agrella no oeste e Mergile no leste. Ao sul dos armazéns das docas estão os quarteirões de trabalhadores mais favelizados em Yndaros, nada muito mais elaborado que um conjunto de celeiros e casebres. Todas as estruturas dos tempos de Lindaros se foram; oficialmente destruídas pelo material necessário para reconstruir o Distrito do Palácio; mas de acordo com rumores, porque as autoridades não queriam refugiados e camponeses vivendo em estruturas de pedra facilmente defendidas. Mas se você seguir a muralha externa para o sul, vai encontrar casas melhores para trabalhadores e povo simples, quarteirões que puderam manter suas estruturas de pedra e ficam cada vez mais agradáveis quanto mais perto ficam do centro da cidade. <br /><br />Agradáveis ou não, são nesses quarteirões que você irá encontrar os descontentes e os rebeldes. Na Velha Kadizar, todas as tendências rebeldes são mantidas em cheque pelo Nobre Dastan e a guarda da cidade, mas fora da muralha é mais difícil manter o controle. Os estivadores, domésticos, construtores, cocheiros e outros estão certos em reclamar que eles recebem muito pouco em troca de seu trabalho duro. Ao mesmo tempo que sofrem os efeitos de um campo de refugiados se expandindo constantemente — destituídos, homens e mulheres famintos preparados para fazer qualquer coisa por um salário ainda menor. <br /><br />Se a população não estivesse tão dividida em vários subgrupos lutando entre si, a situação provavelmente estaria drasticamente diferente. Mas como está, você irá encontrar o estivador Krepano pedindo pelos direitos dos ambrianos, a curtumeira Yahela pedindo pelos bárbaros, o trabalhador Ulofin pelos goblins e a desempregada Feora pelos direitos dos recém imigrados. A única voz que parece gritar por todos os empobrecidos é a que se eleva dos gritos de uma organização chamada a Tocha. Ninguém sabe quem está financiando a operação ou quem escreve nas notícias tendenciosas anunciadas pelos meninos e meninas da Tocha; aparentemente nem as próprias crianças.</p>\n<br /><br /></div>"
             }
           }
         },
         "Sheds and Tents": {
-          "name": "Sheds and Tents",
+          "name": "Cabanas/tendas",
           "pages": {
             "Sheds and Tents Text": {
-              "name": "Sheds and Tents Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>SHEDS AND TENTS</h5>\n<p class=\"pblock\">The continuously expanding refugee camp – destitute, hungering men and women that are prepared to do anything and for an even smaller salary.</p>\n</div>"
+              "name": "Texto de Cabanas/tendas",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>CABANAS/TENDAS</h5>\n<p class=\"pblock\">O campo de refugiados em constante expansão abriga homens e mulheres desamparados e famintos, dispostos a tudo por um salário ainda menor.</p>\n</div>"
             }
           }
         },
         "The Artisans District": {
-          "name": "The Artisans District",
+          "name": "O Distrito dos Artesões",
           "pages": {
             "The Artisans District Text": {
-              "name": "The Artisans District Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE ARTISANS DISTRICT</h5>\n<p class=\"pblock\">The capital’s many craftsmen mainly keep to four city blocks – two directly below the Palace District, and two west of the harbor basin. The competition is deadly due to the fact that most of the artisans who previously were scattered over Alberetor now have assembled in Yndaros. And the situation is hardly improved when the craftsmen get additional competitors in the form of migrating barbarians and, in some areas, goblins. <br /><br />In Year 19, hoping to address the many conflicts and feuds caused by the surplus, the Queen dictated that a guild system should be installed, much like the one that already existed within Ordo Magica. The idea was that bricklayers, blacksmiths, brewers, tailors, potters and so on should get organized in systems of novices, adepts and masters, based on the skill of each individual. Since then the struggle for the master and grandmaster seals has been bloody, actually so bloody that many of the survivors have chosen to move elsewhere – two factors that have finally led to a relative calm settling in. <br /><br />Then again, there is another storm cloud hovering over the neighborhood. During year 13 the first of a dozen dwarven families arrived, asking permission to settle in the city. As they could pay their way and possibly develop into a valuable contact between Ambria and the secluded kingdom of Küam Zamok, they were warmly welcomed and made their homes in the Artisans District. <br /><br />However, it has become more and more apparent that the families are feuding and that they are not capable of, or are uninterested in, performing any crafts. Instead they have by various methods acquired a long list of businesses – taverns, warehouses, dives and so on – that they now manage. The rumors about what they are up to, why they oppose one another and gather in large groups that clash in brutal fights are numerous; as many as the connections made between the dwarves and various criminal deeds in the western districts of Yndaros. But even if their activities have started to spread to adjacent parts of the city, the authorities do nothing – another strange fact which gives rise to wild speculations.</p>\n</div>"
+              "name": "Texto de O Distrito dos Artesões",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O DISTRITO DOS ARTESÕES</h5>\n<p class=\"pblock\">Os muitos artesões da cidade ficam principalmente em quatro quarteirões; dois diretamente abaixo do Distrito do Palácio e dois à oeste da base do porto. A competição é mortal devido ao fato de que a maioria dos artesões que anteriormente estavam espalhados por Alberetor agora estão reunidos em Yndaros. E a situação dificilmente melhora quando os artesões recebem competidores adicionais na forma de bárbaros migrando ou, em algumas áreas, goblins. <br /><br />No Ano 19, esperando resolver muitos conflitos e disputas causadas pelo excesso, a Rainha ditou que um sistema de guildas deveria ser instalado, como o que já existia dentro da Ordo Magica. A ideia era que pedreiros, ferreiros, cervejeiros, costureiros, oleiros e outros deveriam se organizar em sistemas de novatos, adeptos e mestres, baseados na perícia de cada indivíduo. Desde então a luta pelos selos de mestre e Grão Mestre tem sido sangrenta, tão sangrenta que muitos dos sobreviventes escolheram se mudar — dois fatores que garantiram que uma relativa paz se estabelecesse. <br /><br />Mas novamente, existe outra nuvem de tempestade sobre a vizinhança. No Ano 13, a primeira de doze famílias de anões chegou, pedindo permissão para morar na cidade. Como eles podiam pagar e possivelmente desenvolver um contato valioso entre Ambria e o reino isolado de Küam Zamok, eles foram muito bem recebidos e fizeram suas casas no Distrito dos Artesões. <br /><br />Entretanto, está se tornando cada vez mais aparente que as famílias estão brigando e que elas não são capazes ou não têm interesse em trabalhar em qualquer ofício. Em vez disso, eles adquiriram uma longa lista de negócios através de métodos variados — tavernas, armazéns, bares e outros — que agora administram. Os rumores sobre o que eles estão armando, porque se opõem uns aos outros e os motivos de se unirem em grupos grandes que se enfrentam em lutas brutais, são numerosos; assim como as muitas conexões feitas entre os anões e vários crimes na parte oeste de Yndaros. Mas mesmo quando suas atividades começaram a se espalhar para partes adjacentes da cidade, as autoridades não fizeram nada; outro fato estranho que gera especulações selvagens.</p>\n</div>"
             }
           }
         },
         "The Temple District": {
-          "name": "The Temple District",
+          "name": "O Distrito do Templo",
           "pages": {
             "The Temple District Text": {
-              "name": "The Temple District Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE TEMPLE DISTRICT</h5>\n<p class=\"pblock\">The blocks west of the palace are commonly called the Temple District, even though they contain much more than the Sun Church’s majestic shrine. The Cathedral of Martyrs is without a doubt the area's most prominent landmark. But one who closes in on Yndaros from the south or by ship along the Doudram also sees the three spires of Ordo Magica’s tower and the guesthouse Kohinoor’s roof rise higher than surrounding buildings. Here the buildings generally stand further apart than in the rest of the city, most of them being surrounded by an open space, stone paved or covered with trimmed grass. For instance, the Convent School of the Last Light is situated on a walled plot, big enough to include housing facilities and a temple with room for about one hundred visitors, aside from the school itself. <br /><br />Nearest to the palace wall is a fenced-in neighborhood, inhabited by the most prominent people in the realm. A huge force of armed guards, led by the retired hero-general Seraon Patio, makes sure that no trespassers make their way to the private residences. Here prosper the city’s wealthiest individuals – the merchant Master Hurian, the Islet's proprietor Elindra Aroma, the patron Laguboi Galeia and many more. Other estates are owned by the noble houses and are only in use when their representatives have errands in the capital. Finally, there are some other noteworthy houses: the fabulous tavern Brother Humlu’s, the copy of Nighthome built by the Mayor of Thistle Hold and the fortress-like residence recently constructed by Artek Valotzar, the head of what appears to be the most successful dwarven family.</p>\n<br /><br /></div>"
+              "name": "Texto de O Distrito do Templo",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O DISTRITO DO TEMPLO</h5>\n<p class=\"pblock\">Os quarteirões a oeste do palácio são chamados de Distrito do Templo, mesmo que contenham muito mais do que o majestoso altar da Igreja do Sol. A Catedral do Mártires é, sem dúvida, seu marco mais proeminente. Mas quem se aproxima de Yndaros pelo sul ou de navio ao longo do Doudram também vê os três pináculos das torres da Ordo Magica e o teto da hospedaria Kohinoor's se erguendo mais alto do que as construções vizinhas. Aqui as construções geralmente ficam mais separadas do que no resto da cidade, a maioria delas cercadas por um espaço aberto, pavimentos de pedra ou cobertas com grama curta. Por exemplo, a Escola Conventual da Última Luz está situada em um terreno murado, grande o suficiente para incluir alojamentos e um templo com espaço para cerca de cem visitantes, além da própria escola. <br /><br />Próximo à muralha do palácio fica uma vizinhança murada, habitada pelas pessoas mais proeminentes no reino. Uma imensa força de guardas armados, liderada pelo herói-general aposentado Seraon Patio, garante que nenhum invasor chegue às residências privadas. Aqui prosperam os indivíduos mais ricos da cidade; o mercador Mestre Hurian, a proprietária das Ilhotas Elindra Aroma, o patrono Laguboi Galeia e muitos mais. Outras propriedades são possuídas por casas nobres e usadas apenas quando seus representantes têm afazeres na capital. Existem algumas outras casas notáveis: a fabulosa taverna do Irmão Humlu, a cópia da Casa Noturna construída pelo Prefeito de Forte do Cardo e a residência parecida com uma fortaleza recentemente construída por Artek Valotzar, o líder do que parece ser a mais bem sucedida das famílias de anões.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Harbor Dstrict": {
-          "name": "The Harbor Dstrict",
+          "name": "O Distrito do Porto",
           "pages": {
             "The Harbor Dstrict Text": {
-              "name": "The Harbor Dstrict Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE HARBOR DISTRICT</h5>\n<p class=\"pblock\">Initially it was a place for unloading incoming construction materials, but nowadays the Harbor District has turned into Yndaros’ center for amusements, pleasure and relaxation. Taverns like the Victory Vault, Ynedar’s Legacy and the Town Hall’s Loft provide food and beverages, often accompanied by bards playing and singing. And if you would rather skip eating there are places like the wine house Tuvinel’s, the cider mill Bego’s Basement or The Savage that exclusively serves variations of the barbarian Blackbrew. For thrill-seekers there are also dives like The Fortune Smithy and The Lucky Charm down by the waterfront, or why not The Steel Glove located in the bohemian quarter where the prize fights keep going all night long – at least until its grand master, the ogre Bigpaw, has stepped into the ring and clubbed down anyone drunk enough to take the challenge. <br /><br />But not everything is drunkenness and debauchery. The fuming Steam Bath down by the dock can accommodate high as well as low in separate rooms; from the circular balconies of the Vivisectory visitors can observe the masters of Ordo Magica cut open anything from strange seedpods to huge spiders, corrupted beasts and even goblins; in the five-story building housing the Legacy Gallery it is free for anyone to behold artworks and listen to bards praising the glorious past of the Ambrian people and the lost splendor of Alberetor. And one should not disregard the pillories and the executioner’s podium at the Triumph Plaza, the latter featuring both gallows and a stand where nobler criminals are beheaded. <br /><br />Aside from all things mentioned above, it is of course possible to board ships in the harbor basin. Queen Korinthia has a galley with twelve oar pairs down by a well-guarded berth, next to the smaller rowboats which carry prominent residents to the extravagant pleasure palace on the Islet – for a night of good food, exclusive company and first-class spectacles. Furthermore, a ferry-route journeys between the harbor and the village of Beren’s Berth on the northern shores of the Doudram, from Yndaros at each even stroke of the clock and back at the odd ones.</p>\n<br /><br /></div>"
+              "name": "Texto de O Distrito do Porto",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O DISTRITO DO PORTO</h5>\n<p class=\"pblock\">Inicialmente, ele era um lugar para descarga dos materiais de construção que chegam, mas atualmente o Distrito do Porto virou o centro de diversão, prazer e relaxamento de Yndaros. Tavernas como o Cofre da Vitória, o Legado de Ynedar e o Sótão da Prefeitura fornecem comida e bebida, frequentemente acompanhadas por bardos tocando e cantando. E se você prefere pular a refeição, existem lugares como a casa de vinhos Tuvinel's, e o moinho de cidra Porão do Bego, ou o Selvagem que serve exclusivamente variações do Caldonegro bárbaro. Para quem busca emoção, existem bares como o Forjador da Fortuna e o Amuleto da Sorte, perto do rio, ou por que não, a Luva de Aço localizada no quarteirão boêmio onde apostas em lutas ocorrem por toda a noite — ou pelo menos até o grande mestre, o ogro Patagrande, pisar no ringue a apagar qualquer um bêbado o suficiente para aceitar o desafio. <br /><br />Mas nem tudo é bebedeira e devassidão. O enevoado Banho de Vapor perto das docas pode acomodar ricos e pobres em aposentos separados; dos balcões circulares do Vivisectório, visitantes podem observar os mestres da Ordo Magica dissecar qualquer coisa de vagens estranhas a aranhas imensas, bestas corruptas e até mesmo goblins; na construção de cinco andares que abriga a Galeria do Legado é gratuito para qualquer um apreciar as obras de arte e ouvir os bardos louvando os gloriosos atos do passado do povo Ambriano e o esplendor perdido de Alberetor. E ninguém deve desprezar os pelourinhos e pódios de execuções na Praça do Triunfo, o último tendo tanto cordas de enforcamento e um palco onde criminosos mais nobres são decapitados. <br /><br />Fora todas as coisas mencionadas acima, é possível, é claro, ancorar navios na base do porto. A Rainha Korinthia tem uma galé com doze pares de remos junto a um cais bem guardado, próximo a botes menores que carregam residentes proeminentes a um extravagante palácio de prazer na Ilhota — para uma noite de boa comida, companhia exclusiva e espetáculos de primeira classe. Além disso, uma balsa viaja entre o porto e a vila de Cais de Beren na costa norte do Doudram, saindo de Yndaros a cada batida par do relógio e voltando nas ímpares.</p>\n<br /><br /></div>"
             }
           }
         },
         "Old Kadizar": {
-          "name": "Old Kadizar",
+          "name": "Velha Kadizar",
           "pages": {
             "Old Kadizar Text": {
-              "name": "Old Kadizar Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>OLD KADIZAR</h5>\n<p class=\"pblock\">The barbarian village of Kadizar was established about a century ago, by the clan Kadiz which had made an enemy of the Jezites – the region’s most powerful force back then. Searching for a safe haven, they dared to challenge the taboos and entered the abandoned city-state, where they soon settled down and built a claystone wall for further protection. The location they selected lay close to the waters of River Doudram and included an ancient tower-ruin to function as a lookout for keeping an eye on the enemy up north. <br /><br />The twenty-foot-high bailey is still standing, and within it is still a mixture of Kadizian claystone houses, Lindarian buildings and a few ruins from the time of Symbaroum. Before the arrival of the Ambrians the old tower ruin was the residence of the chieftain, but since then its sections have been divided between different occupants – the local headquarters of the city watch composes one section, while the informal leader of Old Kadizar, the thief king Nobleman Dastan, resides in the remodeled tower itself. Beneath the complex a widely debated excavation is taking place, organized by Ordo Magica. If they have found anything noteworthy, the excavation leader, Master Marbela, has managed to keep it a secret. <br /><br />Today the overcrowded Old Kadizar has about four thousand inhabitants, a majority of which only survive thanks to alms, day-laboring and begging in the streets. The jobs available are often burdensome, dangerous and smelly: the city’s tannery lies within the wall, as well as the headquarters of the sewer workers and the guild of the blacksmiths. Of course, the leaders among the tanners, the “sewer rats” and the blacksmiths have a lot of power and influence in Old Kadizar, just like the proprietor of the claystone plant, Lord Manselm. <br /><br />Many of the inhabitants choose to lead a criminal life, too proud or too greedy to settle for the meager outcome of honest labor. Because of that, an informal power structure has emerged, with Nobleman Dastan on top. It is said that he has made a fortune from organized begging, pickpocketing, renting out manpower and so on. And he is of course as determined to oppose any rebellious tendencies as the city watch has ever been.</p>\n<br /><br /></div>"
+              "name": "Texto de Velha Kadizar",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>VELHA KADIZAR</h5>\n<p class=\"pblock\">A vila bárbara de Kadizar foi estabelecida há cerca de um século, pelo clã Kadiz que havia transformado os Jezitas — a maior força da região na época — em inimigos. Buscando um refúgio seguro, eles ousaram desafiar os tabus e entraram na cidade-estado abandonada, quando se assentaram e construíram uma muralha de argila para maior proteção. A localização que eles selecionaram ficava perto das águas do Rio Doudram e incluía uma antiga torre em ruínas que funcionava como vigia para olhar o inimigo ao norte. <br /><br />A muralha externa de seis metros ainda está de pé, e dentro está uma mistura de casas kazdisanas de argila, estruturas lindarianas e algumas ruínas do tempo de Symbaroum. Antes da chegada dos ambrianos a velha torre em ruínas era a residência do chefe, mas desde então suas seções foram divididas entre ocupantes diferentes; sede local da guarda da cidade compõe uma seção, enquanto o líder informal da Velha Kadizar, o rei bandido Nobre Dastan, reside na torre remodelada em si. Sob o complexo, uma amplamente debatida escavação está ocorrendo, organizada pela Ordo Magica. Se encontraram qualquer coisa notável, a líder da escavação, Mestra Marbela, conseguiu manter em segredo. <br /><br />Atualmente, a lotada Velha Kadizar tem cerca de quatro mil habitantes, a maioria dos quais sobrevive de esmolas, bicos e mendigar nas ruas. Os trabalhos disponíveis frequentemente são pesados, perigosos ou fedorentos: os curtumes da cidade ficam dentro da muralha, assim como as sedes dos trabalhadores de esgoto e da guilda dos ferreiros. É claro, os líderes dos curtidores, dos \"ratos de esgoto\" e dos ferreiros tem bastante poder e influência na Velha Kadizar, assim como o proprietário da mina de argila, Lorde Manselm. <br /><br />Muitos de seus habitantes escolhem levar uma vida criminosa, muito orgulhosos ou muito gananciosos para aceitar os frutos escassos do trabalho honesto. Por causa disso, uma estrutura de poder informal surgiu, com o Nobre Dastan no topo. Dizem que ele fez uma fortuna organizando a mendicância, furtos, alugando mão-de-obra e por aí vai. E ele está tão determinado a se opor a qualquer tendência à revolta quanto a guarda da cidade jamais esteve.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Palace Park": {
-          "name": "The Palace Park",
+          "name": "O Parque do Palácio",
           "pages": {
             "The Palace Park Text": {
-              "name": "The Palace Park Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE PALACE PARK</h5>\n<p class=\"pblock\">Containing sculptures and encaged beasts.</p>\n</div>"
+              "name": "Texto de O Parque do Palácio",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O PARQUE DO PALÁCIO</h5>\n<p class=\"pblock\">Contendo esculturas e animais enjaulados.</p>\n</div>"
             }
           }
         },
         "Warehouses": {
-          "name": "Warehouses"
+          "name": "Armazéns"
         },
         "Brother Humlu's": {
-          "name": "Brother Humlu's",
+          "name": "Irmão do Humlu",
           "pages": {
             "Brother Humlu's Text": {
-              "name": "Brother Humlu's Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>BROTHER HUMLU'S</h5>\n<p class=\"pblock\">A fabulous tavern.</p>\n</div>"
+              "name": "Texto de Irmão do Humlu",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>IRMÃO DO HUMLU</h5>\n<p class=\"pblock\">Uma taverna fabulosa.</p>\n</div>"
             }
           }
         },
         "The Cathedral of Martyrs": {
-          "name": "The Cathedral of Martyrs",
+          "name": "A Catedral dos Mártires",
           "pages": {
             "The Cathedral of Martyrs Text": {
-              "name": "The Cathedral of Martyrs Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE CATHEDRAL OF MARTYRS</h5>\n<p class=\"pblock\">The Cathedral of Martyrs is without a doubt the area's most prominent landmark. <br /><br /></p>\n</div>"
+              "name": "Texto de A Catedral dos Mártires",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A CATEDRAL DOS MÁRTIRES</h5>\n<p class=\"pblock\">A Catedral dos Mártires é, sem dúvida, o ponto turístico mais importante da região. <br /><br /></p>\n</div>"
             }
           }
         },
         "Fortress Doudram": {
-          "name": "Fortress Doudram",
+          "name": "Forte Doudram",
           "pages": {
             "Fortress Doudram Text": {
-              "name": "Fortress Doudram Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>FORTRESS DOUDRAM</h5>\n<p class=\"pblock\">Yndaros is not surrounded by a bailey and the relatively low walls of the Palace District would hardly stop a hostile army from reaching the heart of the realm. At the moment there seems to be no serious threat against the Queen but such things can change, for instance if the High Chieftain rallied the clans and also joined ranks with the elves. And for that reason a great fortress went into construction four years ago, placed on a cliff in the mighty Doudram west of the city – meant to be a safe haven for the court and the city’s most prominent residents. <br /><br />Fortress Doudram will be fully finished within a year and is already in use as the headquarters of the Pansars, guards to the Queen and also the army’s heavy infantry unit. The fortress is under the supervision of Seneschal Bartho who, in turn, obeys the commander of the Pansars, General Jomilo. About two hundred fifty soldiers are stationed at the fortress while fifty stay in the Palace district, patrolling the palace, acting as bodyguards for dignitaries or keeping order in the refugee camp.</p>\n<br /><br /></div>"
+              "name": "Texto de Forte Doudram",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>FORTE DOUDRAM</h5>\n<p class=\"pblock\">Yndaros não está cercada por uma muralha externa e as muralhas relativamente baixas do Distrito do Palácio dificilmente impediriam um exército hostil de alcançar o coração do reino. No momento não parece existir nenhuma ameaça séria contra a Rainha, mas tal fato pode mudar, por exemplo se o Alto Chefe unir os clãs e se juntar aos elfos. Por esse motivo a grande fortaleza começou a ser construída há quatro anos, colocada em um rochedo no poderoso Doudram a oeste da cidade; feito para ser um refúgio seguro para a corte e os residentes mais proeminentes. <br /><br />Forte Doudram será completamente finalizado dentro de um ano e já está em uso, como quartel general dos Pansar, a guarda da Rainha e a unidade de infantaria pesada do exército. A fortaleza está sob a supervisão do Senescal Bartho que, por sua vez, obedece ao comandante dos Pansar, General Jomilo. Cerca de duzentos e cinquenta soldados estão alojados na fortaleza enquanto cinquenta ficam no distrito do Palácio, em patrulha, agindo como guarda-costas para dignatários ou mantendo a ordem no campo de refugiados.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Refugee Camp": {
-          "name": "The Refugee Camp",
+          "name": "O Campo de Refugiados",
           "pages": {
             "The Refugee Camp Text": {
-              "name": "The Refugee Camp Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE REFUGEE CAMP</h5>\n<p class=\"pblock\">The Refugee Camp stretches out south of the Cargo Docks and east of the patch of forest surrounding the gladiator stadium called the Dome. Just as in the Cargo Dock District all remnants of old Lindaros have been razed to the ground, which leaves the dwellers no other shelter than tents, wagons and the occasional shed. It is hardly an overstatement to claim that the 20.000 people living in the camp were expecting something quite different when they came through the Titans. Before leaving, most of them even led a tolerable life in the parts of Alberetor that still had some life in them. <br />br Fortunately, the Queen and other prominent residents seem to realize that the situation would get out of hand if the refugees were not only homeless and impoverished but also starving. Soup kitchens can be found here and there among the tents, bread is distributed and some days the children are even treated to so-called Sugar Showers. On the other hand, the food and the sweets are not much more effective than a poultice on a cracked skull. Those who have the stamina and a glimmer of hope take whatever kind of job they can get, no matter how heavy or dangerous, not least in order to afford themselves a cheap jug of Brutebrew for comfort. Their highest wish is to be selected to climb into one of the wagons that several times a week arrive from country estates and border colonies, searching for capable workers. <br /><br />The city watch is of course always present in the camp, and its patrols are often accompanied by a Black Cloak and one or more young Pansars. It has indeed been known to happen that barbarian rebels and organized criminals have used the refugee camp as a base of operations in Yndaros. The patrols have a deterring effect when it comes to petty crimes like thefts and abuse but the refugees still live in constant fear, not least due to all rumors circling the camp – rumors of murderous rebel leaders, occult sacrificial rites, bloodthirsty abominations in human form and the kidnapping sprees of slave traders; rumors which seem all the more real when the inhabitants of the camp have a tendency to vanish without a trace, sometimes several people per night.</p>\n<br /><br /></div>"
+              "name": "Texto de O Campo de Refugiados",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O CAMPO DE REFUGIADOS</h5>\n<p class=\"pblock\">O Campo de Refugiados se espalha ao sul do Porto de Carga e a leste do pedaço de floresta que cerca o estádio de gladiadores chamado o Domo. Assim como no Distrito das Docas de Carga todos os remanescentes da velha Lindaros foram demolidos, o que deixa os habitantes sem outros abrigos além de tendas, carroças e a cabana ocasional. Dificilmente seria um exagero alegar que as 20.000 pessoas vivendo no campo esperavam algo bem diferente quando atravessaram as Titãs. Antes de sair, a maioria deles levava uma vida tolerável nas partes de Alberetor que ainda tinham alguma vida. <br /><br />Por sorte, a Rainha e outros residentes proeminentes parecem perceber que a situação sairia de controle se os refugiados estivessem famintos além de empobrecidos e sem teto. Sopões podem ser encontrados por aqui e entre as tendas, pão é distribuído e alguns dias as crianças até ganham os chamados Chuveiros de Açúcar. <br /><br />Por outro lado, a comida e os doces não são muito mais eficientes que um unguento em um crânio quebrado. Aqueles que tem a estamina e o brilho de esperança pegam quaisquer trabalhos que puderem, não importa o quão pesado ou perigoso, pelo menos para se confortarem com uma caneca barata de Caldobruto. O mais desejado é ser selecionado para escalar um dos vagões que chega várias vezes por semana de fazendas e colônias de fronteira em busca de trabalhadores capazes. <br /><br />A guarda da cidade está, é claro, sempre presente no campo, e suas patrulhas são frequentemente acompanhadas por um Manto Negro e um ou mais jovens Pansars. É conhecido inclusive que rebeldes bárbaros e organizações criminosas usam o campo de refugiados como uma base de operações em Yndaros. As patrulhas têm um efeito dissuasor no tocante a crimes menores como furto e abuso, mas os refugiados ainda vivem em medo constante, ainda mais devido aos rumores circulando pelo campo; rumores de líderes rebeldes assassinos, rituais ocultos de sacrifício, abominações sanguinárias em forma humana e os sequestros de escravagistas; rumores que parecem mais reais quando os habitantes do campo têm a tendência de desaparecerem sem deixar rastros, às vezes várias pessoas por noite.</p>\n<br /><br /></div>"
             }
           }
         },
         "The Legacy Gallery": {
-          "name": "The Legacy Gallery",
+          "name": "A Galeria do Legado",
           "pages": {
             "The Legacy Gallery Text": {
-              "name": "The Legacy Gallery Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE LEGACY GALLERY</h5>\n<p class=\"pblock\">Visitors can observe the masters of Ordo Magica cut open anything from strange seedpods to huge spiders, corrupted beasts and even goblins; in the five-story building housing the Legacy Gallery it is free for anyone to behold artworks and listen to bards praising the glorious past of the Ambrian people and the lost splendor of Alberetor. <br /><br /></p>\n</div>"
+              "name": "Texto de A Galeria do Legado",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>A GALERIA DO LEGADO</h5>\n<p class=\"pblock\">Os visitantes podem observar os mestres da Ordo Magica abrindo qualquer coisa, desde estranhas vagens de sementes a aranhas gigantes, bestas corrompidas e até mesmo goblins; no edifício de cinco andares que abriga a Galeria do Legado, a entrada é gratuita para todos que desejam contemplar as obras de arte e ouvir bardos louvando o passado glorioso do povo ambriano e o esplendor perdido de Alberetor. <br /><br /></p>\n</div>"
             }
           }
         },
         "The Dome": {
-          "name": "The Dome",
+          "name": "O Domo",
           "pages": {
             "The Dome Text": {
-              "name": "The Dome Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE DOME</h5>\n<p class=\"pblock\">Yndaros's gladiator stadium, surrounded by a patch of forest.</p>\n</div>"
+              "name": "Texto de O Domo",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>O DOMO</h5>\n<p class=\"pblock\">O estádio de gladiadores de Yndaros, cercado por um trecho de floresta.</p>\n</div>"
             }
           }
         },
         "The Tower Ruin": {
-          "name": "The Tower Ruin"
+          "name": "A Torre Arruinada"
         },
         "Book 1: The World of Symbaroum": {
-          "name": "Book 1: The World of Symbaroum",
+          "name": "Livro 1: O Mundo de Symbaroum",
           "pages": {
             "1.04 - Thistle Hold": {
               "name": "1.04 - Thistle Hold",
@@ -6811,7 +6812,7 @@
               "src": "modules/symbaroum-corerules/images/avatar/argasto.webp"
             },
             "4.05 - Appendix": {
-              "name": "4.05 - Appendix",
+              "name": "4.05 - Apêndice",
               "text": "<div class=\"symbaroum-mod\">\n\t<div style=\"position:relative\">\n\t\t<h2 class=\"h1mod\">Appendix</h2>\n\n\t\t<p class=\"h4mod\">\n\t\t\t<span class=\"parahead\">IN THIS SECTION </span>\n\t\t\t<strong>\n\t\t\t\tyou will find a description of the mystical artifacts that the player characters can find or be affected by during the scenario. The section also\n\t\t\t\tincludes short portrayals of some of the places visited in the final chapter of the adventure.\n\t\t\t</strong>\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<h2 style=\"font-weight:bold\">Artifacts</h2>\n\n\t\t<span class=\"inline-link2\">@UUID[Item.1cCakrFd71BLvovB]{Mal-Rogan's Mummified Hand}</span>\n\t\t<p class=\"pblock\">\n\t\t\tThe “amulet” of Mal-Rogan is in fact his own left hand, mummified and hung from a rusty chain. Mal-Rogan’s soul is tied to the amulet and it can give\n\t\t\tothers beside himself the powers listed below. However, the hand comes with a sever negative effect: as long as the amulet exists, Mal-Rogan will respawn,\n\t\t\tirrespective of how he was slain or what was done to the corpse – and he will do anything to reclaim his corrupt soul!\n\t\t\t<br /><br />\n\t\t\t<strong>Word of Doom:</strong>\n\t\t\tIf the owner of the amulet masters the ability Leader he can utter words of doom over his enemies. With a successful roll against <i>Resolute</i> the\n\t\t\tenemy’s chance of making a successful hit is reduced for the remainder of the scene – the owner may make two attempts against <i>Defense</i> to avoid\n\t\t\tphysical attacks.\n\t\t\t<br />\n\t\t\t<strong>Action:</strong> Active\n\t\t\t<br />\n\t\t\t<strong>Corruption:</strong> 1D6 <br />\n\t\t\t<br />\n\t\t\t<strong>Black Bliss:</strong> With a successful roll against <i>Resolute</i>, the owner of the amulet may once per turn reroll a success test.\n\t\t\t<br />\n\t\t\t<strong>Action:</strong> Free\n\t\t\t<br />\n\t\t\t<strong>Corruption:</strong> 1D4 <br /><br />\n\t\t\t<strong>Mal-Rogan’s revenge:</strong> It is possible for the one tied to the amulet to destroy it; all it takes is a successful roll against\n\t\t\t<i>Resolute</i>. If that happens, the released soul of Mal-Rogan will try to possess its previous master, according to the rules for the ritual\n\t\t\t<i>Possess</i>\n\t\t\t<a class=\"content-link inline-link\" data-link draggable=\"false\" data-uuid=\"JournalEntry.h1YaEuJB3Ak8F0kU.JournalEntryPage.Tf2oBllHC2QxxgUe\" data-id=\"Tf2oBllHC2QxxgUe\" data-type=\"JournalEntryPage\">Mystical Powers</a>. Mal-Rogan is very vindictive and will do his utmost to punish all who were involved in slaying him and stealing his prized medallion – that is, the\n\t\t\twhole group of player characters and not only he who carried the amulet. If the possession fails Mal-Rogan dies a final death. The same happens when a\n\t\t\tsuccessful possession has run its course. <br /><br />\n\t\t</p>\n\t\t<span class=\"inline-link2\">@UUID[Item.Qeg4ZRy5Gpqktfy6]{The Sun Stone}</span>\n\t\t<p class=\"pblock\">\n\t\t\tIn ancient times wizards tied a wild fire spirit to this stone. Normally it glows with a pale light and gives off a mild warmth (enough to keep someone\n\t\t\twarm on an icy winter day). He who bonds with the stone can awaken the fire spirit and command it to perform more dramatic actions, namely the following\n\t\t\tones:\n\t\t\t<br /><br />\n\t\t\t<strong>Strike with Fire:</strong> With a successful roll against <i>Resolute</i>, the master of the Sun Stone can set an object in his sight on fire –\n\t\t\tincluding enemy garments. The fire burns for 1D4 turns and deals 1D4 damage each turn. Armor protects as usual. A burning person can put out the fire by\n\t\t\trolling around on the ground (Movement Action) and passing a test against <i>Quick</i>.\n\t\t\t<br />\n\t\t\t<strong>Action:</strong> Active\n\t\t\t<br />\n\t\t\t<strong>Corruption:</strong> 1D4 <br /><br />\n\t\t\t<strong>Amplify Flame:</strong> If the lord of the stone has powers which produce fire he can use the stone for amplifying his fire spells. With a\n\t\t\tsuccessful roll against <i>Resolute</i> the effect is increased by one step (e.g. from 1D6 to 1D8, or with +1 if already 1D12).\n\t\t\t<br />\n\t\t\t<strong>Action:</strong> Free\n\t\t\t<br />\n\t\t\t<strong>Corruption:</strong> 1D4 <br /><br />\n\t\t\t<span class=\"inline-link2\">@UUID[Actor.KFgw0YV1Q8fihYgO]{Fire Spirit:}</span>\n\t\t\tWith a successful roll against <i>Resolute</i>, the master of the stone can release the captured fire spirit, thereby destroying the artifact. The spirit\n\t\t\tappears as a towering humanoid made of flames and soot. It is grateful and will obey its former master for the remainder of the scene. It can be given\n\t\t\tsimple commands (Free Action) like “guard this place”, “attack that individual” or “keep me safe”.\n\t\t\t<br />\n\t\t\t<strong>Action:</strong> Active\n\t\t\t<br />\n\t\t\t<strong>Corruption:</strong> 1D6\n\t\t</p>\n\t</div>\n\n\t<div class=\"statblockcenter blockrotate\" style=\"transform:rotate(0deg);max-width:55%;z-index:auto;box-shadow:-4px 6px 17px 0px hsl(0deg 1% 28%)\">\n\t\t<table style=\"border-style:solid;margin-left:auto;margin-right:auto;width:97%;border:3px;font-size:12pt\">\n\t\t\t<tbody>\n\t\t\t\t<tr style=\"color:aliceblue;background-color:black\">\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">FIRE SPRIT</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Resistance</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Challenging</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Traits</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Natural weapon (III), Spirit form (II)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">\n\t\t\t\t\t\t<strong>Accurate </strong>15 (−5),  <strong>Cunning </strong>10 (0),  <strong>Discreet </strong>5 (+5),\n\t\t\t\t\t\t <strong>Persuasive </strong>7 (+3),<br />\n\t\t\t\t\t\t<strong>Quick </strong>13 (−3),  <strong>Resolute </strong>9 (+1),  <strong>Strong </strong>11 (−1),\n\t\t\t\t\t\t <strong>Vigilant </strong>10 (0)\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Abilities</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Natural Warrior (master)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\"><strong>Weapons</strong></td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Burning embrace 9 (long), two attacks against the same target</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Armor</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">None (takes half damage from all attacks)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Defense</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">-3</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Toughness</td>\n\t\t\t\t\t<td style=\"width:10%\">11</td>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Pain Threshold</td>\n\t\t\t\t\t<td style=\"width:10%\">6</td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t</div>\n\n\t<div style=\"position:relative;margin-top:30px\">\n\t\t<blockquote class=\"blockquotecenter\" style=\"max-width:100%\">\n\t\t\t<h5 style=\"font-weight:bold\">Ordo Magica and the Sun Stone</h5>\n\t\t\t<p>\n\t\t\t\tThe masters of Ordo Magica will come to demand a very good explanation from the person who binds himself to the stone: a desperate fight against an\n\t\t\t\tabomination or with elves trying to take the stone count as valid reasons. If the Game Master does not think otherwise, a master who catches the pc with\n\t\t\t\tthe Sun Stone will demand to have it back, on the Order’s behalf, or demand a favor in exchange for the artifact. The latter can of course be a great\n\t\t\t\topening for a larger or smaller adventure…\n\t\t\t</p>\n\t\t</blockquote>\n\n\t\t<h2 style=\"font-weight:bold;margin-top:30px\">Locations</h2>\n\t\t<p class=\"pblock\">\n\t\t\t<strong>THE FOLLOWING LOCATIONS </strong>\n\t\t\tare featured in the adventure and can be found under the scenes tab. If the GM wishes to expand on it or if the PCs take initiatives which lead them\n\t\t\telsewhere, you can always draw your own maps, before the game starts or during play.\n\t\t\t<br /><br />\n\t\t</p>\n\n\t\t<h3>THE MOUNTAIN PASS</h3>\n\t\t<p class=\"pblock\">\n\t\t\tThe pass is in truth two passes, fringed by high slopes to the east and west and with a vast plateau between them.\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<h3>THE CORRAL</h3>\n\t\t<p class=\"pblock\">\n\t\t\tThe six wagons of the caravan form a corral each evening, or when under threat. Between the wagons wooden gates are placed, leaning against barrels. All\n\t\t\ttravelers have a designated post in the event of danger, at a gate if the person can fight and otherwise in shelter behind the wagons. Finding one’s place\n\t\t\tin the corral is a well-rehearsed routine which does not require instructions – an alarm from a guard or an order from Argasto is enough for everyone to\n\t\t\trush to their assigned place, weapon in hand.\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<h3>THE ELVEN CAMP</h3>\n\t\t<p class=\"pblock\">\n\t\t\tThe elven camp is located about halfway over the plateau, on the western slope (the Game Master decides on a suitable location). The camp is simple, with\n\t\t\tan earth-toned tent, some equipment and three beds on which to rest or meditate. One of the elves is always on guard and the camp is skillfully concealed,\n\t\t\talthough possible to find by following their tracks.\n\t\t</p>\n\t</div>\n</div>"
             },
             "4.04c - Godrai": {
@@ -6835,240 +6836,6 @@
               "text": "<div class=\"symbaroum-mod\">\n\t<div style=\"position:relative\">\n\t\t<h2 class=\"h1mod\">Na Companhia de Ladrões</h2>\n\n\t\t<p class=\"h4mod\">\n\t\t\t<span class=\"parahead\">NA COMPANHIA DE LADRÕES </span>\n\t\t\t<strong>\n\t\t\t\tlida com a caçada e confronto com um ladrão que é corajoso o suficiente para roubar a Pedra do Sol — um artefato sem o qual a caravana\n\t\t\t\tterá dificuldade de sobreviver à medida que o inverno se aproxima. Além de uma sequência de combate mais ou menos desafiadora, o capítulo também inclui várias\n\t\t\t\tformas de soluções de problemas mais simples. Os personagens precisam descobrir quem é o ladrão, interrogar seus conhecidos e finalmente rastrear o bandido pelas selvas.\n\t\t\t\tEnquanto rastreiam o ladrão, eles correm o risco de ativar uma armadilha, e quando o alcançarem, há o problema de se aproximarem de seu esconderijo sem\n\t\t\t\tserem atingidos.\n\t\t\t</strong>\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<p class=\"pblock\">\n\t\t\t<strong>A CARAVANA DE ARGASTO </strong>\n\t\t\tdeixou o acampamento e a jornada ao norte começou. <br />\n\t\t\tA paisagem ainda é coberta por florestas, frequentemente tão densas que personagens não conseguem ver além de árvores e carroças balançando na estrada à frente. <br /><br />\n\t\t\tA jornada segue lentamente em subidas, variando entre colinas com florestas e desfiladeiros rasos. Às vezes, os vagões alcançam cumes de onde montanhas imponentes podem ser\n\t\t\t vistas ao norte. <br /><br />\n\t\t\tO sol brilha em um céu azul limpo, como se o Deus Sol Prios tivesse ouvido as orações dos viajantes para boas condições do clima. Até mesmo Argasto parece estar à vontade:\n\t\t\t<br />\n\t\t\t<i style=\"color:hsl(19, 70%, 37%)\">“O rosto do Provedor das Leis sorri calorosamente sobre a passagem; isso é um bom agouro.”</i> <br /><br />\n\t\t\tNo crepúsculo é usual tirarem tempo para montar acampamento, e a caravana forma um cercado. <br /><br />\n\t\t\tO aprendiz da Ordo Magica, Bartolom, caminha para jogar a poeira tirada em um riacho próximo e logo em seguida um choro é ouvido. A voz é de Bartolom:\n\t\t\t<br />\n\t\t\t<strong><i style=\"color:hsl(19, 70%, 37%)\">“Ladrões, ladrões!”</i></strong> <br /><br />\n\t\t\tEnquanto o aprendiz se banhava, alguém se esgueirou e roubou de seu casaco — a Pedra do Sol foi tirada de um bolso interno! Com o artefato perdido, a\n\t\t\tcaravana pode não ser capaz de se aquecer se o pior acontecer no topo das montanhas. Argasto diz algo assim: <br />\n\t\t\t<i style=\"color:hsl(19, 70%, 37%)\">“Recuperem a Pedra do Sol ou teremos que retornar, seja a vontade de Prios ou não!”</i>\n\t\t\t<br />\n\t\t\t<br />\n\t\t</p>\n\t\t<h2 style=\"font-weight:bold\">Cena 2: Encontrar o Ladrão</h2>\n\n\t\t<p class=\"pblock\">\n\t\t\t<strong>É FÁCIL PARA </strong>\n\t\t\tos personagens identificarem o ladrão, mas difícil de alcançá-lo. O vilão é um cuidador de animais chamado Keler, que está sumido. A equipe de seu vagão\n\t\t\tnão faz nada para tentar esconder seu sumiço, muito pelo contrário. Entretanto, seu melhor (e único) amigo Telk está omitindo alguma informação, mas pode ser\n\t\t\tpersuadido do contrário.\n\t\t\t<br /><br />\n\t\t\tHá duas formas de encontrar o ladrão: eles podem rastreá-lo a partir da cena do crime, ou então convencer Telk a falar. Afinal de contas, a Pedra do\n\t\t\tSol pode se provar essencial para a sobrevivência de todos eles.\n\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<blockquote class=\"fancytextright\" style=\"max-width:25%;color:hsl(19, 70%, 37%)\">\n\t\t\t <span class=\"fancyheader\"> </span> \n\t\t\t<h5>Bartolom como um personagem jogador</h5>\n\t\t\t<p class=\"fancytext\" style=\"color:hsl(0, 0%, 0%)\">\n\t\t\t\tSe Bartolom estiver sob o controle de um personagem jogador, alguns ajustes podem ter que ser feitos. Uma alternativa é ter outra aprendiz da Ordo Magica\n\t\t\t\tcom ele (Edira) e ser ela quem carrega a Pedra do Sol e é roubada. Outra forma de lidar com isso é o ladrão roubar direto do bolso do personagem\n\t\t\t\tjogador, talvez quando ele estiver dormindo ou quando alguém derrubar sopa em suas roupas e ele tiver que se trocar.\n\t\t\t</p>\n\t\t\t <span class=\"fancyheader\"> </span> \n\t\t</blockquote>\n\n\t\t<h3>PERSUADINDO O AMIGO DO LADRÃO</h3>\n\t\t<p class=\"pblock\">(Solução rápida)</p>\n\t\t<hr />\n\t\t<p class=\"pblock\">\n\t\t\tKeler é parte de uma equipe maior, mas primariamente se abre com outro cuidador de animais, Telk. Telk sabe que Keler é um ladrão e mentiroso, mas acha a\n\t\t\tamizade interessante; ele deve ser persuadido para divulgar quaisquer pistas ou informações sobre Keler. Personagens conversando com Telk (muitos podem confirmar que ele era o mais próximo de Keler)\n\t\t\tdevem obter sucesso em uma jogada contra Persuasivo para obter informações sobre o cuidador de animais: <br /><i style=\"color:hsl(19, 70%, 37%)\">\n\t\t\t\t“Keler mencionou algum tipo de esconderijo por aqui; eu posso lhes indicar a direção correta”</i>. <br /><br />\n\t\t\tFeito isso, seguir os rastros se torna mais fácil (veja abaixo).\n\t\t\t<br /><br />\n\t\t</p>\n\n\t\t<h3>RASTREANDO O LADRÃO</h3>\n\t\t<p class=\"pblock\">(Solução longa)</p>\n\t\t<hr />\n\t\t<p class=\"pblock\">\n\t\t\tO ladrão deixou rastros que podem ser seguidos a partir da cena do crime (o lugar nas margens do riacho onde Bartolom deixou seu casaco). Keler fez um esforço para\n\t\t\tesconder os rastros, e também preparou uma armadilha ao final da trilha (a armadilha é descrita na Cena 3).\n\t\t\t<br /><br />\n\t\t\tRastrear o ladrão até a ruína do moinho exige duas jogadas bem-sucedidas de [<i>Vigilante</i>←<i>Discreto</i>]. Cada jogador faz uma tentativa; comece com\n\t\t\to que for mais <i>Vigilante</i>. Apenas uma jogada bem-sucedida é necessária se Telk tiver lhes dado a pista. <br /><br />\n\t\t\tUma alternativa é tentar sentir a direção da Pedra do Sol por meios místicos (personagens com a habilidade <i>Visão de Bruxa</i> ou algum poder\n\t\t\tmístico pode tentar). <br /><br />\n\t\t\tNesse caso, ele pode jogar contra [<i>Resoluto</i> –5] na primeira vez e [<i>Resoluto</i> –3] na segunda para localizar a ruína. A tentativa pode ser\n\t\t\tfeita mesmo por personagens que tenham falhado em rastrear Keler anteriormente. <br /><br />\n\t\t\tQuando duas jogadas bem-sucedidas tiverem sido realizadas (somente uma é necessária se tiverem a pista de Telk da Cena 2-1) os personagens chegam nas ruínas do moinho,\n\t\t\tonde o ladrão de segunda categoria Keler está esperando por seus companheiros.\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<h2 style=\"font-weight:bold\">Cena 3: Recuperando a Pedra do Sol</h2>\n\n\t\t<p class=\"pblock\">\n\t\t\t<strong>KELER MONTOU UMA </strong>\n\t\t\tarmadilha mecânica de prender a perna que é ativada se alguém for desatento o suficiente para pisar nela. Os personagens detectam a armadilha se aquele que anda primeiro\n\t\t\tobtiver sucesso contra [<i>Vigilante</i> −3]. Quando observada, a armadilha é facilmente evitada. <br /><br />\n\t\t\tSe a armadilha for ativada, duas coisas acontecem: O personagem que pisar nela deve obter sucesso contra [<i>Rápido</i> −3] ou sofre 4 de dano, e se\n\t\t\to dano for causado no personagem, ele fica preso até obter sucesso numa jogada contra [<i>Vigoroso</i> –3]. <br /><br />\n\t\t\tTenha alguém sofrido dano ou não, a armadilha faz um barulho alto e Keler sabe que eles estão chegando. Se for assim, determine a ordem dos turnos e comece\n\t\t\to combate com armas à distância. Keler está no topo da ruína com sua besta carregada e preparada.\n\t\t\t<br /><br />\n\t\t\tSe a armadilha não foi ativada, os personagens podem tentar se esgueirar até a ruína e para dentro dela. Para isso, uma jogada bem-sucedida contra [<i>Discreto</i>\n\t\t\t–5] é necessária, e lembre-se que algumas armaduras podem conceder modificações negativas. Todos que tentarem se esgueirar devem obter sucesso, ou então Keler irá notá-los e começar a atirar\n\t\t\tcom a besta. <br /><br />\n\t\t</p>\n\t\t<blockquote class=\"fancytextright\" style=\"color:hsl(19, 70%, 37%);margin-top:0\">\n\t\t\t <span class=\"keler\"> </span> \n\t\t\t<span>Keler</span>\n\t\t</blockquote>\n\t\t<h4 style=\"font-weight:bold;font-size:xx-large\">Keler, ladrão de segunda categoria</h4>\n\t\t<p class=\"pblock\">\n\t\t\t<i>“Por favor, me deixem ir, nunca mais vou roubar novamente!”</i>\n\t\t</p>\n\t\t<hr />\n\t\t<p class=\"pblock\">\n\t\t\tKeler se vê como um gênio incompreendido e em particular como um ladrão mestre injustiçado. Devido à sua curiosidade e atenção, ele descobriu sobre o\n\t\t\ttesouro de Bartolom, quando o aprendiz o tirou de seu bolso para esquentar seus dedos congelando.\n\t\t\t<br /><br />\n\t\t\tPara provar sua superioridade, Keler decidiu roubar o artefato e fugir para o esconderijo da gangue de ladrões que ele já foi membro. Lá ele está\n\t\t\tdeterminado a esperar por seus antigos companheiros, esperando que eles se arrependam de expulsá-lo quando ele lhes der a Pedra do Sol. O melhor plano que ele teve\n\t\t\tem anos, ele acredita.\n\t\t\t<br /><br />\n\t\t\tSe os personagens jogadores se aproximarem da ruínas, Keler grita: <br />\n\t\t\t<strong>\n\t\t\t\t<i style=\"color:hsl(19, 70%, 37%)\">\n\t\t\t\t\t“Vocês irão se arrepender! <br />\n\t\t\t\t\tO morto-vivo Mal-Rogan irá lhes encontrar e partir em pedaços. <br />\n\t\t\t\t\tNem mesmo a morte pode derrubá-lo; vocês acham que serão páreos para Mal-Rogan, o Mestre da Morte!?”\n\t\t\t\t</i> </strong><br /><br />\n\t\t\tEle não irá entrar em combate corpo a corpo. Em vez disso, ele solta sua besta e se joga no chão se os personagens se aproximarem. A Pedra do Sol está em seu bolso.\n\t\t\t<br /><br />\n\t\t\tSe Keler for levado de volta para a caravana, ele irá ser alvo de palavras duras e apedrejado. Argasto irá privá-lo de comida e ferramentas\n\t\t\te lhe enviará aos ermos como punição por seu crime. Se os personagens jogadores sugerirem outra forma de reprimenda, Argasto irá concordar com os argumentos, já que foram\n\t\t\teles que encontraram a pedra e capturaram o vilão.\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<span class=\"inline-link2\">@UUID[Actor.T9D84ZaBCj1GQiA2]{Keler}</span>\n\t</div>\n\t<div class=\"statblockcenter blockrotate\" style=\"transform:rotate(0deg);max-width:55%;z-index:auto;box-shadow:-4px 6px 17px 0px hsl(0deg 1% 28%)\">\n\t\t<table style=\"border-style:solid;margin-left:auto;margin-right:auto;width:97%;border:3px;font-size:12pt\">\n\t\t\t<tbody>\n\t\t\t\t<tr style=\"color:aliceblue;background-color:black\">\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">KELER</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Conduta</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Olhos furtivos, gagueja</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Raça</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Humano (ambriano)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Resistência</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Fraca</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Traços</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Contatos (bandidos)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">\n\t\t\t\t\t\t<strong>Preciso </strong>10 (0),  <strong>Astuto </strong>13 (−3),  <strong>Discreto </strong>11 (−1),\n\t\t\t\t\t\t <strong>Persuasivo </strong>7 (+3),<br />\n\t\t\t\t\t\t<strong>Rápido </strong>10 (0),  <strong>Resoluto </strong>5 (+5),  <strong>Vigoroso </strong>9 (+1),\n\t\t\t\t\t\t <strong>Vigilante </strong>15 (−5)\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Habilidades</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Nenhuma</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\">\n\t\t\t\t\t\t<strong>Armas</strong><br />\n\t\t\t\t\t\tPreciso\n\t\t\t\t\t</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Besta 5, Adaga 3 (Curta)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Armadura</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Couraçado 2 (Obstrutiva)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Defesa</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">+2</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Vitalidade</td>\n\t\t\t\t\t<td style=\"width:10%\">10</td>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Limiar de Dor</td>\n\t\t\t\t\t<td style=\"width:10%\">5</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Equipamentos</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">A Pedra do Sol, 3 táleres, amuleto da sorte (disfuncional), 12 virotes em uma aljava</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Sombra</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Prata enegrecida (Corrupção: 0)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Táticas</td>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"3\">\n\t\t\t\t\t\tKeler dispara sua besta e empunha sua adaga se encurralado. Mas assim que ficar evidente que ele será ferido, ele solta suas armas e implora por sua\n\t\t\t\t\t\tvida.\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t</div>\n\n\t<div style=\"position:relative;margin-top:30px\">\n\t\t<blockquote class=\"fancytextright\" style=\"max-width:25%;color:hsl(19, 70%, 37%);margin-top:0\">\n\t\t\t <span class=\"fancyheader\"> </span> \n\t\t\t<h5>Couraçado Rogan e personagens ambrianos</h5>\n\t\t\t<p class=\"fancytext\" style=\"color:hsl(0, 0%, 0%)\">\n\t\t\t\tPersonagens jogadores como Orlan, Bartolom e Ansel podem muito bem ter encontrado ou ter sido amigos de Rogan no passado, tornando isso uma reunião interessante…\n\t\t\t</p>\n\t\t\t <span class=\"fancyheader\"> </span>  <br /><br />\n\t\t\t <span class=\"mal-rogan\"> </span> \n\t\t\t<span>Mal-Rogan</span>\n\t\t</blockquote>\n\n\t\t<h3 style=\"font-weight:bold;font-size:x-large\">Cena 3.1: MAL-ROGAN CHEGA</h3>\n\t\t<p class=\"pblock\">\n\t\t\tSe o Mestre de Jogo estiver maldoso ou se os personagens escolherem esperar pelos companheiros de Keler, um bando de ladrões maltrapilhos em breve chega do sul\n\t\t\tpor uma trilha antiga no mato. Alguns ladrões agem como batedores e o líder segue atrás deles; Mal-Rogan pode ser um morto-vivo, mas não é estúpido.\n\t\t\t<br /><br />\n\t\t</p>\n\t\t<h4 style=\"font-weight:bold;font-size:xx-large\">Mal-Rogan, chefe morto-vivo da brigada</h4>\n\n\t\t<p class=\"pblock\">\n\t\t\t<i>“A Pedra do Sol é MINHA!”</i>\n\t\t</p>\n\t\t<hr />\n\t\t<p class=\"pblock\">\n\t\t\tRogan Gorinder, guarda da Rainha, morreu morreu na guerra contra os Lordes Negros. Ele teve um braço decepado em combate, o ferimento infeccionou e os curandeiros foram\n\t\t\tincapazes de neutralizar a infecção de sangue negro que correu por suas veias.\n\t\t\t<br /><br />\n\t\t\tMas em vez de morrer, Rogan se ergueu como um morto-vivo, com pus saindo de seu braço arrancado e com veias negras visíveis em seu pescoço e têmporas. Por quê?\n\t\t\tNinguém sabe; mas Rogan tomou isso como um sinal sombrio de que ele foi escolhido para coisas maiores. Hoje em dia, o ladrão barão se proclama Mal-Rogan e lidera um bando de\n\t\t\tladrões nas montanhas onde ele cresceu, sonhando em fundar um verdadeiro reino de bandidos.\n\t\t\t<br /><br />\n\t\t\tSe os personagens jogadores forem incapazes de parar o nobre acometido pela mácula, ele irá fazer seu nome pelas partes sul de Ambria, onde ele perambula\n\t\t\tcomo um horror furioso deixando corpos no caminho.\n\t\t</p>\n\t\t<br />\n\t\t<span class=\"inline-link2\">@UUID[Actor.OPBJXnbFmOo0KYsC]{Mal-Rogan}</span>\n\t</div>\n\t<div class=\"statblockcenter blockrotate\" style=\"transform:rotate(0deg);max-width:55%;z-index:auto;box-shadow:-4px 6px 17px 0px hsl(0deg 1% 28%)\">\n\t\t<table style=\"border-style:solid;margin-left:auto;margin-right:auto;width:97%;border:3px;font-size:12pt\">\n\t\t\t<tbody>\n\t\t\t\t<tr style=\"color:aliceblue;background-color:black\">\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">MAL-ROGAN</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Conduta</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Fala com uma voz arrastada, balançando sua cabeça para frente e para trás</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Raça</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Morto-vivo</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Resistência</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Desafiadora</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Traços</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Morto-vivo (I), Vida-Longa</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">\n\t\t\t\t\t\t<strong>Preciso </strong>7 (+3),  <strong>Astuto </strong>5 (+5),  <strong>Discreto </strong>9 (+1),\n\t\t\t\t\t\t <strong>Persuasivo </strong>10 (0),<br />\n\t\t\t\t\t\t<strong>Rápido </strong>11 (−1),  <strong>Resoluto </strong>13 (−3),  <strong>Vigoroso </strong>17 (−7),\n\t\t\t\t\t\t <strong>Vigilante </strong>10 (0)\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Habilidades</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Maldição (mestre), Excepcionalmente Vigoroso (adepto), Punho de Ferro (adepto)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\">\n\t\t\t\t\t\t<strong>Armas</strong><br />\n\t\t\t\t\t\tVigoroso\n\t\t\t\t\t</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Clava com cravos 6</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Armadura</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Cota de malha fortificada 4 (Obstrutiva)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Defesa</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">+3</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Vitalidade</td>\n\t\t\t\t\t<td style=\"width:10%\">15</td>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Limiar de Dor</td>\n\t\t\t\t\t<td style=\"width:10%\">—</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Equipamentos</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">\n\t\t\t\t\t\tSua própria mão mumificada em uma corrente enferrujada em seu pescoço <span class=\"inline-link2\">@UUID[Item.1cCakrFd71BLvovB]{Mal-Rogan's Mummified Hand}</span>,\n\t\t\t\t\t\t4 táleres\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Sombra</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Negra como piche (Corrupção: completamente corrompido)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Táticas</td>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"3\">\n\t\t\t\t\t\tRogan deixa seus seguidores atacarem primeiro, enquanto ele roga uma maldição naquele que ele acredita ser o inimigo mais difícil. Quando a maldição surte efeito ele se move\n\t\t\t\t\t\tcom sua clava com cravos.\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t</div>\n\n\t<div style=\"position:relative;margin-top:30px\">\n\t\t<h4 style=\"font-weight:bold;font-size:xx-large\">Ladrões (tantos quanto os PJs)</h4>\n\t\t<p class=\"pblock\">\n\t\t\t<i>“Seu dinheiro ou seu… ou você morre!”</i>\n\t\t</p>\n\t\t<hr />\n\t\t<span class=\"inline-link2\">@UUID[Actor.3z5c5TUueCdRWIFw]{Ladrões (tantos quanto os PJs)}</span>\n\t</div>\n\t<div class=\"statblockcenter blockrotate\" style=\"transform:rotate(0deg);max-width:55%;z-index:auto;box-shadow:-4px 6px 17px 0px hsl(0deg 1% 28%)\">\n\t\t<table style=\"border-style:solid;margin-left:auto;margin-right:auto;width:97%;border:3px;font-size:12pt\">\n\t\t\t<tbody>\n\t\t\t\t<tr style=\"color:aliceblue;background-color:black\">\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">LADRÕES</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Conduta</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Encara com olhos enevoados</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Raça</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Humano (ambriano)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Resistência</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Fraca</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Traços</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Contatos (bandidos e salteadores)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"4\">\n\t\t\t\t\t\t<strong>Preciso </strong>13 (−3),  <strong>Astuto </strong>10 (0),  <strong>Discreto </strong>15 (−5),\n\t\t\t\t\t\t <strong>Persuasivo </strong>7 (+3),<br />\n\t\t\t\t\t\t<strong>Rápido </strong>10 (0),  <strong>Resoluto </strong>5 (+5),  <strong>Vigoroso </strong>9 (+1),\n\t\t\t\t\t\t <strong>Vigilante </strong>11 (−1)\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Habilidades</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Nenhuma</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%\">\n\t\t\t\t\t\t<strong>Armas</strong><br />\n\t\t\t\t\t\tPreciso\n\t\t\t\t\t</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Besta 5, Lança 4 (Longa)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Armadura</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Couraçado 2 (Obstrutiva)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Defesa</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">+2</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Vitalidade</td>\n\t\t\t\t\t<td style=\"width:10%\">10</td>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Limiar de Dor</td>\n\t\t\t\t\t<td style=\"width:10%\">5</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Equipamentos</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">5 xelins, baralho de cartas ou conjunto de dados, tabaco de mastigar, 6 virotes em uma aljava</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Sombra</td>\n\t\t\t\t\t<td style=\"width:85%\" colspan=\"3\">Ferro enferrujado (Corrupção: 2)</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"width:15%;font-weight:bold\">Táticas</td>\n\t\t\t\t\t<td style=\"width:15%\" colspan=\"3\">\n\t\t\t\t\t\tDisparam uma saraivada com suas bestas antes de atacar com lanças. Eles tentam permanecer vivos enquanto Mal-Rogan mata os inimigos um por um.\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t</div>\n\n\t<div style=\"position:relative;margin-top:30px\">\n\t\t<blockquote class=\"blockquotecenter\" style=\"max-width:100%\">\n\t\t\t<h5 style=\"font-weight:bold\">Dica de expansão</h5>\n\t\t\t<p>\n\t\t\t\tO morto-vivo Rogan pode ser utilizado para complicar a vida dos personagens jogadores por um longo tempo. Após o encontro no moinho arruinado, ele pode vir\n\t\t\t\ta acreditar que a Pedra do Sol é vital para o sucesso de seus planos grandiosos. Se for assim, ele provavelmente irá rastrear os jogadores, até Yndaros e além,\n\t\t\t\te crescerá como um nêmesis notavelmente tenaz. Antes disso, ele pode aparecer quando os personagens forem ameaçados pelos elfos (veja\n\t\t\t\t<a class=\"content-link inline-link\" data-link draggable=\"false\" data-uuid=\"JournalEntry.Ps9VWKSOYMt3rcOA.JournalEntryPage.1bGkCYLcG6juYYs5\" data-id=\"1bGkCYLcG6juYYs5\" data-type=\"JournalEntryPage\">Capítulo 3</a>), oferecendo ajudá-los se eles lhe derem a pedra.\n\t\t\t</p>\n\t\t</blockquote>\n\t</div>\n</div>"            }
           }
         },
-        "Book 2": {
-          "name": "Livro 2",
-          "pages": {
-            "Berserker Rage": {
-              "name": "Berserker Rage",
-              "src": "modules/symbaroum-corerules/images/pictures/berserker-rage.webp"
-            },
-            "Lindworm Battle": {
-              "name": "Lindworm Battle",
-              "src": "modules/symbaroum-corerules/images/pictures/lindworm.webp"
-            },
-            "Self-Taught Mystic": {
-              "name": "Self-Taught Mystic",
-              "src": "modules/symbaroum-corerules/images/pictures/self-taught-mystic-arch.webp"
-            },
-            "Sorcerer": {
-              "name": "Sorcerer",
-              "src": "modules/symbaroum-corerules/images/pictures/sorcerer-arch.webp"
-            },
-            "Human Archer on Horseback": {
-              "name": "Human Archer on Horseback",
-              "src": "modules/symbaroum-corerules/images/pictures/human-archer-on-horse.webp"
-            },
-            "Exploring the Earth Tower": {
-              "name": "Exploring the Earth Tower",
-              "src": "modules/symbaroum-corerules/images/pictures/exploring-earthtower.webp"
-            },
-            "Staff of Power": {
-              "name": "Staff of Power",
-              "src": "modules/symbaroum-corerules/images/pictures/staff-of-power.webp"
-            },
-            "Thug": {
-              "name": "Thug",
-              "src": "modules/symbaroum-corerules/images/pictures/thug-arch.webp"
-            },
-            "Mystic Explorer": {
-              "name": "Mystic Explorer",
-              "src": "modules/symbaroum-corerules/images/pictures/mystic-explorer.webp"
-            },
-            "Troll Attacks": {
-              "name": "Troll Attacks",
-              "src": "modules/symbaroum-corerules/images/pictures/troll-attacks.webp"
-            },
-            "View from within one of the Earth Towers of the Black Leech Rift.": {
-              "name": "View from within one of the Earth Towers of the Black Leech Rift.",
-              "src": "modules/symbaroum-corerules/images/pictures/earthtower-blackleechrift.webp"
-            },
-            "Ambrian Guard": {
-              "name": "Ambrian Guard",
-              "src": "modules/symbaroum-corerules/images/pictures/ambrian-guard.webp"
-            },
-            "Knight": {
-              "name": "Knight",
-              "src": "modules/symbaroum-corerules/images/pictures/knight-arch.webp"
-            },
-            "Captain": {
-              "name": "Captain",
-              "src": "modules/symbaroum-corerules/images/pictures/captain-arch.webp"
-            },
-            "Wizard": {
-              "name": "Wizard",
-              "src": "modules/symbaroum-corerules/images/pictures/wizard-arch.webp"
-            },
-            "A Rogue's Domain": {
-              "name": "A Rogue's Domain",
-              "src": "modules/symbaroum-corerules/images/pictures/rouges-domain.webp"
-            },
-            "Ranger": {
-              "name": "Ranger",
-              "src": "modules/symbaroum-corerules/images/pictures/ranger-arch.webp"
-            },
-            "Member of the Theurgy": {
-              "name": "Member of the Theurgy",
-              "src": "modules/symbaroum-corerules/images/pictures/member-of-the-theurgy.webp"
-            },
-            "Ogre and Goblin Attack": {
-              "name": "Ogre and Goblin Attack",
-              "src": "modules/symbaroum-corerules/images/pictures/ogre-goblin.webp"
-            },
-            "Light the Way": {
-              "name": "Light the Way",
-              "src": "modules/symbaroum-corerules/images/pictures/light-the-way.webp"
-            },
-            "Treasure Hunter": {
-              "name": "Treasure Hunter",
-              "src": "modules/symbaroum-corerules/images/pictures/treasure-hunter-arch.webp"
-            },
-            "The Conjuring": {
-              "name": "The Conjuring",
-              "src": "modules/symbaroum-corerules/images/pictures/the-conjuring.webp"
-            },
-            "Clan Warrior": {
-              "name": "Clan Warrior",
-              "src": "modules/symbaroum-corerules/images/pictures/clan-warrior.webp"
-            },
-            "Combat on the Peak": {
-              "name": "Combat on the Peak",
-              "src": "modules/symbaroum-corerules/images/pictures/combat-on-the-peak.webp"
-            },
-            "Robust Warrior": {
-              "name": "Robust Warrior",
-              "src": "modules/symbaroum-corerules/images/pictures/robust-warrior.webp"
-            },
-            "Flaming Servant": {
-              "name": "Flaming Servant",
-              "src": "modules/symbaroum-corerules/images/pictures/flaming-servant.webp"
-            },
-            "Colossi Riders": {
-              "name": "Colossi Riders",
-              "src": "modules/symbaroum-corerules/images/pictures/colossi-riders.webp"
-            },
-            "Goblin Traveller": {
-              "name": "Goblin Traveller",
-              "src": "modules/symbaroum-corerules/images/pictures/goblin-traveller.webp"
-            },
-            "Duelist": {
-              "name": "Duelist",
-              "src": "modules/symbaroum-corerules/images/pictures/duelist-arch.webp"
-            },
-            "Changeling": {
-              "name": "Changeling",
-              "src": "modules/symbaroum-corerules/images/pictures/changeling.webp"
-            },
-            "The Summoning": {
-              "name": "The Summoning",
-              "src": "modules/symbaroum-corerules/images/pictures/the-summoning.webp"
-            },
-            "Sellsword": {
-              "name": "Sellsword",
-              "src": "modules/symbaroum-corerules/images/pictures/sellsword-arch.webp"
-            },
-            "Witchhunter": {
-              "name": "Witchhunter",
-              "src": "modules/symbaroum-corerules/images/pictures/witchfinder-arch.webp"
-            },
-            "Theurg": {
-              "name": "Theurg",
-              "src": "modules/symbaroum-corerules/images/pictures/theurg-arch.webp"
-            }
-          }
-        },
-        "Book 3": {
-          "name": "Livro 3",
-          "pages": {
-            "Aboar": {
-              "name": "Aboar",
-              "src": "modules/symbaroum-corerules/images/pictures/aboar.webp"
-            },
-            "Ruins on the Northern Slopes of the Titans": {
-              "name": "Ruins on the Northern Slopes of the Titans",
-              "src": "modules/symbaroum-corerules/images/pictures/northern-slopes.webp"
-            },
-            "Band of Elves": {
-              "name": "Band of Elves",
-              "src": "modules/symbaroum-corerules/images/pictures/band-of-elves.webp"
-            },
-            "Undead": {
-              "name": "Undead",
-              "src": "modules/symbaroum-corerules/images/pictures/undead.webp"
-            },
-            "Cryptwalker": {
-              "name": "Cryptwalker",
-              "src": "modules/symbaroum-corerules/images/pictures/cryptwalker.webp"
-            },
-            "Chief Monovar of Clan Zarek": {
-              "name": "Chief Monovar of Clan Zarek",
-              "src": "modules/symbaroum-corerules/images/pictures/clan-zarek.webp"
-            },
-            "'Stay back, foul creature'": {
-              "name": "'Stay back, foul creature'",
-              "src": "modules/symbaroum-corerules/images/pictures/back-troll.webp"
-            },
-            "Silent Marshes": {
-              "name": "Silent Marshes",
-              "src": "modules/symbaroum-corerules/images/pictures/silent-marshes.webp"
-            },
-            "Guard Warrior": {
-              "name": "Guard Warrior",
-              "src": "modules/symbaroum-corerules/images/pictures/guard-warrior.webp"
-            },
-            "On the Hunt": {
-              "name": "On the Hunt",
-              "src": "modules/symbaroum-corerules/images/pictures/hunt.webp"
-            },
-            "Fortress in the Titans": {
-              "name": "Fortress in the Titans",
-              "src": "modules/symbaroum-corerules/images/pictures/titan-fortress.webp"
-            },
-            "Dragoul": {
-              "name": "Dragoul",
-              "src": "modules/symbaroum-corerules/images/pictures/dragoul.webp"
-            },
-            "Swarm of Violings": {
-              "name": "Swarm of Violings",
-              "src": "modules/symbaroum-corerules/images/pictures/swarm-of-violings.webp"
-            },
-            "Longbowman": {
-              "name": "Longbowman",
-              "src": "modules/symbaroum-corerules/images/pictures/longbowman.webp"
-            },
-            "Towering Beast": {
-              "name": "Towering Beast",
-              "src": "modules/symbaroum-corerules/images/pictures/towering-beast.webp"
-            },
-            "Lone Summer Elf": {
-              "name": "Lone Summer Elf",
-              "src": "modules/symbaroum-corerules/images/pictures/summer-elf.webp"
-            },
-            "Corruption": {
-              "name": "Corruption",
-              "src": "modules/symbaroum-corerules/images/pictures/corruption.webp"
-            },
-            "Witchhunter Collecting Herbs": {
-              "name": "Witchhunter Collecting Herbs",
-              "src": "modules/symbaroum-corerules/images/pictures/witchhunter.webp"
-            },
-            "Blight Born Elk": {
-              "name": "Blight Born Elk",
-              "src": "modules/symbaroum-corerules/images/pictures/blight-born-elk.webp"
-            },
-            "Giant Spider Attack": {
-              "name": "Giant Spider Attack",
-              "src": "modules/symbaroum-corerules/images/pictures/giant-spider-attack.webp"
-            },
-            "Dark Forest Encounter": {
-              "name": "Dark Forest Encounter",
-              "src": "modules/symbaroum-corerules/images/pictures/forest-encounter.webp"
-            },
-            "Kanaran": {
-              "name": "Kanaran",
-              "src": "modules/symbaroum-corerules/images/pictures/kanaran.webp"
-            }
-          }
-        },
         "Book 1": {
           "name": "Livro 1",
           "pages": {
@@ -7077,11 +6844,11 @@
               "src": "modules/symbaroum-corerules/images/pictures/siege-of-the-jezites.webp"
             },
             "Thistle Hold, Eastern Gate": {
-              "name": "Thistle Hold, Portão Leste",
+              "name": "Forte do Cardo, Portão Leste",
               "src": "modules/symbaroum-corerules/images/pictures/thistle-hold-eastern-gate.webp"
             },
             "Queen Korinthia and an escort": {
-              "name": "A rainha Korinthia e uma escolta",
+              "name": "A Rainha Korinthia e sua Escolta",
               "src": "modules/symbaroum-corerules/images/pictures/queen-korinthia-escort.webp"
             },
             "Yndaros, Fortress Doudram": {
@@ -7093,11 +6860,11 @@
               "src": "modules/symbaroum-corerules/images/pictures/ruined-column.webp"
             },
             "The Challenge": {
-              "name": "O desafio",
+              "name": "O Desafio",
               "src": "modules/symbaroum-corerules/images/pictures/the-challenge.webp"
             },
             "Thistle Hold, Haloban's Ring": {
-              "name": "Thistle Hold, Anel de Haloban",
+              "name": "Forte do Cardo, Anel de Haloban",
               "src": "modules/symbaroum-corerules/images/pictures/thistle-hold-halobans-ring.webp"
             },
             "Beremo Herengol": {
@@ -7113,7 +6880,7 @@
               "src": "modules/symbaroum-corerules/images/pictures/karvosti-high-chieftains-fortress.webp"
             },
             "Book Cover (No Text)": {
-              "name": "Capa do livro (sem texto)",
+              "name": "Capa do Livro (sem texto)",
               "src": "modules/symbaroum-corerules/images/pictures/book-cover-notext.webp"
             },
             "Thistle Hold": {
@@ -7150,6 +6917,240 @@
             }
           }
         },
+        "Book 2": {
+          "name": "Livro 2",
+          "pages": {
+            "Berserker Rage": {
+              "name": "Fúria Berserker",
+              "src": "modules/symbaroum-corerules/images/pictures/berserker-rage.webp"
+            },
+            "Lindworm Battle": {
+              "name": "Batalha com Linnorme",
+              "src": "modules/symbaroum-corerules/images/pictures/lindworm.webp"
+            },
+            "Self-Taught Mystic": {
+              "name": "Místico Autodidata",
+              "src": "modules/symbaroum-corerules/images/pictures/self-taught-mystic-arch.webp"
+            },
+            "Sorcerer": {
+              "name": "Feiticeiro",
+              "src": "modules/symbaroum-corerules/images/pictures/sorcerer-arch.webp"
+            },
+            "Human Archer on Horseback": {
+              "name": "Arqueiro Humano a Cavalo",
+              "src": "modules/symbaroum-corerules/images/pictures/human-archer-on-horse.webp"
+            },
+            "Exploring the Earth Tower": {
+              "name": "Explorando a Torre da Terra",
+              "src": "modules/symbaroum-corerules/images/pictures/exploring-earthtower.webp"
+            },
+            "Staff of Power": {
+              "name": "Cajado do Poder",
+              "src": "modules/symbaroum-corerules/images/pictures/staff-of-power.webp"
+            },
+            "Thug": {
+              "name": "Bandido",
+              "src": "modules/symbaroum-corerules/images/pictures/thug-arch.webp"
+            },
+            "Mystic Explorer": {
+              "name": "Explorador Místico",
+              "src": "modules/symbaroum-corerules/images/pictures/mystic-explorer.webp"
+            },
+            "Troll Attacks": {
+              "name": "Ataques de Trolls",
+              "src": "modules/symbaroum-corerules/images/pictures/troll-attacks.webp"
+            },
+            "View from within one of the Earth Towers of the Black Leech Rift.": {
+              "name": "Vista de dentro de uma das Torres da Terra da Fenda da Sanguessuga Negra.",
+              "src": "modules/symbaroum-corerules/images/pictures/earthtower-blackleechrift.webp"
+            },
+            "Ambrian Guard": {
+              "name": "Guarda Ambriano",
+              "src": "modules/symbaroum-corerules/images/pictures/ambrian-guard.webp"
+            },
+            "Knight": {
+              "name": "Cavaleiro",
+              "src": "modules/symbaroum-corerules/images/pictures/knight-arch.webp"
+            },
+            "Captain": {
+              "name": "Capitão",
+              "src": "modules/symbaroum-corerules/images/pictures/captain-arch.webp"
+            },
+            "Wizard": {
+              "name": "Mago",
+              "src": "modules/symbaroum-corerules/images/pictures/wizard-arch.webp"
+            },
+            "A Rogue's Domain": {
+              "name": "O Domínio de um Ladino",
+              "src": "modules/symbaroum-corerules/images/pictures/rouges-domain.webp"
+            },
+            "Ranger": {
+              "name": "Caçador",
+              "src": "modules/symbaroum-corerules/images/pictures/ranger-arch.webp"
+            },
+            "Member of the Theurgy": {
+              "name": "Membro da Teurgia",
+              "src": "modules/symbaroum-corerules/images/pictures/member-of-the-theurgy.webp"
+            },
+            "Ogre and Goblin Attack": {
+              "name": "Ataque de Ogro e Goblin",
+              "src": "modules/symbaroum-corerules/images/pictures/ogre-goblin.webp"
+            },
+            "Light the Way": {
+              "name": "Ilumine o Caminho",
+              "src": "modules/symbaroum-corerules/images/pictures/light-the-way.webp"
+            },
+            "Treasure Hunter": {
+              "name": "Caçador de Tesouros",
+              "src": "modules/symbaroum-corerules/images/pictures/treasure-hunter-arch.webp"
+            },
+            "The Conjuring": {
+              "name": "A COnjuração",
+              "src": "modules/symbaroum-corerules/images/pictures/the-conjuring.webp"
+            },
+            "Clan Warrior": {
+              "name": "Guerreiro do Clã",
+              "src": "modules/symbaroum-corerules/images/pictures/clan-warrior.webp"
+            },
+            "Combat on the Peak": {
+              "name": "Combate no Pico",
+              "src": "modules/symbaroum-corerules/images/pictures/combat-on-the-peak.webp"
+            },
+            "Robust Warrior": {
+              "name": "Guerreiro Robusto",
+              "src": "modules/symbaroum-corerules/images/pictures/robust-warrior.webp"
+            },
+            "Flaming Servant": {
+              "name": "Servo Flamejante",
+              "src": "modules/symbaroum-corerules/images/pictures/flaming-servant.webp"
+            },
+            "Colossi Riders": {
+              "name": "Cavaleiros Colossos",
+              "src": "modules/symbaroum-corerules/images/pictures/colossi-riders.webp"
+            },
+            "Goblin Traveller": {
+              "name": "Viajante Goblin",
+              "src": "modules/symbaroum-corerules/images/pictures/goblin-traveller.webp"
+            },
+            "Duelist": {
+              "name": "Duelista",
+              "src": "modules/symbaroum-corerules/images/pictures/duelist-arch.webp"
+            },
+            "Changeling": {
+              "name": "Cambiante",
+              "src": "modules/symbaroum-corerules/images/pictures/changeling.webp"
+            },
+            "The Summoning": {
+              "name": "O Invocador",
+              "src": "modules/symbaroum-corerules/images/pictures/the-summoning.webp"
+            },
+            "Sellsword": {
+              "name": "Mercenário",
+              "src": "modules/symbaroum-corerules/images/pictures/sellsword-arch.webp"
+            },
+            "Witchhunter": {
+              "name": "Caçador de bruxas",
+              "src": "modules/symbaroum-corerules/images/pictures/witchfinder-arch.webp"
+            },
+            "Theurg": {
+              "name": "Teurgo",
+              "src": "modules/symbaroum-corerules/images/pictures/theurg-arch.webp"
+            }
+          }
+        },
+        "Book 3": {
+          "name": "Livro 3",
+          "pages": {
+            "Aboar": {
+              "name": "Gigavali",
+              "src": "modules/symbaroum-corerules/images/pictures/aboar.webp"
+            },
+            "Ruins on the Northern Slopes of the Titans": {
+              "name": "Ruínas nas Encostas Norte das Titãs",
+              "src": "modules/symbaroum-corerules/images/pictures/northern-slopes.webp"
+            },
+            "Band of Elves": {
+              "name": "Bando de Elfos",
+              "src": "modules/symbaroum-corerules/images/pictures/band-of-elves.webp"
+            },
+            "Undead": {
+              "name": "Mortos-Vivos",
+              "src": "modules/symbaroum-corerules/images/pictures/undead.webp"
+            },
+            "Cryptwalker": {
+              "name": "Andarilho da Cripta",
+              "src": "modules/symbaroum-corerules/images/pictures/cryptwalker.webp"
+            },
+            "Chief Monovar of Clan Zarek": {
+              "name": "Chefe Monovar do Clã Zarek",
+              "src": "modules/symbaroum-corerules/images/pictures/clan-zarek.webp"
+            },
+            "'Stay back, foul creature'": {
+              "name": "'Fique Longe, Criatura Imunda'",
+              "src": "modules/symbaroum-corerules/images/pictures/back-troll.webp"
+            },
+            "Silent Marshes": {
+              "name": "Pântanos Silenciosos",
+              "src": "modules/symbaroum-corerules/images/pictures/silent-marshes.webp"
+            },
+            "Guard Warrior": {
+              "name": "Guerreiro da Guarda",
+              "src": "modules/symbaroum-corerules/images/pictures/guard-warrior.webp"
+            },
+            "On the Hunt": {
+              "name": "À Caça",
+              "src": "modules/symbaroum-corerules/images/pictures/hunt.webp"
+            },
+            "Fortress in the Titans": {
+              "name": "Fortaleza nas Titãs",
+              "src": "modules/symbaroum-corerules/images/pictures/titan-fortress.webp"
+            },
+            "Dragoul": {
+              "name": "Dragoul",
+              "src": "modules/symbaroum-corerules/images/pictures/dragoul.webp"
+            },
+            "Swarm of Violings": {
+              "name": "Enxame de Violentinos",
+              "src": "modules/symbaroum-corerules/images/pictures/swarm-of-violings.webp"
+            },
+            "Longbowman": {
+              "name": "Arqueiro de Arco Longo",
+              "src": "modules/symbaroum-corerules/images/pictures/longbowman.webp"
+            },
+            "Towering Beast": {
+              "name": "Besta Imponente",
+              "src": "modules/symbaroum-corerules/images/pictures/towering-beast.webp"
+            },
+            "Lone Summer Elf": {
+              "name": "Elfo do Verão Solitário",
+              "src": "modules/symbaroum-corerules/images/pictures/summer-elf.webp"
+            },
+            "Corruption": {
+              "name": "Corrupção",
+              "src": "modules/symbaroum-corerules/images/pictures/corruption.webp"
+            },
+            "Witchhunter Collecting Herbs": {
+              "name": "Caçador de Bruxas Coletando Ervas",
+              "src": "modules/symbaroum-corerules/images/pictures/witchhunter.webp"
+            },
+            "Blight Born Elk": {
+              "name": "Alce Nascido da Mácula",
+              "src": "modules/symbaroum-corerules/images/pictures/blight-born-elk.webp"
+            },
+            "Giant Spider Attack": {
+              "name": "Ataque de Aranha Gigante",
+              "src": "modules/symbaroum-corerules/images/pictures/giant-spider-attack.webp"
+            },
+            "Dark Forest Encounter": {
+              "name": "Encontro na Floresta Sombria",
+              "src": "modules/symbaroum-corerules/images/pictures/forest-encounter.webp"
+            },
+            "Kanaran": {
+              "name": "Kanaran",
+              "src": "modules/symbaroum-corerules/images/pictures/kanaran.webp"
+            }
+          }
+        },
         "The Witch and Familiar": {
           "name": "A Bruxa e Familiar"
         },
@@ -7157,16 +7158,16 @@
           "name": "A Praça do Sapo",
           "pages": {
             "The Toad’s Square Text": {
-              "name": "A Praça do Sapo Text",
+              "name": "Texto de A Praça do Sapo",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A PRAÇA DO SAPO</h5>\n<p class=\"pblock\">Na sombra do Farol fica uma praça grande e circular, cercada por tavernas e botecos, incluindo os Salões de Symbaroum. Se alguém tivesse de apontar um único lugar como o mais perigoso da cidade, certamente seria o quarteirão vizinho à Praça do Sapo. Mais mortes ocorrem ali do que em todo o restante de Forte do Cardo combinado, e é nas proximidades das fundações do Farol que acontecem a maioria dos negócios escusos da cidade — negócios que frequentemente saem do controle, já que raramente se veem guardas da cidade patrulhando o distrito. <br /><br />Contudo, o que tornou a praça verdadeiramente famosa é, sem dúvida, a estátua que lhe dá nome. Sobre uma base de basalto negro, cercada por um lago ornamentado de pedra, ergue-se o esqueleto remontado de um gigantesco monstro semelhante a um sapo. A carcaça foi encontrada quase intacta durante a construção da paliçada e restaurada por estudiosos da Ordo Magica. Embora a própria besta já seja suficiente para alimentar as mais selvagens fantasias, a maioria das especulações gira em torno do modesto sino de bronze preso por uma fita ao redor do pescoço da criatura. O sino sugere que o sapo gigante já foi o animal de estimação de alguém? Nesse caso, de quem? Ou seria a criatura inteligente e astuta o bastante para usar o sino como joia? E por que seu som é tão fraco? Será que soaria diferente se o badalo original, ainda não recuperado, fosse encontrado?</p>\n<br /><br /></div>"
             }
           }
         },
         "The Rope and Axe": {
-          "name": " Corda e Machado",
+          "name": "A Corda e Machado",
           "pages": {
             "The Rope and Axe Text": {
-              "name": " Corda e Machado Text",
+              "name": "Texto de A Corda e Machado",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A CORDA E O MACHADO</h5>\n<p class=\"pblock\">Gerido por Melena, filha de Marvalom e sua feroz rival, o negócio tem uma ideia simples: tudo o que é necessário para viajar em Davokar pode ser encontrado no mesmo local.</p>\n</div>"
             }
           }
@@ -7175,7 +7176,7 @@
           "name": "Casa Noturna",
           "pages": {
             "Nighthome Text": {
-              "name": "Casa Noturna Text",
+              "name": "Texto de Casa Noturna",
               "text": "<div class=\"symbaroum-mod\">\n<h5>CASA NOTURNA</h5>\n<p class=\"pblock\">Além de sua companheira Yagaba e um grupo de servos, o Prefeito Lasifor Campo Noturno vive sozinho em um palácio de madeira chamado Casa Noturna. A estrutura, com três andares, fica no topo de uma elevação suave e gramada, rodeada por uma cerca da altura de um homem. A única outra construção no terreno fica perto do portão da cerca e é ocupada pela guarda pessoal do Prefeito. <br /><br />Rumores sobre a Casa Noturna e o que pode ser encontrado dentro são, é claro, muitos. Existem conversas sobre cofres cheios de ouro, paredes lotadas de tapeçarias antigas e máscaras, e muitas ervas milagrosas crescendo no terraço do teto — por exemplo a Rosa Noturna, que adora a luz da lua, e o Lírio-de-Prata, que emana uma seiva adocicada. Mas além da bruxa e dos servos, apenas algumas pessoas selecionadas puderam entrar e ver qualquer coisa além do escritório do Prefeito no térreo. Grande cuidado é tomado, já que a Casa Noturna deve ser considerada o alvo mais desejado de todos os assaltantes.</p>\n</div>"
             }
           }
@@ -7184,7 +7185,7 @@
           "name": "O Assento da Cidade",
           "pages": {
             "The Town Seat Text": {
-              "name": "O Assento da Cidade Text",
+              "name": "Texto de O Assento da Cidade",
               "text": "<div class=\"symbaroum-mod\">\n<h5>O ASSENTAMENTO DA CIDADE</h5>\n<p class=\"pblock\">Ao lado da Praça das Antiguidades fica o prédio onde a equipe de Lasifor Campo Noturno realiza suas audiências. Quem cuida dos assuntos diários é Ader Gorinder, o último sobrevivente de uma pequena casa nobre que pereceu durante a Grande Guerra. Também fazem parte da equipe o implacável Comissário de Impostos Dario, a Comissária Jurídica Asmerda e o Comissário de Construção Kalio Galeia – todos recrutados pelo Prefeito durante a construção da cidade e a ele fiéis desde então. <br /><br />O edifício administrativo também abriga o Salão dos Cavaleiros, um local de encontro e descanso para nobres que visitam a Fortaleza. Oficialmente, Suria Argona, a Legada da Rainha, é responsável pelas atividades no Salão dos Cavaleiros, mas é sabido que seu pai assumiu essa função. O Conde Alkantor é um amigo próximo de Lasifor Campo Noturno e, quando festas são realizadas no Salão, é comum ver a carruagem coberta do Prefeito estacionada em frente à sede da cidade.</p>\n</div>"
             }
           }
@@ -7193,7 +7194,7 @@
           "name": "Ferraria do Grande Golpeador",
           "pages": {
             "Big-Basher’s Smithy Text": {
-              "name": "Ferraria do Grande Golpeador Text",
+              "name": "Texto de Ferraria do Grande Golpeador",
               "text": "<div class=\"symbaroum-mod\">\n<h5>FERRARIA DO GRANDE GOLPEADOR</h5>\n<p class=\"pblock\">Quando Mestra Hurela morreu de insuficiência respiratória aguda há alguns anos, seu filho adotivo, o ogro Grande Golpeador, herdou a ferraria. Ninguém duvida que ele também tenha acontecido sua “mãe” como o melhor ferreiro de Fortaleza.</p>\n</div>"
             }
           }
@@ -7202,7 +7203,7 @@
           "name": "A Drogaria do Táler",
           "pages": {
             "The Thaler’s Drugstore Text": {
-              "name": "A Drogaria do Táler Text",
+              "name": "Texto de A Drogaria do Táler",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A Drogaria do Táler:</h5>\n<p class=\"pblock\">O equivalente alquímico da loja de Marvalom – uma loja administrada pelas irmãs Ofera e Moria, onde você pode encontrar todos os tipos de ingredientes e elixires prontos.</p>\n</div>"
             }
           }
@@ -7214,7 +7215,7 @@
           "name": "O Templo do Sol",
           "pages": {
             "The Sun Temple Text": {
-              "name": "texto o templo do sol",
+              "name": "Texto de O Templo do Sol",
               "text": "<div class=\"symbaroum-mod\">\n<h5>O TEMPLO  O SOL</h5>\n<p class=\"pblock\">Junto ao Parque dos Anciãos fica o templo solar da cidade, com sua cúpula de cobre brilhante no telhado. <br /><br />Seu primeiro teurgo se chama Elfeno, um sacerdote mago que, apesar de sua relativa juventude, é considerado um dos servos mais poderosos do Deus Sol. Às vezes, quando o líder do templo substitui os litúrgicos que normalmente celebram a Missa do Pôr do Sol, o público tem a oportunidade de vivenciar algo inesquecível. <br /><br />Aqueles que são capazes de fazer a comparação afirmam que nem mesmo o Padre Jeesebegai fala com tanta paixão do seu amor por Prios e pela tarefa designada à humanidade: cultivar a natureza incansavelmente e com humildade, purificando-a assim das forças desenfreadas do mal.</p>\n</div>"
             }
           }
@@ -7229,7 +7230,7 @@
           "name": "A Praça Antiga",
           "pages": {
             "The Antique Plaza Text": {
-              "name": "A Praça Antiga Text",
+              "name": "Texto de A Praça Antiga",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A PRAÇA ANTIGA/h5>\n<p class=\"pblock\">O que acontece na Praça Antiga no centro da cidade é determinado pela maré causada pelo sucesso variado dos caçadores de tesouros e exploradores. As barracas e estandes estão sempre lá, é claro, assim como compradores ansiosos em potencial de Yndaros e das casas nobres. Mas algumas vezes os últimos não podem fazer mais do que saborear bebidas quentes nas famosas casas de chá da praça ou examinar o antigo poço de bronze — um vestígio da velha Symbaroum e a razão real do porquê Forte do Cardo está onde está. <br /><br />Tudo muda quando uma ou duas expedições retornam dos ermos. Geralmente leva alguns dias antes dos tesouros alcançarem a praça, já que uma população selecionada de compradores em potencial sempre tem a oportunidade de inspecionar os itens primeiro. Mas quando isso acontece, o quarteirão inteiro fica de cabeça pra baixo: comidas e bebidas são servidas de todas as janelas, o som das vozes discutindo sobre preços combina com a cacofonia de bardos tentando superar uns aos outros aos gritos das vítimas de ladrões. Apenas dentro do Tesouro e da Loja de Novidades do Faraldo — os estabelecimentos que mais frequentemente recebem o privilégio de vender as melhores antiguidades — uma calma relativa prevalece enquanto os leilões acontecem.</p>\n<br /><br /></div>"
             }
           }
@@ -7244,7 +7245,7 @@
           "name": "A Praça da Rainha",
           "pages": {
             "The Queen’s Square Text": {
-              "name": "A Praça da Rainha Text",
+              "name": "Texto de A Praça da Rainha",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A Praça da Rainha</h5>\n<p class=\"pblock\">Quem não se importa de comprar equipamentos usados ​​ou de passar algum tempo procurando os itens certos, fará compras no mercado da Praça da Rainha da melhor maneira possível.</p>\n</div>"
             }
           }
@@ -7256,8 +7257,8 @@
           "name": "Marvalom’s",
           "pages": {
             "Marvalom’s General Store Text": {
-              "name": "Marvalom’s Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>A MERCEARIA DO MARVALOM’S</h5>\n<p class=\"pblock\">se especializa em equipamentos para caçadores de tesouros e exploradores, mas cobra preços cerca de 10 por cento acima do normal por seu status lendário.</p>\n</div>"
+              "name": "Texto de Marvalom’s",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>MARVALOM’S</h5>\n<p class=\"pblock\">É uma mercearia que se especializa em equipamentos para caçadores de tesouros e exploradores, mas cobra preços cerca de 10 por cento acima do normal por seu status lendário.</p>\n</div>"
             }
           }
         },
@@ -7274,7 +7275,7 @@
           "name": "O Tesouro",
           "pages": {
             "The Treasury Text": {
-              "name": "O Tesouro Text",
+              "name": "Texto de O Tesouro",
               "text": "<div class=\"symbaroum-mod\">\n<h5>O TESOURO</h5>\n<p class=\"pblock\">Uma antiga Mestra da Ordo Magica chamada Sefira administra esta casa de leilões com sua família. Graças à sua boa reputação, eles podem cobrar mais do que outros por certificados de autenticidade – cerca de 25 táleres para artefatos e 5 táleres para curiosidades e objetos de arte – e também reivindicar uma comissão de até 25% sobre todas as vendas. Apesar do custo, as pessoas fazem fila para que seus achados sejam examinados e avaliados.</p>\n</div>"
             }
           }
@@ -7286,7 +7287,7 @@
           "name": "A Estação Missionária",
           "pages": {
             "The Mission Station Text": {
-              "name": "A Estação Missionária Text",
+              "name": "Texto de A Estação Missionária",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A ESTAÇÃO MISSIONÁRIA</h5>\n<p class=\"pblock\">Bem perto da Praça Antiga está a construção que amargou o relacionamento entre o Prefeito Campo Noturno e o corpo governante da Igreja do Sol, a Cúria — a estação missionária do sacerdote do sol bem-nascido, o Padre Sarvola. O liturgo ancião tem sido notório há tempos dentro da Igreja por achar as práticas dela brutas, sem coração e condenáveis. Ele diz que: “Assim como o sol generosamente brilha sobre o rico e o pobre, o cruel e o pio, assim deve nossa Igreja tratar todas as crianças de Prios com o mesmo calor e amor.” Há um par de anos ele tem uma herança enorme a seu dispor, que usa para espalhar sua mensagem de amor e compaixão — uma mensagem que lentamente convenceu um número crescente de novos sacerdotes ordenados a ajudá-lo nas tarefas de organizar um sopão em Brejonegro e no proselitismo tanto ali quando entre os Karabbadokks. <br /><br />O fato de que o Prefeito Campo Noturno permite que Sarvola conduza seu movimento herético na cidade é amplamente desaprovado pelos teurgos e Mantos Negros literalistas, especialmente pelo padre Elfeno, que lidera o templo do sol local. Mas o Prefeito diz que enquanto você pagar os devidos impostos e não incitar levantes, qualquer um é bem-vindo. Contudo, existem muitos indicativos de que os agentes da Igreja irão lidar com o assunto com suas próprias mãos. Novos rumores maliciosos sobre Sarvola surgem diariamente e seus sermões são frequentemente perturbados por vaias e surtos aparentemente espontâneos na audiência.</p>\n<br /><br /></div>"
             }
           }
@@ -7304,7 +7305,7 @@
           "name": "A Guarda da Cidade",
           "pages": {
             "The Town Watch Text": {
-              "name": "A Guarda da Cidade Text",
+              "name": "Texto de A Guarda da Cidade",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A GUARNIÇÃO</h5>\n<p class=\"pblock\">A guarda da cidade de Forte do Cardo é tanto numerosa quanto bem paga. Os cento e cinquenta guardas são divididos em três turnos, mas podem ser totalmente reunidos em caso de problemas. Quando isso acontece, eles se tornam uma unidade de combate formidável, não apenas por serem liderados por um trio de oficiais muito experientes. Os capitães Tallios, Marvello e Dekamedo são, como a maioria de seus subordinados, veteranos da Grande Guerra, onde atuaram como comandantes em áreas densamente povoadas. Suprimir distúrbios, advertir agitadores e prever onde os problemas irão surgir são suas especialidades. <br /><br />De acordo com rumores frequentes, o único problema real da guarda da cidade é que seu comandante não possui o mesmo comprometimento demonstrado por seus capitães. Herado Vigia do Crepúsculo é o irmão mais jovem do Prefeito Campo Noturno, e dizem que ele recebeu sua posição apenas porque Lasifor queria um comandante em quem pudesse confiar e controlar. Muitos sugerem que o ansioso e temperamental Herado, um homem com um punho de veludo em uma luva de ferro, pode se provar um risco quando a guarda da cidade for realmente testada.</p>\n<br /><br /></div>"
             }
           }
@@ -7313,13 +7314,13 @@
           "name": "Mãe Mehira",
           "pages": {
             "Mother Mehira’s Text": {
-              "name": "Mãe Mehira Text",
+              "name": "Texto de Mãe Mehira",
               "text": "<div class=\"symbaroum-mod\">\n<h5>AGÊNCIA DA MÃE MEHIRA</h5>\n<p class=\"pblock\">Quando a antiga caçadora de tesouros Mehira perdeu seu braço esquerdo, seu olho direito e a maior parte de sua capacidade respiratória em um encontro com um grupo de ferrões-gotejantes, ela pendurou seu uniforme de aventureira e se assentou em Forte do Cardo. Mas assim como seu antigo colega, o Prefeito Campo Noturno, foi incapaz de descansar sobre seus louros. Não demorou muito antes que tivesse um novo negócio funcionando, um que se provou lucrativo e benéfico para as ambições da Rainha. <br /><br />Qualquer caçador de fortunas pode se registrar na agência, relatando seus detalhes pessoais junto com uma descrição de perícias importantes e disposição em assumir riscos (baixo, alto, extremo, insensato). As perícias são organizadas sob as categorias a) Lutador, b) Desbravador e c) Místico, e devem ser verificadas de alguma forma durante a inscrição. Uma vez que o agente tenha recebido seu primeiro contrato, o contratante deve avaliar sua performance; avaliações são usadas para ranquear os agentes. O preço que você deve pagar para contratar um agente é baseado no seu ranque, na suposta duração do contrato e no nível estimado de risco. Um quarto do custo e um depósito fixo são dados à Mãe Mehira, o resto é pago ao agente quando o trabalho for concluído.</p>\n<br /><br />\n<blockquote class=\"blockquotecenter\" style=\"max-width:90%;margin:auto\"><span class=\"parahead\" style=\"font-weight:bold;font-size:x-large\">AGENTES PARA CONTRATO</span>\n<table style=\"border-style:solid;margin-left:auto;margin-right:auto;width:95%;border:3px;font-size:12pt\">\n<tbody>\n<tr style=\"color:aliceblue;background-color:black\">\n<td style=\"width:25%;text-align:center\">NOME</td>\n<td style=\"width:25%;text-align:center\">CATEGORIA</td>\n<td style=\"width:25%;text-align:center\">DESCRIÇÃO</td>\n<td style=\"width:25%;text-align:center\">RISCO</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Serex Attio</td>\n<td style=\"width:25%;text-align:center\">Lutador</td>\n<td style=\"width:25%;text-align:center\">Excelente estrategista, experiente em batalha, durão, temperamental</td>\n<td style=\"width:25%;text-align:center\">Alto</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Vanoya Partecrânio</td>\n<td style=\"width:25%;text-align:center\">Lutador</td>\n<td style=\"width:25%;text-align:center\">Forte, destemida, leal, teimosa</td>\n<td style=\"width:25%;text-align:center\">Alto</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Urfons</td>\n<td style=\"width:25%;text-align:center\">Lutador</td>\n<td style=\"width:25%;text-align:center\">Grande conhecimento local, discreto, altruísta, goblin</td>\n<td style=\"width:25%;text-align:center\">Extremo</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Gruffy</td>\n<td style=\"width:25%;text-align:center\">Desbravador</td>\n<td style=\"width:25%;text-align:center\">Sabe bastante sobre bestas, bom rastreador, quieto, ogro</td>\n<td style=\"width:25%;text-align:center\">Alto</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Hugalea</td>\n<td style=\"width:25%;text-align:center\">Desbravador</td>\n<td style=\"width:25%;text-align:center\">Grande batedora, move-se silenciosamente, higiênica, goblin</td>\n<td style=\"width:25%;text-align:center\">Insensato</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Serafia</td>\n<td style=\"width:25%;text-align:center\">Desbravador</td>\n<td style=\"width:25%;text-align:center\">Grande rastreadora, boa mira, alpinista talentosa, entende a língua dos elfos</td>\n<td style=\"width:25%;text-align:center\">Alto</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Galfenio</td>\n<td style=\"width:25%;text-align:center\">Místico</td>\n<td style=\"width:25%;text-align:center\">Mago livre, grande perícia em combate, meio frágil, cambiante</td>\n<td style=\"width:25%;text-align:center\">Alto</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Meomaar</td>\n<td style=\"width:25%;text-align:center\">Místico</td>\n<td style=\"width:25%;text-align:center\">Bruxa do clã Baiaga, fala com animais e plantas, sensível</td>\n<td style=\"width:25%;text-align:center\">Baixo</td>\n</tr>\n<tr>\n<td style=\"width:25%\">Elvea</td>\n<td style=\"width:25%;text-align:center\">Místico</td>\n<td style=\"width:25%;text-align:center\">Maga, sabe muito sobre ervas, inabalável</td>\n<td style=\"width:25%;text-align:center\">Extremo</td>\n</tr>\n</tbody>\n</table>\n</blockquote>\n</div>"
             }
           }
         },
         "The Abomitorium": {
-          "name": "O Abomitório"
+          "name": "O Abomitorium"
         },
         "Arkerio’s Guest House": {
           "name": "Casa de Hóspedes do Arkerio"
@@ -7328,7 +7329,7 @@
           "name": "O Farol",
           "pages": {
             "The Beacon Text": {
-              "name": "O Farol Text",
+              "name": "Texto de O Farol",
               "text": "<div class=\"symbaroum-mod\">\n<h5>O FAROL</h5>\n<p class=\"pblock\">As vidas de nove goblins e três ogros foram perdidas na construção da miraculosa torre de luz que paira cerca de noventa metros acima da Praça do Sapo. O fogo que arde em seu topo é alimentado com óleo a partir de uma plataforma quinze metros abaixo, que serve como posto de observação para os Patrulheiros da Rainha. Os soldados destacados ali também têm a tarefa de impedir que as muitas pessoas arruinadas e sem esperança da cidade usem a plataforma como um portal para o além pacífico. <br /><br />A torre maciça tornou-se um símbolo da luta ambriana para domar os ermos, e os guardiões de Davokar parecem tê-la declarado como seu principal alvo. Apenas no último ano, três tentativas foram feitas para incendiá-la até as fundações. Em todos os casos, os ataques foram realizados por cidadãos inescrupulosos à beira da ruína, subornados para agir. Quem os pagou é desconhecido, mas segundo os rumores a resposta é óbvia: o ouro veio das bruxas ou dos elfos, alternativamente da aliança que odeia os humanos e da qual acredita-se que ambos façam parte.</p>\n<br /><br /></div>"
             }
           }
@@ -7337,7 +7338,7 @@
           "name": "O Legado da Rainha",
           "pages": {
             "The Queen’s Legation Text": {
-              "name": "O Legado da Rainha Text",
+              "name": "Texto de O Legado da Rainha",
               "text": "<div class=\"symbaroum-mod\">\n<h5>O LEGADO DA RAINHA</h5>\n<p class=\"pblock\">TA filha mais velha da Casa Argona, uma viúva meticulosa e educada chamada Suria, age como o legado oficial da Rainha em Forte do Cardo. O legado recém-construído está localizado perto da cerca de Casa Noturna e abriga uma equipe de sete, com a missão de falar pela administração de Korinthia e enviar reportes diários de assuntos maiores e menores para Yndaros. <br /><br />SO pai de Suria, o impressionante Conde Alkantor Argona, tem gastado cada vez mais tempo no andar superior da construção, um andar que ele usa como se fosse dele. Rumores persistentes alegam que ele governa sua filha com punho de ferro, e que ela, por sua vez, está completamente ocupada tentando acobertar os gostos de seu pai em todas as formas de prazeres mundanos. Fofocas à parte, não há dúvidas de que o Conde se encontra frequentemente com o Prefeito e a razão para isso é amplamente sabida: ambos têm muito a perder com o crescimento contínuo de Brejonegro, especialmente porque a situação favorece a insubmissa Casa Erebus e seu carismático líder, o Barão Grafoldo.</p>\n<br /><br /></div>"
             }
           }
@@ -7346,7 +7347,7 @@
           "name": "Ordo Magica",
           "pages": {
             "Ordo Magica Text": {
-              "name": "Ordo Magica Text",
+              "name": "Texto de Ordo Magica",
               "text": "<div class=\"symbaroum-mod\">\n<h5>ORDO MAGICA</h5>\n<p class=\"pblock\">A torre da Ordo Magica é, excetuando o Farol, a construção mais alta de Forte do Cardo. Chegando a sete andares de altura, ela se separa do terreno ao redor com um muro de pedra, um terreno onde os noviços do Mestre Cornelio cultivam e estudam várias ervas colhidas da floresta. Só no ano passado eles descobriram o fato de que óleo inflamável pode ser extraído da semente-damdra; algo que resultou em problemáticas escavações em larga escala no território do linnorme Skaramagos. <br /><br />Oficialmente é o Mestre de Capítulo, Cornelio, que gere os assuntos locais. Mas sempre existem outros mestres na torre e às vezes as discussões entre eles ecoam além dos telhados. O maior conflito parece ser entre o Mestre de Capítulo e dois outros mestres permanentes em Forte do Cardo, Goncai e Eufrynd. O fato de que os últimos têm sido vistos abraçados em uma saleta nos Salões de Symbaroum dificilmente é uma vantagem para Cornelio. De fato, pode eventualmente levar a uma mudança da atual cautela do Capítulo para estratégias mais audaciosas na exploração.</p>\n<br /><br /></div>"
             }
           }
@@ -7361,11 +7362,11 @@
           "name": "Loja de Novidades do Faraldo"
         },
         "The Fortune Hunter's District": {
-          "name": "The Fortune Hunter's District",
+          "name": "Distrito dos Caçadores de Fortuna",
           "pages": {
             "The Fortune Hunter's District Text": {
-              "name": "The Fortune Hunter's District Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>THE FORTUNE HUNTERS' DISTRICT</h5>\n<p class=\"pblock\">A long list of famous and successful fortune hunters live in the district east of Thistle Street, south of Lasifor’s Road, in peace and quiet between expeditions. <br /><br />Many have also retired and devote themselves to helping younger talents, for a substantial provision of course. <br /><br />He who is offered a place under Iasogoi Brigo’s or Lysindra Goldengrasp’s wings also gets access to all their contacts and, in some cases, part of their fortunes. <br /><br />And even if all help comes at the expense of required return in the form of future shares, this can be exactly what a group of newly baked explorers need to fulfill their dreams.</p>\n</div>"
+              "name": "Texto do Distrito dos Caçadores de Fortuna",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>DISTRITO DOS CAÇADORES DE FORTUNA</h5>\n<p class=\"pblock\">Uma longa lista de famosos e bem-sucedidos caçadores de fortuna vive no distrito a leste da Rua Thistle, ao sul da Estrada de Lasifor, em paz e tranquilidade entre expedições. <br /><br />Muitos também se aposentaram e se dedicam a ajudar jovens talentos, mediante uma remuneração substancial, é claro. <br /><br />Aquele que recebe uma oferta de um lugar sob a tutela de Iasogoi Brigo ou Lysindra Goldengrasp também tem acesso a todos os seus contatos e, em alguns casos, a parte de suas fortunas. <br /><br />E mesmo que toda a ajuda venha à custa de uma contrapartida exigida na forma de ações futuras, isso pode ser exatamente o que um grupo de exploradores recém-formados precisa para realizar seus sonhos.</p>\n</div>"
             }
           }
         },
@@ -7373,11 +7374,11 @@
           "name": "A Praça Leste"
         },
         "Library": {
-          "name": "Library",
+          "name": "Biblioteca",
           "pages": {
             "Library Text": {
-              "name": "Library Text",
-              "text": "<div class=\"symbaroum-mod\">\n<h5>LIBRARY (SECOND FLOOR)</h5>\n<p class=\"pblock\">Larkan (<a class=\"entity-link\" draggable=\"false\" data-pack=\"symbaroum-starterset.symbaroum-starterset-journals-journal\" data-entity=\"JournalEntry\" data-id=\"crC7dnMMcWkrMCKE\" data-anchor=\"Larkan\">Larkan</a>) and (pc) gang members are here. Larkan is looking for useful things in the library, the rest are pumping themselves up for yet another push towards the top of the tower. <br /><br />Most of the library rotted away long ago, but some treasures can still be found here (1d4 finds). Use the rules for Excavation on <a class=\"entity-link\" draggable=\"false\" data-pack=\"symbaroum-starterset.symbaroum-starterset-journals-journal\" data-entity=\"JournalEntry\" data-id=\"esGj0sNspkZUWcIq\" data-anchor=\"THE EXCAVATION\">THE EXCAVATION</a>. <br /><br />In addition, there is one unique item hidden here, and any player character looking for treasure will find it. It is a pearl the size of a child’s fist, holding memories from various, long since dead, Ashurani family members. Someone daring to make sense of these memories must succeed with a <em>Resolute</em> test. Each failure inflicts 1d6 damage (ignores <em>Armor</em>). <br /><br />The pearl is worth 100 thaler to an arts dealer and 500 thaler to an historian. The memories, if anyone succeeds in getting to them, are the following:</p>\n<ul>\n<li>Someone stitches together a multi-headed monster from parts of other monsters. Lightning strikes the tower of Lafarda and deep underground many voices scream in pain inside a coffin of lead. The coffin bursts open and a stitched together monstrosity appears, roaring in a multitude of voices.</li>\n</ul>\n<p class=\"pblock\"><strong>Analyze with Medicus and a successful Cunning:</strong> whoever spawned this memory must have been able to create living monstrosities from cadavers!</p>\n<ul>\n<li>Someone steps onto a podium upon which a throne covered in thorns stands, and then takes a seat. Someone yells <em style=\"color:hsl(19, 70%, 37%)\">“The Emperor is dead; all hail the Empress of Symbaroum.”</em> Later, someone stands by a dead woman, draped in imperial velvet. In the background a voice yells<em style=\"color:hsl(19, 70%, 37%)\"> “The Empress is dead, long live the Emperor.”</em></li>\n</ul>\n<p class=\"pblock\"><strong>Analyze with Loremaster and a successful Cunning test:</strong> This must be a memory of the actual Throne of Thorns, fabled high seat of the Symbarian emperors and the source of their power.</p>\n<ul>\n<li>Someone stands at the top of Lafarda’s Tower, watching a storm approach. The person pushes a lever, attached to the copper rod protruding there. The person then descends the stairs, down into the basement well as if there was no water in it and continues ever deeper. <br /><br />There the person starts stitching body parts to itself, monstrous as well as human. The person then injects itself with some sort of dark liquid and burns a tome during the work. Finally the person climbs with new limbs and all, into a lead coffin and closes the lid.</li>\n</ul>\n</div>"
+              "name": "Texto de Biblioteca",
+              "text": "<div class=\"symbaroum-mod\">\n<h5>BIBLIOTECA (SEGUNDO ANDAR)</h5>\n<p class=\"pblock\">Larkan (<a class=\"entity-link\" draggable=\"false\" data-pack=\"symbaroum-starterset.symbaroum-starterset-journals-journal\" data-entity=\"JournalEntry\" data-id=\"crC7dnMMcWkrMCKE\" data-anchor=\"Larkan\">Larkan</a>) e os membros da gangue (PJ) estão aqui. Larkan está procurando coisas úteis na biblioteca, o resto está se preparando para mais uma investida rumo ao topo da torre. <br /><br />Grande parte da biblioteca se deteriorou há muito tempo, mas alguns tesouros ainda podem ser encontrados aqui (1d4 achados). Use as regras de Escavação em <a class=\"entity-link\" draggable=\"false\" data-pack=\"symbaroum-starterset.symbaroum-starterset-journals-journal\" data-entity=\"JournalEntry\" data-id=\"esGj0sNspkZUWcIq\" data-anchor=\"THE EXCAVATION\">A ESCAVAÇÃO</a>. <br /><br />Além disso, há um item único escondido aqui, e qualquer personagem jogador em busca de tesouros o encontrará. Trata-se de uma pérola do tamanho do punho de uma criança, contendo memórias de vários membros da família Ashurani, já falecidos há muito tempo. Quem ousar decifrar essas memórias deverá ser bem-sucedido em um teste de <em>Resoluto</em>. Cada falha causa 1d6 de dano (ignora <em>Armadura</em>). <br /><br />A pérola vale 100 táleres para um negociante de arte e 500 táleres para um historiador. As memórias, caso alguém consiga acessá-las, são as seguintes:</p>\n<ul>\n<li>Alguém costura um monstro de múltiplas cabeças a partir de partes de outros monstros. Um raio atinge a torre de Lafarda e, nas profundezas subterrâneas, muitas vozes gritam de dor dentro de um caixão de chumbo. O caixão se abre e uma monstruosidade costurada surge, rugindo em uma multidão de vozes.</li>\n</ul>\n<p class=\"pblock\"><strong>Analise com Medicos e uma Astúcia bem-sucedida:</strong> quem quer que tenha gerado essa memória devia ser capaz de criar monstros vivos a partir de cadáveres!</p>\n<ul>\n<li>Alguém sobe a um pódio onde se encontra um trono coberto de espinhos e, em seguida, senta-se. Alguém grita <em style=\"color:hsl(19, 70%, 37%)\">“O Imperador está morto; todos saudam a Imperatriz de Symbaroum.”</em> Mais tarde, alguém aparece ao lado de uma mulher morta, envolta em veludo imperial. Ao fundo, uma voz grita:<em style=\"color:hsl(19, 70%, 37%)\"> “A Imperatriz está morta, viva o Imperador!”</em></li>\n</ul>\n<p class=\"pblock\"><strong>Analise com o Mestre do Conhecimento e obtenha sucesso em um teste de Astúcia:</strong> Isso deve ser uma lembrança do próprio Trono de Espinhos, lendário assento supremo dos imperadores de Symbaria e fonte de seu poder.</p>\n<ul>\n<li>Alguém está no topo da Torre de Lafarda, observando uma tempestade se aproximar. A pessoa aciona uma alavanca, presa à haste de cobre que ali se projeta. Em seguida, desce as escadas, até o poço do porão, como se não houvesse água ali, e continua descendo cada vez mais fundo. <br /><br />Ali, a pessoa começa a costurar partes do corpo em si mesma, tanto monstruosas quanto humanas. Em seguida, injeta em si mesma algum tipo de líquido escuro e queima um tomo durante o processo. Finalmente, com os novos membros e tudo, entra em um caixão de chumbo e fecha a tampa.</li>\n</ul>\n</div>"
             }
           }
         },
@@ -7391,7 +7392,7 @@
           "name": "A Ruína",
           "pages": {
             "The Ruin Text": {
-              "name": "A Ruína Text",
+              "name": "Texto de A Ruína",
               "text": "<div class=\"symbaroum-mod\">\n<h5>A RUÍNA</h5>\n<p>Existem muitas casas de hóspedes e estalagens de qualidade variada em Forte do Cardo. Os representantes da Rainha e das casas nobres visitam alegremente a Corte e Harpa na Praça Antiga ou a Concha Alada perto do portão leste; exploradores frequentemente ficam no Descanso da Costureira perto da torre da Ordo Magica, enquanto visitantes menos prósperos tendem a ser atraídos para estabelecimentos nas proximidades do portão oeste — A Bruxa e Familar, Casa de Hóspedes de Arkerio ou o barato e cheio de pulgas Jardim de Rosas. Mas para caçadores de tesouros, não existe lugar como a Ruína. <br /><br />A casa de hóspedes é tão velha quanto a cidade e tem muitos frequentadores distintos. Por exemplo, dizem que Iasogoi Brigo se hospedou na Ruína antes de sair na expedição que o alçou aos céus, e o mesmo é dito sobre Lysindra Aperto Dourado. Se alguém acreditar nas alegações feitas pelo proprietário, Mestre Pergalo, esses dois nomes são o início de uma longa lista de caçadores de fortuna de sucesso que tiveram suas expedições abençoadas ao passar a noite sob seu telhado. Além disso, muitos são tentados pela sopa da tarde da taverna, cozida sobre uma lareira aberta em um caldeirão gigante recuperado perto de onde o esqueleto da Praça do Sapo foi desenterrado. Ninguém foi capaz de decifrar as inscrições arcaicas que o cobrem, mas o que quer que digam, ninguém duvida que o caldeirão seja perfeito para fazer sopa.</p>\n</div>"
             }
           }
