@@ -833,8 +833,13 @@
           }
         },
         "Ranger Captain": {
-          "name": "Ranger Captain",
-          "tokenName": "Ranger Captain",
+          "name": "Capitão Patrulheiro",
+          "tokenName": "Capitão Patrulheiro",
+          "race": "Humano",
+          "shadow": "Prata com faixas de ouro",
+          "appearance": "<p>Os que se aventuram na Davokar sem possuir a Licença de Explorador apropriada precisam ter cuidado. Os Patrulheiros da Rainha têm a tarefa de patrulhar os limites da floresta e eventualmente fazem desvios para dentro da mata. Tais desvios são feitos mais frequentemente por um esquadrão ou pelotão de Patrulheiros que recebeu a tarefa de investigar a veracidade de certos rumores ou de rastrear uma besta particular que atacou Forte do Cardo, Kastor ou algum outro assentamento de fronteira. Mas independentemente do propósito de sua jornada, eles viajam com o dever permanente de checar todos que encontram na Davokar, qualquer um que não tenha sua licença em ordem será aprisionado, ou morto, se resistir.</p>",
+          "background": "<p>Os Patrulheiros são selecionados de dentro do exército regular; são resistentes, experientes em combate e talentosos no que tange a se mover silenciosamente pelos ermos. Alguns Patrulheiros são especialistas em várias áreas (saber de bestas, lendas ou lutar contra certos tipos de inimigos) e algumas vezes viajam em companhia de especialistas como mestres construtores, cartógrafos ou magos de guerra da Ordo Magica. Um esquadrão de Patrulheiros, liderado por algum capitão veterano, é realmente uma força a se temer; algo que muitos caçadores de recompensa sem licença já experimentaram...</p>",
+          "tactics": "Um Patrulheiro experiente luta na linha de frente, dando o exemplo a ser seguido.",
           "items": {
             "Leader": {
               "name": "Líder",
@@ -862,14 +867,16 @@
               "description": "<P> Guerreiros bárbaros que conseguiram seu lugar na guarda de um chefe de clã rico às vezes podem ser vistos vestindo uma couraça de seda envernizada, uma armadura que, apesar de uma aparente leveza, protege como uma placa peitoral. </P> <P>De acordo com a lenda, o segredo da seda envernizada foi dado à humanidade pelos elfos, em um tempo quando o Pacto de Ferro ainda era forte e humanos batalhavam contra a escuridão parasítica de Symbaroum.</P>"
             },
             "Fencing Sword": {
-              "name": "Fencing Sword"
+              "name": "Espada de Duelo",
+              "description": "<p>Em Yndaros, a espada de duelo ambriana é considerada o ápice do estilo, um instrumento com precisão superior feito de aço forte e flexível.</p> <p>Ela frequentemente é combinada com a favorita do duelista, a adaga de aparar, que dá ao combatente levemente armadurado uma defesa mais forte em combate.</p>"
             },
             "Sword": {
               "name": "Espada",
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Longbow": {
-              "name": "Longbow"
+              "name": "Arco Longo",
+              "description": "<p>O arco longo é uma arma confiável e comprovada no exército ambriano, e desde a Grande Guerra costuma ser carregada por fazendeiros que formam a espinha dorsal das companhias de arqueiros do reino.</p>"
             },
             "Waybread": {
               "name": "Pão de viagem",
@@ -882,7 +889,7 @@
               "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Map of the Area": {
-              "name": "Map of the Area"
+              "name": "Mapa da área"
             }
           }
         },
@@ -918,8 +925,13 @@
           }
         },
         "Robber Chief": {
-          "name": "Robber Chief",
-          "tokenName": "Robber Chief",
+          "name": "Ladrão Chefe",
+          "tokenName": "Ladrão Chefe",
+          "race": "Humano",
+          "shadow": "Verde com pontos de cobre",
+          "appearance": "<p>Conseguir um trabalho em Ambria não é fácil, conseguir um trabalho bem remunerado é ainda mais difícil; esses fatos são a principal razão de tantos dependerem de furtos e roubos. Qualquer lugar onde valores sejam transportados, salteadores podem aparecer; eles atacam ao longo dos rios, em estradas para as terras baixas e em passes montanhosos ou em florestas.</p>",
+          "background": "<p>Dois dos mais temidos bandos de salteadores tem bases nos vales das Titãs. Um é liderado pela notória Bruxa do Gelo, a filha do último Chefe da Velha Kadizar, o outro por um ogro conhecido como o Monte que comanda uma horda brutal de goblins e trolls enfurecidos. Outros exemplos são os saqueadores do assentamento livre de Entekka, que saqueiam principalmente caravanas viajando entre Forte do Cardo e Karvosti, e o notoriamente cruel Capitão Bartolo, cujos piratas atacam comboios no Lago Volgoma e nos rios Eanor e Eblis.</p>",
+          "tactics": "O líder luta entre seus companheiros salteadores; qualquer coisa diferente não seria tolerada. Contudo, ele faz uso de Dominação para guiar inimigos para outros alvos.",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -955,7 +967,8 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Hat": {
-              "name": "Hat"
+              "name": "Chapéu",
+              "cost": "2-4 ortegas"
             }
           }
         },
@@ -1348,8 +1361,13 @@
           }
         },
         "Blight Born Elk": {
-          "name": "Blight Born Elk",
-          "tokenName": "Blight Born Elk",
+          "name": "Alce Nascido da Mácula",
+          "tokenName": "Alce Nascido da Mácula",
+          "race": "Abominação (outrora besta)",
+          "shadow": "Preto amarronzado, como o couro do cadáver de um animal em decomposição",
+          "appearance": "<p>Alguém que tenha folheado o livro Hordas da Noite Eterna, escrito e ilustrado pelo Manto Negro Almagast, viu vários exemplos diferentes de estigmas físicos: desidratação extrema; pústulas vazando; protuberâncias parecidas com chifres e rabos; mucosas sangrando; membros distorcidos ou atrofiados; pele enegrecida ou albina; crescimento de pelos em humanos e perda de pelos em animais. E no tocante à personalidade e ao temperamento, a transformação é absoluta; tudo o que permanece é destrutivo: inveja, raiva, fome, arrogância e ódio.</p>",
+          "background": "<p>Animais e bestas nascidas da mácula vagam sozinhas nos ermos, matando tudo o que entra em seu caminho, crescendo e ficando mais fortes e espalhando a corrupção através de mordidas e arranhões.</p>",
+          "tactics": "Nenhuma. O cheiro de corpos vivos leva a besta maculada a atacar, o focinho espumando com corrupção",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
@@ -1388,10 +1406,11 @@
               "masterDescription": "<p>O personagem mede quase 3 metros de altura, pesa cerca de meia tonelada e esmaga criaturas menores enquanto as armas dos inimigos têm bastante dificuldade em penetrar sua pele que mais parece pedra. É muito fácil acertar uma criatura deste tamanho, mas igualmente difícil de feri-la seriamente.</p> <p>A Defesa do personagem é baseada em [Rápido –4] e ele pode utilizar apenas armaduras leves, que devem ser feitas sob encomenda e custam o quádruplo do preço normal.</p> <p>Por outro lado, o personagem naturalmente ignora 1D8 de dano de todo golpe sofrido, em adição a qualquer armadura que vestir.</p> <p>Finalmente, ele pode causar 1D8 de dano extra com um ataque corpo a corpo por turno.</p>"
             },
             "Elk Hide": {
-              "name": "Elk Hide"
+              "name": "Couro de Alce"
             },
             "Antlers": {
-              "name": "Antlers"
+              "name": "Galhadas",
+              "description": "<p>+1D4 em corrupção temporária</p>"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -1400,8 +1419,13 @@
           }
         },
         "Blight Born Human": {
-          "name": "Blight Born Human",
-          "tokenName": "Blight Born Human",
+          "name": "Humano Nascido da Mácula",
+          "tokenName": "Humano Nascido da Mácula",
+          "race": "Abominação (Uma vez Humano)",
+          "shadow": "Cobre totalmente corroído",
+          "appearance": "<p>Alguém que tenha folheado o livro Hordas da Noite Eterna, escrito e ilustrado pelo Manto Negro Almagast, viu vários exemplos diferentes de estigmas físicos: desidratação extrema; pústulas vazando; protuberâncias parecidas com chifres e rabos; mucosas sangrando; membros distorcidos ou atrofiados; pele enegrecida ou albina; crescimento de pelos em humanos e perda de pelos em animais. E no tocante à personalidade e ao temperamento, a transformação é absoluta; tudo o que permanece é destrutivo: inveja, raiva, fome, arrogância e ódio.</p>",
+          "background": "<p>Não se sabe exatamente quando acontece, mas em algum ponto, parece que pessoas ou criaturas afligidas pela corrupção se perdem para a doença. Quando chega a este ponto, a aparência física do indivíduo começa a se transformar.</p> <p>Abominações humanas parecem manter parte de sua capacidade intelectual e podem viver em áreas populosas se forem cuidadosas. Elas se mantêm escondidas, usando pessoas infectadas como guardas e mensageiros, e podem se cercar com grupos de cultistas que obedecem a cada comando. Algumas vezes, como no caso notório da baronesa viúva da Casa Elsbet, pode demorar anos até a fonte da corrupção ser revelada.</p>",
+          "tactics": "A abominação se aproxima de sua vítima e ataca com uma fome passional.",
           "items": {
             "Berserker": {
               "name": "Amoque",
@@ -1448,8 +1472,13 @@
           }
         },
         "Primal Blight Beast": {
-          "name": "Primal Blight Beast",
-          "tokenName": "Primal Blight Beast",
+          "name": "Besta Máculada Primitiva",
+          "tokenName": "Besta Máculada Primitiva",
+          "race": "Abominação",
+          "shadow": " O preto mais profundo, uma mancha que absorve luz no céu da meia noite",
+          "appearance": "<p>Por mais longe que a corrupção tenha ido, o nascido da mácula ainda é reconhecível pelo que era antes; humano, ogro, troll ou pesadelino. Mas também existem alguns relatos escassos descrevendo algo diferente; algo pior e mais sobrenatural; criaturas tão alienígenas e tão odiosas que parecem incorporar o oposto exato da natureza. É especulado se esses horrores primitivos realmente existem e, se esse for o caso, se eles poderiam ser incorporações da própria corrupção; personificações da fome, do ódio e da ira.</p>",
+          "background": "<p>Entre os bárbaros existe uma longa lista de lendas sobre as Bestas Maculadas Primitivas e suas origens. A maioria delas descreve as abominações como nascidas da medula de algo chamado a Serpente do Mundo, uma besta mística que, de acordo com alguns contos, criou Symbaroum. Outros dizem que ela foi morta pelo primeiro imperador de Symbaroum ou que ainda existe em algum lugar sob o trono de Symbar. Uma versão completamente diferente das origens dos horrores primitivos é que eles aparecem espontaneamente em lugares onde a corrupção é a mais forte; nas ruínas abrigando os segredos mais escuros, onde ainda existem poças de magia ácida remanescentes das práticas malignas de Symbaroum. Qualquer que seja a verdade, tanto ambrianos quanto bárbaros podem se considerar sortudos já que os horrores primitivos preferem as partes mais profundas e escuras da floresta em vez das ensolaradas terras baixas.</p>",
+          "tactics": "Nenhuma. Seu ódio por tudo o que é vivo a leva a agir sem preocupações táticas — tudo o que importa é a destruição.",
           "items": {
             "Berserker": {
               "name": "Amoque",
@@ -1473,7 +1502,11 @@
               "masterDescription": "<p>Ao atacar os pontos fracos de um oponente com uma precisão impecável — como na garganta e joelhos — os golpes desarmados do Mestre são verdadeiramente devastadores. Cada ataque que acerta causa 1D6 de dano extra.</p>"
             },
             "Acidic Blood": {
-              "name": "Acidic Blood"
+              "name": "Sangue Ácido",
+              "description": "<p>O sangue da criatura é corrosivo e espirra quando a criatura é atingida por ataques. Quem quer que atinja a criatura em combate corporal e consiga causar dano a ela, deve fazer um Teste de Defesa ou ser atingido pelo sangue ácido.</p> <p>Para remover o ácido do corpo ou da armadura é necessário que alguém gaste uma Ação e obtenha sucesso em um Teste de Astuto (para tirar com água, terra ou algo similar).</p>",
+              "noviceDescription": "<p>O ataque ácido é fraco e causa 3 pontos de dano por 3 turnos.</p>",
+              "adeptDescription": "<p>O ataque ácido é moderadamente forte e causa 4 pontos de dano por 4 turnos.</p>",
+              "masterDescription": "<p>O ataque ácido é forte e causa 5 pontos de dano por 5 turnos.</p>"
             },
             "Armored": {
               "name": "Armadurado",
@@ -1521,7 +1554,8 @@
               "name": "Garras"
             },
             "Blight Hardened Flesh": {
-              "name": "Blight Hardened Flesh"
+              "name": "Carne Maculada Endurecida",
+              "description": "<p>Regenera 4 de vitalidade por turno</p>"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -2600,6 +2634,10 @@
         },
         "Jakaar (as many as the PCs)": {
           "name": "Jakaar (tanto quanto os PJs)",
+          "race": "Besta",
+          "shadow": "Verde como grama da primavera",
+          "appearance": "<p>O jakaar é um animal canino de matilha, tão propenso a capturar sua própria presa quanto comer cadáveres deixados por outros. A matilha seguindo Keri-Las aproveita a chance de atacar junto com a loba faminta.</p>",
+          "tactics": "Os jakaars seguem a loba faminta e atacam um oponente cada (ou os desbravadores se os PJs atacarem a loba faminta).",
           "tokenName": "Jakaar",
           "items": {
             "Armored": {
@@ -3572,7 +3610,8 @@
         },
         "Moderate  Purple Sap": {
           "name": "Seiva Púrpura Moderado",
-          "description": "<p>A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma flor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário. <br /><br /><strong></p><p>Moderado: <strong>Quando feito por um adepto, o elixir remove imediatamente 1D6 de corrupção temporária.</p>"
+          "description": "<p>A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma flor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário. <br /><br /><strong></p><p>Moderado: <strong>Quando feito por um adepto, o elixir remove imediatamente 1D6 de corrupção temporária.</p>",
+          "cost": "8 táleres"
         },
         "Moderate Transforming Draught": {
           "name": "Infusão de Transformação Moderado",
@@ -3891,28 +3930,36 @@
           "power0Description": "<p>Essa trança é feita de três tipos de cabelo ou pelo emantém a morte afastada, concedendo +1 de bônusa Vigoroso durante Testes de morte. Personagens doMestre com a trança podem fazer Testes de morte,com o +1 de bônus.</p>"
         },
         "Absolute Memory": {
-          "name": "Absolute Memory"
+          "name": "Memória Absoluta",
+          "description": "<p>O personagem deriva de uma cultura que, por tradição, não usa a escrita, mas que desenvolveu técnicas de memória para preservar e transmitir conhecimentos vitais. Ele ou ela se lembra de tudo visto ou ouvido, o que significa que o jogador pode perguntar ao Mestre de Jogo sobre os detalhes percebidos pelo personagem durante suas aventuras passadas. O Mestre de Jogo deve responder o mais completamente possível.</p>"
         },
         "Addiction": {
-          "name": "Addiction"
+          "name": "Vício",
+          "description": "<p>O personagem desenvolveu um vício e deve ter uma dose de sua droga a cada dia para não sofrer de sintomas de abstinência. A droga (vinho, rapé dos sonhos, raiz tola ou similar) custa um xelim por dose. Um alquimista pode criar a droga para si ou para um amigo pela metade desse preço. Os sintomas de abstinência impõem –1 de penalidade em todos os Testes e pioram em 1 a cada dia, até –5. A cada dia sem a droga, o personagem também deve passar por um Teste de [Resoluto –a penalidade da abstinência]. Se falhar, abandonará tudo e começará a procurar por sua dose diária.</p>"
         },
         "Arch Enemy": {
-          "name": "Arch Enemy"
+          "name": "Arqui-Inimigo",
+          "description": "<p>O personagem tem, por ações ou nome, um arqui-inimigo. Este indivíduo dedicou sua existência a destruir — e, no final, tirar — a vida do personagem. Pelo menos uma vez durante cada aventura, a influência do arqui-inimigo será mostrada. Ele ou ela age principalmente através dos outros; contratar bandidos ou espalhar mentiras na esperança de que outros tornem a vida do personagem mais difícil. Exatamente quem é este arqui-inimigo, porque ele ou ela odeia o personagem e quais recursos estão à mão, cabe ao jogador e ao Mestre de Jogo decidirem. No entanto, não pode ser alguém que seja facilmente evitado ou impedido de expressar seu ódio.</p>"
         },
         "Archivist": {
-          "name": "Archivist"
+          "name": "Arquivista",
+          "description": "<p>O personagem é treinado para organizar e procurar informações. Ele recebe +1 de bônus ao pesquisar em arquivos e bibliotecas.</p> <p>Arquivista pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Augur": {
-          "name": "Augur"
+          "name": "Áugure",
+          "description": "<p>O personagem sempre viu sinais que outros perderam, e recebe +1 de bônus em Testes para rituais lidando com o destino ou informações escondidas: Leitura da Sorte, Fumaça Sagrada e Oráculo.</p> <p>Áugure pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Beast Tongue": {
-          "name": "Beast Tongue"
+          "name": "Língua das Bestas",
+          "description": "<p>O personagem pode falar com criaturas da categoria Bestas. As bestas têm suas limitações, mas podem responder a perguntas sobre quais criaturas estão dentro ou viajaram através de uma área, e estimar seus números (um, dois ou muitos). As bestas não realizam nenhum serviço; eles falam com o personagem como se fossem iguais.</p>"
         },
         "Bestial": {
-          "name": "Bestial"
+          "name": "Bestial",
+          "description": "<p>O personagem tem uma aparência bestial, na forma de um (ou alguns) traços — olhos de jakaar, presas de gigavali, escamas de linnorme nos braços e no pescoço, ou algo mais que desperta medo e desgosto. Esconder as características requer que o personagem passe no Teste de [Discreto←Vigilante]. Se o Teste falhar, o personagem terá uma segunda chance de falhar em todos os Testes de Persuasivo relativos a pedidos de ajuda ou proteção. No entanto, o exterior bestial concede uma segunda chance para passar em todos os Testes de Persuasivo destinados a ameaçar ou intimidar. Assim que puderem, aqueles sujeitos à intimidação do personagem — seja ele bem-sucedido ou não — irão denunciá-lo à Guarda da Cidade (ou autoridades similares) como uma suspeita de abominação.</p>"
         },
         "Blood Ties": {
-          "name": "Blood Ties"
+          "name": "Laço de Sangue",
+          "description": "<p>O personagem estabeleceu um laço de sangue místico com uma criatura de uma raça diferente. Por causa deste elo, ele ou ela pode escolher investir Experiência para adquirir um traço pertencente à raça do amigo de sangue. É mais provável que o Laço de Sangue do personagem esteja ligado a outro Ser Cultural, mas animais e outras criaturas são uma possibilidade. Provavelmente, a forma com que o personagem entrou para o relacionamento é interessante, e além disso também pode dizer bastante sobre sua história de vida, sua moral e suas visões de mundo.</p>"
         },
         "Bloodhound": {
           "name": "Bloodhound"
@@ -4097,7 +4144,9 @@
           "cost": "2 táleres"
         },
         "Arrow - Armor-piercing Head": {
-          "name": "Arrow - Armor-piercing Head"
+          "name": "Flecha - Ponta Perfurante de Armadura",
+          "description": "<p>Este projétil tem uma ponta que facilita perfurar armaduras. Ele tem a qualidade Impacto Profundo contra alvos com mais de 1 em valor de Armadura.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Flame": {
           "name": "Arrow - Flame"
@@ -4168,16 +4217,21 @@
           "name": "Cinnamon, one box"
         },
         "Clay Pipe": {
-          "name": "Clay Pipe"
+          "name": "Cachimbo de Argila",
+          "cost": "3 xelins"
         },
         "Climbing Gear": {
-          "name": "Climbing Gear"
+          "name": "Equipamento de Escalada",
+          "description": "<p>Um a coleção de cordas, fivelas, ganchos e ferramentas usadas para escalar em terrenos difíceis. O equipamento de escalada concede +1 de bônus em todos os Testes de Sucesso para escalada.</p>",
+          "cost": "10 táleres"
         },
         "Clove, one box": {
-          "name": "Clove, one box"
+          "name": "Cravo, uma caixa",
+          "cost": "7 ortegas"
         },
         "Copper, one bar": {
-          "name": "Copper, one bar"
+          "name": "Cobre, uma barra",
+          "cost": "5 xelins"
         },
         "Cotton Fabric, one roll": {
           "name": "Cotton Fabric, one roll"
@@ -7417,7 +7471,7 @@
           }
         },
         "The Abomitorium": {
-          "name": "O Abomitorium"
+          "name": "O Abomitório"
         },
         "Arkerio’s Guest House": {
           "name": "Casa de Hóspedes do Arkerio"
