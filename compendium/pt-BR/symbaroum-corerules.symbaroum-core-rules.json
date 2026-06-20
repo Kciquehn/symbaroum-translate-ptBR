@@ -1,5 +1,5 @@
 {
-  "label": "Symbaroum RPG - Regras Básicas - TESTESTES",
+  "label": "Symbaroum RPG - Regras Básicas",
 
   "mapping": {
     "actors": {
@@ -68,7 +68,7 @@
   "entries": {
     "Symbaroum Core Rules": {
       "name": "Symbaroum Regras Básicas",
-      "description": "<p><strong>Início das Regras Básicas de Symbaroum RPG</strong><br />Isso importará todos os atores, itens, tabelas e índices para o seu mundo e os organizará em pastas.</p><p>Públicado por: <strong>Free League Publishing</strong> <a href=\"https://frialigan.se/\">Free League</a><br />Foundry Visualisation by <strong>Paul Watson</strong><br />Agradecemos a ajuda, o apoio e o desenvolvimento do sistema a:<br /><strong>Peter Norell (Bithir) and Khaali</strong> <br /><br /><span style=\"font-size:smaller\">Nenhuma parte desta publicação pode ser reproduzida, distribuída, armazenada em um sistema de recuperação ou transmitida de qualquer forma ou por qualquer meio, seja eletrônico, mecânico, por fotocópia, gravação ou outros, sem a prévia autorização dos editores.</span></p>",
+      "description": "<p><strong>Início das Regras Básicas de Symbaroum RPG</strong><br />Isso importará todos os atores, itens, tabelas e índices para o seu mundo e os organizará em pastas.</p><p>Públicado por: <strong>Free League Publishing</strong> <a href=\"https://frialigan.se/\">Free League</a><br />Foundry Visualisation by <strong>Paul Watson</strong><br />Agradecemos a ajuda, o apoio e o desenvolvimento do sistema a:<br /><strong>Peter Norell (Bithir) and Khaali</strong><br />Traduzido por: <strong>Erick Henrique (Kciquehn) e Alexandre Fonseca (Arcani97)</strong> <br /><br /><span style=\"font-size:smaller\">Nenhuma parte desta publicação pode ser reproduzida, distribuída, armazenada em um sistema de recuperação ou transmitida de qualquer forma ou por qualquer meio, seja eletrônico, mecânico, por fotocópia, gravação ou outros, sem a prévia autorização dos editores.</span></p>",
       "scenes": {
         "02 - Yndaros": {
           "name": "02 - Yndaros",
@@ -179,7 +179,7 @@
             "6. The Salons of  Symbaroum": "6. Os Salões de Symbaroum",
             "7. The Court and Harp": "7. A Corte e a Harpa",
             "8. The Winged Ladle": "8. A Concha Alada",
-            "9.\tThe Witch and Familiar": "9. A Bruxa e Familiar",
+            "9. The Witch and Familiar": "9. A Bruxa e Familiar",
             "10. Arkerio’s Guest House": "10. Casa de Hóspedes do Arkerio",
             "11. The Rose Garden": "11. O Jardim da Rosa",
             "12. The Ruin": "12. A Ruína",
@@ -345,7 +345,7 @@
           "name": "Elfo do Fim do Verão",
           "tokenName": "Elfo do Fim do Verão",
           "race": "Elfo",
-          "Shadow": "Verde Profundo",
+          "shadow": "Verde Profundo",
           "appearance": "<p>Aqueles que despertam de seu primeiro sono e entram na fase de vida de Elfo do Verão ainda são um grupo curioso, mas nem de perto tão cauteloso. Elfinos são conhecidos por serem raivosos, agressivos e impulsivos, beirando a tolice. Com até um metro e setenta, ágeis como pesadelinos e com cerca de 150 anos para treinar, eles se desenvolvem em guerreiros talentosos, qualificados para vencer qualquer lutador humano.</p>",
           "background": "<p>Elfinos são a espinha dorsal das forças de defesa da Davokar, com armaduras fracas, mas equipados com lanças e arcos. Mais frequentemente são liderados por um Elfo do Outono, mas algumas vezes sua impaciência os faz renunciar a orientação dos irmãos mais velhos. Tais bandos de guerra, consistindo em dez a trinta elfos irados, sempre preferem o ataque à defesa, e podem muito bem atacar aldeias nas terras baixas em vez de seus alvos normais: entrepostos, caravanas e colonos livres na mata.</p>",
           "tactics": "Os elfos do fim do verão preferem usar seus arcos, mas se entram em combate corpo a corpo, não se incomodam de ficar na linha de frente, mantendo os inimigos em cheque com suas lanças enquanto outros elfos os enchem de flechas.",
@@ -457,10 +457,10 @@
               "description": "<p><strong>ARMADURA MÉDIA</strong> <br /><strong>Armadura: </strong> 1D6 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;3). Algumas têm a qualidade Flexível, e a Armadura de Corvo tem a qualidade Desajeitada.</p>\n<hr />\n<p>Armaduras médias oferecem proteções melhores que as versões leves, mas ao custo de serem mais restritivas aos movimentos do usuário. Esta restrição é considerada aceitável pela maioria dos combatentes corpo a corpo. Brunea e cota de malha são exemplos de armaduras médias. </P>"
             },
             "Book of Prayers": {
-              "name": "Book of Prayers"
+              "name": "Livro de Orações"
             },
             "Interrogation Tools": {
-              "name": "Interrogation Tools"
+              "name": "Ferramentas de Interrogatório"
             }
           }
         },
@@ -501,7 +501,7 @@
           "race": "Huamno",
           "shadow": "Marrom com tons de púrpura, como uma mancha oleosa",
           "appearance": "<p>Humanos que escolhem explorar e usar as forças sombrias da Davokar são reunidos sob o epíteto de Cultista. Entre os bárbaros eles sempre existiram; indivíduos ou grupos que violam os tabus de seus clãs na esperança de crescer em força e influência. E entre os ambrianos, parece ser cada vez mais comum que as pessoas se devotem à escuridão para ganhar vantagens na luta por recursos, poder e glória.</p>",
-          "background": "<p>De acordo com os rumores, cultistas podem ser encontrados dentro de todas as classes sociais e regiões no reino da Rainha Korinthia, mesmo sendo mais comuns entre caçadores de fortuna e colonos livres próximos da mata.</p> <p>O culto típico é caracterizado por uma hierarquia rígida, com um líder forte no topo, cercado e apoiado por uma multidão de seguidores leais. Eles frequentemente se reúnem em locais com algum tipo de conotação mística e em datas que correspondam a fenômenos naturais significativos; como por exemplo, o culto de sangue, exposto em Muralha do Templo no Ano 19 pelos Mantos Negros, que se reuniam dentro de um antigo monte funerário e sempre quando a lua era nova.",
+          "background": "<p>De acordo com os rumores, cultistas podem ser encontrados dentro de todas as classes sociais e regiões no reino da Rainha Korinthia, mesmo sendo mais comuns entre caçadores de fortuna e colonos livres próximos da mata.</p> <p>O culto típico é caracterizado por uma hierarquia rígida, com um líder forte no topo, cercado e apoiado por uma multidão de seguidores leais. Eles frequentemente se reúnem em locais com algum tipo de conotação mística e em datas que correspondam a fenômenos naturais significativos; como por exemplo, o culto de sangue, exposto em Muralha do Templo no Ano 19 pelos Mantos Negros, que se reuniam dentro de um antigo monte funerário e sempre quando a lua era nova.</p>",
           "tactics": "O líder do culto se esconde atrás de seus seguidores, liderando-os de uma distância segura, mas pode engajar com o inimigo se for necessário para o Grande Plano",
           "items": {
             "Leader": {
@@ -653,7 +653,7 @@
               "cost": "5-10 ortegas"
             },
             "Robe": {
-              "name": "Robe",
+              "name": "Manto",
               "cost": "1-5 xelins"
             }
           }
@@ -669,10 +669,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Man-at-arms": {
               "name": "Homem-de-Armas",
@@ -725,10 +725,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Two-handed Force": {
               "name": "Força da Empunhadura Dupla",
@@ -824,7 +824,7 @@
               "description": "<p>Uma cura herbal consiste em um cataplasma com bandagens. Ela cheira mal, mas cura 1 ponto de Vitalidade. As ervas curam mais se utilizadas por um personagem com a habilidade Médico.</p>"
             },
             "Scrolls (on area of expertise)": {
-              "name": "Scrolls (on area of expertise)"
+              "name": "Pergaminhos (na área de especialização)"
             },
             "Bushcraft": {
               "name": "Mateiro",
@@ -945,7 +945,7 @@
               "description": "<p>Com nada além de sua presença, olhar e voz, personalidades fortes podem forçar mentes mais fracas a se dobrar no meio de uma batalha furiosa. O personagem é treinado nesta arte de dominar o combate. Entre os gladiadores de Yndaros, isto é considerado uma forma particularmente impressionante de vencer uma batalha, e é tratada como extremamente honrosa entre os clãs bárbaros superar seu inimigo dessa forma.</p> <p>Em situações sociais, esta habilidade também pode ser utilizada para apavorar alguém à obediência e forçá-los a contar segredos.</p>",
               "noviceDescription": "<p>O personagem pode dominar e sobrepujar um combatente inimigo utilizando sua personalidade convincente. O personagem pode utilizar Persuasivo em vez de Preciso em combate corpo a corpo.</p>",
               "adeptDescription": "<p>O personagem pode, com uma Ação Livre e um Teste bem-sucedido de [Persuasivo←Resoluto], forçar um inimigo a hesitar em combate corpo a corpo.</p> <p>Um inimigo hesitante não irá atacar o personagem neste turno. Se possível, ele ataca um dos aliados do personagem em vez disso.</p>",
-              "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
+              "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p><p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
             },
             "Twin Attack": {
               "name": "Ataque Gêmeo",
@@ -973,8 +973,8 @@
           }
         },
         "Self-Taught Witchhunter": {
-          "name": "Self-Taught Witchhunter",
-          "tokenName": "Self-Taught Witchhunter",
+          "name": "Caçador de Bruxas Autodidata",
+          "tokenName": "Caçador de Bruxas Autodidata",
           "items": {
             "Crossbow": {
               "name": "Besta",
@@ -985,13 +985,13 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Chainmail": {
-              "name": "Chainmail"
+              "name": "Cota de Malha"
             },
             "Book of Prayers": {
-              "name": "Book of Prayers"
+              "name": "Livro de Orações"
             },
             "Interrogation Tools": {
-              "name": "Interrogation Tools"
+              "name": "Ferramentas de Interrogatório"
             },
             "Contacts": {
               "name": "Contatos",
@@ -1000,8 +1000,8 @@
           }
         },
         "Village Warrior": {
-          "name": "Village Warrior",
-          "tokenName": "Village Warrior",
+          "name": "Guerreiro da Aldeia",
+          "tokenName": "Guerreiro da Aldeia",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -1029,19 +1029,19 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
             },
             "Throwing Spear": {
-              "name": "Throwing Spear"
+              "name": "Lança de Arremesso"
             },
             "Bear Pelt": {
-              "name": "Bear Pelt"
+              "name": "Pele de Urso"
             },
             "Fishing line and hook": {
               "name": "Vara de Pesca"
             },
             "Hunting Traps": {
-              "name": "Hunting Traps"
+              "name": "Armadilhas de Caça"
             },
             "Wooden Figurine": {
-              "name": "Wooden Figurine"
+              "name": "Figurinha de Madeira"
             },
             "Bushcraft": {
               "name": "Mateiro",
@@ -1054,8 +1054,8 @@
           }
         },
         "Arch Troll": {
-          "name": "Arch Troll",
-          "tokenName": "Arch Troll",
+          "name": "Arquitroll",
+          "tokenName": "Arquitroll",
           "items": {
             "Alchemy": {
               "name": "Alquimia",
@@ -1073,10 +1073,10 @@
             },
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Armored": {
               "name": "Armadurado",
@@ -1132,8 +1132,8 @@
           }
         },
         "Liege Troll": {
-          "name": "Liege Troll",
-          "tokenName": "Liege Troll",
+          "name": "Troll Soberano",
+          "tokenName": "Troll Soberano",
           "items": {
             "Alchemy": {
               "name": "Alquimia",
@@ -1194,20 +1194,20 @@
             "Claws": {
               "name": "Garras"
             },
-            "Crude alchemical equipment,": {
-              "name": "Crude alchemical equipment,"
+            "Crude alchemical equipment": {
+              "name": "Equipamento alquímico rudimentar"
             },
             "Jewelry & Trinkets": {
-              "name": "Jewelry & Trinkets"
+              "name": "Joias e Bijuterias"
             },
             "Weak Poison": {
-              "name": "Weak Poison"
+              "name": "Veneno Fraco"
             },
             "Weak Antidote": {
-              "name": "Weak Antidote"
+              "name": "Antídoto Fraco"
             },
             "Troll Skin": {
-              "name": "Troll Skin"
+              "name": "Pele de Troll"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -1216,8 +1216,8 @@
           }
         },
         "Rage Troll, Famished": {
-          "name": "Rage Troll, Famished",
-          "tokenName": "Rage Troll, Famished",
+          "name": "Troll Enfurecido, Faminto",
+          "tokenName": "Troll Enfurecido, Faminto",
           "items": {
             "Berserker": {
               "name": "Amoque",
@@ -1244,7 +1244,7 @@
               "name": "Garras"
             },
             "Troll Skin": {
-              "name": "Troll Skin"
+              "name": "Pele de Troll"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -1253,8 +1253,8 @@
           }
         },
         "Rage Troll, Group Living": {
-          "name": "Rage Troll, Group Living",
-          "tokenName": "Rage Troll, Group Living",
+          "name": "Troll Enfurecido, Gregário",
+          "tokenName": "Troll Enfurecido, Gregário",
           "items": {
             "Berserker": {
               "name": "Amoque",
@@ -1295,10 +1295,10 @@
               "name": "Garras"
             },
             "Troll Skin": {
-              "name": "Troll Skin"
+              "name": "Pele de Troll"
             },
             "Lucky charm": {
-              "name": "Lucky charm"
+              "name": "Amuleto da Sorte"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -1307,18 +1307,18 @@
           }
         },
         "Blight Born Aboar": {
-          "name": "Blight Born Aboar",
-          "tokenName": "Blight Born Aboar",
+          "name": "Gigavali Nascido da Mácula",
+          "tokenName": "Gigavali Nascido da Mácula",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Acidic Attack": {
-              "name": "Acidic Attack"
+              "name": "Ataque Ácido"
             },
             "Acidic Blood": {
               "name": "Sangue Ácido",
@@ -1352,7 +1352,7 @@
               "name": "Presas"
             },
             "Swine Skin": {
-              "name": "Swine Skin"
+              "name": "Pele de Suíno"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -1371,10 +1371,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
 
             },
             "Natural Warrior": {
@@ -1489,10 +1489,10 @@
             },
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -1564,15 +1564,15 @@
           }
         },
         "Aboar": {
-          "name": "Aboar",
-          "tokenName": "Aboar",
+          "name": "Gigavali",
+          "tokenName": "Gigavali",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Armored": {
               "name": "Armadurado",
@@ -1599,7 +1599,7 @@
               "name": "Presas"
             },
             "Swine Skin": {
-              "name": "Swine Skin"
+              "name": "Pele de Suíno"
             }
           }
         },
@@ -1632,13 +1632,13 @@
               "name": "Garras"
             },
             "Bear Fur": {
-              "name": "Bear Fur"
+              "name": "Pelo de Urso"
             }
           }
         },
         "Mare Cat": {
-          "name": "Mare Cat",
-          "tokenName": "Mare Cat",
+          "name": "Pesadelino",
+          "tokenName": "Pesadelino",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -1658,7 +1658,7 @@
               "name": "Poisonous"
             },
             "Bite": {
-              "name": "Bite"
+              "name": "Mordida"
             }
           }
         },
@@ -1688,26 +1688,26 @@
               "masterDescription": "<p>A criatura tem uma proteção natural de 4.</p>"          
             },
             "Exceptionally Cunning": {
-              "name": "Exceptionally Cunning"
+              "name": "Excepcionalmente Astuto"
             },
             "Exceptionally Quick": {
-              "name": "Exceptionally Quick"
+              "name": "Excepcionalmente Rápido"
             },
             "Snake Skin": {
-              "name": "Snake Skin"
+              "name": "Pele de Serpente"
             }
           }
         },
         "Lindworm": {
-          "name": "Lindworm",
-          "tokenName": "Lindworm",
+          "name": "Linnorme",
+          "tokenName": "Linnorme",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -1738,10 +1738,10 @@
               "masterDescription": "<p>O personagem mede quase 3 metros de altura, pesa cerca de meia tonelada e esmaga criaturas menores enquanto as armas dos inimigos têm bastante dificuldade em penetrar sua pele que mais parece pedra. É muito fácil acertar uma criatura deste tamanho, mas igualmente difícil de feri-la seriamente.</p> <p>A Defesa do personagem é baseada em [Rápido –4] e ele pode utilizar apenas armaduras leves, que devem ser feitas sob encomenda e custam o quádruplo do preço normal.</p> <p>Por outro lado, o personagem naturalmente ignora 1D8 de dano de todo golpe sofrido, em adição a qualquer armadura que vestir.</p> <p>Finalmente, ele pode causar 1D8 de dano extra com um ataque corpo a corpo por turno.</p>"
             },
             "Bite": {
-              "name": "Bite"
+              "name": "Mordida"
             },
             "Scales": {
-              "name": "Scales"
+              "name": "Escamas"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -1750,8 +1750,8 @@
           }
         },
         "Etterherd": {
-          "name": "Etterherd",
-          "tokenName": "Etterherd",
+          "name": "Segue-Rebanho",
+          "tokenName": "Segue-Rebanho",
           "items": {
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -1761,7 +1761,7 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Poisonous": {
-              "name": "Poisonous"
+              "name": "Venenoso"
             },
             "Swarm": {
               "name": "Enxame",
@@ -1771,13 +1771,13 @@
               "masterDescription": "<p>A mente coletiva do enxame o controla, de forma que ele sofre apenas um quarto de qualquer dano sofrido de ataques. A coesão do enxame é completa, e ele não foge a menos que o intelecto geral escolha fazê-lo. É possível fazer duas tentativas para resistir a ataques mentais (onde o enxame usa seu Resoluto para se defender).</p>"
             },
             "Bite": {
-              "name": "Bite"
+              "name": "Mordida"
             }
           }
         },
         "Tricklesting": {
-          "name": "Tricklesting",
-          "tokenName": "Tricklesting",
+          "name": "Ferrão-Gotejante",
+          "tokenName": "Ferrão-Gotejante",
           "items": {
             "Acrobatics": {
               "name": "Acrobacias",
@@ -1794,7 +1794,7 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Poisonous": {
-              "name": "Poisonous"
+              "name": "Venenoso"
             },
             "Web": {
               "name": "Teia",
@@ -1804,20 +1804,20 @@
               "masterDescription": "<p>A teia é quase viva e obedece ao seu criador; ela possui a habilidade passiva de capturar criaturas (como nível I) mas a teia também pode atacar com até três (3) fios por turno, com o mesmo efeito que o nível II.</p>"
             },
             "Bite": {
-              "name": "Bite"
+              "name": "Mordida"
             }
           }
         },
         "Cryptwalker": {
-          "name": "Cryptwalker",
-          "tokenName": "Cryptwalker",
+          "name": "Andarilho da Cripta",
+          "tokenName": "Andarilho da Cripta",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Twin Attack": {
               "name": "Ataque Gêmeo",
@@ -1835,7 +1835,7 @@
             },
             "Manifestation": {
               "name": "Manifestação",
-              "description": "<p>A criatura disciplinou sua Forma de Espírito ao ponto que pode se manifestar fisicamente por períodos menores ou maiores.",
+              "description": "<p>A criatura disciplinou sua Forma de Espírito ao ponto que pode se manifestar fisicamente por períodos menores ou maiores.</p>",
               "noviceDescription": "<p>O espírito pode se manifestar fisicamente por um turno e, dessa forma, agir como se possuísse um corpo físico.</p> <p>Caso a Ação de Movimento de um turno seja o suficiente para cruzar a água, então o espírito pode fazê-lo. </p> <p>O espírito pode usar seus ataques desarmados ou armas naturais durante o turno, mas sofre dano de qualquer coisa que afete criaturas físicas.</p>",
               "adeptDescription": "<p>O espírito pode se manifestar com quaisquer armas e armadura que possuísse quando morreu, e usá-las em batalha.</p> <p> O espírito pode se manifestar com quaisquer armas e armadura que possuísse quando morreu, e usá-las em batalha. O espírito pode ficar físico por quanto tempo desejar, mas não pode mudar de forma no meio de um turno — caso o espírito comece seu turno em forma física, então o turno é jogado em forma física.</p> <p>Se quiser, o espírito pode andar em forma física por uma cena inteira, para cruzar água, por exemplo. Caso o espírito seja forçado a, ou escolher, retornar a sua forma espectral enquanto estiver cruzando água, ele é jogado de volta ao chão sólido.</p>",
               "masterDescription": "<p> O espírito dominou completamente sua Manifestação e pode agir fisicamente com qualquer Ação que desejar, enquanto continua imaterial para todo o resto. Ele pode atacar fisicamente, ainda que se defenda como um espírito.</p> <p>O espírito não pode ser ferido de qualquer forma, além da que é apontada na descrição de seu nível de Forma Espiritual. Caso queira, o espírito pode ficar na forma física sem problemas, para uma longa jornada de barco, por exemplo.</p> <p>Caso o espírito seja forçado a, ou escolha, retornar à sua forma espectral enquanto estiver cruzando água, ele é jogado de volta ao chão sólido.</p>"
@@ -1848,7 +1848,7 @@
               "masterDescription": "<p>Apenas poderes místicos e armas mágicas podem ferir o espírito, e causam apenas metade do dano.</p>"
             },
             "Wraith Blade": {
-              "name": "Wraith Blade"
+              "name": "Espada Espectral"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -1861,8 +1861,8 @@
           }
         },
         "Frost Light": {
-          "name": "Frost Light",
-          "tokenName": "Frost Light",
+          "name": "Luz Gélida",
+          "tokenName": "Luz Gélida",
           "items": {
             "Alternative Damage": {
               "name": "Dano Alternativo",
@@ -1879,7 +1879,7 @@
               "masterDescription": "<p>Apenas poderes místicos e armas mágicas podem ferir o espírito, e causam apenas metade do dano.</p>"
             },
             "Touch of Death": {
-              "name": "Touch of Death"
+              "name": "Toque de Morte"
             },
             "No Pain": {
               "name": "Sem Dor",
@@ -1892,8 +1892,8 @@
           }
         },
         "Necromage": {
-          "name": "Necromage",
-          "tokenName": "Necromage",
+          "name": "Necromago",
+          "tokenName": "Necromago",
           "items": {
             "Bend Will": {
               "name": "Dobrar Vontade",
@@ -1918,10 +1918,10 @@
               "masterDescription": "<p>Apenas poderes místicos e armas mágicas podem ferir o espírito, e causam apenas metade do dano.</p>"
             },
             "Terrify": {
-              "name": "Terrify"
+              "name": "Aterrorizar"
             },
             "Wraith Claws": {
-              "name": "Wraith Claws"
+              "name": "Garras Espectrais"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -1934,8 +1934,8 @@
           }
         },
         "Dragon Fly": {
-          "name": "Dragon Fly",
-          "tokenName": "Dragon Fly",
+          "name": "Mosca Dragão",
+          "tokenName": "Mosca Dragão",
           "items": {
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -1959,13 +1959,13 @@
               "masterDescription": "<p>A criatura pode fazer ataques rasantes; ela pode usar parte de seu movimento antes de um ataque e o resto depois. Dessa forma, ela não engaja em combate corpo a corpo, enquanto ainda é capaz de fazer seus ataques corpo a corpo.</p>"
             },
             "Fangs": {
-              "name": "Fangs"
+              "name": "Presas"
             }
           }
         },
         "Violing": {
-          "name": "Violing",
-          "tokenName": "Violing",
+          "name": "Violentino",
+          "tokenName": "Violentino",
           "items": {
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -1989,7 +1989,7 @@
               "masterDescription": "<p>A criatura pode fazer ataques rasantes; ela pode usar parte de seu movimento antes de um ataque e o resto depois. Dessa forma, ela não engaja em combate corpo a corpo, enquanto ainda é capaz de fazer seus ataques corpo a corpo.</p>"
             },
             "Beak": {
-              "name": "Beak"
+              "name": "Bico"
             }
           }
         },
@@ -2078,10 +2078,10 @@
             },
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Man-at-arms": {
               "name": "Homem-de-Armas",
@@ -2138,10 +2138,10 @@
             },
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Polearm Mastery": {
               "name": "Maestria em Armas de Haste",
@@ -2216,10 +2216,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -2551,7 +2551,7 @@
             },
             "Bow": {
               "name": "Arco",
-              "description": "<p><strong>Veneno(dano 3 por 3 turnos)<strong></p> <p>Recarregar um arco conta como uma Ação Livre.</p>"
+              "description": "<p><strong>Veneno(dano 3 por 3 turnos)</strong></p> <p>Recarregar um arco conta como uma Ação Livre.</p>"
             },
             "Sword": {
               "name": "Espada",
@@ -2581,7 +2581,7 @@
           "occupation": "Keri-Las em sua forma de lobo.",
           "manner": "Rosna com os dentes à mostra, e então tenta atacar Ludo e Belun",
           "shadow": "Vermelho Sangrento com uma borda ligeiramente coagulada",
-          "background": "<p>quando a loba faminta morre, ela se transofrma de volta à sua forma original.</p> <p>Uma elfa ferida jaz no chão, tão sem vida quanto a besta que foi morta pelos personagens. Ela está vestida com um casaco de lã e não carreega armas. Seu nome verdadeiro era Keri-las, e ela era uma batedora do grupo que está caçando os irmãos.</p> <p>Ela veste um bracelete bem decorado em seu braço esquerdo. Um personagem jogador com sua habilidade <i>Mestre do Saber<i> que obtiver sucesso em uma jogada contra astuto percebe que isso era um antigo anel de juramento élfico; um símbolo do Pacto de Ferro, supostamente uma antiga aliança ou acordo entre humanos e elfos.</p>",
+          "background": "<p>Quando a loba faminta morre, ela se transoforma de volta à sua forma original.</p> <p>Uma elfa ferida jaz no chão, tão sem vida quanto a besta que foi morta pelos personagens. Ela está vestida com um casaco de lã e não carrega armas. Seu nome verdadeiro era Keri-las, e ela era uma batedora do grupo que está caçando os irmãos.</p> <p>Ela veste um bracelete bem decorado em seu braço esquerdo. Um personagem jogador com sua habilidade <i>Mestre do Saber<i> que obtiver sucesso em uma jogada contra astuto percebe que isso era um antigo anel de juramento élfico; um símbolo do Pacto de Ferro, supostamente uma antiga aliança ou acordo entre humanos e elfos.</p>",
           "tactics": "Keri-las tenta acertar os batedores bárbaros e irá matá-los se não conseguir pegá-los vivos. Ela não tenta matar outros (como os personagens jogadores), mas irá feri-los se ficarem em seu caminho.",
           "items": {
             "Acrobatics": {
@@ -2772,10 +2772,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Undead": {
               "name": "Morto-vivo",
@@ -2819,7 +2819,7 @@
           "power1Name": "Êxtase Sombrio",
           "power1Description": "<p>Com uma jogada bem-sucedida contra Resoluto, o dono do amuleto pode uma vez por turno rerrolar um Teste de Sucesso.</p>",
           "power2Name": "Vingança de Mal-Rogan",
-          "power2Description": "<p>É possível para alguém ligado ao amuleto destruí-lo; é necessário apenas uma jogada bem-sucedida contra Resoluto. Se isso ocorrer, a alma libertada de Mal-Rogan tentará possuir seu antigo mestre, de acordo com as regras para o ritual Possessão na página 145.</p> <p>Mal-Rogan é muito vingativo e irá fazer o máximo para punir todos que estiverem envolvidos em assassiná-lo e roubar seu prezado medalhão; isso é, o grupo inteiro dos personagens jogadores e não apenas aquele que carregou o amuleto.</p> <p>Se a possessão falhar, Mal-Rogan morre de uma vez por todas. O mesmo ocorre quando uma possessão bem-sucedida chega ao fim.</p"          
+          "power2Description": "<p>É possível para alguém ligado ao amuleto destruí-lo; é necessário apenas uma jogada bem-sucedida contra Resoluto. Se isso ocorrer, a alma libertada de Mal-Rogan tentará possuir seu antigo mestre, de acordo com as regras para o ritual Possessão na página 145.</p> <p>Mal-Rogan é muito vingativo e irá fazer o máximo para punir todos que estiverem envolvidos em assassiná-lo e roubar seu prezado medalhão; isso é, o grupo inteiro dos personagens jogadores e não apenas aquele que carregou o amuleto.</p> <p>Se a possessão falhar, Mal-Rogan morre de uma vez por todas. O mesmo ocorre quando uma possessão bem-sucedida chega ao fim.</p>"          
             }
           }
         },
@@ -2869,10 +2869,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
             },
             "Natural Warrior": {
               "name": "Guerreiro Natural",
@@ -2937,7 +2937,7 @@
             "Theurgy": {
               "name": "Teurgia",
               "description": "<p>Teurgia é a tradição mística defendida entre os magos sacerdotes da Igreja de Prios. Teurgia é a doutrina da chama interior, onde a brasa da alma é vista como um reflexo do divino e da luz do sol que concede a vida.</p>",
-              "noviceDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição da Teurgia, nem quando aprender seus rituais.</p> <p>Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais da Teurgia./<p>",
+              "noviceDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição da Teurgia, nem quando aprender seus rituais.</p> <p>Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais da Teurgia.</p>",
               "adeptDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Adepto pertencentes à tradição da Teurgia.</p> <p>O teurgo Adepto também aprendeu a repousar os poderes e rituais da Teurgia em uma fundação de fé, portanto, agora o teurgo sofre apenas um (1) ponto de Corrupção temporária quando conjurá-los.</p>",
               "masterDescription": "<p>O teurgo alcançou uma compreensão superior da essência de seus poderes sagrados e, portanto, cura 1D4 adicional quando usar poderes de cura e sagrados, incluindo aqueles que ferem abominações e mortos-vivos.</p> <p>Além disso, o teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Mestre pertencentes à tradição da Teurgia. </p>"
             },
@@ -3369,7 +3369,7 @@
               "description": "<p>Pessoas e criaturas que não têm vontade ou força para empunhar armas corpo a corpo pesadas desenvolveram técnicas para fintar. Esta habilidade demanda uma arma com a Qualidade Curta ou Precisa.</p> <p>Graças à perícia do personagem, estas armas podem ser empunhadas de maneira discreta e confusa.</p>",
               "noviceDescription": "<p>O personagem pode escolher atacar com Discreto em vez de Preciso quando o ataque é realizado com uma arma corpo a corpo que seja Curta ou Precisa.</p> <p>Além disso, cada ataque destes recebe a mesma Vantagem, como se o oponente estivesse surpreso.</p>",
               "adeptDescription": "<p>O personagem apresenta uma fraqueza falsa em sua defesa e engana o oponente para atacar essa fraqueza. O personagem pode escolher se defender com Discreto em vez de Rápido.</p>",
-              "masterDescription": "<p>Com uma jogada bem-sucedida de [Discreto←Vigilante] o personagem pode surpreender um inimigo no meio de uma luta. Um Teste bem-sucedido dá ao personagem um Ataque Livre contra esse inimigo além de seus ataques ordinários.</p> O personagem ainda pode realizar um ataque ordinário mesmo se sua tentativa de Finta falhar.</p>"
+              "masterDescription": "<p>Com uma jogada bem-sucedida de [Discreto←Vigilante] o personagem pode surpreender um inimigo no meio de uma luta. Um Teste bem-sucedido dá ao personagem um Ataque Livre contra esse inimigo além de seus ataques ordinários.</p><p>O personagem ainda pode realizar um ataque ordinário mesmo se sua tentativa de Finta falhar.</p>"
             },
             "Dagger": {
               "name": "Adaga",
@@ -3419,7 +3419,7 @@
               "description": "<p>Com nada além de sua presença, olhar e voz, personalidades fortes podem forçar mentes mais fracas a se dobrar no meio de uma batalha furiosa. O personagem é treinado nesta arte de dominar o combate. Entre os gladiadores de Yndaros, isto é considerado uma forma particularmente impressionante de vencer uma batalha, e é tratada como extremamente honrosa entre os clãs bárbaros superar seu inimigo dessa forma.</p> <p>Em situações sociais, esta habilidade também pode ser utilizada para apavorar alguém à obediência e forçá-los a contar segredos.</p>",
               "noviceDescription": "<p>O personagem pode dominar e sobrepujar um combatente inimigo utilizando sua personalidade convincente. O personagem pode utilizar Persuasivo em vez de Preciso em combate corpo a corpo.</p>",
               "adeptDescription": "<p>O personagem pode, com uma Ação Livre e um Teste bem-sucedido de [Persuasivo←Resoluto], forçar um inimigo a hesitar em combate corpo a corpo.</p> <p>Um inimigo hesitante não irá atacar o personagem neste turno. Se possível, ele ataca um dos aliados do personagem em vez disso.</p>",
-              "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
+              "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p><p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
             },
             "Leader": {
               "name": "Líder",
@@ -3532,10 +3532,10 @@
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
-              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+              "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
               "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
               "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+              "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
 
             },
             "Shield Fighter": {
@@ -3616,7 +3616,7 @@
         "Moderate Transforming Draught": {
           "name": "Infusão de Transformação Moderado",
           "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Moderado:</strong>A infusão atribui o traço selecionado no nível II ao custo de 1D6 de corrupção temporária.</p>",
-          "cost": ""
+          "cost": "4 táleres"
         },
         "Revealing Light": {
           "name": "Luz Reveladora",
@@ -3666,7 +3666,7 @@
         "Twilight Tincture": {
           "name": "Tintura Crepuscular",
           "description": "<p>Este é um extrato de caules e folhas secas do extremamente raro Cardo do Crepúsculo. Até recentemente, o conhecimento da erva (em algumas ocasiões, um ou dois caules podem ser encontrados entre outras ofertas nas ruínas da Davokar, em vez de um local de cultivo real), juntamente com seu efeito médico moderado, fazia com que não fosse muito procurada; ela parece ter um efeito em certos tipos de eczema e possivelmente também na senilidade se consumida.</p> <p>No entanto, com o envelhecimento da rainha-mãe, surgiu uma demanda crescente da corte. Obviamente, a história de como Lasifor Campo Noturno comprou a terra em que Forte do Cardo foi construído com um punhado de Cardo do Crepúsculo deu à erva um forte aumento de popularidade entre os caçadores de tesouro.</p> <p>Ultimamente, a tintura crepuscular encontrou outro grupo de usuários e uma nova área de uso: provou ser capaz de disfarçar uma série de sintomas adquiridos por mortos-vivos. Infelizes desesperados — alguns deles alquimistas — procuraram maneiras de esconder suas marcas de morte, e alguém descobriu que a tintura crepuscular (consumida, não jogada na pele) fazia temporariamente um corpo morto-vivo ganhar vida: a pele recuperava sua vermelhidão, a temperatura do corpo subia e o odor do hálito melhorava dramaticamente.</p> <p>O efeito dura uma semana por Teste bem-sucedido de [Vigoroso –corrupção permanente]. Se o Teste falhar, o efeito permanece por mais um dia antes de se dissipar completamente. Em criaturas completamente corrompidas, o efeito dura apenas um dia por dose, e nenhum Teste é feito.</p>",
-          "cost": ""
+          "cost": "12 táleres"
         },
         "War Paint": {
           "name": "Pintura de guerra",
@@ -3681,12 +3681,12 @@
         "Weak Purple Sap": {
           "name": "Seiva Púrpura Fraco",
           "description": "<p>A Seiva Púrpura é feita do cozimento de um lírio-do-vale roxo, uma f lor cujas propriedades de limpeza e resistência à corrupção foram descobertas pelas bruxas da Davokar há muito tempo. Comprar o elixir é caro, pois o ingrediente é tão raro e poucos alquimistas são habilidosos o suficiente para produzi-lo. O elixir não tem efeito na corrupção permanente ou nas marcas de mácula que já apareceram no usuário.</p> <p><strong>Fraco:</strong>Um alquimista novato pode preparar uma poção que remove imediatamente 1D4 de corrupção temporária da alma do usuário.</p>",
-          "cost": ""
+          "cost": "4 táleres"
         },
         "Weak Transforming Draught": {
           "name": "Infusão de Transformação Fraco",
           "description": "<p>Este é um poderoso mutagênico que transforma o corpo do usuário de maneira monstruosa. Durante uma cena, o usuário é transformado em uma meia-criatura bestial e tem uma segunda chance de falhar em todos os Testes de Persuasivo até que o efeito acabe.</p> <p>A infusão dá ao usuário um traço monstruoso pelo resto da cena; o nível do traço é decidido pela força do elixir. Além disso, cada dose consumida causa corrupção temporária, também determinada pela força do elixir. Obviamente, a transformação física e o efeito corruptor são motivos suficientes para que o elixir seja banido e disponível apenas no mercado negro de Ambria.</p> <p>Os seguintes traços monstruosos podem ser adquiridos, decididos pelo alquimista ao preparar o elixir: Armadurado, Arma Natural, Asas e Robusto.</p> <p><strong>Fraco:</strong>A infusão atribui o traço selecionado no nível I ao custo de 1D4 de corrupção temporária.</p>",
-          "cost": ""
+          "cost": "2 táleres"
         },
         "Wild Chew": {
           "name": "Goma Selvagem",
@@ -4792,19 +4792,23 @@
         },
         "Executioner’s Sword": {
           "name": "Espada do Executor",
-          "description": "<p>Essa espada gigante é usada pelos executores para acabar com as vidas de nobres — o machado é para comerciantes e artesãos, a corda para os plebeus — mas também existem aqueles que empunham a arma no campo de batalha.</p>"
+          "description": "<p>Essa espada gigante é usada pelos executores para acabar com as vidas de nobres — o machado é para comerciantes e artesãos, a corda para os plebeus — mas também existem aqueles que empunham a arma no campo de batalha.</p>",
+          "cost": "50 táleres"
         },
         "Grappling Axe": {
           "name": "Machado com Gancho",
-          "description": "<p>Este machado de cabo longo é uma arma bastarda usada durante ataques. Pode ser segurada com uma mão, juntamente com um escudo, ou sozinha ao subir escadas para a ameia, onde é agarrada pelas duas mãos para limpar o topo da muralha. Modelos mais antigos da Grande Guerra foram usados em batalhas marítimas e têm um gancho na parte de trás da cabeça do machado, a fim de garantir a passagem segura de um navio para outro.</p>"
+          "description": "<p>Este machado de cabo longo é uma arma bastarda usada durante ataques. Pode ser segurada com uma mão, juntamente com um escudo, ou sozinha ao subir escadas para a ameia, onde é agarrada pelas duas mãos para limpar o topo da muralha. Modelos mais antigos da Grande Guerra foram usados em batalhas marítimas e têm um gancho na parte de trás da cabeça do machado, a fim de garantir a passagem segura de um navio para outro.</p>",
+          "cost": "10 táleres"
         },
         "Heavy Flail": {
           "name": "Mangual Pesado",
-          "description": "<p>O mangual pesado é uma versão maior do mangual de batalha. Como era de se esperar, o mangual mais pesado é mais lento, mas tem um impacto maior nos infelizes que são atingidos por sua cabeça maciça.</p>"
+          "description": "<p>O mangual pesado é uma versão maior do mangual de batalha. Como era de se esperar, o mangual mais pesado é mais lento, mas tem um impacto maior nos infelizes que são atingidos por sua cabeça maciça.</p>",
+          "cost": "50 táleres"
         },
         "Horseman’s Bow": {
           "name": "Arco de Cavalaria",
-          "description": "<p>Durante a Grande Guerra surgiu a necessidade de um arco poderoso que pudesse ser usado por guerreiros montados. O arco tradicional era muito desajeitado — tão longo que interferia no cavalo, ou vice-versa. Para resolver isso, o assimétrico arco de cavalaria foi desenvolvido.</p> <p>O membro inferior do arco é mais curto que o superior, permitindo que o arco seja manobrado para frente e para trás sobre as costas do cavalo sem perder a pegada. A arma é inclinada para frente quando é apontada e disparada, a fim de manter a mesma tensão entre os dois membros.</p> <p>Em Ambria, o arco de cavalaria é usado principalmente no oeste, contra as incursões dos carroceiros montados dos Saars. Lá, as companhias tradicionais de arco longo são usadas como tropas defensivas, mas para caçar os saqueadores são necessários cavaleiros, de preferência armados com arcos.</p>"
+          "description": "<p>Durante a Grande Guerra surgiu a necessidade de um arco poderoso que pudesse ser usado por guerreiros montados. O arco tradicional era muito desajeitado — tão longo que interferia no cavalo, ou vice-versa. Para resolver isso, o assimétrico arco de cavalaria foi desenvolvido.</p> <p>O membro inferior do arco é mais curto que o superior, permitindo que o arco seja manobrado para frente e para trás sobre as costas do cavalo sem perder a pegada. A arma é inclinada para frente quando é apontada e disparada, a fim de manter a mesma tensão entre os dois membros.</p> <p>Em Ambria, o arco de cavalaria é usado principalmente no oeste, contra as incursões dos carroceiros montados dos Saars. Lá, as companhias tradicionais de arco longo são usadas como tropas defensivas, mas para caçar os saqueadores são necessários cavaleiros, de preferência armados com arcos.</p>",
+          "cost": "50 táleres"
         },
         "Lance (on Horse)": {
           "name": "Lance (a cavalo)",
@@ -4838,7 +4842,8 @@
         },
         "Repeating Crossbow": {
           "name": "Besta de Repetição",
-          "description": "<p>A besta de repetição é uma versão mecanicamente avançada da besta. A arma tem uma alavanca por baixo para ser recarregada mais rapidamente. Somente os ferreiros mais habilidosos são capazes de construir armas tão tecnicamente avançadas.</p> <p>Uma besta de repetição é recarregada como uma ação livre — sem perder o poder de ataque da besta regular.</p>"
+          "description": "<p>A besta de repetição é uma versão mecanicamente avançada da besta. A arma tem uma alavanca por baixo para ser recarregada mais rapidamente. Somente os ferreiros mais habilidosos são capazes de construir armas tão tecnicamente avançadas.</p> <p>Uma besta de repetição é recarregada como uma ação livre — sem perder o poder de ataque da besta regular.</p>",
+          "cost": "40 táleres"
         },
         "Small Crossbow": {
           "name": "Besta Pequena",
@@ -5644,7 +5649,7 @@
           "name": "Combat Hymn"
         },
         "Dancing Weapon": {
-          "name": "ARma Dançante",
+          "name": "Arma Dançante",
           "material": "Uma arma corpo a corpo",
           "description": "<p><strong>Tradição: </strong>Canto do Troll, Magia do Cajado</p> <p>Usando simplesmente a força de vontade, o místico faz uma arma disparar e lutar, com a velocidade e a agilidade de um pensamento. A arma em questão não precisa ser especial de forma alguma; se tiver qualidades ou poderes, eles podem ser usados pelo místico de acordo com as regras padrão de combate. No entanto, o místico não pode usar outras habilidades relacionadas a combate corpo a corpo enquanto usa este poder.</p>",
           "noviceDescription": "<p>O místico permite que uma arma dance e usa Resoluto em vez de Preciso (ataque) e Rápido (defesa). Fora isso, aplicam-se as regras normais de combate.</p> <p>O novato deve se concentrar na arma enquanto luta, o que o impede de usar outros poderes ou habilidades enquanto a arma dança.</p>",
