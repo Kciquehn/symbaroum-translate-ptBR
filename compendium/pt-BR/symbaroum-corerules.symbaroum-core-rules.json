@@ -1,5 +1,5 @@
 {
-  "label": "Symbaroum RPG - Regras Básicas - TESTESTES",
+  "label": "Symbaroum RPG - Regras Básicas",
 
   "mapping": {
     "actors": {
@@ -5980,7 +5980,8 @@
         },
         "Order Cloak": {
           "name": "Manto da Ordem",
-          "description": "<P>A maioria dos magos aprendizes da Ordo Magica recebe um manto de proteção para sua primeira jornada mais longa. Estes mantos são bordados com runas de proteção, que dão ao aprendiz mais chances de sobreviver e, assim, completar suas tarefas designadas. </P>"
+          "description": "<P>A maioria dos magos aprendizes da Ordo Magica recebe um manto de proteção para sua primeira jornada mais longa. Estes mantos são bordados com runas de proteção, que dão ao aprendiz mais chances de sobreviver e, assim, completar suas tarefas designadas. </P>",
+          "cost": "10 táleres"
         },
         "Scalemail": {
           "name": "Brunea",
