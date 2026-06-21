@@ -4197,7 +4197,7 @@
         },
         "Arrow - Snaring": {
           "name": "Flecha - de Laço",
-          "description": "<p>Uma ponta de flecha farpada e um fino fio de seda preso à f lecha tornam possível prender um alvo usando esse projétil.</p> <p>Puxar para fora exige uma ação de movimento e requer um Teste de [Vigoroso –Dano]; se for bem-sucedido, o alvo sofre 1D4 de dano, mas a f lecha está fora. Mover-se com uma f lecha presa na carne causa 1 ponto de dano por turno, ignorando Armadura.</p>",
+          "description": "<p>Uma ponta de flecha farpada e um fino fio de seda preso à flecha tornam possível prender um alvo usando esse projétil.</p> <p>Puxar para fora exige uma ação de movimento e requer um Teste de [Vigoroso –Dano]; se for bem-sucedido, o alvo sofre 1D4 de dano, mas a flecha está fora. Mover-se com uma flecha presa na carne causa 1 ponto de dano por turno, ignorando Armadura.</p>",
           "cost": "5 xelins"
         },
         "Arrow - Swallow’s Tail": {
