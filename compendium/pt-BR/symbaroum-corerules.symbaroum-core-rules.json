@@ -217,7 +217,7 @@
           "notes": {
             "Yndaros": "Yndaros",
             "Karvosti": "Karvosti",
-            "Thistle Hold": "Thistle Hold"
+            "Thistle Hold": "Forte do Cardo"
           }
         }
       },
@@ -1121,13 +1121,13 @@
               "masterDescription": "<p>Como Novato, mas a habilidade aumenta o valor do Atributo em +3 no total.</p>"
             },
             "Exceptionally Resolute": {
-              "name": "Exceptionally Resolute"
+              "name": "Excepcionalmente Resoluto"
             },
             "Claws": {
               "name": "Garras"
             },
             "Troll Skin": {
-              "name": "Troll Skin"
+              "name": "Pele de Troll"
             }
           }
         },
@@ -1442,7 +1442,7 @@
               "masterDescription": "<p>Ao atacar os pontos fracos de um oponente com uma precisão impecável — como na garganta e joelhos — os golpes desarmados do Mestre são verdadeiramente devastadores. Cada ataque que acerta causa 1D6 de dano extra.</p>"
             },
             "Acidic Blood": {
-              "name": "Acidic Blood"
+              "name": "Sangue Ácido"
             },
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -1655,7 +1655,7 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Poisonous": {
-              "name": "Poisonous"
+              "name": "Venenoso"
             },
             "Bite": {
               "name": "Mordida"
@@ -2163,8 +2163,8 @@
           }
         },
         "Knowledgeable Daemon": {
-          "name": "Knowledgeable Daemon",
-          "tokenName": "Knowledgeable Daemon",
+          "name": "Daemon Conhecedor",
+          "tokenName": "Daemon Conhecedor",
           "items": {
             "Alternative Damage": {
               "name": "Dano Alternativo",
@@ -2192,7 +2192,7 @@
               "description": "<p>O Místico pode, com um Teste bem-sucedido de Resoluto, fazer uma pergunta de sim ou não sobre a aventura. Leitura da Sorte pode ser executado somente uma vez por aventura, e novas tentativas são possíveis somente quando algo maior ocorrer potencialmente mudando o futuro (o Mestre de Jogo decide se tal evento ocorreu).</p>"
             },
             "Oracle": {
-              "name": "Oracle"
+              "name": "Oráculo"
             },
             "Ritualist": {
               "name": "Ritualista",
@@ -2202,7 +2202,7 @@
               "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
             },
             "Life-consuming Kiss": {
-              "name": "Life-consuming Kiss"
+              "name": "Beijo Consumidor de Vida"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -2211,8 +2211,8 @@
           }
         },
         "Rune Guardian": {
-          "name": "Rune Guardian",
-          "tokenName": "Rune Guardian",
+          "name": "Guardião Rúnico",
+          "tokenName": "Guardião Rúnico",
           "items": {
             "Iron Fist": {
               "name": "Punho de Ferro",
@@ -2243,16 +2243,16 @@
               "masterDescription": "<p>A criatura tem uma proteção natural de 4.</p>"          
             },
             "Stone Armor": {
-              "name": "Stone Armor"
+              "name": "Armadura de Pedra"
             },
             "Hammer Fists": {
-              "name": "Hammer Fists"
+              "name": "Punhos Martelos"
             }
           }
         },
         "Servant Daemon": {
-          "name": "Servant Daemon",
-          "tokenName": "Servant Daemon",
+          "name": "Servo Daemon",
+          "tokenName": "Servo Daemon",
           "items": {
             "Armored": {
               "name": "Armadurado",
@@ -2269,10 +2269,10 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Daemon Skin": {
-              "name": "Daemon Skin"
+              "name": "Pele de Daemon"
             },
             "Sharp Fangs": {
-              "name": "Sharp Fangs"
+              "name": "Presas Afiadas"
             },
             "Thoroughly Corrupted": {
               "name": "Completamente Corrompido",
@@ -2281,11 +2281,11 @@
           }
         },
         "Thorn Beasty": {
-          "name": "Thorn Beasty",
-          "tokenName": "Thorn Beasty",
+          "name": "Bestas de Espinhos",
+          "tokenName": "Bestas de Espinhos",
           "items": {
             "Poisonous": {
-              "name": "Poisonous"
+              "name": "Venenoso"
             },
             "Natural Weapon": {
               "name": "Arma Natural",
@@ -2295,13 +2295,13 @@
               "masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
             },
             "Razor Sharp Thorns": {
-              "name": "Razor Sharp Thorns"
+              "name": "Espinhos Afiados"
             }
           }
         },
         "Vindictive Daemon": {
-          "name": "Vindictive Daemon",
-          "tokenName": "Vindictive Daemon",
+          "name": "Daemon Vingativo",
+          "tokenName": "Daemon Vingativo",
           "items": {
             "Armored": {
               "name": "Armadurado",
@@ -2325,7 +2325,7 @@
               "masterDescription": "<p>A criatura pode fazer ataques rasantes; ela pode usar parte de seu movimento antes de um ataque e o resto depois. Dessa forma, ela não engaja em combate corpo a corpo, enquanto ainda é capaz de fazer seus ataques corpo a corpo.</p>"
             },
             "Daemon Skin": {
-              "name": "Daemon Skin"
+              "name": "Pele de Daemon"
             },
             "Claws": {
               "name": "Garras"
@@ -2738,7 +2738,7 @@
           "occupation": "Desbravador",
           "manner": "Olhos Piscando, voz trêmula",
           "shadow": "Verde mofado com manchas de escuridão crescente",
-          "appearance": "<p>“Não estou doente, mal toquei no crânio, prometo!”</p> <p>Ludo ostenta um estigma como sinal de sua corrupção crescente, ele tem ferimentos que não irão curar nas dobras de todas as suas juntas.",
+          "appearance": "<p>“Não estou doente, mal toquei no crânio, prometo!”</p> <p>Ludo ostenta um estigma como sinal de sua corrupção crescente, ele tem ferimentos que não irão curar nas dobras de todas as suas juntas.</p>",
           "background": "Note que se Ludo for salvo, mais cedo ou mais tarde ele terá o mesmo destino que Belun, Quando ludo for transformado, o Mestre de Jogo pode reutilizar a aparência e estatísticas de Belun",
           "tactics": "Ludo deseja sobreviver e irá fazer o máximo na luta contra os PJs",
           "items": {
@@ -2767,7 +2767,7 @@
           "occupation": "Chefe Bandido Morto-vivo",
           "manner": "Fala com uma voz arrastada, balançando sua cabeça para frente e para trás",
           "shadow": "negra como piche",
-          "background": "</p>“A Pedra do Sol é MINHA”</p> <p>Rogan Gorinder, guarda da Rainha, morreu morreu na guerra contra os Lordes Negros. Ele teve um braço decepado em combate, o ferimento infeccionou e os curandeiros foram incapazes de neutralizar a infecção de sangue negro que correu por suas veias. Mas em vez de morrer, Rogan se ergueu como um morto-vivo, com pus saindo de seu braço arrancado e com veias negras visíveis em seu pescoço e têmporas. Por quê? Ninguém sabe; mas Rogan tomou isso como um sinal sombrio de que ele foi escolhido para coisas maiores. Hoje em dia, o ladrão barão se proclama Mal-Rogan e lidera um bando de ladrões nas montanhas onde ele cresceu, sonhando em fundar um verdadeiro reino de bandidos. Se os personagens jogadores forem incapazes de parar o nobre acometido pela mácula, ele irá fazer seu nome pelas partes sul de Ambria, onde ele perambula como um horror furioso deixando corpos no caminho.</p>",
+          "background": "<p>“A Pedra do Sol é MINHA”</p> <p>Rogan Gorinder, guarda da Rainha, morreu morreu na guerra contra os Lordes Negros. Ele teve um braço decepado em combate, o ferimento infeccionou e os curandeiros foram incapazes de neutralizar a infecção de sangue negro que correu por suas veias. Mas em vez de morrer, Rogan se ergueu como um morto-vivo, com pus saindo de seu braço arrancado e com veias negras visíveis em seu pescoço e têmporas. Por quê? Ninguém sabe; mas Rogan tomou isso como um sinal sombrio de que ele foi escolhido para coisas maiores. Hoje em dia, o ladrão barão se proclama Mal-Rogan e lidera um bando de ladrões nas montanhas onde ele cresceu, sonhando em fundar um verdadeiro reino de bandidos. Se os personagens jogadores forem incapazes de parar o nobre acometido pela mácula, ele irá fazer seu nome pelas partes sul de Ambria, onde ele perambula como um horror furioso deixando corpos no caminho.</p>",
           "tactics": "Rogan deixa seus seguidores atacarem primeiro, enquanto ele roga uma maldição naquele que ele acredita ser o inimigo mais difícil. Quando a maldição surte efeito, ele se move com sua clava com cravos.",
           "items": {
             "Iron Fist": {
@@ -2853,7 +2853,7 @@
               "name": "Conjunto de Dados"
             },
             "Contacts (Thugs & Brigands)": {
-              "name": "Contacts (Thugs & Brigands)",
+              "name": "Contatos (Bandidos e Bandidos)",
               "description": "<p>O personagem serviu em uma organização ou viajou para bem longe e, portanto, teceu uma ampla rede de contatos. Com uma jogada bem-sucedida contra Persuasivo, o personagem pode lembrar-se de um contato que deve poder ser capaz de ajudar em uma questão específica ou uma situação precária.</p> <p>O contato pode não estar diretamente disponível — isso depende de quem está incluído em sua rede de contatos.</p> <p>Facções adequadas e pessoas que podem ser especificadas como os contatos do personagem são: O Exército da Rainha, os Patrulheiros da Rainha, Bruxas, Ordo Magica, a Igreja de Prios, as Casas Nobres e os Caçadores de Tesouros.</p>"
             }
           }
@@ -2967,7 +2967,7 @@
               "cost": "5 xelins"
             },
             "Lightbringer": {
-              "name": "Lightbringer"
+              "name": "Provedor da Luz"
             },
             "Blessed Robe": {
               "name": "Robe Abençoado",
@@ -3234,7 +3234,7 @@
               "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
             },
             "Shield": {
-              "name": "Shield",
+              "name": "Escudo",
               "description": "<p><strong>ESCUDOS</strong> <br /><strong>Dano: </strong> Fornece +1 rm Defesa <br /><strong>Qualidades: </strong> Nenhuma. Broquéis são Flexíveis, Escudos de Aço são Equilibrados. </p>\n<hr />\n<p>Escudos tornam difícil atingir o portador com ataques corpo a corpo e à distância. Eles frequentemente são combinados com uma arma de uma mão, ou com uma arma de uma mão e um punhado de armas de arremesso adicionais.</p>"
             },
             "Crow Armor": {
@@ -3258,7 +3258,7 @@
               "name": "Conjunto de Dados"
             },
             "Contacts (Sellswords)": {
-              "name": "Contacts (Sellswords)",
+              "name": "Contatos (Mercenários)",
               "description": "<p>O personagem serviu em uma organização ou viajou para bem longe e, portanto, teceu uma ampla rede de contatos. Com uma jogada bem-sucedida contra Persuasivo, o personagem pode lembrar-se de um contato que deve poder ser capaz de ajudar em uma questão específica ou uma situação precária.</p> <p>O contato pode não estar diretamente disponível — isso depende de quem está incluído em sua rede de contatos.</p> <p>Facções adequadas e pessoas que podem ser especificadas como os contatos do personagem são: O Exército da Rainha, os Patrulheiros da Rainha, Bruxas, Ordo Magica, a Igreja de Prios, as Casas Nobres e os Caçadores de Tesouros.</p>"
             }
           }
@@ -3297,7 +3297,7 @@
           "race": "Humana (Bárbara)",
           "quote": "“Os espíritos assim desejam.”",
           "appearance": "Você cresceu na sombra de Karvosti, o platô do Alto Chefe na Davokar. Sua iniciação terminou em tragédia quando o ritual foi encerrado por uma abominação que se arrastou das profundezas da floresta. Na luta você encontrou sua besta interior, e por isso o líder de seu círculo de sortilégios lhe enviou ao sul. Você é considerada capaz de se defender contra os depravados ambrianos, caso haja necessidade",
-          "background": "<p> Sua missão é observar e relatar ao círculo de sortilégios. Davokar está prestes a despertar, em parte devido aos recém-chegados, e as forças que trabalham pelo despertar devem ser encontradas e enfrentadas.</p> <p>A Huldra em Karvosti está interessada em tudo relacionado ao povo da Rainha e pode ter lhe encarregado de estudar o sul arruinado para ter uma melhor compreensão do passado dos ambrianos. Para evitar atenção indesejada, você pode dizer ter sido exilada após ter violado algum tabu. Ou você pode realmente ter quebrado algum voto e escolhido intencionalmente sair do território das bruxas. Você provavelmente encontrou e se familiarizou com outros com quem viajou ao sul, mais provavelmente os bárbaros Kvarek e Karla ou Povos Antigos como Raivoso, Niha e Fenya.",
+          "background": "<p> Sua missão é observar e relatar ao círculo de sortilégios. Davokar está prestes a despertar, em parte devido aos recém-chegados, e as forças que trabalham pelo despertar devem ser encontradas e enfrentadas.</p> <p>A Huldra em Karvosti está interessada em tudo relacionado ao povo da Rainha e pode ter lhe encarregado de estudar o sul arruinado para ter uma melhor compreensão do passado dos ambrianos. Para evitar atenção indesejada, você pode dizer ter sido exilada após ter violado algum tabu. Ou você pode realmente ter quebrado algum voto e escolhido intencionalmente sair do território das bruxas. Você provavelmente encontrou e se familiarizou com outros com quem viajou ao sul, mais provavelmente os bárbaros Kvarek e Karla ou Povos Antigos como Raivoso, Niha e Fenya.</p>",
           "shadow": "Vermelha com algumas manchas de ferrugem",
           "items": {
             "Natural Warrior": {
@@ -3553,10 +3553,10 @@
               "masterDescription": "<p>O cadáver animado sofre apenas metade do dano de efeitos místicos e alquímicos também, mas sofre dano completo de armas mágicas e efeitos sagrados.</p>"
             },
             "Rusty Sword": {
-              "name": "Rusty Sword"
+              "name": "Espada Enferrujada"
             },
             "Studded Leather": {
-              "name": "Studded Leather"
+              "name": "Couro Batido"
             },
             "No Pain": {
               "name": "Sem Dor",
@@ -3567,7 +3567,7 @@
               "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
             },
             "Shield": {
-              "name": "Shield",
+              "name": "Escudo",
               "description": "<p><strong>ESCUDOS</strong> <br /><strong>Dano: </strong> Fornece +1 rm Defesa <br /><strong>Qualidades: </strong> Nenhuma. Broquéis são Flexíveis, Escudos de Aço são Equilibrados. </p>\n<hr />\n<p>Escudos tornam difícil atingir o portador com ataques corpo a corpo e à distância. Eles frequentemente são combinados com uma arma de uma mão, ou com uma arma de uma mão e um punhado de armas de arremesso adicionais.</p>"
             }
           }
@@ -3600,7 +3600,7 @@
         },
         "Homing Arrow": {
           "name": "Flecha Certeira",
-          "description": "<p>O alquimista marina uma flecha em essências especiais, criando assim uma flecha que passa por outros combatentes, ou seja, que não requer uma linha de visão clara.</p> <p>No entanto, o arqueiro deve ver alguma parte do alvo e deve executar um Teste de ataque normalmente para obter sucesso no golpe.",
+          "description": "<p>O alquimista marina uma flecha em essências especiais, criando assim uma flecha que passa por outros combatentes, ou seja, que não requer uma linha de visão clara.</p> <p>No entanto, o arqueiro deve ver alguma parte do alvo e deve executar um Teste de ataque normalmente para obter sucesso no golpe.</p>",
           "cost": "2 táleres"
         },
         "Homunculus": {
@@ -3751,8 +3751,8 @@
           "name": "Mortalha de Sepultamento",
           "description":"<p>Espiritualistas entre as bruxas costumam usar uma mortalha sobre a cabeça ao entrar em contato com os espíritos dos mortos, pois isso acalma os espíritos e permite uma conexão mais profunda. Um místico que usa esse artefato recebe +1 de bônus a Resoluto em todos os Testes para lidar com espíritos — tanto ao tentar controlá-los (como no poder Espíritos Atormentadores) quanto ao tentar resistir ao efeito de traços monstruosos usados por espíritos que envolvam o atributo Resoluto.</p>",
           "cost": "10 táleres",
-          "power0Name": "",
-          "power0Description": ""
+          "power0Name": "Mortalha de Sepultamento",
+          "power0Description": "<p>Um místico que usa esse artefato recebe +1 de bônus a Resoluto em todos os Testes para lidar com espíritos — tanto ao tentar controlá-los (como no poder Espíritos Atormentadores) quanto ao tentar resistir ao efeito de traços monstruosos usados por espíritos que envolvam o atributo Resoluto.</p>"
         },
         "Death Mask": {
           "name": "Máscara da Morte",
@@ -3793,8 +3793,8 @@
           "name": "Pedra do Encontro",
           "description":"<p>Uma pedra é carregada com um convite para uma pessoa específica, que ao receber e tocar o artefato sabe instintivamente onde o proprietário da pedra está esperando. Somente um místico (com pelo menos um poder místico) pode ativar uma pedra de encontro.</p>",
           "cost": "2 táleres",
-          "power0Name": "",
-          "power0Description": ""
+          "power0Name": "Pedra do Encontro",
+          "power0Description": "<p>Uma pedra é carregada com um convite para uma pessoa específica, que ao receber e tocar o artefato sabe instintivamente onde o proprietário da pedra está esperando. Somente um místico (com pelo menos um poder místico) pode ativar uma pedra de encontro.</p>"
         },
         "Mind Prism": {
           "name": "Prisma Mental",
@@ -3863,8 +3863,8 @@
           "name": "Pedra da Centelha",
           "description":"<p>O poder de um Piromante é aumentado por este âmbar brilhante. A pedra da centelha é uma versão mais fraca das renomadas Pedras do Sol que os mestres piromantes da antiguidade podiam fabricar com espíritos de fogo convocados. Atualmente, os magos do fogo têm que se contentar com artefatos menores, longe de serem poderosos, mas ainda assim uma grande ajuda para aqueles cujas habilidades estão relacionadas ao fogo e à queima. Todos os poderes com efeitos de fogo recebem +1 de bônus no dado de efeito quando usados por alguém com uma pedra da centelha na mão ou em cima de seu cajado.</p>",
           "cost": "10 táleres",
-          "power0Name": "",
-          "power0Description": ""
+          "power0Name": "Pedra da Centelha",
+          "power0Description": "<p>O poder de um Piromante é aumentado por este âmbar brilhante. A pedra da centelha é uma versão mais fraca das renomadas Pedras do Sol que os mestres piromantes da antiguidade podiam fabricar com espíritos de fogo convocados. Atualmente, os magos do fogo têm que se contentar com artefatos menores, longe de serem poderosos, mas ainda assim uma grande ajuda para aqueles cujas habilidades estão relacionadas ao fogo e à queima. Todos os poderes com efeitos de fogo recebem +1 de bônus no dado de efeito quando usados por alguém com uma pedra da centelha na mão ou em cima de seu cajado.</p>"
         },
         "Spell Scroll": {
           "name": "Pergaminho de Magia",
@@ -3884,8 +3884,8 @@
           "name": "Pé de Cajado",
           "description":"<p>Um pé de cajado forjado com magia de fortalecimento pode dar ao cajado de um magista um poder extra quando usado como arma. O artefato é anexado ao cajado e concede +1 de bônus nos Testes de efeito de todos os ataques corpo a corpo ou à distância e em todos os poderes que usam diretamente o cajado como arma. Mesmo que esse artefato seja mais frequentemente anexado a um cajado rúnico, ele pode ser anexado a um bastão de madeira comum com o mesmo efeito.</p>",
           "cost": "10 táleres",
-          "power0Name": "",
-          "power0Description": ""
+          "power0Name": "Pé de Cajado",
+          "power0Description": "<p>O artefato é anexado ao cajado e concede +1 de bônus nos Testes de efeito de todos os ataques corpo a corpo ou à distância e em todos os poderes que usam diretamente o cajado como arma. Mesmo que esse artefato seja mais frequentemente anexado a um cajado rúnico, ele pode ser anexado a um bastão de madeira comum com o mesmo efeito.</p>"
         },
         "Staff Head": {
           "name": "Cabeça de Cajado",
@@ -3905,8 +3905,8 @@
           "name": "Pedra da Alma",
           "description": "<p>Uma Pedra da Alma é o item necessário para realizar o ritual com o mesmo nome.</p>",
           "cost": "100 táleres",
-          "power0Name": "",
-          "power0Description": ""
+          "power0Name": "Pedra da Alma",
+          "power0Description": "<p>Uma Pedra da Alma é o item necessário para realizar o ritual com o mesmo nome.</p>"
         },
         "Toad Guard": {
           "name": "Guarda Anfíbio",
@@ -3962,37 +3962,48 @@
           "description": "<p>O personagem estabeleceu um laço de sangue místico com uma criatura de uma raça diferente. Por causa deste elo, ele ou ela pode escolher investir Experiência para adquirir um traço pertencente à raça do amigo de sangue. É mais provável que o Laço de Sangue do personagem esteja ligado a outro Ser Cultural, mas animais e outras criaturas são uma possibilidade. Provavelmente, a forma com que o personagem entrou para o relacionamento é interessante, e além disso também pode dizer bastante sobre sua história de vida, sua moral e suas visões de mundo.</p>"
         },
         "Bloodhound": {
-          "name": "Bloodhound"
+          "name": "Cão de Caça",
+          "description": "<p>O personagem jogador tem um senso desenvolvido para encontrar pessoas, não importa se os vestígios de sua presença são encontrados no chão, em um esconderijo ou entre os pertences descobertos. O personagem recebe +1 de bônus nos Testes de Vigilante e Astuto para encontrar e seguir pistas, ou para descobrir onde alguém está se escondendo. <br/><br/>Cão de Caça pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Bloodthirst": {
-          "name": "Bloodthirst"
+          "name": "Sanguinário",
+          "description": "<p>O personagem tem sede de sangue, facilmente despertada e difícil de saciar. A sede aparece se ele sofrer dano, e significa que o personagem não poupará nenhum inimigo — nem mesmo se eles se renderem. Tentar poupar um inimigo requer um esforço quase excessivo; requer que o personagem sacrifique um ponto de Experiência e então passe por um Teste de Vigilante.</p>"
         },
         "Cartographer": {
-          "name": "Cartographer"
+          "name": "Cartógrafo",
+          "description": "<p>O personagem foi treinado para desenhar mapas precisos — uma habilidade procurada nesta era de exploração. Ele recebe +1 de bônus em Testes de orientação e localização, tanto na superfície quanto no Submundo. <br/><br/>Cartógrafo pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Cat Burglar": {
-          "name": "Cat Burglar"
+          "name": "Gatuno",
+          "description": "<p>O personagem é treinado para abrir fechaduras, travas e parafusos, e recebe +1 de bônus em todos os Testes para abrir trancas — o Teste é feito contra Rápido se o gatuno estiver com pressa ou contra Discreto quando o desafio é não alertar ninguém que estiver do outro lado da porta. Um Teste de Discreto também é feito para esconder que a tranca foi aberta, caso alguém investigue mais tarde. <br/><br/>Gatuno pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Cheat": {
-          "name": "Cheat"
+          "name": "Trapaceiro",
+          "description": "<p>O personagem é treinado para trapacear em jogos e sabe como evitar a detecção. Ele ou ela recebe +1 de bônus em Testes de Astuto ao apostar, e para se safar de um truque deve passar por um Teste de [Discreto←Vigilante] contra o oponente com o valor mais alto de Vigilante, um Teste que o trapaceiro recebe uma segunda chance de obter sucesso. Trapaceiro pode ser acumulado com Apostador para usar os bônus somados. <br/><br/>Trapaceiro pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Code of Honor": {
-          "name": "Code of Honor"
+          "name": "Código de Honra",
+          "description": "<p>O personagem adotou um código de honra muito rigoroso, aplicável em todas as situações, mas especialmente oneroso em combate. O efeito do código é que o personagem nunca corre de uma luta que tenha começado. Claro, às vezes o combate pode ser evitado mas, uma vez que a luta tenha começado, todos os inimigos devem cair!</p>"
         },
         "Commanding Voice": {
-          "name": "Commanding Voice"
+          "name": "Voz de Comando",
+          "description": "<p>O personagem tem uma voz bem sintonizada e alta, capaz de superar o clamor de combate. Isso fornece +1 de bônus para Testes de Persuasivo em situações em que o personagem dá ordens diretas aos aliados. <br/><br/>Voz de Comando pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Con Artist": {
-          "name": "Con Artist"
+          "name": "Vigarista",
+          "description": "<p>O personagem é treinado para rapidamente distorcer a verdade e generalizar ou exagerar quando for necessário. O personagem recebe +1 de bônus em Testes de Persuasivo e Vigilante a respeito de mentiras, tanto para mentir quanto para perceber quando os outros estão mentindo. A veracidade da mentira geralmente é descoberta rapidamente, então o mentiroso deve se apressar se quiser tirar vantagem disso. <br/><br/>Vigarista pode ser adquirido várias vezes, até um bônus máximo de +3 em Testes relevantes.</p>"
         },
         "Dark Blood": {
-          "name": "Dark Blood"
+          "name": "Sangue Negro",
+          "description": "<p>Sangue negro flui nas veias do personagem, transmitido de um ancestral ou como resultado de ser amaldiçoado. Talvez o personagem jogador tenha simplesmente nascido na parte errada da Davokar na hora errada. O sangue negro sempre vem com alguma forma de estigma físico, representado pelo fardo Bestial. <br/><br/>O personagem pode adquirir e desenvolver os seguintes traços monstruosos como se fossem habilidades comuns: Arma Natural, Armadurado, Asas, Regeneração, Robusto.</p>"
         },
         "Dark Secret": {
-          "name": "Dark Secret"
+          "name": "Segredo Sombrio",
+          "description": "<p>O personagem tem algum tipo de segredo obscuro que, se revelado, ameaça destruir sua vida e reputação. Talvez o personagem tenha sido membro de um culto corrompido, matado alguém ou protegido um assassino e nunca sido pego. Se o segredo sombrio se tornar publicamente conhecido, o personagem receberá o fardo Pária ou Procurado, dependendo do segredo. Uma vez por aventura, há um risco de exposição; o personagem deve fazer um Teste de Discreto durante cada aventura, com uma segunda chance de sucesso. Se falhar, alguém descobre uma pista que pode levar à verdade. Talvez surja algum tipo de evidência física (uma carta, por exemplo) ou uma testemunha alegando ter visto algo, ou então o personagem fala sobre o segredo enquanto dorme. Seja a pessoa suspeita um personagem do mestre ou um personagem jogador, ela deve trabalhar para colocar essa curiosidade sob os panos ou deve suportar as consequências. <br/><br/>Note que alguém que descobrir o segredo sombrio pode optar por extorquir o personagem em vez de expô-lo.</p>"
         },
         "Dexterous": {
-          "name": "Dexterous"
+          "name": "Destro",
+          "description": "<p>O personagem tem dedos excepcionalmente ágeis e recebe um bônus de +1 em todos os Testes de Discreto ao tentar roubar itens ou ocultar itens que ele carrega. <br/><br/>Destro pode ser adquirido várias vezes, até um bônus máximo de +3 em Testes relevantes.</p>"
         },
         "Double-tongue": {
           "name": "Dupla-Língua",
@@ -4043,50 +4054,64 @@
           "description": "<p>O personagem tem uma conexão mística com todas as coisas que crescem e recebe +1 de bônus em Testes relacionados a desafios na natureza, como se orientar na floresta, encontrar comida e abrigo e detectar ou evitar armadilhas naturais. O bônus também se aplica a todos os Testes de Alquimia.</p><p>Dedo Verde pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Heirloom": {
-          "name": "Heirloom"
+          "name": "Herança",
+          "description": "<p>O personagem herdou uma herança de família. Escolha uma arma ou armadura opcional das listas do Livro Básico ou do Guia Avançado do Jogador, exceto itens com algum tipo de qualidade mística.</p>"
         },
         "Hideouts": {
-          "name": "Hideouts"
+          "name": "Esconderijos",
+          "description": "<p>Muitas organizações e redes estabelecem regularmente esconderijos em Ambria e nas regiões externas da Davokar; guildas e facções como as bruxas, os Patrulheiros da Rainha e a maioria dos clãs bárbaros mantêm esses lugares para seus membros. O personagem conhece e tem acesso a uma série de esconderijos ligados a um grupo específico. Lá, ele ou ela pode descansar e substituir ou adquirir equipamentos vitais, incluindo armas e armaduras. <br/><br/>Quando o personagem precisa de um esconderijo, deve rolar um Teste de Astuto — um sucesso significa que o personagem recorda a localização de um lugar na vizinhança. O local é oculto, seguro e contém equipamentos com um valor de 10 táleres; o personagem decide o que é mantido no esconderijo, itens e/ou moedas. Espera-se que a pessoa que pega algo de um esconderijo o substitua mais tarde, ou pelo menos relate o que foi feito e com que propósito.</p>"
         },
         "Horrifying": {
-          "name": "Horrifying"
+          "name": "Horripilante",
+          "description": "<p>O personagem sabe como ameaçar de maneira eficaz e pode assustar as pessoas para que ajam de acordo com sua vontade, mesmo que por pouco tempo. Ele recebe +1 de bônus em todos os Testes de Persuasivo relacionados a ameaças, interrogatórios e coerção. O efeito é momentâneo; mais tarde, a vítima provavelmente vai revidar contra o personagem assim que tiver uma chance. <br/><br/>Horripilante pode ser adquirida várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Impressionist": {
-          "name": "Impressionist"
+          "name": "Impressionista",
+          "description": "<p>O personagem é um impressionista habilidoso, seja tentando personificar um tipo de pessoa pertencente à sua própria raça ou imitando um indivíduo específico. Ele recebe +1 de bônus nos Testes de Discreto ao tentar se passar por outros. Se o personagem apenas pretende agir como um tipo de pessoa (por exemplo, um guarda da cidade) em vez de um indivíduo específico, ele também recebe uma segunda chance para passar no Teste. <br/><br/>Representar um tipo de pessoa pertencente a outra raça é mais difícil; o impressionistapode tentar, mas tem uma segunda chance de falhar no Teste. Indivíduos específicos de outra raça são impossíveis de imitar de uma maneira crível. <br/><br/>Impressionista pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Impulsive": {
-          "name": "Impulsive"
+          "name": "Impulsivo",
+          "description": "<p>O personagem age antes de pensar. Isso significa que, assim que o jogador abrir a boca e disser que o personagem faz alguma coisa, ele o faz — e o jogador não pode ter segundos pensamentos. A única maneira de restringir o personagem é sacrificar um ponto de Experiência ou aceitar um (1) de corrupção permanente.</p>"
         },
         "Manipulator": {
-          "name": "Manipulator"
+          "name": "Manipulador",
+          "description": "<p>O personagem sabe como manipular os outros, usando lisonjas, ameaças ou uma combinação disso. Ele recebe +1 de bônus de Persuasivo contra uma pessoa específica durante a cena. Leva tempo para influenciar alguém; é necessária uma cena de manipulações emocionais para alcançar o efeito pretendido. Por outro lado, a influência dura mais do que simplesmente mentindo — a vítima aceita os sentimentos como seus e os defenderá por muito tempo depois que o manipulador deixar o local. <br/><br/>Manipulador pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Medium": {
-          "name": "Medium"
+          "name": "Médium",
+          "description": "<p>O personagem cresceu na presença de fantasmas e desenvolveu uma conexão com a realidade dos espíritos. Ele recebe +1 de bônus em Testes de Persuasivo, Resoluto e Vigilante com o objetivo de perceber, interagir ou dominar espíritos inquietos. O bônus também se aplica a tentativas de resistir aos poderes de um espírito quando mirado para o personagem do jogador. <br/><br/>Médium pode ser adquirido várias vezes, até +3 de bônus máximo em Testes relevantes.</p>"
         },
         "Mirage": {
           "name": "Miragem",
           "description": "<p>A pessoa tem um dom místico e pode tecer miragens momentâneas no ar; chamas que não emitem calor pulam entre suas mãos, pequenas figuras de luz dançam no ar e assim por diante. O personagem também pode tecer imagens falsas sobre objetos menores, como por exemplo fazer pedrinhas aparecerem como moedas brilhantes. Com o tempo, a miragem não enganará ninguém, pois seu efeito desaparece no final da cena.</p> <p>Com Miragem, a pessoa pode rolar contra Persuasivo para enganar alguém a aceitar produtos falsificados ou pagamento na forma de moedas ilusórias, até um “valor” máximo de 100 táleres. Além disso, Miragem concede +1 em Persuasivo quando o personagem ameaça alguém com “magia poderosa”.</p>"
         },
         "Musician": {
-          "name": "Musician"
+          "name": "Músico",
+          "description": "<p>O personagem é um músico talentoso e possivelmente treinado na arte de cantar e tocar um instrumento. Ele pode dar a si mesmo ou ao seu grupo de aliados +1 de bônus em todos os Testes de Persuasivo; todo mundo gosta de ouvir uma boa música. As habilidades de um músico podem até salvar a vida do personagem, já que uma bela voz e o som de cordas bem afinadas podem acalmar os membros da categoria monstruosa Bestas — se ninguém ameaçar a criatura, um Teste de [Persuasivo←Resoluto] irá impedi-lo de atacar. O personagem e seus aliados poderão então recuar e encontrar outro caminho adiante. <br/><br/>Músico pode ser adquirido várias vezes, até +3 de bônus máximo de em Testes relevantes.</p>"
         },
         "Mystical Mark": {
-          "name": "Mystical Mark"
+          "name": "Marca Mística",
+          "description": "<p>O personagem tem uma marca mística em algum lugar de seu corpo, talvez uma marca de nascimento ou uma cicatriz adquirida mais tarde na vida. Qualquer que seja a origem, o personagem corre o risco de ser confundido como tendo uma marca da mácula. Em situações em que isto for relevante, o personagem deve obter sucesso em um Teste de [Discreto←Vigilante] ou atrai a atenção de um bando empunhando forcados ou de um caçador de bruxa mais ou menos perigoso.</p>"
         },
         "Nightmares": {
-          "name": "Nightmares"
+          "name": "Pesadelos",
+          "description": "<p>O personagem é assombrado por pesadelos todas as noites, possivelmente por causa de algo que ele tenha experimentado, ou por motivos mais obscuros, como um presságio ameaçador ou a consequência de uma maldição familiar. A cada noite, o personagem deve passar num Teste de Resoluto para se curar naturalmente, ou então nenhuma cura ocorrerá naquele dia. Outras formas de cura não são afetadas.</p>"
         },
         "Pack-mule": {
-          "name": "Pack-mule"
+          "name": "Transportador",
+          "description": "<p>O personagem está acostumado a transportar cargas pesadas. A base para o cálculo de sua capacidade de carga é Vigoroso × 1,5. Para informações sobre capacidade de carga, consulte Sobrecarga, na página 107.</p>"
         },
         "Pathfinder": {
-          "name": "Pathfinder"
+          "name": "Desbravador",
+          "description": "<p>O personagem tem sentidos bem apurados para detectar e seguir pistas, tanto abaixo do solo quanto na superfície. Ele ou ela tem uma segunda chance de passar em todos os Testes de Vigilante ao tentar seguir uma trilha ou encontrar o caminho para ir ou voltar de algum lugar.</p>"
         },
         "Pet": {
-          "name": "Pet"
+          "name": "Animal de Estimação",
+          "description": "<p>O personagem tem um amigo fiel na forma de um jakaar ou pesadelino — na verdade, qualquer besta serve, desde que tenha resistência fraca. O animal de estimação é inabalavelmente fiel ao personagem jogador. Em combate e resolução de problemas ele é interpretado pelo jogador como um segundo personagem, mas não ganha Experiência e não pode desenvolver ou evoluir suas estatísticas (para isso você precisa do ritual Familiar). Se o animal morrer, o personagem pode substituí-lo no início da próxima aventura.</p>"
         },
         "Poison Resilient": {
-          "name": "Poison Resilient"
+          "name": "Resiliente ao Veneno",
+          "description": "<p>Expondo-se cuidadosamente às toxinas, o personagem construiu uma resiliência notável. Os venenos afetam o personagem em um nível abaixo do normal — um veneno forte tem o efeito de uma dose moderada; o moderado torna-se fraco e uma dose fraca inflige apenas 1 ponto de dano durante os turnos em que está ativo. O período de tempo não é afetado, apenas a quantidade de dano por turno. Em relação às toxinas que têm outros efeitos negativos além de dano, o personagem tem uma segunda chance em Testes para resistir a eles.</p>"
         },
         "Protégé": {
           "name": "Protegido",
@@ -4975,7 +5000,7 @@
           "power1Name": "Êxtase Sombrio",
           "power1Description": "<p>Com uma jogada bem-sucedida contra Resoluto, o dono do amuleto pode uma vez por turno rerrolar um Teste de Sucesso.</p>",
           "power2Name": "Vingança de Mal-Rogan",
-          "power2Description": "<p>É possível para alguém ligado ao amuleto destruí-lo; é necessário apenas uma jogada bem-sucedida contra Resoluto. Se isso ocorrer, a alma libertada de Mal-Rogan tentará possuir seu antigo mestre, de acordo com as regras para o ritual Possessão na página 145.</p> <p>Mal-Rogan é muito vingativo e irá fazer o máximo para punir todos que estiverem envolvidos em assassiná-lo e roubar seu prezado medalhão; isso é, o grupo inteiro dos personagens jogadores e não apenas aquele que carregou o amuleto.</p> <p>Se a possessão falhar, Mal-Rogan morre de uma vez por todas. O mesmo ocorre quando uma possessão bem-sucedida chega ao fim.</p"
+          "power2Description": "<p>É possível para alguém ligado ao amuleto destruí-lo; é necessário apenas uma jogada bem-sucedida contra Resoluto. Se isso ocorrer, a alma libertada de Mal-Rogan tentará possuir seu antigo mestre, de acordo com as regras para o ritual Possessão na página 145.</p> <p>Mal-Rogan é muito vingativo e irá fazer o máximo para punir todos que estiverem envolvidos em assassiná-lo e roubar seu prezado medalhão; isso é, o grupo inteiro dos personagens jogadores e não apenas aquele que carregou o amuleto.</p> <p>Se a possessão falhar, Mal-Rogan morre de uma vez por todas. O mesmo ocorre quando uma possessão bem-sucedida chega ao fim.</p>"
         },
         "The Serpent Staff of Opadia": {
           "name": "O Cajado Serpente de Opadia",
@@ -5007,7 +5032,7 @@
           "power3Name": "Justiça do Portador da Luz",
           "power3Description": "<p>Aquele que se submete à Água do Crepúsculo pode quebrar o frasco com um pensamento e liberar sua luz julgadora.</p> <p>Todas as criaturas presentes que têm pelo menos um (1) ponto de Corrupção sofrem dano igual ao seu total de Corrupção, enquanto todas as criaturas que pertencem à categoria de monstro Abominação sofrem 1D10+10 de dano. É claro, isso também afeta quem carrega o frasco.</p>",
           "power4Name": "Perdição Brilhante",
-          "power4Description": "<p>Caso aquele que carrega a Água do Crepúsculo e a tem vinculada a ele se torne marcado pela mácula, o frasco detona com o mesmo efeito da Justiça do Portador da Luz.<p>"
+          "power4Description": "<p>Caso aquele que carrega a Água do Crepúsculo e a tem vinculada a ele se torne marcado pela mácula, o frasco detona com o mesmo efeito da Justiça do Portador da Luz.</p>"
         },
         "Bushcraft": {
           "name": "Mateiro",
@@ -5757,7 +5782,7 @@
           "description": "<p>Com nada além de sua presença, olhar e voz, personalidades fortes podem forçar mentes mais fracas a se dobrar no meio de uma batalha furiosa. O personagem é treinado nesta arte de dominar o combate. Entre os gladiadores de Yndaros, isto é considerado uma forma particularmente impressionante de vencer uma batalha, e é tratada como extremamente honrosa entre os clãs bárbaros superar seu inimigo dessa forma.</p> <p>Em situações sociais, esta habilidade também pode ser utilizada para apavorar alguém à obediência e forçá-los a contar segredos.</p>",
           "noviceDescription": "<p>O personagem pode dominar e sobrepujar um combatente inimigo utilizando sua personalidade convincente. O personagem pode utilizar Persuasivo em vez de Preciso em combate corpo a corpo.</p>",
           "adeptDescription": "<p>O personagem pode, com uma Ação Livre e um Teste bem-sucedido de [Persuasivo←Resoluto], forçar um inimigo a hesitar em combate corpo a corpo.</p> <p>Um inimigo hesitante não irá atacar o personagem neste turno. Se possível, ele ataca um dos aliados do personagem em vez disso.</p>",
-          "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
+          "masterDescription": "<p>O personagem pode subjugar um inimigo com um Teste bem-sucedido de [Persuasivo←Resoluto].</p> <p>Um inimigo subjugado pode ser forçado a desistir e negociar, a fugir de uma batalha em curso (se possível) ou render-se se for impossível fugir.</p><p>Quando já estiver em combate, o inimigo primeiro deve ser ferido pelo personagem ou por um de seus aliados antes de ser subjugado.</p>"
         },
         "Equestrian": {
           "name": "Equestre",
@@ -5778,14 +5803,14 @@
           "description": "<p>Pessoas e criaturas que não têm vontade ou força para empunhar armas corpo a corpo pesadas desenvolveram técnicas para fintar. Esta habilidade demanda uma arma com a Qualidade Curta ou Precisa.</p> <p>Graças à perícia do personagem, estas armas podem ser empunhadas de maneira discreta e confusa.</p>",
           "noviceDescription": "<p>O personagem pode escolher atacar com Discreto em vez de Preciso quando o ataque é realizado com uma arma corpo a corpo que seja Curta ou Precisa.</p> <p>Além disso, cada ataque destes recebe a mesma Vantagem, como se o oponente estivesse surpreso.</p>",
           "adeptDescription": "<p>O personagem apresenta uma fraqueza falsa em sua defesa e engana o oponente para atacar essa fraqueza. O personagem pode escolher se defender com Discreto em vez de Rápido.</p>",
-          "masterDescription": "<p>Com uma jogada bem-sucedida de [Discreto←Vigilante] o personagem pode surpreender um inimigo no meio de uma luta. Um Teste bem-sucedido dá ao personagem um Ataque Livre contra esse inimigo além de seus ataques ordinários.</p> O personagem ainda pode realizar um ataque ordinário mesmo se sua tentativa de Finta falhar.</p>"
+          "masterDescription": "<p>Com uma jogada bem-sucedida de [Discreto←Vigilante] o personagem pode surpreender um inimigo no meio de uma luta. Um Teste bem-sucedido dá ao personagem um Ataque Livre contra esse inimigo além de seus ataques ordinários.</p> <p>O personagem ainda pode realizar um ataque ordinário mesmo se sua tentativa de Finta falhar.</p>"
         },
         "Iron Fist": {
           "name": "Punho de Ferro",
-          "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.",
+          "description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
           "noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
           "adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
-          "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional."
+          "masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
         },
         "Leader": {
           "name": "Líder",
@@ -5799,7 +5824,7 @@
           "description": "<p>O personagem é educado e bem-versado nos caminhos do mundo: suas culturas, história, idiomas e artefatos. Por séculos, heróis, monstros e reinos surgiram e desapareceram deixando itens poderosos e textos secretos para trás. Esta habilidade representa conhecimento sobre tais objetos. Através de estudos extensivos, um personagem com esta habilidade conhece, não apenas a história do objeto, mas também suas propriedades e aplicações.</p> <p>A habilidade Mestre do Saber também torna o personagem perito em pesquisar em bibliotecas, registros e documentos administrativos, algo que pode ser bastante útil quando confrontado com esses tipos de problemas e quebra-cabeças.</p>",
           "noviceDescription": "<p>Com uma jogada bem-sucedida contra Astuto, qualquer personagem que é um Mestre do Saber pode descobrir as propriedades de um artefato específico, mas não como ativá-lo. Da mesma forma, o Novato pode utilizar Astuto para traduzir um texto ou compreender o que é dito em outro idioma humano.</p> <p>Um personagem não precisa realizar um Teste quando pronunciar palavras e frase simples, mas uma jogada bem-sucedida contra Astuto é necessária se ele ou ela estiver tentando manter uma conversa.</p>",
           "adeptDescription": "<p>O personagem é um estudioso refinado de artefatos — nos casos em que o poder de um artefato seja ativado por um Teste simples de atributo, o Adepto pode testar contra Astuto em vez do atributo especificado na descrição do poder. Além disso, com um Teste bem-sucedido de Astuto, o Adepto também pode ler e compreender os desagradáveis idiomas de elfos e trolls.</p> <p>Dizer frases simples em Élfico ou Língua Troll não requer um Teste, mas iniciar uma conversação requer uma jogada bem-sucedida contra Astuto.</p>",
-          "masterDescription": "<p>Como um experiente intérprete de pergaminhos, o personagem pode com uma jogada bem-sucedida contra Astuto ativar poderes místicos diretamente de pergaminhos.</p> <p>O Mestre do Saber também pode utilizar Astuto em vez de Resoluto para resistir a efeitos místicos. <p>Além disso, o Mestre é familiarizado com os segredos de Symbaroum. Um Teste bem-sucedido de Astuto é necessário para ser capaz de ler um texto escrito em seu extinto idioma. Não é necessário um Teste para formular frases simples, mas iniciar uma conversa requer uma jogada bem-sucedida contra Astuto</p>"
+          "masterDescription": "<p>Como um experiente intérprete de pergaminhos, o personagem pode com uma jogada bem-sucedida contra Astuto ativar poderes místicos diretamente de pergaminhos.</p> <p>O Mestre do Saber também pode utilizar Astuto em vez de Resoluto para resistir a efeitos místicos.</p> <p>Além disso, o Mestre é familiarizado com os segredos de Symbaroum. Um Teste bem-sucedido de Astuto é necessário para ser capaz de ler um texto escrito em seu extinto idioma. Não é necessário um Teste para formular frases simples, mas iniciar uma conversa requer uma jogada bem-sucedida contra Astuto</p>"
         },
         "Man-at-arms": {
           "name": "Homem-de-Armas",
@@ -5916,7 +5941,7 @@
         "Theurgy": {
           "name": "Teurgia",
           "description": "<p>Teurgia é a tradição mística defendida entre os magos sacerdotes da Igreja de Prios. Teurgia é a doutrina da chama interior, onde a brasa da alma é vista como um reflexo do divino e da luz do sol que concede a vida.</p>",
-          "noviceDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição da Teurgia, nem quando aprender seus rituais.</p> <p>Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais da Teurgia./<p>",
+          "noviceDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Novato pertencentes à tradição da Teurgia, nem quando aprender seus rituais.</p> <p>Apesar disto, o personagem ainda sofre a Corrupção temporária que ocorre por usar os poderes e rituais da Teurgia.</p>",
           "adeptDescription": "<p>O teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Adepto pertencentes à tradição da Teurgia.</p> <p>O teurgo Adepto também aprendeu a repousar os poderes e rituais da Teurgia em uma fundação de fé, portanto, agora o teurgo sofre apenas um (1) ponto de Corrupção temporária quando conjurá-los.</p>",
           "masterDescription": "<p>O teurgo alcançou uma compreensão superior da essência de seus poderes sagrados e, portanto, cura 1D4 adicional quando usar poderes de cura e sagrados, incluindo aqueles que ferem abominações e mortos-vivos.</p> <p>Além disso, o teurgo não sofre mais Corrupção permanente quando aprender poderes no nível Mestre pertencentes à tradição da Teurgia. </p>"
         },
@@ -6057,7 +6082,7 @@
         },
         "Manifestation": {
           "name": "Manifestação",
-          "description": "<p>A criatura disciplinou sua Forma de Espírito ao ponto que pode se manifestar fisicamente por períodos menores ou maiores.",
+          "description": "<p>A criatura disciplinou sua Forma de Espírito ao ponto que pode se manifestar fisicamente por períodos menores ou maiores.</p>",
           "noviceDescription": "<p>O espírito pode se manifestar fisicamente por um turno e, dessa forma, agir como se possuísse um corpo físico.</p> <p>Caso a Ação de Movimento de um turno seja o suficiente para cruzar a água, então o espírito pode fazê-lo. </p> <p>O espírito pode usar seus ataques desarmados ou armas naturais durante o turno, mas sofre dano de qualquer coisa que afete criaturas físicas.</p>",
           "adeptDescription": "<p>O espírito pode se manifestar com quaisquer armas e armadura que possuísse quando morreu, e usá-las em batalha.</p> <p> O espírito pode se manifestar com quaisquer armas e armadura que possuísse quando morreu, e usá-las em batalha. O espírito pode ficar físico por quanto tempo desejar, mas não pode mudar de forma no meio de um turno — caso o espírito comece seu turno em forma física, então o turno é jogado em forma física.</p> <p>Se quiser, o espírito pode andar em forma física por uma cena inteira, para cruzar água, por exemplo. Caso o espírito seja forçado a, ou escolher, retornar a sua forma espectral enquanto estiver cruzando água, ele é jogado de volta ao chão sólido.</p>",
           "masterDescription": "<p> O espírito dominou completamente sua Manifestação e pode agir fisicamente com qualquer Ação que desejar, enquanto continua imaterial para todo o resto. Ele pode atacar fisicamente, ainda que se defenda como um espírito.</p> <p>O espírito não pode ser ferido de qualquer forma, além da que é apontada na descrição de seu nível de Forma Espiritual. Caso queira, o espírito pode ficar na forma física sem problemas, para uma longa jornada de barco, por exemplo.</p> <p>Caso o espírito seja forçado a, ou escolha, retornar à sua forma espectral enquanto estiver cruzando água, ele é jogado de volta ao chão sólido.</p>"
@@ -6072,7 +6097,7 @@
         },
         "Poison Spit": {
           "name": "Cuspir Veneno",
-          "description": "<p>A criatura não é apenas Venenosa; ela também pode cuspir veneno em seus inimigos. O ataque venenoso é feito como um ataque à distância comum; se atingida, a vítima deve passar em um Teste de [Astuto←Vigoroso] para evitar ser envenenada.</p> <p>O cuspe venenoso conta como um ataque à distância.</p>O efeito do veneno continua até que alguém aplique um antídoto e obtenha sucesso em um Teste de Astuto.</p> <p>Cuspir Veneno requer que a criatura possua o traço Venenoso no mesmo nível ou mais alto.</p>",
+          "description": "<p>A criatura não é apenas Venenosa; ela também pode cuspir veneno em seus inimigos. O ataque venenoso é feito como um ataque à distância comum; se atingida, a vítima deve passar em um Teste de [Astuto←Vigoroso] para evitar ser envenenada.</p> <p>O cuspe venenoso conta como um ataque à distância.</p><p>O efeito do veneno continua até que alguém aplique um antídoto e obtenha sucesso em um Teste de Astuto.</p> <p>Cuspir Veneno requer que a criatura possua o traço Venenoso no mesmo nível ou mais alto.</p>",
           "noviceDescription": "<p>O veneno é fraco e causa 2 pontos de dano por 2 turnos.</p>",
           "adeptDescription": "<p>O veneno é moderadamente forte e causa 3 pontos de dano por 3 turnos.</p>",
           "masterDescription": "<p>O veneno é forte e causa 4 pontos de dano por 4 turnos.</p>"
@@ -6513,7 +6538,7 @@
         "APG - Artifacts": "GAJ - Artefatos",
         "APG - Boons/Burdens": "GAJ - Dávidas/Fardos",
         "APG - Equipment": "GAJ - Equipmentos",
-        "1 Food and Drink": "1 Food and Drink",
+        "1 Food and Drink": "1 Comidas e Bebidas",
         "APG - Powers": "GAJ - Poderes",
         "APG - Rituals": "GAJ - Rituais",
         "APG - Traits": "GAJ - Traços",
