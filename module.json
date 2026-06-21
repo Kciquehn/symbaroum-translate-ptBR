@@ -13,8 +13,7 @@
   "version": "0.4.6",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.344",
-    "maximum": "13.999"
+    "verified": "13.999"
   },
   "esmodules": [
     "register.js"
