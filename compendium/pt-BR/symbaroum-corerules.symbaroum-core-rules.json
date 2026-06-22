@@ -4177,13 +4177,19 @@
           "cost": "5 xelins"
         },
         "Arrow - Flame": {
-          "name": "Arrow - Flame"
+          "name": "Flecha - Flamejante",
+          "description": "<p>Um projétil com cabeça incendiada. É utilizado frequentemente para atear fogo ao alvo, seja uma criatura viva, um edifício ou um campo de grãos (veja a qualidade Flamejante para obter detalhes).</p><hr><p><strong>Flamejante</strong> <br/><br/>A arma brilha e até faísca antes de acender em chamas quando usada ativamente. A arma causa dano como sempre, mas o alvo começa a queimar — causando 1D4 de dano por 1D4 turnos, iniciando no turno após o golpe inicial. O fogo é extinto se o alvo usar um turno inteiro para rolar no chão e passar em um Teste de Rápido.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Grappling Hook": {
-          "name": "Arrow - Grappling Hook"
+          "name": "Flecha - Arpéu",
+          "description": "<p>A flecha envia um gancho voando no máximo dez metros verticais ou trinta metros horizontais. Um fio de seda fino torna possível içar uma corda mais resistente até o gancho e, uma vez que presa ao gancho, pode ser usada para escalar.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Hammer Head": {
-          "name": "Arrow - Hammer Head"
+          "name": "Flecha - Cabeça de Martelo",
+          "description": "<p>A cabeça em forma de bola dessa flecha é feita para atordoar, e ferir o alvo. Após um acerto bem-sucedido, o dano é rolado como de costume, mas o resultado é usado para decidir se o alvo está atordoado [Vigoroso –Dano]. Se o alvo ficar atordoado, ele não poderá executar nenhum tipo de ação no turno seguinte.</p>",
+          "cost": "5 xelins"
         },
         "Arrow - Precision": {
           "name": "Flecha - Precisão",
@@ -4215,34 +4221,51 @@
           "cost": "1 táler"
         },
         "Artifact Catalogue": {
-          "name": "Artifact Catalogue"
+          "name": "Catálogo de Artefatos",
+          "description": "<p>Esta cópia bem manuseada, que compila todo o conhecimento do criador de artefatos troll Xavaundo, foi registrada pela Mestre Balinda da Ordo Magica e concede +1 de bônus em Testes de Sucesso com Criar Artefatos.</p>",
+          "cost": "10 táleres"
         },
         "Bagpipe": {
-          "name": "Bagpipe"
+          "name": "Gaita de Fole",
+          "description": "<p>Uma flauta é presa a uma bolsa de couro que funciona como um fole. Este instrumento é particularmente popular entre alguns dos clãs, mas suas versões também podem ser encontradas em todo o interior de Ambria. No entanto, nunca é visto nos seus melhores salões…</p>",
+          "cost": "1 táler"
         },
         "Bestiary": {
-          "name": "Bestiary"
+          "name": "Bestiário",
+          "description": "<p>Um catálogo ricamente ilustrado dos perigos do mundo, incluindo notas marginais de proprietários anteriores sobre as melhores maneiras de evitar monstros — ou como combatê-los efetivamente. O bestiário fornece +1 de bônus em Testes de Sucesso com Saber de Bestas.</p>",
+          "cost": "10 táleres"
         },
         "Birch-bark Horn": {
-          "name": "Birch-bark Horn"
+          "name": "Chifre de Casca de Bétula",
+          "description": "<p>Os plebeus no interior de Ambria usam esses chifres para vários propósitos, mas principalmente para espantar feras e atrair gado. O chifre também é usado para enviar mensagens a longas distâncias; um pastor solitário pode emitir sinais para pastagens ao seu redor. Na verdade, os tocadores de chifre qualificados tocam de uma maneira única, para que todos saibam quem está enviando a mensagem: \"aqui estão trilhas de baiagorn\", \"está faltando uma vaca\" ou \"goblins roubaram meu queijo\".</p>",
+          "cost": "1 xelim"
         },
         "Brass Horn": {
-          "name": "Brass Horn"
+          "name": "Chifre de Bronze",
+          "description": "<p>Um instrumento decente para situações pomposas.</p>",
+          "cost": "1 táler"
         },
         "Cardamom, one box": {
-          "name": "Cardamom, one box"
+          "name": "Cardamomo, uma caixa",
+          "cost": "5 ortegas"
         },
         "Cartographer’s Instruments": {
-          "name": "Cartographer’s Instruments"
+          "name": "Instrumentos de Cartógrafo",
+          "description": "<p>Utensílios para escrever, pergaminho, bússola, régua e sextante são os instrumentos básicos de um cartógrafo treinado. O uso dessas ferramentas concede +1 de bônus em todos os Testes de Sucesso ao tentar desenhar mapas precisos.</p>",
+          "cost": "10 táleres"
         },
         "Cheating Kit": {
-          "name": "Cheating Kit"
+          "name": "Kit de Trapaça",
+          "description": "<p>Dados viciados, cartões marcados e peças de jogo concedem +1 de bônus em todos os Testes de Sucesso ao apostar (veja a dádiva Trapaceiro, na página 55, para riscos de trapaça em jogos).</p>",
+          "cost": "10 táleres"
         },
         "Chewing Tobacco, one box": {
-          "name": "Chewing Tobacco, one box"
+          "name": "Tabaco de Mascar, uma caixa",
+          "cost": "6 ortegas"
         },
         "Cinnamon, one box": {
-          "name": "Cinnamon, one box"
+          "name": "Canela, uma caixa",
+          "cost": "1 táler"
         },
         "Clay Pipe": {
           "name": "Cachimbo de Argila",
@@ -4262,34 +4285,52 @@
           "cost": "5 xelins"
         },
         "Cotton Fabric, one roll": {
-          "name": "Cotton Fabric, one roll"
+          "name": "Tecido de Algodão, um rolo",
+          "cost": "1 táler"
         },
         "Cumin, one box": {
-          "name": "Cumin, one box"
+          "name": "Cominho, uma caixa",
+          "cost": "6 ortegas"
         },
         "Disguise Kit": {
-          "name": "Disguise Kit"
+          "name": "Kit de Disfarce",
+          "description": "<p>Maquiagem, perucas e cera para alterar as características faciais estão incluídas no kit, juntamente com uma variedade de roupas básicas de importância local. O kit concede +1 de bônus em todos os Testes de Sucesso ao tentar enganar alguém com um disfarce.</p>",
+          "cost": "10 táleres"
         },
         "Excavation Tools": {
-          "name": "Excavation Tools"
+          "name": "Ferramentas de Escavação",
+          "description": "<p>Duas pás, um pequeno espeto, uma peneira e um balde, junto com escovas, uma linha de medição com vários nós e uma lupa. As ferramentas de escavação fornecem +1 de bônus na busca de tesouros nas ruínas do mundo.</p>",
+          "cost":"10 táleres"
         },
         "Fiddle": {
-          "name": "Fiddle"
+          "name": "Violino",
+          "description": "<p>Um instrumento geralmente de três cordas, tocado com um arco feito de crina de cavalo, muito comum entre os camponeses de Ambria.</p>",
+          "cost": "3 táleres"
         },
         "Field Laboratory": {
-          "name": "Field Laboratory"
+          "name": "Laboratório de Campo",
+          "description": "<p>Queimador, suporte de balão, pipetas, argamassa e outros instrumentos necessários para um alquimista. O laboratório de campo concede +1 de bônus em todos os Testes de Sucesso com Alquimia.</p>",
+          "cost": "10 táleres"
         },
         "Field Library": {
-          "name": "Field Library"
+          "name": "Biblioteca de Campo",
+          "description": "<p>Meia dúzia de livros de referência, juntamente com uma dúzia de pergaminhos sobre tópicos mais especializados. A biblioteca de campo concede +1 de bônus em todos os Testes com Mestre do Saber.</p>",
+          "cost": "10 táleres"
         },
         "Field Smithy": {
-          "name": "Field Smithy"
+          "name": "Ferraria de Campo",
+          "description": "<p>A ferraria de campo portátil é uma obrigação para todos os ferreiros em viagem. Consiste em uma coleção de ferramentas, um forno de campo com banho de água e uma pequena bigorna. Qualquer pessoa que use a ferraria recebe +1 de bônus em Testes de Sucesso com Ferreiro.</p>",
+          "cost": "10 táleres"
         },
         "Field Surgeon’s Instrument Kit": {
-          "name": "Field Surgeon’s Instrument Kit"
+          "name": "Kit de Instrumentos Cirúrgicos de Campo",
+          "description": "<p>O kit de um cirurgião de campo contém ferramentas para queimar, cortar e tratar feridas e doenças e concede +1 de bônus em todos os Testes de Sucesso com a habilidade Médico.</p>",
+          "cost": "10 táleres"
         },
         "Forgery Kit": {
-          "name": "Forgery Kit"
+          "name": "Kit de Falsificação",
+          "description": "<p>Além de uma lupa, papel, pergaminho e uma coleção de canetas e tinta, este pacote inclui selos, símbolos e artigos de papelaria pré-impressos de uma longa lista de organizações, casas comerciais e similares. O kit fornece ao usuário +1 de bônus em todos os Testes ao tentar enganar alguém com um documento falsificado.</p>",
+          "cost": "10 táleres"
         },
         "Fruit Tobacco, one box": {
           "name": "Fruit Tobacco, one box"
@@ -5098,7 +5139,7 @@
           "cost": "5 ortegas"
         },
         "Blanket": {
-          "name": "Cobertor - teste",
+          "name": "Cobertor",
           "cost": "2 ortegas"
         },
         "Boots": {
