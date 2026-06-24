@@ -4472,28 +4472,36 @@
           "cost": "5 xelins"
         },
         "Ale-porridge with Butter": {
-          "name": "Ale-porridge with Butter"
+          "name": "Mingau de aveia com manteiga ",
+          "cost": "2 xelins"
         },
         "Barbecued Young-boar with Beats": {
-          "name": "Barbecued Young-boar with Beats"
+          "name": "Javali assado com batatas",
+          "cost": "6 xelins"
         },
         "Blood-soup with Dark Bread": {
-          "name": "Blood-soup with Dark Bread"
+          "name": "Sopa de sangue com pão escuro",
+          "cost": "5 ortegas"
         },
         "Bottle of Blot (mulled wine)": {
-          "name": "Bottle of Blot (mulled wine)"
+          "name": "Garrafa de Mancha (vinho quente)",
+          "cost": "3 táleres"
         },
         "Bottle of Ludendrink (mulled wine)": {
-          "name": "Bottle of Ludendrink (mulled wine)"
+          "name": "Garrafa de Luden (vinho quente)",
+          "cost": "2 táleres"
         },
         "Bottle of of Vearra’s Red (simple wine)": {
-          "name": "Bottle of of Vearra’s Red (simple wine)"
+          "name": "Garrafa de vinho tinto de Vearra (vinho simples)",
+          "cost": "2 táleres"
         },
         "Bottle of Red Wine (unspecified)": {
-          "name": "Bottle of Red Wine (unspecified)"
+          "name": "Garrafa de vinho tinto (não especificado) ",
+          "cost": "1 táleres"
         },
         "Bottle of Southern Slopes (from Alberetor)": {
-          "name": "Bottle of Southern Slopes (from Alberetor)"
+          "name": "Garrafa das Encostas do Sul (de Alberetor)",
+          "cost": "15 táleres"
         },
         "Bottle of White Wine (unspecified)": {
           "name": "Bottle of White Wine (unspecified)"
@@ -5656,13 +5664,25 @@
           "description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
         },
         "Agile Combat": {
-          "name": "Agile Combat"
+          "name": "Combate Ágil",
+          "description": "<p><strong>Disponível apenas para Jurado de Ferro</strong> <p>Durante o combate em áreas arborizadas e em terrenos montanhosos, a distância entre os oponentes pode mudar rapidamente de distância para corpo a corpo. O Jurado do Ferro desenvolveu técnicas para lidar com essas rápidas mudanças entre os tipos de armas, e os mais habilidosos entre eles podem dançar no campo de batalha, alternando entre armas corpo a corpo e à distância e usando cada ataque hostil para fazer contra-ataques. O personagem é treinado nas técnicas avançadas dos Jurados do Ferro sobre como sair vitorioso de escaramuças.</p>",
+          "noviceDescription": "<p>O personagem pode dividir seu movimento e executar uma parte da ação de movimento antes da ação de combate, e a outra parte depois. Isso é feito para aproveitar ao máximo o terreno e a cobertura. O personagem ainda sofre Ataques Livres de inimigos se o movimento o levar ao alcance de combate corpo a corpo. </p>",
+          "adeptDescription": "<p>Como parte de sua ação de combate, o personagem pode alternar livremente entre as armas. Isso só diz respeito à troca de armas; não fornece uma ação extra a ser usada para mais nada.</p> <p>Por exemplo, o Jurado do Ferro pode começar segurando duas armas, mover uma parte de seu movimento e, como uma ação de combate, mudar para um arco, dispará-lo, e depois voltar para duas armas. Finalmente, o resto do movimento é feito.</p>",
+          "masterDescription": "<p>O personagem ganha uma segunda chance de passar em todos os Testes de Defesa contra Ataques Livres por recuar do corpo a corpo. Além disso, todo Ataque Livre contra o personagem permite que o Jurado do Ferro faça seu próprio Ataque Livre contra o inimigo. O personagem pode trocar armas livremente por esses contra-ataques e escolher a ferramenta que melhor se adapta à situação.</p>"
         },
         "Armored Mystic": {
-          "name": "Armored Mystic"
+          "name": "Místico Blindado",
+          "description": "<p><strong>Disonível apenas para Templários</strong> <p>Os templários desenvolveram técnicas para performar os milagres de Prios enquanto usavam armadura completa. Quando os Cavaleiros do Sol Moribundo atacam um povoado cheio de hereges ou crias sombrias, está longe de ser incomum vê-los explodir seus inimigos e abençoar seus aliados enquanto se vestem em aço.</p>",
+          "noviceDescription": "<p>Os poderes místicos do personagem não são afetados pelo uso de armadura média. A armadura afeta a Defesa como de costume.</p>",
+          "adeptDescription": "<p>Os poderes místicos do personagem não são afetados pelo uso de armadura pesada. A armadura afeta a Defesa como de costume. </p>",
+          "masterDescription": "<p>O místico blindado transcendeu as limitações da armadura e pode se beneficiar dela. Um bônus de +1D4 é adicionado ao valor de proteção da armadura quando o místico a usa, uma vez que as energias místicas fluem através do aço.</p>"
         },
         "Arrow Jab": {
-          "name": "Arrow Jab"
+          "name": "Golpe com Flecha",
+          "description": "<p>No caos do campo da batalha, arqueiros às vezes se veem arrastados para o corpo a corpo. Para lidar com isso, foram desenvolvidas técnicas sobre como usar armas à distância no curto alcance. Essa habilidade pode ser usada com qualquer tipo de arco ou besta.</p>",
+          "noviceDescription": "<p>Como uma reação a um ataque corpo a corpo contra ele, o personagem pode sacar uma flecha e usá-la para esfaquear um inimigo. O personagem deve obter sucesso com um ataque normal contra o inimigo; um acerto causa 1D6 de dano e as qualidades do projétil (se houver) são contadas.</p>",
+          "adeptDescription": "<p>Como no nível novato, mas causa 1D8 de dano.</p>",
+          "masterDescription": "<p>Como no nível adepto, mas o mestre também desfere um Ataque Livre com o arco se o golpe com o flecha acertar. O mestre apunhala com o projétil, e então (se bem-sucedido) carrega o arco para fazer um ataque à distância normal contra o alvo. Se estiver usando uma besta, isso requer que ela já esteja carregada e que a punhalada inicial seja feita com outro virote, ou que o personagem esteja em posse de uma besta de repetição.</p>"
         },
         "Artifact Crafting": {
           "name": "Artifact Crafting"
@@ -6256,7 +6276,12 @@
           
         },
         "Anathema": {
-          "name": "Anathema"
+          "name": "Anátema",
+          "material": "Um pequeno sino de prata.",
+          "description": "<p>O Místico tem estudado os segredos da contramágica e pode dissipar os efeitos de outros poderes. Anátema não afeta rituais; seu elo místico é muito bem tecido e pode ser dissipado somente por outros rituais.</p>",
+          "noviceDescription": "<p>Obtendo sucesso em uma jogada de [Resoluto←Resoluto], o Místico pode dispersar os efeitos contínuos do poder em uma criatura, ou em si mesmo caso o Místico esteja apto a usar magias. É o Resoluto do Místico que liberou o poder que é utilizado como resistência quando o Teste é realizado.</p>",
+          "adeptDescription": "<p>O Místico pode dispersar os efeitos contínuos de várias criaturas em uma Corrente; o Teste é feito para um alvo de cada vez.</p>",
+          "masterDescription": "<p>O Místico agora é poderoso o suficiente para dispersar todos os tipos de efeitos místicos, incluindo efeitos e criaturas convocadas, obtendo sucesso em um Teste de Resoluto.</p>"
         },
         "Bend Will": {
           "name": "Dobrar Vontade",
