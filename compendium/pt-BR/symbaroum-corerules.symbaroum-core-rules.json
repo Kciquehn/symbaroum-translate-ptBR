@@ -6494,7 +6494,8 @@
         },
         "Bow": {
           "name": "Arco",
-          "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
+          "description": "<p>Recarregar um arco conta como uma Ação Livre.</p>",
+          "cost": "5 Táleres"
         },
         "Buckler": {
           "name": "Broquél",
