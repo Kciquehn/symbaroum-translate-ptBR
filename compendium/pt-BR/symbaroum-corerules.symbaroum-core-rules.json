@@ -65,6 +65,8 @@
     }
   },
 
+  "folders": {},
+
   "entries": {
     "Symbaroum Core Rules": {
       "name": "Symbaroum Regras Básicas",
@@ -4333,100 +4335,141 @@
           "cost": "10 táleres"
         },
         "Fruit Tobacco, one box": {
-          "name": "Fruit Tobacco, one box"
+          "name": "Tabaco Frutado, uma caixa",
+          "cost": "4 ortegas"
         },
         "Ginger, one box": {
-          "name": "Ginger, one box"
+          "name": "Gengibre, uma caixa",
+          "cost": "5 ortegas"
         },
         "Gold, one bar": {
-          "name": "Gold, one bar"
+          "name": "Ouro, uma barra",
+          "cost": "500 táleres"
         },
         "Grain, one sack": {
-          "name": "Grain, one sack"
+          "name": "Grãos, uma saca",
+          "cost": "2 xelins"
         },
         "Herbal Tobacco, one box": {
-          "name": "Herbal Tobacco, one box"
+          "name": "Tabaco de Ervas, uma caixa",
+          "cost": "2 xelins"
         },
         "Hurdy-gurdy": {
-          "name": "Hurdy-gurdy"
+          "name": "Hurdy-gurdy",
+          "description": "<p>O hurdy-gurdy é um instrumento de corda com uma manivela que dá origem a um som de rangido para acompanhar ritmicamente a música. Há muito que é popular em Ambria (e em Alberetor antes disso), mas em Yndaros passou a ser associado a mendigos. Muitos refugiados do sul ganham a vida expondo constantemente os que passam a uma cacofonia de zumbidos melódicos, rangidose trituração.</p>",
+          "cost": "3 táleres"
         },
         "Iron, one bar": {
-          "name": "Iron, one bar"
+          "name": "Ferro, uma barra",
+          "cost": "1 táler"
         },
         "Long-stemmed Seafoam Pipe": {
-          "name": "Long-stemmed Seafoam Pipe"
+          "name": "Cachimbo Espuma do Mar",
+          "cost": "1 táler"
         },
         "Longbottom Leaf, one box": {
-          "name": "Longbottom Leaf, one box"
+          "name": "Folha Amarga, uma caixa",
+          "cost": "8 xelins"
         },
         "Lute": {
-          "name": "Lute"
+          "name": "Alaúde",
+          "description": "<p>Instrumento de cordas com base em formato de pera, tocado com os dedos ou com uma palheta.</p>",
+          "cost": "15 xelins"
         },
         "Mechanical Trap - Moderate": {
-          "name": "Mechanical Trap - Moderate"
+          "name": "Armadilha Mecânica - Moderada",
+          "description": "<p>Armadilhas mecânicas existem em muitos modelos, mas a versão básica consiste em dois semicírculos irregulares que se fecham quando acionados. Um Teste de [Vigoroso←Astuto] é necessário para se libertar, sendo este último o valor do atributo do criador da armadilha (pode-se presumir que o armadilheiro médio possua Astuto 13 (– 3)). Cada tentativa de libertar conta como uma ação de combate. <br/><br/><strong>Moderada:</strong> A armadilha causa 1D10 de dano.</p>",
+          "cost": "2 táleres"
         },
         "Mechanical Trap - Strong": {
-          "name": "Mechanical Trap - Strong"
+          "name": "Armadilha Mecânica - Forte",
+          "description": "<p>Armadilhas mecânicas existem em muitos modelos, mas a versão básica consiste em dois semicírculos irregulares que se fecham quando acionados. Um Teste de [Vigoroso←Astuto] é necessário para se libertar, sendo este último o valor do atributo do criador da armadilha (pode-se presumir que o armadilheiro médio possua Astuto 13 (– 3)). Cada tentativa de libertar conta como uma ação de combate. <br/><br/><strong>Forte:</strong> A armadilha causa 1D12 de dano.</p>",
+          "cost": "3 táleres"
         },
         "Mechanical Trap - Weak": {
-          "name": "Mechanical Trap - Weak"
+          "name": "Armadilha Mecânica - Fraca",
+          "description": "<p>Armadilhas mecânicas existem em muitos modelos, mas a versão básica consiste em dois semicírculos irregulares que se fecham quando acionados. Um Teste de [Vigoroso←Astuto] é necessário para se libertar, sendo este último o valor do atributo do criador da armadilha (pode-se presumir que o armadilheiro médio possua Astuto 13 (– 3)). Cada tentativa de libertar conta como uma ação de combate. <br/><br/><strong>Fraca:</strong> A armadilha causa 1D8 de dano.</p>",
+          "cost": "1 táler"
         },
         "Mint, one box": {
-          "name": "Mint, one box"
+          "name": "Menta, uma caixa",
+          "cost": "5 ortegas"
         },
         "Mouth Harp": {
-          "name": "Mouth Harp"
+          "name": "Harpa de Boca",
+          "description": "<p>A pequena harpa de boca é carregada por muitos trabalhadores, artistas e bobos da corte, e seu som geralmente pode ser ouvido em segundo plano em reuniões nos ambientes mais simples da Ambria.</p>",
+          "cost": "5 xelins"
         },
         "Oil (vegetable), one earthen": {
-          "name": "Oil (vegetable), one earthen"
+          "name": "Óleo (vegetal), um pote",
+          "cost": "5 ortegas"
         },
         "Poison Manual": {
-          "name": "Poison Manual"
+          "name": "Manual de Venenos",
+          "description": "<p>Um manual sobre o uso de venenos, ricamente ilustrado com exemplos sobre o que fazer e o que não fazer, a fim de preparar com sucesso cozimentos e elixires. Qualquer pessoa que use o manual recebe +1 de bônus em todos os Testes de Sucesso com Veneficista.</p>",
+          "cost": "10 táleres"
         },
         "Saffron, one box": {
-          "name": "Saffron, one box"
+          "name": "Açafrão, uma caixa",
+          "cost": "50 táleres"
         },
         "Salt, one sack": {
-          "name": "Salt, one sack"
+          "name": "Sal, uma saca",
+          "cost": "1 xelim"
         },
         "Silk, one roll": {
-          "name": "Silk, one roll"
+          "name": "Seda, um rolo",
+          "cost": "50 táleres"
         },
         "Silver, one bar": {
-          "name": "Silver, one bar"
+          "name": "Prata, uma barra",
+          "cost": "50 táleres"
         },
         "Smelling Snuff, one box": {
-          "name": "Smelling Snuff, one box"
+          "name": "Rapé Cheiroso, uma caixa",
+          "cost": "2 táleres"
         },
         "Smoke Tube": {
-          "name": "Smoke Tube"
+          "name": "Cachimbo de Fumaça",
+          "cost": "5 ortegas"
         },
         "Snuff Box": {
-          "name": "Snuff Box"
+          "name": "Caixa de Rapé",
+          "cost": "1 xelim"
         },
         "Spices, one box": {
-          "name": "Spices, one box"
+          "name": "Especiarias, uma caixa",
+          "cost": "3 ortegas"
         },
         "Spinet": {
-          "name": "Spinet"
+          "name": "Espineta",
+          "description": "<p>A espineta é um instrumento de escala popular na corte de Yndaros e forma a espinha dorsal da Corte Musical de Ambria, junto com o alaúde.</p>",
+          "cost": "15 táleres"
         },
         "Sugar, one sack": {
-          "name": "Sugar, one sack"
+          "name": "Açúcar, uma saca",
+          "cost": "1 táler"
         },
         "Tar, one barrel": {
-          "name": "Tar, one barrel"
+          "name": "Alcatrão, um pote",
+          "cost": "1 xelim"
         },
         "Trapper’s Manual": {
-          "name": "Trapper’s Manual"
+          "name": "Manual do Armadilheiro",
+          "description": "<p>Uma cópia usada do tomo lascivo do famoso ogro Mandíbula Cruel que contém um longo registro de armadilhas, de simples agarradoras e armadilhas em tampas de caixas a engenhocas maciças adequadas para o túmulo de um rei. O livro concede +1 de bônus em todos os Testes de Sucesso com Armadilheiro.</p>",
+          "cost": "10 táleres"
         },
         "Turmeric, one box": {
-          "name": "Turmeric, one box"
+          "name": "Cúrcuma, uma caixa",
+          "cost": "1 ortega"
         },
         "Vinegar, one earthen": {
-          "name": "Vinegar, one earthen"
+          "name": "Vinagre, um pote",
+          "cost": "1 xelim"
         },
         "Wooden Pipe": {
-          "name": "Wooden Pipe"
+          "name": "Cachimbo de Madeira",
+          "cost": "5 xelins"
         },
         "Ale-porridge with Butter": {
           "name": "Ale-porridge with Butter"
