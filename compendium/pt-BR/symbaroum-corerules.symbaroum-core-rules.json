@@ -275,7 +275,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Long-Lived": {
               "name": "Vida Longa",
@@ -452,7 +453,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Scalemail": {
               "name": "Brunea",
@@ -481,7 +483,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Mask": {
               "name": "Máscara",
@@ -523,7 +526,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Woven Silk": {
               "name": "Seda Tecida",
@@ -808,7 +812,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Waybread": {
               "name": "Pão de viagem",
@@ -875,7 +880,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Longbow": {
               "name": "Arco Longo",
@@ -907,7 +913,8 @@
           "items": {
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Throwing knife": {
               "name": "Faca de Arremesso",
@@ -967,7 +974,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Hat": {
               "name": "Chapéu",
@@ -2372,7 +2380,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Shield": {
               "name": "Escudo",
@@ -2461,7 +2470,8 @@
           "items": {
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Scalemail": {
               "name": "Brunea",
@@ -2559,7 +2569,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Quiver (Poisoned)": {
               "name": "Aljava (Envenenada)",
@@ -3235,7 +3246,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Shield": {
               "name": "Escudo",
@@ -3445,7 +3457,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Two-handed Sword": {
               "name": "Espada Bastarda, duas mãos",
@@ -3510,7 +3523,8 @@
             },
             "Sword": {
               "name": "Espada",
-              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "Leather Apron": {
               "name": "Avental de Couro",
@@ -6842,7 +6856,8 @@
         },
         "Sword": {
           "name": "Espada",
-          "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
+          "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+          "cost": "5 táleres"
         },
         "Throwing axe": {
           "name": "Machado de Arremesso",

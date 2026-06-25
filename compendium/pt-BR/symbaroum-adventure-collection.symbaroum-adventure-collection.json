@@ -66,11 +66,11 @@
   "folders": {},
   "entries": {
     "Symbaroum Adventure Collection": {
-      "name": "Symbaroum Adventure Collection",
-      "description": "<p><strong>Initialize Symbaroum RPG Adventure Collection</strong><br />This will import all Journals and Scenes into your world and organise them into folders</p><ul><li><p><strong>6 Legendary Scenarios:</strong></p><ul><li>The Mark of the Beast</li><li>The Tomb of Dying Dreams</li><li>Fever of the Hunt</li><li>The Bell Tolls for Kastor</li><li>The Howling of Dammed Gods</li><li>What's Bred in the Bone</li></ul></li></ul><p>Published by: <strong>Free League Publishing</strong> <a href=\"https://frialigan.se/\">Free League</a><br />Foundry Visualisation by <strong>Paul Watson</strong><br />Thanks for their help, support and system development to:<br /><strong>Peter Norell (Bithir) and Khaali</strong> <br /><br /><span style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, stored in a retrieval system, or transmitted in any form by any means, electronic, mechanical, photocopying, recording or otherwise without the prior permission of the publishers.</span></p>",
+      "name": "Symbaroum - Coleção de Aventuras",
+      "description": "<p><strong>Inicializar a Coleção de Aventuras de RPG Symbaroum</strong><br />Isso importará todos os Diários e Cenas para o seu mundo e os organizará em pastas.</p><ul><li><p><strong>6 Cenários Lendários:</strong></p><ul><li>A Marca da Besta</li><li>O Túmulo dos Sonhos Moribundos</li><li>Fever of the Hunt</li><li>The Bell Tolls for Kastor</li><li>The Howling of Dammed Gods</li><li>What's Bred in the Bone</li></ul></li></ul><p>Publicado por: <strong>Free League Publishing</strong> <a href=\"https://frialigan.se/\">Free League</a><br />Foundry Visualisation by <strong>Paul Watson</strong><br />Thanks for their help, support and system development to:<br /><strong>Peter Norell (Bithir) and Khaali</strong> <br /><br /><span style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, stored in a retrieval system, or transmitted in any form by any means, electronic, mechanical, photocopying, recording or otherwise without the prior permission of the publishers.</span></p>",
       "scenes": {
         "AKAUDOa7Gq4qRqnM": {
-          "name": "Adventure Collection Cover"
+          "name": "Capa da Coleção de Aventuras"
         },
         "pr8d3hJPbKtC8Qhb": {
           "name": "A1-1. The Blue Moon"
@@ -392,37 +392,63 @@
       "actors": {
         "jndID64LwQfIZBxw": {
           "name": "Alahara",
+          "race": "Cambiante",
+          "shadow": "Preto com luzes dispersas, como um céu noturno frio e claro",
+          "tactics": "Alahara usa traço Metamorfo ao atacar os personagens; para ela, a sobrevivência de Gorak é tudo o que importa. Quando Gorak finalmente se transforma, Alahara para de lutar e caminha chorando até a morte certa pelas garras de seu amor perdido.",
           "tokenName": "Alahara",
           "items": {
             "nGvA1P8qGBqUcQoC": {
-              "name": "Twin Attack"
+              "name": "Ataque Gêmeo",
+              "description": "<p>Bárbaros, ambrianos e goblins possuem técnicas de luta envolvendo o uso de mais de uma arma. O personagem aprendeu como lutar com duas armas, uma técnica avançada e efetiva que dá ao guerreiro uma vantagem ofensiva. Ataque Gêmeo é especialmente efetivo contra alvos de armaduras leves.</p>",
+              "noviceDescription": "<p>O personagem pode empunhar duas armas com segurança, uma em cada mão. O Novato pode lutar com uma arma de uma mão em sua mão primária e uma arma Curta na outra.</p> <p>O personagem pode realizar dois ataques no mesmo alvo, causando 1D8 e 1D6 de dano respectivamente.</p> <p>O inimigo deve se defender separadamente contra os ataques.</p> <p>O Novato também recebe +1 de bônus em sua Defesa como uma habilidade Passiva, mas somente quando empunhar uma arma em cada mão.</p>",
+              "adeptDescription": "<p>O Adepto pode utilizar duas armas de uma mão, cada uma causando 1D8 de dano.</p>",
+              "masterDescription": "<p>Com a perícia de um Mestre, o dano causado pela arma da mão primária é 1D10, enquanto a arma na outra mão causa 1D8.</p>"
             },
             "oXRkIkYEF4CtEAru": {
-              "name": "Strangler"
+              "name": "Estrangulador",
+              "description": "<p>O personagem é iniciado na arte suja, mas às vezes necessária, do estrangulamento. Esta técnica de luta tem uma má reputação tanto entre ambrianos quanto entre bárbaros, mas isso não significa que não seja amplamente desejada por aqueles que querem lidar com seus inimigos discretamente.</p> <p>Com esta habilidade, o personagem pode causar muito dano a um inimigo despreparado ou lento com um garrote ou, se mais avançado, com o alquímico Esporos Sufocantes.</p>",
+              "noviceDescription": "<p>O Estrangulador Novato pode atacar quando em Vantagem. Um ataque bem-sucedido causa 1D6 de dano a cada turno e ignora Armadura.</p> <p>O alvo não pode agir até que o domínio do Estrangulador seja removido; o personagem mantém o estrangulamento com um Teste bem-sucedido de [Astuto←Astuto].</p>",
+              "adeptDescription": "<p>O personagem sabe como utilizar os mortais Esporos Sufocantes, colhidos nas profundezas da Davokar por alquimistas. Com um Teste bem-sucedido de [Astuto←Rápido], os esporos são arremessados em um inimigo e causam 1D4 de dano por turno durante 1D4 turnos, ignorando a Armadura.</p> <p>Não há contra-medida contra o efeito de Esporos Sufocantes além de curar a vítima quando o dano ocorre. Vítimas afetadas podem agir normalmente, ao contrário do nível Novato desta habilidade.</p>",
+              "masterDescription": "<p>O personagem pode utilizar as delicadas e letais Bombas de Esporos criadas a partir de Esporos Sufocantes por mestres alquimistas. Elas podem ser usadas a distância. É necessário um Teste bem-sucedido de Astuto para a bomba aterrissar no local pretendido.</p> <p>A Bomba de Esporos preenche um corredor, uma área menor ou uma sala comum com uma nuvem sufocante. Qualquer um que estiver na área, tanto inimigos quanto aliados, são afetados pelos Esporos Sufocantes, que ignoram a Armadura e causam 1D4 de dano por turno durante 1D4 turnos. </p>"
             },
             "0cAr99c8NTp4Xsft": {
-              "name": "Ritualist"
+              "name": "Ritualista",
+              "description": "<p>O personagem aprendeu como poderes místicos podem ser canalizados através de rituais — práticas poderosas, mas que consomem bastante tempo. Este conhecimento pode vir do estudo com um professor ou de estudos autodidatas com um códice de rituais.</p> <p>O personagem sofre um (1) ponto de Corrupção permanente para cada ritual que aprende, exceto se o ritual pertencer a uma tradição mística praticada por ele. Neste caso, o personagem é poupado da mácula da Corrupção.</p> <p>Quando executa rituais, o personagem sofre 1D4 de Corrupção temporária se o ritual não pertencer a uma tradição que ele ou ela dominou. Executar rituais cobertos pela tradição do personagem gerasomente um (1) ponto de Corrupção temporária.</p> <p>A habilidade Ritualista torna possível para o personagem reconhecer qual ritual está sendo executado ao examinar símbolos e componentes remanescentes na cena, e também para deduzir os efeitos do ritual, mesmo se ele ou ela não o tiver dominado.</p>",
+              "noviceDescription": "<p>O personagem aprendeu a executar um (1) ritual. O ritual pode pertencer a qualquer tradição mística, mas o personagem deve ter acesso ao ritual para aprendê-lo e memorizá-lo.</p> <p>O conhecimento pode ser conseguido através de um tutor envolvido na mesma organização que o personagem, de um códice encontrado nas ruínas de Symbaroum ou de outro Ritualista que compartilha o conhecimento como uma recompensa por serviços prestados.</p>",
+              "adeptDescription": "<p>O personagem aprendeu a executar dois rituais adicionais (três no total), novamente de qualquer tradição mística, mas com as mesmas condições de aprendizado que no nível Novato.</p>",
+              "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
             },
             "AfFtyuLHbamGxOZO": {
-              "name": "Break Link"
+              "name": "Quebrar Vínculo",
+              "tradition": "Magismo",
+              "description": "<p>O Místico pode quebrar quaisquer vínculos e elos místicos atuais em um objeto ou pessoa ao prender o alvo em um círculo de runas místicas e obter sucesso em um Teste de Resoluto. A magia do objeto não é afetada, mas o alvo não pode mais ser alcançado com rituais como Rastro do Herege e Convocação. Além disso, quaisquer vínculos místicos que podem ter sido criados por pessoas visitando o local são anulados, o que pode ser utilizado para prevenir outros de usarem Clarividência e Passo de Sete Léguas para ver ou alcançar o local até terem visitado o local novamente. Finalmente, Quebrar Vínculo pode ser utilizado para cortar o laço entre uma criatura e um artefato místico (veja mais sobre artefatos na página 186).</p>"
             },
             "sXbTqeVMfFl8hwT6": {
-              "name": "Sword"
+              "name": "Espada",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "SOHDvTvUhfcD3Z9k": {
-              "name": "Sword"
+              "name": "Espada",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "9eaI72kNcGEKlLTs": {
-              "name": "Shapeshifter"
+              "name": "Metamorfo",
+              "description": "<p>O personagem possui a capacidade de assumir a aparência de outros por um período.</p> <p>Para jovens cambiantes esta habilidade surge naturalmente, e pode ser difícil para eles não adotar a aparência e maneiras de pessoas ao seu redor.</p> <p>Cambiantes maduros normalmente desenvolvem um maior controle sobre o traço.</p>",
+              "noviceDescription": "<p>Com um Teste bem-sucedido contra Resoluto, o personagem pode adotar uma forma falsa; a forma, aparência, voz e roupas de outra criatura, mas não a de um indivíduo específico.</p> <p>O cambiante pode manter a aparência pela duração de uma cena, e depois a ilusão se desfaz.</p> <p>Todos com que o personagem interagir verão através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante].</p>",
+              "adeptDescription": "<p>O personagem pode, por um curto período e com um Teste bem-sucedido de Resoluto, adotar a forma de indivíduos específicos que o personagem encontrou, e pode incluir roupas e atributos à imagem.</p> <p>Em combate contra múltiplos oponentes, a similaridade é boa o suficiente para tornar difícil para inimigos atingirem seu alvo — existe 50% de chance de inimigos tentando atingir o personagem atingirem seu companheiro copiado.</p> <p>É exigida concentração para manter a forma ilusória, o que significa que o personagem deve realizar um Teste de Resoluto a cada turno, assim como um Teste bem-sucedido de [Resoluto –Dano da Arma] toda vez que o cambiante sofrer dano.</p>",
+              "masterDescription": "<p>Com um Teste bem-sucedido de Resoluto, o personagem pode adotar a forma de um indivíduo específico e mantê-la pela duração de uma cena.</p> <p>Qualquer um que falar com o personagem será capaz de ver através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante].</p> <p>Para um personagem ser capaz de enganar pessoas familiarizadas à pessoa copiada, ele ou ela deve obter sucesso em dois Testes, primeiro à distância e depois outro quando iniciar uma conversa.</p>"
             },
             "kS8zsPgcwM2FPaIV": {
-              "name": "Blood Shrouding"
+              "name": "Mortalha de Sangue",
+              "description": "<p>O místico esfola uma pessoa morta e veste sua pele um pedaço de cada vez. Depois disso, o místico se parece exatamente com a pessoa morta, mas tem a sua própria voz e os seus próprios olhos, o que limita seus usos. Para enganar um indivíduo que estava familiarizado com o doente e quem fala com o místico, um teste contra [Discreto ← Vigilante] deve ser feito. O efeito dura por 24 horas, em seguida, a pele morta cai.</p>"
             },
             "wYZShNtYGMF2sO3q": {
-              "name": "Blood Shrouding - Ritual Book"
+              "name": "Mortalha de Sangue - Livro de Ritual"
             },
             "dzLzIinHcHiwW6NQ": {
-              "name": "Break Link - Ritual Book"
+              "name": "Quebrar Vínculo - Livro de Ritual"
             }
           }
         },
@@ -431,40 +457,63 @@
           "tokenName": "Baumelo",
           "items": {
             "MqgOR0dVXmACDwem": {
-              "name": "Leader"
+              "name": "Líder",
+              "description": "<p>Há muitos que lutam para alcançar uma posição de liderança, mas poucos chegam ao ponto de serem apontados como verdadeiros líderes pelas pessoas que eles devem liderar. Se equipado com esta habilidade, o personagem é uma pessoa inspiradora, carismática e eloquente à qual os outros escutam e seguem, algumas vezes até a morte.</p> <p>Fora do combate, a habilidade Líder pode ser útil para comandar um grupo de estranhos, organizar uma milícia e coisas do tipo.</p>",
+              "noviceDescription": "<p>A forte personalidade lhe permite utilizar Persuasivo em vez de Resoluto ao tecer poderes místicos, embora não como base para seu limite de Corrupção.</p>",
+              "adeptDescription": "<p>O personagem pode nomear uma criatura ou objeto como alvo focado para ele e seus aliados pela duração de uma cena. Todos os aliados que atacarem o alvo infligem +1D4 de dano adicional a ele.</p> <p>Mudar de alvo requer uma nova Ação Ativa do Líder.</p>",
+              "masterDescription": "<p>O Líder faz um discurso motivacional para seus aliados, que lhes permite utilizar o Persuasivo dele ou dela em vez dos seus próprios Resoluto pela duração de uma cena.</p>"
             },
             "nlwU2yBQy72QBsIb": {
-              "name": "Curse"
+              "name": "Maldição",
+              "material": "Nenhum, um olhar penetrante é suficiente.",
+              "description": "<p>O Místico domina a arte de encarar com o Mal Olhado e pode amaldiçoar inimigos no campo de batalha; um poder frequentemente utilizado pelos discípulos dos Lordes Negros durante a Grande Guerra.</p>",
+              "noviceDescription": "<p>Uma vez por turno, o olhar penetrante do Místico automaticamente dá a um inimigo uma segunda chance de falhar em quaisquer Testes de Sucesso contra o Místico (role duas vezes, a ação falha se um destes Testes fracassar).</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+              "adeptDescription": "<p>Como Novato, mas o inimigo tem uma segunda chance de falhar em quaisquer Testes de Sucessos independentemente do alvo.</p> <p>Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>",
+              "masterDescription": "<p>O Místico roga uma maldição de morte sobre um inimigo. O inimigo sofre 1D6 de dano, que ignora qualquer Armadura, por todas as Ações que ele tentar executar.</p> <p>O alvo não sofre dano se permanecer parado e passivo. Este efeito é contínuo até o Místico falhar em um Teste de Resoluto.</p>"
             },
             "frlSROI3uJqtnUTh": {
-              "name": "Contacts (Cultists)"
+              "name": "Contatos (Cultistas)",
+              "description": "<p>O personagem serviu em uma organização ou viajou para bem longe e, portanto, teceu uma ampla rede de contatos. Com uma jogada bem-sucedida contra Persuasivo, o personagem pode lembrar-se de um contato que deve poder ser capaz de ajudar em uma questão específica ou uma situação precária.</p> <p>O contato pode não estar diretamente disponível — isso depende de quem está incluído em sua rede de contatos.</p> <p>Facções adequadas e pessoas que podem ser especificadas como os contatos do personagem são: O Exército da Rainha, os Patrulheiros da Rainha, Bruxas, Ordo Magica, a Igreja de Prios, as Casas Nobres e os Caçadores de Tesouros.</p>"
             },
             "bl2KwAo3Nh8AlrzO": {
-              "name": "Exchange Shadow"
+              "name": "Trocar sombra",
+              "tradition": "Feitiçaria",
+              "description": "<p>O Místico pode trocar sua Sombra com a de outra criatura obtendo sucesso em um Teste de [Resoluto←Resoluto]: a Sombra do Místico parecerá como a da criatura e vice-versa. O ritual fica ativo por 24 horas e requer um vínculo entre a vítima e o Místico para ser capaz de tentar a troca: uma mecha de cabelo, um pouco de sangue ou um item que é importante para o alvo. O alvo não percebe a troca, mas aqueles que podem ver Sombras podem certamente perceber isso (ou serem enganados por isso). Trocar Sombra pode ser anulado por Exorcismo ou Quebrar Vínculo.</p>"
             },
             "YWHOMuqGlg8EVevG": {
-              "name": "Heretic's Trail"
+              "name": "Rastro do Herege",
+              "tradition": "Teurgia",
+              "description": "<p>Com um Teste bem-sucedido de Resoluto, o Místico pode rastrear uma abominação ou criatura maculada que o Místico tenha encontrado pessoalmente. O rastreio é impecável até que a criatura maculada tenha atravessado água; se o fizer, o ritual deve ser executado novamente do lado oposto do curso de água. Caso o Místico falhe no Teste de Resoluto, ele ou ela não pode tentá-lo novamente até o próximo dia. Ainda, é mais difícil rastrear uma criatura acometida pela mácula em assentamentos maiores e na Davokar, concedendo ao Místico uma segunda chance de falha no Teste. O jogador deve rolar duas vezes, e se uma dessas jogadas falhar, o ritual fracassa.</p>"
             },
             "n7TpW6mJ7fn8asLF": {
-              "name": "Ritualist"
+              "name": "Ritualista",
+              "description": "<p>O personagem aprendeu como poderes místicos podem ser canalizados através de rituais — práticas poderosas, mas que consomem bastante tempo. Este conhecimento pode vir do estudo com um professor ou de estudos autodidatas com um códice de rituais.</p> <p>O personagem sofre um (1) ponto de Corrupção permanente para cada ritual que aprende, exceto se o ritual pertencer a uma tradição mística praticada por ele. Neste caso, o personagem é poupado da mácula da Corrupção.</p> <p>Quando executa rituais, o personagem sofre 1D4 de Corrupção temporária se o ritual não pertencer a uma tradição que ele ou ela dominou. Executar rituais cobertos pela tradição do personagem gerasomente um (1) ponto de Corrupção temporária.</p> <p>A habilidade Ritualista torna possível para o personagem reconhecer qual ritual está sendo executado ao examinar símbolos e componentes remanescentes na cena, e também para deduzir os efeitos do ritual, mesmo se ele ou ela não o tiver dominado.</p>",
+              "noviceDescription": "<p>O personagem aprendeu a executar um (1) ritual. O ritual pode pertencer a qualquer tradição mística, mas o personagem deve ter acesso ao ritual para aprendê-lo e memorizá-lo.</p> <p>O conhecimento pode ser conseguido através de um tutor envolvido na mesma organização que o personagem, de um códice encontrado nas ruínas de Symbaroum ou de outro Ritualista que compartilha o conhecimento como uma recompensa por serviços prestados.</p>",
+              "adeptDescription": "<p>O personagem aprendeu a executar dois rituais adicionais (três no total), novamente de qualquer tradição mística, mas com as mesmas condições de aprendizado que no nível Novato.</p>",
+              "masterDescription": "<p>O personagem aprendeu a executar até três rituais adicionais (seis no total). Assim como antes, o Ritualista Mestre não é limitado aos rituais de uma única tradição mística, mas deve ter acesso ao ritual para ser capaz de aprendê-lo e memorizá-lo.</p>"
             },
             "z7G3RiS1utkJ6Ewy": {
-              "name": "Scalemail"
+              "name": "Brunea",
+              "description": "<p><strong>ARMADURA MÉDIA</strong> <br /><strong>Armadura: </strong> 1D6 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;3). Algumas têm a qualidade Flexível, e a Armadura de Corvo tem a qualidade Desajeitada.</p>\n<hr />\n<p>Armaduras médias oferecem proteções melhores que as versões leves, mas ao custo de serem mais restritivas aos movimentos do usuário. Esta restrição é considerada aceitável pela maioria dos combatentes corpo a corpo. Brunea e cota de malha são exemplos de armaduras médias. </P>"
             },
             "9C3evy1zw5wrbNRL": {
-              "name": "Sword"
+              "name": "Espada",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>",
+              "cost": "5 táleres"
             },
             "N4BfjwdynuOlS3Bp": {
-              "name": "Shield"
+              "name": "Escudo",
+              "description": "<p><strong>ESCUDOS</strong> <br /><strong>Dano: </strong> Fornece +1 rm Defesa <br /><strong>Qualidades: </strong> Nenhuma. Broquéis são Flexíveis, Escudos de Aço são Equilibrados. </p>\n<hr />\n<p>Escudos tornam difícil atingir o portador com ataques corpo a corpo e à distância. Eles frequentemente são combinados com uma arma de uma mão, ou com uma arma de uma mão e um punhado de armas de arremesso adicionais.</p>"
             },
             "YkoKoGUUkGsGCtjG": {
-              "name": "Pixie Dust"
+              "name": "Pó de Fada",
+              "description": "<p>Pó de Fada é um pó brilhante com o poder de esconder rastros. Uma dose é suficiente para tornar impossível seguir uma trilha com técnicas convencionais. Rituais não são afetados. Pó de Fada é um elixir produzido no nível adepto e custa 4 thaler se comprado do alquimista que o criou.</p>"
             },
             "O7RhFMGB0eMv4XFF": {
-              "name": "Shackles and Chains"
+              "name": "Algemas e Correntes"
             },
             "vRhxDh0SpeBa5TEK": {
-              "name": "Interrogation Tools"
+              "name": "Ferramentas de Interrogação"
             }
           }
         },
