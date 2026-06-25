@@ -5079,7 +5079,7 @@
           "cost": "1 táler"
         },
         "Weak Antidote": {
-          "name": "Antídoto fraco",
+          "name": "Antídoto Fraco",
           "description": "<p>Um antídoto fraco diminui o efeito de um veneno em um grau; um veneno forte se torna moderado, um veneno moderado se torna fraco e um veneno fraco é completamente neutralizado. O antídoto não afeta qualquer dano que um personagem já tenha sofrido. Requer sucesso em um Teste de Astuto para fazer efeito.</p>",
           "cost": "1 táler"
         },
@@ -6723,7 +6723,7 @@
           "masterDescription": "<p>Com um Teste bem-sucedido de Resoluto, o personagem pode adotar a forma de um indivíduo específico e mantê-la pela duração de uma cena. Qualquer um que falar com o personagem será capaz de ver através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante]. Para um personagem ser capaz de enganar pessoas familiarizadas à pessoa copiada, ele ou ela deve obter sucesso em dois Testes, primeiro à distância e depois outro quando iniciar uma conversa.</p>"
         },
         "Survival Instinct": {
-          "name": "instinto de Sobrevivência",
+          "name": "Instinto de Sobrevivência",
           "description": "<p>O personagem pertence a uma linhagem com força vital poderosa e uma vontade de sobreviver igualmente poderosa. Para alguns indivíduos, esta energia se manifesta como um clamoroso brado e uma perspicácia incansável; para outros, ela se manifesta como um instinto de sobrevivência mais útil. </p>",
           "noviceDescription": "<p>Graças a seu instinto de sobrevivência explosivo, o personagem pode realizar uma Ação de Movimento extra uma vez por cena.</p>",
           "adeptDescription": "<p>O personagem confia em seus instintos e aprendeu que lidar com as adversidades frequentemente salva sua vida. O instinto de sobrevivência afiado do personagem lhe fornece +1D4 permanente à Armadura.</p>",
@@ -6738,11 +6738,11 @@
           "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
         },
         "Bastard Sword, one hand grip": {
-          "name": "Espada Bastarda, uma mão",
+          "name": "Espada Bastarda (Uma mão)",
           "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"
         },
         "Bastard Sword, two-handed grip": {
-          "name": "Espada Bastarda, duas mãos",
+          "name": "Espada Bastarda (Duas mãos)",
           "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"
         },
         "Battle claw": {
@@ -6885,7 +6885,7 @@
         "APG - Armor": "GAJ - Armaduras",
         "APG - Artifacts": "GAJ - Artefatos",
         "APG - Boons/Burdens": "GAJ - Dávidas/Fardos",
-        "APG - Equipment": "GAJ - Equipmentos",
+        "APG - Equipment": "GAJ - Equipamentos",
         "1 Food and Drink": "1 Comidas e Bebidas",
         "APG - Powers": "GAJ - Poderes",
         "APG - Rituals": "GAJ - Rituais",
@@ -6897,7 +6897,7 @@
         "Armor": "Armaduras",
         "Artifacts": "Artefatos",
         "Boons/Burdens": "Dávidas/Fardos",
-        "Equipment": "Equipmentos",
+        "Equipment": "Equipamentos",
         "Monstrous Traits": "Traços Monstruosos",
         "Powers": "Poderes",
         "Rituals": "Rituais",
