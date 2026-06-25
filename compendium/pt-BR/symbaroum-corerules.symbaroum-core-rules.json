@@ -1,6 +1,5 @@
 {
   "label": "Symbaroum RPG - Regras Básicas",
-
   "mapping": {
     "actors": {
       "race": "system.bio.race",
