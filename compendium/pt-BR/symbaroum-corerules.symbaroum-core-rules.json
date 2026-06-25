@@ -4507,181 +4507,240 @@
           "cost": "15 táleres"
         },
         "Bottle of White Wine (unspecified)": {
-          "name": "Bottle of White Wine (unspecified)"
+          "name": "Garrafa de vinho branco (não especificado)",
+          "cost": "1 táler"
         },
         "Buttered Walleye with Mash": {
-          "name": "Buttered Walleye with Mash"
+          "name": "Zander com manteiga e purê",
+          "cost": "22 xelins"
         },
         "Cabbage Pie": {
-          "name": "Cabbage Pie"
+          "name": "Torta de repolho",
+          "cost": "1 xelim"
         },
         "Cabbage Stew": {
-          "name": "Cabbage Stew"
+          "name": "Ensopado de repolho",
+          "cost": "3 ortegas"
         },
         "Can of Vesa": {
-          "name": "Can of Vesa"
+          "name": "Copo de Vesa",
+          "cost": "4 ortegas"
         },
         "Candied Ginger": {
-          "name": "Candied Ginger"
+          "name": "Gengibre cristalizado",
+          "cost": "1 xelim"
         },
         "Fish & Turnips": {
-          "name": "Fish & Turnips"
+          "name": "Peixe e nabos",
+          "cost": "1 xelim"
         },
         "Fish Pie": {
-          "name": "Fish Pie"
+          "name": "Torta de peixe",
+          "cost": "5 xelins"
         },
         "Fish Sauce & Crispbread": {
-          "name": "Fish Sauce & Crispbread"
+          "name": "Molho de peixe e torrada",
+          "cost": "5 ortegas"
         },
         "Fried Pastry": {
-          "name": "Fried Pastry"
+          "name": "Pastel frito",
+          "cost": "2 ortegas"
         },
         "Fruit Pie": {
-          "name": "Fruit Pie"
+          "name": "Torta de frutas",
+          "cost": "1 táler"
         },
         "Fruit Pudding": {
-          "name": "Fruit Pudding"
+          "name": "Pudim de frutas",
+          "cost": "1 ortega"
         },
         "Fruit Sherbet": {
-          "name": "Fruit Sherbet"
+          "name": "Sorvete de frutas",
+          "cost": "7 táleres"
         },
         "Fruit Tea": {
-          "name": "Fruit Tea"
+          "name": "Chá de frutas",
+          "cost": "1 xelim"
         },
         "Hack Tray (cheese and meats)": {
-          "name": "Hack Tray (cheese and meats)"
+          "name": "Bandeja de cortes (queijos e carnes)",
+          "cost": "3 xelins"
         },
         "Hash Patties with Turnips": {
-          "name": "Hash Patties with Turnips"
+          "name": "Fricassê de frango com nabos",
+          "cost": "2 xelins"
         },
         "Herbal Tea": {
-          "name": "Herbal Tea"
+          "name": "Chá de ervas",
+          "cost": "2 ortegas"
         },
         "Honey-roasted Sorrel": {
-          "name": "Honey-roasted Sorrel"
+          "name": "Canela assada com mel",
+          "cost": "3 xelins"
         },
         "Honey, one jar": {
-          "name": "Honey, one jar"
+          "name": "Mel, uma jarra",
+          "cost": "1 xelim"
         },
         "Ice Cream & Fruit": {
-          "name": "Ice Cream & Fruit"
+          "name": "Sorvete com frutas",
+          "cost": "2 ortegas"
         },
         "Iron Oak Tea": {
-          "name": "Iron Oak Tea"
+          "name": "Chá de carvalho ferro",
+          "cost": "8 ortegas"
         },
         "Kidney Pie": {
-          "name": "Kidney Pie"
+          "name": "Torta de rim",
+          "cost": "2 xelins"
         },
         "King’s Steak in Gravy": {
-          "name": "King’s Steak in Gravy"
+          "name": "Bife do rei em molho",
+          "cost": "8 xelins"
         },
         "Marmalade Confectionery": {
-          "name": "Marmalade Confectionery"
+          "name": "Marmelada",
+          "cost": "3 xelins"
         },
         "Marzipan Figurines": {
-          "name": "Marzipan Figurines"
+          "name": "Bonequinhos de maçapão",
+          "cost": "5 xelins"
         },
         "Meat & Beats": {
-          "name": "Meat & Beats"
+          "name": "Carne com batata",
+          "cost": "8 ortegas"
         },
         "Meat Pie": {
-          "name": "Meat Pie"
+          "name": "Torta de carne",
+          "cost": "2 xelins"
         },
         "Mixed Stew": {
-          "name": "Mixed Stew"
+          "name": "Ensopado misto",
+          "cost": "5 ortegas"
         },
         "Mushroom Pie": {
-          "name": "Mushroom Pie"
+          "name": "Torta de cogumelos",
+          "cost": "4 xelins"
         },
         "Nougat Confectionery": {
-          "name": "Nougat Confectionery"
+          "name": "Confeito de nogado",
+          "cost": "2 ortegas"
         },
         "Nuts in Chocolate": {
-          "name": "Nuts in Chocolate"
+          "name": "Nozes em chocolate",
+          "cost": "1 ortega"
         },
         "Offal Pie": {
-          "name": "Offal Pie"
+          "name": "Torta de miúdos",
+          "cost": "4 xelins"
         },
         "Onion Soup with Crispbread": {
-          "name": "Onion Soup with Crispbread"
+          "name": "Sopa de cebola com torrada",
+          "cost": "4 ortegas"
         },
         "Roka Berries, one box": {
-          "name": "Roka Berries, one box"
+          "name": "Bagas Roka, uma caixa",
+          "cost": "12 ortegas"
         },
         "Roka Sausage with Mashed Beats": {
-          "name": "Roka Sausage with Mashed Beats"
+          "name": "Salsicha roka com purê de beterraba",
+          "cost": "12 xelins"
         },
         "Root Vegetable Stew": {
-          "name": "Root Vegetable Stew"
+          "name": "Ensopado de legumes ",
+          "cost": "4 ortegas"
         },
         "Salted Herring with Turnips": {
-          "name": "Salted Herring with Turnips"
+          "name": "Arenque salgado com nabos",
+          "cost": "5 xelins"
         },
         "Salty-sweet Needles": {
-          "name": "Salty-sweet Needles"
+          "name": "Agulhas salgadas",
+          "cost": "5 ortegas"
         },
         "Slow-roast with Stewed Carrot": {
-          "name": "Slow-roast with Stewed Carrot"
+          "name": "Assado lentamente com cenoura cozida",
+          "cost": "5 xelins"
         },
         "Smoked Tea": {
-          "name": "Smoked Tea"
+          "name": "Chá defumado",
+          "cost": "4 ortegas"
         },
         "Spice Tea": {
-          "name": "Spice Tea"
+          "name": "Chá de especiarias",
+          "cost": "1 ortega"
         },
         "Spicy Cream-porridge": {
-          "name": "Spicy Cream-porridge"
+          "name": "Mingau de creme picante",
+          "cost": "1 táler"
         },
         "Stuffed Lung with Black Mash": {
-          "name": "Stuffed Lung with Black Mash"
+          "name": "Pulmão recheado com purê preto",
+          "cost": "4 xelins"
         },
         "Sugar-coated Rose Petals": {
-          "name": "Sugar-coated Rose Petals"
+          "name": "Pétalas de rosa revestidas de açúcar",
+          "cost": "5 ortegas"
         },
         "Table Ale (watered stut)": {
-          "name": "Table Ale (watered stut)"
+          "name": "Ale de mesa (stut regada) ",
+          "cost": "1 ortega"
         },
         "Tankard Adersel (triple fermented ale)": {
-          "name": "Tankard Adersel (triple fermented ale)"
+          "name": "Caneca de Adersel (cerveja tripla fermentada)",
+          "cost": "8 xelins"
         },
         "Tankard Argona (fine stut)": {
-          "name": "Tankard Argona (fine stut)"
+          "name": "Caneca de Argona (stut fino)",
+          "cost": "2 xelins"
         },
         "Tankard Blackbrew (unspecified)": {
-          "name": "Tankard Blackbrew (unspecified)"
+          "name": "Caneca de Caldo Negro (não especificado)",
+          "cost": "1 ortega"
         },
         "Tankard Kurun’s Honor (triple fermented)": {
-          "name": "Tankard Kurun’s Honor (triple fermented)"
+          "name": "Caneca de Honra de Kurun (tripla fermentada)",
+          "cost": "5 xelins"
         },
         "Tankard Stut (unspecified)": {
-          "name": "Tankard Stut (unspecified)"
+          "name": "Caneca de stut (não especificado)",
+          "cost": "3 ortegas"
         },
         "Tankard The Duke’s Relief (simple stut)": {
-          "name": "Tankard The Duke’s Relief (simple stut)"
+          "name": "Caneca de O Alívio do Duque (stut simples)",
+          "cost": "1 xelim"
         },
         "Tankard Urtal (triple fermented red ale)": {
-          "name": "Tankard Urtal (triple fermented red ale)"
+          "name": "Caneca de Urtal (cereja vermelha tripla fermentada)",
+          "cost": "3 xelins"
         },
         "Tankard Veloum (barbarian must)": {
-          "name": "Tankard Veloum (barbarian must)"
+          "name": "Caneca de Veloum (mofo bárbaro)",
+          "cost": "2 xelins"
         },
         "Tankard Zarekian Blackbrew": {
-          "name": "Tankard Zarekian Blackbrew"
+          "name": "Caneca de Caldo Negro zarekiano",
+          "cost": "1 xelim"
         },
         "Trout Pie": {
-          "name": "Trout Pie"
+          "name": "Torta de truta",
+          "cost": "8 xelins"
         },
         "Trout Pudding with Turnips": {
-          "name": "Trout Pudding with Turnips"
+          "name": "Pudim de truta com nabos",
+          "cost": "15 xelins"
         },
         "Truffle-buttered Biscuit": {
-          "name": "Truffle-buttered Biscuit"
+          "name": "Biscoito com manteiga de trufas",
+          "cost": " 5 ortegas"
         },
         "Waffles with Butter and Honey": {
-          "name": "Waffles with Butter and Honey"
+          "name": "Waffles com manteiga e mel",
+          "cost": "3 xelins"
         },
         "Watered Porridge": {
-          "name": "Watered Porridge"
+          "name": "Mingau regado",
+          "cost": "4 ortegas"
         },
         "Anoint": {
           "name": "Ungir",
