@@ -46,8 +46,8 @@ Todo o conteúdo está sendo traduzido manualmente, buscando preservar a termino
 
 | Conteúdo                                | Progresso |
 | --------------------------------------- | --------- |
-| Livro Básico (Core Rulebook)            | 70%       |
-| Guia Avançado (Advanced Player's Guide) | 40%       |
+| Livro Básico (Core Rulebook)            | 99%       |
+| Guia Avançado (Advanced Player's Guide) | 99%       |
 
 ## Observações
 
