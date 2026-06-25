@@ -1,8 +1,67 @@
 {
-  "label": "Symbaroum Adventure Collection",
+  "label": "Symbaroum - Coleção de Aventuras",
   "mapping": {
-    "actors": {},
-    "items": {}
+    "actors": {
+      "race": "system.bio.race",
+      "occupation": "system.bio.occupation",
+      "manner": "system.bio.manner",
+      "shadow": "system.bio.shadow",
+      "appearance": "system.bio.appearance",
+      "background": "system.bio.background",
+      "personalGoal": "system.bio.personalGoal",
+      "tactics": "system.bio.tactics",
+      "quote": "system.bio.quote",
+        "items": {
+          "path": "items",
+          "converter": "fromPack",
+          "mapping": {
+            "description": "system.description",
+            "material": "system.material",
+            "noviceDescription": "system.novice.description",
+            "adeptDescription": "system.adept.description",
+            "masterDescription": "system.master.description",
+            "cost": "system.cost",
+            "power0Name": "system.power.0.name",
+            "power0Description": "system.power.0.description",
+            "power1Name": "system.power.1.name",
+            "power1Description": "system.power.1.description",
+            "power2Name": "system.power.2.name",
+            "power2Description": "system.power.2.description",
+            "power3Name": "system.power.3.name",
+            "power3Description": "system.power.3.description",
+            "power4Name": "system.power.4.name",
+            "power4Description": "system.power.4.description",
+            "tradition": "system.tradition"
+        }
+      }
+    },
+    "items": {
+      "description": "system.description",
+      "material": "system.material",
+      "noviceDescription": "system.novice.description",
+      "adeptDescription": "system.adept.description",
+      "masterDescription": "system.master.description",
+      "cost": "system.cost",
+      "power0Name": "system.power.0.name",
+      "power0Description": "system.power.0.description",
+      "power1Name": "system.power.1.name",
+      "power1Description": "system.power.1.description",
+      "power2Name": "system.power.2.name",
+      "power2Description": "system.power.2.description",
+      "power3Name": "system.power.3.name",
+      "power3Description": "system.power.3.description",
+      "power4Name": "system.power.4.name",
+      "power4Description": "system.power.4.description",
+      "tradition": "system.tradition"
+    },
+    "journal": {
+      "pages": {
+        "path": "pages",
+        "mapping": {
+          "content": "text.content"
+        }
+      }
+    }
   },
   "folders": {},
   "entries": {
