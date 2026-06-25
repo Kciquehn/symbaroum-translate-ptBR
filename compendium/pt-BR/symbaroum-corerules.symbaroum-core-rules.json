@@ -3580,7 +3580,10 @@
       "items": {
         "Rapid Fire": {
           "name": "Tiro Rápido",
-          "description": "<p>Arqueiros em Ambria e Davokar  desenvolveram técnicas para disparos rápidos. Em essência, se destros, eles colocam a flecha no lado direito do arco, em vez de no lado esquerdo, e sacam várias flechas de cada vez da aljava para segurá-las na mão esquerda. Dessa forma, as flechas podem ser preparadas, apontadas e disparadas em um único movimento, o que significa que podem ser lançadas uma após a outra — notícias realmente ruins para alvos com armaduras ruins.</P> <P>A habilidade requer que algum tipo de arco seja usado em combate.</P>"
+          "description": "<p>Arqueiros em Ambria e Davokar  desenvolveram técnicas para disparos rápidos. Em essência, se destros, eles colocam a flecha no lado direito do arco, em vez de no lado esquerdo, e sacam várias flechas de cada vez da aljava para segurá-las na mão esquerda. Dessa forma, as flechas podem ser preparadas, apontadas e disparadas em um único movimento, o que significa que podem ser lançadas uma após a outra — notícias realmente ruins para alvos com armaduras ruins. <br/><br/>A habilidade requer que algum tipo de arco seja usado em combate.</P>",
+          "noviceDescription" :"<p>O personagem pode sacrificar sua ação de movimento para disparar uma segunda flecha (duas no total). Isso só pode ser feito somente se ação de combate for usada para disparar um arco. As flechas são roladas separadamente e podem (mas não precisam) ser direcionadas para o mesmo alvo.</p>",
+          "adeptDescription": "<p>O personagem pode disparar duas flechas com uma única ação de combate, em um ou dois alvos diferentes.</p>",
+          "masterDescription": "<p>O personagem pode disparar três flechas com uma única ação de combate, em um alvo ou em alvos diferentes.</p>"
         },
         "Drone Dew": {
           "name": "Orvalho do Zangão",
@@ -4825,13 +4828,19 @@
           "description": "<p>(Vingativo, Conhecedor ou Guardião)</p> <p>Fora do mundo conhecido por ambrianos e bárbaros, os ventos sopram sobre uma paisagem morta e coberta de névoa. Abominações vagam pelas brumas, procurando vida para consumir. Demonologistas sabem como convocar daemones para o mundo dos vivos e podem forçá-los a servir. Esses daemones surgem em três formas diferentes, e a convocação de cada um exige o uso de um ritual separado, mas como os procedimentos de convocação compartilham muitas características, eles são descritos juntos.</p> <p>Independentemente do tipo de daemon a ser convocado, o procedimento é o mesmo: a criatura deve aparecer dentro de um símbolo preparado no chão, e os demonologistas sábios devem aprender e usar o ritual Círculo Mágico para se protegerem se algo der errado durante a convocação.</p> <p>A convocação de um daemon não requer que nenhum Teste seja rolado após a criação do símbolo especial; no entanto, para subjugar o daemon e fazê-lo obedecer ao demonologista, um Teste de [Resoluto←Resoluto] deve ser aprovado. Um sacrifício de sangue na forma de um Ser Cultural vivo dá ao místico uma segunda chance de obter sucesso no Teste, e se a vítima não tiver corrupção permanente, o místico também recebe +1 de bônus no Teste.</p> <p>Se o Teste for bem-sucedido, o daemon presta serviço ao místico; se o Teste falhar, o daemon fica livre para fazer o que quiser até a mesma hora do dia seguinte. A criatura não pode permanecer presente por mais tempo do que isso, a menos que esteja vinculada ao serviço do demonologista. Independente do daemon estar ou não vinculado ao místico, ele nunca pode entrar em círculos mágicos, círculos de bruxas ou em um lugar protegido por Sacrário.</p> <p>O demonologista pode vincular apenas um daemon de cada vez; se outro daemon for convocado, o que já está ligado é libertado e permanece no mundo por vinte e quatro horas antes de retornar ao seu local de origem. No entanto, se o místico conhecer mais de um dos rituais de convocação, ele pode ter um daemon de cada tipo em serviço. Os três rituais permitem que o místico convoque um tipo específico de daemon — um daemon Vingativo, Conhecedor ou Guardião.</p> <p>O ritual custa um ponto de Experiência para ser executado, independentemente se o Teste para controlar o daemon for bem-sucedido ou falhar.</p> <p><strong>Daemon Vingativo:</strong>A abominação é uma das criaturas aladas que voam através das brumas do Além Mundo.</p> <p>Se ordenado pelo místico, o Daemon Vingativo pode rastrear e atacar uma criatura conhecida e nomeada com a intenção de matá-la. O místico precisa de uma ligação com o alvo, como por exemplo alguns fios de cabelo, um pouco de sangue ou um item que o alvo preza. O daemon segue o vínculo astral até a vítima; se a distância puder ser contada em dias de marcha, o daemon voa no ritmo de marcha mortal e deve fazer um Teste para ver se algo catastrófico ocorre — talvez ele seja rastreado por caçadores de bruxas ou morto por alguma outra monstruosidade ao longo do caminho.</p> <p><strong>Daemon Conhecedor:</strong>A abominação é uma das criaturas manipuladoras à espreita nas brumas do Além Mundo, sempre procurando formas de vida para domesticar e consumir.</p> <p>Um Daemon Conhecedor responde a uma pergunta do místico; mais Testes de [Resoluto←Resoluto] fornecem mais respostas. O daemon pode responder sim ou não para uma pergunta direta (como o ritual Leitura da Sorte) ou responder a uma pergunta aberta (como o ritual Oráculo). Perguntas adicionais não aumentam o risco do daemon se libertar — se um Teste falhar, o daemon simplesmente se recusará a responder a mais perguntas —, e cada resposta precisa de uma hora para ser fornecida. Um sacrifício de sangue também ajuda ao rolar para perguntas adicionais.</p> <p><strong>Daemon Guardião:</strong>A abominação é resumida entre as monstruosidades uivantes que se espalham pelo Além Mundo à caça de alvos para seu ódio e frustração.</p> <p>O Daemon Guardião guarda um lugar até que ele seja morto ou libertado pelo demonologista. O daemon obedecerá às instruções sobre quem tem permissão de entrada ou passagem; o demonologista pode mudar a definição em relação a quem ou o que pode entrar ou passar, mas o pacto não permite que ele mude o local.</p>"
         },
         "Torment": {
-          "name": "Torment"
+          "name": "Tormento",
+          "tradition": "Bruxaria, Feitiçaria",
+          "description": "<p>O místico coloca uma maldição atormentadora no alvo. Isso requer uma ligação mística com o alvo. O efeito do ritual pode variar, mas uma versão frequentemente empregada faz a vítima murchar lentamente — sua Vitalidade é reduzida em um ponto por semana, e o alvo não pode se curar até que a maldição seja retirada. <br/><br/>Outros efeitos conhecidos do ritual são a soma de verrugas ou um fedor desagradável que envolve a vítima, deixando o alvo cansado durante o dia e alerta à noite — geralmente limitado à duração de um mês, apenas para ensinar uma lição ao alvo. <br/><br/>O efeito de Tormento pode ser abortado pelo ritual Quebrar Vínculo.</p>"
         },
         "Traceless": {
-          "name": "Traceless"
+          "name": "Sem Rastro",
+          "tradition": "Bruxaria",
+          "description": "<p>Todos os traços físicos do místico e de seus aliados desaparecem. Por exemplo, passos na lama se diluem, galhos quebrados e talos de grama se curam e teias de aranha são misticamente restauradas. O ritual funciona tão bem quanto na civilização; a poeira assenta sobre o piso de mosaico e pilhas de papel são arrumadas como estavam antes que o místico ou algum aliado dele as folheasse. <br/><br/>A duração é de 24 horas, para a frente ou para trás desde a conjuração do ritual; traços das atividades do dia anterior podem ser eliminados ou o efeito pode afetar todas as atividades realizadas durante o dia após a realização do ritual. De qualquer forma, o efeito do ritual é que nem o místico nem seus aliados podem ser rastreados por qualquer meio físico, incluindo o olfato. Métodos de rastreamento místico não são afetados.</p>"
         },
         "Twin Servants": {
-          "name": "Twin Servants"
+          "name": "Servos Gêmeos",
+          "tradition": "Apenas Piromante",
+          "description": "<p>A versão avançada do ritual Servo Flamejante permite que o Piromante tenha dois servos flamejantes. Eles são tratados como dois personagens adicionais separados pelo jogador, e ganham Experiência ao se aventurarem como todos os servos flamejantes.</p>"
         },
         "Earth bound": {
           "name": "Herança Natural",
@@ -5069,7 +5078,7 @@
           "cost": "1 táler"
         },
         "Weak Antidote": {
-          "name": "Antídoto fraco",
+          "name": "Antídoto Fraco",
           "description": "<p>Um antídoto fraco diminui o efeito de um veneno em um grau; um veneno forte se torna moderado, um veneno moderado se torna fraco e um veneno fraco é completamente neutralizado. O antídoto não afeta qualquer dano que um personagem já tenha sofrido. Requer sucesso em um Teste de Astuto para fazer efeito.</p>",
           "cost": "1 táler"
         },
@@ -5664,14 +5673,14 @@
         },
         "Agile Combat": {
           "name": "Combate Ágil",
-          "description": "<p><strong>Disponível apenas para Jurado de Ferro</strong> <p>Durante o combate em áreas arborizadas e em terrenos montanhosos, a distância entre os oponentes pode mudar rapidamente de distância para corpo a corpo. O Jurado do Ferro desenvolveu técnicas para lidar com essas rápidas mudanças entre os tipos de armas, e os mais habilidosos entre eles podem dançar no campo de batalha, alternando entre armas corpo a corpo e à distância e usando cada ataque hostil para fazer contra-ataques. O personagem é treinado nas técnicas avançadas dos Jurados do Ferro sobre como sair vitorioso de escaramuças.</p>",
+          "description": "<p><strong>Disponível apenas para Jurado de Ferro</strong> <br/><br/>Durante o combate em áreas arborizadas e em terrenos montanhosos, a distância entre os oponentes pode mudar rapidamente de distância para corpo a corpo. O Jurado do Ferro desenvolveu técnicas para lidar com essas rápidas mudanças entre os tipos de armas, e os mais habilidosos entre eles podem dançar no campo de batalha, alternando entre armas corpo a corpo e à distância e usando cada ataque hostil para fazer contra-ataques. O personagem é treinado nas técnicas avançadas dos Jurados do Ferro sobre como sair vitorioso de escaramuças.</p>",
           "noviceDescription": "<p>O personagem pode dividir seu movimento e executar uma parte da ação de movimento antes da ação de combate, e a outra parte depois. Isso é feito para aproveitar ao máximo o terreno e a cobertura. O personagem ainda sofre Ataques Livres de inimigos se o movimento o levar ao alcance de combate corpo a corpo. </p>",
           "adeptDescription": "<p>Como parte de sua ação de combate, o personagem pode alternar livremente entre as armas. Isso só diz respeito à troca de armas; não fornece uma ação extra a ser usada para mais nada.</p> <p>Por exemplo, o Jurado do Ferro pode começar segurando duas armas, mover uma parte de seu movimento e, como uma ação de combate, mudar para um arco, dispará-lo, e depois voltar para duas armas. Finalmente, o resto do movimento é feito.</p>",
           "masterDescription": "<p>O personagem ganha uma segunda chance de passar em todos os Testes de Defesa contra Ataques Livres por recuar do corpo a corpo. Além disso, todo Ataque Livre contra o personagem permite que o Jurado do Ferro faça seu próprio Ataque Livre contra o inimigo. O personagem pode trocar armas livremente por esses contra-ataques e escolher a ferramenta que melhor se adapta à situação.</p>"
         },
         "Armored Mystic": {
           "name": "Místico Blindado",
-          "description": "<p><strong>Disonível apenas para Templários</strong> <p>Os templários desenvolveram técnicas para performar os milagres de Prios enquanto usavam armadura completa. Quando os Cavaleiros do Sol Moribundo atacam um povoado cheio de hereges ou crias sombrias, está longe de ser incomum vê-los explodir seus inimigos e abençoar seus aliados enquanto se vestem em aço.</p>",
+          "description": "<p><strong>Disonível apenas para Templários</strong> <br/><br/>Os templários desenvolveram técnicas para performar os milagres de Prios enquanto usavam armadura completa. Quando os Cavaleiros do Sol Moribundo atacam um povoado cheio de hereges ou crias sombrias, está longe de ser incomum vê-los explodir seus inimigos e abençoar seus aliados enquanto se vestem em aço.</p>",
           "noviceDescription": "<p>Os poderes místicos do personagem não são afetados pelo uso de armadura média. A armadura afeta a Defesa como de costume.</p>",
           "adeptDescription": "<p>Os poderes místicos do personagem não são afetados pelo uso de armadura pesada. A armadura afeta a Defesa como de costume. </p>",
           "masterDescription": "<p>O místico blindado transcendeu as limitações da armadura e pode se beneficiar dela. Um bônus de +1D4 é adicionado ao valor de proteção da armadura quando o místico a usa, uma vez que as energias místicas fluem através do aço.</p>"
@@ -5684,162 +5693,385 @@
           "masterDescription": "<p>Como no nível adepto, mas o mestre também desfere um Ataque Livre com o arco se o golpe com o flecha acertar. O mestre apunhala com o projétil, e então (se bem-sucedido) carrega o arco para fazer um ataque à distância normal contra o alvo. Se estiver usando uma besta, isso requer que ela já esteja carregada e que a punhalada inicial seja feita com outro virote, ou que o personagem esteja em posse de uma besta de repetição.</p>"
         },
         "Artifact Crafting": {
-          "name": "Artifact Crafting"
+          "name": "Criar Artefatos",
+          "description": "<p><strong>Disponível apenas para Criadores de Artefatos</strong> <br/><br/>Os dias de glória da fabricação de artefatos parecem ter passado e os poderosos segredos dos antigos forjadores rúnicos estão perdidos. No entanto, mesmo à sombra da crescente corrupção, as artes criativas ainda perduram, mesmo que de forma mais modesta. O personagem é treinado na arte de criar artefatos e pode criar artefatos de ordem inferior. Hoje em dia, artefatos mais altos só podem ser encontrados durante a escavação das ruínas de Symbaroum, mas criadores de artefatos pertencem a uma tradição que ainda mantém a cabeça erguida, apesar das sombras e da escuridão. <br/><br/>O personagem também tem conhecimento sobre artefatos lendários e pode discernir como os artefatos funcionam. Criar Artefatos corresponde à habilidade Mestre do Saber para analisar artefatos, mas não afeta o uso deles.</p>",
+          "noviceDescription": "<p><strong>Uma vez por aventura.</strong> Com um Teste de Astuto, o personagem pode criar um artefato de nível novato.</p>",
+          "adeptDescription": "<p><strong>Uma vez por aventura.</strong> Como um criador de artefatos reconhecido, um sucesso num Teste de Astuto permite que o personagem crie um artefato de nível adepto.</p>",
+          "masterDescription": "<p><strong>Uma vez por aventura.</strong> Como um famoso criador de artefatos, um Teste de Astuto bem-sucedido permite que o personagem crie um artefato de nível mestre.</p>"
         },
         "Axe Artist": {
-          "name": "Axe Artist"
+          "name": "Artista do Machado",
+          "description": "<p>Por tradição, muitos guerreiros de origem bárbara carregam machados para a batalha, e entre esses lutadores técnicas especiais foram desenvolvidas — técnicas que fazem pleno uso do potencial do machado. Nas mãos do personagem, o machado é uma ferramenta eficaz de combate. <br/><br/>A arma usada deve ser um machado pesado ou de uma mão.</p>",
+          "noviceDescription": "<p>A primeira coisa que um artista do machado aprende é a atacar com a ponta curta do machado, a fim de induzir uma dor de distração antes de um golpe mais forte. O empurrão com a parte curta causa 1D6 de dano e atordoa o inimigo se o personagem passar em um Teste de [Preciso←Resoluto], permitindo o personagem realizar um Ataque Livre imediato.</p>",
+          "adeptDescription": "<p>Em seguida, está aprendendo o poderoso golpe duplo: golpear com um lado do machado e depois dar um golpe com o outro. O personagem faz dois ataques em uma ação de combate, ambos com um dado abaixo do normal (1D10=1D8).</p>",
+          "masterDescription": "<p>O artista do machado retorna ao coração da luta com machado, o poderoso golpe. Cada acerto com o machado causa +1D4 de dano, limitado a um acerto por ação de combate.</p>"
         },
         "Blacksmith": {
-          "name": "Blacksmith"
+          "name": "Ferreiro",
+          "description": "<p>Todos os povos em Ambria e Davokar têm seus ferreiros, o que diz algo sobre sua importância. Mestres ferreiros são reverenciados em todas as culturas, mas especialmente entre os ambrianos e os trolls. <br/><br/>O custo de criar objetos é metade do preço listado e, se o ferreiro vender o item posteriormente, ele recebe o preço de tabela em pagamento. Em outras palavras, o lucro obtido pelo ferreiro é metade do preço listado. <br/><br/>Essa habilidade pode ser usada uma vez por aventura, de preferência durante um interlúdio mais quieto (ou entre aventuras, se isso parecer mais razoável). Se o item for de natureza consumível (como flechas e virotes), o ferreiro pode forjar 10 unidades por vez.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de Astuto, o personagem pode criar um item novato. O personagem também pode consertar armaduras danificadas ou adaptar armaduras para criaturas de tamanhos maiores ou menores. Itens novatos são todas as armas e armaduras comuns, incluindo aquelas com as qualidades Curta e Longa. Nenhuma outra qualidade pode ser criada pelo ferreiro novato.</p>",
+          "adeptDescription": "<p>Com um Teste bem-sucedido de Astuto, o personagem pode criar um item adepto, apresentando uma qualidade além de Curta ou Longa. Todas as armas e armaduras mencionadas no Livro Básico e no Guia Avançado do Jogador podem ser criadas pelo adepto, exceto itens com qualidades místicas e aqueles que têm mais de uma qualidade além de Curta ou Longa. Note que o adepto não pode remover qualidades negativas dos itens.</p>",
+          "masterDescription": "<p>Com um Teste bem-sucedido de Astuto, o personagem pode criar um item mestre. Ferreiros mestres têm a capacidade de adicionar várias qualidades a armas e armaduras, e também de remover qualidades negativas. Somando a isso, eles podem incutir qualidades místicas em todos os tipos de armas e armaduras. Para cada qualidade adicionada ou removida, o preço de tabela do item é aumentado cumulativamente por ×5. Qualidades místicas aumentam o valor em ×10.</p>"
         },
         "Blood Combat": {
-          "name": "Blood Combat"
+          "name": "Combate Sangrento",
+          "description": "<p><strong>Disponível apenas para Guarda da Ira</strong> <br/><br/>As bruxas em Karvosti entendem o poder do sangue melhor que as outras. Essas ideias foram desenvolvidas em cooperação com a Guarda da Ira Dormente. A dedicação e o treinamento da guarda permitem que eles usem o poder do sangue derramado em vantagem própria em combate — seja o sangue deles ou o do inimigo.</p>",
+          "noviceDescription": "<p>O personagem atrai a força do sangue que derrama. Quando sua Vitalidade for reduzida pela metade, o personagem ganha uma segunda chance de sucesso em todos os Testes de ataque em combate corpo a corpo.</p>",
+          "adeptDescription": "<p>Os acertos do personagem ficam mais poderosos conforme ele fica mais machucado; quando a Vitalidade tiver sido reduzida mais que a metade, todos os ataques feitos pelo personagem em combate corpo a corpo causam +1D8 de dano adicional.</p>",
+          "masterDescription": "<p>O guerreiro é curado pelo sangue derramado do inimigo; metade do dano que o personagem causar em combate corpo a corpo é adicionado à sua Vitalidade (arredondado para baixo).</p>"
         },
         "Channeling": {
-          "name": "Channeling"
+          "name": "Canalização",
+          "description": "<p>Alguns feiticeiros e cultistas, por meio da exposição a poderes sombrios, desenvolveram a capacidade de suportar a corrupção e atrair a corrupção que teria afetado os outros. Com a prática, a Canalização também pode ser usada para passar a corrupção para outros, como uma arma brutal.</p>",
+          "noviceDescription": "<p>O personagem pode escolher receber corrupção temporária que afetará outra criatura à vista.</p>",
+          "adeptDescription": "<p>O personagem recebe uma segunda chance quando está rolando por corrupção e em situações em que recebe corrupção de outra criatura. O personagem pode aceitar o resultado maior ou menor, dependendo do que for mais favorável; combinado com o nível de mestre em Canalização, o resultado maior é melhor; em todos os outros casos, o resultado inferior é preferível.</p>",
+          "masterDescription": "<p>O personagem pode passar corrupção para outra criatura; isso é verdade para todas as formas de corrupção que ele ou ela sofrer, não importa a fonte. Com um Teste bem-sucedido de [Resoluto←Resoluto], a corrupção sofrida é transferida para um alvo à vista. Se o Teste falhar, o mestre ainda sofre apenas metade da corrupção (arredondado para cima), enquanto o resto vaza para a área circundante, fazendo as plantas murcharem e o solo escurecer.</p>"
         },
         "Cheap Shot": {
-          "name": "Cheap Shot"
+          "name": "Golpe Baixo",
+          "description": "<p>Nas favelas das maiores cidades de Alberetor, surgiram técnicas especiais de autodefesa. Essas técnicas ainda são praticadas entre as gangues de Yndaros.</p>",
+          "noviceDescription": "<p>Golpes baixos como um “beijo de sarjeta” (cabeçada) ou um “aperto de goblin” (chute na virilha) surgem naturalmente para um personagem em situações estressantes. Esse ataque causa 1D6 de dano e, se o alvo sofrer dano, o personagem também ganha um Ataque Livre contra esse oponente.</p>",
+          "adeptDescription": "<p>O personagem executa um ataque corpo a corpo normal e, se causar dano, adiciona um golpe de derrubar ou empurrar. Essa manobra derruba o oponente no chão se o personagem obtiver sucesso com um Teste de [Astuto←Rápido].</p>",
+          "masterDescription": "<p>Cada inimigo que engajar com o personagem em corpo a corpo sofre uma resposta sangrenta imediatamente após cada ataque, sofrendo 1D6 de dano se for bem-sucedido em seu ataque. A resposta sempre atinge um ponto fraco e, consequentemente, ignora qualquer Armadura.</p>"
         },
         "Ensnare": {
-          "name": "Ensnare"
+          "name": "Enredar",
+          "description": "<p>Usando armas como bolas, redes ou o chicote longo, muitos lutadores e caçadores de origem bárbara aprendem a limitar o movimento de inimigos ou presas. Essa habilidade também é conhecida entre os ambrianos; armas como mangual são, por exemplo, usadas nas longas lutas de exibição nas arenas de gladiadores e por muitos caçadores de recompensas. Humanos sequestrados às vezes podem ser vistos empunhando cajados-correntes, tornando possível capturar o inimigo. O personagem é treinado nas técnicas de captura usadas para ganhar Vantagem em combates corpo a corpo ou capturar presas vivas.</p>",
+          "noviceDescription": "<p>O personagem ganha uma segunda chance de capturar um alvo (requer uma arma com a qualidade Enredadora).</p>",
+          "adeptDescription": "<p>Além do efeito novato, o personagem ganha uma segunda chance de derrubar um inimigo enredado (requer uma arma com a qualidade Enredadora).</p>",
+          "masterDescription": "<p>A habilidade do personagem com armas enredadoras é tal que se supõe que todo ataque enredador atinge o pescoço do alvo e tem um efeito de estrangulamento; além do efeito de agarrar e a chance de derrubar o inimigo, o alvo sofre 1D6 de dano, ignorando a Armadura. Se o alvo chegar a 0 de Vitalidade, o personagem pode escolher deixá-lo inconsciente em vez de morrer.</p>"
         },
         "Feat of Strength": {
-          "name": "Feat of Strength"
+          "name": "Façanha de força",
+          "description": "<p><strong>Disponível apenas para Guerreiros</strong> <br/><br/>O espírito do guerreiro é fortalecido em combate, fornecendo-o um poder miraculoso quando necessário. O personagem encontrou essa fonte interior de agressão e sabe como usá-la.</p>",
+          "noviceDescription": "<p>O personagem pode lidar com uma surra e conta com Vitalidade como [Vigoroso +5]. Isso não afeta o Limiar de Dor, que é baseado em Vigoroso/2 como de costume.</p>",
+          "adeptDescription": "<p>O personagem fica mais forte ao sofrer dano. Quando a Vitalidade do personagem é reduzida pela metade, ele tem uma segunda chance de passar em todos os Testes contra Vigoroso, incluindo ataques se rolados contra Vigoroso.</p>",
+          "masterDescription": "<p>O personagem fica ainda mais forte quando severamente machucado. Quando a Vitalidade do personagem é reduzida à metade, ele causa +1D4 de dano corpo a corpo além do efeito mencionado no nível adepto.</p>"
         },
         "Flailer": {
-          "name": "Flailer"
+          "name": "Mangualeiro",
+          "description": "<p>Entre os cavaleiros de Ambria e seus escudeiros, a eficiência das armas de correntes articuladas é conhecida há muito tempo. Novas formas de usar armas articuladas surgiram no campo de batalha, e essas técnicas foram passadas para outros guerreiros. O personagem estudou os segredos das armas articuladas e aprendeu a fazer pleno uso de seu potencial.</p>",
+          "noviceDescription": "<p>Nas mãos do personagem, uma arma articulada ganha a qualidade Enredadora e pode, portanto, ser usada para enredar um inimigo em vez de fazer um ataque normal.</p>",
+          "adeptDescription": "<p>O personagem pode colocar grande força no dano secundário de armas articuladas; tais acertos agora causam 1D8 de dano em vez de 1D6.</p>",
+          "masterDescription": "<p>O mangualeiro mestre pode usar uma arma articulada para continuar a atacar mesmo depois de ter acertado um alvo. O personagem pode realizar ataques contra todos os inimigos dentro do alcance do corpo a corpo; cada ataque é rolado separadamente.</p>"
         },
         "Hammer Rhythm": {
-          "name": "Hammer Rhythm"
+          "name": "Ritmo do Martelo",
+          "description": "<p>Como arma, o martelo é antigo e sua brutal simplicidade pode, nas mãos certas, impor um ritmo mortal ecoando no campo de batalha. <br/><br/>O personagem é um daqueles que, por meio de treinamento e experiência, pode utilizar a força do martelo, seja em sua versão de uma mão ou pesada.</p>",
+          "noviceDescription": "<p>O personagem pode esmagar o escudo do inimigo com o martelo. Após um Teste de ataque fracassado em que o oponente defende com um escudo (ou seja, o inimigo impede o ataque do personagem), o personagem pode rolar [Vigoroso←Rápido]. Se for bem-sucedido, um escudo de madeira se estilhaça, enquanto um escudo de metal é arrancado do braço do adversário e cai no chão. O portador do escudo também sofre 1D6 de dano desse golpe pesado.</p>",
+          "adeptDescription": "<p>Quando um inimigo se defende com sucesso de um ataque de martelo, o personagem pode agarrar o cabo do martelo com as duas mãos e usá-lo para empurrar o inimigo. Um Teste de [Vigoroso←Vigoroso] empurra o adversário um passo para trás, e no espaço que se abre, o lutador de martelo adepto consegue fazer um Ataque Livre contra o inimigo.</p>",
+          "masterDescription": "<p>Com uma ação, o personagem faz dois ataques de martelo contra o mesmo alvo. Se a vítima se defender com sucesso de qualquer um desses ataques, o mestre pode executar um empurrão com martelo como descrito no nível do adepto. É permitido apenas um empurrão por turno, mesmo que o oponente defenda ambos os ataques.</p>"
         },
         "Hunters Instinct": {
-          "name": "Hunters Instinct"
+          "name": "Instinto de Caçador",
+          "description": "<p><strong>Disponível apenas para Caçadores</strong> <br/><br/>Os caçadores têm um instinto afiado, e há poucos alvos — sejam eles criminosos, feras ou feiticeiros — que podem evitar os projéteis do caçador.</p>",
+          "noviceDescription": "<p>O caçador indica um alvo à vista e tem uma segunda chance para obter sucesso com todos os ataques à distância feitos contra ele. O alvo é apontado quando o personagem faz um ataque contra ele, e o efeito dura até que a presa morra ou a cena termine.</p>",
+          "adeptDescription": "<p>Os ataques à distância do caçador contra um alvo apontado causam +1D4 de dano.</p>",
+          "masterDescription": "<p>O caçador mestre não deixa nenhuma presa escapar. O personagem pode desferir um Ataque Livre em um alvo apontado assim que ele se move. Isso acontece toda vez que o alvo usa uma ação de movimento para ir de um lugar para outro; um alvo usando ambas as ações para se mover provoca dois Ataques Livres à distância para o personagem.</p>"
         },
         "Knife Play": {
-          "name": "Knife Play"
+          "name": "Dança da Adaga",
+          "description": "<p>O uso de facas é comum nas favelas de Yndaros; lâminas curtas têm vantagens quando se luta em becos estreitos, em túneis de drenagem ou dentro de edifícios. Uma técnica especial de combate emergiu disso, comumente chamada de Dança da Adaga. As habilidades se espalharam por Ambria para serem empregadas onde quer que o combate seja travado em espaços restritos. <br/><br/>A Dança da Adaga só pode ser realizada com armas semelhantes a facas, ou seja, armas perfurantes ou cortantes com a qualidade Curta.</p>",
+          "noviceDescription": "<p>O personagem pode escolher atacar com Rápido em vez de com Preciso ao atacar com uma arma curta que seja similar a uma faca.</p>",
+          "adeptDescription": "<p>O personagem faz dois ataques com faca separados no mesmo alvo com cada uma de suas ações de combate. Se o personagem também tiver Ataque Gêmeo, essa habilidade afeta apenas um dos ataques, para um total de três ataques (dois com a mão principal e um com a outra).</p>",
+          "masterDescription": "<p>O personagem pode lutar eficazmente com uma faca a um alcance muito curto do inimigo: quando o personagem causar dano com um ataque de faca, presume-se que ele esteja tão próximo que o inimigo tem dificuldade em usar armas comuns de forma eficaz (o personagem tem duas chances de passar no Teste de Defesa), e é incapaz de atacar com armas Longas. Para alcançar uma distância melhor, o inimigo terá que… <br/><br/>…ganhar a iniciativa no próximo turno (veja Ataque Rápido, na página 108, ou Tomar a Iniciativa, na página 104. Ambos no Guia Avançado do Jogador) e então continuar atacando até que o atacante com faca volte a atacar. <br/><br/>…usar uma ação de movimento para se afastar do corpo a corpo e depois sofrer um Ataque Livre do dançarino de adaga. Se o Ataque Livre causar dano, o inimigo mais uma vez se encontrará a uma distância muito curta para atacar efetivamente.</p>"
         },
         "Mantle Dance": {
-          "name": "Mantle Dance"
+          "name": "Dança do Manto",
+          "description": "<p><strong>Disponível apenas para Ladrão Cavalheiro</strong> <br/><br/>Entre os esgrimistas de Ambria, os escudos são considerados incômodos e bárbaros, fazendo da adaga de aparar uma ferramenta mais usual para a defesa. Outra escola foi um passo além e desenvolveu técnicas elegantes que transformam o manto do esgrimista em um escudo dançante. <br/><br/>O personagem pode usar sua mão livre junto com um manto ou um pedaço similar de tecido em Defesa. Quando usado pelo personagem, o manto se torna um escudo hipnótico e movimentado que pode confundir ou temporariamente cegar o oponente.</p>",
+          "noviceDescription": "<p>O manto do personagem, ou algum pedaço similar de pano na mão, fornece +1 de bônus na Defesa.</p>",
+          "adeptDescription": "<p>O manto ataca os olhos do inimigo, cegando o alvo temporariamente se o Teste de ataque for bem-sucedido. O personagem imediatamente desfere um Ataque Livre contra o alvo, um ataque que o inimigo deve defender como se estivesse cego. Todos atacando o alvo cego podem tirar vantagem da situação durante um turno.</p>",
+          "masterDescription": "<p>Nas mãos do mestre, o manto é como um chicote com a qualidade Enredadora, tornando possível usá-lo para prender o alvo.</p>"
         },
         "Opportunist": {
-          "name": "Opportunist"
+          "name": "Oportunista",
+          "description": "<p>No meio da batalha, pontos fracos são expostos e podem ser explorados. Este fato é conhecido por guerreiros experientes tanto em Ambria quanto em Davokar, que ensinaram uns aos outros como aproveitar essas oportunidades.</p>",
+          "noviceDescription": "<p>O personagem tem uma segunda chance de obter sucesso em Ataques Livres gerados pelo inimigo recuar do combate corpo a corpo.</p>",
+          "adeptDescription": "<p>O personagem pode usar habilidades ativas em Ataques Livres gerados pelo inimigo recuar do combate corpo a corpo. Se usado, o personagem não recebe a segunda chance de obter sucesso proporcionada pelo nível novato ao usar uma habilidade como rolagem de Ataque Livre.</p>",
+          "masterDescription": "<p>Quando um inimigo recua do combate corpo a corpo, o mestre oportunista ganha uma segunda chance para obter sucesso e recebe uma segunda chance de obter sucesso ao usar habilidades ativas com a rolagem de Ataque Livre.</p>"
         },
         "Pyrotechnics": {
-          "name": "Pyrotechnics"
+          "name": "Pirotecnia",
+          "description": "<p><strong>Disponível apenas para Espião da Rainha</strong> <br/><br/>Em Ambria, avanços no campo da alquimia levaram ao uso de armas alquímicas. Os agentes secretos da Rainha são conhecidos por empregar esses dispositivos ao combater os inimigos do reino ou escapar de situações perigosas. O personagem pode usar elixires especiais para cegar ou enfraquecer o inimigo. Note que o nível mestre da habilidade Sexto Sentido torna possível agir normalmente apesar de estar cego; Sexto Sentido não afeta nenhum outro efeito da Pirotecnia.</p>",
+          "noviceDescription": "<p>O personagem pode usar o Pó Luminoso criado por um alquimista para ofuscar um oponente em combates corpo a corpo. Isso requer um Teste de [Preciso←Rápido]; o ataque causa 1D4 de dano, ignorando a Armadura, e o alvo fica cego por 1D4 turnos. <br/><br/>O personagem também pode lidar com granadas alquímicas e minas alquímicas sem arriscar uma falha catastrófica.</p>",
+          "adeptDescription": "<p>O personagem pode usar uma Bomba de Fumaça alquímica corretamente para preencher uma área com fumaça densa. Se a Bomba de Fumaça é lançada à distância, um Teste de Preciso é necessário para ela aterrissar onde pretendido. Se for largada aos pés do personagem, nenhum Teste é necessário, mas o personagem é afetado como todos os outros nas proximidades. Todos na área, amigos e inimigos, ficam cegos até saírem do local (duas ações de movimento em qualquer direção). Aqueles que permanecerem na fumaça devem passar num Teste de Vigoroso a cada turno ou sofrem 1D4 de dano, ignorando a Armadura, de envenenamento por fumaça.</p>",
+          "masterDescription": "<p>O personagem pode efetivamente ativar e lançar uma Bola Trovejante alquímica em um grupo de inimigos. Todos os alvos num raio de cinco metros são atingidos, um Teste de [Preciso←Rápido] decide se eles sofrem dano total ou parcial. O dano é 1D12, ignorando a Armadura. Além disso, todos os alvos que sofrerem o efeito total ficam cegos por 1D4 turnos.</p>"
         },
         "Rapid Reflexes": {
-          "name": "Rapid Reflexes"
+          "name": "Reflexos Rápidos",
+          "description": "<p><strong>Disponível apenas para Ladinos</strong> <br/><br/>Ladinos não têm muito em comum entre si, além de serem todos sobreviventes — ou porque gostam muito de estar vivos ou para se esforçarem por seus objetivos. Esta vontade de permanecer vivo resultou no desenvolvimento de várias maneiras de evitar ser ferido.</p>",
+          "noviceDescription": "<p>Em situações em que o personagem sofre um efeito que pode resultar em dano inteiro ou metade (por exemplo, de granadas alquímicas e Cascata de Enxofre), o personagem sofre metade do dano em vez de dano inteiro, e nenhum dano em vez de metade do dano. Por exemplo, se for atingido por uma Cascata de Enxofre que normalmente causa 1D12 com um acerto e 1D6 com um erro, o dano é transformado em 1D6 em um acerto e em nenhum dano em um erro.</p>",
+          "adeptDescription": "<p>O ladino evita o ataque corpo a corpo do inimigo e dança ao redor de suas costas; com um sucesso no Teste de Defesa, se o jogador quiser, o ladino e o inimigo trocam de lugar. Isso significa que o ladino deixa de ser flanqueado sem sofrer um Ataque Livre, e que o inimigo acaba em uma posição flanqueada se houver um aliado ao lado do ladino.</p>",
+          "masterDescription": "<p>Os reflexos do ladino mestre são tão afinados que ele ignora a ordem usual do turno e sempre age primeiro; somente outros com essa habilidade e um valor maior em Rápido ou Vigilante conseguem agir antes do ladino.</p>"
         },
         "Rune Tattoo": {
-          "name": "Rune Tattoo"
+          "name": "Tatuagem Rúnica",
+          "description": "<p>Os artesãos rúnicos do Clã Vajvod no leste da Davokar frequentemente tatuam a si mesmos e seus aliados com runas poderosas. Essas runas parecem quase vivas e brilham em brasa quando ativadas em combate. O personagem carrega essas tatuagens, sejam feitas por si (requer o ritual Esculpir Tatuagem Rúnica) ou concedidas ao personagem como presente ou recompensa, provavelmente por um serviço de grande importância para o simbolista que a fez. <br/><br/>Tatuagem Rúnica requer que alguém use o ritual Esculpir Tatuagem Rúnica no personagem. Se o personagem tiver essa habilidade desde o início, a tatuagem já estará gravada no lugar.</p>",
+          "noviceDescription": "<p>A tatuagem rúnica fornece um bônus de +1D4 na armadura contra-ataques, mas somente se o personagem escolher ativá-la. Ativar o efeito custa um ponto de corrupção temporária para cada ataque que o acertar, e o personagem deve decidir se ativará a runa antes de rolar para outros tipos de armadura. <br/><br/>Além disso, a runa protege do clima e do vento como um conjunto completo de roupas.</p>",
+          "adeptDescription": "<p>A tatuagem rúnica é atraída por ferimentos no corpo do personagem e brilha ao redor das feridas. O personagem regenera um ponto de Vitalidade por turno; cada ponto curado custa um ponto em corrupção temporária. O guerreiro tatuado pode optar por abortar o processo de regeneração quando quiser.</p>",
+          "masterDescription": "<p>A tatuagem rúnica adiciona poder aos ataques do guerreiro. Quando um inimigo é atingido e o personagem quiser, a tatuagem incandescente flui sobre a arma, causando +1D4 de dano, porém ao custo desse mesmo valor em pontos de corrupção temporária impostos ao personagem.</p>"
         },
         "Siege Expert": {
-          "name": "Siege Expert"
+          "name": "Perito em Cerco",
+          "description": "<p>Em Ambria, as guerras são travadas de duas maneiras: no campo de batalha e através de cercos. Armas de cerco são usadas em ambos os casos. Essa habilidade abrange o uso de balestra, torres de cerco e catapultas, e também a habilidade de construir essas engenhocas a partir do zero. Um perito em cerco pode planejar e organizar a escavação de trincheiras e túneis de proteção com o propósito de minar as muralhas de um inimigo. Além disso, também há o uso de armas alquímicas de campo de batalha: granadas alquímicas, potes de ruptura, baterias de mísseis e tubos de fogo alquímicos, tanto estacionários quanto portáteis. <br/><br/>Todas as armas de cerco e de campo de batalha são descritas na seção Armas do Guia Avançado do Jogador, a partir da página 110.</p>",
+          "noviceDescription": "<p>O personagem é treinado para usar uma balestra e construir torres de cerco. O personagem pode lidar com granadas alquímicas e não corre o risco de detoná-las por engano (um usuário inexperiente deve se preocupar).</p>",
+          "adeptDescription": "<p>O personagem pode liderar o trabalho ao construir e efetivamente usar armas de cerco mais avançadas, como a catapulta e seu primo maior, o trabuco. No local de um cerco, o personagem pode planejar e liderar o trabalho de escavar trincheiras protetoras e minar túneis. O personagem aprendeu os segredos mais profundos em relação à arte das armas de cerco — bombas de fumaça alquímicas escondendo tropas de ataque contra arqueiros hostis; o uso de potes de ruptura alquímicos que explodem buracos nas fortificações do inimigo; e o tubo de fogo alquímico, vomitando fogo e morte a qualquer um que passar na frente dele. Além disso, a versão portátil do tubo alquímico de incêndio pode ser manuseada de maneira segura mesmo sob estresse, sem o risco de falhas catastróficas.</p>",
+          "masterDescription": "<p>O entendimento do personagem sobre armas alquímicas é excepcional, e todas elas obtêm a qualidade Massiva se ainda não a tiverem.</p>"
         },
         "Staff Fighting": {
-          "name": "Staff Fighting"
+          "name": "Luta de Cajado",
+          "description": "<p>A aparente simplicidade do cajado tende a mascarar sua versatilidade como arma, o que é demonstrado por combatentes habilidosos, frequentemente encontrados entre os elfos da Davokar e os magistas ascéticos que usam seus cajados rúnicos para lutar se a situação exigir isso. Há também combatentes entre os bárbaros, muitas vezes usando o pique como arma (a mesma arma chamada de alabarda em Ambria). A questão de saber se essas tradições de combate têm ou não uma origem comum é redundante; todos são igualmente eficazes — algo que um personagem com essa habilidade será capaz de demonstrar. <br/><br/>A Luta de Cajado pode ser realizada com todas as armas Longas — cajado, lança, alabarda e pique. O exótico cajado-corrente também pode ser usado. Além disso, as técnicas de luta de cajado são especialmente úteis para qualquer um que as use com a mais simples das armas Longas — o cajado de madeira.</p>",
+          "noviceDescription": "<p>O personagem é treinado para aparar ataques e recebe +1 em Defesa; com o simples cajado de madeira ou com um cajado rúnico — mais rápido e mais bem equilibrado que outras armas na categoria — o bônus é de +2 em Defesa.</p>",
+          "adeptDescription": "<p>O personagem usa o lado oposto da arma Longa para desferir um Ataque Livre se o oponente se defender contra o ataque inicial. O Ataque Livre é rolado separadamente e o dano é 1D6. <br/><br/>Se armado com um cajado de madeira (isto é, não uma lança ou alabarda, mas incluindo cajados rúnicos), isso também pode ser feito após cada Defesa bem-sucedida contra ataques corpo a corpo enquanto segura a arma — o lutador de cajado dá uma rápida resposta após aparar.</p>",
+          "masterDescription": "<p>O personagem aprendeu a atacar as pernas e depois atacar o inimigo caído com um único movimento. O ataque inicial derruba o inimigo no chão se o atacante tiver sucesso com um Teste de [Preciso←Rápido], e em sequência realiza um Ataque Livre com Vantagem contra o oponente.</p>"
         },
         "Staff Magic": {
-          "name": "Staff Magic"
+          "name": "Magia do Cajado",
+          "description": "<p><strong>Disponível apenas para Magistas do Cajado</strong> <br/><br/>Os magistas do cajado já foram os guardas do imperador symbariano. Após a queda do último imperador, eles se retiraram para seu castelo nas profundezas da Davokar na esperança de reformar sua enfraquecida ordem. Para eles, eles eram culpados pela queda de Symbaroum; eles falharam em seu dever porque se concentraram mais em títulos, intrigas e cargos do que em proteger o império. <br/><br/>A reforma deu origem à ordem como é hoje, seus membros parecendo místicos taciturnos vestidos de maneira simples e com poderes surpreendentes. O personagem é um dos escolhidos, recebeu um cajado rúnico e a tarefa de restaurar a antiga grandeza da ordem esmagando a escuridão e colocando o legítimo herdeiro do último imperador no Trono de Espinhos em Symbar. <br/><br/>Os magistas do cajado são uma ordem de elite, colocando altas exigências aos recrutas desde o início; somente os místicos mais promissores têm esperança de lutar contra as trevas como membros de sua ordem.</p>",
+          "noviceDescription": "<p>O magista do cajado liga sua alma a um cajado rúnico, esculpido com as runas dos elementos. O cajado absorve toda a corrupção que o personagem teria ganho ao aprender os poderes da tradição no nível novato. Se o personagem já tiver corrupção permanente quando for ligado ao cajado, o nível de corrupção permanente é reduzido em 1D6. Isso só pode ser feito uma vez; se o cajado for perdido ou precisar ser substituído, nenhuma redução adicional será feita. <br/><br/>Além disso, como uma ação livre, o magista do cajado pode ativar uma runa elemental e, em seguida, causar +1D4 de dano com o cajado, não importando se ele é usado em combinação com os poderes da tradição ou como uma arma corpo a corpo. O personagem pode escolher entre ácido, eletricidade, fogo ou frio. Ativar a runa não gera corrupção.</p>",
+          "adeptDescription": "<p>O cajado absorve toda a corrupção que o personagem teria ganho ao aprender os poderes da tradição no nível adepto. Além disso, o cajado vincula a corrupção tão bem que o personagem ganha uma segunda chance de rolar por corromper ao usar todos os poderes incluídos na tradição; o personagem sofre o menor dos dois resultados.</p>",
+          "masterDescription": "<p>O cajado absorve toda a corrupção que o personagem teria ganho ao aprender os poderes da tradição no nível mestre. O cajado também vincula a corrupção temporária de forma tão eficaz que o personagem não sofre mais nenhuma corrupção temporária ao usar os poderes de magia do cajado.</p>"
         },
         "Strong Gift": {
-          "name": "Strong Gift"
+          "name": "Dom Poderoso",
+          "description": "<p><strong>Disponível apenas para Místicos</strong> <br/><br/>Existem muitos mitos descrevendo a origem dos poderes místicos, e todas as tradições estabelecidas são rápidas em afirmar que a delas é a mais antiga, ou pelo menos quase tão antiga quanto a própria prática mística. Qualquer que seja a verdade, muitos acreditam que foram místicos autodidatas com um dom especialmente aperfeiçoado ou forte que fundaram as primeiras tradições. <br/><br/>O Dom Poderoso — inato ou adquirido através de ensaios e práticas — ainda pode ser encontrado com alguns místicos. Por um lado, o dom oferece uma resistência singular contra a corrupção do mundo. Mas também confere ao místico a capacidade de usar poderes místicos improvisados a um alto custo de corrupção.</p>",
+          "noviceDescription": "<p>O Dom Poderoso permite que o personagem escolha um poder emblemático. Esse poder é selecionado entre os que já são conhecidos pelo místico, e esse poder custa apenas um ponto de corrupção temporária para usar. Se o personagem não tiver poderes ou preferir ter uma habilidade como poder emblemático, isso também é permitido — um dom ligado à habilidade Ritualista (incluindo todos os rituais individuais) ou à Visão de Bruxa significa que eles nunca custam mais do que um de corrupção temporária para usar. Além disso, traços como Sabedoria das Eras podem ser escolhidos. <br/><br/>O Dom Poderoso não tem efeito sobre o custo da corrupção permanente para aprender um poder fora de uma tradição mística; afeta apenas a quantidade de corrupção temporária obtida ao usá-lo.</p>",
+          "adeptDescription": "<p>Um personagem com o nível de adepto em Dom Poderoso usa todo o seu valor Resoluto como o limiar de corrupção, em vez de apenas metade. Tal indivíduo não se torna abominação até que sua corrupção total atinja um valor de Resoluto ×2.</p>",
+          "masterDescription": "<p></p>"
         },
         "Sword Saint": {
-          "name": "Sword Saint"
+          "name": "Espada Abençoada",
+          "description": "<p>Entre os duelistas de Ambria, há aqueles que conseguiram uma simbiose quase mística com suas espadas de esgrima, que manipulam suas armas como se fossem extensões de seu corpo e alma. As técnicas de Espada Abençoada só podem ser usadas com uma espada de esgrima (ou com outra espada com a qualidade Equilibrada). Uma adaga de aparar ou a habilidade Dança do Manto também podem ser usadas em combinação com a espada, mas a Espada Abençoada não pode ser combinada com a habilidade Ataque Gêmeo para ganhar bônus adicionais no dano.</p>",
+          "noviceDescription": "<p>O personagem aprendeu a tirar vantagem por lutar com uma espada equilibrada em uma mão e uma adaga na outra. O dano causado pela espada é 1D10 em vez de 1D8.</p>",
+          "adeptDescription": "<p>O personagem pode executar uma resposta rápida. Uma vez por turno, após uma Defesa bem-sucedida, o personagem desfere um Ataque Livre contra o inimigo.</p>",
+          "masterDescription": "<p>O mestre pode executar uma série de respostas e desfere um Ataque Livre contra o oponente a cada Teste bem-sucedido de Defesa, sem limitação do número de Ataques Livres por turno. <br/><br/>Como uma adição Passiva, o dano da espada Equilibrada aumenta para 1D12.</p>"
         },
         "Symbolism": {
-          "name": "Symbolism"
+          "name": "Simbolismo",
+          "description": "<p>O Simbolismo foi desenvolvido no leste, além das Corvos, no que os simbolistas chamam de \"A primeira cidade dos humanos\" — um lugar de mito, perdido em algum lugar nos vastos desertos das desolações orientais. Hoje em dia, os simbolistas se reúnem em Vajvod, no leste da Davokar, embora alguns deles viajem por toda parte em busca de conhecimento sobre runas, signos e símbolos. A suposição básica dos simbolistas afirma que o mundo consiste em signos e símbolos e que, portanto, pode ser afetado e influenciado pela alteração de signos e símbolos que representam suas diversas características. <br/><br/>Os poderes do Simbolismo são criados pelo desenho ou pela escrita. Procedimentos mais fantasiosos também são possíveis, como bordados, gravuras ou tecidos. Procedimentos à parte, o poder do símbolo é liberado pelo comando simbolista, e o símbolo se vaporiza quando seu poder é liberado. <br/><br/>Cria um símbolo não gera corrupção, mas quando ele é ativado, aquele que o usa sofre um ponto de corrupção temporária.</p>",
+          "noviceDescription": "<p>O personagem começou a entender o poder das runas. Os sinais devem ser representados fisicamente — esculpidos, pintados, gravados, tatuados — o que leva tempo; para o novato, leva uma hora para criar um símbolo de poder. No entanto, é necessário apenas uma ação de combate para ativar um símbolo, o que é feito por meio da expressão de uma frase de ativação. Note que o simbolista tem que ver ou estar em contato direto (alcance corpo a corpo) com o símbolo para ativá-lo. <br/><br/>O simbolista só pode ter um símbolo por poder místico preparado dessa maneira. Quando um símbolo é usado, ele deve ser recarregado, o que leva o tempo necessário para criar o símbolo a partir do zero.</p>",
+          "adeptDescription": "<p>Como uma ação de combate, o simbolista pode pintar rapidamente um símbolo em um livro ou desenhá-lo na lama ou poeira do solo. Esses símbolos temporários transcendem a limitação de que o simbolista só pode ter um símbolo por poder preparado. <br/><br/>Para o adepto, a ativação de símbolos — não importa se eles são preparados de forma mais permanente (veja novato, acima) ou são de natureza temporária — é uma ação livre em que ele tem que pronunciar uma única palavra. No entanto, apenas um símbolo pode ser ativado por turno. <br/><br/>Além disso, o simbolista adepto pode optar por ativar símbolos usando um acionamento físico em vez de uma palavra. O acionamento é decidido pelo místico quando o símbolo é criado, e pode, por exemplo, ser que uma criatura viva entre em uma sala, que alguém pise no símbolo ou que uma arma seja desenhada dentro do alcance do corpo a corpo. O simbolista pode ou não se excluir desta equação, mas os aliados do simbolista não podem ser excluídos: se eles agirem de acordo com o acionamento, o símbolo é ativado. <br/><br/>O adepto pode apagar um dos seus próprios símbolos com um simples gesto (ação livre), mas isso requer realmente tocar o símbolo.</p>",
+          "masterDescription": "<p>Como uma ação de combate, o simbolista pode desenhar runas de poder flamejante no ar e ativá-las como parte da mesma ação. Assim, os símbolos funcionam exatamente como os poderes de outras tradições, além de o místico sofrer apenas um ponto de corrupção temporária por ativação. Esses símbolos momentâneos transcendem a limitação de que o simbolista só pode ter um símbolo por poder preparado.</p>"
         },
         "Trapper": {
-          "name": "Trapper"
+          "name": "Armadilheiro",
+          "description": "<p>Armadilhas têm sido usadas desde os tempos antigos, e na Davokar elas são particularmente úteis. Entre os bárbaros, a arte de fazer armadilhas é conhecida por muitos, e até mesmo os ambrianos que se aventuram na floresta sabem apreciar uma boa armadilha. O personagem percebeu que monstros e abominações são melhor combatidos depois de terem sido apanhados e acorrentados. <br/><br/>Caçadores treinados podem implantar e desarmar armadilhas mecânicas e minas alquímicas. Além disso, quando a necessidade surge, o personagem pode rapidamente fabricar armadilhas improvisadas a partir dos materiais que tiver em mãos.</p>",
+          "noviceDescription": "<p>Com um Teste de Astuto, o personagem pode usar uma ação de combate para desarmar uma armadilha mecânica. O efeito depende do nível da armadilha. O personagem também pode construir uma armadilha improvisada, mas isso requer um turno completo. Uma armadilha improvisada feita pelo personagem causa 1D6 de dano.</p>",
+          "adeptDescription": "<p>O personagem pode lidar com minas alquímicas da mesma maneira que lida com armadilhas mecânicas. Uma armadilha improvisada feita pelo personagem agora causa 1D8 de dano.</p>",
+          "masterDescription": "<p>O personagem é um renomado caçador que sabe aproveitar ao máximo qualquer tipo de armadilha. Armadilhas e minas são contadas como uma categoria mais alta: fraco torna-se moderado, moderado torna-se forte e o personagem recebe uma segunda chance em todas as rolagens ao usar um dispositivo forte — as tentativas dos inimigos de descobrir, desarmar ou se livrarem tornam-se mais difíceis; o dado de dano também é rolado duas vezes e o maior resultado permanece. Para armadilhas alquímicas, a rerrolagem de dano refere-se apenas à explosão inicial, não ao dano contínuo que se segue. Armadilhas improvisadas agora causam 1D10 de dano</p>"
         },
         "Trick Archery": {
-          "name": "Trick Archery"
+          "name": "Truque de Arquearia",
+          "description": "<p>Truques disparando arcos e bestas é a mais alta moda em Ambria — eles são apreciados em apresentações tanto quanto são eficazes em combate. Esses arqueiros não são muito comuns, já que a maioria das pessoas não têm a paciência requerida para aprimorar suas habilidades a um grau tão impressionante. O personagem é um dos poucos que dedicaram suas vidas a dominar o arco ou a besta.</p>",
+          "noviceDescription": "<p>O personagem pode usar um turno completo (ação de combate mais ação de movimento) para mirar perfeitamente e depois atingir um local muito preciso no inimigo; atirar numa arma de uma mão, pregar uma parte do corpo a uma parede ou árvore próxima, ou mirar nos olhos para cegar o inimigo. O ataque é rolado como de costume e, se acertar e causar dano, o efeito pretendido também ocorre: uma arma é derrubada e deve ser apanhada, uma flecha prende o inimigo a uma parede e deve ser puxada para fora ou quebrada para libertá-lo, e um golpe próximo aos olhos deixa o inimigo temporariamente cego. Qualquer que seja o caso, o alvo perde uma ação de combate para lidar com a situação.</p>",
+          "adeptDescription": "<p>O arqueiro pode fazer com que projéteis ricocheteiem em pisos, paredes, móveis, escudos ou criaturas vivas com pele ou armadura robusta, a fim de acertar alvos por atrás de alguma cobertura para que o personagem não precise de uma linha de visão livre antes de disparar. O personagem deve ter uma ideia de onde o alvo está ou ter visto ele se esconder, por exemplo, atrás da cobertura ou em uma sala adjacente. Se o alvo tiver realizado uma ação de movimento duplo, ele não pode ser atingido. <br/><br/> Esse tipo de ataque é feito como de costume, tanto o Teste de Sucesso quanto o Teste de dano.</p>",
+          "masterDescription": "<p>Uma vez por turno, o personagem pode, à distância, aparar um ataque bem- -sucedido. Essa manobra de aparar pode ser de dois tipos: <br/><br/>Contra um ataque corpo a corpo destinado a um aliado: O arqueiro mestre dispara um projétil que deflagra um ataque que de outra forma teria atingido um de seus aliados. Esta manobra de aparar requer um Teste de [Preciso←Rápido]; se bem-sucedido, o ataque erra o aliado sem causar dano algum. <br/><br/>Contra um projétil físico destinado ao arqueiro ou a um aliado: A manobra de aparar requer um Teste de [Preciso←Rápido]; se bem-sucedido, o projétil do inimigo é desviado e perde seu alvo.</p>"
         },
         "Troll Singing": {
-          "name": "Troll Singing"
+          "name": "Canto do Troll",
+          "description": "<p>A tradição mística dos trolls é expressa através do canto, às vezes acompanhado de música tocada em trompete, flauta ou flauta de pã. De acordo com as canções educativas dos trolls, a tradição deriva do estilo de canto kulning que os trolls usam para se comunicar por longas distâncias no Submundo.</p>",
+          "noviceDescription": "<p>O cantor troll não sofre corrupção permanente ao aprender cantos de troll no nível novato, mas não tem proteção contra a corrupção temporária sofrida ao entoá-los. <br/><br/>Além disso, uma vez por cena, todos os cantores trolls têm uma segunda chance de sucesso em um Teste ao tentar influenciar ou afetar a mente de um alvo (ou seja, situações em que o adversário defende usando o atributo Resoluto). A rerrolagem não pode ser usada para criar ou manter uma cadeia de efeitos místicos.</p>",
+          "adeptDescription": "<p>O cantor troll não sofre corrupção permanente ao aprender cantos de troll no nível adepto. Adicionalmente, o adepto pode rerrolar um Teste de Sucesso ao tentar influenciar ou afetar a mente de um alvo, e também ao criar ou manter uma cadeia de tais efeitos místicos.</p>",
+          "masterDescription": "<p>O cantor troll não sofre corrupção permanente ao aprender cantos de troll no nível mestre. O mestre pode relançar todos os Testes de Sucesso ao tentar influenciar ou afetar a mente de um alvo, e também ao criar ou manter uma cadeia de tais efeitos místicos.</p>"
         },
         "Wrestling": {
-          "name": "Wrestling"
+          "name": "Luta Livre",
+          "description": "<p>A luta livre é popular entre guerreiros, apreciada para fins educacionais, e também possui valor como entretenimento. Assim, os combates de luta livre podem ser vistos nas arenas das grandes cidades de Ambria, nos acampamentos do exército entre soldados entediados e no campo de batalha em meio a espadas e machados balançando. O personagem é treinado para lutar, com e sem a proteção de armadura. <br/><br/>O traço Robusto adiciona um bônus a Vigoroso quando jogar um oponente ou para resistir a ser jogado: +2 no nível novato, +4 no nível adepto e +8 no nível mestre. Robusto não concede bônus se algum outro atributo além de Vigoroso for usado.</p>",
+          "noviceDescription": "<p>O personagem conhece as manobras básicas de luta livre e pode usá-las contra adversários armados. Além disso, o personagem pode realizar essas manobras enquanto segura armas; elas não precisam ser largadas ou guardadas. <br/><br/>O ataque é feito como de costume e, se for bem-sucedido, o lutador agarra o inimigo com firmeza. O lutador pode então tentar jogar o inimigo ou apenas manter o controle; ambas as alternativas requerem um Teste de [Vigoroso←Vigoroso]. O arremesso causa 1D4 de dano, ignorando a Armadura, e deixando o inimigo caído sobre suas costas. <br/><br/>Como alternativa a um arremesso, mantendo o agarrão, o personagem não causa dano, mas o inimigo não pode agir até que o lutador falhe em um Teste de [Vigoroso←Vigoroso]. Além disso, todos os aliados do lutador têm Vantagem sobre o inimigo agarrado. O lutador é incapaz de fazer qualquer outra coisa enquanto mantém o controle, deixando-o vulnerável: todos os inimigos têm Vantagem contra o lutador.</p>",
+          "adeptDescription": "<p>O personagem aprendeu como contrariar a força de um oponente e pode usá-la para jogar o inimigo no chão. Primeiro, o lutador deve obter sucesso em um Teste normal de Defesa contra o ataque corpo a corpo do inimigo, e então ele deve passar no Teste de [Rápido←Vigoroso]. O arremesso causa 1D4 de dano, ignorando a Armadura, e o inimigo arremessado acaba caído sobre suas, perde o fôlego e é incapaz de realizar quaisquer ações ativas durante o turno seguinte</p>",
+          "masterDescription": "<p>O arremesso reativo do personagem (veja o nível adepto) requer apenas um Teste de [Rápido←Vigoroso], nenhum Teste de Defesa é necessário. Se o arremesso falhar, um Teste de Defesa será rolado para evitar ser atingido. O lançamento do mestre causa 1D6 de dano, ignorando a Armadura, e o inimigo arremessado acaba de caído sobre suas costas, perde o fôlego e é incapaz de realizar quaisquer ações ativas durante o turno seguinte. <br/><br/>Além disso, o mestre lutador pode desferir imediatamente um Ataque Livre contra o inimigo.</p>"
         },
         "Banishing Seal": {
-          "name": "Banishing Seal"
+          "name": "Selo de Banimento",
+          "material": "Um símbolo criado para o propósito",
+          "description": "<p><strong>Tradição: </strong>Simbolismo <br/><br/>O místico liga as energias de banimento a um símbolo que, quando ativado, libera ondas sobre a área. Após a criação, o místico deve escolher que tipo de criatura será afetada (Abominações, Bestas, Seres Culturais ou Mortos-vivos).</p>",
+          "noviceDescription": "<p>O símbolo desencadeia uma corrente de energias de banimento. O alvo mais próximo do símbolo é afetado se o místico obtiver sucesso em um Teste de [Resoluto←Resoluto]; se for bem-sucedido, será feita uma tentativa de banir o próximo inimigo e assim por diante, até que um Teste falhe. Criaturas banidas devem deixar a área tão rapidamente quanto possível, e não podem retornar antes do final da cena.</p>",
+          "adeptDescription": "<p>Como no nível novato, mas criaturas que não forem afetadas (porque o Teste falhou) sofrem 1D4 de dano do poder, ignorando a Armadura. Alvos que não são afetados pelo efeito de banimento podem escolher fugir para evitar serem danificados; se assim for, eles podem não retornar até depois da cena.</p>",
+          "masterDescription": "<p>Como no nível novato, mas aqueles que não são banidos sofrem 1D8 de dano, ignorando a Armadura. Alvos que não forem afetados pelo efeito de banimento podem escolher fugir e sofrer apenas 1D4 de dano, ignorando a Armadura; se for esse o caso, eles não podem retornar até depois da cena.</p>"
         },
         "Black Bolt": {
-          "name": "Black Bolt"
+          "name": "Raio Negro",
+          "material": "Um pedaço de vidro vulcânico",
+          "description": "<p><strong>Tradição: </strong>Feitiçaria <br/><br/>Durante a Grande Guerra, os raios negros dos Lordes Negros, enlaçando e queimando seus alvos, eram temidos por todos. Nos dias mais recentes, outros feiticeiros descobriram que eles podem fazer o mesmo, estendendo suas almas corrompidas e usando-as como um chicote que prende e corrói o inimigo. <br/><br/>O místico não pode lançar um novo raio negro enquanto pelo menos um inimigo estiver enredado pelo poder, mas pode usar outros poderes místicos.</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de [Resoluto←Rápido], o personagem lança um raio negro em um inimigo. Se bem-sucedido, o alvo é atingido e sofre 1D6 de dano, ignorando a Armadura. Além disso, o alvo fica preso e pode não agir até que consiga se libertar, o que requer sucesso em um Teste de Resoluto (um Teste é feito a cada turno após o primeiro) ou acontece automaticamente se o místico perder a concentração, [Resoluto←Dano].</p>",
+          "adeptDescription": "<p>O personagem lança uma corrente de raios negros. Isso funciona exatamente como no nível novato, mas para cada alvo atingido pelo raio, outro inimigo pode ser atacado, até que um Teste falhe. Todos os inimigos afetados podem tentar se libertar do efeito do poder, e se um deles conseguir, todos estarão imediatamente livres para agir. O mesmo acontece se o místico perder a concentração, [Resoluto←Dano]</p>",
+          "masterDescription": "<p>O personagem lança uma corrente de raios negros, assim como no nível adepto, mas os alvos enredados devem se libertar individualmente; eles não podem se ajudar como no nível adepto. Se o místico perder a concentração [Resoluto←Dano], todos os alvos são imediatamente libertados da escuridão envolvente.</p>"
         },
         "Black Breath": {
-          "name": "Black Breath"
+          "name": "Sopro Sombrio",
+          "material": "Corrupção permanente do místico",
+          "description": "<p><strong>Tradição: </strong>Feitiçaria <br/><br/>Um místico com corrupção permanente pode vomitar sua escuridão interior e infectar os outros com corrupção, ou curar criaturas já contaminadas.</p>",
+          "noviceDescription": "<p>Uma (1) criatura é atingida; role 1D4 contra sua corrupção total. Se o resultado for igual ou inferior ao valor de corrupção, a criatura cura um valor igual ao resultado do Teste; se superior, a criatura sofre o resultado em corrupção temporária.</p>",
+          "adeptDescription": "<p>Como novato, mas a rolagem é 1D6.</p>",
+          "masterDescription": "<p>Como adepto, mas o ataque é feito em uma corrente, onde outro alvo é atingido se o anterior tiver sofrido corrupção. Assim que alguém é curado, a corrente é quebrada.</p>"
         },
         "Blinding Symbol": {
-          "name": "Blinding Symbol"
+          "name": "Símbolo Cegante",
+          "material": "Um símbolo preparado",
+          "description": "<p><strong>Tradição: </strong>Simbolismo <br/><br/>Runas intrincadas emitem energias que podem cegar temporariamente aqueles que são deslumbrados com a luz. O efeito de um Símbolo Cegante é imediatamente suspenso se a vítima usar uma dose de Colírio.</p>",
+          "noviceDescription": "<p>As runas desencadeiam uma corrente de energias ofuscantes. O alvo mais próximo do símbolo fica cego se o místico obtiver sucesso em um Teste de [Resoluto←Resoluto]; se for bem-sucedido, será feita uma tentativa de cegar o próximo inimigo e assim por diante, até que um Teste falhe. As vítimas só ficam cegas por um turno antes de recuperar automaticamente a visão.</p>",
+          "adeptDescription": "<p>Como no nível novato, mas o efeito dura até que o místico falhe em um Teste de Resoluto ou perca a concentração [Resoluto←Dano].</p>",
+          "masterDescription": "<p>Como no nível novato, mas o efeito dura até que o aflito recupere Vitalidade com poderes de cura ou elixires.</p>"
         },
         "Combat Hymn": {
-          "name": "Combat Hymn"
+          "name": "Hino de Combate",
+          "material": "Nenhum, mas o místico deve cantar em voz alta",
+          "description": "<p><strong>Tradição: </strong>Canto do Trol <br/><br/>Há um poder cru e indomável no canto, e alguns místicos aprendem a cantar enquanto lutam para ganhar uma força extra considerável quando batalham contra o inimigo. O personagem é um dos que aprenderam a cantar hinos de combate para aumentar suas chances na batalha. A música é interrompida se o místico usar outro poder místico ou se a concentração for perdida devido a danos [Resoluto–Dano].</p>",
+          "noviceDescription": "<p>O personagem concede a si e a todos os aliados um bônus de +1 para Preciso, Rápido ou Vigoroso (o aliado escolhe qual atributo será afetado) enquanto o canto continuar.</p>",
+          "adeptDescription": "<p>O personagem concede a si e a todos os aliados um bônus de +1 para Preciso, Rápido e Vigoroso enquanto o canto continuar.</p>",
+          "masterDescription": "<p>O personagem e todos os aliados recebem +1 de bônus de em Preciso, Rápido e Vigoroso enquanto o canto continuar. Além disso, o personagem e todos os aliados recuperam 1D6 de Vitalidade quando a música começa; este efeito de cura só pode ser usado uma vez por cena.</p>"
         },
         "Dancing Weapon": {
           "name": "Arma Dançante",
           "material": "Uma arma corpo a corpo",
-          "description": "<p><strong>Tradição: </strong>Canto do Troll, Magia do Cajado</p> <p>Usando simplesmente a força de vontade, o místico faz uma arma disparar e lutar, com a velocidade e a agilidade de um pensamento. A arma em questão não precisa ser especial de forma alguma; se tiver qualidades ou poderes, eles podem ser usados pelo místico de acordo com as regras padrão de combate. No entanto, o místico não pode usar outras habilidades relacionadas a combate corpo a corpo enquanto usa este poder.</p>",
-          "noviceDescription": "<p>O místico permite que uma arma dance e usa Resoluto em vez de Preciso (ataque) e Rápido (defesa). Fora isso, aplicam-se as regras normais de combate.</p> <p>O novato deve se concentrar na arma enquanto luta, o que o impede de usar outros poderes ou habilidades enquanto a arma dança.</p>",
+          "description": "<p><strong>Tradição: </strong>Canto do Troll, Magia do Cajado <br/><br/>Usando simplesmente a força de vontade, o místico faz uma arma disparar e lutar, com a velocidade e a agilidade de um pensamento. A arma em questão não precisa ser especial de forma alguma; se tiver qualidades ou poderes, eles podem ser usados pelo místico de acordo com as regras padrão de combate. No entanto, o místico não pode usar outras habilidades relacionadas a combate corpo a corpo enquanto usa este poder.</p>",
+          "noviceDescription": "<p>O místico permite que uma arma dance e usa Resoluto em vez de Preciso (ataque) e Rápido (defesa). Fora isso, aplicam-se as regras normais de combate. <br/><br/>O novato deve se concentrar na arma enquanto luta, o que o impede de usar outros poderes ou habilidades enquanto a arma dança.</p>",
           "adeptDescription": "<p>O místico deve assumir o controle da arma gastando uma ação de combate para ativar o poder, mas depois disso a arma luta sozinha, e o místico fica livre para usar outros poderes e habilidades. As rolagens de ataque e defesa são feitas contra Resoluto.</p>",
           "masterDescription": "<p>A arma sai da bainha quando o mestre precisa dela, ataca uma vez por turno e defende o personagem por si só, deixando o místico livre para usar outros poderes e habilidades. As rolagens de ataque e defesa são feitas contra Resoluto.</p>"
         },
         "Draining Glyph": {
-          "name": "Draining Glyph"
+          "name": "Glifo de Drenagem",
+          "material": "Um glifo cuidadosamente criado",
+          "description": "<p><strong>Tradição: </strong>Simbolismo <br/><br/>O místico cria um glifo que, após a ativação, torna-se um vórtice giratório, sugando a força vital do inimigo. O glifo afeta todos os inimigos que podem ver o símbolo e estão na frente dele.</p>",
+          "noviceDescription": "<p>Com um Teste de [Resoluto←Vigoroso] o místico pode causar dano a todos os inimigos nas proximidades (um Teste por alvo). O dano é 1D4, ignorando a Armadura. O efeito dura até que o místico falhe em um Teste de Resoluto ou perca a concentração [Resoluto –Dano].</p>",
+          "adeptDescription": "<p>Como no nível novato, mas o efeito dura até o místico falhar em um Teste de Resoluto.</p>",
+          "masterDescription": "<p>O mestre pode direcionar parte da energia drenada para dentro de si ou de seus aliados; a força vital roubada cura o místico ou um de seus aliados, recuperando 1D4 pontos de Vitalidade por turno enquanto o efeito estiver ativo.</p>"
         },
         "Exorcize": {
-          "name": "Exorcize"
+          "name": "Exorcizar",
+          "material": "Uma arma afiada para cortar o tecido do mundo",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Demonologistas <br/><br/>A falta de respeito de um Feiticeiro pelas leis da natureza lhe garante a capacidade impressionante de romper e dobrar aparentes constantes como o tempo e o espaço. Uma maneira de fazer uso disso é banir temporariamente criaturas do mundo dos vivos para o Além Mundo, onde ventos alienígenas uivam em coro com abominações caçadoras. <br/><br/>Isso representa um perigo para o demonologista, já que toda tentativa fracassada de usar o poder arrisca trazer uma abominação ao mundo. Se isso acontecer, a abominação ataca uma vítima aleatória, embora não alguém que esteja protegido por uma Aura Profana ou cuja alma já esteja completamente corrompida. <br/><br/>A abominação que surge tem uma chance igual (1D6) de ser (1-2) um Daemon Vingativo, (3-4) um Daemon Conhecedor ou (5-6) um Daemon Guardião (para estatísticas, veja o ritual Convocar Daemon, na página 88 do Guia Avançado do Jogador).</p>",
+          "noviceDescription": "<p>Com um Teste bem-sucedido de [Resoluto←Resoluto], o personagem abre uma fenda temporária no tecido do mundo e envia um inimigo através dela. O inimigo retorna um turno depois, na iniciativa dos personagens e no mesmo local — fumegando das brumas do Além Mundo e tendo sofrido 1D4 de dano, ignorando a Armadura, e 1D4 de corrupção temporária. <br/><br/>Uma tentativa fracassada automaticamente atrai uma abominação que entra pela fenda.</p>",
+          "adeptDescription": "<p>Com um Teste bem-sucedido contra [Resoluto←Resoluto], o personagem envia um inimigo para o Além Mundo, que deve lutar para voltar; o inimigo pode fazer um Teste de Resoluto a cada turno, e um sucesso o traz de volta ao mundo. Cada turno passado no Além Mundo causa 1D4 de dano, ignorando a Armadura, e 1D4 de corrupção temporária. Se o alvo morrer ou se tornar nascido da mácula, a fenda se fecha e o inimigo desaparece para sempre. <br/><br/>Como a fenda está aberta enquanto o inimigo está fora do mundo, existe o risco de que uma abominação irada passar por ela — a cada turno após o primeiro, o místico deve obter sucesso em um Teste de Resoluto para impedir que uma abominação entre no mundo através da fenda. <br/><br/>Se o Teste inicial para usar o poder falhar, o místico deve imediatamente fazer um Teste de Resoluto para impedir que uma abominação furiosa passe para o mundo. <br/><br/>O místico pode optar por não tentar impedir a entrada da abominação, não importa se a abominação surge como um efeito de uma tentativa fracassada de usar o poder ou como consequência de uma fenda de longa duração bem-sucedida.</p>",
+          "masterDescription": "<p>Uma vez por turno, um inimigo que ataca o místico em corpo a corpo corre o risco de ser expulso para o Além Mundo, [Resoluto←Resoluto]. Se expulso, o inimigo sofre o mesmo efeito que o nível novato. Um Teste falho não tem efeito; esse poder não acarreta o risco de uma abominação entrar no mundo.</p>"
         },
         "Fire Soul": {
-          "name": "Fire Soul"
+          "name": "Alma de Fogo",
+          "material": "Nenhum, mas Almas de Fogo frequentemente exibem sinais físicos de sua atração pelo fogo; um olhar ardente, cabelo vermelho ou calor que irradia do corpo.",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Piromantes <br/><br/>Piromantes descobriram que aqueles que dedicam suas vidas ao estudo do fogo, com o tempo aprendem a usá-lo instintivamente como escudo e como arma. Diz-se até que os mais devotados aprendem a manipular a força dos fogos hostis e, paradoxalmente, usam esses poderes ardentes para se curar quando feridos.</p>",
+          "noviceDescription": "<p>Quando o místico é atingido em combate corpo a corpo, chamas agridem o atacante, causando 1D6 de dano. Além disso, o místico sofre menos dano de fogo, o que significa que ele tem +1D6 de Armadura contra dano desse elemento.</p>",
+          "adeptDescription": "<p>Como o nível novato, exceto que a proteção contra fogo e o dano causado contra aqueles que atacarem o místico em combate corpo a corpo são rolados com 1D10 em vez de 1D6.</p>",
+          "masterDescription": "<p>O poder do mestre é tão grande que ele não recebe dano, e sim é curado pelo fogo. O místico recupera metade de qualquer dano que teria sido causado por fogo (se o místico tivesse sofrido 4 de dano, ele cura 2 de Vitalidade em vez disso). Isto também se refere ao fogo criado pelo místico ao usar outros poderes além de Alma de Fogo. <br/><br/>Além disso, as chamas que surgem do místico quando ele é atacado agora também retaliam à distância. Poderes que afetam a mente não desencadeiam tal retaliação, apenas poderes que potencialmente causam dano. As chamas causam 1D10 de dano e a Armadura protege como de costume.</p>"
         },
         "Heroic Hymn": {
-          "name": "Heroic Hymn"
+          "name": "Hino Heroico",
+          "material": "Nenhum, mas o místico deve cantar em voz alta",
+          "description": "<p><strong>Tradição: </strong>Canto do Troll <br/><br/>Há poder nos hinos heroicos do passado. O místico pode cantar enquanto luta, preenchendo seus aliados com coragem e vigor. <br/><br/>A música é interrompida se o místico usar outro poder místico ou se a concentração for perdida ao sofrer dano [Resoluto–Dano].</p>",
+          "noviceDescription": "<p>O personagem concede a si e a todos os aliados +1 de bônus em Astuto, Persuasivo ou Resoluto (o aliado escolhe qual atributo será afetado) enquanto o canto continuar.</p>",
+          "adeptDescription": "<p>O personagem concede a si e a todos os aliados +1 de bônus em Astuto, Persuasivo e Resoluto enquanto o canto continuar.</p>",
+          "masterDescription": "<p>O personagem e todos os aliados recebem +1 de bônus em Astuto, Persuasivo e Resoluto enquanto o canto continuar. Além disso, a corrupção temporária do personagem e de todos os aliados é reduzida em 1D4 quando a música começa; esse efeito redutor de corrupção só pode ser usado uma vez por cena.</p>"
         },
         "Lifegiver": {
-          "name": "Lifegiver"
+          "name": "Doador de Vida",
+          "material": "Uma gota de água pura",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Confessores <br/><br/>A fonte da vida corre clara e refrescante nestes dias sombrios. Curandeiros dedicados podem extrair seu poder e transformá-lo em um dom que purifica almas de corrupção e cura feridas físicas.</p>",
+          "noviceDescription": "<p>O místico retira 1D4 pontos de corrupção temporária de uma criatura à vista. Qualquer excesso de pontos cura a Vitalidade da criatura. O místico pode usar esse poder sobre si mesmo</p>",
+          "adeptDescription": "<p>O místico remove 1D4 pontos de corrupção temporária de si mesmo e de todos os aliados à vista. Qualquer excesso de pontos cura a Vitalidade.</p>",
+          "masterDescription": "<p>A mera presença do Confessor reduz diretamente o efeito prejudicial da corrupção temporária em todos os aliados à vista. Quando um aliado usa um poder místico ou um artefato que causa corrupção, o valor sofrido é reduzido em 1D4 pontos. Qualquer excesso de pontos não tem efeito.</p>"
         },
         "Mirroring": {
-          "name": "Mirroring"
+          "name": "Espelhamento",
+          "material": "Um par de pequenas estatuetas",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Ilusionistas <br/><br/>As camadas de equívocos e mentiras da realidade podem ser usadas para projetar uma série de fenômenos concebíveis, dos quais apenas um corresponde à realidade do mundo. As múltiplas imagens falsas criadas dessa maneira servem para proteger o místico de ataques hostis — na maioria dos casos; pois há sempre o risco de o inimigo atacar o místico em vez de uma ilusão. Cada ataque contra o místico tem a chance de acertar uma das projeções ou o místico: se três ilusões forem feitas, a chance do místico ser atingido é de 1 em 4. À medida que as ilusões são destruídas, o risco do místico ser atingido aumenta.</p>",
+          "noviceDescription": "<p>Com sucesso em um Teste de Resoluto, o místico projeta 1D4 cópias espelhadas de si. Se uma cópia for atingida, ela deixa de existir. Dano causado por efeitos de área atingem o místico normalmente e instantaneamente dissipam todas as cópias espelhadas.</p>",
+          "adeptDescription": "<p>Com sucesso em um Teste de Resoluto, o místico projeta 1D6 cópias espelhadas de si. Dano causado por efeitos de área atingem o místico normalmente e dissipam uma cópia espelhada.</p>",
+          "masterDescription": "<p>Com sucesso em um Teste de Resoluto, o místico projeta 1D8 cópias espelhadas de si. Dano causado por efeitos de área atingem o místico normalmente, mas não dissipam cópias espelhadas.</p>"
         },
         "Protective Runes": {
-          "name": "Protective Runes"
+          "name": "Runas Protetivas",
+          "material": "Uma representação das runas",
+          "description": "<p><strong>Tradição: </strong>Magia do Cajado, Simbolismo <br/><br/>As runas do místico emitem energias protetoras que cercam o místico, e em níveis mais altos também seus aliados.</p>",
+          "noviceDescription": "<p>O poder das runas oferece +1D4 à Armadura até que o místico falhe em um Teste de Resoluto ou perca a concentração [Resoluto–Dano]. O dado extra da Armadura é rolado separadamente para cada golpe e é adicionado a qualquer outra Armadura.</p>",
+          "adeptDescription": "<p>As runas fornecem +1D4 à Armadura(veja o nível novato). Um efeito de retaliação também causa dano de 1D4 a cada inimigo que ferir a criatura protegida, ignorando qualquer Armadura. O efeito dura até que o místico falhe em um Teste de Resoluto ou perca a concentração [Resoluto–Dano].</p>",
+          "masterDescription": "<p>Os efeitos de proteção e retaliação são rolados com 1D6 em vez de 1D4, e duram até que o místico falhe em um Teste de Resoluto.</p>"
         },
         "Psychic Thrust": {
-          "name": "Psychic Thrust"
+          "name": "Impulso Psíquico",
+          "material": "Um pedaço de vidro afiado como uma faca",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Mentalistas <br/><br/>Alguns místicos sabem como projetar sua vontade para formar uma arma psíquica que possa atacar o inimigo junto com os ataques corpo a corpo comuns do místico. Isso significa que o inimigo deve se defender em duas frentes e correr o risco de falhar em ambas. Há também uma chance de o inimigo ficar paralisado ou seriamente prejudicado pelo impulso psíquico.</p>",
+          "noviceDescription": "<p>O místico realiza um ataque corpo a corpo normal em combinação com um impulso psíquico, visando a capacidade defensiva do inimigo. O personagem ganha uma segunda chance de obter sucesso no Teste de ataque</p>",
+          "adeptDescription": "<p>O impulso psíquico é feito em combinação com o ataque corpo a corpo, e se o místico obtiver sucesso em um Teste de [Resoluto←Resoluto], o inimigo é incapaz de se defender contra o ataque. Portanto, se esse Teste for bem-sucedido, o místico automaticamente atinge o inimigo.</p>",
+          "masterDescription": "<p>Com um Teste bem-sucedido contra [Resoluto←Resoluto], o inimigo não pode se defender, e o ataque corpo a corpo acerta automaticamente. Além disso, o inimigo sofre 1D4 de dano extra, ignorando a Armadura, além do dano causado pelo ataque corpo a corpo.</p>"
         },
         "Purgatory": {
-          "name": "Purgatory"
+          "name": "Purgatório",
+          "material": "Um pequeno pedaço de uma corrente enferrujada",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Inquisidores <br/><br/>Almas enegrecidas ecoam com dor e escuridão, e um inquisidor treinado pode usar essa escuridão contra o inimigo, ou até mesmo afogar o alvo retorcido em sua própria escuridão interior.</p>",
+          "noviceDescription": "<p>O místico força um alvo a rolar 1D20 contra a corrupção total desse alvo. Um resultado igual ou inferior leva a uma dor aguda que incapacita o alvo por um turno inteiro. Criaturas completamente corrompidas, em vez disso automaticamente sofrem dano de 1D6, ignorando a Armadura.</p>",
+          "adeptDescription": "<p>O místico força todos os alvos à vista a rolar 1D20 contra suas próprias corrupções totais. Um resultado igual ou inferior leva a uma dor aguda que incapacita o alvo por um turno inteiro. Criaturas completamente corrompidas, em vez disso automaticamente sofrem dano de 1D6, ignorando a Armadura.</p>",
+          "masterDescription": "<p>O místico pune automaticamente todos os inimigos à vista que atraírem corrupção. O místico pode excluir qualquer aliado do efeito.</p>"
         },
         "Retribution": {
-          "name": "Retribution"
+          "name": "Retribuição",
+          "material": "Nenhuma, apenas palavras nocivas",
+          "description": "<p><strong>Tradição: </strong>Feitiçaria, Canto do Troll <br/><br/>Alguns místicos de mente obscura podem usar sua raiva e vingança para acumular energias sombrias ao redor de uma criatura que desejam ferir. De fato, nos níveis superiores, o efeito dessa habilidade se torna instintivo, e toda a dor que os místicos causam será, sem dúvida, transferida para quaisquer inimigos na proximidade. <br/><br/>Note que os membros da raça anã podem aprender Retribuição como se fosse uma habilidade normal. Assim, eles não sofrem corrupção por usar seu poder particular, nem quando o aprendem, nem quando fazem uso dele. Isso se refere apenas a esse poder e à raça anã.</p>",
+          "noviceDescription": "<p>Se o personagem proferir palavras de desgraça e obter sucesso em um Teste de [Resoluto←Resoluto], o infortúnio se junta em uma nuvem densa ao redor de um inimigo. Todos os que atacam o alvo têm uma segunda chance de obter sucesso nos Testes de ataque durante o resto da cena. Somente um inimigo de cada vez pode sofrer a Retribuição do místico dessa maneira; mudar o alvo conta como uma ação de combate.</p>",
+          "adeptDescription": "<p>Quando o personagem sofre dano e obtém sucesso em um Teste de [Resoluto←Resoluto], o atacante é vinculado por um elo de morte. Somente um inimigo por vez pode ser vinculado por um elo de morte, mas se um elo for quebrado, um novo inimigo que cause dano ao personagem poderá ser vinculado. <br/><br/>O elo da morte significa que o dano sofrido pelo personagem também é infligido ao inimigo vinculado. Isso inclui todos os danos, independentemente da fonte. <br/><br/>O Limiar de Dor não é afetado; ele é tratado separadamente para o personagem e o alvo. Os ataques que não causam dano podem ser ignorados, mas no caso de poderes que causam dano como parte de seu efeito, todo e qualquer dano é transferido através do elo. Dano do traço monstruoso Dano Alternativo também é transferido para o alvo. <br/><br/>Se o personagem morrer (ficar morto ou morrendo), o elo é imediatamente quebrado e o dano do ataque que derrubou o personagem não é transferido.</p>",
+          "masterDescription": "<p>Como no nível adepto, mas cada vez que o personagem sofrer dano de um ataque e obter sucesso em um Teste de [Resoluto←Resoluto], o atacante é vinculado por um elo de morte. Portanto, o número de criaturas vinculadas é ilimitado. <br/><br/>Vista sobre os limites ao norte do Charco da Lama Negra e algumas das estátuas de pedra que estão no pântano. Sabe-se que eles são compostos de pedra, mas não se foram criados dessa forma...</p>"
         },
         "Sphere": {
-          "name": "Sphere"
+          "name": "Esfera",
+          "material": "Cajado rúnico ou arma corpo a corpo",
+          "description": "<p><strong>Tradição: </strong>Magia do Cajado <br/><br/>O místico faz seu cajado — ou outra arma corpo a corpo — girar em tal velocidade que forma uma esfera protetora ao seu redor. A esfera efetivamente apara a maioria dos ataques. Do lado negativo, o místico não pode realizar ataques ou usar outros poderes sem dissipar a esfera. A esfera permanece ativa até que seja voluntariamente desativada, até que o místico use outro poder ou até que seja dissipada por algum outro místico usando o poder Anátema.</p>",
+          "noviceDescription": "<p>A esfera permite que o místico opte por defender usando Resoluto em vez de Rápido. Ela pode proteger o místico de ataques corpo a corpo e à distância, mas não de poderes místicos. Somente movimento é permitido enquanto o místico dentro da esfera — nem mesmo as ações que normalmente poderiam substituir movimento são possíveis enquanto a esfera é mantida.</p>",
+          "adeptDescription": "<p>A esfera se defende automaticamente contra uma quantidade ilimitada de ataques corpo a corpo e à distância, desde que esteja ativa. No entanto, ela não fornece nenhuma proteção contra poderes místicos e efeitos de área, como explosões, bombas de fumaça ou similares.</p>",
+          "masterDescription": "<p>O mestre pode fazer uma arma formar uma esfera sem precisar tocá-la. Dessa forma, ele pode incluir um aliado dentro da esfera. Além disso, isso deixa as mãos do místico livres para outras ações, como beber um elixir, curar as feridas de um aliado ou desenrolar um pergaminho de magia — ou seja, ações que podem substituir uma ação de movimento. O místico não pode afetar o mundo fora da esfera, mas pode manter efeitos místicos que já estão ativos — o mesmo vale para qualquer aliado que o místico proteja dentro da esfera.</p>"
         },
         "Spirit Walk": {
-          "name": "Spirit Walk"
+          "name": "Caminhada Espiritual",
+          "material": "Um pedaço de um tecido de sepultamento",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Necromantes <br/><br/>Por causa de sua proximidade com a morte, o místico desenvolveu a habilidade mística de assumir a forma imaterial de um espírito. Caminhada Espiritual é prejudicada por Círculo Mágico, Círculo de Bruxa e Rito de Santificação; o místico não pode atravessar ou deixar essas áreas enquanto se move na forma de um espírito; no entanto, é possível assumir a forma de espírito quando se está dentro desses domínios protegidos. A Caminhada Espiritual também termina se alguém acender uma Vela Fantasma por perto (veja o elixir alquímico com esse nome na página 153 do Livro Básico).</p>",
+          "noviceDescription": "<p>Com sucesso em um Teste de Resoluto, o místico assume a forma de espírito. Essa forma imaterial dura por uma ação de movimento (cerca de 10 metros), possibilitando a movimentação através de paredes espessas ou até mesmo inimigos no campo de batalha. Todos os ataques direcionados ao místico são ignorados, a menos que sejam feitos com poderes místicos ou artefatos — ambos causam apenas metade do dano. O movimento é tudo o que o personagem pode fazer durante o turno e, depois de ter se movido, retoma à sua forma física.</p>",
+          "adeptDescription": "<p>A forma espiritual chega instintivamente ao místico. Quando atacado, o místico pode rolar [Resoluto–Dano] em vez de um Teste de Defesa; se for bem-sucedido, o ataque passa através do místico sem causar dano. As exceções são poderes místicos e artefatos, que causam metade do dano, mesmo que o Teste tenha sucesso. O místico retorna imediatamente à sua forma física. <br/><br/>Se preferir, o místico pode optar por jogar Defesa normalmente, ou seja, não usar a Caminhada Espiritual para evitar um ataque específico</p>",
+          "masterDescription": "<p>Com sucesso em um Teste de Resoluto, o místico pode permitir que um ataque — de uma arma ou de um poder místico que cause dano — comece em forma de espírito e depois transcenda em forma física assim que a armadura do inimigo ser penetrada; nesse caso, a Armadura do alvo é ignorada pelo ataque do místico.</p>"
         },
         "Staff Projectile": {
-          "name": "Staff Projectile"
+          "name": "Cajado Projétil",
+          "material": "Um cajado rúnico",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Magistas do Cajado <br/><br/>Nas mãos de um magista do cajado, o cajado rúnico é uma poderosa arma de arremesso. O cajado é arremessado em um inimigo e retorna à mão do místico, acertando o alvo ou não.</p>",
+          "noviceDescription": "<p>O místico arremessa o cajado e pode rolar contra Resoluto em vez de Preciso para atingir o alvo. O cajado causa 1D8 de dano; o efeito de uma runa elemental possivelmente ativada (veja Magia do Cajado) é adicionado.</p>",
+          "adeptDescription": "<p>Como novato, mas o projétil causa 1D10 de dano. O cajado pode ser jogado além de terrenos ou inimigos que bloqueiam a passagem para alcançar um alvo afastado; o místico não precisa de uma linha de visão clara, mas precisa ver pelo menos parte do alvo. O efeito de uma runa elemental possivelmente ativada (veja Magia do Cajado) é adicionado.</p>",
+          "masterDescription": "<p>O cajado é arremessado em uma sequência de golpes e o místico pode usar Resoluto em vez de Preciso para acertar. O primeiro acerto inflige 1D12, o segundo 1D10, o terceiro 1D8, o quarto 1D6 e o quinto 1D4. A sequência de golpes não é quebrada por errar um Teste de ataque, mas o dano é reduzido a cada alvo, independentemente de acertar ou não. Você pode atacar até cinco alvos com Cajado Projétil; o místico deve ver o alvo, mas não precisa de uma linha de visão clara. O efeito de uma runa elemental possivelmente ativada (veja Magia do Cajado) é adicionado.</p>"
         },
         "Teleport": {
-          "name": "Teleport"
+          "name": "Teleporte",
+          "material": "Uma arma afiada para cortar o tecido do mundo",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Demonologistas <br/><br/>Os feiticeiros que foram mais longe em questionar as leis da natureza podem rasgar buracos no mundo e sair de cena, apenas para rasgar outra fenda no tecido do Além Mundo e reentrar no mundo dos vivos em um novo local. Como sempre, quando a concha da realidade é perfurada, existe o risco de que uma abominação surja e ataque uma criatura aleatória — exceto aquelas protegidas pelo poder Aura Profana ou cujas almas são completamente corrompidas. <br/><br/>A abominação que surge tem uma chance igual (1D6) de ser (1-2) um Daemon Vingativo, (3-4) um Daemon Conhecedor ou (5-6) um Daemon Guardião (para estatísticas, veja o ritual Convocar Daemon, na página 88 do Guia Avançado do Jogador).</p>",
+          "noviceDescription": "<p>Com sucesso em um Teste de Resoluto, o personagem pode sair do mundo e retornar em uma distância equivalente a duas ações de movimento. O místico sofre 1D4 de dano pela jornada pelo Além Mundo, ignorando a Armadura. O teleporte não aciona um Ataque Livre, mesmo se você recuar do corpo a corpo. O místico deve ver o local de retorno quando o poder místicoé ativado. <br/><br/>Se o Teste falhar, um daemon enfurecido entra pela fenda.</p>",
+          "adeptDescription": "<p>Como no nível novato, exceto que o místico não sofre dano durante sua viagem pelo Além Mundo. <br/><br/>Se o Teste falhar, o místico deve obter sucesso em um Teste de Resoluto para impedir que uma abominação enfurecida entre no mundo através da fenda. O místico pode optar por não parar a entrada e deixar o daemon passar por vontade própria.</p>",
+          "masterDescription": "<p>Como no nível adepto, com a adição de que o místico pode levar alguém na jornada. Esse alguém deve ficar ao lado do místico quando o poder é ativado (alcance corpo a corpo) e, se a criatura estiver relutante, o místico deve obter sucesso em um Teste de [Resoluto←Resoluto] para forçá-lo a ir junto. O companheiro de viagem sofre 1D4 de dano, ignorando a Armadura, e 1D4 de corrupção temporária devido à experiência traumática. <br/><br/>Se o Teste falhar, o místico deve obter sucesso em um Teste de Resoluto para impedir que uma abominação enfurecida entre no mundo através da fenda. O místico pode optar por não parar a entrada e deixar o daemon passar por vontade própria.</p>"
         },
         "Thorn Cloak": {
-          "name": "Thorn Cloak"
+          "name": "Manto de Espinhos",
+          "material": "Um ramo de arbusto espinhoso",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Tecelões Verdes <br/><br/>As plantas na natureza geralmente são vistas como imóveis e reativas, em vez de agressivas e ativas. Tecelões Verdes experientes sabem mais, e podem usar trepadeiras, espinhos e raízes para defenderem a si e a seus aliados.</p>",
+          "noviceDescription": "<p>O místico se deixa enredar pela vegetação, o que fornece um bônus de +1D4 na Armadura ou +1D6 se o místico não se mover durante o turno inteiro.</p>",
+          "adeptDescription": "<p>Como no nível novato, mas a vegetação se ramifica para proteger também todos os aliados que estão perto do místico (dentro do alcance corpo a corpo). Esses aliados ganham +1D4 de bônus na Armadura, mas essa proteção extra desaparece se eles se afastarem do místico (ou se ele se afastar dos aliados).</p>",
+          "masterDescription": "<p>O místico e seus aliados são protegidos como no nível adepto, com a adição de que a vegetação ataca os inimigos agressores. Todo golpe bem-sucedido contra o místico ou um aliado protegido causa 1D10 de dano, ignorando a Armadura, ao atacante devido aos espinhos da vegetação.</p>"
         },
         "Tormenting Spirits": {
-          "name": "Tormenting Spirits"
+          "name": "Espíritos Atormentadores",
+          "material": "Um pedaço de um tecido de sepultamento",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Espiritualistas e Necromantes  <br/><br/>O mundo é antigo e muitos espíritos do passado persistem nele; espíritos da natureza na terra e na água, ou heróis mortos que ainda não passaram para o outro lado. Alguns místicos podem despertar espíritos para a vida e fazê-los atacar seus inimigos. Os inimigos são assediados por esses espíritos de fogo que rasgam suas roupas, equipamentos, cabelos e carne. Na melhor das hipóteses, o alvo não pode agir; na pior das hipóteses, o alvo fica louco ou morre pelos ataques.</p>",
+          "noviceDescription": "<p>O místico chama espíritos em seu auxílio, e essas formas transparentes atacam um inimigo. O alvo falha automaticamente em todos os Testes de concentração enquanto usa poderes místicos; todos os outros Testes têm uma segunda chance de falhar. O místico deve obter sucesso em um Teste de Resoluto a cada turno para que os espíritos continuem seus ataques.</p>",
+          "adeptDescription": "<p>O místico pode exigir ajuda mais substancial dos espíritos. Eles atacam ferozmente e causam dano a Resoluto, aumentando o efeito descrito no nível novato. O dano causado é de 1D4 por turno, ignorando a Armadura. Se Resoluto for reduzido a zero, o alvo morre, presumindo que não tenha permissão para fazer Testes de morte. Personagens ficam temporariamente insanos em vez de morrer — catatônico, chorando ou incapaz de agir — enquanto faz seus Testes de morte. O dano ao Resoluto cura como outros tipos de dano. O místico deve obter sucesso em um Teste de Resoluto a cada turno para que os espíritos continuem seu ataque. Além disso, se o místico sofrer dano, a concentração será interrompida se falhar em um Teste de [Resoluto–Dano]</p>",
+          "masterDescription": "<p>Como adepto, mas os ataques espirituais causam 1D6 de dano a Resoluto.</p>"
         },
         "Weakening Hymn": {
-          "name": "Weakening Hymn"
+          "name": "Hino de Enfraquecimento",
+          "material": "Nenhum, mas o místico deve cantar em voz alta",
+          "description": "<p><strong>Tradição: </strong>Canto do Troll <br/><br/>Ao longo da história, muitas canções provocativas foram escritas sobre os fracos de coração, e nessas melodias existem harmonias debilitantes a serem exploradas pelos místicos que sabem como fazê-lo. O místico repetidamente canta esse tema contagiante enquanto luta, espalhando covardia e fraqueza entre seus inimigos. <br/><br/> A música é interrompida se o místico usar outro poder místico ou se a concentração for perdida ao sofrer dano [Resoluto –Dano].</p>",
+          "noviceDescription": "<p>Com sucesso em um Teste de [Persuasivo←Resoluto], o místico pode impor a cada inimigo ferido uma segunda chance de falhar em todos os Testes de Sucesso enquanto o canto continuar; para cada inimigo ferido deve ser feito um Teste.</p>",
+          "adeptDescription": "<p>Com sucesso em um Teste de [Persuasivo←Resoluto], o místico pode impor a cada inimigo (ferido ou não) uma segunda chance de falhar em todos os Testes de Sucesso enquanto o canto continuar.</p>",
+          "masterDescription": "<p>Com sucesso em um Teste de [Persuasivo←Resoluto], o místico pode impor a cada inimigo (ferido ou não) uma segunda chance de falhar em todos os Testes bem-sucedidos. Além disso, todos os inimigos que falharem em um Teste de Sucesso por causa do Hino de Enfraquecimento sofrem 1D4 de dano, ignorando a Armadura — causado por eles serem afetados fisicamente por letras de músicas angustiantes que evocam falhas do passado.</p>"
         },
         "Wild Hunt": {
-          "name": "Wild Hunt"
+          "name": "Caçada Selvagem",
+          "material": "A pele de uma besta morta por causas naturais",
+          "description": "<p><strong>Tradição: </strong>Disponível apenas para Aves de Sangue <br/><br/>A natureza da Davokar pode parecer sombria e cheia de conflitos, presos em um ciclo eterno de nascimento, contenda e morte. Mas para os místicos que têm a capacidade de ver a verdade mais profunda, há um desequilíbrio perfeito nesse ciclo; uma forma superior de harmonia. Esta percepção pode ser usada pelo místico para adquirir a ajuda de criaturas aparentemente hostis da categoria Besta. <br/><br/>As bestas convocadas não precisam ser do mesmo tipo que os inimigos; nesses casos, o tipo é decidido por quais tipos ocorrem naturalmente no ambiente. O personagem dita como as bestas agem durante a cena, e após isso elas deixam a área.</p>",
+          "noviceDescription": "<p>O místico pode convocar uma besta fraca para ajudá-lo em combate.</p>",
+          "adeptDescription": "<p>O místico chama uma besta ordinária ou 1D4 bestas fracas para ajudá-lo em combate.</p>",
+          "masterDescription": "<p>O místico chama uma besta desafiadora, 1D4 bestas ordinárias ou 1D6 bestas fracas para ajudá-lo em combate.</p>"
         },
         "Acrobatics": {
           "name": "Acrobacias",
@@ -6490,7 +6722,7 @@
           "masterDescription": "<p>Com um Teste bem-sucedido de Resoluto, o personagem pode adotar a forma de um indivíduo específico e mantê-la pela duração de uma cena. Qualquer um que falar com o personagem será capaz de ver através da ilusão, a menos que o personagem obtenha sucesso em um Teste de [Discreto←Vigilante]. Para um personagem ser capaz de enganar pessoas familiarizadas à pessoa copiada, ele ou ela deve obter sucesso em dois Testes, primeiro à distância e depois outro quando iniciar uma conversa.</p>"
         },
         "Survival Instinct": {
-          "name": "instinto de Sobrevivência",
+          "name": "Instinto de Sobrevivência",
           "description": "<p>O personagem pertence a uma linhagem com força vital poderosa e uma vontade de sobreviver igualmente poderosa. Para alguns indivíduos, esta energia se manifesta como um clamoroso brado e uma perspicácia incansável; para outros, ela se manifesta como um instinto de sobrevivência mais útil. </p>",
           "noviceDescription": "<p>Graças a seu instinto de sobrevivência explosivo, o personagem pode realizar uma Ação de Movimento extra uma vez por cena.</p>",
           "adeptDescription": "<p>O personagem confia em seus instintos e aprendeu que lidar com as adversidades frequentemente salva sua vida. O instinto de sobrevivência afiado do personagem lhe fornece +1D4 permanente à Armadura.</p>",
@@ -6505,11 +6737,11 @@
           "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
         },
         "Bastard Sword, one hand grip": {
-          "name": "Espada Bastarda, uma mão",
+          "name": "Espada Bastarda (Uma mão)",
           "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"
         },
         "Bastard Sword, two-handed grip": {
-          "name": "Espada Bastarda, duas mãos",
+          "name": "Espada Bastarda (Duas mãos)",
           "description": "<p>Os mestres ferreiros dos Pansars forjam as melhores armas de Ambria, e as espadas bastardas da Guarda da Rainha atestam esse fato, pelo menos quando empunhadas pelos guerreiros certos.</p> <p>A arma é preferencialmente empunhada com ambas as mãos (como uma arma Pesada), mas também pode ser utilizada com uma mão e um escudo. Quando empunhada com apenas uma mão, a espada bastarda perde a qualidade Precisa e causa dano como uma arma de uma mão.</p>"
         },
         "Battle claw": {
@@ -6652,7 +6884,7 @@
         "APG - Armor": "GAJ - Armaduras",
         "APG - Artifacts": "GAJ - Artefatos",
         "APG - Boons/Burdens": "GAJ - Dávidas/Fardos",
-        "APG - Equipment": "GAJ - Equipmentos",
+        "APG - Equipment": "GAJ - Equipamentos",
         "1 Food and Drink": "1 Comidas e Bebidas",
         "APG - Powers": "GAJ - Poderes",
         "APG - Rituals": "GAJ - Rituais",
@@ -6664,7 +6896,7 @@
         "Armor": "Armaduras",
         "Artifacts": "Artefatos",
         "Boons/Burdens": "Dávidas/Fardos",
-        "Equipment": "Equipmentos",
+        "Equipment": "Equipamentos",
         "Monstrous Traits": "Traços Monstruosos",
         "Powers": "Poderes",
         "Rituals": "Rituais",
