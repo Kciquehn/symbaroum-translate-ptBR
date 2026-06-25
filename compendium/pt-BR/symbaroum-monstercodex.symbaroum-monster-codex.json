@@ -956,42 +956,68 @@
 			},
 			"actors": {
 				"Blight Born Fairy": {
-					"name": "Blight Born Fairy",
-					"items": {
+					"name": "Feérico Nascido da Mácula",
+          			"tokenName": "Feérico Nascido da Mácula",
+          			"race": "Abominação (Elfo da primavera)",
+         			"shadow": "Preto com manchas marrons esverdeadas, como folhas em decomposição flutuando em um lago à noite (completamente corrompido)",
+          			"appearance": "<p>Criaturas pequenas, tortas e nuas, com olhos negros brilhantes e garras compridas no lugar de unhas. Sua pele mostra vestígios de pelos finos, e todos eles são cercados por um odor sulfúrico pungente.</p>",
+         			"tactics": "<p>Eles não atacam o alvo até que o superem em um número de dois para um; então eles esperam por uma situação em que possam pegar o inimigo de surpresa para criar Vantagem.</p>",
+					"manner": "Risos, olhos semicerrados",
+          			"items": {
 						"Corrupting Attack": {
-							"name": "Corrupting Attack"
-						},
+              				"name": "Ataque Corruptivo",
+              				"description": "<p>Aquelas dentre as criaturas da Davokar mais corrompidas possuem a habilidade de espalhar a mácula sombria através de suas garras e outros ataques naturais.</p>",
+              				"noviceDescription": "<p>O ataque da criatura escorre corrupção e macula qualquer um que é ferido por seus ataques.</p> <p>A vítima que sofre pelo menos 1 ponto de dano do ataque também sofre 1D4 de Corrupção temporária.</p>",
+              				"adeptDescription": "<p>A vítima que sofre pelo menos 1 ponto de dano do ataque também sofre 1D6 de Corrupção temporária.</p>",
+              				"masterDescription": "<p>A vítima que sofre pelo menos 1 ponto de dano do ataque também sofre 1D8 de Corrupção temporária.</p>"
+           				},
 						"Natural Weapon": {
-							"name": "Natural Weapon"
+							"name": "Arma Natural",
+              				"description": "<p>A criatura é dotada de armas naturais bem desenvolvidas, como garras afiadas, presas ou um ferrão na cauda. A habilidade Guerreiro Natural (veja página 119) pode ser usada para aprimorar ainda mais a Arma Natural da criatura.</p>",
+              				"noviceDescription": "<p> A criatura é equipada com algum tipo de arma natural que causa 3 pontos de dano ao invés dos 2 normais para ataques desarmados.</p>",
+              				"adeptDescription": "<p>A arma natural da criatura causa 4 pontos de dano.</p>", 
+              				"masterDescription": "<p>A arma natural da criatura causa 5 pontos de dano.</p> <p>A arma natural da criatura agora tem a qualidade Longa, permitindo que a criatura faça um Ataque Livre no início do combate contra inimigos com armas mais curtas.</p>"
 						},
 						"Long-Lived": {
-							"name": "Long-Lived"
+							"name": "Vida Longa",
+              				"description": "<p>Após alcançar a idade adulta, o processo de envelhecimento do personagem desacelera. O personagem pode viver até dois ou mesmo três séculos se sua vida não for abreviada por violência, veneno ou doença. O ciclo de vida alongado da criatura a torna inclinada a fazer coisas em um ritmo mais lento, mas isto é compensado pela atitude de que o que vale a pena deve ser bem-feito, que ao longo do tempo resulta em um grau considerável de especialização.</p> <p>Vida longa não tem efeito além do que implica em termos de interpretar o personagem.</p>"
 						},
 						"Thoroughly Corrupted": {
-							"name": "Thoroughly Corrupted"
+							"name": "Completamente Corrompido",
+              				"description": "<p>Essa criatura está completamente corrompida e não é afetada negativamente pela corrupção. Atribua essa característica a monstros relevantes, geralmente das categorias Mortos-Vivos ou Abominações.</p>"
 						},
 						"Claws": {
-							"name": "Claws"
+							"name": "Garras"
 						}
 					}
 				},
 				"Farmhand (Goblin)": {
-					"name": "Farmhand (Goblin)",
+					"name": "Trabalhador Rural (Goblin)",
+                    "tokenName": "Trabalhador Rural (Goblin)",
+                    "race": "Goblin",
+                    "shadow": "Verde-pálido como a grama seca do prado",
+                    "appearance": "<p>Em Alberetor, era comum que pessoas comuns se revoltassem contra impostos injustos e condições de vida miseráveis, e o mesmo vem se tornando cada vez mais verdadeiro em Ambria. Às vezes, a revolta é liderada por um oficial de justiça ou algum cavaleiro desiludido, mas, geralmente, os camponeses se levantam por conta própria.</p>",
+                    "tactics": "<p>O trabalhador rural (goblin) começa disparando uma salva de flechas e, em seguida, lança-se à batalha brandindo suas armas. Se o combate se torna difícil, eles frequentemente fogem ou se rendem.</p>",
+                    "manner": "Furioso, mas aterrorizado",
 					"items": {
 						"Chewable resin": {
-							"name": "Chewable resin"
+							"name": "Resina Mastigável"
 						},
 						"Pariah": {
-							"name": "Pariah"
+							"name": "Pária",
+            				  "description": "<p>O personagem pertence a uma raça que é malvista entre a maioria governante e é habitualmente discriminada. Indivíduos solitários na sociedade podem ser menos inclinados a ter preconceito, mas as interações sociais do personagem geralmente são dificultadas. Grupos perseguidos tendem a permanecer juntos contra o mundo e prestar ajuda e apoio entre si.</p> <p>Quando realizar um desafio social, o jogador deve rolar duas vezes e usar o pior resultado para decidir a consequência do Teste. Por outro lado, o personagem é recompensado com uma segunda chance para obter sucesso quando interagir com membros de sua própria raça, caso esse em que ele deve rolar os dados somente quando se esforça para realizar algo questionável ou que seja quase impossível de conseguir.</p> <p>Adicionalmente, o personagem começa com apenas cinco xelins em sua bolsa.</p>"
 						},
 						"Short-Lived": {
-							"name": "Short-Lived"
+							"name": "Vida Curta",
+              				"description": "<p>A vida do personagem é curta, mesmo sob condições de vida favoráveis. Todos os membros de sua raça tendem a alcançar a idade adulta em um punhado de anos, após o qual começam a perder seu vigor juvenil, de forma que poucos vivem até os quarenta anos. Por outro lado, eles são mais rápidos para aprender e se adaptar a novos ambientes, e frequentemente estão prontos para encarar o mundo aos cinco anos de vida.</p> <p>Vida curta não tem efeito além do que implica em termos de interpretar o personagem.</p>"
 						},
 						"Bow": {
-							"name": "Bow"
+							"name": "Arco",
+            				"description": "<p>Recarregar um arco conta como uma Ação Livre.</p>"
 						},
 						"Sword": {
-							"name": "Sword"
+							"name": "Espada",
+              				"description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p>A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão.</p>"
 						}
 					}
 				},
