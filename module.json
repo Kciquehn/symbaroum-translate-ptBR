@@ -18,19 +18,6 @@
   "esmodules": [
     "register.js"
   ],
-  "packs": [
-    {
-      "name": "compendium-symbaroum-ptbr",
-      "label": "Symbaroum PT-BR",
-      "path": "packs/compendium-symbaroum-ptbr",
-      "type": "Adventure",
-      "system": "symbaroum",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
   "relationships": {
     "requires": [
       {
