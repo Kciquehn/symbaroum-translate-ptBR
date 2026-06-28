@@ -1265,7 +1265,11 @@
               "name": "Spirit form"
             },
             "S2vMnw28EuopUSLN": {
-              "name": "Bloodlust"
+              "name": "Sede de Sangue",
+              "description": "<p>A criatura tem sede de sangue quente e, com seu olhar, pode colocar sua vítima em transe antes de banquetear-se com o líquido vital.</p>",
+              "noviceDescription": "<p>A criatura pode encantar [Resoluto←Resoluto] e morder sua vítima em uma única ação de combate. O sanguessuga  então bebe o sangue da vítima, causando 2 de Vitalidade (ignorando Armadura) por turno. É preciso um teste de [Resoluto←Resoluto] a cada turno para manter o transe. Causar dano à criatura sanguessuga também pode quebrar o transe, [Resoluto –Dano].</p>",
+              "adeptDescription": "<p>Como I, mas a criatura sanguessuga também cura a Vitalidade que extrai da vítima.</p>",
+              "masterDescription": "<p>Como II, mas dano e cura é 3 de Vitalidade por turno. Além disso, a própria vítima não pode quebrar o transe; alguém tem que atacar e causar dano a criatura sanguessuga para que o controle seja perdido, [Resoluto –Dano].</p>"
             },
             "2F8w2qfS6ueGNoTf": {
               "name": "Long-Lived"
