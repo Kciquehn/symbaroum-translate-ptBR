@@ -455,6 +455,9 @@
         "ztWd9x7YPbkdkcAf": {
           "name": "Baumelo",
           "tokenName": "Baumelo",
+          "race": "Humano (Ambriano)",
+          "shadow": "vermelho pálido com segmentos escamosos (Baumelo/Odako realizou o ritual Trocar Sombra, e usa a sombra levemente manchada de Terr como sua)",
+          "tactics": "O líder do culto é o único após o crânio do rei - tudo o mais é subordinado.",
           "items": {
             "MqgOR0dVXmACDwem": {
               "name": "Líder",
@@ -518,29 +521,40 @@
           }
         },
         "SYg6rACEc084k4ww": {
-          "name": "Baumelo’s Henchmen",
-          "tokenName": "Baumelo’s Henchmen",
+          "name": "Capangas de Baumelo",
+          "tokenName": "Capangas de Baumelo",
+          "race": "Humano, resistência Fraca",
+          "shadow": "Cinzento e manchado de negro, como fuligem",
+          "background": "<p>Os capangas de Baumelo/Odako amam o poder concedido pelo nome do caçador de bruxas, mas não são tão fanáticos quando a oposição se mostra real.</p>",
+          "tactics": "Os capangas atacam um personagem cada, exceto o personagem de aparência mais forte que recebe dois oponentes para lidar.",
           "items": {
             "ctE7FUuVlnBG839B": {
-              "name": "Axe"
+              "name": "Machado",
+              "description": "<p><strong>ARMAS DE UMA MÃO</strong> <br /><strong>Dano: </strong> 1D8 <br /><strong>Qualidades: </strong> Nenhuma. Um Bico de Corvo tem a qualidade Impacto Profundo, uma Espada de Duelo é Precisa e um Mangual é Articulado.</p>\n<hr />\n<p> A categoria de armas de Uma Mão engloba todos os tipos de armas que podem ser empunhadas em uma mão. Espada, machado, martelo de guerra e sabre são exemplos de armas de Uma Mão. </p>"
+
             },
             "bJoEBN4Ydz1i1K9k": {
-              "name": "Scalemail"
+              "name": "Brunea",
+              "description": "<p><strong>ARMADURA MÉDIA</strong> <br /><strong>Armadura: </strong> 1D6 <br /><strong>Qualidades: </strong> Obstrutiva(&minus;3). Algumas têm a qualidade Flexível, e a Armadura de Corvo tem a qualidade Desajeitada.</p>\n<hr />\n<p>Armaduras médias oferecem proteções melhores que as versões leves, mas ao custo de serem mais restritivas aos movimentos do usuário. Esta restrição é considerada aceitável pela maioria dos combatentes corpo a corpo. Brunea e cota de malha são exemplos de armaduras médias. </P>"
             },
             "HUpSxXilTMrAG0Ak": {
-              "name": "Black Root"
+              "name": "Raiz Negra de Mastigar",
+              "cost":"5 ortegas"
             },
             "WoVVkUhJP4CUf1KH": {
-              "name": "Bushcraft"
+              "name": "Mateiro",
+              "description": "<p>O personagem pode sobreviver com recursos escassos e está acostumado a encontrar comida e abrigo em terrenos árduos.</p> <p>Com um Teste bem-sucedido de Vigilante, o personagem pode encontrar comida e água o suficiente para se alimentar enquanto se move em locais selvagens ou pelas ruínas da Davokar.</p> <p>Caso o personagem seja parte de um pequeno grupo (de até cinco indivíduos), comida e água podem ser encontradas para eles também, mas isso levará muito mais tempo. O grupo não pode estar se movendo durante esse tempo.</p>"
             },
             "kLEQk0O6ElZQFROB": {
-              "name": "Shield"
+              "name": "Escudo",
+              "description": "<p><strong>ESCUDOS</strong> <br /><strong>Dano: </strong> Fornece +1 rm Defesa <br /><strong>Qualidades: </strong> Nenhuma. Broquéis são Flexíveis, Escudos de Aço são Equilibrados. </p>\n<hr />\n<p>Escudos tornam difícil atingir o portador com ataques corpo a corpo e à distância. Eles frequentemente são combinados com uma arma de uma mão, ou com uma arma de uma mão e um punhado de armas de arremesso adicionais.</p>"
             }
           }
         },
         "a6FhYnqlWlwzaZGN": {
           "name": "Gerek",
           "tokenName": "Gerek",
+
           "items": {
             "OxvBQO8Tay3Uy3J2": {
               "name": "Iron Fist"
@@ -569,8 +583,8 @@
           }
         },
         "AH6BvU65etvUHnKG": {
-          "name": "Gorak, blight-born",
-          "tokenName": "Gorak, blight-born",
+          "name": "Gorak, nascido da mácula",
+          "tokenName": "Gorak, nascido da mácula",
           "items": {
             "sbMghOHv1TjwJgbf": {
               "name": "Berserker"

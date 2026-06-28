@@ -992,8 +992,8 @@
 					}
 				},
 				"Farmhand (Goblin)": {
-					"name": "Trabalhador Rural (Goblin)",
-                    "tokenName": "Trabalhador Rural (Goblin)",
+					"name": "Lavrador (Goblin)",
+                    "tokenName": "Lavrador (Goblin)",
                     "race": "Goblin",
                     "shadow": "Verde-pálido como a grama seca do prado",
                     "appearance": "<p>Em Alberetor, era comum que pessoas comuns se revoltassem contra impostos injustos e condições de vida miseráveis, e o mesmo vem se tornando cada vez mais verdadeiro em Ambria. Às vezes, a revolta é liderada por um oficial de justiça ou algum cavaleiro desiludido, mas, geralmente, os camponeses se levantam por conta própria.</p>",
@@ -4622,42 +4622,76 @@
 					}
 				},
 				"Horse": {
-					"name": "Horse",
+					"name": "Cavalo",
+					"race": "Cavalo (Besta)",
+					"shadow": " Castanho claro com um tom de cobre",
+					"appearance": "<p>O cavalo é de longe a montaria mais comum tanto em Ambria quanto em Davokar, além de também ser usado para trabalhar nos campos e puxar carroças e carruagens.</p>",
+					"tactics": "Os cavalos se assustam facilmente, e muitas vezes fogem ao primeiro sinal de perigo, não importa o quanto o cavaleiro grite e ameace.",
 					"items": {
 						"Armored": {
-							"name": "Armored"
+							"name": "Armadurado",
+							"description": "<p>A criatura possui pele grossa, escamas ou alguma outra coisa que a torna especialmente difícil de ferir. Ela não pode usar qualquer armadura adicional sobre sua armadura natural, que, por outro lado, não é Obstrutiva como as armaduras comuns. Contudo, a habilidade Homem-de-Armas aumenta ainda mais a proteção da criatura, além do seu nível em Armadurado.</p>", 
+							"noviceDescription": "<p>A criatura tem uma proteção natural de 2.</p>",
+							"adeptDescription": "<p>A criatura tem uma proteção natural de 3.</p>",
+							"masterDescription": "<p>A criatura tem uma proteção natural de 4.</p>"          
 						},
 						"Leathery Hide": {
-							"name": "Leathery Hide"
+							"name": "Pele de Couro"
 						},
 						"Hoofs": {
-							"name": "Hoofs"
+							"name": "Cascos",
+							"description": "<p>Cascos 12/8 (longo, devastador), dois ataques contra o mesmo alvo</p>"
 						},
 						"Robust(M)": {
-							"name": "Robust(M)"
+							"name": "Robusto (M)",
+							"description": "<p>A criatura é maior e mais resistente que o normal, e só pode usar armaduras leves modificadas.</p>",
+							"noviceDescription": "<p>A criatura ignora 2 pontos de dano de cada acerto, além de qualquer Armadura que esteja usando.</p> <p>Uma vez por turno, a criatura causa +2 pontos de dano com um de seus ataques corpo a corpo.</p> <p>A Defesa da criatura é calculada na base de [Rápido−2].</p>",
+							"adeptDescription": "<p>A criatura ignora 3 pontos de dano de cada acerto, além de qualquer Armadura que esteja usando.</p> <p>Uma vez por turno, a criatura causa +3 pontos de dano com um de seus ataques corpo a corpo.</p> <p>A Defesa da criatura é calculada na base de [Rápido−3].</p>",
+							"masterDescription": "<p>A criatura ignora 4 pontos de dano de cada acerto, além de qualquer Armadura que esteja usando.</p> <p>Uma vez por turno, a criatura causa +4 pontos de dano com um de seus ataques corpo a corpo.</p> <p>A Defesa da criatura é calculada na base de [Rápido−4].</p>"
 						}
 					}
 				},
 				"Horse, battle-trained": {
-					"name": "Horse, battle-trained",
+					"name": "Cavalo de Batalha",
+					"race": "Cavalo (Besta)",
+					"shadow": "Cinza claro com um tom de aço branco prateado",
+					"appearance": "<p>O cavalo é de longe a montaria mais comum tanto em Ambria quanto em Davokar, além de também ser usado para trabalhar nos campos e puxar carroças e carruagens.</p>",
+					"tactics": "O cavalo de batalha obedece aos comandos do cavaleiro e se defende com coices poderosos, mesmo que o cavaleiro seja morto.",
 					"items": {
 						"Armored": {
-							"name": "Armored"
+							"name": "Armadurado",
+							"description": "<p>A criatura possui pele grossa, escamas ou alguma outra coisa que a torna especialmente difícil de ferir. Ela não pode usar qualquer armadura adicional sobre sua armadura natural, que, por outro lado, não é Obstrutiva como as armaduras comuns. Contudo, a habilidade Homem-de-Armas aumenta ainda mais a proteção da criatura, além do seu nível em Armadurado.</p>", 
+							"noviceDescription": "<p>A criatura tem uma proteção natural de 2.</p>",
+							"adeptDescription": "<p>A criatura tem uma proteção natural de 3.</p>",
+							"masterDescription": "<p>A criatura tem uma proteção natural de 4.</p>"          
 						},
 						"Hoofs": {
-							"name": "Hoofs"
+							"name": "Cascos",
+							"description": "<p>Cascos 12/8 (longo, devastador), dois ataques contra o mesmo alvo</p>"
 						},
 						"Leathery Hide": {
-							"name": "Leathery Hide"
+							"name": "Pele de Couro"
 						},
 						"Iron Fist": {
-							"name": "Iron Fist"
+							"name": "Punho de Ferro",
+							"description": "<p> O personagem é treinado para utilizar sua força com efeito máximo em um alvo em combate corpo a corpo. Cavaleiros, membros da Guarda da Ira bárbara e outros guerreiros fortemente armados confiam em sua força em combate e deixam a precisão e sutileza para outros se preocuparem.</p>",
+							"noviceDescription": "<p>O personagem pode utilizar totalmente sua força, portanto utiliza Vigoroso em vez de Preciso quando realiza um ataque corpo a corpo.</p>",
+							"adeptDescription": "<p>Os ataques corpo a corpo do personagem agora causam +1D4 de dano adicional.</p>",
+							"masterDescription": "<p>O personagem sabe como realmente colocar sua força em um ataque. O personagem pode executar um ataque corpo a corpo devastador uma vez por turno que causa +1D8 em vez de +1D4 de dano adicional.</p>"
 						},
 						"Steadfast": {
-							"name": "Steadfast"
+							"name": "Inabalável",
+							"description": "<p>Disciplinas mentais e estratagemas para resistir a influências impróprias têm sido desenvolvidas entre as fileiras dos Templários e dos Mantos Negros. Também há indivíduos entre os Místicos que estudam a arte da resistência.</p> <p>O personagem tem a mente dura como o aço, inspirando-o na luta mesmo em adversidades insuperáveis. Místicos raramente obtêm sucesso quando tentam ferir ou controlar os sentidos do personagem, e algumas vezes um personagem verdadeiramente inabalável consegue se defender mentalmente e até mesmo virar a mágica contra o místico hostil.</p>",
+							"noviceDescription": "<p>O personagem pode realizar uma segunda tentativa para obter sucesso em um Teste de Vigoroso ou Resoluto quando tentar quebrar um efeito físico contínuo: armadilhas ou elixires alquímicos. Isto inclui energias de poderes místicos, desde que sejam manifestadas fisicamente nas formas de fogo, ácido ou algo similar.</p>",
+							"adeptDescription": "<p>O personagem é imperturbável, e pode realizar uma segunda tentativa para livrar-se de poderes contínuos que afetam sua vontade ou seus sentidos.</p>",
+							"masterDescription": "<p>A psiquê do personagem contra-ataca qualquer um que tente afetá-la. Sempre que o personagem for vítima de um ataque mental (em outras palavras, ataques que são modificados por Resoluto) que falhar, o atacante sofre 1D6 de dano que ignora Armadura.</p>"
 						},
 						"Robust(M)": {
-							"name": "Robust(M)"
+							"name": "Robusto (M)",
+							"description": "<p>A criatura é maior e mais resistente que o normal, e só pode usar armaduras leves modificadas.</p>",
+							"noviceDescription": "<p>A criatura ignora 2 pontos de dano de cada acerto, além de qualquer Armadura que esteja usando.</p> <p>Uma vez por turno, a criatura causa +2 pontos de dano com um de seus ataques corpo a corpo.</p> <p>A Defesa da criatura é calculada na base de [Rápido−2].</p>",
+							"adeptDescription": "<p>A criatura ignora 3 pontos de dano de cada acerto, além de qualquer Armadura que esteja usando.</p> <p>Uma vez por turno, a criatura causa +3 pontos de dano com um de seus ataques corpo a corpo.</p> <p>A Defesa da criatura é calculada na base de [Rápido−3].</p>",
+							"masterDescription": "<p>A criatura ignora 4 pontos de dano de cada acerto, além de qualquer Armadura que esteja usando.</p> <p>Uma vez por turno, a criatura causa +4 pontos de dano com um de seus ataques corpo a corpo.</p> <p>A Defesa da criatura é calculada na base de [Rápido−4].</p>"
 						}
 					}
 				},
